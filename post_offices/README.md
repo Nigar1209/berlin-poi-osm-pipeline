@@ -58,14 +58,10 @@ This stage augments the location data with geographical context by adding unique
 * **Column Cleanup:** After the IDs are merged, the temporary name columns (`district`, `neighborhood`) are dropped.
 * **Final Result:** The enriched DataFrame is saved as `deutschepost_clean_with_distr.csv`.
 
-### Stage 3: Loading Data into Neon DB
+### Stage 3: Test loading data into the Neon DB
 **Script:** `post_offices/scripts/upload_to_database.ipynb`
 
-The final step loads the cleaned and enriched dataset into a PostgreSQL database hosted on Neon DB.
-* **Database Connection:** A connection is established using SQLAlchemy's `create_engine`.
-* **Table Creation:** A `CREATE TABLE` statement is executed to set up the destination table (`test_berlin_data.post_offices_test`) with the correct schema.
-* **Data Loading:** Data is loaded using PostgreSQL's high-performance `COPY` command. A `SET search_path` command is executed first to ensure the correct schema context for the transaction.
-* **Adding Foreign Keys:** After the data is loaded, `ALTER TABLE` statements are executed to add the `FOREIGN KEY` constraints, ensuring referential integrity.
+[Description here](layered-populate-data-pool-da/post_offices/scripts/README.md)
 
 ---
 ## Final Database Schema
