@@ -1,6 +1,6 @@
 ### Test loading data into the Neon DB
 
-**Script:** `post_offices/scripts/upload_to_database.ipynb`
+**Script:** `post_offices/scripts/upload_to_test_database.ipynb`
 
 The final step loads the cleaned and enriched dataset into a PostgreSQL database hosted on Neon DB.
 * **Database Connection:** A connection is established using SQLAlchemy's `create_engine`.
