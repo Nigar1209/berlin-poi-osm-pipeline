@@ -5,15 +5,15 @@ This data was last updated on March 02, 2025 and updated at least once yearly, a
 
 # Summary of this project.
 
-#1) Found and scrapped full universities in berlin data using beatiful soup Pythin Library (Initial Info- University name, Rank in Berlin-Brandenburg, Rank in Berlin)
+1) Found and scrapped full universities in berlin data using beatiful soup Pythin Library (Initial Info- University name, Rank in Berlin-Brandenburg, Rank in Berlin)
 
-#2) Added geodata(Longitude, Latitude, Postalcode(plz), Neighborhood (District info) using Google Maps API (required registration).
+2) Added geodata(Longitude, Latitude, Postalcode(plz), Neighborhood (District info) using Google Maps API (required registration).
 
-#3) Decide to add addiotional info to datasource.  Scrapped source web site again from scratch using beatiful soup adding new columns as Founded, Enrollment and Acceptance Rate)
+3) Decide to add addiotional info to datasource.  Scrapped source web site again from scratch using beatiful soup adding new columns as Founded, Enrollment and Acceptance Rate)
 
-#4) Merged newly scrapped file with previous file, which already contained geo data.
+4) Merged newly scrapped file with previous file, which already contained geo data.
 
-#5) Cleaned null values in postal code and replaced them with "unknown" and also removed column "acceptance rate" as it has only 80 % of Null Values  as 7 from 35.
+5) Cleaned null values in postal code and replaced them with "unknown" and also removed column "acceptance rate" as it has only 80 % of Null Values  as 7 from 35.
 
 # Documentation
 
