@@ -9,21 +9,22 @@
 
 ## B. Selected Columns (16 total)
 1. pharmacy_id 
-2. name  
-3. operartor  
+2. district_id
+3. name    
 4. street  
 5. housenumber  
-6. postcode  
-7. suburb 
-8. phone
-9. website
-10. openinghours
-11. dispensing
-12. wheelchair_acessible 
-13. latitude  
-14. longitude  
-15. district 
-16. district_id
+6. post_code  
+7. district
+8. neighborhood
+9. phone
+10. website
+11. openinghours
+12. offered_servies
+13. wheelchair_acessible 
+14. latitude  
+15. longitude  
+16. coordinates
+    
  
 ---
 
