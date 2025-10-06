@@ -89,6 +89,19 @@ This final stage of the pipeline connects to the development database, deploys t
 * **Applying NOT NULL Constraints:** As a final schema modification, a series of `ALTER TABLE ... SET NOT NULL` commands were executed to enforce that key columns could not contain null values.
 
 * **Final Schema Verification:** The script concluded by querying the `information_schema` to programmatically display and confirm the final table structure, including all column names, data types, and nullability constraints.
+
+---
+
+## Next Steps & Potential Automation
+
+The `closure_periods` column, which currently exists as a raw text field, offers opportunities for future automation to enhance the dataset's usability and provide real-time status updates.
+
+* **Automated Removal of Permanently Closed Locations:** A future script could be developed to parse the `closure_periods` string. This script would identify entries indicating a permanent closure (e.g., by looking for keywords in 'info'). By comparing the closure `from` date with the current date, the pipeline could automatically filter out and archive locations that are no longer in service.
+
+* **Dynamic Status for Temporary Closures:** The data in this column can be used by a frontend application to provide a better user experience. The application could parse the closure details and, if the current date falls within a `from` and `to` period (e.g., for a holiday or vacation), it could display a dynamic status like "Temporarily closed for holidays" rather than simply showing the location as closed. This would accurately inform users that the location is still active but temporarily unavailable.
+
+* **Scheduled ETL Pipeline for Regular Updates:** The entire data pipeline (Extract, Transform, Load) could be automated to run on a schedule (e.g., weekly or monthly). Since the source website is regularly updated with information on new branches, holiday schedules, and permanent closures, a scheduled script could automatically fetch the latest raw data, execute all the transformation notebooks, and update the database. This would ensure the data remains current over time, even though the exact update frequency of the source is not specified.
+
 ---
 
 ## Final Database Schema
