@@ -1,249 +1,132 @@
 # 🎭 Theaters & Cinemas in Berlin — Data Source Discovery
 
-## ⚡ Executive Summary (Day 1)
-- **Primary Source**: OpenStreetMap (OSM) data for theaters & cinemas in Berlin.  
-- **Supplementary Sources**: Nominatim (addresses), Wikidata (capacity, websites), Wheelmap (accessibility), Berlin Open Data (operators), external review links (Google/Yelp/Tripadvisor).  
-- **Baseline Coverage**: Core fields (name, location) nearly complete; metadata fields (opening hours, genre, email) largely missing.  
-- **Outcome**: Initial dataset exported (`berlin_theaters.csv`), enrichment pipeline planned with clear next steps.  
+## ⚡ Executive Summary
+- **Primary source**: OpenStreetMap (OSM) for `amenity=theatre|cinema` in Berlin.  
+- **Supplementary sources**: Wikidata (capacity, inception, official website), LOR Berlin (districts & neighborhoods), Nominatim (address backfill), optional Wheelmap (accessibility), optional review links (Google/Yelp/Tripadvisor).  
+- **Coverage reality**: Names/coordinates are strong; metadata like opening hours, genre, and emails are sparse in OSM.  
+- **Outcome**: Clear enrichment plan using Wikidata + LOR; optional extras for accessibility and discovery.
 
----
 
-## 📑 Table of Contents
-1. [Objective](#-objective)
-2. [Primary Source](#-primary-source)
-3. [Supplementary Sources](#-supplementary-sources)
-4. [Baseline Coverage](#-baseline-coverage)
-5. [Data Dictionary](#-data-dictionary)
-6. [Next Steps](#-next-steps)
-
----
 
 ## 🎯 Objective
-Identify and document open data sources for theaters and cinemas in Berlin, prepare an initial dataset schema, and outline enrichment opportunities for missing fields.
+Document authoritative, open sources to build a high-quality geospatial dataset of Berlin theatres and cinemas, and define how each source contributes to filling missing attributes.
 
 ---
-## 📂 Primary Source
 
-### OpenStreetMap (via OSMnx / Overpass)
-- **Origin**: [OpenStreetMap](https://www.openstreetmap.org)  
-- **Access**: [OSMnx](https://osmnx.readthedocs.io/) / [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)  
-- **Query Example**:
-    ```python
+## 📂 Primary Source (OSM)
+
+**OpenStreetMap (via OSMnx / Overpass)**  
+- **What**: Canonical list of venues with geometry and basic tags.  
+- **Access**: OSMnx / Overpass API  
+- **Example**:
+  ```python
   import osmnx as ox
-  ox.features_from_place("Berlin, Germany", {"amenity": ["theatre", "cinema"]})
-- **Update frequency**: Community-updated continuously (live data).
-- **Data type**: Dynamic API (JSON/GeoJSON, reproducible queries).
-- **Relevant fields**:
-  
-  * name
+  tags = {"amenity": ["theatre", "cinema"]}
+  gdf = ox.features_from_place("Berlin, Germany", tags)
+  ```
+- **Key tags**:
+  - Identity: `name`, `amenity`
+  - Address: `addr:street`, `addr:housenumber`, `addr:postcode`, `addr:city`
+  - Contact: `phone`, `contact:phone`, `website`, `contact:website`, `email`, `contact:email`
+  - Hours & details: `opening_hours`, `theatre:genre`, `theatre:type`, `cinema:type`
+  - Accessibility: `wheelchair`
+  - Links: `wikidata` (critical for enrichment)
+- **Update cadence**: Continuous, community-maintained  
+- **Format**: GeoJSON/JSON via API (reproducible queries)
 
-  * amenity (theatre, cinema)
-
-  * Address: addr:street, addr:housenumber, addr:postcode, addr:city
-
-  * Contact: phone, contact:phone, website, contact:website, email, contact:email
-
-  * opening_hours
-
-  * Theater/cinema details: theatre:genre, theatre:type, cinema:type
-
-  * Accessibility: wheelchair
-
-  * Geometry → centroid (lat, lon)
-
-  ---
+---
 
 ## 📂 Supplementary Sources
-### 2. Nominatim (Reverse Geocoding)
 
-- **Origin**: [Nominatim API](https://nominatim.openstreetmap.org/ui/search.html)
+### 1) Wikidata (SPARQL)
+- **Purpose**: Fill metadata that’s often missing in OSM.  
+- **Useful properties**:  
+  - `P1083` capacity, `P571` inception, `P856` official website, `P137` operator, `P625` coordinates  
+- **Join**: Prefer OSM `wikidata` tag → Wikidata `QID`; fallback to `name_key` + proximity.  
+- **Example**:
+  ```sparql
+  SELECT ?item ?itemLabel ?coordinate_location ?capacity ?inception ?official_site WHERE {
+    ?item wdt:P31/wdt:P279* wd:Q24354.     # theatre (incl. subclasses)
+    ?item wdt:P131 wd:Q64.                  # located in Berlin
+    OPTIONAL { ?item wdt:P1083 ?capacity. }
+    OPTIONAL { ?item wdt:P571  ?inception. }
+    OPTIONAL { ?item wdt:P856  ?official_site. }
+    OPTIONAL { ?item wdt:P625  ?coordinate_location. }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+  }
+  ```
 
-- **Update frequency**: Live API (subject to rate limits: 1 req/sec).
+### 2) LOR Berlin (Administrative Boundaries)
+- **Purpose**: Add `district` and `neighborhood` via spatial join.  
+- **What**: LOR full + Ortsteile polygons (EPSG:4326).  
+- **Join**: `within` predicate (point-in-polygon) after ensuring venue CRS=4326.
 
-- **Data type**: Dynamic reverse geocoding service.
+### 3) Nominatim (Reverse Geocoding) — *Optional, targeted*
+- **Purpose**: Patch missing address components for edge cases.  
+- **Notes**: Respect rate limits (≈1 req/sec); use only for gaps you cannot parse.
 
-- **Relevant fields**:
+### 4) Wheelmap API — *Optional*
+- **Purpose**: Enrich/validate wheelchair accessibility beyond OSM `wheelchair`.  
+- **Join**: By coordinates / bounding search.
 
-* address (enriched from lat/lon)
-
-- **New column(s)**:
-
-* address (completed for missing rows)
-
-  ---
-
-  ### 3. Wikidata
-
-- **Origin**: [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
- (linked via wikidata tag in OSM).
-
-- **Update frequency**: Dynamic, community-maintained.
-
-- **Data type**: Queryable via SPARQL endpoint
-.
-
-- **Relevant fields**:
-
-* Official website (P856)
-
-* Capacity (P1083)
-
-* Inception / opening date (P571)
-
-* Heritage status (P1435)
-
-- **New column(s)**:
-
-* official_website_wd
-
-* capacity_wd
-
-* inception_wd
-
-  ### 4. Wheelmap API
-
-- **Origin**: [Wheelmap.org API](https://wheelmap.org/api)
-
-- **Update frequency**: Near real-time, crowd-sourced.
-
-- **Data type**: REST API.
-
-- **Relevant fields**:
-
-* Wheelchair accessibility
-
--**New column(s)**:
-
-* wheelchair_wm (enriched accessibility status)
-## 5. Berlin Open Data (Cultural Venues)
-
-- **Origin**: [Daten Berlin Portal](https://daten.berlin.de/)
-
-- **Update frequency**: Static datasets, periodically refreshed.
-
-- **Data type**: CSV/JSON/XML datasets.
-
-- **Relevant fields**:
-
-* Venue registry (addresses, operators)
-
-* Possible ticketing information or categorization
-
--**New column(s)**:
-
-* operator
-
-* subsidy
-  ## 6. External Review & Info Links
-
-- **Origin**: Public search portals (Google, Yelp, Tripadvisor).
-
-- **Update frequency**: Dynamic (live).
-
-- **Data type**: Outbound links (no scraping or paid APIs).
-
-- **Relevant fields**:
-
-* Links to reviews, ratings, price ranges.
-
--**New column(s)**:
-
-* reviews_url_google
-
-* reviews_url_yelp
-
-* reviews_url_tripadvisor
-
-* Placeholders: price_range, rating, review_count
-
-  ---
-
-  # 📊 Current Observations (OSM Baseline Coverage)
-
-| Field             | Missing % |
-| ----------------- | --------- |
-| `cinema:type`     | 99.6%     |
-| `theatre:type`    | 92.1%     |
-| `opening_hours`   | 83.2%     |
-| `theatre:genre`   | 81.8%     |
-| `email`           | 71.8%     |
-| `phone`           | 42.5%     |
-| `wheelchair`      | 26.1%     |
-| `address`         | 22.1%     |
-| `website`         | 17.5%     |
-| `name`            | 1.4%      |
-| `amenity/lat/lon` | 0.0%      |
+### 5) External Review Links — *Optional, outbound only*
+- **Purpose**: Discovery links (no scraping): Google, Yelp, Tripadvisor search URLs.  
+- **Columns**: `reviews_url_google`, `reviews_url_yelp`, `reviews_url_tripadvisor`.
 
 ---
 
-# 📖 Data Dictionary (Proposed Final Schema)
-| Column          | Source(s)         | Description                               |
-| --------------- | ----------------- | ----------------------------------------- |
-| `name`          | OSM               | Venue name                                |
-| `amenity`       | OSM               | Type (`theatre`, `cinema`)                |
-| `address`       | OSM / Nominatim   | Street, housenumber, postcode, city       |
-| `phone`         | OSM / Berlin Data | Contact number                            |
-| `website`       | OSM / Wikidata    | Official website                          |
-| `email`         | OSM               | Contact email                             |
-| `opening_hours` | OSM / Yelp        | Hours of operation                        |
-| `theatre:genre` | OSM               | Type of performances (drama, opera, etc.) |
-| `theatre:type`  | OSM               | Stage type (open\_air, etc.)              |
-| `cinema:type`   | OSM               | Cinema type (multiplex, IMAX, 3D)         |
-| `wheelchair`    | OSM               | Accessibility info                        |
-| `wheelchair_wm` | Wheelmap API      | Enriched accessibility                    |
-| `capacity_wd`   | Wikidata          | Audience capacity                         |
-| `inception_wd`  | Wikidata          | Opening date                              |
-| `operator`      | Berlin Open Data  | Operating organization                    |
-| `subsidy`       | Berlin Open Data  | Funding/subsidy info                      |
-| `reviews_url_*` | External links    | Google/Yelp/Tripadvisor search URLs       |
-| `price_range`   | Placeholder       | Ticket pricing range (to be enriched)     |
-| `rating`        | Placeholder       | Average rating (to be enriched)           |
-| `review_count`  | Placeholder       | Number of reviews (to be enriched)        |
-| `lat` / `lon`   | OSM (geometry)    | Coordinates (centroid)                    |
-| `source`        | OSM + enrichment  | Data origin                               |
-| `last_updated`  | Script timestamp  | ISO datetime of last update               |
+## 📊 Baseline Coverage (Indicative)
+Typical sparsity in OSM for Berlin (your exact pull may vary):
+
+| Field             | Missing % (approx) |
+|-------------------|--------------------|
+| `cinema:type`     | ~99%               |
+| `theatre:type`    | ~92%               |
+| `opening_hours`   | ~83%               |
+| `theatre:genre`   | ~82%               |
+| `email`           | ~72%               |
+| `phone`           | ~43%               |
+| `wheelchair`      | ~26%               |
+| `address`         | ~22%               |
+| `website`         | ~18%               |
+| `name`            | ~1–2%              |
+| `amenity/geom`    | ~0%                |
 
 ---
 
-# ✅ Next Steps
+## 📖 Proposed Final Columns by Source
 
-*  Fill missing addresses via Nominatim reverse geocoding.
-
-*  Enrich metadata from Wikidata (capacity, inception, official website).
-
-*  Improve accessibility data using Wheelmap.
-
-*  Add review/search links (Google, Yelp, Tripadvisor) for discovery.
-
-*  Introduce enrichment columns:
-
-   official_website_wd, capacity_wd, inception_wd
-
-   wheelchair_wm
-
-   reviews_url_google, reviews_url_yelp, reviews_url_tripadvisor
-
-   price_range, rating, review_count
-
-*  Clean & deduplicate dataset: drop rows without names/coordinates, normalize phone numbers, remove duplicates.
-
-*  Prepare transformation notebook for integration into the layered DB schema.
+| Column                 | Source(s)           | Notes |
+|------------------------|---------------------|-------|
+| `name`, `place_type`   | OSM (`amenity`)     | `place_type ∈ {theatre, cinema}` |
+| `addr:street` / `addr:housenumber` / `addr:postcode` / `addr:city` | OSM / parsed / Nominatim | Keep raw vs. parsed for audit |
+| `phone`, `email`       | OSM / Berlin data   | Coalesce `contact:*` tags |
+| `website`              | OSM / Wikidata      | Prefer WD if OSM missing |
+| `opening_hours`        | OSM                 | Keep OSM string as-is |
+| `theatre:genre` / `theatre:type` / `cinema:type` | OSM | Often sparse |
+| `wheelchair`           | OSM / Wheelmap      | Wheelmap optional enrich |
+| `capacity_wd`          | Wikidata `P1083`    | Validate plausible range |
+| `inception_wd`         | Wikidata `P571`     | Year or full date |
+| `official_website_wd`  | Wikidata `P856`     | For coalescing with `website` |
+| `operator`             | OSM / Berlin Data   | If available |
+| `district` / `neighborhood` | LOR            | Spatial join |
+| `lon` / `lat`          | Geometry            | From WGS84 point |
+| `source`, `last_updated` | Pipeline          | Provenance + timestamp |
 
 ---
 
-📁 This file documents potential data sources and their integration paths for the theaters data layer in EPIC 2: Data Foundation & Frontend Context.
+## ✅ Next Steps
+- **Prepare join keys**: `wikidata_id`, normalized `name_key`, and numeric `lat_num` / `lon_num`.  
+- **Enrich** via Wikidata (capacity/inception/website), coalesce with OSM.  
+- **Add LOR context** via spatial join (`within`).  
+- **Address QA**: parse + backfill selective gaps with Nominatim (respect rate limits).  
+- **Accessibility (optional)**: add Wheelmap status.  
+- **Discovery (optional)**: generate outbound review/search URLs.  
+- **Document provenance**: set `source` flags (`osm`, `wd`, `osm+wd`) and `last_updated`.
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
+**Licensing:**  
+- OSM: ODbL (attribution required)  
+- Wikidata: CC0  
+- LOR Berlin: per dataset license on the Berlin Open Data portal
