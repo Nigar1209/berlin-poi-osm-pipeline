@@ -1,2151 +1,18 @@
 {
-  "type": "FeatureCollection",
-  "generator": "overpass-turbo",
-  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2025-10-24T11:17:21Z",
-  "features": [
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-10-28T10:10:30Z",
+    "timestamp_areas_base": "2025-10-28T06:44:55Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/23278633",
-        "amenity": "nightclub",
-        "building": "yes",
-        "name": "Roadrunners Rock & Motor Club",
-        "phone": "+49 30 78082991",
-        "website": "http://www.roadrunners-paradise.de",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4122937,
-              52.5298504
-            ],
-            [
-              13.412287,
-              52.5298462
-            ],
-            [
-              13.4122826,
-              52.5298428
-            ],
-            [
-              13.4122865,
-              52.5298405
-            ],
-            [
-              13.4122148,
-              52.5297691
-            ],
-            [
-              13.412081,
-              52.5296716
-            ],
-            [
-              13.4123974,
-              52.529548
-            ],
-            [
-              13.4125044,
-              52.5296512
-            ],
-            [
-              13.4124997,
-              52.5296897
-            ],
-            [
-              13.4125542,
-              52.5297398
-            ],
-            [
-              13.4125069,
-              52.5297601
-            ],
-            [
-              13.4125134,
-              52.5297672
-            ],
-            [
-              13.4124237,
-              52.5298006
-            ],
-            [
-              13.4122937,
-              52.5298504
-            ]
-          ]
-        ]
-      },
-      "id": "way/23278633"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/24248500",
-        "amenity": "nightclub",
-        "building": "residential",
-        "building:levels": "1",
-        "email": "info@werk9.de",
-        "name": "Werk9",
-        "opening_hours:signed": "no",
-        "phone": "+49 30 20165823",
-        "roof:shape": "flat",
-        "smoking": "no",
-        "toilets:wheelchair": "yes",
-        "website": "https://www.werk9.de/",
-        "wheelchair": "limited",
-        "wheelchair:description": "Haben für den Eingang eine Rampe, die muss bei Bedarf hingelegt werden. Eine behindertengerechte Toilette ist vorhanden."
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.3945099,
-              52.5092466
-            ],
-            [
-              13.3941738,
-              52.5092275
-            ],
-            [
-              13.3941583,
-              52.5092267
-            ],
-            [
-              13.3941835,
-              52.5090614
-            ],
-            [
-              13.3941955,
-              52.5089981
-            ],
-            [
-              13.3945517,
-              52.509018
-            ],
-            [
-              13.3945099,
-              52.5092466
-            ]
-          ]
-        ]
-      },
-      "id": "way/24248500"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/24283864",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "26",
-        "addr:postcode": "10247",
-        "addr:street": "Colbestraße",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "building": "commercial",
-        "building:levels": "1",
-        "name": "Pride Warehouse",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4631854,
-              52.5123664
-            ],
-            [
-              13.4631509,
-              52.512297
-            ],
-            [
-              13.4633849,
-              52.5122528
-            ],
-            [
-              13.4634199,
-              52.5123223
-            ],
-            [
-              13.4631854,
-              52.5123664
-            ]
-          ]
-        ]
-      },
-      "id": "way/24283864"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/36908987",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "19-21",
-        "addr:postcode": "10963",
-        "addr:street": "Obentrautstraße",
-        "amenity": "nightclub",
-        "building": "industrial",
-        "building:levels": "1",
-        "contact:facebook": "https://www.facebook.com/gretchen.club/",
-        "contact:instagram": "https://www.instagram.com/clubgretchen/",
-        "contact:phone": "+49 30 25922702",
-        "contact:twitter": "https://twitter.com/clubGRETCHEN/",
-        "contact:website": "https://www.gretchen-club.de/",
-        "email": "gretchen@gretchen-club.de",
-        "name": "Gretchen",
-        "opening_hours": "\"Je nach Veranstaltung\"",
-        "roof:colour": "#74817e",
-        "roof:levels": "0",
-        "roof:shape": "gabled",
-        "smoking": "isolated",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.3871979,
-              52.4960977
-            ],
-            [
-              13.3878081,
-              52.4958958
-            ],
-            [
-              13.3878872,
-              52.4959878
-            ],
-            [
-              13.3877381,
-              52.4960364
-            ],
-            [
-              13.387276,
-              52.4961866
-            ],
-            [
-              13.3871979,
-              52.4960977
-            ]
-          ]
-        ]
-      },
-      "id": "way/36908987"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/41474936",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "64",
-        "addr:postcode": "10439",
-        "addr:street": "Dunckerstraße",
-        "addr:suburb": "Prenzlauer Berg",
-        "alt_name": "Dunckerclub",
-        "amenity": "nightclub",
-        "building": "school",
-        "building:colour": "#b47876",
-        "building:levels": "1",
-        "building:material": "brick",
-        "check_date": "2025-01-26",
-        "check_date:opening_hours": "2025-01-26",
-        "contact:facebook": "https://www.facebook.com/dunckerclub",
-        "contact:instagram": "https://www.instagram.com/dunckerclub/",
-        "contact:phone": "+49 30 4459509",
-        "contact:website": "https://www.dunckerclub.de/",
-        "image": "https://www.dunckerclub.de/bilder/duncker_aussen.jpg",
-        "name": "Duncker",
-        "opening_hours": "Mo 22:00-04:00; Fr-Sa 22:00-05:00; Su 12:00-19:00",
-        "opening_hours:signed": "no",
-        "roof:colour": "#3b3d46",
-        "roof:levels": "1",
-        "roof:shape": "hipped",
-        "start_date": "1989",
-        "toilets:wheelchair": "no",
-        "wheelchair": "yes",
-        "year_of_construction": "1913..1914"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4235712,
-              52.5461956
-            ],
-            [
-              13.4237341,
-              52.5461111
-            ],
-            [
-              13.4238574,
-              52.5462124
-            ],
-            [
-              13.4236839,
-              52.546287
-            ],
-            [
-              13.4235712,
-              52.5461956
-            ]
-          ]
-        ]
-      },
-      "id": "way/41474936"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/42163697",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "3",
-        "addr:postcode": "10243",
-        "addr:street": "An der Schillingbrücke",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "building": "yes",
-        "contact:facebook": "https://www.facebook.com/YAAM.Berlin",
-        "contact:instagram": "https://www.instagram.com/yaam_berlin/",
-        "contact:mobile": "+49 176 10051189",
-        "contact:website": "https://www.yaam.de/",
-        "name": "yaam",
-        "opening_hours": "Mo-Su 11:00-24:00",
-        "operator": "KULT. Verein für Jugendkultur e.V.",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4301347,
-              52.5092757
-            ],
-            [
-              13.4306639,
-              52.50904
-            ],
-            [
-              13.4308627,
-              52.5089514
-            ],
-            [
-              13.4308817,
-              52.5089672
-            ],
-            [
-              13.4310628,
-              52.5088866
-            ],
-            [
-              13.4312021,
-              52.5090024
-            ],
-            [
-              13.431021,
-              52.5090831
-            ],
-            [
-              13.431055,
-              52.5091114
-            ],
-            [
-              13.4310978,
-              52.5091471
-            ],
-            [
-              13.4310142,
-              52.5091857
-            ],
-            [
-              13.4310787,
-              52.5092388
-            ],
-            [
-              13.4305544,
-              52.5094758
-            ],
-            [
-              13.4304938,
-              52.5094669
-            ],
-            [
-              13.4304578,
-              52.5094381
-            ],
-            [
-              13.4303758,
-              52.5094761
-            ],
-            [
-              13.4303582,
-              52.5094614
-            ],
-            [
-              13.4302378,
-              52.5093614
-            ],
-            [
-              13.4301347,
-              52.5092757
-            ]
-          ]
-        ]
-      },
-      "id": "way/42163697"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/45001954",
-        "addr:housenumber": "99",
-        "addr:postcode": "10245",
-        "addr:street": "Revaler Straße",
-        "amenity": "nightclub",
-        "building": "commercial",
-        "building:levels": "1",
-        "contact:instagram": "lokschuppenberlin",
-        "email": "contact@lokschuppen-berlin.com",
-        "name": "Lokschuppen",
-        "previously": "Suicide Circus",
-        "smoking": "yes",
-        "website": "https://www.lokschuppen-berlin.com/",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4511066,
-              52.5072312
-            ],
-            [
-              13.4509571,
-              52.5072593
-            ],
-            [
-              13.4508967,
-              52.5071398
-            ],
-            [
-              13.4511207,
-              52.5070977
-            ],
-            [
-              13.4511225,
-              52.5071012
-            ],
-            [
-              13.4511999,
-              52.5070866
-            ],
-            [
-              13.4512572,
-              52.5071999
-            ],
-            [
-              13.4511737,
-              52.5072151
-            ],
-            [
-              13.4511919,
-              52.5072511
-            ],
-            [
-              13.4511231,
-              52.507264
-            ],
-            [
-              13.4511066,
-              52.5072312
-            ]
-          ]
-        ]
-      },
-      "id": "way/45001954"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/45001955",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "99",
-        "addr:postcode": "10245",
-        "addr:street": "Revaler Straße",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "building": "commercial",
-        "building:levels": "1",
-        "contact:email": "info@astra-berlin.de",
-        "contact:facebook": "http://www.facebook.com/astraberlin",
-        "contact:fax": "+49 30 69566842",
-        "contact:instagram": "astraberlin",
-        "contact:phone": "+49 30 20056767",
-        "contact:website": "https://www.astra-berlin.de/",
-        "drink:club-mate": "yes",
-        "leisure": "music_venue",
-        "live_music": "yes",
-        "name": "Astra Kulturhaus",
-        "opening_hours": "\"irregular events\"",
-        "operator": "Kreuzberg Musik Produktion GmbH",
-        "operator:type": "business",
-        "owner": "Kreuzberg Musik Produktion GmbH",
-        "smoking": "isolated",
-        "toilets:wheelchair": "yes",
-        "wheelchair": "yes",
-        "wheelchair:description": "Tribüne rollstuhlgerecht bei Konzerten",
-        "wikidata": "Q105762275",
-        "wikimedia_commons": "Category:Astra Kulturhaus"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4518764,
-              52.5077399
-            ],
-            [
-              13.4517863,
-              52.5075511
-            ],
-            [
-              13.4517843,
-              52.507547
-            ],
-            [
-              13.4516,
-              52.5071608
-            ],
-            [
-              13.4515353,
-              52.5071723
-            ],
-            [
-              13.4514618,
-              52.5070182
-            ],
-            [
-              13.4516018,
-              52.5069934
-            ],
-            [
-              13.4515972,
-              52.5069836
-            ],
-            [
-              13.4518172,
-              52.5069446
-            ],
-            [
-              13.4518203,
-              52.5069512
-            ],
-            [
-              13.4520143,
-              52.5069168
-            ],
-            [
-              13.4520645,
-              52.5070221
-            ],
-            [
-              13.4518695,
-              52.5070568
-            ],
-            [
-              13.4519763,
-              52.5072806
-            ],
-            [
-              13.4520302,
-              52.507271
-            ],
-            [
-              13.4521322,
-              52.5074847
-            ],
-            [
-              13.4521233,
-              52.5074863
-            ],
-            [
-              13.452157,
-              52.507557
-            ],
-            [
-              13.4521704,
-              52.5075851
-            ],
-            [
-              13.4520357,
-              52.507609
-            ],
-            [
-              13.4520229,
-              52.5075822
-            ],
-            [
-              13.4519145,
-              52.5076014
-            ],
-            [
-              13.4519725,
-              52.5077228
-            ],
-            [
-              13.4519006,
-              52.5077356
-            ],
-            [
-              13.4518764,
-              52.5077399
-            ]
-          ]
-        ]
-      },
-      "id": "way/45001955"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/72984386",
-        "amenity": "nightclub",
-        "building": "viaduct",
-        "check_date:opening_hours": "2025-10-08",
-        "layer": "2",
-        "name": "Golden Gate",
-        "opening_hours:signed": "no",
-        "roof:colour": "#414141",
-        "roof:shape": "flat",
-        "smoking": "yes",
-        "toilets:wheelchair": "no",
-        "website": "https://www.goldengate-berlin.de/",
-        "wheelchair": "limited",
-        "wikidata": "Q21036515"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4167219,
-              52.5160562
-            ],
-            [
-              13.4168259,
-              52.515866
-            ],
-            [
-              13.4168744,
-              52.5158635
-            ],
-            [
-              13.4169456,
-              52.5158601
-            ],
-            [
-              13.4170133,
-              52.5158564
-            ],
-            [
-              13.4170725,
-              52.5158539
-            ],
-            [
-              13.4171337,
-              52.515851
-            ],
-            [
-              13.4169735,
-              52.5161108
-            ],
-            [
-              13.4169306,
-              52.5161015
-            ],
-            [
-              13.4168797,
-              52.5160904
-            ],
-            [
-              13.4168222,
-              52.516078
-            ],
-            [
-              13.4167702,
-              52.5160666
-            ],
-            [
-              13.4167421,
-              52.5160617
-            ],
-            [
-              13.4167219,
-              52.5160562
-            ]
-          ]
-        ]
-      },
-      "id": "way/72984386"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/108243893",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "23",
-        "addr:postcode": "13086",
-        "addr:street": "Langhansstraße",
-        "addr:suburb": "Weißensee",
-        "amenity": "nightclub",
-        "building": "commercial",
-        "name": "OC23",
-        "opening_hours": "Mo-Th 13:00-20:00; Su 12:00-18:00",
-        "phone": "+49 30 92092120",
-        "source": "Geoportal Berlin / Hauskoordinaten",
-        "website": "https://kinderring-berlin.de/oc23/"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4453208,
-              52.5507673
-            ],
-            [
-              13.4450795,
-              52.5508437
-            ],
-            [
-              13.4450516,
-              52.55081
-            ],
-            [
-              13.4450266,
-              52.5508188
-            ],
-            [
-              13.4448804,
-              52.55064
-            ],
-            [
-              13.4447935,
-              52.550528
-            ],
-            [
-              13.4449354,
-              52.5504833
-            ],
-            [
-              13.4449815,
-              52.5505366
-            ],
-            [
-              13.4450201,
-              52.5505248
-            ],
-            [
-              13.4452051,
-              52.5507575
-            ],
-            [
-              13.445291,
-              52.5507314
-            ],
-            [
-              13.4453208,
-              52.5507673
-            ]
-          ]
-        ]
-      },
-      "id": "way/108243893"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/118327391",
-        "amenity": "nightclub",
-        "building": "boat",
-        "building:levels": "2",
-        "layer": "1",
-        "name": "MS Hoppetosse",
-        "seamark:hulk:category": "casino_boat",
-        "seamark:type": "hulk",
-        "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4548587,
-              52.4975343
-            ],
-            [
-              13.4545458,
-              52.4976005
-            ],
-            [
-              13.4545128,
-              52.4976055
-            ],
-            [
-              13.45449,
-              52.4976071
-            ],
-            [
-              13.4544657,
-              52.4976064
-            ],
-            [
-              13.4544449,
-              52.4976023
-            ],
-            [
-              13.4544237,
-              52.4975937
-            ],
-            [
-              13.4544138,
-              52.4975876
-            ],
-            [
-              13.4544146,
-              52.4975796
-            ],
-            [
-              13.4544232,
-              52.4975674
-            ],
-            [
-              13.454439,
-              52.4975562
-            ],
-            [
-              13.4544587,
-              52.4975481
-            ],
-            [
-              13.4544827,
-              52.4975406
-            ],
-            [
-              13.4545119,
-              52.497532
-            ],
-            [
-              13.4548097,
-              52.4974658
-            ],
-            [
-              13.4549559,
-              52.4974456
-            ],
-            [
-              13.4550484,
-              52.4974476
-            ],
-            [
-              13.4549784,
-              52.4974914
-            ],
-            [
-              13.4548587,
-              52.4975343
-            ]
-          ]
-        ]
-      },
-      "id": "way/118327391"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/119172796",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "23",
-        "addr:postcode": "13347",
-        "addr:street": "Gerichtstraße",
-        "addr:suburb": "Gesundbrunnen",
-        "amenity": "nightclub",
-        "name": "Panke",
-        "toilets:wheelchair": "no",
-        "website": "https://www.pankeculture.com/"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.3740694,
-              52.5450648
-            ],
-            [
-              13.374092,
-              52.5450446
-            ],
-            [
-              13.3741226,
-              52.5450173
-            ],
-            [
-              13.3740283,
-              52.5449763
-            ],
-            [
-              13.374161,
-              52.544865
-            ],
-            [
-              13.3743406,
-              52.5449418
-            ],
-            [
-              13.3743632,
-              52.5449398
-            ],
-            [
-              13.3743795,
-              52.5449384
-            ],
-            [
-              13.3743858,
-              52.5449378
-            ],
-            [
-              13.3744117,
-              52.5450364
-            ],
-            [
-              13.3743892,
-              52.5450386
-            ],
-            [
-              13.3743666,
-              52.5450408
-            ],
-            [
-              13.3742569,
-              52.545139
-            ],
-            [
-              13.3740694,
-              52.5450648
-            ]
-          ]
-        ]
-      },
-      "id": "way/119172796"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/123019464",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "99",
-        "addr:postcode": "10245",
-        "addr:street": "Revaler Straße",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "building": "yes",
-        "contact:email": "info@badehaus-berlin.com",
-        "contact:facebook": "https://www.facebook.com/Badehaus.Berlin",
-        "contact:instagram": "https://www.instagram.com/badehaus_berlin/",
-        "contact:phone": "+49 30 25933042",
-        "contact:website": "http://www.badehaus-berlin.com/",
-        "name": "Badehaus",
-        "operator": "Badehaus Musik GmbH",
-        "toilets:wheelchair": "yes",
-        "wheelchair": "limited",
-        "wheelchair:description": "enge Toilette"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4551114,
-              52.5077003
-            ],
-            [
-              13.4550251,
-              52.5075215
-            ],
-            [
-              13.4550752,
-              52.5075113
-            ],
-            [
-              13.4550612,
-              52.5074807
-            ],
-            [
-              13.4551863,
-              52.5074576
-            ],
-            [
-              13.4552755,
-              52.507642
-            ],
-            [
-              13.455193,
-              52.507657
-            ],
-            [
-              13.4552039,
-              52.507683
-            ],
-            [
-              13.4551114,
-              52.5077003
-            ]
-          ]
-        ]
-      },
-      "id": "way/123019464"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/123750257",
-        "amenity": "nightclub",
-        "building": "residential",
-        "building:levels": "3",
-        "name": "Prägewerk",
-        "smoking": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4089833,
-              52.5153035
-            ],
-            [
-              13.4086999,
-              52.5153544
-            ],
-            [
-              13.4084273,
-              52.5154098
-            ],
-            [
-              13.4083712,
-              52.5153032
-            ],
-            [
-              13.4086439,
-              52.5152462
-            ],
-            [
-              13.4089268,
-              52.5151962
-            ],
-            [
-              13.4089833,
-              52.5153035
-            ]
-          ]
-        ]
-      },
-      "id": "way/123750257"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/136852555",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housename": "Bogen 47",
-        "addr:housenumber": "15—18",
-        "addr:place": "Stadtbahnbogen",
-        "addr:postcode": "10179",
-        "addr:street": "Holzmarktstraße",
-        "addr:suburb": "Mitte",
-        "amenity": "nightclub",
-        "building:levels": "1",
-        "building:part": "yes",
-        "contact:facebook": "lark.berlin",
-        "contact:instagram": "lark.berlin",
-        "email": "club@larkberlin.com",
-        "layer": "1",
-        "name": "LARK",
-        "toilets:wheelchair": "no",
-        "website": "https://larkberlin.com/",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4227891,
-              52.5129229
-            ],
-            [
-              13.422939,
-              52.5130452
-            ],
-            [
-              13.4227642,
-              52.5131245
-            ],
-            [
-              13.4226143,
-              52.5130021
-            ],
-            [
-              13.4227891,
-              52.5129229
-            ]
-          ]
-        ]
-      },
-      "id": "way/136852555"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/136852556",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housename": "Bogen 49",
-        "addr:housenumber": "49",
-        "addr:place": "Stadtbahnbogen",
-        "addr:postcode": "10179",
-        "addr:suburb": "Mitte",
-        "amenity": "nightclub",
-        "building:levels": "1",
-        "building:part": "yes",
-        "layer": "1",
-        "name": "Hangar 49",
-        "website": "https://hangar49.de/",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4223744,
-              52.513093
-            ],
-            [
-              13.4225174,
-              52.5132228
-            ],
-            [
-              13.4223415,
-              52.5132945
-            ],
-            [
-              13.4221986,
-              52.5131647
-            ],
-            [
-              13.4223744,
-              52.513093
-            ]
-          ]
-        ]
-      },
-      "id": "way/136852556"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/148829988",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "15",
-        "addr:postcode": "10317",
-        "addr:street": "Hauptstraße",
-        "addr:suburb": "Rummelsburg",
-        "amenity": "nightclub",
-        "contact:facebook": "https://www.facebook.com/sisyface",
-        "contact:instagram": "https://www.instagram.com/sisyphosberlin",
-        "contact:ra": "https://ra.co/clubs/17118",
-        "contact:website": "http://www.sisyphos-berlin.net",
-        "culture": "open_air",
-        "name": "Sisyphos",
-        "name:etymology:wikidata": "Q102561",
-        "name:etymology:wikipedia": "de:Sisyphos",
-        "open_air": "yes",
-        "opening_hours": "Mar-Dec: Sa,Su,PH 00:00-24:00",
-        "operator": "Sisyphos Event GmbH",
-        "smoking": "yes",
-        "start_date": "2009",
-        "toilets:wheelchair": "yes",
-        "wheelchair": "yes",
-        "wikidata": "Q21036516",
-        "wikipedia": "de:Sisyphos (Berlin)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4914026,
-              52.4927637
-            ],
-            [
-              13.4918394,
-              52.4929284
-            ],
-            [
-              13.4927505,
-              52.4932842
-            ],
-            [
-              13.4927736,
-              52.4932937
-            ],
-            [
-              13.4929245,
-              52.4933579
-            ],
-            [
-              13.492086,
-              52.4937419
-            ],
-            [
-              13.4916615,
-              52.4939181
-            ],
-            [
-              13.4916493,
-              52.4939081
-            ],
-            [
-              13.4915935,
-              52.4938609
-            ],
-            [
-              13.491684,
-              52.4938194
-            ],
-            [
-              13.4917144,
-              52.493699
-            ],
-            [
-              13.4916897,
-              52.4936147
-            ],
-            [
-              13.4908218,
-              52.4932765
-            ],
-            [
-              13.4914026,
-              52.4927637
-            ]
-          ]
-        ]
-      },
-      "id": "way/148829988"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/167777311",
-        "amenity": "nightclub",
-        "building": "yes",
-        "leisure": "cultural_institution",
-        "name": "Jugendschiff \"ReMiLi\"",
-        "opening_hours": "Mo-Fr 14:00-20:00",
-        "website": "https://remili.de/",
-        "wheelchair": "no",
-        "wikidata": "Q112861701",
-        "wikimedia_commons": "Category:Remili (ship, 1906)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.5170582,
-              52.4580843
-            ],
-            [
-              13.5170436,
-              52.4580148
-            ],
-            [
-              13.5173564,
-              52.4579838
-            ],
-            [
-              13.5178736,
-              52.4579325
-            ],
-            [
-              13.5179322,
-              52.4579415
-            ],
-            [
-              13.5179688,
-              52.4579589
-            ],
-            [
-              13.5179444,
-              52.4579849
-            ],
-            [
-              13.5178884,
-              52.4580044
-            ],
-            [
-              13.5170582,
-              52.4580843
-            ]
-          ]
-        ]
-      },
-      "id": "way/167777311"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/172900722",
-        "amenity": "nightclub",
-        "building": "yes",
-        "name": "Fiese Remise"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4322671,
-              52.5057848
-            ],
-            [
-              13.4324376,
-              52.5059216
-            ],
-            [
-              13.4323497,
-              52.5059622
-            ],
-            [
-              13.4321791,
-              52.5058254
-            ],
-            [
-              13.4322671,
-              52.5057848
-            ]
-          ]
-        ]
-      },
-      "id": "way/172900722"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/277805717",
-        "addr:city": "Berlin",
-        "addr:floor": "0",
-        "addr:housenumber": "2",
-        "addr:postcode": "12435",
-        "addr:street": "Am Flutgraben",
-        "amenity": "nightclub",
-        "bar": "yes",
-        "check_date": "2024-08-28",
-        "contact:facebook": "https://www.facebook.com/FestsaalKreuzberg/",
-        "contact:instagram": "https://www.instagram.com/festsaalkreuzberg/",
-        "level": "0",
-        "name": "Festsaal Kreuzberg",
-        "operator": "Neue Flutgraben Betriebsgesellschaft mbH & Co KG",
-        "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "payment:mastercard": "yes",
-        "payment:visa": "yes",
-        "phone": "+49 30 403655630",
-        "ref:vatin": "DE310804941",
-        "smoking": "outside",
-        "source": "survey",
-        "toilets": "yes",
-        "website": "https://www.festsaal-kreuzberg.de/",
-        "wheelchair": "yes",
-        "wheelchair:description": "Durchs Tor kann man ebenerdig, kein Rolli-WC",
-        "wikidata": "Q115794233",
-        "wikimedia_commons": "File:20230916 xl 1534-Festsaal Kreuzberg 2.jpg"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4520853,
-              52.4965382
-            ],
-            [
-              13.4523213,
-              52.4968324
-            ],
-            [
-              13.4515065,
-              52.4970638
-            ],
-            [
-              13.4514394,
-              52.4970789
-            ],
-            [
-              13.4514188,
-              52.4970843
-            ],
-            [
-              13.4513773,
-              52.4970953
-            ],
-            [
-              13.4513017,
-              52.4971122
-            ],
-            [
-              13.4512122,
-              52.4971013
-            ],
-            [
-              13.4510367,
-              52.4970079
-            ],
-            [
-              13.4508769,
-              52.4969091
-            ],
-            [
-              13.4508276,
-              52.4968721
-            ],
-            [
-              13.4507947,
-              52.4968454
-            ],
-            [
-              13.4507944,
-              52.4968303
-            ],
-            [
-              13.4508001,
-              52.496816
-            ],
-            [
-              13.4508122,
-              52.4968013
-            ],
-            [
-              13.4508335,
-              52.4967907
-            ],
-            [
-              13.4511953,
-              52.4967003
-            ],
-            [
-              13.451217,
-              52.4967333
-            ],
-            [
-              13.4512405,
-              52.4967675
-            ],
-            [
-              13.4512577,
-              52.4967637
-            ],
-            [
-              13.4512779,
-              52.4967583
-            ],
-            [
-              13.4520853,
-              52.4965382
-            ]
-          ]
-        ]
-      },
-      "id": "way/277805717"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/286165789",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:postcode": "10243",
-        "addr:street": "Am Wriezener Bahnhof",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "building": "yes",
-        "check_date": "2023-11-03",
-        "contact:facebook": "https://www.facebook.com/KantineamBerghain/",
-        "email": "support@berghain.de",
-        "name": "Berghain Kantine",
-        "nohousenumber": "yes",
-        "operator": "Berghain OstGut GmbH",
-        "website": "https://www.berghain.berlin/de/program/kantine-am-berghain/",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4426035,
-              52.5115321
-            ],
-            [
-              13.44244,
-              52.5116308
-            ],
-            [
-              13.4422882,
-              52.5115377
-            ],
-            [
-              13.4423951,
-              52.5114732
-            ],
-            [
-              13.4424148,
-              52.5114853
-            ],
-            [
-              13.4425228,
-              52.5114201
-            ],
-            [
-              13.4426314,
-              52.5114867
-            ],
-            [
-              13.44258,
-              52.5115177
-            ],
-            [
-              13.4426035,
-              52.5115321
-            ]
-          ]
-        ]
-      },
-      "id": "way/286165789"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/291111616",
-        "addr:housenumber": "3",
-        "addr:postcode": "10997",
-        "addr:street": "Schleusenufer",
-        "amenity": "nightclub",
-        "name": "ÆDEN",
-        "opening_hours": "Tu 22:00-08:00; Th 22:00-08:00; Fr 22:00-10:00; Sa 18:00-10:00",
-        "website": "http://aedenberlin.com",
-        "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4494746,
-              52.4970744
-            ],
-            [
-              13.449871,
-              52.4973648
-            ],
-            [
-              13.4498327,
-              52.4973853
-            ],
-            [
-              13.4495369,
-              52.4975372
-            ],
-            [
-              13.4491609,
-              52.4972611
-            ],
-            [
-              13.4492832,
-              52.4971896
-            ],
-            [
-              13.4492715,
-              52.4971823
-            ],
-            [
-              13.4493595,
-              52.4971309
-            ],
-            [
-              13.4493711,
-              52.4971382
-            ],
-            [
-              13.4494277,
-              52.4971052
-            ],
-            [
-              13.4494746,
-              52.4970744
-            ]
-          ]
-        ]
-      },
-      "id": "way/291111616"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/293386107",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "25",
-        "addr:postcode": "10243",
-        "addr:street": "Holzmarktstraße",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "building": "yes",
-        "contact:email": "info@katerblau.de;hello@katerblau.de",
-        "contact:facebook": "https://www.facebook.com/katerblau/events",
-        "contact:instagram": "https://www.instagram.com/katerblaugram",
-        "contact:phone": "+49 30 47361686",
-        "contact:ra": "https://ra.co/clubs/99161",
-        "contact:website": "http://www.katerblau.de",
-        "name": "Kater Blau",
-        "operator": "Katerclub GmbH",
-        "smoking": "separated",
-        "start_date": "2014",
-        "toilets:wheelchair": "yes",
-        "wheelchair": "yes",
-        "wikidata": "Q2658747",
-        "wikipedia": "de:Kater Blau"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4252054,
-              52.5120276
-            ],
-            [
-              13.4251395,
-              52.511943
-            ],
-            [
-              13.4252818,
-              52.5118627
-            ],
-            [
-              13.4253595,
-              52.5118206
-            ],
-            [
-              13.4255155,
-              52.5118618
-            ],
-            [
-              13.4255266,
-              52.5119873
-            ],
-            [
-              13.4253373,
-              52.5120105
-            ],
-            [
-              13.4252054,
-              52.5120276
-            ]
-          ]
-        ]
-      },
-      "id": "way/293386107"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/342600129",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "99",
-        "addr:postcode": "10245",
-        "addr:street": "Revaler Straße",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "club": "culture",
-        "contact:email": "info@maaya.de",
-        "contact:instagram": "https://www.instagram.com/maaya_berlin/",
-        "contact:phone": "+49 30 297766770",
-        "leisure": "music_venue",
-        "name": "Maaya",
-        "opening_hours": "Tu-Th,Su 12:00-22:00; Fr,Sa 12:00-23:00; ",
-        "operator": "Maaya Event GmbH",
-        "website": "https://maaya.de/"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4528316,
-              52.5077175
-            ],
-            [
-              13.4528061,
-              52.5076655
-            ],
-            [
-              13.4526345,
-              52.5076971
-            ],
-            [
-              13.4525491,
-              52.5076522
-            ],
-            [
-              13.452507,
-              52.5075641
-            ],
-            [
-              13.4522219,
-              52.5069652
-            ],
-            [
-              13.4521544,
-              52.506838
-            ],
-            [
-              13.4528247,
-              52.5067194
-            ],
-            [
-              13.4528446,
-              52.5067652
-            ],
-            [
-              13.4528847,
-              52.5068467
-            ],
-            [
-              13.4529094,
-              52.5068938
-            ],
-            [
-              13.4531242,
-              52.5068577
-            ],
-            [
-              13.4532481,
-              52.5071105
-            ],
-            [
-              13.4530307,
-              52.5071505
-            ],
-            [
-              13.453175,
-              52.5074436
-            ],
-            [
-              13.4532435,
-              52.5075868
-            ],
-            [
-              13.4530135,
-              52.5076293
-            ],
-            [
-              13.4530404,
-              52.507679
-            ],
-            [
-              13.4528316,
-              52.5077175
-            ]
-          ]
-        ]
-      },
-      "id": "way/342600129"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/355476495",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "1-4",
-        "addr:postcode": "10365",
-        "addr:street": "Wiesenweg",
-        "addr:suburb": "Lichtenberg",
-        "amenity": "nightclub",
-        "contact:website": "https://oxi-garten.de/",
-        "name": "OXI Garten",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4753,
-              52.507698
-            ],
-            [
-              13.4750333,
-              52.5077523
-            ],
-            [
-              13.4749151,
-              52.507775
-            ],
-            [
-              13.4747884,
-              52.5078007
-            ],
-            [
-              13.4747491,
-              52.5078088
-            ],
-            [
-              13.474568,
-              52.507494
-            ],
-            [
-              13.4747176,
-              52.5074619
-            ],
-            [
-              13.4751132,
-              52.5073752
-            ],
-            [
-              13.4752021,
-              52.5075262
-            ],
-            [
-              13.4753,
-              52.507698
-            ]
-          ]
-        ]
-      },
-      "id": "way/355476495"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/379305718",
-        "addr:city": "Berlin",
-        "addr:housenumber": "5",
-        "addr:postcode": "10777",
-        "addr:street": "Nollendorfplatz",
-        "amenity": "nightclub",
-        "brewery": "Krombacher;Starnberger",
-        "building": "yes",
-        "building:levels": "5",
-        "email": "info@metropol-berlin.de",
-        "name": "Metropol",
-        "official_name": "Metropol Berlin",
-        "opening_hours": "\"zu Veranstaltungen\"",
-        "phone": "+49 30 403678560",
-        "smoking": "separated",
-        "source_ref:url": "https://metropol-berlin.de/contact",
-        "toilets:wheelchair": "yes",
-        "website": "https://metropol-berlin.de",
-        "wheelchair": "yes",
-        "wikidata": "Q1724204",
-        "wikipedia": "de:Metropol (Berlin)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.3526283,
-              52.499074
-            ],
-            [
-              13.3526279,
-              52.4990796
-            ],
-            [
-              13.3526032,
-              52.4990801
-            ],
-            [
-              13.3525795,
-              52.4990806
-            ],
-            [
-              13.3525784,
-              52.4990709
-            ],
-            [
-              13.3525213,
-              52.4990719
-            ],
-            [
-              13.3525025,
-              52.4990686
-            ],
-            [
-              13.3524864,
-              52.4990605
-            ],
-            [
-              13.3524776,
-              52.4990513
-            ],
-            [
-              13.3524748,
-              52.4990194
-            ],
-            [
-              13.3524287,
-              52.4990209
-            ],
-            [
-              13.352387,
-              52.4990223
-            ],
-            [
-              13.3523724,
-              52.4988604
-            ],
-            [
-              13.3523711,
-              52.4988489
-            ],
-            [
-              13.3524147,
-              52.4988477
-            ],
-            [
-              13.3524641,
-              52.4988477
-            ],
-            [
-              13.3524633,
-              52.4988398
-            ],
-            [
-              13.3529229,
-              52.4988265
-            ],
-            [
-              13.3529256,
-              52.4988445
-            ],
-            [
-              13.3530222,
-              52.4988409
-            ],
-            [
-              13.3530367,
-              52.499026
-            ],
-            [
-              13.3530366,
-              52.4990265
-            ],
-            [
-              13.3529756,
-              52.4990283
-            ],
-            [
-              13.3529281,
-              52.4990298
-            ],
-            [
-              13.3529286,
-              52.4990341
-            ],
-            [
-              13.3529211,
-              52.4990506
-            ],
-            [
-              13.3528707,
-              52.4990613
-            ],
-            [
-              13.3528336,
-              52.4990617
-            ],
-            [
-              13.3528331,
-              52.4990692
-            ],
-            [
-              13.352825,
-              52.4990727
-            ],
-            [
-              13.3527873,
-              52.4990736
-            ],
-            [
-              13.3527861,
-              52.4990702
-            ],
-            [
-              13.3526283,
-              52.499074
-            ]
-          ]
-        ]
-      },
-      "id": "way/379305718"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/684464913",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "99",
-        "addr:postcode": "10245",
-        "addr:street": "Revaler Straße",
-        "addr:suburb": "Friedrichshain",
-        "amenity": "nightclub",
-        "building": "commercial",
-        "building:levels": "1",
-        "contact:instagram": "cassiopeia_berlin",
-        "contact:website": "https://cassiopeia-berlin.de/",
-        "live_music": "yes",
-        "name": "Cassiopeia",
-        "toilets:wheelchair": "yes",
-        "wheelchair": "limited",
-        "wikidata": "Q47163174",
-        "wikimedia_commons": "Category:Cassiopeia (Berlin)"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4549032,
-              52.5072058
-            ],
-            [
-              13.4549371,
-              52.5072764
-            ],
-            [
-              13.4549424,
-              52.5072878
-            ],
-            [
-              13.4546968,
-              52.5073321
-            ],
-            [
-              13.4546402,
-              52.5072141
-            ],
-            [
-              13.4548862,
-              52.5071704
-            ],
-            [
-              13.4549032,
-              52.5072058
-            ]
-          ]
-        ]
-      },
-      "id": "way/684464913"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/1081145396",
-        "addr:city": "Berlin",
-        "addr:country": "DE",
-        "addr:housenumber": "121",
-        "addr:postcode": "10407",
-        "addr:street": "Storkower Straße",
-        "addr:suburb": "Prenzlauer Berg",
-        "amenity": "nightclub",
-        "contact:instagram": "https://www.instagram.com/abstrakt.berlin",
-        "contact:phone": "+49 30 65832595",
-        "contact:ra": "https://de.ra.co/clubs/233027",
-        "name": "Abstrakt",
-        "old_contact:facebook": "https://www.facebook.com/menschmeierberlin/events",
-        "old_contact:ra": "https://ra.co/clubs/103373;https://ra.co/clubs/227831",
-        "old_name:2015--2024-01-22": "Mensch Meier",
-        "old_operator": "Mensch Meier GmbH",
-        "old_wikidata": "Q105762292",
-        "smoking": "no",
-        "toilets:wheelchair": "yes",
-        "wheelchair": "yes",
-        "wifi": "no"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4524935,
-              52.5354607
-            ],
-            [
-              13.4519388,
-              52.5352597
-            ],
-            [
-              13.4519736,
-              52.5352242
-            ],
-            [
-              13.4522325,
-              52.5349579
-            ],
-            [
-              13.4527779,
-              52.5351579
-            ],
-            [
-              13.4524935,
-              52.5354607
-            ]
-          ]
-        ]
-      },
-      "id": "way/1081145396"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/259845846",
+      "type": "node",
+      "id": 259845846,
+      "lat": 52.4913696,
+      "lon": 13.3931533,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "18",
@@ -2157,20 +24,14 @@
         "phone": "+49306946602",
         "website": "https://www.junction-bar.de/",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3931533,
-          52.4913696
-        ]
-      },
-      "id": "node/259845846"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/262818281",
+      "type": "node",
+      "id": 262818281,
+      "lat": 52.5232268,
+      "lon": 13.4164254,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "7",
         "addr:postcode": "10178",
@@ -2183,20 +44,14 @@
         "smoking": "no",
         "website": "https://www.aseven.de",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4164254,
-          52.5232268
-        ]
-      },
-      "id": "node/262818281"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/339749949",
+      "type": "node",
+      "id": 339749949,
+      "lat": 52.5046782,
+      "lon": 13.4490212,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "18",
@@ -2216,20 +71,14 @@
         "wikidata": "Q552863",
         "wikimedia_commons": "Category:Matrix (club)",
         "wikipedia": "en:Matrix (club)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4490212,
-          52.5046782
-        ]
-      },
-      "id": "node/339749949"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/360111407",
+      "type": "node",
+      "id": 360111407,
+      "lat": 52.4992172,
+      "lon": 13.4450748,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "7",
@@ -2252,20 +101,14 @@
         "wheelchair:description": "Stufe am Haupteingang, Rampe vorhanden. Für das rolligerechte WC bitte vor Ort nach dem Schlüssel fragen.",
         "wikidata": "Q100256393",
         "wikimedia_commons": "Category:Lido (Berlin)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4450748,
-          52.4992172
-        ]
-      },
-      "id": "node/360111407"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/373095675",
+      "type": "node",
+      "id": 373095675,
+      "lat": 52.5441625,
+      "lon": 13.3787124,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "46",
         "addr:postcode": "13357",
@@ -2276,40 +119,28 @@
         "opening_hours": "Tu 18:00-04:00, Th 19:00-04:00, Sa-Su 23:00-09:00",
         "website": "https://www.humboldthain.com/",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3787124,
-          52.5441625
-        ]
-      },
-      "id": "node/373095675"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/383210462",
+      "type": "node",
+      "id": 383210462,
+      "lat": 52.5045582,
+      "lon": 13.4489112,
+      "tags": {
         "amenity": "nightclub",
         "check_date": "2024-11-26",
         "check_date:opening_hours": "2024-11-26",
         "name": "Narva Lounge",
         "opening_hours:signed": "no",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4489112,
-          52.5045582
-        ]
-      },
-      "id": "node/383210462"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/410135945",
+      "type": "node",
+      "id": 410135945,
+      "lat": 52.4974686,
+      "lon": 13.4310967,
+      "tags": {
         "addr:postcode": "10999",
         "amenity": "nightclub",
         "check_date": "2023-11-01",
@@ -2317,20 +148,14 @@
         "opening_hours": "\"When they host a concert, doors opens at 20h. Otherwise they are closed\"",
         "website": "http://wildatheartberlin.de",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4310967,
-          52.4974686
-        ]
-      },
-      "id": "node/410135945"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/429735547",
+      "type": "node",
+      "id": 429735547,
+      "lat": 52.5264743,
+      "lon": 13.39691,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "24",
@@ -2352,39 +177,27 @@
         "wikidata": "Q1103846",
         "wikimedia_commons": "Category:Clärchens Ballhaus",
         "wikipedia": "de:Clärchens Ballhaus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.39691,
-          52.5264743
-        ]
-      },
-      "id": "node/429735547"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/461623768",
+      "type": "node",
+      "id": 461623768,
+      "lat": 52.5179462,
+      "lon": 13.441495,
+      "tags": {
         "amenity": "nightclub",
         "name": "Sun Chiller Lounge",
         "old_name": "Café Warschau",
         "opening_hours": "We-Sa 16:00-24:00+, Su 14:00-24:00+; PH 14:00-24:00+",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.441495,
-          52.5179462
-        ]
-      },
-      "id": "node/461623768"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/475153994",
+      "type": "node",
+      "id": 475153994,
+      "lat": 52.5086309,
+      "lon": 13.4363946,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "8",
@@ -2402,36 +215,24 @@
         "wheelchair": "yes",
         "wikidata": "Q62011644",
         "wikimedia_commons": "Category:Postbahnhof (venue)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4363946,
-          52.5086309
-        ]
-      },
-      "id": "node/475153994"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/485354535",
+      "type": "node",
+      "id": 485354535,
+      "lat": 52.4973833,
+      "lon": 13.4530728,
+      "tags": {
         "amenity": "nightclub",
         "name": "Glashaus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4530728,
-          52.4973833
-        ]
-      },
-      "id": "node/485354535"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/485640732",
+      "type": "node",
+      "id": 485640732,
+      "lat": 52.4973901,
+      "lon": 13.4653065,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "70",
@@ -2466,20 +267,14 @@
         "wheelchair": "no",
         "wikidata": "Q21036513",
         "wikipedia": "de:Wilde Renate"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4653065,
-          52.4973901
-        ]
-      },
-      "id": "node/485640732"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/492849637",
+      "type": "node",
+      "id": 492849637,
+      "lat": 52.5076615,
+      "lon": 13.454537,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "99",
@@ -2490,20 +285,14 @@
         "contact:website": "http://www.raw-tempel.de/",
         "name": "RAW 99",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.454537,
-          52.5076615
-        ]
-      },
-      "id": "node/492849637"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/621429565",
+      "type": "node",
+      "id": 621429565,
+      "lat": 52.5091003,
+      "lon": 13.4560428,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "32",
@@ -2514,20 +303,14 @@
         "check_date:opening_hours": "2025-03-10",
         "name": "Berndhain",
         "opening_hours:signed": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4560428,
-          52.5091003
-        ]
-      },
-      "id": "node/621429565"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/652884290",
+      "type": "node",
+      "id": 652884290,
+      "lat": 52.5336193,
+      "lon": 13.4007592,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "21",
@@ -2537,20 +320,14 @@
         "amenity": "nightclub",
         "contact:phone": "+49 30 83030144",
         "name": "Calabash"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4007592,
-          52.5336193
-        ]
-      },
-      "id": "node/652884290"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/667842214",
+      "type": "node",
+      "id": 667842214,
+      "lat": 52.5110197,
+      "lon": 13.4169088,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "76",
@@ -2568,20 +345,14 @@
         "wheelchair": "yes",
         "wikidata": "Q2211685",
         "wikipedia": "de:Sage Club"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4169088,
-          52.5110197
-        ]
-      },
-      "id": "node/667842214"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/670069373",
+      "type": "node",
+      "id": 670069373,
+      "lat": 52.53567,
+      "lon": 13.401179,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "5",
@@ -2595,20 +366,14 @@
         "name": "NBI Club",
         "opening_hours": "Mo-Su 20:00+",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.401179,
-          52.53567
-        ]
-      },
-      "id": "node/670069373"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/729294555",
+      "type": "node",
+      "id": 729294555,
+      "lat": 52.5112074,
+      "lon": 13.4169157,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "76",
@@ -2629,20 +394,14 @@
         "wikidata": "Q322135",
         "wikimedia_commons": "Category:KitKatClub",
         "wikipedia": "de:KitKatClub"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4169157,
-          52.5112074
-        ]
-      },
-      "id": "node/729294555"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/736787851",
+      "type": "node",
+      "id": 736787851,
+      "lat": 52.526786,
+      "lon": 13.4107036,
+      "tags": {
         "access": "customers",
         "addr:city": "Berlin",
         "addr:country": "DE",
@@ -2658,20 +417,14 @@
         "smoking": "yes",
         "website": "https://www.belushis.com/bars/berlin",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4107036,
-          52.526786
-        ]
-      },
-      "id": "node/736787851"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/739305494",
+      "type": "node",
+      "id": 739305494,
+      "lat": 52.4655581,
+      "lon": 13.3860876,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "17",
@@ -2693,20 +446,14 @@
         "website": "https://www.insomnia-berlin.de/",
         "wikidata": "Q1285955",
         "wikipedia": "de:Insomnia (Club)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3860876,
-          52.4655581
-        ]
-      },
-      "id": "node/739305494"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/821646254",
+      "type": "node",
+      "id": 821646254,
+      "lat": 52.5156316,
+      "lon": 13.452579,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:postcode": "10243",
@@ -2716,20 +463,14 @@
         "check_date:opening_hours": "2023-11-29",
         "name": "Abgedreht Klub",
         "opening_hours:signed": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.452579,
-          52.5156316
-        ]
-      },
-      "id": "node/821646254"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/898983650",
+      "type": "node",
+      "id": 898983650,
+      "lat": 52.4972653,
+      "lon": 13.2932442,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "133/134",
@@ -2740,20 +481,14 @@
         "contact:website": "http://night-lounge.net/",
         "name": "K133 Night Lounge",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.2932442,
-          52.4972653
-        ]
-      },
-      "id": "node/898983650"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/910429971",
+      "type": "node",
+      "id": 910429971,
+      "lat": 52.5320796,
+      "lon": 13.380294,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "102",
@@ -2773,20 +508,14 @@
         "website": "https://www.ballhaus-berlin.de/",
         "wheelchair": "yes",
         "wikimedia_commons": "File:Ballhaus Berlin Chausseestraße.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.380294,
-          52.5320796
-        ]
-      },
-      "id": "node/910429971"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/918183904",
+      "type": "node",
+      "id": 918183904,
+      "lat": 52.5161783,
+      "lon": 13.3899473,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "8",
@@ -2799,20 +528,14 @@
         "smoking": "no",
         "website": "http://www.clubr8.com/",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3899473,
-          52.5161783
-        ]
-      },
-      "id": "node/918183904"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/959344243",
+      "type": "node",
+      "id": 959344243,
+      "lat": 52.4794629,
+      "lon": 13.4337837,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "26",
@@ -2840,20 +563,14 @@
         "wikidata": "Q834245",
         "wikimedia_commons": "Category:SchwuZ",
         "wikipedia": "de:SchwuZ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4337837,
-          52.4794629
-        ]
-      },
-      "id": "node/959344243"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/959625062",
+      "type": "node",
+      "id": 959625062,
+      "lat": 52.4852704,
+      "lon": 13.3534485,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "30",
         "addr:postcode": "10827",
@@ -2866,20 +583,14 @@
         "opening_hours": "We 20:00+; Fr-Sa 22:00+",
         "start_date": "1997",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3534485,
-          52.4852704
-        ]
-      },
-      "id": "node/959625062"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/975700421",
+      "type": "node",
+      "id": 975700421,
+      "lat": 52.4864896,
+      "lon": 13.4217418,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "107-113",
@@ -2893,20 +604,14 @@
         "opening_hours": "\"Je nach Veranstaltung\"",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4217418,
-          52.4864896
-        ]
-      },
-      "id": "node/975700421"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/979969868",
+      "type": "node",
+      "id": 979969868,
+      "lat": 52.5030121,
+      "lon": 13.4081361,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "26",
@@ -2938,39 +643,27 @@
         "wheelchair:description": "WC war gerade kaputt, ansonsten im EG alles ok erreichbar",
         "wikidata": "Q21036533",
         "wikipedia": "de:Ritter Butzke"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4081361,
-          52.5030121
-        ]
-      },
-      "id": "node/979969868"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/988192687",
+      "type": "node",
+      "id": 988192687,
+      "lat": 52.4835867,
+      "lon": 13.390553,
+      "tags": {
         "amenity": "nightclub",
         "name": "Silverwings",
         "website": "https://silverwings.de/",
         "wheelchair": "no",
         "wheelchair:description": "Befindet sich im 1. Stock. Achtung: Ignoriert das Nichtraucherschutzgesetz."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.390553,
-          52.4835867
-        ]
-      },
-      "id": "node/988192687"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1144034120",
+      "type": "node",
+      "id": 1144034120,
+      "lat": 52.5229379,
+      "lon": 13.4034635,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "2",
@@ -2990,20 +683,14 @@
         "toilets:wheelchair": "no",
         "url": "https://am-to-pm.metro.bar/",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4034635,
-          52.5229379
-        ]
-      },
-      "id": "node/1144034120"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1145853246",
+      "type": "node",
+      "id": 1145853246,
+      "lat": 52.5217615,
+      "lon": 13.4075481,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "11",
@@ -3018,20 +705,14 @@
         "opening_hours": "Fr-Sa 21:00-05:00",
         "website": "https://www.hafenbar-berlin.de/",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4075481,
-          52.5217615
-        ]
-      },
-      "id": "node/1145853246"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1162812586",
+      "type": "node",
+      "id": 1162812586,
+      "lat": 52.5229029,
+      "lon": 13.4164231,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "7",
@@ -3048,20 +729,14 @@
         "opening_hours": "Fr,Tu 22:00-06:00, Sa 19:00-06:00",
         "smoking": "no",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4164231,
-          52.5229029
-        ]
-      },
-      "id": "node/1162812586"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1165008486",
+      "type": "node",
+      "id": 1165008486,
+      "lat": 52.5395232,
+      "lon": 13.4142448,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "97",
@@ -3080,20 +755,14 @@
         "payment:free": "yes",
         "website": "https://www.soda-berlin.de/",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4142448,
-          52.5395232
-        ]
-      },
-      "id": "node/1165008486"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1228317932",
+      "type": "node",
+      "id": 1228317932,
+      "lat": 52.5114893,
+      "lon": 13.3084909,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "90",
@@ -3107,20 +776,14 @@
         "level": "0",
         "name": "Tabu",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3084909,
-          52.5114893
-        ]
-      },
-      "id": "node/1228317932"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1310466406",
+      "type": "node",
+      "id": 1310466406,
+      "lat": 52.5121321,
+      "lon": 13.3932376,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "30",
         "addr:postcode": "10117",
@@ -3131,20 +794,14 @@
         "smoking": "no",
         "website": "https://bricks-berlin.club",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3932376,
-          52.5121321
-        ]
-      },
-      "id": "node/1310466406"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1361259244",
+      "type": "node",
+      "id": 1361259244,
+      "lat": 52.503615,
+      "lon": 13.448261,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "18",
@@ -3164,20 +821,14 @@
         "phone": "+49 30 2960800",
         "toilets:wheelchair": "yes",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.448261,
-          52.503615
-        ]
-      },
-      "id": "node/1361259244"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1370001597",
+      "type": "node",
+      "id": 1370001597,
+      "lat": 52.5032996,
+      "lon": 13.4087274,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "85f",
         "addr:postcode": "10969",
@@ -3189,20 +840,14 @@
         "name": "Prince Charles",
         "smoking": "yes",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4087274,
-          52.5032996
-        ]
-      },
-      "id": "node/1370001597"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1402543376",
+      "type": "node",
+      "id": 1402543376,
+      "lat": 52.5040556,
+      "lon": 13.3379413,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housename": "Europa-Center",
@@ -3214,20 +859,14 @@
         "contact:website": "http://www.puroberlin.de/",
         "level": "20",
         "name": "Puro Sky Lounge Berlin"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3379413,
-          52.5040556
-        ]
-      },
-      "id": "node/1402543376"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1450635676",
+      "type": "node",
+      "id": 1450635676,
+      "lat": 52.5271131,
+      "lon": 13.4116224,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "1",
@@ -3240,40 +879,28 @@
         "opening_hours": "Mo-Sa 11:00-18:00",
         "operator": "Volksbühne am Rosa-Luxemburg-Platz",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4116224,
-          52.5271131
-        ]
-      },
-      "id": "node/1450635676"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1667559178",
+      "type": "node",
+      "id": 1667559178,
+      "lat": 52.5007558,
+      "lon": 13.4414613,
+      "tags": {
         "amenity": "nightclub",
         "leisure": "music_venue",
         "name": "Bi Nuu",
         "toilets:wheelchair": "yes",
         "website": "http://www.bi-nuu.de/",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4414613,
-          52.5007558
-        ]
-      },
-      "id": "node/1667559178"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1820069776",
+      "type": "node",
+      "id": 1820069776,
+      "lat": 52.5235538,
+      "lon": 13.4069893,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "40",
@@ -3294,20 +921,14 @@
         "payment:debit_cards": "no",
         "smoking": "no",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4069893,
-          52.5235538
-        ]
-      },
-      "id": "node/1820069776"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1882869375",
+      "type": "node",
+      "id": 1882869375,
+      "lat": 52.4990172,
+      "lon": 13.3424928,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "33",
@@ -3327,20 +948,14 @@
         "opening_hours": "Mo-Th 10:00-01:00, Fr-Sa 10:00-05:00, Su 14:00-01:00",
         "operator": "Michael Sonntag, Michael Klatt",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3424928,
-          52.4990172
-        ]
-      },
-      "id": "node/1882869375"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1897123562",
+      "type": "node",
+      "id": 1897123562,
+      "lat": 52.5029678,
+      "lon": 13.4411582,
+      "tags": {
         "addr:housenumber": "5",
         "addr:street": "Pfuelstraße",
         "amenity": "nightclub",
@@ -3352,20 +967,14 @@
         "toilets:wheelchair": "no",
         "website": "https://www.fluxfm.de/fluxbau/",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4411582,
-          52.5029678
-        ]
-      },
-      "id": "node/1897123562"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1934211315",
+      "type": "node",
+      "id": 1934211315,
+      "lat": 52.504062,
+      "lon": 13.3224146,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "77",
@@ -3378,20 +987,14 @@
         "opening_hours:signed": "no",
         "website": "https://www.vagabund-berlin.com/",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3224146,
-          52.504062
-        ]
-      },
-      "id": "node/1934211315"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1941952571",
+      "type": "node",
+      "id": 1941952571,
+      "lat": 52.4993312,
+      "lon": 13.4242521,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "114",
@@ -3404,20 +1007,14 @@
         "contact:phone": "+49 30 53091711",
         "name": "Bulbul Berlin",
         "website": "https://www.bulbulberlin.de/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4242521,
-          52.4993312
-        ]
-      },
-      "id": "node/1941952571"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1954332576",
+      "type": "node",
+      "id": 1954332576,
+      "lat": 52.5344022,
+      "lon": 13.3597082,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "35",
@@ -3431,20 +1028,14 @@
         "toilets:wheelchair": "yes",
         "website": "https://www.slaughterhouse-berlin.de/",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3597082,
-          52.5344022
-        ]
-      },
-      "id": "node/1954332576"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2126202628",
+      "type": "node",
+      "id": 2126202628,
+      "lat": 52.551145,
+      "lon": 13.3672515,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "74",
@@ -3458,20 +1049,14 @@
         "opening_hours:signed": "no",
         "wheelchair": "no",
         "wheelchair:description": "eine Rollstuhlrampe wird auf Anfrage ausgelegt"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3672515,
-          52.551145
-        ]
-      },
-      "id": "node/2126202628"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2147941967",
+      "type": "node",
+      "id": 2147941967,
+      "lat": 52.5000715,
+      "lon": 13.4348491,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "85-86",
@@ -3493,36 +1078,24 @@
         "wheelchair": "yes",
         "wheelchair:description": "Es gibt zwar eine rollstuhlgerechte Toilette, aber auch Treppen am Eingang. Man kann wohl hinten rum über einen Lastenaufzug...",
         "wikidata": "Q105762300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4348491,
-          52.5000715
-        ]
-      },
-      "id": "node/2147941967"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2147953685",
+      "type": "node",
+      "id": 2147953685,
+      "lat": 52.5029659,
+      "lon": 13.4474984,
+      "tags": {
         "amenity": "nightclub",
         "name": "Metrom Lounge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4474984,
-          52.5029659
-        ]
-      },
-      "id": "node/2147953685"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2188253833",
+      "type": "node",
+      "id": 2188253833,
+      "lat": 52.5008789,
+      "lon": 13.3311044,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "25",
         "addr:postcode": "10719",
@@ -3532,20 +1105,14 @@
         "unused:amenity": "nightclub",
         "website": "https://thedoor.club/",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3311044,
-          52.5008789
-        ]
-      },
-      "id": "node/2188253833"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2347398754",
+      "type": "node",
+      "id": 2347398754,
+      "lat": 52.5019061,
+      "lon": 13.3308361,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "15",
@@ -3560,40 +1127,28 @@
         "phone": "+49 30 41766240",
         "website": "https://www.maxxim-berlin.de/",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3308361,
-          52.5019061
-        ]
-      },
-      "id": "node/2347398754"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2381034158",
+      "type": "node",
+      "id": 2381034158,
+      "lat": 52.4961326,
+      "lon": 13.4351165,
+      "tags": {
         "amenity": "nightclub",
         "check_date": "2025-05-03",
         "name": "Reset",
         "opening_hours": "\"abhängig von Veranstaltungen\"",
         "toilets:wheelchair": "no",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4351165,
-          52.4961326
-        ]
-      },
-      "id": "node/2381034158"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2435092394",
+      "type": "node",
+      "id": 2435092394,
+      "lat": 52.4643506,
+      "lon": 13.4333842,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "146",
@@ -3611,40 +1166,28 @@
         "website": "https://hole-berlin.de/",
         "wheelchair": "yes",
         "wikidata": "Q130601665"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4333842,
-          52.4643506
-        ]
-      },
-      "id": "node/2435092394"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2665268971",
+      "type": "node",
+      "id": 2665268971,
+      "lat": 52.502437,
+      "lon": 13.4311437,
+      "tags": {
         "amenity": "nightclub",
         "contact:facebook": "https://www.facebook.com/auster.berlin/",
         "name": "Auster-Club",
         "opening_hours": "Mo-Su 12:00-18:00+",
         "smoking": "isolated",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4311437,
-          52.502437
-        ]
-      },
-      "id": "node/2665268971"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2876098523",
+      "type": "node",
+      "id": 2876098523,
+      "lat": 52.5105954,
+      "lon": 13.4197888,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "70",
@@ -3657,20 +1200,14 @@
         "name": "Ohm",
         "smoking": "no",
         "website": "http://www.ohmberlin.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4197888,
-          52.5105954
-        ]
-      },
-      "id": "node/2876098523"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2968181705",
+      "type": "node",
+      "id": 2968181705,
+      "lat": 52.5126865,
+      "lon": 13.4247322,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "25",
@@ -3680,20 +1217,14 @@
         "amenity": "nightclub",
         "entrance": "main",
         "name": "Nachtclub"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4247322,
-          52.5126865
-        ]
-      },
-      "id": "node/2968181705"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3121055734",
+      "type": "node",
+      "id": 3121055734,
+      "lat": 52.5261173,
+      "lon": 13.393681,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "32",
@@ -3706,38 +1237,26 @@
         "smoking": "no",
         "toilets:wheelchair": "no",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.393681,
-          52.5261173
-        ]
-      },
-      "id": "node/3121055734"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3298592393",
+      "type": "node",
+      "id": 3298592393,
+      "lat": 52.5112236,
+      "lon": 13.3961493,
+      "tags": {
         "amenity": "nightclub",
         "name": "Konzulát",
         "opening_hours:signed": "no",
         "smoking": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3961493,
-          52.5112236
-        ]
-      },
-      "id": "node/3298592393"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3469247893",
+      "type": "node",
+      "id": 3469247893,
+      "lat": 52.5395329,
+      "lon": 13.4136676,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "97",
@@ -3753,20 +1272,14 @@
         "toilets:wheelchair": "yes",
         "website": "https://alte-kantine.eu",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4136676,
-          52.5395329
-        ]
-      },
-      "id": "node/3469247893"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3610779779",
+      "type": "node",
+      "id": 3610779779,
+      "lat": 52.5075429,
+      "lon": 13.4758087,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "5",
@@ -3776,20 +1289,14 @@
         "amenity": "nightclub",
         "contact:website": "http://www.void-club.de/",
         "name": "Void"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4758087,
-          52.5075429
-        ]
-      },
-      "id": "node/3610779779"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3777579770",
+      "type": "node",
+      "id": 3777579770,
+      "lat": 52.4260543,
+      "lon": 13.4833923,
+      "tags": {
         "amenity": "nightclub",
         "check_date": "2023-07-23",
         "name": "Top Disco Berlin",
@@ -3798,20 +1305,14 @@
         "toilets:wheelchair": "yes",
         "website": "http://topdisco-berlin.de/home/",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4833923,
-          52.4260543
-        ]
-      },
-      "id": "node/3777579770"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3783242657",
+      "type": "node",
+      "id": 3783242657,
+      "lat": 52.5226319,
+      "lon": 13.4092273,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "123-124",
@@ -3822,20 +1323,14 @@
         "name": "M-BIA",
         "opening_hours": "We 23:00-07:00; Fr-Sa 23:00-09:00",
         "smoking": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4092273,
-          52.5226319
-        ]
-      },
-      "id": "node/3783242657"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3783290025",
+      "type": "node",
+      "id": 3783290025,
+      "lat": 52.5335177,
+      "lon": 13.4008094,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "21",
@@ -3845,20 +1340,14 @@
         "amenity": "nightclub",
         "name": "ACUD",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4008094,
-          52.5335177
-        ]
-      },
-      "id": "node/3783290025"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3783296627",
+      "type": "node",
+      "id": 3783296627,
+      "lat": 52.5075016,
+      "lon": 13.3718571,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "1",
         "addr:postcode": "10785",
@@ -3866,20 +1355,14 @@
         "amenity": "nightclub",
         "name": "Adagio",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3718571,
-          52.5075016
-        ]
-      },
-      "id": "node/3783296627"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3783307323",
+      "type": "node",
+      "id": 3783307323,
+      "lat": 52.5975687,
+      "lon": 13.3526876,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "142c",
         "addr:postcode": "13439",
@@ -3889,20 +1372,14 @@
         "name": "American Western Saloon",
         "toilets:wheelchair": "yes",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3526876,
-          52.5975687
-        ]
-      },
-      "id": "node/3783307323"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3826455881",
+      "type": "node",
+      "id": 3826455881,
+      "lat": 52.4987104,
+      "lon": 13.3479726,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "7",
@@ -3918,20 +1395,14 @@
         "smoking": "yes",
         "website": "http://www.pussycat-berlin.de",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3479726,
-          52.4987104
-        ]
-      },
-      "id": "node/3826455881"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3830239588",
+      "type": "node",
+      "id": 3830239588,
+      "lat": 52.5044307,
+      "lon": 13.3534385,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "9",
         "addr:postcode": "10785",
@@ -3940,20 +1411,14 @@
         "name": "Trompete",
         "website": "https://trompete-berlin.de/",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3534385,
-          52.5044307
-        ]
-      },
-      "id": "node/3830239588"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4034138645",
+      "type": "node",
+      "id": 4034138645,
+      "lat": 52.5003909,
+      "lon": 13.4221612,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:floor": "0",
@@ -3992,20 +1457,14 @@
         "wikidata": "Q561850",
         "wikimedia_commons": "Category:SO36",
         "wikipedia": "de:SO36"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4221612,
-          52.5003909
-        ]
-      },
-      "id": "node/4034138645"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4118217590",
+      "type": "node",
+      "id": 4118217590,
+      "lat": 52.4613006,
+      "lon": 13.4442907,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "14",
         "addr:postcode": "12347",
@@ -4015,20 +1474,14 @@
         "opening_hours": "Mo-Fr 09:00-21:00; Sa-Su 11:00-20:00",
         "phone": "+49 30 61740855",
         "website": "https://stella-berlin.de/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4442907,
-          52.4613006
-        ]
-      },
-      "id": "node/4118217590"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4172803384",
+      "type": "node",
+      "id": 4172803384,
+      "lat": 52.5312243,
+      "lon": 13.4115684,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "177 B",
@@ -4047,20 +1500,14 @@
         "operator": "8MM Bar Veranstaltungs GmbH",
         "smoking": "yes",
         "website": "https://www.8mmbar.de/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4115684,
-          52.5312243
-        ]
-      },
-      "id": "node/4172803384"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4217156190",
+      "type": "node",
+      "id": 4217156190,
+      "lat": 52.5174812,
+      "lon": 13.419024,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "31",
@@ -4080,20 +1527,14 @@
         "start_date": "2014-12",
         "toilets:wheelchair": "no",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.419024,
-          52.5174812
-        ]
-      },
-      "id": "node/4217156190"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4236204189",
+      "type": "node",
+      "id": 4236204189,
+      "lat": 52.5172277,
+      "lon": 13.305791,
+      "tags": {
         "addr:housenumber": "5",
         "addr:place": "Richard-Wagner-Platz",
         "addr:postcode": "10585",
@@ -4105,77 +1546,53 @@
         "phone": "+493034540769",
         "website": "https://misalsa.de",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.305791,
-          52.5172277
-        ]
-      },
-      "id": "node/4236204189"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4283150545",
+      "type": "node",
+      "id": 4283150545,
+      "lat": 52.4966876,
+      "lon": 13.4204665,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "27",
         "addr:postcode": "10999",
         "addr:street": "Mariannenstraße",
         "amenity": "nightclub",
         "name": "Cake Club"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4204665,
-          52.4966876
-        ]
-      },
-      "id": "node/4283150545"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4458466133",
+      "type": "node",
+      "id": 4458466133,
+      "lat": 52.564751,
+      "lon": 13.5048839,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "12",
         "addr:postcode": "13051",
         "addr:street": "Prerower Platz",
         "amenity": "nightclub",
         "name": "KISS Lounge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.5048839,
-          52.564751
-        ]
-      },
-      "id": "node/4458466133"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4574958092",
+      "type": "node",
+      "id": 4574958092,
+      "lat": 52.5046309,
+      "lon": 13.327462,
+      "tags": {
         "amenity": "nightclub",
         "name": "Vitrin",
         "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.327462,
-          52.5046309
-        ]
-      },
-      "id": "node/4574958092"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4784529624",
+      "type": "node",
+      "id": 4784529624,
+      "lat": 52.5267961,
+      "lon": 13.3908678,
+      "tags": {
         "addr:housenumber": "144",
         "addr:postcode": "10115",
         "addr:street": "Linienstraße",
@@ -4183,20 +1600,14 @@
         "name": "Geheimclub (Annika von Trier)",
         "smoking": "no",
         "website": "https://annika-von-trier.com/geheimclub/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3908678,
-          52.5267961
-        ]
-      },
-      "id": "node/4784529624"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4815124323",
+      "type": "node",
+      "id": 4815124323,
+      "lat": 52.4951405,
+      "lon": 13.4625984,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "10",
@@ -4209,20 +1620,14 @@
         "name": "Else",
         "opening_hours": "Tu-Sa 16:00+",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4625984,
-          52.4951405
-        ]
-      },
-      "id": "node/4815124323"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4870128450",
+      "type": "node",
+      "id": 4870128450,
+      "lat": 52.5106807,
+      "lon": 13.419484,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "70",
@@ -4244,20 +1649,14 @@
         "wheelchair": "yes",
         "wikidata": "Q678186",
         "wikipedia": "de:Tresor (Club)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.419484,
-          52.5106807
-        ]
-      },
-      "id": "node/4870128450"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4894544353",
+      "type": "node",
+      "id": 4894544353,
+      "lat": 52.4322129,
+      "lon": 13.4615989,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "261",
@@ -4271,20 +1670,14 @@
         "name": "BlackWhite Danceclub",
         "opening_hours": "Fr 22:00+, Sa 21:00+",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4615989,
-          52.4322129
-        ]
-      },
-      "id": "node/4894544353"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5155961321",
+      "type": "node",
+      "id": 5155961321,
+      "lat": 52.5075831,
+      "lon": 13.4545322,
+      "tags": {
         "addr:postcode": "10245",
         "amenity": "nightclub",
         "contact:facebook": "DerWeisseHaseBerlin",
@@ -4292,57 +1685,39 @@
         "name:en": "The White Rabbit",
         "name:es": "Conejo Blanco",
         "phone": "+49 174 1976833"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4545322,
-          52.5075831
-        ]
-      },
-      "id": "node/5155961321"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5244438075",
+      "type": "node",
+      "id": 5244438075,
+      "lat": 52.4764177,
+      "lon": 13.4598687,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "11",
         "addr:postcode": "12057",
         "addr:street": "Ziegrastraße",
         "amenity": "nightclub",
         "name": "Internet Explorer"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4598687,
-          52.4764177
-        ]
-      },
-      "id": "node/5244438075"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5247942730",
+      "type": "node",
+      "id": 5247942730,
+      "lat": 52.5119933,
+      "lon": 13.4260899,
+      "tags": {
         "amenity": "nightclub",
         "entrance": "main",
         "name": "Kater Blau"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4260899,
-          52.5119933
-        ]
-      },
-      "id": "node/5247942730"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5838965221",
+      "type": "node",
+      "id": 5838965221,
+      "lat": 52.4806929,
+      "lon": 13.4330336,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "60",
@@ -4354,20 +1729,14 @@
         "contact:website": "https://loophole.berlin/",
         "name": "Loophole",
         "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4330336,
-          52.4806929
-        ]
-      },
-      "id": "node/5838965221"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5873234785",
+      "type": "node",
+      "id": 5873234785,
+      "lat": 52.5074123,
+      "lon": 13.4556606,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "99",
@@ -4382,20 +1751,14 @@
         "payment:cash": "only",
         "smoking": "outside",
         "takeaway": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4556606,
-          52.5074123
-        ]
-      },
-      "id": "node/5873234785"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/5906879511",
+      "type": "node",
+      "id": 5906879511,
+      "lat": 52.5024767,
+      "lon": 13.466302,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "24c",
@@ -4425,37 +1788,25 @@
         "wheelchair": "no",
         "wikidata": "Q23906461",
         "wikipedia": "de:About Blank"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.466302,
-          52.5024767
-        ]
-      },
-      "id": "node/5906879511"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6032392904",
+      "type": "node",
+      "id": 6032392904,
+      "lat": 52.5063423,
+      "lon": 13.3099366,
+      "tags": {
         "amenity": "nightclub",
         "karaoke": "yes",
         "name": "KTV Bar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3099366,
-          52.5063423
-        ]
-      },
-      "id": "node/6032392904"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6192377288",
+      "type": "node",
+      "id": 6192377288,
+      "lat": 52.5029373,
+      "lon": 13.4473091,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "18",
@@ -4468,20 +1819,14 @@
         "contact:facebook": "https://www.facebook.com/ElektroAva/",
         "contact:website": "http://www.club-ava-berlin.de/",
         "name": "Ava Club"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4473091,
-          52.5029373
-        ]
-      },
-      "id": "node/6192377288"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6252070333",
+      "type": "node",
+      "id": 6252070333,
+      "lat": 52.4989003,
+      "lon": 13.3230448,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "83",
         "addr:postcode": "10719",
@@ -4493,20 +1838,14 @@
         "operator": "Alexander Schulzendorff",
         "phone": "+49 30 88917960",
         "website": "https://al2-eventlocation.de"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3230448,
-          52.4989003
-        ]
-      },
-      "id": "node/6252070333"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6341225967",
+      "type": "node",
+      "id": 6341225967,
+      "lat": 52.5111669,
+      "lon": 13.4430356,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:postcode": "10243",
@@ -4529,20 +1868,14 @@
         "wheelchair:description": "keine Stufen, alles mit Rampen und Fahrstühlen zu erreichen, lediglich die Rampen im Garten lassen sich nur mit guter Armfunktion bewältigen, WCs sind mit Haltegriffen ausgestattet, aber nicht vollständig behindertengerecht",
         "wikidata": "Q136975",
         "wikipedia": "de:Berghain"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4430356,
-          52.5111669
-        ]
-      },
-      "id": "node/6341225967"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6381619922",
+      "type": "node",
+      "id": 6381619922,
+      "lat": 52.5306542,
+      "lon": 13.4286665,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "23A",
         "addr:postcode": "10405",
@@ -4552,20 +1885,14 @@
         "contact:facebook": "https://www.facebook.com/Musikbrauerei",
         "name": "Musikbrauerei",
         "opening_hours": "Mo-Su 10:00-20:15"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4286665,
-          52.5306542
-        ]
-      },
-      "id": "node/6381619922"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6381637814",
+      "type": "node",
+      "id": 6381637814,
+      "lat": 52.5306327,
+      "lon": 13.3667562,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "50",
         "addr:postcode": "10557",
@@ -4574,20 +1901,14 @@
         "name": "Trauma Bar und Kino",
         "smoking": "no",
         "website": "https://www.traumabarundkino.de/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3667562,
-          52.5306327
-        ]
-      },
-      "id": "node/6381637814"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6441603779",
+      "type": "node",
+      "id": 6441603779,
+      "lat": 52.5060456,
+      "lon": 13.3153141,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "134",
@@ -4599,20 +1920,14 @@
         "name": "New West Club",
         "opening_hours:signed": "no",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3153141,
-          52.5060456
-        ]
-      },
-      "id": "node/6441603779"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6482231157",
+      "type": "node",
+      "id": 6482231157,
+      "lat": 52.5299774,
+      "lon": 13.4006925,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "197-198",
@@ -4628,20 +1943,14 @@
         "name": "Cosmic Kaspar",
         "operator": "Mein Haus am See GmbH",
         "smoking": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4006925,
-          52.5299774
-        ]
-      },
-      "id": "node/6482231157"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6573680438",
+      "type": "node",
+      "id": 6573680438,
+      "lat": 52.5227525,
+      "lon": 13.2107129,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "5",
@@ -4655,40 +1964,28 @@
         "wikidata": "Q805252",
         "wikimedia_commons": "Category:Ballhaus Spandau",
         "wikipedia": "de:Ballhaus Spandau"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.2107129,
-          52.5227525
-        ]
-      },
-      "id": "node/6573680438"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/7230925407",
+      "type": "node",
+      "id": 7230925407,
+      "lat": 52.5222381,
+      "lon": 13.398307,
+      "tags": {
         "amenity": "nightclub",
         "name": "Mokka Mitte Bar",
         "opening_hours": "Mo-Th 16:00-23:00; Fr 14:00-23:30; Sa 13:00-23:30; Su 12:30-22:00",
         "phone": "+493084710709",
         "smoking": "no",
         "website": "https://www.mokkamitte.de/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.398307,
-          52.5222381
-        ]
-      },
-      "id": "node/7230925407"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/8069721818",
+      "type": "node",
+      "id": 8069721818,
+      "lat": 52.4970681,
+      "lon": 13.4650321,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "1-2",
@@ -4702,20 +1999,14 @@
         "name": "OST",
         "phone": "+49 30 29369990",
         "website": "https://clubost.de/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4650321,
-          52.4970681
-        ]
-      },
-      "id": "node/8069721818"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9216819283",
+      "type": "node",
+      "id": 9216819283,
+      "lat": 52.4599968,
+      "lon": 13.5052662,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "137",
@@ -4725,39 +2016,27 @@
         "amenity": "nightclub",
         "contact:website": "https://reviersuedost.de/",
         "name": "Revier Südost"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.5052662,
-          52.4599968
-        ]
-      },
-      "id": "node/9216819283"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9271890630",
+      "type": "node",
+      "id": 9271890630,
+      "lat": 52.5893599,
+      "lon": 13.2809654,
+      "tags": {
         "amenity": "nightclub",
         "check_date:opening_hours": "2023-04-02",
         "name": "Entenkeller 2.0",
         "opening_hours:signed": "no",
         "phone": "+49 162 3692008"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.2809654,
-          52.5893599
-        ]
-      },
-      "id": "node/9271890630"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9272743117",
+      "type": "node",
+      "id": 9272743117,
+      "lat": 52.5111747,
+      "lon": 13.416812,
+      "tags": {
         "addr:housenumber": "1",
         "addr:postcode": "10179",
         "addr:street": "Brückenstraße",
@@ -4767,39 +2046,27 @@
         "name": "Melancholie 2",
         "opening_hours": "Su 16:00-04:00; Fr-Sa 23:00-10:00",
         "smoking": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.416812,
-          52.5111747
-        ]
-      },
-      "id": "node/9272743117"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9662447417",
+      "type": "node",
+      "id": 9662447417,
+      "lat": 52.5248136,
+      "lon": 13.4976566,
+      "tags": {
         "addr:housenumber": "53B",
         "addr:postcode": "10365",
         "addr:street": "Herzbergstraße",
         "amenity": "nightclub",
         "name": "Velvet Monkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4976566,
-          52.5248136
-        ]
-      },
-      "id": "node/9662447417"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9683590917",
+      "type": "node",
+      "id": 9683590917,
+      "lat": 52.5381993,
+      "lon": 13.3279584,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "1",
@@ -4810,20 +2077,14 @@
         "name": "Heideglühen",
         "opening_hours": "Sa 00:00-24:00; Su 00:00-06:00",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3279584,
-          52.5381993
-        ]
-      },
-      "id": "node/9683590917"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9806828894",
+      "type": "node",
+      "id": 9806828894,
+      "lat": 52.5027268,
+      "lon": 13.4453492,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "78-80",
@@ -4837,39 +2098,27 @@
         "name": "Pirates Club",
         "operator": "Spreewies'n GmbH & Co. Beach Betriebsgesellschaft KG",
         "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4453492,
-          52.5027268
-        ]
-      },
-      "id": "node/9806828894"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9830787917",
+      "type": "node",
+      "id": 9830787917,
+      "lat": 52.4792421,
+      "lon": 13.4997366,
+      "tags": {
         "amenity": "nightclub",
         "check_date": "2024-11-02",
         "name": "MONOM",
         "smoking": "outside",
         "website": "https://www.monomsound.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4997366,
-          52.4792421
-        ]
-      },
-      "id": "node/9830787917"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9895178218",
+      "type": "node",
+      "id": 9895178218,
+      "lat": 52.5058678,
+      "lon": 13.4346441,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "16",
@@ -4882,20 +2131,14 @@
         "contact:website": "https://spindlerklatt.com/",
         "name": "spindler & klatt",
         "wikidata": "Q116142643"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4346441,
-          52.5058678
-        ]
-      },
-      "id": "node/9895178218"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/10621062970",
+      "type": "node",
+      "id": 10621062970,
+      "lat": 52.5130757,
+      "lon": 13.4228651,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "15—18",
         "addr:postcode": "10179",
@@ -4909,36 +2152,24 @@
         "mapillary": "371476558518986",
         "name": "Fitzroy",
         "website": "https://fitzroy-berlin.de"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4228651,
-          52.5130757
-        ]
-      },
-      "id": "node/10621062970"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/10672763641",
+      "type": "node",
+      "id": 10672763641,
+      "lat": 52.4752767,
+      "lon": 13.2965109,
+      "tags": {
         "amenity": "nightclub",
         "name": "The Hub"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.2965109,
-          52.4752767
-        ]
-      },
-      "id": "node/10672763641"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/11066768896",
+      "type": "node",
+      "id": 11066768896,
+      "lat": 52.4775471,
+      "lon": 13.4594974,
+      "tags": {
         "addr:city": "Berlin",
         "addr:country": "DE",
         "addr:housenumber": "1",
@@ -4950,53 +2181,35 @@
         "disused:amenity": "restaurant",
         "disused:name": "Marin",
         "name": "Falscher Fisch"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4594974,
-          52.4775471
-        ]
-      },
-      "id": "node/11066768896"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/11435535669",
+      "type": "node",
+      "id": 11435535669,
+      "lat": 52.5509569,
+      "lon": 13.3540571,
+      "tags": {
         "amenity": "nightclub",
         "name:en": "Menagerie"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3540571,
-          52.5509569
-        ]
-      },
-      "id": "node/11435535669"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/11472992147",
+      "type": "node",
+      "id": 11472992147,
+      "lat": 52.5115871,
+      "lon": 13.4173531,
+      "tags": {
         "amenity": "nightclub",
         "name": "Nachspiel - Afterhour @KitKat Club Berlin",
         "smoking": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4173531,
-          52.5115871
-        ]
-      },
-      "id": "node/11472992147"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/12137704154",
+      "type": "node",
+      "id": 12137704154,
+      "lat": 52.5030057,
+      "lon": 13.407825,
+      "tags": {
         "addr:city": "Berlin",
         "addr:housenumber": "30-35",
         "addr:postcode": "10969",
@@ -5005,36 +2218,24 @@
         "name": "Kreuzwerk",
         "smoking": "no",
         "website": "https://kreuzwerk.berlin/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.407825,
-          52.5030057
-        ]
-      },
-      "id": "node/12137704154"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/12290743501",
+      "type": "node",
+      "id": 12290743501,
+      "lat": 52.5057271,
+      "lon": 13.3045469,
+      "tags": {
         "amenity": "nightclub",
         "name": "Sin City Tabledance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3045469,
-          52.5057271
-        ]
-      },
-      "id": "node/12290743501"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/12301286133",
+      "type": "node",
+      "id": 12301286133,
+      "lat": 52.5099265,
+      "lon": 13.3142158,
+      "tags": {
         "addr:housenumber": "87",
         "addr:street": "Leibnitzstraße",
         "amenity": "nightclub",
@@ -5047,66 +2248,2829 @@
         "operator": "Ingo Kaatz",
         "phone": "0152 58 521 471",
         "website": "https://moechtegern.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3142158,
-          52.5099265
-        ]
-      },
-      "id": "node/12301286133"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/12372968542",
+      "type": "node",
+      "id": 12372968542,
+      "lat": 52.5055769,
+      "lon": 13.3380226,
+      "tags": {
         "amenity": "nightclub",
         "name": "808"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3380226,
-          52.5055769
-        ]
-      },
-      "id": "node/12372968542"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/12942103605",
+      "type": "node",
+      "id": 12942103605,
+      "lat": 52.4971313,
+      "lon": 13.4529279,
+      "tags": {
         "amenity": "nightclub",
         "check_date": "2025-06-21",
         "name": "Arena Club"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4529279,
-          52.4971313
-        ]
-      },
-      "id": "node/12942103605"
+      }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/13235448541",
+      "type": "node",
+      "id": 13235448541,
+      "lat": 52.5502159,
+      "lon": 13.443135,
+      "tags": {
         "amenity": "nightclub",
         "contact:website": "https://brickhouse-berlin.com/",
         "live_music": "yes",
         "name": "Brickhouse Berlin"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.443135,
-          52.5502159
-        ]
-      },
-      "id": "node/13235448541"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23278633,
+      "nodes": [
+        3240648759,
+        3240648758,
+        11638672157,
+        3240648753,
+        3240648745,
+        3240648733,
+        1961638832,
+        3240648732,
+        3240648735,
+        3240648741,
+        3240648743,
+        3240648744,
+        3240648747,
+        3240648759
+      ],
+      "tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "name": "Roadrunners Rock & Motor Club",
+        "phone": "+49 30 78082991",
+        "website": "http://www.roadrunners-paradise.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24248500,
+      "nodes": [
+        262535398,
+        262535399,
+        262535400,
+        1603176709,
+        262535401,
+        5366127390,
+        262535398
+      ],
+      "tags": {
+        "amenity": "nightclub",
+        "building": "residential",
+        "building:levels": "1",
+        "email": "info@werk9.de",
+        "name": "Werk9",
+        "opening_hours:signed": "no",
+        "phone": "+49 30 20165823",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.werk9.de/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Haben für den Eingang eine Rampe, die muss bei Bedarf hingelegt werden. Eine behindertengerechte Toilette ist vorhanden."
+      }
+    },
+    {
+      "type": "way",
+      "id": 24283864,
+      "nodes": [
+        3925592049,
+        3925591955,
+        3925591885,
+        3925591991,
+        3925592049
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "26",
+        "addr:postcode": "10247",
+        "addr:street": "Colbestraße",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "building": "commercial",
+        "building:levels": "1",
+        "name": "Pride Warehouse",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36908987,
+      "nodes": [
+        3845138577,
+        3845138516,
+        3845138548,
+        3845138562,
+        3845138606,
+        3845138577
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "19-21",
+        "addr:postcode": "10963",
+        "addr:street": "Obentrautstraße",
+        "amenity": "nightclub",
+        "building": "industrial",
+        "building:levels": "1",
+        "contact:facebook": "https://www.facebook.com/gretchen.club/",
+        "contact:instagram": "https://www.instagram.com/clubgretchen/",
+        "contact:phone": "+49 30 25922702",
+        "contact:twitter": "https://twitter.com/clubGRETCHEN/",
+        "contact:website": "https://www.gretchen-club.de/",
+        "email": "gretchen@gretchen-club.de",
+        "name": "Gretchen",
+        "opening_hours": "\"Je nach Veranstaltung\"",
+        "roof:colour": "#74817e",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
+        "smoking": "isolated",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41474936,
+      "nodes": [
+        507415404,
+        507415409,
+        507415413,
+        507415416,
+        507415404
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "64",
+        "addr:postcode": "10439",
+        "addr:street": "Dunckerstraße",
+        "addr:suburb": "Prenzlauer Berg",
+        "alt_name": "Dunckerclub",
+        "amenity": "nightclub",
+        "building": "school",
+        "building:colour": "#b47876",
+        "building:levels": "1",
+        "building:material": "brick",
+        "check_date": "2025-01-26",
+        "check_date:opening_hours": "2025-01-26",
+        "contact:facebook": "https://www.facebook.com/dunckerclub",
+        "contact:instagram": "https://www.instagram.com/dunckerclub/",
+        "contact:phone": "+49 30 4459509",
+        "contact:website": "https://www.dunckerclub.de/",
+        "image": "https://www.dunckerclub.de/bilder/duncker_aussen.jpg",
+        "name": "Duncker",
+        "opening_hours": "Mo 22:00-04:00; Fr-Sa 22:00-05:00; Su 12:00-19:00",
+        "opening_hours:signed": "no",
+        "roof:colour": "#3b3d46",
+        "roof:levels": "1",
+        "roof:shape": "hipped",
+        "start_date": "1989",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes",
+        "year_of_construction": "1913..1914"
+      }
+    },
+    {
+      "type": "way",
+      "id": 42163697,
+      "nodes": [
+        524775128,
+        1382853151,
+        524775134,
+        6274551978,
+        1238527759,
+        1238527763,
+        1238527768,
+        4308868165,
+        1238527764,
+        524775140,
+        1238527760,
+        524775143,
+        11261182195,
+        524775144,
+        524775149,
+        11261182184,
+        1382853155,
+        524775128
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "10243",
+        "addr:street": "An der Schillingbrücke",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/YAAM.Berlin",
+        "contact:instagram": "https://www.instagram.com/yaam_berlin/",
+        "contact:mobile": "+49 176 10051189",
+        "contact:website": "https://www.yaam.de/",
+        "name": "yaam",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "operator": "KULT. Verein für Jugendkultur e.V.",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 45001954,
+      "nodes": [
+        7026729849,
+        7026729851,
+        7026729850,
+        3927812665,
+        3927812664,
+        3927776489,
+        3927753534,
+        3927776566,
+        3927753537,
+        3927753538,
+        7026729849
+      ],
+      "tags": {
+        "addr:housenumber": "99",
+        "addr:postcode": "10245",
+        "addr:street": "Revaler Straße",
+        "amenity": "nightclub",
+        "building": "commercial",
+        "building:levels": "1",
+        "contact:instagram": "lokschuppenberlin",
+        "email": "contact@lokschuppen-berlin.com",
+        "name": "Lokschuppen",
+        "previously": "Suicide Circus",
+        "smoking": "yes",
+        "website": "https://www.lokschuppen-berlin.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 45001955,
+      "nodes": [
+        570521354,
+        7026729879,
+        3927753545,
+        570521355,
+        570521356,
+        570521357,
+        3927771494,
+        3927753533,
+        365579461,
+        1883612365,
+        1883612364,
+        1883612367,
+        1883612368,
+        1883612372,
+        1883612371,
+        365579465,
+        1883612374,
+        7026729884,
+        1883612377,
+        1883612378,
+        1883612375,
+        365579467,
+        365579468,
+        7026735089,
+        570521354
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "99",
+        "addr:postcode": "10245",
+        "addr:street": "Revaler Straße",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "building": "commercial",
+        "building:levels": "1",
+        "contact:email": "info@astra-berlin.de",
+        "contact:facebook": "http://www.facebook.com/astraberlin",
+        "contact:fax": "+49 30 69566842",
+        "contact:instagram": "astraberlin",
+        "contact:phone": "+49 30 20056767",
+        "contact:website": "https://www.astra-berlin.de/",
+        "drink:club-mate": "yes",
+        "leisure": "music_venue",
+        "live_music": "yes",
+        "name": "Astra Kulturhaus",
+        "opening_hours": "\"irregular events\"",
+        "operator": "Kreuzberg Musik Produktion GmbH",
+        "operator:type": "business",
+        "owner": "Kreuzberg Musik Produktion GmbH",
+        "smoking": "isolated",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "Tribüne rollstuhlgerecht bei Konzerten",
+        "wikidata": "Q105762275",
+        "wikimedia_commons": "Category:Astra Kulturhaus"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72984386,
+      "nodes": [
+        1478951175,
+        1478951176,
+        366367116,
+        320457278,
+        27411089,
+        320457326,
+        866236105,
+        866236243,
+        320457319,
+        320457281,
+        30216893,
+        366367106,
+        1478951174,
+        1478951175
+      ],
+      "tags": {
+        "amenity": "nightclub",
+        "building": "viaduct",
+        "check_date:opening_hours": "2025-10-08",
+        "layer": "2",
+        "name": "Golden Gate",
+        "opening_hours:signed": "no",
+        "roof:colour": "#414141",
+        "roof:shape": "flat",
+        "smoking": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.goldengate-berlin.de/",
+        "wheelchair": "limited",
+        "wikidata": "Q21036515"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108243893,
+      "nodes": [
+        1242254676,
+        2927061140,
+        2927064511,
+        1242254663,
+        2927056256,
+        2927051893,
+        1242254679,
+        1242254660,
+        1242254678,
+        2927061153,
+        2927059571,
+        1242254676
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "23",
+        "addr:postcode": "13086",
+        "addr:street": "Langhansstraße",
+        "addr:suburb": "Weißensee",
+        "amenity": "nightclub",
+        "building": "commercial",
+        "name": "OC23",
+        "opening_hours": "Mo-Th 13:00-20:00; Su 12:00-18:00",
+        "phone": "+49 30 92092120",
+        "source": "Geoportal Berlin / Hauskoordinaten",
+        "website": "https://kinderring-berlin.de/oc23/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 118327391,
+      "nodes": [
+        1330890100,
+        1330890105,
+        1330890110,
+        13015670033,
+        1330890108,
+        13015670034,
+        13015670035,
+        1330890106,
+        1330890103,
+        13015670036,
+        1330890101,
+        13015670037,
+        13015670038,
+        1330890096,
+        1330890093,
+        1330890088,
+        1330890091,
+        1330890095,
+        1330890100
+      ],
+      "tags": {
+        "amenity": "nightclub",
+        "building": "boat",
+        "building:levels": "2",
+        "layer": "1",
+        "name": "MS Hoppetosse",
+        "seamark:hulk:category": "casino_boat",
+        "seamark:type": "hulk",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 119172796,
+      "nodes": [
+        1339739704,
+        1339739742,
+        2805957035,
+        661432391,
+        1010872725,
+        280045509,
+        11700332143,
+        661432381,
+        2805957033,
+        1339739724,
+        1339739733,
+        280045506,
+        1339739711,
+        1339739704
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "23",
+        "addr:postcode": "13347",
+        "addr:street": "Gerichtstraße",
+        "addr:suburb": "Gesundbrunnen",
+        "amenity": "nightclub",
+        "name": "Panke",
+        "toilets:wheelchair": "no",
+        "website": "https://www.pankeculture.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 123019464,
+      "nodes": [
+        3927776570,
+        3927753541,
+        3927812679,
+        3927804285,
+        3927804282,
+        3927776495,
+        3927753552,
+        1435351949,
+        3927776570
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "99",
+        "addr:postcode": "10245",
+        "addr:street": "Revaler Straße",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "building": "yes",
+        "contact:email": "info@badehaus-berlin.com",
+        "contact:facebook": "https://www.facebook.com/Badehaus.Berlin",
+        "contact:instagram": "https://www.instagram.com/badehaus_berlin/",
+        "contact:phone": "+49 30 25933042",
+        "contact:website": "http://www.badehaus-berlin.com/",
+        "name": "Badehaus",
+        "operator": "Badehaus Musik GmbH",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "enge Toilette"
+      }
+    },
+    {
+      "type": "way",
+      "id": 123750257,
+      "nodes": [
+        1378972553,
+        1378972549,
+        5262253473,
+        262805322,
+        262805329,
+        5262253474,
+        1378972553
+      ],
+      "tags": {
+        "amenity": "nightclub",
+        "building": "residential",
+        "building:levels": "3",
+        "name": "Prägewerk",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 136852555,
+      "nodes": [
+        1501357820,
+        1501357831,
+        1501357853,
+        1501357839,
+        1501357820
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housename": "Bogen 47",
+        "addr:housenumber": "15—18",
+        "addr:place": "Stadtbahnbogen",
+        "addr:postcode": "10179",
+        "addr:street": "Holzmarktstraße",
+        "addr:suburb": "Mitte",
+        "amenity": "nightclub",
+        "building:levels": "1",
+        "building:part": "yes",
+        "contact:facebook": "lark.berlin",
+        "contact:instagram": "lark.berlin",
+        "email": "club@larkberlin.com",
+        "layer": "1",
+        "name": "LARK",
+        "toilets:wheelchair": "no",
+        "website": "https://larkberlin.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 136852556,
+      "nodes": [
+        1501357847,
+        1501357855,
+        1501357863,
+        1501357861,
+        1501357847
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housename": "Bogen 49",
+        "addr:housenumber": "49",
+        "addr:place": "Stadtbahnbogen",
+        "addr:postcode": "10179",
+        "addr:suburb": "Mitte",
+        "amenity": "nightclub",
+        "building:levels": "1",
+        "building:part": "yes",
+        "layer": "1",
+        "name": "Hangar 49",
+        "website": "https://hangar49.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 148829988,
+      "nodes": [
+        1618964123,
+        11702211628,
+        4181957052,
+        6154095487,
+        4181957053,
+        1395222177,
+        4181957059,
+        6154095496,
+        1395222189,
+        1395222180,
+        1395222174,
+        1395222161,
+        594785892,
+        1618964123
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "10317",
+        "addr:street": "Hauptstraße",
+        "addr:suburb": "Rummelsburg",
+        "amenity": "nightclub",
+        "contact:facebook": "https://www.facebook.com/sisyface",
+        "contact:instagram": "https://www.instagram.com/sisyphosberlin",
+        "contact:ra": "https://ra.co/clubs/17118",
+        "contact:website": "http://www.sisyphos-berlin.net",
+        "culture": "open_air",
+        "name": "Sisyphos",
+        "name:etymology:wikidata": "Q102561",
+        "name:etymology:wikipedia": "de:Sisyphos",
+        "open_air": "yes",
+        "opening_hours": "Mar-Dec: Sa,Su,PH 00:00-24:00",
+        "operator": "Sisyphos Event GmbH",
+        "smoking": "yes",
+        "start_date": "2009",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q21036516",
+        "wikipedia": "de:Sisyphos (Berlin)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 167777311,
+      "nodes": [
+        1791397291,
+        2937851390,
+        2937851389,
+        2937851388,
+        2937851387,
+        2937851386,
+        2937887045,
+        2937851391,
+        1791397291
+      ],
+      "tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "leisure": "cultural_institution",
+        "name": "Jugendschiff \"ReMiLi\"",
+        "opening_hours": "Mo-Fr 14:00-20:00",
+        "website": "https://remili.de/",
+        "wheelchair": "no",
+        "wikidata": "Q112861701",
+        "wikimedia_commons": "Category:Remili (ship, 1906)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172900722,
+      "nodes": [
+        1837420203,
+        1837420220,
+        1837420218,
+        1837420234,
+        1837420203
+      ],
+      "tags": {
+        "amenity": "nightclub",
+        "building": "yes",
+        "name": "Fiese Remise"
+      }
+    },
+    {
+      "type": "way",
+      "id": 277805717,
+      "nodes": [
+        5372996978,
+        5372996977,
+        1636830828,
+        5372996965,
+        2837703633,
+        5372996966,
+        1753806662,
+        1753806661,
+        5043904115,
+        5372996985,
+        5372996984,
+        5372996989,
+        5372996987,
+        5372996988,
+        5372996986,
+        2837706036,
+        2837706037,
+        5372996970,
+        5372996991,
+        5372996990,
+        1636830815,
+        5372996978
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:floor": "0",
+        "addr:housenumber": "2",
+        "addr:postcode": "12435",
+        "addr:street": "Am Flutgraben",
+        "amenity": "nightclub",
+        "bar": "yes",
+        "check_date": "2024-08-28",
+        "contact:facebook": "https://www.facebook.com/FestsaalKreuzberg/",
+        "contact:instagram": "https://www.instagram.com/festsaalkreuzberg/",
+        "level": "0",
+        "name": "Festsaal Kreuzberg",
+        "operator": "Neue Flutgraben Betriebsgesellschaft mbH & Co KG",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+49 30 403655630",
+        "ref:vatin": "DE310804941",
+        "smoking": "outside",
+        "source": "survey",
+        "toilets": "yes",
+        "website": "https://www.festsaal-kreuzberg.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Durchs Tor kann man ebenerdig, kein Rolli-WC",
+        "wikidata": "Q115794233",
+        "wikimedia_commons": "File:20230916 xl 1534-Festsaal Kreuzberg 2.jpg"
+      }
+    },
+    {
+      "type": "way",
+      "id": 286165789,
+      "nodes": [
+        2898073577,
+        2898073578,
+        2898073579,
+        2898073580,
+        2898073581,
+        2898073582,
+        2898073583,
+        2898073584,
+        2898073577
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:postcode": "10243",
+        "addr:street": "Am Wriezener Bahnhof",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "building": "yes",
+        "check_date": "2023-11-03",
+        "contact:facebook": "https://www.facebook.com/KantineamBerghain/",
+        "email": "support@berghain.de",
+        "name": "Berghain Kantine",
+        "nohousenumber": "yes",
+        "operator": "Berghain OstGut GmbH",
+        "website": "https://www.berghain.berlin/de/program/kantine-am-berghain/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291111616,
+      "nodes": [
+        2945540620,
+        11308512469,
+        444970549,
+        444970543,
+        444970519,
+        9961517147,
+        9961517144,
+        9961517145,
+        9961517146,
+        444970522,
+        2945540620
+      ],
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "10997",
+        "addr:street": "Schleusenufer",
+        "amenity": "nightclub",
+        "name": "ÆDEN",
+        "opening_hours": "Tu 22:00-08:00; Th 22:00-08:00; Fr 22:00-10:00; Sa 18:00-10:00",
+        "website": "http://aedenberlin.com",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 293386107,
+      "nodes": [
+        2969755047,
+        5247946860,
+        2969769880,
+        2969769777,
+        2969769875,
+        5247946859,
+        2969755046,
+        2969755047
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "10243",
+        "addr:street": "Holzmarktstraße",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "building": "yes",
+        "contact:email": "info@katerblau.de;hello@katerblau.de",
+        "contact:facebook": "https://www.facebook.com/katerblau/events",
+        "contact:instagram": "https://www.instagram.com/katerblaugram",
+        "contact:phone": "+49 30 47361686",
+        "contact:ra": "https://ra.co/clubs/99161",
+        "contact:website": "http://www.katerblau.de",
+        "name": "Kater Blau",
+        "operator": "Katerclub GmbH",
+        "smoking": "separated",
+        "start_date": "2014",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2658747",
+        "wikipedia": "de:Kater Blau"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342600129,
+      "nodes": [
+        1883612384,
+        1883612382,
+        1883612383,
+        4441374962,
+        1883612376,
+        1883612366,
+        1883612360,
+        1883612359,
+        6394788157,
+        1883612361,
+        1883612363,
+        1883612362,
+        1883612369,
+        1883612370,
+        1883612373,
+        1883612379,
+        1883612380,
+        1883612381,
+        1883612384
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "99",
+        "addr:postcode": "10245",
+        "addr:street": "Revaler Straße",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "club": "culture",
+        "contact:email": "info@maaya.de",
+        "contact:instagram": "https://www.instagram.com/maaya_berlin/",
+        "contact:phone": "+49 30 297766770",
+        "leisure": "music_venue",
+        "name": "Maaya",
+        "opening_hours": "Tu-Th,Su 12:00-22:00; Fr,Sa 12:00-23:00; ",
+        "operator": "Maaya Event GmbH",
+        "website": "https://maaya.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355476495,
+      "nodes": [
+        3610779777,
+        662984151,
+        662984152,
+        662984153,
+        3610779776,
+        3610779778,
+        662984156,
+        662985700,
+        662984157,
+        3610779777
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1-4",
+        "addr:postcode": "10365",
+        "addr:street": "Wiesenweg",
+        "addr:suburb": "Lichtenberg",
+        "amenity": "nightclub",
+        "contact:website": "https://oxi-garten.de/",
+        "name": "OXI Garten",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379305718,
+      "nodes": [
+        3826014906,
+        3826014907,
+        3826013981,
+        3826014908,
+        3826014903,
+        3826014904,
+        8568796679,
+        3826014896,
+        3826014895,
+        3826014886,
+        6829881076,
+        3826014887,
+        3826014876,
+        6829881072,
+        6829881075,
+        3826014875,
+        3826014867,
+        6829881080,
+        6829881079,
+        3826014850,
+        3826014888,
+        3826014889,
+        7218845772,
+        3826014891,
+        3826014892,
+        3826014894,
+        3826014897,
+        3826014898,
+        3826014900,
+        3826014902,
+        3826014905,
+        3826014901,
+        3826014906
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "5",
+        "addr:postcode": "10777",
+        "addr:street": "Nollendorfplatz",
+        "amenity": "nightclub",
+        "brewery": "Krombacher;Starnberger",
+        "building": "yes",
+        "building:levels": "5",
+        "email": "info@metropol-berlin.de",
+        "name": "Metropol",
+        "official_name": "Metropol Berlin",
+        "opening_hours": "\"zu Veranstaltungen\"",
+        "phone": "+49 30 403678560",
+        "smoking": "separated",
+        "source_ref:url": "https://metropol-berlin.de/contact",
+        "toilets:wheelchair": "yes",
+        "website": "https://metropol-berlin.de",
+        "wheelchair": "yes",
+        "wikidata": "Q1724204",
+        "wikipedia": "de:Metropol (Berlin)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 684464913,
+      "nodes": [
+        365579637,
+        6412719959,
+        9698094768,
+        365579634,
+        365579635,
+        365579636,
+        365579637
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "99",
+        "addr:postcode": "10245",
+        "addr:street": "Revaler Straße",
+        "addr:suburb": "Friedrichshain",
+        "amenity": "nightclub",
+        "building": "commercial",
+        "building:levels": "1",
+        "contact:instagram": "cassiopeia_berlin",
+        "contact:website": "https://cassiopeia-berlin.de/",
+        "live_music": "yes",
+        "name": "Cassiopeia",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q47163174",
+        "wikimedia_commons": "Category:Cassiopeia (Berlin)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081145396,
+      "nodes": [
+        9909457394,
+        9909457395,
+        9909457396,
+        9909457399,
+        9909457397,
+        9909457394
+      ],
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "121",
+        "addr:postcode": "10407",
+        "addr:street": "Storkower Straße",
+        "addr:suburb": "Prenzlauer Berg",
+        "amenity": "nightclub",
+        "contact:instagram": "https://www.instagram.com/abstrakt.berlin",
+        "contact:phone": "+49 30 65832595",
+        "contact:ra": "https://de.ra.co/clubs/233027",
+        "name": "Abstrakt",
+        "old_contact:facebook": "https://www.facebook.com/menschmeierberlin/events",
+        "old_contact:ra": "https://ra.co/clubs/103373;https://ra.co/clubs/227831",
+        "old_name:2015--2024-01-22": "Mensch Meier",
+        "old_operator": "Mensch Meier GmbH",
+        "old_wikidata": "Q105762292",
+        "smoking": "no",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wifi": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3845138516,
+      "lat": 52.4958958,
+      "lon": 13.3878081
+    },
+    {
+      "type": "node",
+      "id": 3845138548,
+      "lat": 52.4959878,
+      "lon": 13.3878872
+    },
+    {
+      "type": "node",
+      "id": 3845138562,
+      "lat": 52.4960364,
+      "lon": 13.3877381
+    },
+    {
+      "type": "node",
+      "id": 3845138577,
+      "lat": 52.4960977,
+      "lon": 13.3871979
+    },
+    {
+      "type": "node",
+      "id": 3845138606,
+      "lat": 52.4961866,
+      "lon": 13.387276
+    },
+    {
+      "type": "node",
+      "id": 3826013981,
+      "lat": 52.4990801,
+      "lon": 13.3526032
+    },
+    {
+      "type": "node",
+      "id": 3826014850,
+      "lat": 52.4988409,
+      "lon": 13.3530222
+    },
+    {
+      "type": "node",
+      "id": 3826014867,
+      "lat": 52.4988398,
+      "lon": 13.3524633
+    },
+    {
+      "type": "node",
+      "id": 3826014875,
+      "lat": 52.4988477,
+      "lon": 13.3524641
+    },
+    {
+      "type": "node",
+      "id": 3826014876,
+      "lat": 52.4988604,
+      "lon": 13.3523724
+    },
+    {
+      "type": "node",
+      "id": 3826014886,
+      "lat": 52.4990194,
+      "lon": 13.3524748
+    },
+    {
+      "type": "node",
+      "id": 3826014887,
+      "lat": 52.4990223,
+      "lon": 13.352387
+    },
+    {
+      "type": "node",
+      "id": 3826014888,
+      "lat": 52.499026,
+      "lon": 13.3530367
+    },
+    {
+      "type": "node",
+      "id": 3826014889,
+      "lat": 52.4990265,
+      "lon": 13.3530366
+    },
+    {
+      "type": "node",
+      "id": 3826014891,
+      "lat": 52.4990298,
+      "lon": 13.3529281
+    },
+    {
+      "type": "node",
+      "id": 3826014892,
+      "lat": 52.4990341,
+      "lon": 13.3529286
+    },
+    {
+      "type": "node",
+      "id": 3826014894,
+      "lat": 52.4990506,
+      "lon": 13.3529211
+    },
+    {
+      "type": "node",
+      "id": 3826014895,
+      "lat": 52.4990513,
+      "lon": 13.3524776
+    },
+    {
+      "type": "node",
+      "id": 3826014896,
+      "lat": 52.4990605,
+      "lon": 13.3524864
+    },
+    {
+      "type": "node",
+      "id": 3826014897,
+      "lat": 52.4990613,
+      "lon": 13.3528707
+    },
+    {
+      "type": "node",
+      "id": 3826014898,
+      "lat": 52.4990617,
+      "lon": 13.3528336
+    },
+    {
+      "type": "node",
+      "id": 3826014900,
+      "lat": 52.4990692,
+      "lon": 13.3528331
+    },
+    {
+      "type": "node",
+      "id": 3826014901,
+      "lat": 52.4990702,
+      "lon": 13.3527861
+    },
+    {
+      "type": "node",
+      "id": 3826014902,
+      "lat": 52.4990727,
+      "lon": 13.352825
+    },
+    {
+      "type": "node",
+      "id": 3826014903,
+      "lat": 52.4990709,
+      "lon": 13.3525784
+    },
+    {
+      "type": "node",
+      "id": 3826014904,
+      "lat": 52.4990719,
+      "lon": 13.3525213
+    },
+    {
+      "type": "node",
+      "id": 3826014905,
+      "lat": 52.4990736,
+      "lon": 13.3527873
+    },
+    {
+      "type": "node",
+      "id": 3826014906,
+      "lat": 52.499074,
+      "lon": 13.3526283
+    },
+    {
+      "type": "node",
+      "id": 3826014907,
+      "lat": 52.4990796,
+      "lon": 13.3526279
+    },
+    {
+      "type": "node",
+      "id": 3826014908,
+      "lat": 52.4990806,
+      "lon": 13.3525795
+    },
+    {
+      "type": "node",
+      "id": 6829881072,
+      "lat": 52.4988489,
+      "lon": 13.3523711
+    },
+    {
+      "type": "node",
+      "id": 6829881075,
+      "lat": 52.4988477,
+      "lon": 13.3524147
+    },
+    {
+      "type": "node",
+      "id": 6829881076,
+      "lat": 52.4990209,
+      "lon": 13.3524287
+    },
+    {
+      "type": "node",
+      "id": 6829881079,
+      "lat": 52.4988445,
+      "lon": 13.3529256
+    },
+    {
+      "type": "node",
+      "id": 6829881080,
+      "lat": 52.4988265,
+      "lon": 13.3529229
+    },
+    {
+      "type": "node",
+      "id": 7218845772,
+      "lat": 52.4990283,
+      "lon": 13.3529756
+    },
+    {
+      "type": "node",
+      "id": 8568796679,
+      "lat": 52.4990686,
+      "lon": 13.3525025
+    },
+    {
+      "type": "node",
+      "id": 262535398,
+      "lat": 52.5092466,
+      "lon": 13.3945099
+    },
+    {
+      "type": "node",
+      "id": 262535399,
+      "lat": 52.509018,
+      "lon": 13.3945517
+    },
+    {
+      "type": "node",
+      "id": 262535400,
+      "lat": 52.5089981,
+      "lon": 13.3941955
+    },
+    {
+      "type": "node",
+      "id": 262535401,
+      "lat": 52.5092267,
+      "lon": 13.3941583
+    },
+    {
+      "type": "node",
+      "id": 1603176709,
+      "lat": 52.5090614,
+      "lon": 13.3941835
+    },
+    {
+      "type": "node",
+      "id": 5366127390,
+      "lat": 52.5092275,
+      "lon": 13.3941738
+    },
+    {
+      "type": "node",
+      "id": 262805322,
+      "lat": 52.5153032,
+      "lon": 13.4083712
+    },
+    {
+      "type": "node",
+      "id": 262805329,
+      "lat": 52.5154098,
+      "lon": 13.4084273
+    },
+    {
+      "type": "node",
+      "id": 5262253473,
+      "lat": 52.5152462,
+      "lon": 13.4086439
+    },
+    {
+      "type": "node",
+      "id": 1378972549,
+      "lat": 52.5151962,
+      "lon": 13.4089268
+    },
+    {
+      "type": "node",
+      "id": 1378972553,
+      "lat": 52.5153035,
+      "lon": 13.4089833
+    },
+    {
+      "type": "node",
+      "id": 5262253474,
+      "lat": 52.5153544,
+      "lon": 13.4086999
+    },
+    {
+      "type": "node",
+      "id": 27411089,
+      "lat": 52.5160904,
+      "lon": 13.4168797
+    },
+    {
+      "type": "node",
+      "id": 30216893,
+      "lat": 52.5158601,
+      "lon": 13.4169456
+    },
+    {
+      "type": "node",
+      "id": 320457278,
+      "lat": 52.516078,
+      "lon": 13.4168222
+    },
+    {
+      "type": "node",
+      "id": 320457281,
+      "lat": 52.5158564,
+      "lon": 13.4170133
+    },
+    {
+      "type": "node",
+      "id": 320457319,
+      "lat": 52.5158539,
+      "lon": 13.4170725
+    },
+    {
+      "type": "node",
+      "id": 320457326,
+      "lat": 52.5161015,
+      "lon": 13.4169306
+    },
+    {
+      "type": "node",
+      "id": 366367106,
+      "lat": 52.5158635,
+      "lon": 13.4168744
+    },
+    {
+      "type": "node",
+      "id": 366367116,
+      "lat": 52.5160666,
+      "lon": 13.4167702
+    },
+    {
+      "type": "node",
+      "id": 866236105,
+      "lat": 52.5161108,
+      "lon": 13.4169735
+    },
+    {
+      "type": "node",
+      "id": 866236243,
+      "lat": 52.515851,
+      "lon": 13.4171337
+    },
+    {
+      "type": "node",
+      "id": 1478951174,
+      "lat": 52.515866,
+      "lon": 13.4168259
+    },
+    {
+      "type": "node",
+      "id": 1478951175,
+      "lat": 52.5160562,
+      "lon": 13.4167219
+    },
+    {
+      "type": "node",
+      "id": 1478951176,
+      "lat": 52.5160617,
+      "lon": 13.4167421
+    },
+    {
+      "type": "node",
+      "id": 280045506,
+      "lat": 52.5450173,
+      "lon": 13.3741226
+    },
+    {
+      "type": "node",
+      "id": 280045509,
+      "lat": 52.5449378,
+      "lon": 13.3743858
+    },
+    {
+      "type": "node",
+      "id": 661432381,
+      "lat": 52.5449398,
+      "lon": 13.3743632
+    },
+    {
+      "type": "node",
+      "id": 661432391,
+      "lat": 52.5450386,
+      "lon": 13.3743892
+    },
+    {
+      "type": "node",
+      "id": 1010872725,
+      "lat": 52.5450364,
+      "lon": 13.3744117
+    },
+    {
+      "type": "node",
+      "id": 1339739704,
+      "lat": 52.5450648,
+      "lon": 13.3740694
+    },
+    {
+      "type": "node",
+      "id": 1339739711,
+      "lat": 52.5450446,
+      "lon": 13.374092
+    },
+    {
+      "type": "node",
+      "id": 1339739724,
+      "lat": 52.544865,
+      "lon": 13.374161
+    },
+    {
+      "type": "node",
+      "id": 1339739733,
+      "lat": 52.5449763,
+      "lon": 13.3740283
+    },
+    {
+      "type": "node",
+      "id": 1339739742,
+      "lat": 52.545139,
+      "lon": 13.3742569
+    },
+    {
+      "type": "node",
+      "id": 2805957033,
+      "lat": 52.5449418,
+      "lon": 13.3743406
+    },
+    {
+      "type": "node",
+      "id": 2805957035,
+      "lat": 52.5450408,
+      "lon": 13.3743666
+    },
+    {
+      "type": "node",
+      "id": 11700332143,
+      "lat": 52.5449384,
+      "lon": 13.3743795
+    },
+    {
+      "type": "node",
+      "id": 1961638832,
+      "lat": 52.529548,
+      "lon": 13.4123974
+    },
+    {
+      "type": "node",
+      "id": 3240648732,
+      "lat": 52.5296512,
+      "lon": 13.4125044
+    },
+    {
+      "type": "node",
+      "id": 3240648733,
+      "lat": 52.5296716,
+      "lon": 13.412081
+    },
+    {
+      "type": "node",
+      "id": 3240648735,
+      "lat": 52.5296897,
+      "lon": 13.4124997
+    },
+    {
+      "type": "node",
+      "id": 3240648741,
+      "lat": 52.5297398,
+      "lon": 13.4125542
+    },
+    {
+      "type": "node",
+      "id": 3240648743,
+      "lat": 52.5297601,
+      "lon": 13.4125069
+    },
+    {
+      "type": "node",
+      "id": 3240648744,
+      "lat": 52.5297672,
+      "lon": 13.4125134
+    },
+    {
+      "type": "node",
+      "id": 3240648745,
+      "lat": 52.5297691,
+      "lon": 13.4122148
+    },
+    {
+      "type": "node",
+      "id": 3240648747,
+      "lat": 52.5298006,
+      "lon": 13.4124237
+    },
+    {
+      "type": "node",
+      "id": 3240648753,
+      "lat": 52.5298405,
+      "lon": 13.4122865
+    },
+    {
+      "type": "node",
+      "id": 3240648758,
+      "lat": 52.5298462,
+      "lon": 13.412287
+    },
+    {
+      "type": "node",
+      "id": 3240648759,
+      "lat": 52.5298504,
+      "lon": 13.4122937
+    },
+    {
+      "type": "node",
+      "id": 11638672157,
+      "lat": 52.5298428,
+      "lon": 13.4122826
+    },
+    {
+      "type": "node",
+      "id": 444970519,
+      "lat": 52.4972611,
+      "lon": 13.4491609
+    },
+    {
+      "type": "node",
+      "id": 444970522,
+      "lat": 52.4971052,
+      "lon": 13.4494277
+    },
+    {
+      "type": "node",
+      "id": 444970543,
+      "lat": 52.4975372,
+      "lon": 13.4495369
+    },
+    {
+      "type": "node",
+      "id": 444970549,
+      "lat": 52.4973853,
+      "lon": 13.4498327
+    },
+    {
+      "type": "node",
+      "id": 1330890096,
+      "lat": 52.497532,
+      "lon": 13.4545119
+    },
+    {
+      "type": "node",
+      "id": 1330890101,
+      "lat": 52.4975562,
+      "lon": 13.454439
+    },
+    {
+      "type": "node",
+      "id": 1330890103,
+      "lat": 52.4975796,
+      "lon": 13.4544146
+    },
+    {
+      "type": "node",
+      "id": 1330890106,
+      "lat": 52.4975876,
+      "lon": 13.4544138
+    },
+    {
+      "type": "node",
+      "id": 1330890108,
+      "lat": 52.4976064,
+      "lon": 13.4544657
+    },
+    {
+      "type": "node",
+      "id": 1330890110,
+      "lat": 52.4976055,
+      "lon": 13.4545128
+    },
+    {
+      "type": "node",
+      "id": 1636830815,
+      "lat": 52.4967583,
+      "lon": 13.4512779
+    },
+    {
+      "type": "node",
+      "id": 1636830828,
+      "lat": 52.4970638,
+      "lon": 13.4515065
+    },
+    {
+      "type": "node",
+      "id": 1753806661,
+      "lat": 52.4971013,
+      "lon": 13.4512122
+    },
+    {
+      "type": "node",
+      "id": 1753806662,
+      "lat": 52.4971122,
+      "lon": 13.4513017
+    },
+    {
+      "type": "node",
+      "id": 2837703633,
+      "lat": 52.4970843,
+      "lon": 13.4514188
+    },
+    {
+      "type": "node",
+      "id": 2837706036,
+      "lat": 52.4967907,
+      "lon": 13.4508335
+    },
+    {
+      "type": "node",
+      "id": 2837706037,
+      "lat": 52.4967003,
+      "lon": 13.4511953
+    },
+    {
+      "type": "node",
+      "id": 2945540620,
+      "lat": 52.4970744,
+      "lon": 13.4494746
+    },
+    {
+      "type": "node",
+      "id": 5043904115,
+      "lat": 52.4970079,
+      "lon": 13.4510367
+    },
+    {
+      "type": "node",
+      "id": 5372996965,
+      "lat": 52.4970789,
+      "lon": 13.4514394
+    },
+    {
+      "type": "node",
+      "id": 5372996966,
+      "lat": 52.4970953,
+      "lon": 13.4513773
+    },
+    {
+      "type": "node",
+      "id": 5372996970,
+      "lat": 52.4967333,
+      "lon": 13.451217
+    },
+    {
+      "type": "node",
+      "id": 5372996977,
+      "lat": 52.4968324,
+      "lon": 13.4523213
+    },
+    {
+      "type": "node",
+      "id": 5372996978,
+      "lat": 52.4965382,
+      "lon": 13.4520853
+    },
+    {
+      "type": "node",
+      "id": 5372996984,
+      "lat": 52.4968721,
+      "lon": 13.4508276
+    },
+    {
+      "type": "node",
+      "id": 5372996985,
+      "lat": 52.4969091,
+      "lon": 13.4508769
+    },
+    {
+      "type": "node",
+      "id": 5372996986,
+      "lat": 52.4968013,
+      "lon": 13.4508122
+    },
+    {
+      "type": "node",
+      "id": 5372996987,
+      "lat": 52.4968303,
+      "lon": 13.4507944
+    },
+    {
+      "type": "node",
+      "id": 5372996988,
+      "lat": 52.496816,
+      "lon": 13.4508001
+    },
+    {
+      "type": "node",
+      "id": 5372996989,
+      "lat": 52.4968454,
+      "lon": 13.4507947
+    },
+    {
+      "type": "node",
+      "id": 5372996990,
+      "lat": 52.4967637,
+      "lon": 13.4512577
+    },
+    {
+      "type": "node",
+      "id": 5372996991,
+      "lat": 52.4967675,
+      "lon": 13.4512405
+    },
+    {
+      "type": "node",
+      "id": 9961517144,
+      "lat": 52.4971823,
+      "lon": 13.4492715
+    },
+    {
+      "type": "node",
+      "id": 9961517145,
+      "lat": 52.4971309,
+      "lon": 13.4493595
+    },
+    {
+      "type": "node",
+      "id": 9961517146,
+      "lat": 52.4971382,
+      "lon": 13.4493711
+    },
+    {
+      "type": "node",
+      "id": 9961517147,
+      "lat": 52.4971896,
+      "lon": 13.4492832
+    },
+    {
+      "type": "node",
+      "id": 11308512469,
+      "lat": 52.4973648,
+      "lon": 13.449871
+    },
+    {
+      "type": "node",
+      "id": 13015670033,
+      "lat": 52.4976071,
+      "lon": 13.45449
+    },
+    {
+      "type": "node",
+      "id": 13015670034,
+      "lat": 52.4976023,
+      "lon": 13.4544449
+    },
+    {
+      "type": "node",
+      "id": 13015670035,
+      "lat": 52.4975937,
+      "lon": 13.4544237
+    },
+    {
+      "type": "node",
+      "id": 13015670036,
+      "lat": 52.4975674,
+      "lon": 13.4544232
+    },
+    {
+      "type": "node",
+      "id": 13015670037,
+      "lat": 52.4975481,
+      "lon": 13.4544587
+    },
+    {
+      "type": "node",
+      "id": 13015670038,
+      "lat": 52.4975406,
+      "lon": 13.4544827
+    },
+    {
+      "type": "node",
+      "id": 1330890088,
+      "lat": 52.4974456,
+      "lon": 13.4549559
+    },
+    {
+      "type": "node",
+      "id": 1330890091,
+      "lat": 52.4974476,
+      "lon": 13.4550484
+    },
+    {
+      "type": "node",
+      "id": 1330890093,
+      "lat": 52.4974658,
+      "lon": 13.4548097
+    },
+    {
+      "type": "node",
+      "id": 1330890095,
+      "lat": 52.4974914,
+      "lon": 13.4549784
+    },
+    {
+      "type": "node",
+      "id": 1330890100,
+      "lat": 52.4975343,
+      "lon": 13.4548587
+    },
+    {
+      "type": "node",
+      "id": 1330890105,
+      "lat": 52.4976005,
+      "lon": 13.4545458
+    },
+    {
+      "type": "node",
+      "id": 1791397291,
+      "lat": 52.4580843,
+      "lon": 13.5170582
+    },
+    {
+      "type": "node",
+      "id": 2937851386,
+      "lat": 52.4579325,
+      "lon": 13.5178736
+    },
+    {
+      "type": "node",
+      "id": 2937851387,
+      "lat": 52.4579415,
+      "lon": 13.5179322
+    },
+    {
+      "type": "node",
+      "id": 2937851388,
+      "lat": 52.4579589,
+      "lon": 13.5179688
+    },
+    {
+      "type": "node",
+      "id": 2937851389,
+      "lat": 52.4579849,
+      "lon": 13.5179444
+    },
+    {
+      "type": "node",
+      "id": 2937851390,
+      "lat": 52.4580044,
+      "lon": 13.5178884
+    },
+    {
+      "type": "node",
+      "id": 2937851391,
+      "lat": 52.4580148,
+      "lon": 13.5170436
+    },
+    {
+      "type": "node",
+      "id": 2937887045,
+      "lat": 52.4579838,
+      "lon": 13.5173564
+    },
+    {
+      "type": "node",
+      "id": 594785892,
+      "lat": 52.4932765,
+      "lon": 13.4908218
+    },
+    {
+      "type": "node",
+      "id": 1395222161,
+      "lat": 52.4936147,
+      "lon": 13.4916897
+    },
+    {
+      "type": "node",
+      "id": 1395222174,
+      "lat": 52.493699,
+      "lon": 13.4917144
+    },
+    {
+      "type": "node",
+      "id": 1395222177,
+      "lat": 52.4937419,
+      "lon": 13.492086
+    },
+    {
+      "type": "node",
+      "id": 1395222180,
+      "lat": 52.4938194,
+      "lon": 13.491684
+    },
+    {
+      "type": "node",
+      "id": 1395222189,
+      "lat": 52.4938609,
+      "lon": 13.4915935
+    },
+    {
+      "type": "node",
+      "id": 1618964123,
+      "lat": 52.4927637,
+      "lon": 13.4914026
+    },
+    {
+      "type": "node",
+      "id": 4181957052,
+      "lat": 52.4932842,
+      "lon": 13.4927505
+    },
+    {
+      "type": "node",
+      "id": 4181957053,
+      "lat": 52.4933579,
+      "lon": 13.4929245
+    },
+    {
+      "type": "node",
+      "id": 4181957059,
+      "lat": 52.4939181,
+      "lon": 13.4916615
+    },
+    {
+      "type": "node",
+      "id": 6154095487,
+      "lat": 52.4932937,
+      "lon": 13.4927736
+    },
+    {
+      "type": "node",
+      "id": 6154095496,
+      "lat": 52.4939081,
+      "lon": 13.4916493
+    },
+    {
+      "type": "node",
+      "id": 11702211628,
+      "lat": 52.4929284,
+      "lon": 13.4918394
+    },
+    {
+      "type": "node",
+      "id": 524775128,
+      "lat": 52.5092757,
+      "lon": 13.4301347
+    },
+    {
+      "type": "node",
+      "id": 524775134,
+      "lat": 52.5089514,
+      "lon": 13.4308627
+    },
+    {
+      "type": "node",
+      "id": 524775140,
+      "lat": 52.5091857,
+      "lon": 13.4310142
+    },
+    {
+      "type": "node",
+      "id": 524775143,
+      "lat": 52.5094758,
+      "lon": 13.4305544
+    },
+    {
+      "type": "node",
+      "id": 524775144,
+      "lat": 52.5094381,
+      "lon": 13.4304578
+    },
+    {
+      "type": "node",
+      "id": 524775149,
+      "lat": 52.5094761,
+      "lon": 13.4303758
+    },
+    {
+      "type": "node",
+      "id": 1238527759,
+      "lat": 52.5088866,
+      "lon": 13.4310628
+    },
+    {
+      "type": "node",
+      "id": 1238527760,
+      "lat": 52.5092388,
+      "lon": 13.4310787
+    },
+    {
+      "type": "node",
+      "id": 1238527763,
+      "lat": 52.5090024,
+      "lon": 13.4312021
+    },
+    {
+      "type": "node",
+      "id": 1238527764,
+      "lat": 52.5091471,
+      "lon": 13.4310978
+    },
+    {
+      "type": "node",
+      "id": 1238527768,
+      "lat": 52.5090831,
+      "lon": 13.431021
+    },
+    {
+      "type": "node",
+      "id": 1382853151,
+      "lat": 52.50904,
+      "lon": 13.4306639
+    },
+    {
+      "type": "node",
+      "id": 1382853155,
+      "lat": 52.5093614,
+      "lon": 13.4302378
+    },
+    {
+      "type": "node",
+      "id": 1837420203,
+      "lat": 52.5057848,
+      "lon": 13.4322671
+    },
+    {
+      "type": "node",
+      "id": 1837420218,
+      "lat": 52.5059622,
+      "lon": 13.4323497
+    },
+    {
+      "type": "node",
+      "id": 1837420220,
+      "lat": 52.5059216,
+      "lon": 13.4324376
+    },
+    {
+      "type": "node",
+      "id": 1837420234,
+      "lat": 52.5058254,
+      "lon": 13.4321791
+    },
+    {
+      "type": "node",
+      "id": 4308868165,
+      "lat": 52.5091114,
+      "lon": 13.431055
+    },
+    {
+      "type": "node",
+      "id": 6274551978,
+      "lat": 52.5089672,
+      "lon": 13.4308817
+    },
+    {
+      "type": "node",
+      "id": 11261182184,
+      "lat": 52.5094614,
+      "lon": 13.4303582
+    },
+    {
+      "type": "node",
+      "id": 11261182195,
+      "lat": 52.5094669,
+      "lon": 13.4304938
+    },
+    {
+      "type": "node",
+      "id": 1501357820,
+      "lat": 52.5129229,
+      "lon": 13.4227891
+    },
+    {
+      "type": "node",
+      "id": 1501357831,
+      "lat": 52.5130021,
+      "lon": 13.4226143
+    },
+    {
+      "type": "node",
+      "id": 1501357839,
+      "lat": 52.5130452,
+      "lon": 13.422939
+    },
+    {
+      "type": "node",
+      "id": 1501357847,
+      "lat": 52.513093,
+      "lon": 13.4223744
+    },
+    {
+      "type": "node",
+      "id": 1501357853,
+      "lat": 52.5131245,
+      "lon": 13.4227642
+    },
+    {
+      "type": "node",
+      "id": 1501357855,
+      "lat": 52.5131647,
+      "lon": 13.4221986
+    },
+    {
+      "type": "node",
+      "id": 1501357861,
+      "lat": 52.5132228,
+      "lon": 13.4225174
+    },
+    {
+      "type": "node",
+      "id": 1501357863,
+      "lat": 52.5132945,
+      "lon": 13.4223415
+    },
+    {
+      "type": "node",
+      "id": 2969755046,
+      "lat": 52.511943,
+      "lon": 13.4251395
+    },
+    {
+      "type": "node",
+      "id": 2969755047,
+      "lat": 52.5120276,
+      "lon": 13.4252054
+    },
+    {
+      "type": "node",
+      "id": 2969769777,
+      "lat": 52.5118618,
+      "lon": 13.4255155
+    },
+    {
+      "type": "node",
+      "id": 2969769875,
+      "lat": 52.5118206,
+      "lon": 13.4253595
+    },
+    {
+      "type": "node",
+      "id": 2969769880,
+      "lat": 52.5119873,
+      "lon": 13.4255266
+    },
+    {
+      "type": "node",
+      "id": 5247946859,
+      "lat": 52.5118627,
+      "lon": 13.4252818
+    },
+    {
+      "type": "node",
+      "id": 5247946860,
+      "lat": 52.5120105,
+      "lon": 13.4253373
+    },
+    {
+      "type": "node",
+      "id": 2898073577,
+      "lat": 52.5115321,
+      "lon": 13.4426035
+    },
+    {
+      "type": "node",
+      "id": 2898073578,
+      "lat": 52.5115177,
+      "lon": 13.44258
+    },
+    {
+      "type": "node",
+      "id": 2898073579,
+      "lat": 52.5114867,
+      "lon": 13.4426314
+    },
+    {
+      "type": "node",
+      "id": 2898073580,
+      "lat": 52.5114201,
+      "lon": 13.4425228
+    },
+    {
+      "type": "node",
+      "id": 2898073581,
+      "lat": 52.5114853,
+      "lon": 13.4424148
+    },
+    {
+      "type": "node",
+      "id": 2898073582,
+      "lat": 52.5114732,
+      "lon": 13.4423951
+    },
+    {
+      "type": "node",
+      "id": 2898073583,
+      "lat": 52.5115377,
+      "lon": 13.4422882
+    },
+    {
+      "type": "node",
+      "id": 2898073584,
+      "lat": 52.5116308,
+      "lon": 13.44244
+    },
+    {
+      "type": "node",
+      "id": 365579461,
+      "lat": 52.5069446,
+      "lon": 13.4518172
+    },
+    {
+      "type": "node",
+      "id": 365579465,
+      "lat": 52.5074847,
+      "lon": 13.4521322
+    },
+    {
+      "type": "node",
+      "id": 365579467,
+      "lat": 52.5076014,
+      "lon": 13.4519145
+    },
+    {
+      "type": "node",
+      "id": 365579468,
+      "lat": 52.5077228,
+      "lon": 13.4519725
+    },
+    {
+      "type": "node",
+      "id": 570521354,
+      "lat": 52.5077399,
+      "lon": 13.4518764
+    },
+    {
+      "type": "node",
+      "id": 570521355,
+      "lat": 52.5071608,
+      "lon": 13.4516
+    },
+    {
+      "type": "node",
+      "id": 570521356,
+      "lat": 52.5071723,
+      "lon": 13.4515353
+    },
+    {
+      "type": "node",
+      "id": 570521357,
+      "lat": 52.5070182,
+      "lon": 13.4514618
+    },
+    {
+      "type": "node",
+      "id": 1883612359,
+      "lat": 52.5067194,
+      "lon": 13.4528247
+    },
+    {
+      "type": "node",
+      "id": 1883612360,
+      "lat": 52.506838,
+      "lon": 13.4521544
+    },
+    {
+      "type": "node",
+      "id": 1883612361,
+      "lat": 52.5068467,
+      "lon": 13.4528847
+    },
+    {
+      "type": "node",
+      "id": 1883612362,
+      "lat": 52.5068577,
+      "lon": 13.4531242
+    },
+    {
+      "type": "node",
+      "id": 1883612363,
+      "lat": 52.5068938,
+      "lon": 13.4529094
+    },
+    {
+      "type": "node",
+      "id": 1883612364,
+      "lat": 52.5069168,
+      "lon": 13.4520143
+    },
+    {
+      "type": "node",
+      "id": 1883612365,
+      "lat": 52.5069512,
+      "lon": 13.4518203
+    },
+    {
+      "type": "node",
+      "id": 1883612366,
+      "lat": 52.5069652,
+      "lon": 13.4522219
+    },
+    {
+      "type": "node",
+      "id": 1883612367,
+      "lat": 52.5070221,
+      "lon": 13.4520645
+    },
+    {
+      "type": "node",
+      "id": 1883612368,
+      "lat": 52.5070568,
+      "lon": 13.4518695
+    },
+    {
+      "type": "node",
+      "id": 1883612369,
+      "lat": 52.5071105,
+      "lon": 13.4532481
+    },
+    {
+      "type": "node",
+      "id": 1883612370,
+      "lat": 52.5071505,
+      "lon": 13.4530307
+    },
+    {
+      "type": "node",
+      "id": 1883612371,
+      "lat": 52.507271,
+      "lon": 13.4520302
+    },
+    {
+      "type": "node",
+      "id": 1883612372,
+      "lat": 52.5072806,
+      "lon": 13.4519763
+    },
+    {
+      "type": "node",
+      "id": 1883612373,
+      "lat": 52.5074436,
+      "lon": 13.453175
+    },
+    {
+      "type": "node",
+      "id": 1883612374,
+      "lat": 52.5074863,
+      "lon": 13.4521233
+    },
+    {
+      "type": "node",
+      "id": 1883612375,
+      "lat": 52.5075822,
+      "lon": 13.4520229
+    },
+    {
+      "type": "node",
+      "id": 1883612376,
+      "lat": 52.5075641,
+      "lon": 13.452507
+    },
+    {
+      "type": "node",
+      "id": 1883612377,
+      "lat": 52.5075851,
+      "lon": 13.4521704
+    },
+    {
+      "type": "node",
+      "id": 1883612378,
+      "lat": 52.507609,
+      "lon": 13.4520357
+    },
+    {
+      "type": "node",
+      "id": 1883612379,
+      "lat": 52.5075868,
+      "lon": 13.4532435
+    },
+    {
+      "type": "node",
+      "id": 1883612380,
+      "lat": 52.5076293,
+      "lon": 13.4530135
+    },
+    {
+      "type": "node",
+      "id": 1883612381,
+      "lat": 52.507679,
+      "lon": 13.4530404
+    },
+    {
+      "type": "node",
+      "id": 1883612382,
+      "lat": 52.5076655,
+      "lon": 13.4528061
+    },
+    {
+      "type": "node",
+      "id": 1883612383,
+      "lat": 52.5076971,
+      "lon": 13.4526345
+    },
+    {
+      "type": "node",
+      "id": 1883612384,
+      "lat": 52.5077175,
+      "lon": 13.4528316
+    },
+    {
+      "type": "node",
+      "id": 3927753533,
+      "lat": 52.5069836,
+      "lon": 13.4515972
+    },
+    {
+      "type": "node",
+      "id": 3927753534,
+      "lat": 52.5071012,
+      "lon": 13.4511225
+    },
+    {
+      "type": "node",
+      "id": 3927753537,
+      "lat": 52.5071398,
+      "lon": 13.4508967
+    },
+    {
+      "type": "node",
+      "id": 3927753538,
+      "lat": 52.5072593,
+      "lon": 13.4509571
+    },
+    {
+      "type": "node",
+      "id": 3927753545,
+      "lat": 52.507547,
+      "lon": 13.4517843
+    },
+    {
+      "type": "node",
+      "id": 3927771494,
+      "lat": 52.5069934,
+      "lon": 13.4516018
+    },
+    {
+      "type": "node",
+      "id": 3927776489,
+      "lat": 52.5070866,
+      "lon": 13.4511999
+    },
+    {
+      "type": "node",
+      "id": 3927776566,
+      "lat": 52.5070977,
+      "lon": 13.4511207
+    },
+    {
+      "type": "node",
+      "id": 3927812664,
+      "lat": 52.5071999,
+      "lon": 13.4512572
+    },
+    {
+      "type": "node",
+      "id": 3927812665,
+      "lat": 52.5072151,
+      "lon": 13.4511737
+    },
+    {
+      "type": "node",
+      "id": 4441374962,
+      "lat": 52.5076522,
+      "lon": 13.4525491
+    },
+    {
+      "type": "node",
+      "id": 6394788157,
+      "lat": 52.5067652,
+      "lon": 13.4528446
+    },
+    {
+      "type": "node",
+      "id": 7026729849,
+      "lat": 52.5072312,
+      "lon": 13.4511066
+    },
+    {
+      "type": "node",
+      "id": 7026729850,
+      "lat": 52.5072511,
+      "lon": 13.4511919
+    },
+    {
+      "type": "node",
+      "id": 7026729851,
+      "lat": 52.507264,
+      "lon": 13.4511231
+    },
+    {
+      "type": "node",
+      "id": 7026729879,
+      "lat": 52.5075511,
+      "lon": 13.4517863
+    },
+    {
+      "type": "node",
+      "id": 7026729884,
+      "lat": 52.507557,
+      "lon": 13.452157
+    },
+    {
+      "type": "node",
+      "id": 7026735089,
+      "lat": 52.5077356,
+      "lon": 13.4519006
+    },
+    {
+      "type": "node",
+      "id": 365579634,
+      "lat": 52.5073321,
+      "lon": 13.4546968
+    },
+    {
+      "type": "node",
+      "id": 365579635,
+      "lat": 52.5072141,
+      "lon": 13.4546402
+    },
+    {
+      "type": "node",
+      "id": 365579636,
+      "lat": 52.5071704,
+      "lon": 13.4548862
+    },
+    {
+      "type": "node",
+      "id": 365579637,
+      "lat": 52.5072058,
+      "lon": 13.4549032
+    },
+    {
+      "type": "node",
+      "id": 1435351949,
+      "lat": 52.507683,
+      "lon": 13.4552039
+    },
+    {
+      "type": "node",
+      "id": 3927753541,
+      "lat": 52.5075215,
+      "lon": 13.4550251
+    },
+    {
+      "type": "node",
+      "id": 3927753552,
+      "lat": 52.507657,
+      "lon": 13.455193
+    },
+    {
+      "type": "node",
+      "id": 3927776495,
+      "lat": 52.507642,
+      "lon": 13.4552755
+    },
+    {
+      "type": "node",
+      "id": 3927776570,
+      "lat": 52.5077003,
+      "lon": 13.4551114
+    },
+    {
+      "type": "node",
+      "id": 3927804282,
+      "lat": 52.5074576,
+      "lon": 13.4551863
+    },
+    {
+      "type": "node",
+      "id": 3927804285,
+      "lat": 52.5074807,
+      "lon": 13.4550612
+    },
+    {
+      "type": "node",
+      "id": 3927812679,
+      "lat": 52.5075113,
+      "lon": 13.4550752
+    },
+    {
+      "type": "node",
+      "id": 6412719959,
+      "lat": 52.5072764,
+      "lon": 13.4549371
+    },
+    {
+      "type": "node",
+      "id": 9698094768,
+      "lat": 52.5072878,
+      "lon": 13.4549424
+    },
+    {
+      "type": "node",
+      "id": 3925591885,
+      "lat": 52.5122528,
+      "lon": 13.4633849
+    },
+    {
+      "type": "node",
+      "id": 3925591955,
+      "lat": 52.512297,
+      "lon": 13.4631509
+    },
+    {
+      "type": "node",
+      "id": 3925591991,
+      "lat": 52.5123223,
+      "lon": 13.4634199
+    },
+    {
+      "type": "node",
+      "id": 3925592049,
+      "lat": 52.5123664,
+      "lon": 13.4631854
+    },
+    {
+      "type": "node",
+      "id": 507415404,
+      "lat": 52.5461956,
+      "lon": 13.4235712
+    },
+    {
+      "type": "node",
+      "id": 507415409,
+      "lat": 52.546287,
+      "lon": 13.4236839
+    },
+    {
+      "type": "node",
+      "id": 507415413,
+      "lat": 52.5462124,
+      "lon": 13.4238574
+    },
+    {
+      "type": "node",
+      "id": 507415416,
+      "lat": 52.5461111,
+      "lon": 13.4237341
+    },
+    {
+      "type": "node",
+      "id": 9909457394,
+      "lat": 52.5354607,
+      "lon": 13.4524935
+    },
+    {
+      "type": "node",
+      "id": 9909457395,
+      "lat": 52.5351579,
+      "lon": 13.4527779
+    },
+    {
+      "type": "node",
+      "id": 9909457396,
+      "lat": 52.5349579,
+      "lon": 13.4522325
+    },
+    {
+      "type": "node",
+      "id": 9909457397,
+      "lat": 52.5352597,
+      "lon": 13.4519388
+    },
+    {
+      "type": "node",
+      "id": 9909457399,
+      "lat": 52.5352242,
+      "lon": 13.4519736
+    },
+    {
+      "type": "node",
+      "id": 662984151,
+      "lat": 52.5075262,
+      "lon": 13.4752021
+    },
+    {
+      "type": "node",
+      "id": 662984152,
+      "lat": 52.5073752,
+      "lon": 13.4751132
+    },
+    {
+      "type": "node",
+      "id": 662984153,
+      "lat": 52.5074619,
+      "lon": 13.4747176
+    },
+    {
+      "type": "node",
+      "id": 662984156,
+      "lat": 52.5078007,
+      "lon": 13.4747884
+    },
+    {
+      "type": "node",
+      "id": 662984157,
+      "lat": 52.5077523,
+      "lon": 13.4750333
+    },
+    {
+      "type": "node",
+      "id": 662985700,
+      "lat": 52.507775,
+      "lon": 13.4749151
+    },
+    {
+      "type": "node",
+      "id": 3610779776,
+      "lat": 52.507494,
+      "lon": 13.474568
+    },
+    {
+      "type": "node",
+      "id": 3610779777,
+      "lat": 52.507698,
+      "lon": 13.4753
+    },
+    {
+      "type": "node",
+      "id": 3610779778,
+      "lat": 52.5078088,
+      "lon": 13.4747491
+    },
+    {
+      "type": "node",
+      "id": 1242254660,
+      "lat": 52.55064,
+      "lon": 13.4448804
+    },
+    {
+      "type": "node",
+      "id": 1242254663,
+      "lat": 52.5505248,
+      "lon": 13.4450201
+    },
+    {
+      "type": "node",
+      "id": 1242254676,
+      "lat": 52.5507673,
+      "lon": 13.4453208
+    },
+    {
+      "type": "node",
+      "id": 1242254678,
+      "lat": 52.5508188,
+      "lon": 13.4450266
+    },
+    {
+      "type": "node",
+      "id": 1242254679,
+      "lat": 52.550528,
+      "lon": 13.4447935
+    },
+    {
+      "type": "node",
+      "id": 2927051893,
+      "lat": 52.5504833,
+      "lon": 13.4449354
+    },
+    {
+      "type": "node",
+      "id": 2927056256,
+      "lat": 52.5505366,
+      "lon": 13.4449815
+    },
+    {
+      "type": "node",
+      "id": 2927059571,
+      "lat": 52.5508437,
+      "lon": 13.4450795
+    },
+    {
+      "type": "node",
+      "id": 2927061140,
+      "lat": 52.5507314,
+      "lon": 13.445291
+    },
+    {
+      "type": "node",
+      "id": 2927061153,
+      "lat": 52.55081,
+      "lon": 13.4450516
+    },
+    {
+      "type": "node",
+      "id": 2927064511,
+      "lat": 52.5507575,
+      "lon": 13.4452051
     }
   ]
 }
