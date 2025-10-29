@@ -1,13 +1,31 @@
-# Core data handling
-pandas>=2.0
 
-# OSM-API requests
-requests>=2.30
+# Core Data Science & ETL
+pandas
+numpy
 
-# Geospatial (for spatial join)
-geopandas>=0.14
-shapely>=2.0
+# Spatial Data/Geopandas & Geometry
+geopandas
+shapely
 
-# PostgreSQL DB Import
-sqlalchemy>=2.0
-psycopg2-binary>=2.9
+# Database Connection
+sqlalchemy
+psycopg2-binary
+
+# API Requests
+requests
+
+# Jupyter Notebooks
+notebook
+ipython
+
+# Date/Time utils
+python-dateutil
+
+# For spatial database support (optional, if PostGIS)
+geoalchemy2
+
+# If you use matplotlib for QA plots
+matplotlib
+
+# For running notebooks from command line
+nbconvert

@@ -1,0 +1,142 @@
+﻿id,club_name,phone,website,wheelchair,email,toilets_wheelchair,wheelchair_description,city,house_num,postcode,street,opening_hours,live_music,longitude,latitude,district_id,neighborhood_id
+way/23278633,Roadrunners Rock & Motor Club,+49 30 78082991,http://www.roadrunners-paradise.de,limited,,,,Berlin,,10117,Unter den Linden,,,13.3951309,52.5173885,11001001,101
+way/24248500,Werk9,+49 30 20165823,https://www.werk9.de/,limited,info@werk9.de,yes,"Haben für den Eingang eine Rampe, die muss bei Bedarf hingelegt werden. Eine behindertengerechte Toilette ist vorhanden.",Berlin,,10117,Unter den Linden,,,13.3951309,52.5173885,11001001,101
+way/24283864,Pride Warehouse,,,limited,,,,Berlin,26,10247,Colbestraße,,,13.4632854,52.5123097,11002002,201
+way/36908987,Gretchen,+49 30 25922702,https://www.gretchen-club.de/,yes,gretchen@gretchen-club.de,,,Berlin,19-21,10963,Obentrautstraße,"""Je nach Veranstaltung""",,13.3879213,52.4955636,11002002,202
+way/41474936,Duncker,+49 30 4459509,https://www.dunckerclub.de/,yes,,no,,Berlin,64,10439,Dunckerstraße,Mo 22:00-04:00; Fr-Sa 22:00-05:00; Su 12:00-19:00,,13.4227755,52.5468944,11003003,301
+way/42163697,yaam,+49 176 10051189,https://www.yaam.de/,limited,,,,Berlin,3,10243,An der Schillingbrücke,Mo-Su 11:00-24:00,,13.4307181,52.5091664,11002002,201
+way/45001954,Lokschuppen,,https://www.lokschuppen-berlin.com/,limited,contact@lokschuppen-berlin.com,,,Berlin,99,10245,Revaler Straße,,,13.4527414,52.5072971,11002002,201
+way/45001955,Astra Kulturhaus,+49 30 20056767,https://www.astra-berlin.de/,yes,,yes,Tribüne rollstuhlgerecht bei Konzerten,Berlin,99,10245,Revaler Straße,"""irregular events""",yes,13.4527414,52.5072971,11002002,201
+way/72984386,Golden Gate,,https://www.goldengate-berlin.de/,limited,,no,,Berlin,,10117,Unter den Linden,,,13.3951309,52.5173885,11001001,101
+way/108243893,OC23,+49 30 92092120,https://kinderring-berlin.de/oc23/,,,,,Berlin,23,13086,Langhansstraße,Mo-Th 13:00-20:00; Su 12:00-18:00,,13.4450329,52.5506857,11003003,302
+way/118327391,MS Hoppetosse,,,no,,,,Berlin,,10117,Unter den Linden,,,13.3951309,52.5173885,11001001,101
+way/119172796,Panke,,https://www.pankeculture.com/,,,no,,Berlin,23,13347,Gerichtstraße,,,13.3742384,52.5449968,11001001,106
+way/123019464,Badehaus,+49 30 25933042,http://www.badehaus-berlin.com/,limited,,yes,enge Toilette,Berlin,99,10245,Revaler Straße,,,13.4527414,52.5072971,11002002,201
+way/123750257,Prägewerk,,,,,,,Berlin,,10117,Unter den Linden,,,13.3951309,52.5173885,11001001,101
+way/136852555,LARK,,https://larkberlin.com/,yes,club@larkberlin.com,no,,Berlin,15—18,10179,Holzmarktstraße,,,13.4227766,52.5130237,11001001,101
+way/136852556,Hangar 49,,https://hangar49.de/,yes,,,,Berlin,49,10179,Wassertorstraße,,,13.4113486,52.4991391,11002002,202
+way/148829988,Sisyphos,,http://www.sisyphos-berlin.net,yes,,yes,,Berlin,15,10317,Hauptstraße,"Mar-Dec: Sa,Su,PH 00:00-24:00",,13.4918987,52.4933258,11011011,1112
+way/167777311,"Jugendschiff ""ReMiLi""",,https://remili.de/,no,,,,Berlin,,10117,Unter den Linden,Mo-Fr 14:00-20:00,,13.3951309,52.5173885,11001001,101
+way/172900722,Fiese Remise,,,,,,,Berlin,,10117,Unter den Linden,,,13.3951309,52.5173885,11001001,101
+way/277805717,Festsaal Kreuzberg,+49 30 403655630,https://www.festsaal-kreuzberg.de/,yes,,,"Durchs Tor kann man ebenerdig, kein Rolli-WC",Berlin,2,12435,Am Flutgraben,,,13.4515556,52.4968232,11009009,901
+way/286165789,Berghain Kantine,,https://www.berghain.berlin/de/program/kantine-am-berghain/,limited,support@berghain.de,,,Berlin,,10243,Am Wriezener Bahnhof,,,13.4407738,52.5114484,11002002,201
+way/291111616,ÆDEN,,http://aedenberlin.com,no,,,,Berlin,3,10997,Schleusenufer,Tu 22:00-08:00; Th 22:00-08:00; Fr 22:00-10:00; Sa 18:00-10:00,,13.45011,52.4975973,11002002,202
+way/293386107,Kater Blau,+49 30 47361686,http://www.katerblau.de,yes,,yes,,Berlin,25,10243,Holzmarktstraße,,,13.4253649,52.5119029,11002002,201
+way/342600129,Maaya,+49 30 297766770,https://maaya.de/,,,,,Berlin,99,10245,Revaler Straße,"Tu-Th,Su 12:00-22:00; Fr,Sa 12:00-23:00; ",,13.4527414,52.5072971,11002002,201
+way/355476495,OXI Garten,,https://oxi-garten.de/,limited,,,,Berlin,1-4,10365,Wiesenweg,,,13.4749435,52.5076121,11011011,1103
+way/379305718,Metropol,+49 30 403678560,https://metropol-berlin.de,yes,info@metropol-berlin.de,yes,,Berlin,5,10777,Nollendorfplatz,"""zu Veranstaltungen""",,13.3527048,52.4989399,11007007,701
+way/684464913,Cassiopeia,,https://cassiopeia-berlin.de/,limited,,yes,,Berlin,99,10245,Revaler Straße,,yes,13.4527414,52.5072971,11002002,201
+way/1081145396,Abstrakt,+49 30 65832595,,yes,,yes,,Berlin,121,10407,Storkower Straße,,,13.4523763,52.5351911,11003003,301
+node/259845846,Junction-Bar,+49306946602,https://www.junction-bar.de/,no,,,,Berlin,18,10961,Gneisenaustraße,,,13.3931533,52.4913696,11002002,202
+node/262818281,ASeven Club,,https://www.aseven.de,limited,,,,Berlin,7,10178,Alexanderstraße,"Fr 23:30-06:00, Sa 19:00-06:00",,13.4164254,52.5232268,11001001,101
+node/339749949,Matrix,+49 30 29369990,https://www.matrix-berlin.de/,limited,,no,,Berlin,18,10245,Warschauer Platz,Mo-Su 22:00-07:00,,13.4490212,52.5046782,11002002,201
+node/360111407,Lido,+49 30 69566840,https://www.lido-berlin.de/,yes,,yes,"Stufe am Haupteingang, Rampe vorhanden. Für das rolligerechte WC bitte vor Ort nach dem Schlüssel fragen.",Berlin,7,10997,Cuvrystraße,,yes,13.4450748,52.4992172,11002002,202
+node/373095675,Humboldthain Club,,https://www.humboldthain.com/,no,,,,Berlin,46,13357,Hochstraße,"Tu 18:00-04:00, Th 19:00-04:00, Sa-Su 23:00-09:00",,13.3787124,52.5441625,11001001,106
+node/383210462,Narva Lounge,,,yes,,,,Berlin,,10245,Warschauer Platz,,,13.4489112,52.5045582,11002002,201
+node/410135945,Wild at Heart,,http://wildatheartberlin.de,no,,,,Berlin,,10999,Wiener Straße,"""When they host a concert, doors opens at 20h. Otherwise they are closed""",,13.4310967,52.4974686,11002002,202
+node/429735547,Clärchens Ballhaus,+49 30 2829295,https://www.claerchensball.haus/,no,info@claerchensball.haus,no,,Berlin,24,10117,Auguststraße,Tu-Fr 17:00-23:00; Sa-Su 14:00-23:00,,13.39691,52.5264743,11001001,101
+node/461623768,Sun Chiller Lounge,,,limited,,,,Berlin,,10243,Weidenweg,"We-Sa 16:00-24:00+, Su 14:00-24:00+; PH 14:00-24:00+",,13.441495,52.5179462,11002002,201
+node/475153994,Postbahnhof,+49 152 5374 4760,https://postbahnhof.com/,yes,,,,Berlin,8,10243,Straße der Pariser Kommune,,,13.4363946,52.5086309,11002002,201
+node/485354535,Glashaus,,,,,,,Berlin,,12435,Eichenstraße,,,13.4530728,52.4973833,11009009,901
+node/485640732,Zur Wilden Renate,+49 30 25041426,https://www.renate.cc,no,,,,Berlin,70,10245,Alt-Stralau,,,13.4653065,52.4973901,11002002,201
+node/492849637,RAW 99,,http://www.raw-tempel.de/,limited,,,,Berlin,99,10245,Revaler Straße,,,13.454537,52.5076615,11002002,201
+node/621429565,Berndhain,,,,,,,Berlin,32,10245,Simon-Dach-Straße,,,13.4560428,52.5091003,11002002,201
+node/652884290,Calabash,+49 30 83030144,,,,,,Berlin,21,10119,Veteranenstraße,,,13.4007592,52.5336193,11001001,101
+node/667842214,Sage,,https://www.sage-club.de/,yes,,yes,,Berlin,76,10179,Köpenicker Straße,,,13.4169088,52.5110197,11001001,101
+node/670069373,NBI Club,+49 179 4261189,http://www.neueberlinerinitiative.de,no,,,,Berlin,5,10119,Zionskirchstraße,Mo-Su 20:00+,,13.401179,52.53567,11001001,101
+node/729294555,Kit Kat Club,+49 30 7871896,http://www.kitkatclub.org,limited,,yes,,Berlin,76,10179,Köpenicker Straße,,yes,13.4169157,52.5112074,11001001,101
+node/736787851,1820,+493081453960,https://www.belushis.com/bars/berlin,no,,,,Berlin,41,10178,Rosa-Luxemburg-Straße,Mo-Su 19:00-00:00,,13.4107036,52.526786,11001001,101
+node/739305494,Insomnia,+49 30 51654143,https://www.insomnia-berlin.de/,,dominique@insomnia-berlin.de,,,Berlin,17,12099,Alt-Tempelhof,"Tu 19:00-02:00, We 20:00-02:00, Th 14:00-24:00; Fr-Sa 22:00+, Su 19:00-02:00",,13.3860876,52.4655581,11007007,703
+node/821646254,Abgedreht Klub,,,,,,,Berlin,,10243,Karl-Marx-Allee,,,13.452579,52.5156316,11002002,201
+node/898983650,K133 Night Lounge,,http://night-lounge.net/,no,,,,Berlin,133/134,10711,Kurfürstendamm,,,13.2932442,52.4972653,11004004,407
+node/910429971,Ballhaus Berlin,+49 30 2827575,https://www.ballhaus-berlin.de/,yes,info@ballhaus-berlin.de,,,Berlin,102,10115,Chausseestraße,"Mo-Sa 15:00-04:00, Su 15:00-01:00",,13.380294,52.5320796,11001001,101
+node/918183904,Club R8,+49 30 544 69663,http://www.clubr8.com/,limited,,,,Berlin,8,10117,Rosmarinstraße,,,13.3899473,52.5161783,11001001,101
+node/959344243,SchwuZ,+49 30 5770 227-0,http://www.schwuz.de,yes,,yes,,Berlin,26,12053,Rollbergstraße,,,13.4337837,52.4794629,11008008,801
+node/959625062,Havanna,+49 30 78899655,https://www.havanna-berlin.de/,yes,,,,Berlin,30,10827,Hauptstraße,We 20:00+; Fr-Sa 22:00+,,13.3534485,52.4852704,11007007,701
+node/975700421,Huxleys Neue Welt,+49 30 78099810,https://huxleysneuewelt.com/,yes,,yes,,Berlin,107-113,10967,Hasenheide,"""Je nach Veranstaltung""",,13.4217418,52.4864896,11008008,801
+node/979969868,Ritter Butzke,,https://club.ritterbutzke.com,yes,,yes,"WC war gerade kaputt, ansonsten im EG alles ok erreichbar",Berlin,26,10969,Ritterstraße,"""siehe Website""",,13.4081361,52.5030121,11002002,202
+node/988192687,Silverwings,,https://silverwings.de/,no,,,Befindet sich im 1. Stock. Achtung: Ignoriert das Nichtraucherschutzgesetz.,Berlin,,12101,Columbiadamm,,,13.390553,52.4835867,11007007,703
+node/1144034120,AM to PM,+49 30 24085301,https://am-to-pm.metro.bar/,no,Cloudamtopm@gmail.com,no,,Berlin,2,10178,Am Zwirngraben,zurzeit geschlossen,,13.4034635,52.5229379,11001001,101
+node/1145853246,Hafenbar,+49302828593,https://www.hafenbar-berlin.de/,no,,,,Berlin,11,10178,Karl-Liebknecht-Straße,Fr-Sa 21:00-05:00,,13.4075481,52.5217615,11001001,101
+node/1162812586,Weekend Club,+49 30 24631676,http://www.week-end-berlin.de/,limited,,,,Berlin,7,10178,Alexanderstraße,"Fr,Tu 22:00-06:00, Sa 19:00-06:00",,13.4164231,52.5229029,11001001,101
+node/1165008486,Soda Club,,https://www.soda-berlin.de/,limited,,,,Berlin,97,10435,Knaackstraße,"Th,So 19:00-02:00; Fr-Sa 22:00-06:00",,13.4142448,52.5395232,11003003,301
+node/1228317932,Tabu,+49 172 3858879,https://www.tabuclub.de/,limited,,,,Berlin,90,10627,Bismarckstraße,,,13.3084909,52.5114893,11004004,401
+node/1310466406,BRICKS Club,,https://bricks-berlin.club,yes,,,,Berlin,30,10117,Anton-Wilhelm-Amo-Straße,,,13.3932376,52.5121321,11001001,101
+node/1361259244,Die Busche,+49 30 2960800,http://www.diebusche.de,limited,mail@diebusche.de,yes,,Berlin,18,10245,Warschauer Platz,"We 23:00-05:00,Fr 22:00-07:00,Sa 22:00-07:00",,13.448261,52.503615,11002002,201
+node/1370001597,Prince Charles,,https://www.princecharlesberlin.com/,yes,,,,Berlin,85f,10969,Prinzenstraße,,,13.4087274,52.5032996,11002002,202
+node/1402543376,Puro Sky Lounge Berlin,,http://www.puroberlin.de/,,,,,Berlin,9-12,10789,Tauentzienstraße,,,13.3379413,52.5040556,11004004,401
+node/1450635676,Roter Salon,,,no,,,,Berlin,1,10178,Rosa-Luxemburg-Platz,Mo-Sa 11:00-18:00,,13.4116224,52.5271131,11001001,101
+node/1667559178,Bi Nuu,,http://www.bi-nuu.de/,yes,,yes,,Berlin,,10997,Skalitzer Straße,,,13.4414613,52.5007558,11002002,202
+node/1820069776,b-flat,+49 30 2833123,http://b-flat-berlin.de/,no,,,,Berlin,40,10178,Dircksenstraße,Mo-Su 20:00-01:00,yes,13.4069893,52.5235538,11001001,101
+node/1882869375,Connection,+49 30 2181432,http://www.connection-berlin.de,limited,,,,Berlin,33,10777,Fuggerstraße,"Mo-Th 10:00-01:00, Fr-Sa 10:00-05:00, Su 14:00-01:00",,13.3424928,52.4990172,11007007,701
+node/1897123562,FluxBau,+4917643562611,https://www.fluxfm.de/fluxbau/,no,fluxbau@fluxfm.de,no,,Berlin,5,,Pfuelstraße,,,13.4411582,52.5029678,11002002,202
+node/1934211315,Vagabund Club,,https://www.vagabund-berlin.com/,limited,,,,Berlin,77,10623,Knesebeckstraße,00:00+,,13.3224146,52.504062,11004004,401
+node/1941952571,Bulbul Berlin,+49 30 53091711,https://www.bulbulberlin.de/,,,,,Berlin,114,10999,Skalitzer Straße,,,13.4242521,52.4993312,11002002,202
+node/1954332576,Slaughterhouse,+49 30 3975056,https://www.slaughterhouse-berlin.de/,limited,info@slaughterhouse-berlin.de,yes,,Berlin,35,10557,Lehrter Straße,,,13.3597082,52.5344022,11001001,102
+node/2126202628,Orchidea,+49 157 79 13 79 14,,no,,,eine Rollstuhlrampe wird auf Anfrage ausgelegt,Berlin,74,13347,Reinickendorfer Straße,,,13.3672515,52.551145,11001001,105
+node/2147941967,Privatclub,+49 30 35522598,http://www.privatclub-berlin.de,yes,info@privatclub-berlin.de,yes,"Es gibt zwar eine rollstuhlgerechte Toilette, aber auch Treppen am Eingang. Man kann wohl hinten rum über einen Lastenaufzug...",Berlin,85-86,10997,Skalitzer Straße,,,13.4348491,52.5000715,11002002,202
+node/2147953685,Metrom Lounge,,,,,,,Berlin,,10243,Warschauer Straße,,,13.4474984,52.5029659,11002002,201
+node/2188253833,The Door,,https://thedoor.club/,limited,,,,Berlin,25,10719,Joachimsthaler Straße,,,13.3311044,52.5008789,11004004,401
+node/2347398754,Maxxim Club,+49 30 41766240,https://www.maxxim-berlin.de/,no,kontakt@maxxim-berlin.de,,,Berlin,15,10719,Joachimsthaler Straße,22:30+; Tu 19:00+,,13.3308361,52.5019061,11004004,401
+node/2381034158,Reset,,,no,,no,,Berlin,,10999,Wiener Straße,"""abhängig von Veranstaltungen""",,13.4351165,52.4961326,11002002,202
+node/2435092394,Hole⁴⁴,,https://hole-berlin.de/,yes,,,,Berlin,146,12051,Hermannstraße,"""zu Veranstaltungen""",yes,13.4333842,52.4643506,11008008,801
+node/2665268971,Auster-Club,,,no,,,,Berlin,42-43,10997,Eisenbahnstraße,Mo-Su 12:00-18:00+,,13.4311437,52.502437,11002002,202
+node/2876098523,Ohm,,http://www.ohmberlin.com/,,,,,Berlin,70,10179,Köpenicker Straße,,,13.4197888,52.5105954,11001001,101
+node/2968181705,Nachtclub,,,,,,,Berlin,25,10243,Holzmarktstraße,,,13.4247322,52.5126865,11002002,201
+node/3121055734,Flow Bar,,,no,,no,,Berlin,32,10117,Tucholskystraße,"Su,Mo,Tu off, We,Th 21:00-05:00, Fr,Sa 21:00-06:00",,13.393681,52.5261173,11001001,101
+node/3298592393,Konzulát,,,,,,,Berlin,,10117,Leipziger Straße,,,13.3961493,52.5112236,11001001,101
+node/3469247893,Alte Kantine,+49 30 44341952,https://alte-kantine.eu,limited,,yes,,Berlin,97,10435,Knaackstraße,Mo 22:00-06:00; Th 22:00-05:00; Fr 19:00-06:00; Sa 20:00-06:30,,13.4136676,52.5395329,11003003,301
+node/3610779779,Void,,http://www.void-club.de/,,,,,Berlin,5,10365,Wiesenweg,,,13.4758087,52.5075429,11011011,1103
+node/3777579770,Top Disco Berlin,+49 30 720 15 430,http://topdisco-berlin.de/home/,yes,,yes,,Berlin,,12357,Neuköllner Straße,"Fr,Sa 22:00+",,13.4833923,52.4260543,11008008,804
+node/3783242657,M-BIA,,,,,,,Berlin,123-124,10178,Dircksenstraße,We 23:00-07:00; Fr-Sa 23:00-09:00,,13.4092273,52.5226319,11001001,101
+node/3783290025,ACUD,,,limited,,,,Berlin,21,10119,Veteranenstraße,,,13.4008094,52.5335177,11001001,101
+node/3783296627,Adagio,,,yes,,,,Berlin,1,10785,Marlene-Dietrich-Platz,,,13.3718571,52.5075016,11001001,104
+node/3783307323,American Western Saloon,,,limited,,yes,,Berlin,142c,13439,Wilhelmsruher Damm,,,13.3526876,52.5975687,11012012,1210
+node/3826455881,Pussy Cat,+49 30 2133586,http://www.pussycat-berlin.de,no,,,,Berlin,7,10777,Kalckreuthstraße,Mo-Su 18:00-06:00,,13.3479726,52.4987104,11007007,701
+node/3830239588,Trompete,,https://trompete-berlin.de/,no,,,,Berlin,9,10785,Lützowplatz,,,13.3534385,52.5044307,11001001,104
+node/4034138645,SO36,+49 30 61401306,https://www.so36.de,yes,,yes,Rampe am Eingang wird auf Nachfrage hingelegt;Drinnen: Rollstuh auf ein Podest heben zum Konzert schauen,Berlin,190,10999,Oranienstraße,"""Je nach Programm""",yes,13.4221612,52.5003909,11002002,202
+node/4118217590,Stella Berlin,+49 30 61740855,https://stella-berlin.de/,,,,,Berlin,14,12347,Jahnstraße,Mo-Fr 09:00-21:00; Sa-Su 11:00-20:00,,13.4442907,52.4613006,11008008,802
+node/4172803384,8MM,,https://www.8mmbar.de/,,info@8mmbar.de,,,Berlin,177 B,10119,Schönhauser Allee,Mo-Su 19:00-04:00,,13.4115684,52.5312243,11003003,301
+node/4217156190,Beate Uwe,,https://beate-uwe.de,yes,,no,,Berlin,31,10179,Schillingstraße,,,13.419024,52.5174812,11001001,101
+node/4236204189,MiSalsa,+493034540769,https://misalsa.de,no,info@misalsa.de,,,Berlin,5,10585,,Fr-Sa 22:00-05:00,,13.305791,52.5172277,11004004,401
+node/4283150545,Cake Club,,,,,,,Berlin,27,10999,Mariannenstraße,,,13.4204665,52.4966876,11002002,202
+node/4458466133,KISS Lounge,,,,,,,Berlin,12,13051,Prerower Platz,,,13.5048839,52.564751,11011011,1109
+node/4574958092,Vitrin,,,yes,,,,Berlin,,10623,Fasanenstraße,,,13.327462,52.5046309,11004004,401
+node/4784529624,Geheimclub (Annika von Trier),,https://annika-von-trier.com/geheimclub/,,,,,Berlin,144,10115,Linienstraße,,,13.3908678,52.5267961,11001001,101
+node/4815124323,Else,,http://else.tv/,no,,,,Berlin,10,12435,An den Treptowers,Tu-Sa 16:00+,,13.4625984,52.4951405,11009009,901
+node/4870128450,Tresor Berlin,+49 30 6953770,https://tresorberlin.com,yes,,yes,,Berlin,70,10179,Köpenicker Straße,,yes,13.419484,52.5106807,11001001,101
+node/5155961321,Der Weiße Hase,+49 174 1976833,,,,,,Berlin,,10245,Konitzer Straße,,,13.4545322,52.5075831,11002002,201
+node/5244438075,Internet Explorer,,,,,,,Berlin,11,12057,Ziegrastraße,,,13.4598687,52.4764177,11008008,801
+node/5247942730,Kater Blau,,,,,,,Berlin,,10243,Holzmarktstraße,,,13.4260899,52.5119933,11002002,201
+node/5838965221,Loophole,,https://loophole.berlin/,no,,,,Berlin,60,12053,Boddinstraße,,,13.4330336,52.4806929,11008008,801
+node/5873234785,Tabula Rasa,,,,,,,Berlin,99,10245,Revaler Straße,,,13.4556606,52.5074123,11002002,201
+node/5906879511,://about blank,+49 30 69536290,https://aboutblank.li,no,,yes,,Berlin,24c,10245,Markgrafendamm,"""je nach Veranstaltung""",,13.466302,52.5024767,11002002,201
+node/6032392904,KTV Bar,,,,,,,Berlin,,10625,Kantstraße,,,13.3099366,52.5063423,11004004,401
+node/6192377288,Ava Club,,http://www.club-ava-berlin.de/,,,,,Berlin,18,10245,Warschauer Platz,,,13.4473091,52.5029373,11002002,201
+node/6252070333,al2 eventlocation berlin,+49 30 88917960,https://al2-eventlocation.de,,,,,Berlin,83,10719,Pfalzburger Straße,"""nach Vereinbarung""",,13.3230448,52.4989003,11004004,402
+node/6341225967,Berghain,+49 30 29351830,https://www.berghain.de,yes,,yes,"keine Stufen, alles mit Rampen und Fahrstühlen zu erreichen, lediglich die Rampen im Garten lassen sich nur mit guter Armfunktion bewältigen, WCs sind mit Haltegriffen ausgestattet, aber nicht vollständig behindertengerecht",Berlin,,10243,Am Wriezener Bahnhof,,yes,13.4430356,52.5111669,11002002,201
+node/6381619922,Musikbrauerei,,,,,,,Berlin,23A,10405,Greifswalder Straße,Mo-Su 10:00-20:15,,13.4286665,52.5306542,11003003,301
+node/6381637814,Trauma Bar und Kino,,https://www.traumabarundkino.de/,,,,,Berlin,50,10557,Heidestraße,,,13.3667562,52.5306327,11001001,102
+node/6441603779,New West Club,,http://www.newwestclub.de/,limited,,,,Berlin,134,10625,Kantstraße,,,13.3153141,52.5060456,11004004,401
+node/6482231157,Cosmic Kaspar,+49 30 27590873,https://www.cosmic-kaspar.de/,,,,,Berlin,197-198,10119,Brunnenstraße,,,13.4006925,52.5299774,11001001,101
+node/6573680438,Ballhaus Spandau,,https://ballhaus-spandau.club/,,,,,Berlin,5,13597,Dorfstraße,,,13.2107129,52.5227525,11005005,501
+node/7230925407,Mokka Mitte Bar,+493084710709,https://www.mokkamitte.de/,,,,,Berlin,,10178,Spreepromenade,Mo-Th 16:00-23:00; Fr 14:00-23:30; Sa 13:00-23:30; Su 12:30-22:00,,13.398307,52.5222381,11001001,101
+node/8069721818,OST,+49 30 29369990,https://clubost.de/,,,,,Berlin,1-2,10245,Alt-Stralau,,,13.4650321,52.4970681,11002002,201
+node/9216819283,Revier Südost,,https://reviersuedost.de/,,,,,Berlin,137,12439,Schnellerstraße,,,13.5052662,52.4599968,11009009,905
+node/9271890630,Entenkeller 2.0,+49 162 3692008,,,,,,Berlin,,13507,Alt-Tegel,,,13.2809654,52.5893599,11012012,1202
+node/9272743117,Melancholie 2,,,,,,,Berlin,1,10179,Brückenstraße,Su 16:00-04:00; Fr-Sa 23:00-10:00,,13.416812,52.5111747,11001001,101
+node/9662447417,Velvet Monkey,,,,,,,Berlin,53B,10365,Herzbergstraße,,,13.4976566,52.5248136,11011011,1103
+node/9683590917,Heideglühen,,,limited,,,,Berlin,1,13353,Seestraße,Sa 00:00-24:00; Su 00:00-06:00,,13.3279584,52.5381993,11004004,406
+node/9806828894,Pirates Club,+49 30 97002414,https://piratesberlin.com/club/,limited,,,,Berlin,78-80,10243,Mühlenstraße,,,13.4453492,52.5027268,11002002,201
+node/9830787917,MONOM,,https://www.monomsound.com/,,,,,Berlin,,12459,Nalepastraße,,,13.4997366,52.4792421,11009009,909
+node/9895178218,spindler & klatt,,https://spindlerklatt.com/,,,,,Berlin,16,10997,Köpenicker Straße,,,13.4346441,52.5058678,11002002,202
+node/10621062970,Fitzroy,,https://fitzroy-berlin.de,,club@fitzroy-berlin.de,,,Berlin,15—18,10179,Holzmarktstraße,,,13.4228651,52.5130757,11001001,101
+node/10672763641,The Hub,,,,,,,Berlin,,14199,Friedrichshaller Straße,,,13.2965109,52.4752767,11004004,403
+node/11066768896,Falscher Fisch,,https://falscherfisch.net/,,,,,Berlin,1,12057,Ziegrastraße,,,13.4594974,52.4775471,11008008,801
+node/11472992147,Nachspiel - Afterhour @KitKat Club Berlin,,,,,,,Berlin,,10179,Brückenstraße,,,13.4173531,52.5115871,11001001,101
+node/12137704154,Kreuzwerk,,https://kreuzwerk.berlin/,,,,,Berlin,30-35,10969,Lobeckstraße,,,13.407825,52.5030057,11002002,202
+node/12290743501,Sin City Tabledance,,,,,,,Berlin,,10627,Stuttgarter Platz,,,13.3045469,52.5057271,11004004,401
+node/12301286133,Frivole Bar moechtegern,0152 58 521 471,https://moechtegern.com/,,,,,Berlin,87,,Leibnitzstraße,Mo-Su 20:00-04:00,,13.3142158,52.5099265,11004004,401
+node/12372968542,808,,,,,,,Berlin,,10787,Budapester Straße,,,13.3380226,52.5055769,11004004,401
+node/12942103605,Arena Club,,,,,,,Berlin,,12435,Eichenstraße,,,13.4529279,52.4971313,11009009,901
+node/13235448541,Brickhouse Berlin,,https://brickhouse-berlin.com/,,,,,Berlin,,13086,Streustraße,,yes,13.443135,52.5502159,11003003,302

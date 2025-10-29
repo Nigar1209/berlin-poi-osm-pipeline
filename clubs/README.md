@@ -3,8 +3,8 @@
 ##  Goal
 - Build a dataset of clubs and social activities in Berlin.
 - Clean and filter data from OpenStreetMap.
-- Normalize the attributes to match a planned database schema.
-- Perform a **test load into PostgreSQL** (`test_berlin_data` schema).
+- Perform a **load into PostgreSQL production database** (Layereddb).
+- Document the table in **GitHub Wiki** and update the **ERD in Lucidchart**.
 
 ---
 
@@ -49,7 +49,7 @@
 
 ---
 
-### 5. Database Schema (Planned)
+### 5. Database Schema 
 ```sql
 CREATE TABLE IF NOT EXISTS test_berlin_data.clubs (
     club_id VARCHAR(100) PRIMARY KEY,
@@ -82,13 +82,24 @@ CREATE TABLE IF NOT EXISTS test_berlin_data.clubs (
 ```
 
 ---
-### **6. Test Loading into PostgreSQL**
+### **6. Loading into PostgreSQL**
 - **Geometry Conversion:** `shapely Point` objects were converted into **WKT (Well-Known Text)** strings so they could be inserted into the `TEXT` column.
 - **Loading:** The transformed `DataFrame` was loaded into PostgreSQL with the `.to_sql()` method.
-- **Verification:** The data insertion into `test_berlin_data.clubs` was verified as correct.
-
+- **Verification:** The data insertion into Layereddb was verified as correct.
+-	Primary key uniqueness (club_id)
+-	Foreign key integrity (district_id references districts.district_id)
+-	Data types and nullability
+-	Row counts match cleaned dataset
+-	Standardization of contact info and website fields
 ---
-
+### **7. Documentation & ERD Update**
+-	**GitHub Wiki:** Added a structured description of social_clubs_activities table with all columns, data types, keys, and examples.
+-	**Lucidchart ERD:** Updated project ERD:
+-	Added social_clubs_activities table
+-	Created relationship: social_clubs_activities.district_id → districts.district_id
+-	
 ## **Current Status**
 - Data successfully **extracted, filtered, and normalized**.
-- First **test load into PostgreSQL completed** and verified.
+- Production load completed and verified.
+- Table is fully documented in GitHub Wiki.
+- ERD updated in Lucidchart to reflect new table and relationships.

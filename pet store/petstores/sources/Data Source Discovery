@@ -1,0 +1,133 @@
+1.1 Data Source Discovery
+
+I researched and documented data sources for Pet Stores in Berlin, prioritizing open and regularly updated data.
+
+Below are strong starting points (i included them in your README.md):
+
+ 1. OpenStreetMap (OSM) Overpass API
+
+. Source and Origin: OpenStreetMap Overpass API
+
+. Update Frequency: Updated continuously (changes propagate within hours)
+
+. Data Type: Dynamic (queryable via API)
+
+. Relevant Fields:
+
+        . name – Store name
+
+        . shop=pet – Tag used for pet stores
+
+        . addr:street, addr:city, addr:postcode – Address details
+
+        . opening_hours – Store hours
+
+        . phone, website, email – Contact info
+
+        . lat, lon – Geocoordinates
+
+. Example Query (for Berlin):       
+
+[out:json][timeout:25];
+area["name"="Berlin"]->.searchArea;
+(
+  node["shop"="pet"](area.searchArea);
+  way["shop"="pet"](area.searchArea);
+  relation["shop"="pet"](area.searchArea);
+);
+out center;
+
+ 2. Berlin Open Data Portal
+
+. Source and Origin: Berlin Open Data Portal
+
+. Update Frequency: Varies (monthly to annually)
+
+. Data Type: Static/Dynamic (depends on dataset)
+
+. Relevant Fields:
+
+            . Business name
+
+            . Category (pet-related retail)
+
+            . Address, postal code, district
+
+            . Opening hours
+
+            . Website or contact info
+
+. Example dataset to check:
+
+“Gewerbe und Einzelhandel in Berlin” (Businesses and retail trade)
+
+.URL: https://daten.berlin.de/datensaetze
+
+3. Yelp Fusion API
+
+. Source and Origin: Yelp Developers
+
+. Update Frequency: Dynamic (real-time API)
+
+. Data Type: Dynamic (requires API key)
+
+. Relevant Fields:
+
+             . name, location.display_address
+
+             . coordinates.latitude/longitude
+
+             . rating, review_count
+
+             . categories
+
+             . hours
+
+             . url, phone
+
+Query Example:
+GET https://api.yelp.com/v3/businesses/search?term=pet+store&location=Berlin
+
+4. Google Places API (optional enrichment)
+
+. Source and Origin: Google Places API
+
+. Update Frequency: Real-time
+
+. Data Type: Dynamic (API, requires key)
+
+. Relevant Fields:
+
+        . Place name
+
+        . Type: “pet_store”
+
+        . Address
+
+        . Opening hours
+
+        . Ratings and reviews
+
+        . Website, phone number
+
+ 5. Local Business Directories (Supplemental)
+
+. Examples:
+
+        . Gelbe Seiten Berlin
+
+        . Das Örtliche Berlin
+
+. Update Frequency: Irregular
+
+. Data Type: Static (scraper or manual import)
+
+. Relevant Fields:
+
+              . Business name
+
+              . Address, phone
+
+              . Category/type (e.g., Haustierbedarf, Tierhandlung)
+              
+
