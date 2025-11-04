@@ -55,16 +55,28 @@ This is the most complex stage, involving parsing, cleaning, and manual enrichme
         * **Final Scores:** Calculates the final, combined feature scores for each district (e.g., `total_primary_adult_score`, `total_pediatric_score`, `specialist_score_total`).
 * Saves the final, clean, enriched, and deduplicated data as `clean/doctors_clean_with_distr.csv` **and** the aggregated feature table as `clean/healthcare_features.csv`.
 
-### 4. Load
+### 4. Load & Feature Integration
 
 **Script:** [`doctors_upload_to_db.ipynb`](scripts/doctors_upload_to_db.ipynb)
 
+* This final stage performs two primary functions: loading the base data and integrating the calculated features.
+
+#### Part 1: Loading Cleaned Doctor Records
 * Loads the final `clean/doctors_clean_with_distr.csv`.
 * **Fix Dtypes:** Forces `id`, `postcode`, `district_id`, etc., to be read as strings (`str`) to match the DB schema.
 * **Define Schema:** Connects to PostgreSQL and executes the `CREATE TABLE` statement for `berlin_source_data.doctors`.
 * **Stage Data:** Re-orders the DataFrame columns (`sql_column_order`) to perfectly match the SQL table schema.
 * **Load Data:** Uses the high-performance `copy_expert` (`COPY ... FROM STDIN`) method to bulk-insert all rows.
 * **Add Constraints:** Executes `ALTER TABLE` to add the Foreign Key constraint, linking `doctors.district_id` to the `districts` table.
+
+#### Part 2: Feature Integration and Validation
+* Loads the aggregated `clean/healthcare_features.csv` into a temporary staging table (`temp_healthcare_scores`).
+* **Schema Update (ALTER):** Connects as `data_team` (using `SET ROLE`) to execute `ALTER TABLE` and dynamically add the new score columns (`total_primary_adult_score`, etc.) to the target table: `berlin_labels.district_features`.
+* **Feature Load (UPDATE):** Executes a high-performance `UPDATE... FROM` query to transfer the calculated score values from the temporary staging table into the permanent `berlin_labels.district_features` table, matching on `district_id`.
+* **Role Management & Cleanup:** Resets the role (`RESET ROLE`) before dropping the temporary staging table to manage object ownership permissions.
+* **Post-Load Verification:** Executes final SQL checks to confirm:
+    * The number of updated rows matches the expected count from the staging data.
+    * Data integrity is maintained (no unexpected `NULL` values or inconsistencies) in the newly populated score columns.
 
 ---
 
