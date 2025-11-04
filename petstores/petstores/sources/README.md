@@ -1,0 +1,11 @@
+# Pet Stores Data Sources
+
+This layer will use data sourced primarily from OpenStreetMap (OSM).
+
+- Source: https://wiki.openstreetmap.org/wiki/OpenStreetMap_API
+- Data type: Dynamic (available via API requests)
+- Update frequency: Unknown (for now use "unknown")
+- Relevant OSM Tag: `shop=pet`
+
+At this stage, only the data source has been identified.  
+No data has been downloaded or transformed yet.
