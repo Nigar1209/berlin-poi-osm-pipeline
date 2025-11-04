@@ -30,20 +30,30 @@ This is the most complex stage, involving parsing, cleaning, and manual enrichme
 * **Ghost Row Deletion:** Drops rows that have no `name`, `website`, *or* `address` information, as they are unrecoverable.
 * Saves the intermediate, cleaned data to `source/doctors.csv`.
 
-### 3. Transform (Deduplication & Geo-Enrichment)
+## 3. Transform (Deduplication, Geo-Enrichment & Feature Engineering)
 
 **Script:** [`doctors_data_transformation.ipynb`](scripts/doctors_data_transformation.ipynb)
 
 * Loads the cleaned `source/doctors.csv`.
 * **Geocoding:** Fills any remaining missing `longitude` and `latitude` by geocoding addresses (using `geopy.Nominatim`).
-* **Smart Deduplication (Aggregation):**
-    * **Groups by** `name`, `street`, and `housenumber` to find true duplicates at a single location (e.g., 'MVZ Berlin Rudow').
-    * **Aggregates** these duplicates into a *single row*.
-    * **Concatenates** all unique `speciality` strings from the duplicate rows into one comma-separated list (preventing data loss).
-* **Amenity Correction:** Cleans the `amenity` column using logic (e.g., if a record now has >1 `speciality`, its `amenity` is set to `clinic`).
-* **Final Cleanup:** Drops any remaining "ghost" rows (e.g., `name` is still `NaN` after all steps).
-* **Enrichment:** Performs a **spatial join** (`sjoin`) with the `scripts/lor_ortsteile.geojson` file to add `district_id` and `neighborhood_id` to every record.
-* Saves the final, clean, enriched, and deduplicated data as `clean/doctors_clean_with_distr.csv`.
+* **Smart Deduplication & Aggregation:**
+    * **Groups by** `name`, `street`, and `housenumber` to find true duplicates at a single location.
+    * **Aggregates** duplicates into a *single row*.
+    * **Concatenates** all unique `speciality` strings from the duplicate rows into one comma-separated list.
+    * **Amenity Correction:** If the aggregated row now has **multiple unique specialities**, the `amenity` is automatically set to `clinic`.
+* **Amenity/Infrastructure Re-categorization (3-Tier Logic):**
+    * Creates a new, clean `amenity` column by classifying facilities into three tiers using advanced keyword matching (`str.contains`) on the `name` column: `clinic` (Tier 3), `group_practice` (Tier 2), and `practice` (Tier 1).
+* **Speciality Enrichment:** Fills remaining missing `speciality` values by matching German keywords in the `name` column against a predefined `speciality_map`.
+* **Final Cleanup:** Drops any remaining "ghost" rows where `name` is still `NaN`.
+* **Geo-Enrichment:** Performs a **spatial join** (`sjoin`) with the `scripts/lor_ortsteile.geojson` file to add `district_id` and `neighborhood_id` to every record.
+* **Feature Engineering (Creating Healthcare Density Scores):**
+    * **Capacity Scoring:** Assigns a `capacity_score` (weight) to each record based on its final `amenity` category (`practice: 1.0`, `group_practice: 2.7`, `clinic: 6.3`), derived from official statistics.
+    * **Service Categorization:** Categorizes each facility's services into three types: `primary_adult`, `pediatric`, and `specialist`.
+    * **Complex Aggregation & Scoring:** Calculates the total healthcare capacity for each district (`district_id`):
+        * **Practices/Groups:** Aggregates the weighted `capacity_score` for each service type (`primary_adult_score`, `pediatric_score`, `specialist_score`).
+        * **Clinics (Explosion Logic):** Splits the comma-separated `speciality` list of clinics into individual service rows (`explode`) to accurately count service units (e.g., `primary_care_adult_services`), which are then added to the scores.
+        * **Final Scores:** Calculates the final, combined feature scores for each district (e.g., `total_primary_adult_score`, `total_pediatric_score`, `specialist_score_total`).
+* Saves the final, clean, enriched, and deduplicated data as `clean/doctors_clean_with_distr.csv` **and** the aggregated feature table as `clean/healthcare_features.csv`.
 
 ### 4. Load
 
