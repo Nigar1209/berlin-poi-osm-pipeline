@@ -1,2 +1,2 @@
-## Museums & Gallaries in Berlin
+## Museums & Galleries in Berlin
 
