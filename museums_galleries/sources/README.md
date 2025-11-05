@@ -1,29 +1,52 @@
-## Museums & Galleries in Berlin
-### Step 1 - Research & Data Modelling
-
-## A. Data Source Discovery
-- **Main source:** OpenStreetMap (OSM) via the OSMnx Python library.
-- **Reason:** Open, free, and continuously updated. Contains location, address, and other details for all banks in Berlin.
-- **Data type:** Dynamic (queried via API using `"tourism": ["museum", "gallery", "artwork"]` & `"amenity" "exhibition-center"` filters).
-- **Update frequency:** Continuous.
-- **Extra sources:** Berlin Open Data Portal (optional enrichment), Deutsche Digitale Bibliothek REST API (need an API key) or kulturgutdigital - Berliner OpenGLAM-Daten.
-
-## Created raw files
-- Created a raw file for all 4 tags before finding common columns to join on
-- Needed to figure out if 1 table is a good idea or if it is better to create a seperate one for artworks
-  
----
-
-## B. Selected Columns 
-- Removed columns with percentage or more missing data - each table % different to keep certain columns)
----
-
-## C. Planned Schema
+# 🏛️ Museums & Galleries in Berlin  
+## 📌 Step 1: Research & Data Modelling
 
 ---
 
-## D. Transformation Plan
+## 🔍 Data Source Discovery
+
+- **Primary Source:** [OpenStreetMap (OSM)](https://www.openstreetmap.org) via the `osmnx` Python library  
+  - **Why OSM?** Open, free, and continuously updated. Includes location, address, and metadata for museums, galleries, public artworks, and exhibition centers in Berlin.  
+  - **Query Filters Used:**  
+    - `tourism`: `["museum", "gallery", "artwork"]`  
+    - `amenity`: `"exhibition_center"`  
+  - **Data Type:** Dynamic (queried via API)  
+  - **Update Frequency:** Continuous  
+
+- **Additional Sources (not yet integrated):**  
+  - [Berlin Open Data Portal](https://daten.berlin.de) – for optional enrichment  
+  - [Deutsche Digitale Bibliothek REST API](https://www.deutsche-digitale-bibliothek.de/content/api) – requires API key  
+  - [Kulturgutdigital – Berliner OpenGLAM-Daten](https://openglam.berlin.de) – cultural metadata
 
 ---
-  
-## E. Populate Database
+
+## 🗂️ Raw File Creation
+
+- Generated separate raw files for each of the four tags (`museum`, `gallery`, `artwork`, `exhibition_center`)  
+- Currently evaluating whether to merge into a single table or maintain separate datasets for artworks and exhibition centers  
+- Identifying common columns for potential joins
+
+---
+
+## ✅ To Do
+
+### 🔧 Column Selection
+- Plan to remove columns with **≥ 75% missing data**
+
+### 🧭 Schema Planning
+- Add `latitude` and `longitude` to the cleaned dataset
+
+### 🔄 Transformation Strategy
+- Rename columns for consistency across layers  
+- Align naming conventions with the ERD (Entity Relationship Diagram)
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Languages & Libraries:**  
+  - Python  
+  - `osmnx`, `geopandas`, `pandas`  
+- **Environment:**  
+  - Jupyter Notebook (for analysis and exploration)
+
