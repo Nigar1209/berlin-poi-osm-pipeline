@@ -81,9 +81,55 @@ Approximately **107–149 library locations** identified within Berlin:
 ✅ Self-updating – community continuously improves data  
 
 ---
+## Additional Source Information
 
-**Limitations Identified:**  
-⚠️ Inconsistent completeness (some entries contain minimal information)  
-⚠️ Missing detailed service information (e.g., study rooms, collections)  
-⚠️ Some opening hours may be outdated (last edited in 2022 for a few entries)  
-⚠️ Field naming inconsistencies require normalization during data import  
+**Name:** Berlin Open Data Portal
+
+**Source and origin:**  
+- Platform/Organization: Berlin Open Data Portal / Pankow District Office of Berlin  
+- Access URL: [https://daten.berlin.de/](https://daten.berlin.de/)
+- Name: Loans from Public Libraries in Pankow (2022–2024)
+- Access Method: Website download (multiple CSV and DOCX files)  
+
+**Update frequency:**  
+- Last updated: July 1, 2025  
+- Update schedule: Periodic (annual or biannual updates, based on new loan statistics)  
+- Reliability: High — official dataset from a Berlin district government source  
+
+**Data type:**   
+- [x] Static (one-time download)  
+- [x] Semi-static (periodic manual updates)   
+
+**Access details:**  
+- Cost: Free (open data)  
+- Authentication required: No  
+- API documentation: None (data provided as downloadable files)  
+- License: Creative Commons Zero (CC0 — free and unrestricted use)  
+
+---
+
+**Coverage details:**  
+- Geographic scope: Pankow District, Berlin  
+- Time range: January 1, 2022 – December 31, 2024  
+- Temporal granularity: Annual summaries  
+- Category: Public administration, budget, and taxes  
+- Publishing body: Pankow District Office of Berlin  
+- Contact person: Tobias Weiß (tobias.weiss@ba-pankow.berlin.de)  
+- Website: [https://www.berlin.de/stadtbibliothek-pankow/](https://www.berlin.de/stadtbibliothek-pankow/)  
+
+**Available formats:**  
+- CSV: `AusEx_Pankow_2022.csv`, `AusEx_Pankow_2023.csv`, `AusEx_Pankow_2024.csv`  
+- CSV: `Library_Signature_KeyTable.csv`, `SfB_KeyTable.csv`  
+- DOCX: `Library_data_documentation.docx`  
+
+---
+
+**Reason for selection:**  
+- Provides official library loan and borrower statistics for Pankow over three years (2022–2024)  
+- Enables analysis of user demographics, lending patterns, and library activity levels  
+- Useful for correlating library usage data with geographic coverage from OSM sources  
+
+**Enrichment potential:**  
+- Combine with OSM library coordinates to map library usage intensity per district  
+- Use “district” and “library signature” fields for spatial integration and time-series analysis  
+- Supports broader research on educational and cultural infrastructure usage in Berlin  
