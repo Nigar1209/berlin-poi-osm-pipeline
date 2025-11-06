@@ -110,15 +110,15 @@ Each layer will be transformed in its own notebook and pushed to the database as
 
 | Column Name        | Data Type | Description             | Example             |
 |--------------------|-----------|-------------------------|---------------------|
-| gallery_id         | int       | Unique OSM ID           | 12345678            |
-| gallery_name       | text      | Name of the gallery     | neue galerie        |
-| house_number       | text      | Street number           | 12A                 |
+| gallery_id         | int       | Unique gallery ID       | 301107444           |
+| gallery_name       | text      | Name of the gallery     | atelier achim kühn  |
+| house_number       | text      | House number            | 12A                 |
 | street             | text      | Street name             | invalidenstraße     |
-| neighbourhood_id   | int       | FK to neighbourhood     | 101                 |
-| district_id        | int       | FK to district          | 3                   |
+| neighbourhood_id   | int       | FK to neighbourhood     | 0908                |
+| district_id        | int       | FK to district          | 11009009            |
 | postal_code        | text      | Postal code             | 10115               |
 | website            | text      | Gallery website         | www.example.com     |
 | opening_hours      | text      | Opening times           | Mo-Su 10:00-18:00   |
-| fee                | text      | Entry fee info          | free                |
+| fee                | text      | Entry fee info          | True/False          |
 | latitude           | float     | Latitude coordinate     | 52.5200             |
 | longitude          | float     | Longitude coordinate    | 13.4050             |
