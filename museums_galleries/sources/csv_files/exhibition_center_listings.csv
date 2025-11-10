@@ -1,0 +1,5 @@
+exhibition_id,exhibition_center_name,house_number,street,neighbourhood_id,district_id,postal_code,website,building,wikipedia,latitude,longitude
+136079469,messe berlin,,messe damm,0405,11004004,14057,https://www.messe-berlin.de/,,de:messegelände (berlin),52.5034485,13.272198914085445
+196694606,citycube berlin,26,messe damm,0405,11004004,14055,http://www.citycube-berlin.de/,yes,de:citycube berlin,52.5001203,13.270793601633809
+680746621,hub27,,jaffé straße,0405,11004004,14055,https://www.messe-berlin.de/de/veranstalter/unsere-locations/special-locations/hub27,yes,,52.5028964,13.267529130414474
+719414532,ausstellungspavillon,,bärenstein straße,1001,11010010,12685,,yes,,52.5392102,13.570825810628019
