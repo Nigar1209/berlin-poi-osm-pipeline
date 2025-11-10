@@ -1,0 +1,312 @@
+gallery_id,gallery_name,house_number,street,neighbourhood_id,district_id,postal_code,website,opening_hours,wheelchair,fee,latitude,longitude
+301107444,atelier achim kühn,6,richter straße,0908,11009009,12524,,,,,52.4097499,13.5713419
+370766098,galerie zandi,57,mommsen straße,0401,11004004,10629,,mo-fr 11:00-18:00; sa 11:00-16:00,no,False,52.5031345,13.3136309
+410135935,studio für gestaltung,31,bürkner straße,0801,11008008,12047,,"th,fr 13:00-18:00; sa 12:00-16:00",yes,False,52.4933269,13.4274903
+410692505,la girafe,,glogauer straße,0202,11002002,10999,,,no,False,52.4929136,13.4370565
+410745800,kronenboden,16,schweden straße,0106,11001001,13357,,,yes,,52.5550908,13.3753262
+511117580,galería lunasol,35,schierker straße,0801,11008008,12051,,"tu-th 11:00-22:00; fr,sa 11:00-23:00",yes,False,52.4700118,13.4322642
+543623547,errant sound,20,runge straße,0101,11001001,10179,,,,,52.5123622,13.4198213
+545738013,saarländische galerie,,am festungs graben,0101,11001001,10117,https://www.saarlaendische-galerie.eu/,,,,52.518549,13.395823
+569103989,atelier freier fotografen,,weisbach straße,0201,11002002,10249,https://www.aff-galerie.de/,"sa,su 15:00-18:00",no,False,52.5246551,13.4511428
+734960879,alex xandaton,,brunnen straße,0101,11001001,10119,,"""by appointment""",,False,52.5307136,13.4006477
+775579194,galerie marinova,,gaudy straße,0301,11003003,10437,,,,,52.5463837,13.4090758
+837741403,galerie janssen,45,pariser straße,0402,11004004,10719,http://galerie-janssen.de/index.html,mo-sa 11:00-19:00,,False,52.4971248,13.3227384
+924203028,galerie mutter fourage,15a,chaussee straße,0607,11006006,14109,,"fr 14:00-18:00; sa,su 12:00-17:00",,,52.4165206,13.1459292
+1244787397,galerie heba im atelier,37,falckenstein straße,0202,11002002,10997,,"su 14:00-17:00; mo,tu 11:00-18:00; fr,sa 11:00-18:00",no,False,52.498742,13.4428239
+1263799847,disconnect art gallery and record shop,25,finow straße,0201,11002002,10247,https://disconnectberlin.wordpress.com/,th-sa 14:00-19:00; ph off,limited,False,52.5109844,13.4671354
+1356039238,wk+,56,fulda straße,0801,11008008,12043,,th-sa 16:00-20:00,yes,,52.4832652,13.4349684
+1373939507,raum für drastische maßnahmen,34,oder straße,0201,11002002,10247,,"th,sa 17:00-20:00",,False,52.5094253,13.4726497
+1387498130,aedes gallery,18-19,christinen straße,0301,11003003,10119,,"tu-fr 11:00-18:30; su,mo,ph 13:00-17:00",no,False,52.5321702,13.4108887
+1448412584,argus,26,marien straße,0101,11001001,10117,,closed,,,52.5220437,13.3817978
+1478259435,kunstraum kreuzberg,,bethanien damm,0202,11002002,10179,,,yes,False,52.5045518,13.4237552
+1510226734,wirwir,56,stuttgarter straße,0801,11008008,12059,https://wirwir.org/,,,,52.4805238,13.4450094
+1552051436,galerie neu,119,linien straße,0101,11001001,10115,https://galerieneu.net/,,,,52.5271436,13.3910542
+1552051918,imago,145,linien straße,0101,11001001,10115,,,,,52.5269012,13.3912329
+1759670848,atelier lücki,,lück straße,1112,11011011,10317,,,,False,52.5006344,13.4941506
+1860421220,galerie schwind,19,august straße,0101,11001001,10117,,,yes,,52.5267289,13.3958993
+1860480265,hamburger bahnhof - nationalgalerie der gegenwart,50-51,invaliden straße,0102,11001001,10557,https://www.smb.museum/museen-einrichtungen/hamburger-bahnhof/home/,"tu-we,fr 10:00-18:00; th 10:00-20:00; sa-su 11:00-18:00",yes,True,52.52844,13.3720386
+1874529831,kommunale galerie berlin,176,hohenzollern damm,0402,11004004,10713,,tu-fr 10:00-17:00;we 10:00-19:00; su 11:00-17:00,yes,False,52.4894924,13.3120475
+1894233174,studio.w,,graefe straße,0202,11002002,10967,,,,False,52.4930141,13.4174861
+1909615766,kunsthaus davidu berlin,5,riemann straße,0202,11002002,10961,,,,False,52.4902771,13.3932794
+1979921489,g-allery,,walter benjamin platz,0401,11004004,10629,,,,False,52.5020343,13.3135977
+1987766261,reister webdesign,61,tor straße,0301,11003003,10119,http://www.reister.de,,no,False,52.5291203,13.4087336
+2055249974,chert lüdde,18,haupt straße,0701,11007007,10827,https://chertluedde.com/,,,,52.4868225,13.3566353
+2171343204,einbildmalen,,bleibtreu straße,0401,11004004,10623,,,no,,52.5065979,13.3203744
+2192175175,only photography,78,niebuhr straße,0401,11004004,10629,,,,,52.5039978,13.3188208
+2281044314,galerie olga benario,104,richard straße,0801,11008008,12043,https://www.galerie-olga-benario.de,"""by appointment""",,False,52.4777027,13.4401793
+2334724664,okk - organ kritischer kunst,29,prinzen allee,0106,11001001,13359,http://www.kritische-kunst.org,,,,52.5571599,13.3855346
+2466056870,die kiste,10,heidenauer straße,1005,11010010,12627,https://www.kiste.net/,,,,52.5361105,13.6093671
+2471028319,robert grunenberg,147,kant straße,0401,11004004,10623,,,,,52.5055658,13.3239833
+2518081510,bauchhund salonlabor,,schudoma straße,0801,11008008,12055,https://www.bauchhund.de/,th 20:00+,no,True,52.4733762,13.4517863
+2565247202,kunstgießerei & galerie flierl,17,friesicke straße,0302,11003003,13086,,,yes,,52.5532159,13.4405365
+2645539038,galerie im körnerpark,8,schierker straße,0801,11008008,12051,,"mo-su,ph 10:00-20:00; dec 24-25 off; dec 31-jan 01 off",yes,False,52.4711895,13.4366053
+2733888749,projektraum,,marchlewski straße,0201,11002002,10243,,,yes,False,52.5162346,13.4420943
+2853902146,sexauer gallery,90,streu straße,0302,11003003,13086,,,yes,,52.5510653,13.4388651
+3002968653,kunstwerkstatt des russischen hauses in berlin,,friedrich straße,0101,11001001,10117,,,,,52.5136844,13.3891789
+3074703141,galerie zeitzone,79,adalbert straße,0202,11002002,10997,,,,,52.5031955,13.4204361
+3241428528,art square,4,proskauer straße,0201,11002002,10247,,,,False,52.5159293,13.4608911
+3287787806,g.a.s-station,22,tempelherren straße,0202,11002002,10961,,we-fr 15:00-18:00,no,False,52.4947067,13.4001846
+3354648518,galerie georg nothelfer,,cornelius straße,0104,11001001,10787,https://www.galerie-nothelfer.de/,,yes,False,52.5066964,13.3505106
+3478842464,zwitschermaschine,,potsdamer straße,0701,11007007,10783,https://www.zwitschermaschine-berlin.de,,limited,,52.4948089,13.3613629
+3530865986,camera work photogalerie,149,kant straße,0401,11004004,10623,https://camerawork.de,tu-sa 11:00-18:00,,,52.5048932,13.3244289
+3632389516,noah klink gallery,17,kulmer straße,0701,11007007,10783,http://www.noahklink.com,,,,52.4925651,13.3647889
+3641040703,kw institute for contemporary art,69,august straße,0101,11001001,10117,,fr-mo 12:00-19:00; th 12:00-21:00; we 12:00-19:00,no,True,52.5271636,13.3948218
+3801390186,galerie burster,,kurfürsten damm,0401,11004004,10719,https://www.galerieburster.com/,,,,52.5020607,13.3259855
+3814667251,africa art gallery,28,knesebeck straße,0401,11004004,10623,,,yes,,52.5038664,13.3218562
+3838219406,könig galerie,118,alexandrinen straße,0202,11002002,10969,,tu-sa 11:00-18:00,,False,52.5007422,13.4009105
+3838230484,max hetzler,77-87,potsdamer straße,0104,11001001,10785,https://www.maxhetzler.com/,,,,52.5018909,13.365917
+3861762661,re|space,71/72,mommsen straße,0401,11004004,10629,,tu-sa 10:00-18:00,,,52.5027037,13.3209826
+3861765074,r+r galerie,,grolman straße,0401,11004004,10623,https://r-r-galerie.de/,"tu-fr 10:00-19:00, sa 10:00-16:00; mo,su,ph off",no,False,52.5035587,13.3245457
+3874869057,galerie torstraße - popup shop,161,tor straße,0101,11001001,10115,https://www.gopopup.com/de/space/berlin/pop-up-space-torstrasse-161,,no,False,52.5292588,13.3962312
+3943789009,galerie kajetan,58,grolman straße,0401,11004004,10623,https://www.kajetan.de,"mo-tu,su,ph off; we-sa 12:00-18:00",no,,52.5084239,13.3206186
+4060728418,galerie wigand,10,thrasolt straße,0401,11004004,10585,http://www.galerie-wigand.com/,,,,52.5148769,13.305353
+4061948104,made in wedding,,kolonie straße,0106,11001001,13359,http://made-in-wedding.de,,,,52.560054,13.379524
+4061948105,toolbox gallery,,kolonie straße,0106,11001001,13359,,,,False,52.5601093,13.3795606
+4167927508,atelier sam grigorian,,templiner straße,0301,11003003,10119,http://www.samgrigorian.de,,no,False,52.5330823,13.4092451
+4187244802,rath factory,,am krögel,0101,11001001,10179,,,,,52.5152477,13.4091883
+4193664825,the kennedys,,august straße,0101,11001001,10117,https://www.thekennedys.de/,,no,,52.5264157,13.3944625
+4215688690,fotogalerie friedrichshain,1,,0201,11002002,10243,https://fotogalerie.berlin/,tu-sa 14:00-18:00; th 10:00-20:00,yes,False,52.5084047,13.4484701
+4219262248,sammlung boros,,reinhardt straße,0101,11001001,10117,https://www.sammlung-boros.de/,fr-su 10:30-19:30,limited,True,52.523509,13.38404
+4261575761,linien83a atelier patricia dreyfus,83A,linien straße,0101,11001001,10119,,,no,,52.5289959,13.3994517
+4261575763,hvw8,161,linien straße,0101,11001001,10115,,,no,,52.5280088,13.3952512
+4261575765,jarvis dooney,116,linien straße,0101,11001001,10115,http://www.jarvisdooney.com/,,,,52.5273012,13.391896
+4261575768,kuckei + kuckei,158,linien straße,0101,11001001,10115,https://www.kuckei-kuckei.de/,,,,52.5277836,13.3944783
+4261575770,martin mertens,148,linien straße,0101,11001001,10115,https://martinmertens.com/,,no,,52.5271057,13.3920137
+4261575778,rasche ripken,148,linien straße,0101,11001001,10115,https://www.rasche-ripken.de/,,no,,52.5270755,13.3918812
+4266723799,jordan seydoux,22,august straße,0101,11001001,10117,https://www.jordan-seydoux.com/,tu-sa 12:00-18:00,no,False,52.526834,13.3964194
+4278104787,von hirscheydt,,wieland straße,0401,11004004,10629,,,,False,52.5020654,13.3154057
+4306025961,savvy contemporary,17,reinickendorfer straße,0106,11001001,13347,,th-su 14:00-19:00,yes,False,52.5447307,13.3707092
+4320989889,architektur galerie berlin xxv,96,karl marx allee,0201,11002002,10243,,,,False,52.5167018,13.4420426
+4412304403,urban art kids,7,sesenheimer straße,0401,11004004,10627,,"tu-fr 16:00-18:00; sa 11:00-14:00; su,mo off",,False,52.5096614,13.3077018
+4454024998,galerie m + r fricke,66,beussel straße,0102,11001001,10553,,tu-fr 11:00-18:00; sa 12:00-17:00,no,False,52.5290451,13.3283478
+4479183428,galerie born,58,potsdamer straße,0104,11001001,10785,,tu-sa 11:00-18:00,limited,,52.5053398,13.36739
+4479183429,house of egorn,,schöneberger ufer,0104,11001001,10785,http://www.houseofegorn.com/,,,,52.5056254,13.367117
+4479183430,verein berliner künstler,,schöneberger ufer,0104,11001001,10785,https://www.vbk-art.de/,"tu-fr 15:00-19:00; sa,su 14:00-18:00",,False,52.5056639,13.3662054
+4512601381,schau fenster,30-35,lobeck straße,0202,11002002,10969,https://dasarty.com/schaufenster/,,,False,52.5031351,13.4071279
+4613845298,daad galerie,161,oranien straße,0202,11002002,10969,http://www.daadgalerie.de/,,,,52.5026724,13.413786
+4742541421,moeon,,schönlein straße,0202,11002002,10967,,,no,False,52.4915153,13.4199898
+4742923387,imago,,stadtterrasse,0202,11002002,10969,https://www.imagocamera.com/,mo-sa 11:00-19:00,yes,False,52.5029246,13.4099077
+4757755548,dittrich & schlechtriem,23,linien straße,0101,11001001,10178,,we-sa 11:00-18:00,yes,False,52.5276077,13.4123477
+4831523443,wolf & galentz,,wollank straße,0307,11003003,13187,https://wolf-galentz.de/,"mo 17:30-21:30; su 14:30-17:30 || ""nach vereinbarung""",no,False,52.5662932,13.3967165
+4834609476,galerie amalienpark,23,breite straße,0307,11003003,13187,,tu-fr 14:00-19:00; sa 12:00-17:00,limited,False,52.5694131,13.402228
+4846091222,bäckerei moabit,,gotzkowsky straße,0102,11001001,10555,https://www.baeckerei-moabit.de/,fr-sa 13:00-18:00,limited,False,52.5262483,13.3305783
+4871854508,galerie dikmayer,19,gertrauden straße,0101,11001001,10178,,,,,52.5132156,13.4056912
+4897648138,aagaard-galerie,11,alt hermsdorf,1206,11012012,13467,,,,,52.613956,13.3212568
+4954306161,inselgalerie,,petersburger straße,0201,11002002,10249,https://www.inselgalerie-berlin.de/,tu-fr 14:00-19:00; sa 13:00-17:00,yes,False,52.5188379,13.4522163
+4998192398,pandora,6,mittenwalder straße,0202,11002002,10961,,"tu-th 14:00-18:00; fr 14:00-20:00; sa 14:00-22:00; su,mo off",no,False,52.4939207,13.3970004
+5060290948,atelier lächeln des lichts,,manitius straße,0801,11008008,12047,,,,,52.4916083,13.4317629
+5131101040,galerie kai dikhas,,oranien straße,0202,11002002,10969,https://www.kaidikhas.com/,th-sa 16:00-19:00,yes,False,52.5038331,13.4096091
+5135781062,omo artspace,,hertzberg straße,0801,11008008,12055,,,,,52.4771794,13.4480557
+5157095868,hilleckes gallery,,wieland straße,0401,11004004,10629,https://www.lesterberlin.de/,,,False,52.5019264,13.3154058
+5265842119,galerie theis,,schustehrus straße,0401,11004004,10585,,mo 17:00-18:00; tu-sa 14:00-18:00,,False,52.5171797,13.3037675
+5351286166,blue avantgarde,,seelower straße,0301,11003003,10439,,,,False,52.5527979,13.4106201
+5408750503,sprüth magers,18,oranienburger straße,0101,11001001,10178,https://www.spruethmagers.com/,tu-sa 10:00-18:00,,,52.5242252,13.3970643
+5408778943,chert lüdde,97,potsdamer straße,0104,11001001,10785,https://chertluedde.com/,,,,52.5010504,13.3642087
+5423271621,salon berlin,,august straße,0101,11001001,10117,https://www.museum-frieder-burda.de/de/salon-berlin,,no,,52.526314,13.3943365
+5472678621,sammlung hoffmann,21,sophien straße,0101,11001001,10178,https://sammlung-hoffmann.de/,,,,52.5262162,13.4011627
+5569263936,galerie seelenkuss,135,wollank straße,0307,11003003,13187,,,,,52.5690087,13.4011116
+5590039797,photocircle,1,monumenten straße,0701,11007007,10829,,mo-fr 11:00-18:00; sa 11:00-14:00,limited,False,52.4881698,13.364219
+5612023975,grüntaler9,9,grüntaler straße,0106,11001001,13357,http://www.gruentaler9.com,,,,52.5519354,13.3867337
+5618342956,galerie futura,3,am flut graben,0901,11009009,12435,,,no,,52.497163,13.4516001
+5763720229,bauhaus-shop,1-2,knesebeck straße,0401,11004004,10623,https://www.bauhaus-shop.de/,mo-sa 10:00-18:00,limited,False,52.5107327,13.3228522
+5839747834,hošek contemporary,,märkisches ufer,0101,11001001,10179,https://www.hosekcontemporary.com/,,,,52.5136681,13.41187
+5871420799,monsterkabinett,39,rosenthaler straße,0101,11001001,10178,,"we,th 18:30-21:30; fr-sa16:30-21:30",no,,52.5244794,13.4018335
+5902860167,galerie weisser elefant,21,august straße,0101,11001001,10117,https://www.galerieweisserelefant.de/,tu-fr 11:00-19:00; sa-su 13:00-19:00,,,52.5267987,13.3961905
+5942823502,leslie,20,bergfried straße,0202,11002002,10969,,we 10:00-14:00; th 10:00-15:00; fr 10:00-14:00; sa 13:00-17:00,,,52.4997753,13.410355
+6007509221,kewenig galerie,10,brüder straße,0101,11001001,10178,https://kewenig.com,tu-sa 11:00-18:00,,,52.5144541,13.4024723
+6013588180,gedok berlin,57,suarez straße,0401,11004004,14057,https://gedokberlin.de/,we-su 14:00-18:00,,,52.5092516,13.2967574
+6017813746,galerie 100,99,konrad wolf straße,1110,11011011,13055,,tu-fr 10:00-18:00; su 14:00-18:00; ph off,yes,False,52.5418281,13.4884906
+6096673705,gh36,36,große hamburger straße,0101,11001001,10115,,,no,,52.5261448,13.398692
+6110920627,art nova,98,pestalozzi straße,0401,11004004,10625,https://www.artnova.berlin/,,no,,52.5075557,13.316661
+6255854695,galerie im turm,1,,0201,11002002,10243,,mo-su 10:00-20:00,yes,False,52.5164408,13.4527125
+6258313118,state studio,3,haupt straße,0701,11007007,10827,,"tu-fr 12:00-19:00; sa,su 12:00-17:00",yes,,52.4900883,13.3595903
+6276841961,panke.gallery,23,gericht straße,0106,11001001,13347,,we-sa 15:00-19:00,no,False,52.5451004,13.3742433
+6289073093,von racknitz + baer,18,wiener straße,0202,11002002,10999,,,,,52.4976773,13.430532
+6292209891,zönotéka,54,hobrecht straße,0801,11008008,12047,,th-sa 15:00-18:00,,,52.4919564,13.425693
+6303268164,kreuzberg pavillon,53,naunyn straße,0202,11002002,10999,https://kreuzbergpavillon.tumblr.com/,,no,False,52.502382,13.4182678
+6355366085,palaispopulaire,5,unter den linden,0101,11001001,10117,https://palaispopulaire.db.com,"mo,we,fr-su 11:00-18:00; th 11:00-21:00; tu closed",,False,52.5171465,13.3961451
+6415198022,raab galerie,81,goethe straße,0401,11004004,10623,https://raab-galerie.de/,,limited,False,52.5087459,13.3214605
+6441040985,x lane,154,reichenberger straße,0202,11002002,10999,,,,,52.4979881,13.4243424
+6568352468,galerie minimal,57,mittenwalder straße,0202,11002002,10961,,,no,,52.4939405,13.3973536
+6604720255,gregor podnar,110,alt moabit,0102,11001001,10559,,,no,,52.5240988,13.3510939
+6728666235,mclaughlin,32,linien straße,0101,11001001,10178,https://www.mclaughlingalerie.com/de,,,False,52.5280593,13.4108807
+6788159718,galerie mensing,169,friedrich straße,0101,11001001,10117,https://www.galerie-mensing.de/galleries/galerie-mensing-berlin,,,False,52.5148704,13.3889613
+6804241939,zebrapony,18,barta straße,0801,11008008,12055,http://www.zebrapony.de/,,,,52.4741391,13.450805
+6895858797,druckbarwedding,60,gericht straße,0106,11001001,13347,https://druckbarwedding.com/,"""öffnung nach telefonischer absprache""",limited,False,52.5442808,13.3711125
+6918675059,world in a room,7,brunhild straße,0701,11007007,10829,https://www.worldinaroom.de/,"fr 14:00-18:00, sa 14:00-17:00",,,52.4863151,13.3642272
+6939878354,institut für alles mögliche,18,acker straße,0101,11001001,10115,,,,,52.5314368,13.3970128
+7012086014,mojavari,2,koppen platz,0101,11001001,10115,,,no,,52.5276106,13.3980372
+7041632031,drj art projects,60,leber straße,0701,11007007,10829,https://drj-art-projects.com/tag/gegenwart/,sa 14:00-19:00,,False,52.4816191,13.3612584
+7047205009,chaussee 36,36,chaussee straße,0101,11001001,10115,https://www.chaussee36.photography/,off,no,,52.5332467,13.3800353
+7082622446,läkemäker galerie,17,schwedter straße,0301,11003003,10119,,"th-fr 14:00-18:00; sa 11:00-14:00 || unknown ""und nach telefonischer vereinbarung auch gerne außerhalb der öffnungszeiten """,no,False,52.5341944,13.4087899
+7095890398,galerie hitoart,51,greifswalder straße,0301,11003003,10405,https://www.hitoart.com,,limited,False,52.5373064,13.4348212
+7169300370,galerie 165,165,danziger straße,0301,11003003,10407,,mo-th 09:30-18:00; fr 09:30-15:00,limited,,52.5332694,13.4399053
+7194124806,druckgraphik-atelier,3,dietrich bonhoeffer straße,0301,11003003,10407,,mo 16:00-18:30; tu 18:00-22:00,yes,False,52.534853,13.4330162
+7246050188,paulo ventura,,katzbach straße,0202,11002002,10965,,,limited,False,52.4898401,13.376484
+7261241882,objets cherchés,,oker straße,0801,11008008,12049,,"""nach vereinbarung""",,False,52.4739804,13.4256867
+7279416464,galerie süssholz,20,schliemann straße,0301,11003003,10437,,,,,52.5443461,13.4205639
+7279475156,museum of future,25,schliemann straße,0301,11003003,10437,,mo-su 16:00-00:30,,False,52.5451341,13.4209859
+7279913649,luisa catucci,,aller straße,0801,11008008,12049,,,,,52.4747274,13.4239623
+7291141419,axel peters,,leine straße,0801,11008008,12049,,,,False,52.4734038,13.4269419
+7590566061,crystal ball,,schönlein straße,0202,11002002,10967,,,no,,52.4922114,13.420944
+7590566062,the window of modern art,,schönlein straße,0202,11002002,10967,,,,,52.4923102,13.4210091
+7590593335,whitegrid,,graefe straße,0202,11002002,10967,,,,,52.4931206,13.4180295
+7633023880,galerie gelbe tonne,9,otawi straße,0105,11001001,13351,,,no,False,52.5553253,13.3415206
+7707089562,borch gallery,79,goethe straße,0401,11004004,10623,,tu-fr 11:00-16:00,,,52.5087697,13.3209965
+7710147764,galerie eigen+art,26,august straße,0101,11001001,10117,,tu-sa 11:00-18:00,no,,52.5270045,13.3971881
+7817068930,hegenbarth sammlung schaudepot,38,laubacher straße,0402,11004004,14197,,"we 12:00-17:00; ph,sh off || ""nach vereinbarung""",,False,52.474165,13.3199297
+7844126105,galerie bottega barone,38,lützow straße,0104,11001001,10785,,mo-fr 15:00-18:00,,,52.5044141,13.3593582
+7903412080,transferteam,40,horst weg,0401,11004004,14059,,,,,52.5116685,13.2943422
+7932307104,galerie nagel draxler,2/4,weydinger straße,0101,11001001,10178,https://nagel-draxler.de,,yes,False,52.5261251,13.4117877
+7932307105,nagel draxler kabinett,33,rosa luxemburg straße,0101,11001001,10178,,,yes,False,52.5260792,13.4116075
+8064034288,pirco.berlin & gallery'ish,69,eisenacher straße,0701,11007007,10823,,"""by appointment""",,,52.4860694,13.3514936
+8092436965,galerie düesberg,12a,lausitzer platz,0202,11002002,10997,,,,False,52.500861,13.4315396
+8092507862,designat,2,oudenarder straße,0105,11001001,13347,,,,False,52.5535943,13.3650627
+8118755960,diekleinegalerie,21,goßler straße,0702,11007007,12161,https://www.diekleinegalerie-berlin.de/,"we,fr 15:00-18:00; sa 11:00-14:00",no,False,52.4693008,13.3250315
+8151807717,galerie judin,83,potsdamer straße,0104,11001001,10785,,"tu-sa 11:00-18:00 || ""oder nach vereinbarung""",,,52.5021869,13.3652994
+8245118494,licht atelier + galerie,17,möckern kiez,0202,11002002,10963,,,,False,52.4928178,13.3777547
+8264929383,kunsthaus der achim freyer stiftung,53,kadetten weg,0602,11006006,12205,,,,,52.4360266,13.2987431
+8458516904,lite-haus,4,maresch straße,0801,11008008,12055,,tu-sa 13:00-19:00,limited,,52.4741375,13.451784
+8655633879,art claims impulse,86,markgrafen straße,0202,11002002,10969,,,,,52.5034984,13.3947318
+8755180767,autonomous forest / terra0.org,42/44,schudoma straße,0801,11008008,12055,,,,,52.4739017,13.4504951
+8762013606,d/b33-galerie,,gardeschützen weg,0602,11006006,12203,https://www.db33-galerie.de/,"""nach vereinbarung""",,,52.4470187,13.3070724
+9052671144,sp2,2,schiller promenade,0801,11008008,12049,,,,,52.4782999,13.4213282
+9124468412,art laboratory berlin,,prinzen allee,0106,11001001,13359,,,no,,52.5580057,13.38607
+9162840142,leoart,,hoppe straße,1201,11012012,13409,https://www.bilder-in-berlin.de/,,,False,52.5708376,13.3793891
+9198286167,atelier und showroom,,schweden straße,0106,11001001,13357,,,no,True,52.5547098,13.3756954
+9198286168,eti berlin,,kolonie straße,0106,11001001,13357,,,no,False,52.555442,13.3774053
+9198286171,uqbar projektraum,16,schweden straße,0106,11001001,13357,,,yes,,52.5550164,13.3754004
+9214922168,nome,,potsdamer straße,0104,11001001,10785,,,,,52.5044497,13.3665611
+9221860123,galerie a - der kunstladen,,breite straße,0307,11003003,13187,,tu-fr 14:00-19:00; sa 11:00-15:00,no,False,52.5721039,13.4134793
+9307150703,müll museum,39,prinzen allee,0106,11001001,13359,https://muell-museum.de,"""currently only open for workshops""",,,52.5589075,13.3867843
+9420865793,nadan,7,meraner straße,0701,11007007,10825,http://nadan.org/,,,,52.4872222,13.3393885
+9502948045,galerie smk,28,wittelsbacher straße,0402,11004004,10707,http://www.galeriesmk.de/,sa 15:00-18:00,no,False,52.4945388,13.31319
+9509426970,transform galerie,10,pestalozzi straße,0401,11004004,10625,,"mo,we,fr,su,ph off; tu,th,sa 15:00-19:00",no,,52.5077757,13.316861
+9517825120,kühlspot social club,74-79,lehder straße,0302,11003003,13086,,,,,52.5504007,13.436534
+9553980268,bärenzwinger,,im köllnischen park,0101,11001001,10179,,tu-su 11:00-19:00,yes,False,52.5127915,13.4144578
+9573679812,galerie kornfeld,26,fasanen straße,0401,11004004,10719,https://galeriekornfeld.com/,tu-sa 11:00-18:00,,False,52.5014,13.3270023
+9631262552,galerie elfriede fechner,11,fechner straße,0402,11004004,10717,,,,False,52.4879528,13.3218877
+9633732523,kenkō,47,tucholsky straße,0101,11001001,10117,,tu-sa 11:00-19:00,,,52.5275968,13.3926373
+9686177280,galerie kuchling,123,karl marx allee,0201,11002002,10243,,we-fr 14:00-19:00; sa 13:00-18:00,limited,False,52.5169745,13.447752
+9690316618,pigasus polish poster music film gallery,,danziger straße,0301,11003003,10435,https://polishpostershop.com/,,,False,52.5395577,13.4203136
+9694634633,gr_und,49,see straße,0105,11001001,13347,https://gr-und.com/,we-fr 15:00-19:00; sa 14:00-18:00,yes,,52.5508666,13.3535915
+9699851474,artists in progress,8,suarez straße,0401,11004004,14057,https://www.aip-info.com,"th,fr 15:00-19:00; sa 11:00-15:00",,False,52.509409,13.2962695
+9782500661,prince11,11,prinzen allee,0106,11001001,13357,,,,,52.5536886,13.383015
+9788376956,minimalistix.eu,11,bülow straße,0701,11007007,10783,,,,,52.498471,13.3577265
+9794470958,haze gallery,11,bülow straße,0701,11007007,10783,,,,,52.4984477,13.3577777
+9849031823,maigalerie,6,tor straße,0101,11001001,10119,https://www.maigalerie.de,we-fr 13:00-18:00; ph off,yes,False,52.5274247,13.4141624
+9935547322,kunstbruecke am wildenbruch,,weigand ufer,0801,11008008,12045,https://kunstbruecke-am-wildenbruch.de,we-su 12:00-18:00,no,False,52.4847448,13.44454
+10035794568,pharodercks,58,schönhauser allee,0301,11003003,10437,,,limited,,52.5441151,13.4128502
+10035829818,kinderkunstgalerie,58A,schönhauser allee,0301,11003003,10437,,tu-fr 14:00-18:00; sa 11:00-17:00,no,False,52.5446552,13.4129967
+10107178444,galerie vinogradov,25,chodowiecki straße,0301,11003003,10405,https://eurusart.com,"""nach vereinbarung""",,False,52.5377527,13.4254363
+10111146177,galerie im alten zollhaus,529,heer straße,0504,11005005,13593,,"su[1] 14:00 - 17:00 || ""veranstaltungen""",,,52.5229839,13.1478965
+10128582978,"erstererster - popup space für kunst, design und neues arbeiten",69,pappel allee,0301,11003003,10437,,,,,52.5448276,13.4161267
+10141379702,zozoville,31,simon dach straße,0201,11002002,10245,,mo-su 12:00-19:00,,False,52.5089544,13.4559572
+10156230805,caos conzept,105,marchlewski straße,0201,11002002,10243,https://caos-conzept.de/,"""nach vereinbarung, laut website""",no,False,52.5086915,13.4490038
+10188746519,galerie robinson,,niebuhr straße,0401,11004004,10629,,,,,52.5043688,13.3167999
+10224372984,galerie jf+,,zeltinger platz,1205,11012012,13465,,th 16:00-18:00; fr 14:00-18:00; sa 11:00-15:00,yes,,52.6339917,13.2896266
+10248374221,art.salon,,fasanen straße,0402,11004004,10719,,we-sa 12:00-18:00,,False,52.4975665,13.3266441
+10300413675,notagallery,124,potsdamer straße,0701,11007007,10783,https://notagallery.de,,,,52.4994431,13.3623392
+10307742432,lighthouse berlin,99,revealer straße,0201,11002002,10245,https://lighthouse.berlin,"mo,we-fr 14:00-21:00; sa 12:00-22:00; su 12:00-21:00",,True,52.5069835,13.4533313
+10581612331,galerie michael janssen,1,bleibtreu straße,0401,11004004,10623,https://michaeljanssen.gallery,,,,52.5072273,13.3199647
+10591311872,gesamtkunstwerk des sozialen,,reuter straße,0801,11008008,12053,,,,,52.4829343,13.4287615
+10603642459,nüüd.berlin gallery,18,kronen straße,0101,11001001,10117,https://www.xn--nd-xkaa.berlin/,,,,52.5111239,13.3910257
+10648363515,kontor,16,leonhardt straße,0401,11004004,14057,https://www.kontor16-berlin.com/,,,,52.5054482,13.2958883
+10648363517,frau kette goldschmiede,14,leonhardt straße,0401,11004004,14057,https://www.fraukette.de/,tu-th 11:00-18:00; fr 11:00-19:00; sa 11:00-15:00,,False,52.5058253,13.2959708
+10688993805,zemin,3,urban straße,0202,11002002,10961,https://zeminberlin.de,tu-su 16:00-02:00,,False,52.4941264,13.4008282
+10708090105,scherben e.v.,61,leipziger straße,0101,11001001,10117,https://www.scherben.in/,fr-su 14:00-18:00,,,52.5111443,13.3951815
+10727636442,q gallery,7,großgörschen straße,0701,11007007,10827,https://qgalleryberlin.de,,,False,52.4912929,13.3638872
+10731220850,klosterruine berlin,73a,kloster straße,0101,11001001,10179,https://www.klosterruine.berlin/,"may-sep mo-su,ph 10:00-18:00; oct-apr ""special events, exhibition launches / auftaktveranstaltung""",,False,52.5184236,13.4124733
+10780033148,ars et musica,,weimarer straße,0401,11004004,10625,https://www.ars-et-musica.de,,no,,52.508298,13.3115125
+10782683410,galerie inga kondeyne,10,carmer straße,0401,11004004,10623,https://www.galeriekondeyne.de/,,,,52.5066748,13.3237459
+10788629498,taubert contemporary,90,knesebeck straße,0401,11004004,10623,https://taubertcontemporary.com,,,,52.5081475,13.3230636
+10788629499,galerie mathias güntner,90,knesebeck straße,0401,11004004,10623,https://www.mathiasguentner.com,,,,52.5080565,13.3230456
+10788629500,gräfe,89,knesebeck straße,0401,11004004,10623,https://www.graefe-art.de/,,,,52.5079988,13.3230367
+10814367949,projektgalerie brunnen64,64,brunnen straße,0106,11001001,13355,,,,False,52.5404617,13.3947777
+10855541805,bq,10,weydinger straße,0101,11001001,10178,http://www.bqberlin.de,mo-fr 11:00-18:00,,False,52.5262702,13.4123393
+10944408202,kunstsammlung der akademie der künste,,luisen straße,0101,11001001,10117,https://www.adk.de/de/archiv/kunstsammlung/index.htm,,,,52.5260614,13.3792759
+11012409284,max hetzler,,goethe straße,0401,11004004,10623,https://www.maxhetzler.com/,tu-sa 11:00-18:00,,,52.5089558,13.324028
+11014333864,semjon contemporary galerie für zeitgenössische kunst,1,schröder straße,0101,11001001,10115,https://www.semjoncontemporary.com/,tu-sa 13:00-19:00,,False,52.5301201,13.3925214
+11014339721,artrelations,154,acker straße,0101,11001001,10115,https://artrelations.de,,,False,52.531133,13.3964713
+11035783626,schmuckgallerie,,goltz straße,0701,11007007,10781,,"mo,tu,th,fr 10:30-17:00; we 10:30-14:15",,,52.4937044,13.3539337
+11040120813,orange ateliergalerie,,hertha platz,0311,11003003,13156,,"""offene atelier & café am nachmittag""",no,False,52.5853455,13.409323
+11081934909,f3 - freiraum für fotografie,30,prinzessinnenstr.,0202,11002002,10969,https://fhochdrei.org,tu-su 13:00-19:00,,True,52.5013889,13.4140423
+11114876076,guelman und unbekannt,51-52,mittel straße,0101,11001001,10117,https://guelmanundunbekannt.com,,,,52.5178258,13.3878447
+11186479739,verwalterhaus,1,prenzlauer allee,0301,11003003,10405,https://verwalterhaus.kulturkapellen.de/,mo-we off; th-fr 15:00-19:00; sa-su 13:00-19:00,no,False,52.5271781,13.4163674
+11224522538,p61 gallery,61,potsdamer straße,0104,11001001,10785,https://www.p61gallery.com/,mo-fr 12:00-20:00; sa-su 14:00-22:00,,,52.5043264,13.3672509
+11227932675,kuku - kunst und kulinarik,6,zionskirch straße,0101,11001001,10119,http://www.kuku-berlin.de/,,,,52.535371,13.4010677
+11295791561,froschke,,gneisenau straße,0202,11002002,10961,,fr 14:00-18:00; sa 11:00-14:00,yes,False,52.4900552,13.4034967
+11449543954,colory,12,südwest korso,0702,11007007,12161,http://www.colory.de/,mo-th 17:00-20:00,,False,52.474288,13.3224632
+11516533592,cogalerie,14,budapester straße,0104,11001001,10787,https://www.cogalerie.de,"""by appointment""",yes,,52.5063348,13.3432373
+11624009951,atelier r116,116,reinickendorfer straße,0105,11001001,13347,,,no,False,52.5428992,13.3694889
+11645047364,kostbar,,münz straße,0101,11001001,10178,,,,,52.5242113,13.4065863
+11687952639,temple,34,pestalozzi straße,0401,11004004,10627,https://www.arttemple.net,"mo-su,ph 15:00-18:00",yes,False,52.5080339,13.3049617
+11771780456,"hitzbleck, staudenherz projektraum",,heyl straße,0701,11007007,10825,,,,,52.4807569,13.3452669
+11789591361,galerie classico,,schützen straße,0601,11006006,12165,http://www.galerie-classico.de/,,,,52.4548201,13.3247217
+11800502797,hoto,109,bergmann straße,0202,11002002,10961,https://hotoart.de,"mo-tu,su off; we-sa 13:00-18:00",,False,52.4901325,13.3880492
+11832745376,alexander levy,110,alt moabit,0102,11001001,10559,https://alexanderlevy.de/,"mo-tu,su off; we-sa 11:00-18:00",,,52.5241052,13.3511515
+11837413657,galerie mazzoli,,eberswalder straße,0301,11003003,10437,https://www.galleriamazzoli.com/,tu-sa 14:00-18:00,,,52.5413599,13.4102621
+11978361821,klangallerie,224,greifswalder straße,0301,11003003,10405,,,no,,52.5303836,13.4258664
+11982899887,kvost,47,leipziger straße,0101,11001001,10117,https://kvost.de/,we-sa 14:00-18:00,yes,,52.5102223,13.3978763
+12033247662,grotto,5,bartning allee,0103,11001001,10557,https://grotto.berlin/,"we,fr,sa 14:00-17:00",,,52.5186711,13.3428281
+12040084973,circular gallery,,schwedter straße,0301,11003003,10119,,,,,52.5327993,13.4115571
+12049854949,zuostant,37,nazarethkirch straße,0105,11001001,13347,,,,False,52.5500007,13.3625601
+12075530395,galerie met,33,mariannen straße,0202,11002002,10999,https://galeriemet.com,tu-sa 11:00-18:00,,,52.497397,13.4210695
+12087187431,fluentum,174,clay allee,0605,11006006,14195,https://www.fluentum.org/,,limited,,52.4514118,13.2740105
+12094257553,migrant bird space,5,koppen platz,0101,11001001,10115,https://www.migrantbirdspace.com/,tu-sa 11:00-18:00,no,,52.5277893,13.3985545
+12153331304,galerie brockstedt,,mommsen straße,0401,11004004,10629,,tu-fr 12:00-18:00; sa 12:00-14:00,,False,52.5030628,13.3144862
+12160358670,luisa catucci gallery,170,brunnen straße,0101,11001001,10119,,tu-fr 11:00-18:00; sa 12:00-17:00,no,,52.5333668,13.3983579
+12175733039,mikhel muskar,32,bergmann straße,0202,11002002,10961,,,,False,52.4887429,13.3977175
+12256221924,michael reid,163,acker straße,0101,11001001,10115,https://michaelreid.com.au/berlin/,mo-fr 10:00-17:00,no,False,52.530353,13.3968466
+12256366641,galerie anton janizewski,10,weydinger straße,0101,11001001,10178,https://antonjanizewski.com/,we-sa 12:00-18:00,yes,False,52.5262646,13.4122761
+12270721340,studio 4,,samariter straße,0201,11002002,10247,,,,False,52.5155079,13.4649409
+12323856459,galerie kunstwerkstatt weißensee,,langhans straße,0302,11003003,13086,,,,,52.54933,13.447881
+12330602407,die möglichkeit einer insel,7,insel straße,0101,11001001,10179,https://www.moeglichkeit-einer-insel.de/,"""nur während ausstellungen, siehe webseite""",,,52.5129894,13.4110484
+12330615741,heidi,145,kurfürsten straße,0701,11007007,10785,https://www.heidigallery.com/,th-sa 11:00-18:00,,,52.5001771,13.3604626
+12349522812,kicken gallery,,kaiser damm,0401,11004004,14057,https://kicken-gallery.com,,,,52.5106558,13.2966393
+12352338935,saarländische galerie,3,charlotten straße,0202,11002002,10969,https://www.saarlaendische-galerie.eu/,,,False,52.5060474,13.3933076
+12435818377,new & abstract,,moll straße,0101,11001001,10178,,,,False,52.5261288,13.416335
+12468571319,galerie studio st. st.,,sander straße,0801,11008008,12047,,"fr,sa 20:00-00:00",,,52.492434,13.4243815
+12534871079,station urbaner kulturen/ngbk hellersdorf,41,auerbacher ring,1005,11010010,12619,https://ngbk.de/en/besuch/station-urbaner-kulturen-ngbk-hellersdorf,thu+sat 15:00–19:00,,,52.5332266,13.6021834
+12618409291,di galerie,,askanischer platz,0202,11002002,10963,,su 16:00-19:00,yes,False,52.5042965,13.3810922
+12640881684,dorothée nilsson gallery,,potsdamer straße,0104,11001001,10785,,we-sa 12:00-18:00,,,52.5035288,13.3663999
+12657933202,stern 5 zacken,,schwarza straße,0801,11008008,12055,,,,False,52.4728796,13.4528741
+12700492001,hdk,3,schudoma straße,0801,11008008,12055,https://www.atelier-hdk.com,,,,52.4741128,13.4482507
+12734386032,kommunale galerie im historischen keller,,reformations platz,0501,11005005,13597,,,,False,52.5385444,13.2044109
+12766378846,miete strom gas,19,acker straße,0101,11001001,10115,,,,,52.5314578,13.3966521
+12768473902,hilbertraum,31,reuter straße,0801,11008008,12047,https://hilbertraum.org/,fr 16:00-19:00; sa-su 14:00-19:00,,,52.4875662,13.4291842
+12770039749,prideart berlin,7,söht straße,0602,11006006,12203,https://prideart.eu/,,,,52.43779,13.3083501
+12819997131,polykiosk,,gips straße,0101,11001001,10119,,,,,52.5269231,13.4002113
+12837777829,sternschuppen,,weydinger straße,0101,11001001,10178,https://www.volksbuehne.berlin/#/de/sternschuppen,,,,52.5266291,13.4124032
+12844224052,galerie alte schule adlershof,,dörpfeld straße,0907,11009009,12489,,"tu,we,th 12:00-19:00; fr 12:00-17:00; sa 15:00-19:00",,False,52.4390018,13.5500841
+12905548372,mountains,6,weydinger straße,0101,11001001,10178,https://mountains.gallery/,we-fr 12:00-18:00; sa-tu off,yes,False,52.5261535,13.4119057
+12943284367,galeria azur,62,karl marx allee,0201,11002002,10243,https://galeriaazur.art/de/,tu-fr 12:00-18:00,,False,52.5178548,13.4312602
+12961230601,polymedialer ponyhof,11,kienitzer straße,0801,11008008,12053,https://www.polymedialerponyhof.de/,,,,52.4772953,13.4370269
+13071030779,kunstverein am rosa-luxemburg-platz e.v,45,rosa luxemburg straße,0101,11001001,10178,,,,,52.5271905,13.4105158
+13098300269,atelier lile,,august straße,0101,11001001,10117,,,,,52.5261512,13.3916607
+13105326337,ikono,6,rathaus straße,0101,11001001,10178,https://ikono.global/de/berlin,,,True,52.5204946,13.4112146
+13144232435,galerie philippe bober,19,strausberger platz,0201,11002002,10243,https://www.galeriephilippebober.eu/,"""mit termin""",,False,52.5187148,13.4263937
+13203279170,browse gallery,5,bergmann straße,0202,11002002,10961,https://browse.gallery,,,,52.4890892,13.3884384
+13205169426,kunst orte berlin,79,schönhauser allee,0301,11003003,10439,,th-sa 13:00-19:00,,,52.5495391,13.4142537
+13206808576,scope berlin,43,lübecker straße,0102,11001001,10559,,fr-sa 14:00-18:00,,,52.5280297,13.3451765
+13206808577,kurt kurt,,lübecker straße,0102,11001001,10559,,,,,52.5284495,13.3455268
+13278037601,atelier roman lipski,10,wiener straße,0202,11002002,10999,https://www.romanlipski.com/,,,,52.4985518,13.4278571
+6807791,east side gallery,,kolonnen weg,0201,11002002,10243,,24/7,,False,52.50445415,13.440839239027115
+23695973,galerie & ateliers mikael andersen,,fehrbelliner straße,0301,11003003,10119,,,no,,52.5313899,13.410198465655661
+24304736,haus am kleistpark,6-7,grunewald straße,0701,11007007,10823,,,,,52.49057965,13.357286812403121
+24362579,alfred ehrhardt stiftung,75,august straße,0101,11001001,10117,http://www.alfred-ehrhardt-stiftung.de,tu-su 11:00-18:00; th 11:00-21:00,no,,52.5266031,13.39390729613578
+26121688,kunstremise spandau,,viktoria ufer,0501,11005005,13597,,mo-fr 14:00-18:00,,,52.53711975,13.201190726192152
+29053886,capitain petzel,45,karl marx allee,0101,11001001,10178,https://www.capitainpetzel.de/,tu-sa 11:00-18:00,limited,True,52.5198483,13.425149264685214
+42520703,reinbeckhallen,17,reinbeck straße,0909,11009009,12459,,"th,fr 16:00-20:00; sa,su 11:00-20:00",,True,52.45972585,13.51870545235078
+43106241,kunsthalle koidl,34,gervinus straße,0401,11004004,10629,,,,,52.50314535,13.299785302819942
+80578271,ateliergemeinschaft meinblau,,fehrbelliner straße,0301,11003003,10119,,,no,,52.53129315,13.410477346217938
+96829618,essen und trinken im museum (zimmer f. zeiterweiterung),35,hufeland straße,0301,11003003,10407,,,,,52.53095635,13.434741514106197
+101922215,atelierhaus mengerzeile,1-3,menger ziele,0901,11009009,12435,https://www.atelierhaus-mengerzeile.de/haus/home,,,False,52.4887473,13.444034125786594
+125668408,dark matter,46,köpenicker chaussee,1112,11011011,10317,https://www.darkmatter.berlin/,"we,th 14:00-22:00; fr 12:00-23:00; sa 11:00-23:00; su 11:00-22:00",yes,True,52.492820699999996,13.492936883931288
+125668433,dark matter,,saganer straße,1112,11011011,10317,https://www.darkmatter.berlin/,"we,th 14:00-22:00; fr 12:00-23:00; sa 11:00-23:00; su 11:00-22:00",yes,True,52.492951000000005,13.492665059586383
+231008506,kunst-pavillon,,,0802,11008008,,,"apr 09-oct 30 sa,su,ph 14:00-18:00",,False,52.43411855,13.411928694415447
+380427033,camaro stiftung,,pohl straße,0104,11001001,10785,,,,,52.5020338,13.363095708167215
+871078344,galerie bastian berlin,1,taylor straße,0605,11006006,14195,https://www.bastian-gallery.com/,,,,52.453898800000005,13.271701480433562
+1051272400,ausstellungszentrum pyramide,94,riesaer straße,1005,11010010,12627,https://www.kultur-marzahn-hellersdorf.de/ausstellungszentrum-pyramide,,,,52.5315005,13.615677950110676
+1174000879,studio183,,budapester straße,0401,11004004,10787,,,,,52.50597415,13.335024970074812
+1174000881,galerie slp,,,0401,11004004,,,,,,52.50582095,13.335492678586913
