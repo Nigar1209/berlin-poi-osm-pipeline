@@ -85,6 +85,7 @@ Each layer will be transformed in its own notebook and pushed to the database as
   - Replaced spaces with underscores
   - Converted all names to lowercase
   - Removed `addr:` prefixes
+  - Renamed column names for clarity
 
 ### 🔍 Data Enrichment
 - Fetched `district_name` and `neighbourhood_id` from `or_ortsteile.geojson`
@@ -95,12 +96,14 @@ Each layer will be transformed in its own notebook and pushed to the database as
 
 ### 🧼 Data Cleaning
 - Replaced all missing values with `NaN`
-- Dropped rows missing both `gallery_name` and `street`
+- Normalized Street names
 - Converted all text fields to lowercase to prevent duplication due to case differences
 - Dropped temporary columns: `geometry`, `districts`, `postal_code_from_geo`, `street_from_geo`
 - Verified and corrected data types
 - Removed duplicate rows
+- Removed row if the gallery name is missing
 - Reordered columns to match the ERD schema
+- Replaced yes/no with True/False in the fee column
 
 - Save gallery_listings.csv to source folder
 - Final Summary and check of data
@@ -156,13 +159,15 @@ Each layer will be transformed in its own notebook and pushed to the database as
 
 ### 🧼 Data Cleaning
 - Replaced all missing values with `NaN`
+- Replace yes/no with True/False in the fee column
 - Checked if website Nan and replaced with contact_website data id available
-- Replaced missing `gallery_name` with `"Unknown Gallery Name"`
-- Filled missing values in `wheelchair`, `website`, and `opening_hours` with `"unknown"`
+- Normalized the street names
+- Normalized the phone numbers
 - Converted all text fields to lowercase to prevent duplication due to case differences
 - Dropped temporary columns: `geometry`, `districts`, `postal_code_from_geo`, `street_from_geo`, `wikidata`, `fee_icon_member`, `contact_website`
 - Verified and corrected data types
 - Removed duplicate rows
+- Remove row if museum_name missing
 - Reordered columns to match the ERD schema
 
 - Save museum_listings.csv to source folder
@@ -182,7 +187,7 @@ Each layer will be transformed in its own notebook and pushed to the database as
 | district_id        | text      | FK to district          | 11009009            |
 | postal_code        | text      | Postal code             | 10115               |
 | website            | text      | Museum website          | www.example.com     |
-| phone              | text      | Museum contact          | 11009009            |
+| normalized_phone   | text      | Museum contact          | 11009009            |
 | museum_type        | text      | Type of museum          | Railway / Maritime  |
 | operator           | text      | In charge of museum     | astak e.v.          |
 | building           | text      | Type of building        | Church / Appartment |
@@ -213,6 +218,7 @@ Each layer will be transformed in its own notebook and pushed to the database as
   - Replaced spaces with underscores
   - Converted all names to lowercase
   - Removed `addr:` prefixes
+- Renamed columns for clarity
 
 ### 🔍 Data Enrichment
 - Fetched `district_name` and `neighbourhood_id` from `or_ortsteile.geojson`
@@ -224,6 +230,7 @@ Each layer will be transformed in its own notebook and pushed to the database as
 ### 🧼 Data Cleaning
 - Replaced all missing values with `NaN`
 - Converted all text fields to lowercase to prevent duplication due to case differences
+- Normalized the street names
 - Dropped temporary columns: `geometry`, `districts`, `postal_code_from_geo`, `street_from_geo`
 - Verified and corrected data types
 - Removed duplicate rows
@@ -281,10 +288,12 @@ Each layer will be transformed in its own notebook and pushed to the database as
 
 ### 🧼 Data Cleaning
 - Replaced all missing values with `NaN`
+- Normalized the street name
 - Converted all text fields to lowercase to prevent duplication due to case differences
 - Dropped temporary columns: `geometry`, `districts`
 - Verified and corrected data types
 - Removed duplicate rows
+- Remove the row if the artwork_name is missing
 - Reordered columns to match the ERD schema
 
 - Save public_artwork_listings.csv to source folder
