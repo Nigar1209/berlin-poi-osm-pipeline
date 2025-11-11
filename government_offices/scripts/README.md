@@ -1,208 +1,187 @@
-# Berlin Government Offices Data Pipeline
+# Government Offices in Berlin - Data Transformation & Schema Design
 
-A comprehensive data transformation pipeline that fetches, cleans, enriches, and structures government and administrative office data for Berlin, Germany using OpenStreetMap and official Berlin municipal sources.
+## 📋 Project Overview
 
-## 📋 Overview
+This project transforms raw OpenStreetMap (OSM) data of government and administrative offices in Berlin into a clean, structured dataset ready for database integration. The process includes data fetching, cleaning, geocoding, spatial enrichment, and schema design.
 
-This project creates a production-ready dataset of **436 unique government offices** in Berlin by combining OpenStreetMap data with official Berlin administrative boundaries. The pipeline handles data discovery, cleaning, geospatial enrichment, and schema standardization for database integration.
-
-## 🎯 Key Features
-
-- **Automated Data Fetching**: Uses OSMnx to query OpenStreetMap for government offices
-- **Smart Deduplication**: Removes exact and near-duplicate entries (within 10m)
-- **Geospatial Enrichment**: Links offices to official Berlin districts and neighborhoods
-- **Data Consolidation**: Merges sparse OSM columns into structured attributes
-- **Schema Standardization**: Outputs database-ready format with 19 standardized columns
-- **Quality Validation**: Ensures geometric integrity and CRS compliance (EPSG:4326)
-
-## 🛠️ Tech Stack
-
-```python
-pandas          # Data manipulation
-geopandas       # Geospatial operations
-shapely         # Geometry handling
-osmnx           # OpenStreetMap queries
-requests        # HTTP requests
-json            # JSON processing
-```
-
-## 📊 Data Pipeline
-
-```
-┌─────────────────┐
-│  OSM Data Fetch │  ← Query government offices via OSMnx
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Initial Dataset │  ← 441 offices, 177 columns (highly sparse)
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Data Cleaning   │  ← Consolidate columns, merge duplicates
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Schema Mapping  │  ← Standardize to 17-column structure
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Geo-Enrichment  │  ← Spatial join with Berlin districts
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Quality Checks  │  ← Remove out-of-bounds, fix geometries
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Final Dataset   │  ← 436 unique offices, ready for DB
-└─────────────────┘
-```
-
-## 📁 Project Structure
-
-```
-├── scripts/
-│   └── government_offices_data_transformation.ipynb
-│   └── README.md   
-├── sources/
-    ├── lor_ortsteile.geojson              # Berlin district boundaries
-    └── README.MD
-
-```
-
-## 🚀 Quick Start
-
-### 1. Setup Environment
-
-```bash
-# Install required packages
-pip install pandas geopandas shapely osmnx requests
-```
-
-### 2. Run the Pipeline
-
-```python
-# Open and run the notebook
-jupyter notebook scripts/government_offices_data_transformation.ipynb
-```
-
-### 3. Output
-
-The pipeline generates a clean GeoDataFrame with 436 offices containing:
-- **Address data**: street, housenumber, postal_code, city
-- **Contact info**: phone_number, email, website, opening_hours
-- **Administrative**: district, neighborhood, district_id, neighborhood_id
-- **Geospatial**: latitude, longitude, geometry (Point)
-- **Accessibility**: wheelchair_accessible
-
-## 📐 Database Schema
-
-### Table: `government_offices_in_berlin`
-
-```sql
-CREATE TABLE government_offices_in_berlin (
-    -- Primary Key
-    office_id               BIGINT PRIMARY KEY,
-    
-    -- Foreign Keys
-    district_id             VARCHAR(10) NOT NULL,
-    neighborhood_id         VARCHAR(10),
-    
-    -- Office Information
-    office_name             VARCHAR(255),
-    office_type             VARCHAR(100),
-    
-    -- Address Information
-    street                  VARCHAR(255),
-    housenumber             VARCHAR(20),
-    postal_code             VARCHAR(10),
-    city                    VARCHAR(100) DEFAULT 'Berlin',
-    district                VARCHAR(100),
-    neighborhood            VARCHAR(100),
-    
-    -- Contact Information
-    phone_number            VARCHAR(50),
-    email                   VARCHAR(255),
-    website                 VARCHAR(500),
-    opening_hours           TEXT,
-    wheelchair_accessible   VARCHAR(20),
-    
-    -- Geospatial Information
-    latitude                FLOAT,
-    longitude               FLOAT,
-    coordinate_type         VARCHAR(50),
-    geometry                GEOMETRY(Point, 4326),
-    
-    -- Indexes
-    INDEX idx_district_id (district_id),
-    INDEX idx_office_type (office_type),
-    SPATIAL INDEX idx_geometry (geometry)
-);
-```
-
-## 🧹 Data Quality Summary
-
-| Stage | Records | Action |
-|-------|---------|--------|
-| Initial OSM Fetch | 441 | Raw OpenStreetMap data |
-| Spatial Filter | 437 | Removed out-of-bounds offices |
-| Geometry Fix | 438 | Exploded multipart geometry |
-| Exact Deduplication | 437 | Removed identical office_ids |
-| Near Deduplication | **436** | Removed offices within 10m |
-
-## 🔑 Key Design Decisions
-
-### Single Table Architecture
-- ✅ **Chosen**: Single unified table for all office types
-- **Reasoning**: 436 offices is manageable, simplifies queries, maintains consistency
-- ❌ **Rejected**: Multiple tables by office type (unnecessary complexity)
-
-### Data Consolidation Strategy
-Sequential column merging for sparse OSM data:
-- `name` ← `name:de`, `name:en`, `official_name`
-- `opening_hours` ← `opening_hours:signed`
-- `website` ← `contact:website`
-- `phone_number` ← `contact:phone`, `phone`
-- `email` ← `contact:email`
-
-### Geospatial Standards
-- **CRS**: EPSG:4326 (WGS84) - global standard
-- **Geometry Type**: Point (validated and cleaned)
-- **Coordinate Precision**: Float (sufficient for Berlin)
-
-## 📊 Data Sources
-
-1. **OpenStreetMap** (via OSMnx)
-   - Government offices tagged with `office=government`, `amenity=townhall`, etc.
-   - German-specific names (Bürgeramt, Finanzamt, etc.)
-
-2. **Berlin Open Data**
-   - Official administrative boundaries (`lor_ortsteile.geojson`)
-   - District and neighborhood identifiers
-
-## 🤝 Contributing
-
-Contributions welcome! Please ensure:
-- Code follows PEP 8 style guidelines
-- Geospatial operations maintain CRS consistency
-- New features include data quality checks
-
-## 📄 License
-
-This project uses data from OpenStreetMap (ODbL) and Berlin Open Data (CC BY).
-
-## 📧 Contact
-
-For questions or issues, please open a GitHub issue.
+**Final Output:** 419 government offices with complete geographic and administrative information
 
 ---
 
-**Last Updated**: November 2025  
-**Dataset Version**: 1.0  
-**Record Count**: 436 unique government offices
+## 🗂️ Project Structure
+
+```
+/scripts
+  └── government_offices_data_transformation.ipynb
+  └── README.md
+/sources
+  └── lor_ortsteile.geojson (Berlin districts/neighborhoods)
+```
+
+---
+
+## 🔄 Data Pipeline
+
+### 1. **Data Discovery & Fetching**
+- **Source:** OpenStreetMap via OSMnx library
+- **Query Tags:** `office=government`, `office=administrative`, `amenity=townhall`, `amenity=public_building`, `office=employment_agency`
+- **Initial Result:** 441 entries with 177 columns
+- **Filter:** Focused on German administrative offices (Bürgeramt, Finanzamt, etc.)
+
+### 2. **Data Consolidation**
+- **Column Merging:** Consolidated duplicate information across sparse OSM columns
+  - `name` ← `name:de`, `name:en`, `official_name`
+  - `opening_hours` ← `opening_hours:signed`
+  - `website` ← `contact:website`
+  - `phone_number` ← `contact:phone`, `phone`
+  - `email` ← `contact:email`
+
+### 3. **Standardization**
+- **Column Mapping:** Renamed OSM columns to schema-aligned names (e.g., `addr:street` → `street`)
+- **Structure:** Reduced from 177 to 16 core columns
+- **Naming Convention:** snake_case format
+
+### 4. **Geo-Enrichment**
+- **Source:** Berlin LOR (Lebensweltlich Orientierte Räume) - `lor_ortsteile.geojson`
+- **Process:** Spatial join to assign district/neighborhood to each office
+- **Added Fields:**
+  - `district` (12 Berlin districts)
+  - `neighborhood` (97 neighborhoods)
+  - `district_id` (8-digit official codes)
+  - `neighborhood_id`
+- **Data Quality:** Removed 21 offices outside boundaries or without names (441 → 420 rows)
+
+### 5. **Coordinate Extraction**
+- Extracted `latitude` and `longitude` from Point geometries
+- Set `coordinate_type` to 'point'
+- **Coverage:** 100% coordinate availability
+
+### 6. **Address Construction**
+- **Strategy 1:** Reverse geocoding via Nominatim API (63.8% success - 268 offices)
+- **Strategy 2:** Fallback construction from components (74.5% success - 313 offices)
+- **Final Coverage:** 89.5% (376/420 offices have complete addresses)
+- **Format:** `"Street Housenumber, Postal_code City"`
+
+### 7. **Geospatial Validation**
+- **CRS:** Verified EPSG:4326 (WGS84)
+- **Geometry Validation:** Fixed 1 multipart geometry (420 → 421 rows)
+- **Duplicate Removal:**
+  - Exact duplicates by `office_id`: 421 → 420 rows
+  - Near-duplicates (within 10m): 420 → 419 rows
+- **Final Status:** All valid, single-part Point geometries
+
+---
+
+## 📊 Final Dataset
+
+### Statistics
+- **Total Records:** 419 government offices
+- **Total Columns:** 19
+- **CRS:** EPSG:4326 (WGS84)
+- **Geometry Type:** Point (100%)
+
+### Data Completeness
+
+| Completeness Level | Fields | Count |
+|-------------------|--------|-------|
+| **High (≥70%)** | office_id, office_name, district, neighborhood, district_id, neighborhood_id, address, postal_code, city, geometry | 10 |
+| **Medium (40-70%)** | latitude, longitude, coordinate_type, website, office_type, wheelchair_accessible | 6 |
+| **Low (<40%)** | opening_hours, phone_number, email | 3 |
+
+---
+
+## 🗄️ Database Schema
+
+### Table: `government_offices_in_berlin`
+
+**Design Decision:** Single table structure (optimal for 419 records)
+
+#### Schema Highlights
+- **Primary Key:** `office_id` (BIGINT)
+- **Foreign Keys:** `district_id` → `berlin_districts(district_id)`
+- **NOT NULL Fields:** office_id, office_name, district_id, neighborhood_id, district, neighborhood, geometry
+- **Spatial Index:** PostGIS-enabled `GEOMETRY(Point, 4326)`
+- **Audit Trail:** `created_at`, `updated_at` timestamps
+
+#### Indexes
+```sql
+CREATE INDEX idx_district_id ON government_offices_in_berlin(district_id);
+CREATE INDEX idx_neighborhood_id ON government_offices_in_berlin(neighborhood_id);
+CREATE INDEX idx_office_type ON government_offices_in_berlin(office_type);
+CREATE INDEX idx_postal_code ON government_offices_in_berlin(postal_code);
+CREATE SPATIAL INDEX idx_geometry ON government_offices_in_berlin(geometry);
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python Libraries:**
+  - `pandas` - Data manipulation
+  - `geopandas` - Geospatial operations
+  - `osmnx` - OpenStreetMap data fetching
+  - `shapely` - Geometry handling
+  - `geopy` - Reverse geocoding (Nominatim)
+
+- **Data Sources:**
+  - OpenStreetMap (OSM)
+  - Berlin Open Data Portal (LOR boundaries)
+
+---
+
+## 📁 Column Reference
+
+| Column | Type | Description | Completeness |
+|--------|------|-------------|--------------|
+| office_id | BIGINT | Unique OSM identifier | 100% |
+| office_name | VARCHAR(255) | Official office name | 100% |
+| office_type | VARCHAR(100) | Office classification | 53.2% |
+| address | TEXT | Full address string | 89.5% |
+| postal_code | VARCHAR(10) | 5-digit postal code | 73.0% |
+| city | VARCHAR(100) | City (default: Berlin) | 72.8% |
+| district | VARCHAR(100) | District name | 100% |
+| neighborhood | VARCHAR(100) | Neighborhood name | 100% |
+| district_id | VARCHAR(10) | 8-digit district code | 100% |
+| neighborhood_id | VARCHAR(10) | Neighborhood identifier | 100% |
+| phone_number | VARCHAR(50) | Contact phone | 33.9% |
+| email | VARCHAR(255) | Contact email | 16.0% |
+| website | VARCHAR(500) | Official website | 62.1% |
+| opening_hours | TEXT | Service hours | 39.4% |
+| wheelchair_accessible | VARCHAR(20) | Accessibility info | 45.1% |
+| latitude | FLOAT | Latitude (WGS84) | 63.7% |
+| longitude | FLOAT | Longitude (WGS84) | 63.7% |
+| coordinate_type | VARCHAR(50) | Geometry type | 63.7% |
+| geometry | GEOMETRY | PostGIS Point | 100% |
+
+---
+
+## 🎯 Key Achievements
+
+✅ Consolidated 441 raw OSM entries into 419 validated records  
+✅ 89.5% address completion through dual-strategy geocoding  
+✅ 100% geographic assignment (district/neighborhood)  
+✅ Spatially validated geometries (EPSG:4326)  
+✅ Production-ready database schema with indexes  
+✅ Complete audit trail with timestamps  
+
+---
+
+## 🚀 Next Steps
+
+1. Create `berlin_districts` reference table
+2. Execute CREATE TABLE statement
+3. Import cleaned dataset (419 rows)
+4. Validate spatial queries and index performance
+5. Plan data enrichment for low-completeness fields (phone, email, opening_hours)
+
+---
+
+## 📝 License & Attribution
+
+- **Data Source:** OpenStreetMap contributors (ODbL)
+- **Administrative Boundaries:** Berlin Open Data Portal
+- **Geocoding:** Nominatim (OpenStreetMap Foundation)
+
+---
+
+**Last Updated:** 11.11.2025  
