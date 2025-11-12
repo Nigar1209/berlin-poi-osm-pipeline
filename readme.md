@@ -1,4 +1,4 @@
-# 🧭 Lakes in Berlin – Step 2: Data Transformation & Preprocessing
+# 🧭 Lakes in Berlin – Data Transformation & Preprocessing
 
 This notebook focuses on cleaning and transforming data for the Berlin lakes project.  
 The goal was to standardize the different datasets (OSM water polygons and in-situ measurements) and prepare clean outputs for database integration.
