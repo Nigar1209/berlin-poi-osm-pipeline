@@ -188,8 +188,9 @@ The following table describes the unified schema used for the integrated parking
 | capacity_disabled        | Number of disabled parking spaces (integer, if available)                     |
 | street_name              | Name of the street (if present)                                               |
 | district                 | Berlin district (Bezirk) name                                                 |
-| subdistrict              | Subdistrict or planning region (if present)                                   |
 | district_id              | Unique identifier for the district                                            |
+| neighborhood             | Subdistrict or planning region (if present)                                   |
+| neighborhood_id          | Unique identifier for the subdistrict                                         |
 | managed_zone_id          | Identifier for managed parking zone (if applicable)                           |
 | geometry_type            | Geometry type (`Point`, `Polygon`, `LineString`, etc.)                        |
 | geometry                 | Geometry in WGS84 (EPSG:4326), as WKT or GeoJSON                              |
