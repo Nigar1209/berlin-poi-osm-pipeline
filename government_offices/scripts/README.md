@@ -57,62 +57,87 @@ This project transforms raw OpenStreetMap (OSM) data of government and administr
 - **Coverage:** 100% coordinate availability
 
 ### 6. **Address Construction**
-- **Strategy 1:** Reverse geocoding via Nominatim API (63.8% success - 268 offices)
+- **Strategy 1:** Reverse geocoding via Nominatim API (100% success - 418 offices)
 - **Strategy 2:** Fallback construction from components (74.5% success - 313 offices)
-- **Final Coverage:** 89.5% (376/420 offices have complete addresses)
+- **Final Coverage:** 100% (418/418 offices have complete addresses by strategy 1)
 - **Format:** `"Street Housenumber, Postal_code City"`
 
 ### 7. **Geospatial Validation**
 - **CRS:** Verified EPSG:4326 (WGS84)
-- **Geometry Validation:** Fixed 1 multipart geometry (420 → 421 rows)
+- **Geometry Validation:** Fixed 1 multipart geometry 
 - **Duplicate Removal:**
-  - Exact duplicates by `office_id`: 421 → 420 rows
-  - Near-duplicates (within 10m): 420 → 419 rows
-- **Final Status:** All valid, single-part Point geometries
+  - Exact duplicates by `office_id`
+  - Near-duplicates (within 10m)
+- **Final Status:** All 418 validated records
 
 ---
 
 ## 📊 Final Dataset
 
 ### Statistics
-- **Total Records:** 419 government offices
-- **Total Columns:** 19
-- **CRS:** EPSG:4326 (WGS84)
-- **Geometry Type:** Point (100%)
+| Category | Completeness | Fields |
+|----------|-------------|--------|
+| **Excellent (100%)** | ✓ Complete | office_id, office_name, address, coordinates, district hierarchy, geometry |
+| **Good (60-75%)** | ⚠️ Partial | postal_code, city, website |
+| **Fair (30-50%)** | ⚠️ Sparse | phone_number, opening_hours, wheelchair_accessible |
+| **Low (<30%)** | ❌ Limited | email |
 
-### Data Completeness
+### Data Quality Metrics
+```
+Total Records: 418
+Validated Geometries: 418 (100%)
+Complete Addresses: 418 (100%)
+Geographic Assignment: 418 (100%)
+Duplicate-Free: ✓ Yes
+CRS Consistency: ✓ EPSG:4326
+```
 
-| Completeness Level | Fields | Count |
-|-------------------|--------|-------|
-| **High (≥70%)** | office_id, office_name, district, neighborhood, district_id, neighborhood_id, address, postal_code, city, geometry | 10 |
-| **Medium (40-70%)** | latitude, longitude, coordinate_type, website, office_type, wheelchair_accessible | 6 |
-| **Low (<40%)** | opening_hours, phone_number, email | 3 |
+sqlCREATE TABLE government_offices_in_berlin (
+    -- Primary Key
+    office_id               BIGINT PRIMARY KEY NOT NULL,
+    
+    -- Foreign Keys
+    district_id             VARCHAR(10) NOT NULL,
+    neighborhood_id         VARCHAR(10) NOT NULL,
+    
+    -- Office Information
+    office_name             VARCHAR(255) NOT NULL,
+    office_type             VARCHAR(100),
+    
+    -- Location
+    address                 TEXT NOT NULL,
+    postal_code             VARCHAR(10),
+    city                    VARCHAR(100),
+    district                VARCHAR(100) NOT NULL,
+    neighborhood            VARCHAR(100) NOT NULL,
+    
+    -- Contact Information
+    phone_number            VARCHAR(50),
+    email                   VARCHAR(255),
+    website                 VARCHAR(500),
+    
+    -- Service Information
+    opening_hours           TEXT,
+    wheelchair_accessible   VARCHAR(20),
+    
+    -- Geospatial Data
+    latitude                FLOAT NOT NULL,
+    longitude               FLOAT NOT NULL,
+    coordinate_type         VARCHAR(50) NOT NULL,
+    geometry                GEOMETRY(Point, 4326) NOT NULL,
+    
+    -- Metadata
+    created_at              TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at              TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
----
-
-## 🗄️ Database Schema
-
-### Table: `government_offices_in_berlin`
-
-**Design Decision:** Single table structure (optimal for 419 records)
-
-#### Schema Highlights
-- **Primary Key:** `office_id` (BIGINT)
-- **Foreign Keys:** `district_id` → `berlin_districts(district_id)`
-- **NOT NULL Fields:** office_id, office_name, district_id, neighborhood_id, district, neighborhood, geometry
-- **Spatial Index:** PostGIS-enabled `GEOMETRY(Point, 4326)`
-- **Audit Trail:** `created_at`, `updated_at` timestamps
-
-#### Indexes
-```sql
+-- Indexes for optimal query performance
 CREATE INDEX idx_district_id ON government_offices_in_berlin(district_id);
 CREATE INDEX idx_neighborhood_id ON government_offices_in_berlin(neighborhood_id);
 CREATE INDEX idx_office_type ON government_offices_in_berlin(office_type);
 CREATE INDEX idx_postal_code ON government_offices_in_berlin(postal_code);
 CREATE SPATIAL INDEX idx_geometry ON government_offices_in_berlin(geometry);
 ```
-
----
 
 ## 🛠️ Technologies Used
 
@@ -129,29 +154,29 @@ CREATE SPATIAL INDEX idx_geometry ON government_offices_in_berlin(geometry);
 
 ---
 
-## 📁 Column Reference
+### Column Reference
 
 | Column | Type | Description | Completeness |
 |--------|------|-------------|--------------|
-| office_id | BIGINT | Unique OSM identifier | 100% |
-| office_name | VARCHAR(255) | Official office name | 100% |
-| office_type | VARCHAR(100) | Office classification | 53.2% |
-| address | TEXT | Full address string | 89.5% |
-| postal_code | VARCHAR(10) | 5-digit postal code | 73.0% |
-| city | VARCHAR(100) | City (default: Berlin) | 72.8% |
-| district | VARCHAR(100) | District name | 100% |
-| neighborhood | VARCHAR(100) | Neighborhood name | 100% |
-| district_id | VARCHAR(10) | 8-digit district code | 100% |
-| neighborhood_id | VARCHAR(10) | Neighborhood identifier | 100% |
-| phone_number | VARCHAR(50) | Contact phone | 33.9% |
-| email | VARCHAR(255) | Contact email | 16.0% |
-| website | VARCHAR(500) | Official website | 62.1% |
-| opening_hours | TEXT | Service hours | 39.4% |
-| wheelchair_accessible | VARCHAR(20) | Accessibility info | 45.1% |
-| latitude | FLOAT | Latitude (WGS84) | 63.7% |
-| longitude | FLOAT | Longitude (WGS84) | 63.7% |
-| coordinate_type | VARCHAR(50) | Geometry type | 63.7% |
-| geometry | GEOMETRY | PostGIS Point | 100% |
+| `office_id` | BIGINT | Unique OSM identifier (Primary Key) | 100% |
+| `district_id` | VARCHAR(10) | 8-digit district code (Foreign Key) | 100% |
+| `neighborhood_id` | VARCHAR(10) | Neighborhood identifier (Foreign Key) | 100% |
+| `office_name` | VARCHAR(255) | Official office name | 100% |
+| `office_type` | VARCHAR(100) | Office classification | 53.1% |
+| `address` | TEXT | Complete formatted address | 100% |
+| `postal_code` | VARCHAR(10) | 5-digit Berlin postal code | 73.2% |
+| `city` | VARCHAR(100) | City name (Berlin) | 73.0% |
+| `district` | VARCHAR(100) | District name | 100% |
+| `neighborhood` | VARCHAR(100) | Neighborhood name | 100% |
+| `phone_number` | VARCHAR(50) | Contact phone | 34.0% |
+| `email` | VARCHAR(255) | Contact email | 16.0% |
+| `website` | VARCHAR(500) | Official website URL | 62.0% |
+| `opening_hours` | TEXT | Service hours | 39.5% |
+| `wheelchair_accessible` | VARCHAR(20) | Accessibility information | 45.2% |
+| `latitude` | FLOAT | WGS84 latitude | 100% |
+| `longitude` | FLOAT | WGS84 longitude | 100% |
+| `coordinate_type` | VARCHAR(50) | Geometry type (point) | 100% |
+| `geometry` | GEOMETRY | PostGIS Point geometry | 100% |
 
 ---
 
@@ -166,15 +191,6 @@ CREATE SPATIAL INDEX idx_geometry ON government_offices_in_berlin(geometry);
 
 ---
 
-## 🚀 Next Steps
-
-1. Create `berlin_districts` reference table
-2. Execute CREATE TABLE statement
-3. Import cleaned dataset (419 rows)
-4. Validate spatial queries and index performance
-5. Plan data enrichment for low-completeness fields (phone, email, opening_hours)
-
----
 
 ## 📝 License & Attribution
 
