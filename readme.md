@@ -1,30 +1,58 @@
-This repository contains the code, data sources, and files used to populate a database with multiple layers of Points of Interest (POIs). Each layer represents a different category or type of POI, allowing for structured, scalable data population. <br>
+# 🧭 Lakes in Berlin – Data Transformation & Preprocessing
 
-You can find the current ERD here : [ERD](https://lucid.app/lucidchart/136abd83-b883-43f1-a957-110f5ba18ca7/edit?invitationId=inv_aa66297e-15c3-444c-b8b2-5496c4a9c1c8&page=0_0)
+This notebook focuses on cleaning and transforming data for the Berlin lakes project.  
+The goal was to standardize the different datasets (OSM water polygons and in-situ measurements) and prepare clean outputs for database integration.
 
-## Automation: Immowelt Hourly Test Workflow
+---
 
-This repo includes a minimal GitHub Actions workflow as a stepping stone towards automating the Immowelt long-term listings scraper.
+## 🔹 Input Files
+- **osm_berlin_lakes.geojson** – all Berlin waterbodies from OpenStreetMap  
+- **demeritzsee.csv** – measurement data for Dämeritzsee (temperature, pH, oxygen, etc.)
 
-**Location**
-- **File:** `.github/workflows/immowelt-hourly-test.yml`
-- **Workflow name (Actions tab):** `immowelt-hourly-test`
-- Initially added on branch  
-  `393-data-integration-automating-immowelt-scraper-step-2-preliminary-research-on-automation-with-github-actions`
+---
 
-**What it does**
-- Provides a **manual trigger** (`workflow_dispatch`) to verify the CI environment.
-- Defines an **hourly schedule** (`cron: "17 * * * *"`, UTC).  
-  > GitHub runs scheduled workflows **only from the default branch** (usually `main`).  
-  > The schedule becomes active after this file is merged into `main`.
+## 🔹 Main Steps
+1. Loaded the OSM and CSV data using GeoPandas and Pandas.  
+2. Filtered out non-lake features and removed empty or duplicate entries.  
+3. Converted coordinate system to WGS 84 (EPSG:4326) and calculated area and centroid.  
+4. Cleaned and renamed columns to match the unified schema.  
+5. Combined results into clean GeoJSON and CSV outputs.  
+6. Added metadata such as `data_source`, `lake_name`, and `last_updated`.  
+7. Checked data quality and exported the final results.
 
-**How to run manually (before merge)**
-1. Open **Actions → immowelt-hourly-test → Run workflow**.  
-2. Select the feature branch above and click **Run**.  
-3. The job prints a UTC timestamp so you can confirm execution.
+---
 
-**Next steps**
-- Open a PR to `main` (refs `#393`, parent `#392`).  
-- After merge, verify the first scheduled run.  
-- Add a small Python script that appends a `timestamp` row to a test NeonDB table.  
-- Store DB creds as repo secrets in **Settings → Secrets and variables → Actions** (e.g., `NEON_DB_URL`).
+## 🔹 Output Files
+- **berlin_lakes_summary.csv** – cleaned data without geometry  
+- **lakes_berlin_unified.geojson** – standardized dataset with geometry  
+- *(optional)* **demeritzsee_clean.csv** – processed water-quality data  
+- *(optional)* **daemeritzsee_polygon.geojson** – lake polygon extracted from OSM
+
+---
+
+## 🔹 Unified Schema
+| Column | Description |
+|--------|--------------|
+| lake_name | Name of the lake or waterbody |
+| geometry | Polygon geometry (EPSG:4326) |
+| centroid_lat | Latitude of centroid |
+| centroid_lon | Longitude of centroid |
+| water_type | Type of waterbody (lake, pond, reservoir) |
+| area_ha | Surface area in hectares |
+| max_depth_m | Maximum depth (if available) |
+| has_public_access | Boolean, public access yes/no |
+| swimming_allowed | Boolean, swimming allowed yes/no |
+| data_source | Data origin |
+| last_updated | Timestamp of last update |
+
+---
+
+## 🔹 Summary
+All geometry data were validated, duplicates removed, and coordinate references standardized.  
+The cleaned dataset is now ready for integration into the unified database structure.
+
+---
+
+**Prepared by:** Robert Sesazi  
+**Branch:** `lakes-data-modelling-rs2`  
+**Date:** November 2025
