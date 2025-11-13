@@ -167,7 +167,70 @@ Two geoJSON files are too big for GitHub's 100 MB file size limit and were there
 
 # Parking Spaces Berlin Step 2 - Data Transformation & Integration
 
-See notebook `parking_spaces/scripts/parking_spaces_data_transformation.ipynb` for full pipeline for data extraction, transformation, integration, and validation of the unified berlin parking data.
+See notebook `parking_spaces/scripts/parking_spaces_data_transformation.ipynb` for full pipeline for data extraction, transformation, integration, and validation of the unified berlin parking data.|
+
+## Applied Data Transformation Steps
+
+- **Column normalization** (lowercase, snake_case, standardized field names)
+- **Source harmonization** (mapping source-specific fields to the unified schema)
+- **Geometry validation** and projection to WGS84 (EPSG:4326)
+- **Spatial joins** to assign districts and managed parking zones
+- **Deduplication** and **null handling** (removing duplicates, standardizing nulls)
+- **Conflict detection** (setting verification flags for mismatches)
+- **Schema alignment** and export to the final table
+
+## Data Validation
+
+- **CRS Consistency:** All geometries reprojected to WGS84 (EPSG:4326).  
+- **Geometry Validity:** Verified no invalid, empty, or self‑intersecting geometries.  
+- **Spatial Extent:** All features confirmed to fall within the Berlin administrative boundary.  
+- **Cross‑Source Consistency:** Checked fee, time restrictions, and zone attributes for mismatches across sources.  
+- **Duplication Check:** Identified duplicate polygons and overlapping points, retaining the most complete record.  
+
+## Architecture Decision: One Unified Parking Table (AD‑001)
+
+During exploration, we evaluated whether to maintain **multiple source‑specific tables** (e.g., OSM off-street, OSM on-street, BOD street parking, Park & Ride) or to **merge all records into one harmonized, unified table**.
+
+### Exploration Summary
+
+- Each data source exposes a different schema, inconsistent field naming, and heterogeneous geometry types.
+- Many attributes overlap semantically even when named differently (`fee`, `parkgebuehr`, `bewirtscha`, etc.).
+- Multiple sources describe *the same parking objects* with varying completeness → requiring deduplication.
+- District and subdistrict assignment must be spatially derived and consistent across sources.
+- Introducing separate tables would require additional integration logic, more foreign keys, and more complex joins in downstream analytics.
+
+### ✅ Final Decision: Keep One Unified Table
+
+We chose a **single integrated parking table** because it provides:
+
+- **Consistent schema** across all parking data in Berlin  
+- **Easier deduplication** and conflict resolution  
+- **Simpler QA/validation** (one table → one validation layer)  
+- **Faster downstream queries** for maps, dashboards, and APIs  
+- **Better compatibility with MVP scope** of the Berlin Data Pool  
+
+The unified table preserves source metadata (`source`, `source_layer`, `external_id`) so we maintain full lineage without fragmenting the data model. We also introduced a column `parking_category` (on street, off street, other) for easy filtering with simplified categories. `parking_type` still contains the original type of the parking. 
+
+## Test Upload to Neon Database
+
+To validate schema correctness, constraints, and foreign key relationships, we performed a **test ingestion** into the `test_berlin_data` schema in NeonDB.
+
+### What was tested?
+
+- Table creation with:
+  - `PRIMARY KEY (parking_id)`
+  - `NOT NULL` enforcement
+  - Foreign keys to `districts` and the composite key of `district_id`
+- A full test load of ~308k processed parking records using `pandas.to_sql`.
+
+### Outcome
+
+- Table created successfully with all constraints.
+- Upload completed without corruption.
+- Foreign key checks ensured proper spatial assignment of districts and neighborhoods.
+- Schema validated at production scale (~144 MB table size after insert).
+
+This confirms that the unified parking table design is aligned with the structural requirements of the Berlin Data Pool and is ready for integration into the main data foundation.
 
 ## Final Parking Table Schema
 
@@ -175,47 +238,26 @@ The following table describes the unified schema used for the integrated parking
 
 | **field name**           | **description**                                                                 |
 |--------------------------|-------------------------------------------------------------------------------|
+| parking_i                | Unique identifier (PK)                                                        |
 | source                   | Data origin (`osm`, `bod_parking_street`, `bod_park_and_ride`, etc.)          |
 | source_layer             | Source sublayer or OSM tag combination                                        |
 | external_id              | Unique identifier from the source (OSM id, WFS id, etc.)                      |
 | name                     | Parking facility name or description                                          |
-| parking_type             | Normalized parking type (`off_street`, `on_street`, `garage`, `zone`, `park_and_ride`, etc.) |
+| parking_type             | Distinct parking type (`underground`, `kurb`, `garage`, `zone`, `park_and_ride`, etc.) |
+| parking_category         | Simplified parking type (`off_street`, `on_street`, `other`)                  |
 | operator                 | Operator or managing entity                                                   |
-| fee                      | Fee information as provided by source (string or boolean)                     |
-| has_fee                  | Boolean indicating if a fee applies (harmonized)                              |
+| fee_raw                  | Fee information as provided by source (string or boolean)                     |
+| fee_amount_euro          | Numeric field with parking price per hour in euro                             |
+| has_fee                  | String value `paid`, `free`, `unknown`                                        |
+| has_fee_bool             | Boolean value True/False                                                      |
 | time_restriction         | Time restrictions or allowed parking times (e.g., `12h`, `24h`)               |
 | capacity                 | Total parking capacity (integer)                                              |
 | capacity_disabled        | Number of disabled parking spaces (integer, if available)                     |
 | street_name              | Name of the street (if present)                                               |
-| district                 | Berlin district (Bezirk) name                                                 |
 | district_id              | Unique identifier for the district                                            |
-| neighborhood             | Subdistrict or planning region (if present)                                   |
 | neighborhood_id          | Unique identifier for the subdistrict                                         |
 | managed_zone_id          | Identifier for managed parking zone (if applicable)                           |
 | geometry_type            | Geometry type (`Point`, `Polygon`, `LineString`, etc.)                        |
 | geometry                 | Geometry in WGS84 (EPSG:4326), as WKT or GeoJSON                              |
 | last_updated_at_source   | Date of last update from the data source                                      |
-| fetched_at               | Timestamp when the data was ingested                                          |
-
-### Verification Flags
-
-During data integration, three verification flags are set for each record to support quality assurance and review:
-
-- `zone_conflict`: Indicates a mismatch between the assigned managed zone and the spatial location (e.g., parking geometry falls outside the associated zone polygon).
-- `subdistrict_conflict`: Flags cases where the spatial join assigns a subdistrict that disagrees with the source or expected district information.
-- `needs_review`: True if either conflict flag is set or if other anomalies (e.g., missing required fields) are detected, signaling records for manual review or further investigation.
-
-## Applied Data Transformation Steps
-
-- Column normalization (lowercase, snake_case, standardized field names)
-- Source harmonization (mapping source-specific fields to the unified schema)
-- Geometry validation and projection to WGS84 (EPSG:4326)
-- Spatial joins to assign districts and managed parking zones
-- Deduplication and null handling (removing duplicates, standardizing nulls)
-- Conflict detection (setting verification flags for mismatches)
-- Schema alignment and export to the final table
-
-## Data issues or inconsistencies
-
-Potential mismatches or inconsistencies (such as spatial assignment errors or missing values) are automatically flagged during the QA process using verification flags, and reviewed as part of the integration workflow.
-
+| fetched_at               | Timestamp when the data was ingested                                          
