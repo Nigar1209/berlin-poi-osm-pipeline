@@ -184,6 +184,7 @@ See notebook `parking_spaces/scripts/parking_spaces_data_transformation.ipynb` f
 - **CRS Consistency:** All geometries reprojected to WGS84 (EPSG:4326).  
 - **Geometry Validity:** Verified no invalid, empty, or self‑intersecting geometries.  
 - **Spatial Extent:** All features confirmed to fall within the Berlin administrative boundary.  
+- **Missing street names:** Street names were enriched using a two‑stage spatial nearest‑street matching pipeline. (from 53,263 missing street names to 1,635 missing street names)
 - **Cross‑Source Consistency:** Checked fee, time restrictions, and zone attributes for mismatches across sources.  
 - **Duplication Check:** Identified duplicate polygons and overlapping points, retaining the most complete record.  
 
