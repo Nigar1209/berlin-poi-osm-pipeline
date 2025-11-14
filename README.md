@@ -15,7 +15,7 @@ This data pipeline consists of two main steps:
 
 ### What It Does
 
-The transformation notebook (`food_markets_transformation.ipynb`) performs the following operations:
+The transformation notebook (`food_markets_transform.ipynb`) performs the following operations:
 
 1. **Data Loading**: Combines data from 4 sources:
    - `weihnachtsmaerkte.geojson` - Official Christmas markets (berlin.de)
@@ -87,7 +87,7 @@ task2+/
 │   │   ├── wochenmarkt_deutschland.csv
 │   │   └── visitberlin_markets.txt
 │   └── berlin_food_markets_clean.csv  # Output file
-├── food_markets_transform.ipynb   # Main transformation notebook
+├── .ipynb   # Main transformation notebook
 └── README.md                           # This file
 ```
 
@@ -99,7 +99,7 @@ task2+/
    ```
 
 2. **Open the notebook**:
-   - Navigate to `food_markets_transformation.ipynb`
+   - Navigate to `food_markets_transform.ipynb`
    - Click to open
 
 3. **Run all cells**:
