@@ -93,8 +93,6 @@ task2+/
 
 ### How to Run
 
-#### Option 1: Jupyter Notebook (Recommended)
-
 1. **Launch Jupyter**:
    ```bash
    jupyter notebook
@@ -112,14 +110,6 @@ task2+/
    - The notebook takes approximately **2-3 minutes** to complete
    - Nominatim geocoding takes ~1 second per request (~140 addresses)
    - Progress is displayed for each step
-
-#### Option 2: Python Script
-
-Alternatively, run the standalone Python script:
-
-```bash
-python3 food_markets_transformation_with_spatial_join.py
-```
 
 ### Output
 
