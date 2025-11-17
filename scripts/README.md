@@ -4,10 +4,131 @@ This project transforms and integrates data about Berlin's food and weekly marke
 
 ## Project Overview
 
-This data pipeline consists of two main steps:
+This data pipeline consists of three main steps:
 
-1. **Step 2: Data Transformation** (this notebook) - Combines, cleans, and enriches market data
-2. **Step 3: Database Population** (see below) - Loads the transformed data into PostgreSQL
+1. **Step 1: Data Collection** - Scrapes non-official market data from web sources
+2. **Step 2: Data Transformation** - Combines, cleans, and enriches market data
+3. **Step 3: Database Population** - Loads the transformed data into PostgreSQL (documentation coming later)
+
+---
+
+## Step 1: Data Collection
+
+### What It Does
+
+The data collection script (`scripts/scrape_nonofficial.py`) scrapes market data from non-official sources to supplement the official berlin.de datasets:
+
+1. **Visit Berlin** (visitberlin.de)
+   - Scrapes 3 pages: covered markets, weekly markets, street food
+   - Output: `food_markets/sources/visitberlin_markets.txt`
+
+2. **Wochenmarkt Deutschland** (wochenmarkt-deutschland.de)
+   - Scrapes HTML table of Berlin markets
+   - Output: `food_markets/sources/wochenmarkt_deutschland.csv`
+
+The scraper is **configuration-driven** - all website-specific settings (URLs, CSS selectors, parser types) are stored in `scripts/scraper_config.json`, making it easy to add new sources or update selectors without touching the code.
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Internet connection
+
+### Installation
+
+Install scraping dependencies:
+
+```bash
+pip install requests beautifulsoup4 pandas
+```
+### Configuration
+
+The scraper uses `scripts/scraper_config.json` to configure each source. To add a new source or update selectors:
+
+1. **Inspect the website** using browser DevTools (Chrome/Firefox)
+2. **Identify the CSS selector** or table structure
+3. **Update the config file**:
+
+```json
+{
+  "new_source": {
+    "description": "Description of the source",
+    "urls": ["https://example.com/markets"],
+    "parser_type": "selector",  // or "table"
+    "selector": "div.market-name",  // CSS selector
+    "output_path": "../food_markets/sources/new_source.txt",
+    "output_format": "txt"  // or "csv"
+  }
+}
+```
+
+**Parser Types:**
+- `"table"` - Scrapes HTML tables (outputs CSV)
+- `"selector"` - Scrapes using CSS selectors (outputs TXT)
+
+### How to Run
+
+Navigate to the scripts directory:
+
+```bash
+cd scripts
+```
+
+**Scrape a specific source:**
+```bash
+python3 scrape_nonofficial.py visitberlin
+python3 scrape_nonofficial.py wochenmarkt
+```
+
+**Scrape all sources:**
+```bash
+python3 scrape_nonofficial.py --all
+```
+
+**List available sources:**
+```bash
+python3 scrape_nonofficial.py --list
+```
+
+**Show help:**
+```bash
+python3 scrape_nonofficial.py --help
+```
+
+### Output
+
+The scraper creates files in `food_markets/sources/`:
+- `visitberlin_markets.txt` - List of market names (deduplicated and sorted)
+- `wochenmarkt_deutschland.csv` - Table with market details
+
+These files are then used as input for Step 2 (Data Transformation).
+
+### Workflow for Adding New Sources
+
+**"Human in the Loop" Workflow:**
+
+1. **Inspect** the website with browser DevTools (F12)
+2. **Find** the CSS selector or table structure
+3. **Test** the selector in DevTools console:
+   ```javascript
+   document.querySelectorAll("your.css.selector")
+   ```
+4. **Update** `scraper_config.json` with the new source
+5. **Run** the scraper: `python3 scrape_nonofficial.py new_source`
+6. **Verify** the output file was created correctly
+
+### Troubleshooting
+
+**Issue**: `ModuleNotFoundError: No module named 'requests'`
+- **Solution**: Install dependencies: `pip install requests beautifulsoup4 pandas`
+
+**Issue**: `⚠️ No table found on the page`
+- **Solution**: The website structure may have changed. Inspect the page and update the config
+
+**Issue**: `⚠️ No data found with the given selector`
+- **Solution**: The CSS selector is incorrect. Use DevTools to find the correct selector
+
+**Issue**: `❌ Unknown source: xyz`
+- **Solution**: Check available sources with `--list` or add the source to `scraper_config.json`
 
 ---
 
@@ -15,7 +136,7 @@ This data pipeline consists of two main steps:
 
 ### What It Does
 
-The transformation notebook (`food_markets_transform.ipynb`) performs the following operations:
+The transformation notebook (`scripts/food_markets_transform.ipynb`) performs the following operations:
 
 1. **Data Loading**: Combines data from 4 sources:
    - `weihnachtsmaerkte.geojson` - Official Christmas markets (berlin.de)
@@ -57,7 +178,7 @@ The transformation notebook (`food_markets_transform.ipynb`) performs the follow
 
 1. **Clone or navigate to the project directory**:
    ```bash
-   cd /path/to/task2+
+   cd /path/to/food_markets
    ```
 
 2. **Install required packages**:
@@ -78,35 +199,43 @@ The transformation notebook (`food_markets_transform.ipynb`) performs the follow
 ### Directory Structure
 
 ```
-task2+/
 ├── food_markets/
-│   ├── sources/              # Input data files
-│   │   ├── weihnachtsmaerkte.geojson
-│   │   ├── wochen-troedelmaerkte.geojson
-│   │   ├── OSM-berlin_markets.json
-│   │   ├── wochenmarkt_deutschland.csv
-│   │   └── visitberlin_markets.txt
-│   └── berlin_food_markets_clean.csv  # Output file
-├── .ipynb   # Main transformation notebook
-└── README.md                           # This file
+│   └── sources/              # Input data files
+│       ├── weihnachtsmaerkte.geojson
+│       ├── wochen-troedelmaerkte.geojson
+│       ├── OSM-berlin_markets.json
+│       ├── wochenmarkt_deutschland.csv
+│       ├── visitberlin_markets.txt
+│       └── lor_ortsteile.geojson     # Berlin neighborhood boundaries
+└── scripts/
+    ├── scrape_nonofficial.py         # Data collection script
+    ├── scraper_config.json           # Scraper configuration
+    ├── food_markets_transform.ipynb  # Main transformation notebook
+    ├── berlin_food_markets_clean.csv # Output file (for now)
+    └── README.md                     # This file
 ```
 
 ### How to Run
 
-1. **Launch Jupyter**:
+1. **Navigate to the scripts directory**:
+   ```bash
+   cd scripts
+   ```
+
+2. **Launch Jupyter**:
    ```bash
    jupyter notebook
    ```
 
-2. **Open the notebook**:
+3. **Open the notebook**:
    - Navigate to `food_markets_transform.ipynb`
    - Click to open
 
-3. **Run all cells**:
+4. **Run all cells**:
    - Click `Kernel` → `Restart & Run All`
    - Or press `Ctrl+Enter` on each cell sequentially
 
-4. **Wait for completion**:
+5. **Wait for completion**:
    - The notebook takes approximately **2-3 minutes** to complete
    - Nominatim geocoding takes ~1 second per request (~140 addresses)
    - Progress is displayed for each step
@@ -115,7 +244,7 @@ task2+/
 
 The transformation produces:
 
-**File**: `food_markets/berlin_food_markets_clean.csv`
+**File**: `scripts/berlin_food_markets_clean.csv`
 
 **Schema** (18 columns):
 - `market_id` - Primary key (FM001-FM163)
@@ -167,7 +296,7 @@ Approximately **50% of addresses lack house numbers**. This is **expected behavi
 - **Duration**: ~140 seconds for ~140 addresses
 
 **Issue**: Spatial join fails to find Berlin neighborhoods
-- **Solution**: Ensure `mapping/lor_ortsteile.geojson` exists in the correct location
+- **Solution**: Ensure `food_markets/sources/lor_ortsteile.geojson` exists in the correct location
 
 **Issue**: Cell execution order error
 - **Solution**: Run `Kernel` → `Restart & Run All` to execute cells in correct order
@@ -176,14 +305,7 @@ Approximately **50% of addresses lack house numbers**. This is **expected behavi
 
 ## Step 3: Database Population
 
-_Instructions for loading the transformed data into PostgreSQL will be added here._
-
-### Prerequisites
-- PostgreSQL database with `berlin_data` schema
-- `berlin_data.districts` table populated with district reference data
-
-### How to Run
-_To be documented after implementing the population script._
+*Documentation for database population will be added here later.*
 
 ---
 
