@@ -130,6 +130,39 @@ These files are then used as input for Step 2 (Data Transformation).
 **Issue**: `❌ Unknown source: xyz`
 - **Solution**: Check available sources with `--list` or add the source to `scraper_config.json`
 
+### Fetching OpenStreetMap Data
+
+The OSM data serves as the **base layer** for the data transformation pipeline, providing rich, structured
+market data including standardized opening hours, operator information, and accessibility details.
+
+**Script**: `scripts/fetch_osm_markets.py`
+
+This script queries the Overpass API using the optimized query from the Step 1 README to fetch:
+   - Marketplaces (`amenity=marketplace`)
+   - Food courts (`amenity=food_court`)
+   - Christmas markets (`xmas:feature=market`)
+
+**How to run:**
+
+Navigate to the scripts directory:
+```bash
+cd scripts
+```
+
+Run the fetch script:
+```bash
+python3 fetch_osm_markets.py
+```
+
+**Output:**
+`food_markets/sources/OSM-berlin_markets.json` - Market data from OpenStreetMap
+
+**Note**: The script will prompt for confirmation if the output file already exists. The data is fetched in
+real-time from OSM, so results may vary slightly from run to run as the OSM database is continuously updated by
+contributors.
+
+**Attribution**: Data © OpenStreetMap contributors, available under the Open Database License (ODbL).
+
 ---
 
 ## Step 2: Data Transformation
