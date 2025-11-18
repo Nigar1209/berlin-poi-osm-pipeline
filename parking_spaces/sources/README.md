@@ -1,10 +1,10 @@
-# Parking Spaces Berlin
+# Parking Spaces Berlin Step 1 - Data Modelling
 
 This document lists potential data sources for integrating parking related data into the Berlin data pool. For each data source the origin, update frequency, data type (static or dynamic), relevant fields and tags, links, notes, and the extracted raw geojson files are listed. 
 
 See notebook `parking_spaces/scripts/parking_spaces_data_modelling.ipynb` for data extraction method of the raw data files in `parking_spaces/sources`
 
-**Raw Data Fiels:**
+**Raw Data Files:**
 
 Two geoJSON files are too big for GitHub's 100 MB file size limit and were therefore **not commited** to this repository. All other source files are included locally and can be regenerated using the WFS or OSM scripts in the notebook.
 
@@ -143,7 +143,6 @@ Two geoJSON files are too big for GitHub's 100 MB file size limit and were there
 
 **📄 Extracted raw data files:** bod_parking_zones.geojson
 
-
 ### Parkopedia - Dynamic Parking Availability
 
 **Source and origin**: Parkopedia (business.parkope­dia.com), global parking data provider (static + dynamic). 
@@ -166,87 +165,100 @@ Two geoJSON files are too big for GitHub's 100 MB file size limit and were there
 
 **Links:** [Parkopedia](https://business.parkopedia.com/parking-data)
 
+# Parking Spaces Berlin Step 2 - Data Transformation & Integration
 
-## Parking Table Schema Draft
+See notebook `parking_spaces/scripts/parking_spaces_data_transformation.ipynb` for full pipeline for data extraction, transformation, integration, and validation of the unified berlin parking data.|
 
-This is a **proposal** for how to map all above sources into a single raw-ish table later:
+## Applied Data Transformation Steps
 
-| **field name**           | **description**                                              |
-|--------------------------|----------------------------------------------------------|
-| source                   | `osm`, `bod_parken`, `bod_parkandride`, …                |
-| source_layer             | sublayer or OSM tag combination                          |
-| external_id              | id from source (OSM id, WFS id, …)                       |
-| name                     | parking name or description                              |
-| parking_type             | e.g. `off_street`, `on_street`, `garage`, `zone`, `P&R`  |
-| operator                 | city / private / district                                |
-| fee                      | boolean or string from source                            |
-| time restriction         | 12h, 24h, ..                                             |
-| capacity                 | integer                                                  |
-| capacity_disabled        | integer if available                                     |
-| street_name              | from WFS if present                                      |
-| district                 | Berlin Bezirk if                                         |
-| managed_zone_id          | id from parkraumbewirtschaftung                          |
-| geometry_type            | point / polygon / line                                   |
-| geometry                 | geom                                                     |
-| last_updated_at_source   | date from feed if present                                |
-| fetched_at               | timestamp of download                                    |
+- **Column normalization** (lowercase, snake_case, standardized field names)
+- **Source harmonization** (mapping source-specific fields to the unified schema)
+- **Geometry validation** and projection to WGS84 (EPSG:4326)
+- **Spatial joins** to assign districts and managed parking zones
+- **Deduplication** and **null handling** (removing duplicates, standardizing nulls)
+- **Conflict detection** (setting verification flags for mismatches)
+- **Schema alignment** and export to the final table
 
+## Data Validation
 
-## Planned Data Transformation Steps
+- **CRS Consistency:** All geometries reprojected to WGS84 (EPSG:4326).  
+- **Geometry Validity:** Verified no invalid, empty, or self‑intersecting geometries.  
+- **Spatial Extent:** All features confirmed to fall within the Berlin administrative boundary.  
+- **Missing street names:** Street names were enriched using a two‑stage spatial nearest‑street matching pipeline. (from 53,263 missing street names to 1,635 missing street names)
+- **Cross‑Source Consistency:** Checked fee, time restrictions, and zone attributes for mismatches across sources.  
+- **Duplication Check:** Identified duplicate polygons and overlapping points, retaining the most complete record.  
 
-- Normalize column names (lowercase, snakecase, remove special characters)
-- Select relevant columns
-- Drop columns with >85% null
-- Remove duplicates (deduplicate on same geometry centroid within 5–10 meters and same name)
-- Remove empty geometries, fix invalid geometries, explode multiparts
-- Map source-specific categories to common parking_type
-  - OSM amenity=parking_space → on_street
-  - WFS street parking → on_street
-  - WFS P+R → park_and_ride
-  - WFS parkraumbewirtschaftung → zone
-  - OSM amenity=parking with parking=multi-storey → garage
+## Architecture Decision: One Unified Parking Table (AD‑001)
 
-## Data issues or inconsistencies
+During exploration, we evaluated whether to maintain **multiple source‑specific tables** (e.g., OSM off-street, OSM on-street, BOD street parking, Park & Ride) or to **merge all records into one harmonized, unified table**.
 
-### Schema and Field Inconsistencies
+### Exploration Summary
 
-**Different field names and languages**: Berlin Open Data fields are in German (bezirk, strassenname, stellplaet), while OSM uses English and underscores (capacity, fee, operator). → Requires normalization to a unified schema.
+- Each data source exposes a different schema, inconsistent field naming, and heterogeneous geometry types.
+- Many attributes overlap semantically even when named differently (`fee`, `parkgebuehr`, `bewirtscha`, etc.).
+- Multiple sources describe *the same parking objects* with varying completeness → requiring deduplication.
+- District and subdistrict assignment must be spatially derived and consistent across sources.
+- Introducing separate tables would require additional integration logic, more foreign keys, and more complex joins in downstream analytics.
 
-**Data types inconsistencies**: Numeric fields like capacity or fee can appear as strings in WFS responses ("30" instead of 30, "ja"/"nein" for booleans).
+### ✅ Final Decision: Keep One Unified Table
 
-**Missing IDs**: Some WFS datasets have no stable unique identifier and mostly have ploygon_id, while OSM has stable unique identifiers.
+We chose a **single integrated parking table** because it provides:
 
-### Coverage and Spatial Gaps
+- **Consistent schema** across all parking data in Berlin  
+- **Easier deduplication** and conflict resolution  
+- **Simpler QA/validation** (one table → one validation layer)  
+- **Faster downstream queries** for maps, dashboards, and APIs  
+- **Better compatibility with MVP scope** of the Berlin Data Pool  
 
-**Uneven spatial coverages**:
+The unified table preserves source metadata (`source`, `source_layer`, `external_id`) so we maintain full lineage without fragmenting the data model. We also introduced a column `parking_category` (on street, off street, other) for easy filtering with simplified categories. `parking_type` still contains the original type of the parking. 
 
-- OSM data coverage depends on community mapping (some districts may be better mapped than others)
-- Park & Ride only covers specific sites and not all large parking spaces
-- Parken im Straßenraum does not include private or informal street parking
+## Test Upload to Neon Database
 
-**Split services**: Parken im Straßenraum is split into inner and outer S-Bahn ring WFS layers. When combining them they can cause duplicates or missing areas if one of the layers fails.
+To validate schema correctness, constraints, and foreign key relationships, we performed a **test ingestion** into the `test_berlin_data` schema in NeonDB.
 
-**Misaligned Geometry**: Some WFS geometries may not perfectly align with official district boundaries or OSM geometries (could give issues with spatial joins)
+### What was tested?
 
-### Completeness & Reliablility
+- Table creation with:
+  - `PRIMARY KEY (parking_id)`
+  - `NOT NULL` enforcement
+  - Foreign keys to `districts` and the composite key of `district_id`
+- A full test load of ~308k processed parking records using `pandas.to_sql`.
 
-**Missing values**: Some columns might be outdated or have a lot of missing data
+### Outcome
 
-**Unverified values**: OSM attributes are entered by users and may contain typos or inconsistencies 
+- Table created successfully with all constraints.
+- Upload completed without corruption.
+- Foreign key checks ensured proper spatial assignment of districts and neighborhoods.
+- Schema validated at production scale (~144 MB table size after insert).
 
-**Overlapping sources**:
+This confirms that the unified parking table design is aligned with the structural requirements of the Berlin Data Pool and is ready for integration into the main data foundation.
 
-- OSM and Parken im Straßenraum may both describe the same locations differently
-- Park & Ride locations can cometimes also appear as amenity=parking in OSM
+## Final Parking Table Schema
 
-### Coordinate Reference Systems (CRS)
+The following table describes the unified schema used for the integrated parking table after all harmonization and transformation steps:
 
-There are inconcistent CRS across sources (Some WFS services deliver data in EPSG:25833 (ETRS89 / UTM Zone 33N), others in EPSG:4326 (WGS84).) 
-
-### License & Accessibility
-
-- OSM data is under ODbL license (requires attribution)
-- Berlin Open Data typically uses DL-DE Zero 2.0
-- Parkopedia is commercial and cannot be redistributed without permission
-
-
+| **field name**           | **description**                                                                 |
+|--------------------------|-------------------------------------------------------------------------------|
+| parking_i                | Unique identifier (PK)                                                        |
+| source                   | Data origin (`osm`, `bod_parking_street`, `bod_park_and_ride`, etc.)          |
+| source_layer             | Source sublayer or OSM tag combination                                        |
+| external_id              | Unique identifier from the source (OSM id, WFS id, etc.)                      |
+| name                     | Parking facility name or description                                          |
+| parking_type             | Distinct parking type (`underground`, `kurb`, `garage`, `zone`, `park_and_ride`, etc.) |
+| parking_category         | Simplified parking type (`off_street`, `on_street`, `other`)                  |
+| operator                 | Operator or managing entity                                                   |
+| fee_raw                  | Fee information as provided by source (string or boolean)                     |
+| fee_amount_euro          | Numeric field with parking price per hour in euro                             |
+| has_fee                  | String value `paid`, `free`, `unknown`                                        |
+| has_fee_bool             | Boolean value True/False                                                      |
+| time_restriction         | Time restrictions or allowed parking times (e.g., `12h`, `24h`)               |
+| capacity                 | Total parking capacity (integer)                                              |
+| capacity_disabled        | Number of disabled parking spaces (integer, if available)                     |
+| street_name              | Name of the street (if present)                                               |
+| district_id              | Unique identifier for the district                                            |
+| neighborhood_id          | Unique identifier for the subdistrict                                         |
+| managed_zone_id          | Identifier for managed parking zone (if applicable)                           |
+| geometry_type            | Geometry type (`Point`, `Polygon`, `LineString`, etc.)                        |
+| geometry                 | Geometry in WGS84 (EPSG:4326), as WKT or GeoJSON                              |
+| last_updated_at_source   | Date of last update from the data source                                      |
+| fetched_at               | Timestamp when the data was ingested                                          
