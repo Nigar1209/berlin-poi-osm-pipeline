@@ -265,6 +265,11 @@ JOIN berlin_source_data.districts d ON b.district_id = d.district_id
     )
     WHERE l.layer = 'listings';
 ```
+### 🧩 What’s Happening
+- For each listing row (WHERE l.category = 'listing'), Postgres runs three subqueries.
+- Each subquery filters the unified table by category (museum, gallery, bank).
+- The <-> operator finds the nearest neighbor using the GiST index on geom.
+- The results are bundled into a JSONB object and stored in nearest_pois.
 
 ![alt text](png_files/poi_final.png)
 
