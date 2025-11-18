@@ -191,6 +191,9 @@ CREATE SPATIAL INDEX idx_geometry ON government_offices_in_berlin(geometry);
 
 ---
 
+## Schema
+![ERD Image](../sources/Layered_ERD-Berlin.jpeg)
+
 
 ## 📝 License & Attribution
 
