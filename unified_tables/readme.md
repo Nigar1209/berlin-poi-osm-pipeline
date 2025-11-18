@@ -34,7 +34,8 @@
 | longitude       |                                    | float8                | Geographic longitude                                          | `13.319723` |
 | geometry        |                                    | geometry(Point, 4326) | Geometry column (WGS84)                                       | `POINT(13.319723 52.4866675)` |
 | attributes      |                                    | jsonb                 | Additional info from source tables stored as JSON             | `{"operator":"nan","wheelchair":true,"opening_hours":"mo-fr 10:00-16:00"}` |
-
+| nearest_pos     |                                      | jsonb.                | Showing nearest layer to long term listing                    | `{"bank": {"id":"ban-1915389761","name": "sparkasse","address": {"street": "otto-suhr-allee","house_number": null},"distance": 1011.56046421}` |
+---
 ---
 
 ### Proposed Table Structure: Statistics

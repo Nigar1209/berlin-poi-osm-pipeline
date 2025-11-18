@@ -15,7 +15,7 @@
 | longitude       |                                      | float8                | Geographic longitude                                          | `13.319723` |
 | geometry        |                                      | geometry(Point, 4326) | Geometry column (WGS84)                                       | `POINT(13.319723 52.4866675)` |
 | attributes      |                                      | jsonb                 | Additional info from source tables stored as JSON             | `{"operator":"nan","wheelchair":true,"opening_hours":"mo-fr 10:00-16:00"}` |
-
+| nearest_pos     |                                      | jsonb.                | Showing nearest layer to long term listing                    | `{"bank": {"id":"ban-1915389761","name": "sparkasse","address": {"street": "otto-suhr-allee","house_number": null},"distance": 1011.56046421}` |
 ---
 
 ## Common Columns
@@ -34,6 +34,7 @@
 - `layer` → derived from table name  
 - `geometry` → `geometry(Point, 4326)`  
 - `attributes` → JSON with columns not common across all tables  
+- `nearest_pois`→ JSON showing nearest layer to listing
 
 ---
 
@@ -53,7 +54,7 @@
 
 ## Example Schema
 
-![Schema Example](/layered-data-engineering/unified_tables/poi_schema.png)
+![Schema Example](png_files/poi_schema.png)
 
 ---
 ## Code snippets
@@ -77,7 +78,7 @@ for table in poi_tables_df['table_name']:
     display(df)
 ```
 ### Example of the tables
-![alt text](/layered-data-engineering/unified_tables/poi_tables.png)
+![alt text](png_files/poi_tables.png)
 
 ### Look for common columns
 - Created columns staing TRUE or FALSE if the column exists
@@ -109,7 +110,7 @@ for table in poi_tables_df['table_name']:
   ORDER BY t.table_name;
 ```
 
-![alt text](/layered-data-engineering/unified_tables/poi_common_columns.png)
+![alt text](png_files/poi_common_columns.png)
 
 ## Create the table including the nearest_pois
 
@@ -265,7 +266,7 @@ JOIN berlin_source_data.districts d ON b.district_id = d.district_id
     WHERE l.layer = 'listings';
 ```
 
-![alt text](poi_final.png)
+![alt text](png_files/poi_final.png)
 
 ### Snippet of the nearest_pois 
 ```sql
