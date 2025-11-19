@@ -61,122 +61,71 @@ The table must include:
 
 ---
 
-**1.2 Table Schema Definition**
+# 2️⃣ Validate Constraints & References
 
-To properly integrate the Libraries layer, create the table via an explicit SQL CREATE TABLE statement — do not load data directly. This ensures you can:
+Insert the cleaned Libraries dataset into the dev table.
 
-- Define constraints that enforce data quality and relationships
-- Establish foreign-key references to existing layers (e.g., berlin_data.districts)
+**Validate:**
 
----
+✅ **Key Integrity**
 
-🧱 **Understanding Constraints**
+- All district_id values map to existing districts.district_id
 
-| **Type** | **Example** | **Purpose** |
-|-----------|------------------|---------------|
-| **PRIMARY KEY** | institution_id VARCHAR(20) PRIMARY KEY | Uniquely identifies each record |
-| **FOREIGN KEY** | district_id REFERENCES berlin_data.districts(district_id) | Enforces valid district linkage |
-| **NOT NULL** | name VARCHAR(200) NOT NULL | Ensures essential data is always present |
-| **UNIQUE** | email UNIQUE | Avoids duplicate entries |
-| **CHECK** |CHECK(latitude BETWEEN 52.3 AND 52.6) | Validates coordinate ranges |
+✅ **Schema Consistency**
 
----
-💾 **Example Schema**
+- All nullability rules respected
+- Data types match the schema
+- CHECK constraints pass (coordinate ranges, valid opening hours format, etc.)
 
-CREATE TABLE IF NOT EXISTS libraries (
-    library_id BIGINT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    amenity VARCHAR(50) NOT NULL,
-    operator_type VARCHAR(100),
-    operator VARCHAR(500),
-    street VARCHAR(150),
-    housenumber VARCHAR(10),
-    postcode VARCHAR(10) NOT NULL,
-    city VARCHAR(50) NOT NULL,
-    country VARCHAR(50) NOT NULL,
-    latitude NUMERIC(9, 6) NOT NULL,
-    longitude NUMERIC(9, 6) NOT NULL,
-    district_id VARCHAR(50) NOT NULL,
-    district VARCHAR(100) NOT NULL,
-    neighbourhood VARCHAR(100),
-    neighbourhood_id VARCHAR(100),
-    final_email VARCHAR(255),
-    final_phone VARCHAR(100),
-    website_url VARCHAR(255),
-    opening_hours VARCHAR(255),
-    isil_code VARCHAR(100),
-    wheelchair_accessible VARCHAR(10),
-    toilets_wheelchair VARCHAR(10),
-    internet_access VARCHAR(100),
-    "level" VARCHAR(10),
-    geom_point GEOMETRY(Point, 4326),
-    CONSTRAINT district_id_fk
-        FOREIGN KEY (district_id)
-        REFERENCES berlin_source_data.districts(district_id)
-        ON DELETE RESTRICT
-        ON UPDATE CASCADE
-);
+✅ **Data Quality Checks**
+- Row count matches the cleaned dataset
+- Address fields correctly standardized
+- Contact information (phone, email, website) follows platform-wide rules
+- Opening hours follow the adopted formatting standard (e.g. Mo–Fr 10:00–18:00)
 
 ---
 
-## 🧩 Constraints & References — Explanation
+# 3️⃣ ERD Update
 
-**Why reference berlin_data.districts(district_id):**
+Update the official ERD in Lucidchart.
 
-- Ensures every libraries is associated with a valid Berlin district
-- Supports spatial and relational consistency across layers
-- Keeps all location-based data harmonized in the platform
+**Tasks:**
 
-**Why use ON DELETE RESTRICT:**
+- Add **Libraries** as a new table/object.
+- Include all attributes from the finalized schema.
+- Add the relationship:
+    
+    **libraries.district_id → districts.district_id**
+- Ensure correct cardinality:
+    
+    **Many Libraries → One District**
+- Save and publish the updated ERD.
 
-- Prevents deletion of districts that still have linked institutions
-- Protects referential integrity and avoids orphan records
-
-**Why use ON UPDATE CASCADE:**
-
-- Keeps child records synchronized if district IDs are updated
-- Maintains consistent relationships across the platform
-
----
-
-**Summary of Referential Rules**
-
-| **Rule** | **Purpose** | **Effect** |
-|-----------|------------------|---------------|
-| REFERENCES berlin_data.districts(district_id) | Establish relational link | Ensures valid district mapping |
-| ON DELETE RESTRICT | Prevent data loss | Blocks deletion of active parent records |
-| ON UPDATE CASCADE | Maintain consistency | Auto-updates IDs across linked tables |
+**Required Output:**
+    
+- Screenshot or embedded snippet of the updated ERD in the transformation notebook.
 
 ---
 
-## ✅ 1.3 Validation & Quality Checks
+# 4️⃣ Documentation & Wiki Update
 
-- Verify no duplicate rows remain
-- Confirm district_id and neighborhood_id mappings via spatial joins
-- Ensure coordinates fall within Berlin’s boundaries
-- Validate foreign key integrity and schema compliance
-- Check column naming, types, and constraints against the defined schema
-- Confirm row counts match cleaned datasets
+Update the official table documentation wiki:
 
----
+- Add a new Libraries section under the Layered DB documentation.
 
-## 2. Test Insert
+- Include:
 
-- Insert finalized data into the test_berlin_data schema (Neon DB)
-- Ensure no constraint violations (primary or foreign keys)
-- Validate that all district_id values exist in test_berlin_data.districts
-- Check for correct address and coordinate formatting
-- Verify URLs, phone numbers, and emails follow standardized formats
+    - Table overview
+    - Column list + data types
+    - Definitions for each column
+    - Data validation logic
+    - Notes about library type, operators, or accessibility fields
 
----
-## 3. Documentation
+Update your transformation notebook to include:
 
-Add a Markdown summary to your notebook covering:
-
-- All cleaning, transformation, and mapping steps
-- Assumptions, data issues, and how they were handled
-- Justification for constraint and reference design
-- Spatial mapping methods used (with GitHub links)
+- Confirmation of successful dev deployment
+- Constraint validation results
+- Screenshot/snippet of the ERD
+- Any notes or schema considerations for future layers
 
 ---
-
