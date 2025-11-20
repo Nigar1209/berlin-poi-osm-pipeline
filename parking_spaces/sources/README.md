@@ -248,8 +248,7 @@ The following table describes the unified schema used for the integrated parking
 | parking_category         | Simplified parking type (`off_street`, `on_street`, `other`)                  |
 | operator                 | Operator or managing entity                                                   |
 | fee_raw                  | Fee information as provided by source (string or boolean)                     |
-| fee_amount_euro          | Numeric field with parking price per hour in euro                             |
-| has_fee                  | String value `paid`, `free`, `unknown`                                        |
+| fee_amount_euro          | Numeric field with parking price per hour in euro                             |                                      |
 | has_fee_bool             | Boolean value True/False                                                      |
 | time_restriction         | Time restrictions or allowed parking times (e.g., `12h`, `24h`)               |
 | capacity                 | Total parking capacity (integer)                                              |
@@ -262,3 +261,7 @@ The following table describes the unified schema used for the integrated parking
 | geometry                 | Geometry in WGS84 (EPSG:4326), as WKT or GeoJSON                              |
 | last_updated_at_source   | Date of last update from the data source                                      |
 | fetched_at               | Timestamp when the data was ingested                                          
+
+## Final Database Upload
+
+Data has been uploaded to the Layered database and ERD has been updated with the `parking_spaces` table.
