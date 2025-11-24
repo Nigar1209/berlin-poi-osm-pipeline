@@ -324,3 +324,71 @@ Each layer will be transformed in its own notebook and pushed to the database as
 
 ---
 
+# ✅ Step 3: Database Population
+
+The following process was applied to **all four tables**:
+
+- 🖼️ **Galleries**
+- 🏛️ **Museums**
+- 🎨 **Public Artworks**
+- 🏢 **Exhibition Centers**
+
+---
+
+## **Process Overview**
+
+### 1. Upload the Table to AWS RDS
+- **Imported Libraries**
+  - `psycopg2`
+  - `create_engine` and `text` from `sqlalchemy`
+  - `warnings` (filtered with `'ignore'`)
+
+### 2. Load Credentials
+- Retrieved AWS RDS credentials for connection.
+
+### 3. Create Connection
+- Connected to **PostgreSQL**:
+  - Database: `layereddb`
+  - Schema: `berlin_source_data`
+
+### 4. Create Table
+- Used `create_table_query` to define:
+  - **Column names**
+  - **Constraints**
+  - **Data types**
+
+#### **Constraints Added**
+- `id` as **Primary Key** and **Unique**
+- `district_id` as **Foreign Key**:
+    ```sql
+    CONSTRAINT district_id_fk FOREIGN KEY (district_id)
+        REFERENCES berlin_data.districts(district_id)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
+    ```
+    - **ON DELETE RESTRICT** → prevents deletion of `district_id` if still linked
+    - **ON UPDATE CASCADE** → updates child table automatically if parent changes
+- **NOT NULL** columns:
+    - `id`
+    - `name`
+    - `district_id`
+    - `latitude`
+    - `longitude`
+
+### 5. Execute Table Creation
+- Ran `create_table_query` to create the table.
+
+### 6. Append Data
+- Used `.to_sql()` to append rows to the table.
+
+### 7. Validate
+- Executed a **SQL query** on the new table to confirm data was successfully inserted.
+
+---
+
+✅ This process ensures proper relational integrity and data consistency across all tables.
+
+## Final ERD
+![alt text](image.png)
+
+
