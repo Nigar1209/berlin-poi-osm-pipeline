@@ -21,7 +21,7 @@ All tables in the pipeline follow a standardized schema to ensure consistency an
 
 ```sql
 id VARCHAR(20) PRIMARY KEY,                 -- Numeric only, no letters
-district_id VARCHAR(2) NOT NULL,            -- Mapped from district name
+district_id VARCHAR(20) NOT NULL,           -- Mapped from district name
 name VARCHAR(200) NOT NULL,                 -- Defaults to 'Unknown' if NULL
 latitude DECIMAL(9,6),                      
 longitude DECIMAL(9,6), 
