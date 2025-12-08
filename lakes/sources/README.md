@@ -1,42 +1,84 @@
-# Lakes in Berlin — Sources (Step 1 Discovery)
+  Lakes in Berlin — Sources (Data Overview)
 
-This document lists and describes the data sources identified so far for the **Lakes in Berlin** layer.  
-It includes their origin, update frequency, data type, key fields, and notes on usability.
+This folder contains all input, intermediate, and final datasets used to build the Berlin Lakes data layer.
+The data comes from two main sources:
 
----
+OpenStreetMap (OSM) — waterbodies in Berlin
 
-##  OSM Berlin Lakes
-**Origin:** Overpass Turbo / OpenStreetMap  
-**URL:** https://overpass-turbo.eu  
-**Query:** All water bodies within administrative boundary “Berlin”  
-**Data type:** Dynamic (API / GeoJSON)  
-**Update frequency:** Continuous (community maintained)  
-**Relevant fields:** `name`, `natural`, `water` (lake | pond | reservoir), geometry  
-**File saved as:** `osm_berlin_lakes.geojson`  
-**License:** ODbL (OpenStreetMap Foundation)  
-**Notes:** Excellent spatial coverage, but naming and type tags are not always consistent.
+Dämeritzsee in-situ measurements — historical water-parameter recordings
 
----
+All files here were cleaned, standardized, and harmonized through the notebook
+lakes/scripts/lakes_data_transformation.ipynb.
 
-##  Dämeritzsee in-situ Data (FRED – IGB Berlin)
-**Origin:** Freshwater Research and Environmental Database (FRED)  
-**URL:** [https://fred.igb-berlin.de/data/package/169](https://fred.igb-berlin.de/data/package/169)  
-**Dataset:** Dämeritzsee in-situ measurements (1992–1993)  
-**Parameters:** Temperature, Conductivity, Depth, pH, Oxygen saturation, Oxygen concentration, Secchi depth  
-**Data type:** Static (one-time in-situ dataset)  
-**Update frequency:** Historical (archived)  
-**Contact:** thomas.hintze@igb-berlin.de  
-**License:** All rights reserved – contact IGB Berlin for reuse permission  
-**Notes:** High-quality limnological measurements for potential depth / water-quality enrichment.
+📁 File Descriptions
+1. osm_berlin_lakes_raw.json
 
----
+Raw Overpass API response containing all tagged waterbodies within the Berlin bounding box.
+This is the unprocessed source file downloaded directly from Overpass.
 
-##  Next Planned Sources
-| Source | URL / Portal | Status |
-|:---|:---|:---|
-| Gewässerkarte Berlin (WFS) | Berlin Open Data Portal | To be added |
-| ALKIS Gewässer / Vegetation | Berlin Open Data Portal | To be added |
-| EEA WISE Surface Water Bodies | EEA Datasets | To be added |
-| Wasserportal Berlin (Time Series) | https://wasserportal.berlin.de | To be added |
+2. osm_berlin_lakes.geojson
 
-tes from IGB data (by name and location).
+Converted raw OSM data transformed into GeoJSON format.
+Includes only polygons with valid geometry and tagging information.
+
+3. berlin_lakes_clean.geojson
+
+Cleaned and standardized OSM lake dataset.
+Key features:
+
+normalized column names
+
+removed unnamed lakes
+
+computed centroids
+
+added area in hectares (using metric CRS)
+
+4. demeritzsee.csv
+
+Raw in-situ water measurements for the Dämeritzsee (various water physics and chemistry parameters).
+This file contains formatting inconsistencies and redundant rows.
+
+5. demeritzsee_clean.csv
+
+Cleaned version of the in-situ dataset:
+
+standardized column names
+
+removed empty and duplicate rows
+
+fixed formatting issues in the header
+
+6. berlin_lakes_summary.csv
+
+Summary table of all Berlin lakes without geometry.
+Useful for analytics, dashboards, and lightweight pipelines.
+Includes metadata fields:
+
+lake name & tags
+
+centroid coordinates
+
+area
+
+data source
+
+last update timestamp
+
+7. lakes_berlin_unified.geojson
+
+Final unified GeoJSON dataset combining:
+
+cleaned OSM lakes
+
+in-situ data indicator for Dämeritzsee
+
+metadata columns added during processing
+
+This is the main file consumed by downstream layers.
+
+🔧 Processing Notebook
+
+All transformations, cleaning steps, and exports are implemented in:
+
+lakes/scripts/lakes_data_transformation.ipynb
