@@ -16,8 +16,6 @@ def fetch_osm_data_for_berlin():
     # The actual query would target the Berlin bounding box
     tags = {"office": "employment_agency"}
     
-    # In a live environment, ox.features.features_from_place is used to query the API
-    # Example: gdf_osm = ox.features.features_from_place("Berlin, Germany", tags)
     
     print("LOG: Drafting OSM query for Jobcenter locations.")
     # Return an empty GeoDataFrame as placeholder for the raw data
