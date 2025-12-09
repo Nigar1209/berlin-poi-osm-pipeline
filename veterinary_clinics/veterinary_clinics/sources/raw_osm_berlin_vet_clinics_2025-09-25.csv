@@ -1,0 +1,179 @@
+osmid,name,amenity,addr:street,addr:housenumber,addr:postcode,addr:city,phone,website,email,opening_hours,operator,brand,veterinary:speciality,wheelchair,emergency,lat,lon
+268917040,Tierarztpraxis am Urban,veterinary,Baerwaldstraße,69,10961,Berlin,,,,"Mo-Sa 10:00-12:00, Mo 17:00-19:00, Tu,We,Fr 16:00-18:00, Th 17:00-19:00",,,,no,,52.4956842,13.4052329
+299795048,Dr. med. vet. Elke Hartwig,veterinary,Straße 48,67,13125,Berlin,+49 30 9437820,http://www.tierarztpraxis-hartwig.de/,,"Mo,Tu,Th,Fr 10:00-12:00, Mo-Fr 15:00-18:00",,,,limited,,52.6062863,13.4795548
+347294456,Tierarztpraxis Dr. Bernhard Sörensen,veterinary,Königsberger Straße,36,12207,Berlin,+49 30 7738321,https://www.tierarztpraxis-soerensen.de/,,"Mo-Fr 09:00-20:00; Sa, Su 10:00-18:00",,,,yes,,52.4297216,13.3201326
+394867279,Tierarztpraxis Jeanette Koepsel,veterinary,,,,,,,,,,,,,,52.5351995,13.2705734
+411550894,Kleintierarztpraxis Berlin Kaulsdorf,veterinary,Planitzstraße,19,12621,Berlin,+49 30 53018585,https://www.tierarzt-kaulsdorf.de/,info@tierarzt-kaulsdorf.de,"Mo-Fr 09:00-19:00 open ""tel. Terminvereinbarung erforderlich"", week 01-53/2 Sa 09:00-12:00 open ""tel. Terminvereinbarung erforderlich""; Dec 23-26 off; Dec 31-Jan 02 off; PH off",Dr. Berit Miels;Dr. Mathias Kochert,,,,,52.5095114,13.5896353
+581887970,Eva Klein,veterinary,,,,,,,,,,,,,,52.4288173,13.1935291
+603392630,Klein- und Heimtierklinik,veterinary,Oertzenweg,19b,14163,Berlin,,https://www.vetmed.fu-berlin.de/einrichtungen/kliniken/we20/index.html,,,Freie Universität Berlin,,,yes,yes,52.4302981,13.2373596
+702363921,Tierarztpraxis im Frauenviertel - Firchow,veterinary,,,,,,,,"Mo-Fr 10:00-12:00, Mo,Tu,Th 17:00-19:00, Fr 16:00-18:00",,,,limited,,52.4042597,13.5071658
+703135335,Kleintierpraxis Kladow,veterinary,Zingerleweg,29,14089,Berlin,+49 30 3653374,http://www.kleintierpraxis-kladow.de,info@kleintierpraxis-kladow.de,,,,,,,52.4608878,13.121554
+978560965,Carsten Schiller,veterinary,Schnellerstraße,97,12439,Berlin,,,,"Mo,Tu 10:00-12:00,15:00-18:00; We 15:00-18:00; Th;Fr 10:00-12:00,15:00-18:00",,,,no,,52.4531078,13.5245669
+1003123264,Tierarztpraxis Dr. C. Lewandowski und Dr. S. Klug,veterinary,,,,,,https://www.lewandowski-klug.de/,,,,,,no,,52.4232758,13.4367554
+1069431810,Gabriele C. Müller,veterinary,Brunowstraße,39,13507,Berlin,+49304343116,https://www.tieraerztin-berlin.com/,,"Mo,Tu,Th,Fr 10:00-12:00,17:00-19:00, We 17:00-18:00, Sa 12:00-13:00",,,,limited,,52.5870846,13.2811455
+1139485719,Tierarztpraxis Feuerbachstraße,veterinary,Feuerbachstraße,68,12163,Berlin,+49 30 855 40 50,,,Mo-Su 09:00-12:00; Mo-Fr 16:00-20:00,Dr. med. vet. A. Sillinger;Dr. med. vet. A. Bahr,,,no,,52.464411,13.3395319
+1158920335,Tierarztpraxis Kammbach,veterinary,Schweizer Tal,55,13127,Berlin,+4930 47 48 12 20,https://www.tierarztpraxis-kammbach.de/,,,,,,yes,,52.6074605,13.41982
+1169112227,Tierarztpraxis am Velodrom,veterinary,Conrad-Blenkle-Straße,4,10407,Berlin,+493042085005,http://www.tierarztpraxis-am-velodrom.de/,,"Mo,Th 12:00-19:00; Tu,Fr 09:00-15:00; We,Sa 09:00-12:00",,,,limited,,52.5281462,13.4501959
+1244610778,Dipl.-vet.-med. Jörg Porada,veterinary,,,,,,,,,,,,,,52.5121271,13.4195273
+1247761224,Tierarztpraxis,veterinary,,,,,,,,"Mo,Tu,Th,Fr 09:30-11:00,16:30-19:00; We 17:00-20:00; Sa 10:00-12:00",,,,yes,,52.5290099,13.4684992
+1309566310,Bella brazil waxing studio,veterinary,,,,,,,,,,,,,,52.5958722,13.3349653
+1352697273,DVM J. Rafael,veterinary,,,,,,,,"Mo,We 09:00-12:00,15:00-19:00, Tu,Th 09:00-11:00,14:00-18:00, Fr 09:00-12:00, Sa 09:00-11:00",,,,limited,,52.5525185,13.4154857
+1387989062,Dr. König,veterinary,,,,,,,,"Mo-Sa 10:00-12:00; Mo,Tu,Th,Fr 16:00-18:00",,,,,,52.4789793,13.2848224
+1431365727,,veterinary,,,,,,,,,,,,,,52.478761,13.2825498
+1444862410,Flidais,veterinary,Buschkrugallee,206,12359,Berlin,,https://www.flidais-vet.de,,,,,,,,52.4463278,13.4543051
+1464419364,Ullrich Mattke,veterinary,Gäblerstraße,5,13086,Berlin,,,,"Mo-Th 09:00-12:00,15:00-19:00; Sa 10:00-12:00; Fr 09:00-12:00,15:00-17:00",,,,,,52.5536467,13.4483752
+1492682203,,veterinary,Bruno-Baum-Straße,75,12685,Berlin,,,,,,,,,,52.5355029,13.5426037
+1504191018,Tierarztpraxis O.C. Lombardi,veterinary,Britzer Damm,13,12347,Berlin,+49 30 6251547,https://www.lombardi-berlin.de/,,"Mo-Sa 10:00-12:00; Mo,Th 16:00-19:00; Tu,Fr 16:00-18:00",,,,limited,,52.4617945,13.4350014
+1607627062,Naturheilpraxis Dr. Hanik,veterinary,,,,,,,,,,,,,no,52.5303117,13.1363236
+1766858344,Tierarztpraxis Tanja Lück,veterinary,Ernststraße,59,13509,Berlin,+493043726783,https://www.tanja-lueck.de/,,"Mo-We 09:00-13:00,16:00-19:00; Th 15:00-20:00; Fr 09:00-13:00,16:00-19:00; PH off",,,,,,52.5838893,13.3006927
+1791397445,Tierarzt-Praxis Ralf Boxhammer,veterinary,,,,,,,,"Mo,We 09:00-12:00; Tu,Th,Fr 14:00-17:00; Sa,Su 11:00-13:00",,,,no,,52.4544641,13.5780156
+1832317052,Tierarztpraxis Michael Voigt,veterinary,Ernststraße,9,12437,Berlin,+49 30 532 9481,https://tierarzt-voigt.de/,,"Mo 09:00-12:00,15:00-18:00; Tu 13:00-18:00; We 09:00-12:00; Th 09:00-12:00,15:00-18:00; Fr 13:00-18:00",,,,,,52.465439,13.4889671
+1905963733,Tierarztpraxis Bärenwiese/ Tiernotarzt Berlin,veterinary,Uhlandstraße,151,10719,Berlin,+49 30 23362627,https://www.tierarzt-baerenwiese.de/,,"Mo 08:00-20:00; Tu-Fr 10:00-20:00; Sa,Su 10:00-13:00",,,,limited,,52.497396,13.3245464
+1914085674,Tierarztpraxis am Bundesplatz,veterinary,Detmolder Straße,3,10715,Berlin,,,,"Mo,Tu,Th,Fr 09:00-12:00,16:00-18:00; We 09:00-11:00; Sa 10:00-12:00",,,,,,52.4788705,13.3269233
+1965863459,"Dr. Demmler, Dr. Wehming",veterinary,Wiener Straße,25,10999,Berlin,,,,"Mo-Fr 10:00-12:00,16:00-19:00; Sa 10:00-12:00; Su 10:00-11:00",,,,,,52.4969564,13.4325994
+1978736705,Tierarzt Scheibner,veterinary,Dörpfeldstraße,46,12489,Berlin,+49 30 677 54 03,https://www.tierarzt-adlershof.de/,,"Mo-Sa 09:00-11:00; Mo,We 16:00-18:30; Tu 18:30-20:30; Fr 16:00-18:00; PH off  || ""Nach Vereinbarung""",,,,yes,,52.4380728,13.5481783
+2000251280,Tierarztpraxis am Lietzenseepark,veterinary,Riehlstraße,3,14057,Berlin,+49 30 3215058,https://tierarztpraxis-am-lietzenseepark.de/,mail@tierarztpraxis-am-lietzenseepark.de,"Mo-Fr 09:00-12:00 16:00-19:00, Sa 11:00-13:00, Mo-Fr 12:00-16:00 ""nur mit Voranmeldung""",Tierarztpraxis am Lietzenseepark GmbH,,,,,52.509309,13.2859209
+2018939619,Tierarztpraxis Dr. H. Brieger,veterinary,,,,,,https://www.dr-brieger.de,,,,,,,,52.431227,13.2561565
+2021286582,Esther Bartels,veterinary,,,,,,,,,,,,yes,,52.503473,13.3067983
+2099577566,Tierarztpraxis Dr. Veit-Uwe Stuhrberg,veterinary,Bernulfstraße,43-45,12524,Berlin,+49 30 6723384,https://www.tierarztpraxis-altglienicke.de/,,"Mo,Tu,Th,Fr 09:00-11:00,16:00-19:00; We 09:00-11:00; Sa 09:00-11:00",,,,no,,52.4127843,13.541714
+2132599964,Dr. Ulrich Bemm,veterinary,Krummenseer Straße,10,12685,Berlin,+49-30-54378250,,,"Mo 13:00-18:00, Tu 10:00-15:00; We 10:00-15:00; Th 13:00-18:00; Fr 10:00-15:00",,,,yes,,52.541678,13.5721215
+2136188609,Tierarztpraxis Vesmes,veterinary,Blumberger Damm,158,12685,Berlin,+49309340440,https://www.tierarztpraxis-vesmes.de,info@tierarztpraxis-vesmes.de,"Mo 09:00-12:00, 16:00-20:00; Tu 09:00-12:00, 16:00-20:00; We 16:00-20:00; Th 09:00-12:00, 16:00-20:00; Fr 09:00-12:00, 16:00-20:00",Joel Vesmes,,,yes,,52.54542,13.5719026
+2303053618,,veterinary,,,,,,,,,,,,no,,52.5477287,13.2022574
+2332698000,Flick,veterinary,,,,,,,,Mo-Sa 17:00-19:00,,,,,,52.4178034,13.3061609
+2420872095,Dr. Wolfgang Hoffmann,veterinary,,,,,,,,"Mo-Fr 10:00-12:00,15:00-18:00",,,,no,,52.5286363,13.3412782
+2444304869,Kleintierpraxis Dr. Jana Pohlenz,veterinary,Sabinensteig,15,13053,Berlin,,http://www.kleintierpraxis-pohlenz.de,,,,,,,,52.5490713,13.4937991
+2444308316,Tierarzt Dr. Niels Lösch,veterinary,Am Faulen See,54,13053,Berlin,,,,,,,,,,52.5535045,13.49705
+2509134926,Praxis im Märchenviertel,veterinary,,,,,+49 30 6574725,http://www.tierpraxis-rudelt.de/,tierarzt@tierpraxis-rudelt.de,"Mo 14:00-18:00, Tu,Th 09:00-12:00, We 15:00-19:00; PH off",Anette Rudelt,,,no,,52.4617784,13.5859364
+2525117416,SmartVet Tierarztpraxis,veterinary,Pasewalker Straße,25,13127,Berlin,+49 30 47469232,"https://www.smartvet.de/tierarztpraxis_berlin_pankow,3027959488.html",,Mo-Fr 09:00-18:00; Sa 09:00-16:00; Su 11:00-13:00,,,,yes,,52.5883891,13.429743
+2674384521,Tierarztpraxis Tempelhof,veterinary,,,,,,,,,,,,,,52.4478307,13.3865847
+2746780787,Dr. med. vet. Jeanette Sagawe,veterinary,Steglitzer Damm,30,12169,Berlin,+49 30 7951435,https://www.tieraerzte-steglitz.de,info@tieraerzte-steglitz.de,"Mo-Fr 09:00-13:00,16:00-20:00; Sa 10:00-16:00",,,,,,52.4505337,13.3410324
+2952593533,Bania,veterinary,Kremnitzufer,2,,,+49308051172,,,,,,,,,52.396095,13.161149
+3065368552,Tierarztpraxis Dr. Koch,veterinary,Lichtenrader Damm,39,12305,Berlin,+49 30 67 03 76 57,http://www.tierarztpraxis-koch.de/,koch@tierarztpraxis-koch.de,"Mo,We,Fr 09:00-14:00; Tu,Th 15:00-20:00",Dr. Christian Koch,,,no,,52.4107877,13.403669
+3080776284,Tierärzliche Praxis am Lützowufer,veterinary,Lützowufer,26,10787,Berlin,,,,,,,,,,52.5061832,13.3494203
+3133634694,Praxis Tierzuliebe,veterinary,Edisonstraße,63,12459,Berlin,+49 30 535 38 00,https://tierarztinberlin.de/,,"Mo,Tu,Th,Fr 10:00-18:00; Sa 10:00-14:00; Su 11:00-13:00",Miriam Bertram,,,yes,,52.4614933,13.5131144
+3170028418,Berlin Animal Hospital,veterinary,,,,,+1-410-641-1841,https://www.berlinanimalhospital.com/,,,,,,,,38.3371968,-75.2071423
+3170077002,VCA Delmarva Animal Hospital,veterinary,,,,,+1-410-629-1800,https://www.vcahospitals.com/delmarva,,Mo-Tu 8:00-19:00; We-Fr 8:00-18:00; Sa 8:00-15:00,,,,,,38.3379778,-75.2065803
+3178164316,Dirk Trimpe,veterinary,Bahnhofstraße,3,12159,Berlin,+49 30 8521920,http://www.tierarztpraxis-trimpe.de/,,"Mo-Sa 10:00-12:30, Mo,Tu,Th,Fr 17:00-19:00",,,,no,,52.4699319,13.3395083
+3284006061,Tierarztpraxis Andrea Reich,veterinary,Holländerstraße,95,13407,Berlin,+49304557051,https://www.tierarztpraxis-reinickendorf.de/,,"Mo 10:00-18:00; Th,Fr 10:00-16:00; Tu 10:00-14:00; We 14:00-18:00",Andrea Reich,,,no,,52.561957,13.353401
+3393786475,Tierarztpraxis,veterinary,,,,,+49 30 40534618,,,"Mo,We,Th 09:30-13:00; Tu,Fr 15:00-19:00; Sa 09:00-11:00",,,,,,52.5769899,13.2792318
+3444597275,Tierarztpraxis am Südkreuz,veterinary,Gustav-Müller-Straße,19,10829,Berlin,,https://www.tierarztpraxis-am-suedkreuz.de/,,"Mo-Fr 10:00-12:00, Mo,We 16:00-19:00, Tu,Th,Fr 16:00-18:00",,,,no,,52.4807694,13.3623013
+3649210316,Tierarztpraxis an den Allee-Arcaden,veterinary,Greifenhagener Straße,45,10437,Berlin,+49 30 30361381,https://www.tierarztpraxis-allee-arcaden.de/,,"Mo,Tu,Th 09:00-12:00,16:00-18:00; Fr 09:00-12:00",Anne Gamalski,,,limited,,52.5496022,13.4168501
+3694035418,Tierarztpraxis Dr. med. vet. Gerald Schmid,veterinary,Eisenacher Straße,40,10781,Berlin,+49 30 211 17 79,http://doctor-dolittle.de,,"Mo-We,Fr 10:00-14:00; Th 15:00-18:00",Dr. med. vet. Gerald Schmid,,,yes,,52.4897742,13.3488645
+3754655246,Tierarzt Dr. Ferencz,veterinary,Elberfelder Straße,3,10555,Berlin,,http://www.tierarztpraxis-moabit.de,,"""'Weiter Terminsprechstunde. Bitte rufen Sie an 030-3988 9278'""",,,,no,,52.5241824,13.3359576
+3786067403,Tierarztpraxis Tierlieb,veterinary,Preußenallee,40,14052,Berlin,,,,"Mo-Fr 09:00-13:00, Mo,Tu,Th 14:00-18:00; Sa 09:30-11:00",Frau Annette Oehler,,,,,52.5154998,13.2608183
+3826013974,Tierarztpraxis am Nollendorfplatz,veterinary,Nollendorfstraße,20,10777,Berlin,+49 30 2167711,http://hund-katze-vogel.de/,,"Mo-Tu 10:00-12:00,17:00-19:00; We 17:00-19:00; Th 10:00-12:00,16:00-18:00; Fr 10:00-14:00; Sa ""by appointment""",Dr. Petra Birkefeld & Dr. Elisabeth Nolte,,,no,,52.4976524,13.3504475
+3905732054,Tierarztpraxis Tobias Krause,veterinary,,,,,+49 30 91443116,http://www.ta-krause.de,tierarzt@ta-krause.de,"Mo-Fr 09:30-12:00,16:30-19:00; Sa 10:00-12:00",,,,,,52.4459974,13.3307775
+3906998156,Tierheilpraxis Kreuzberg,veterinary,Warschauer Straße,29,10243,Berlin,,,,"Mo,We,Fr 11:00-17:00; Tu,Th 14:00-20:00",,,,no,,52.5097882,13.4509749
+3911381119,Katharina Andreas,veterinary,Hampsteadstraße,7,14167,Berlin,,,,,,,,,,52.433136,13.2749799
+4014948628,Tierarztpraxis am Wildrosengehölz,veterinary,Hönower Straße,263,,Berlin,030 99285501,https://www.tierarztpraxis-mahlsdorf.de/,info@tierarztpraxis-mahlsdorf.de,"Mo-Sa 08-20, So (Notfall) 10-16",,,,yes,,52.5278578,13.6243765
+4080579671,Dr. med. vet. Susann Zimmer,veterinary,Weerthstraße,10,12489,Berlin,+49 30 67 132 67,,,"Mo 10:00-12:00,16:00-18:00, Tu 10:00-12:00,16:00-19:00, We 10:00-12:00, Th 16:00-19:00, Fr 10:00-12:00,16:00-18:00; PH off",,,,,,52.4346817,13.544154
+4137973040,Tierpraxis Dr. Gerriets,veterinary,Morgensternstraße,16,12207,Berlin,+49-30-772 40 27,https://www.tierpraxis-drgerriets.de/,,"Mo 10:00-13:00,17:00-19:00; Tu 10:00-12:00; We 17:00-19:00; Th 10:00-12:00; Fr 10:00-12:00",,,,,,52.4259329,13.3186185
+4174131466,Tierarztpraxis Dr. med. vet. Joachim Kirchner,veterinary,Florastraße,43,13187,Berlin,+49 30 49 50 09 49,http://www.tierarzt-in-pankow.de/,info@tierarzt-in-pankow.de,"Mo-Fr 14:00-18:00; Tu,Th 09:00-12:00,14:00-18:00",Dr. med. vet. Joachim Kirchner,,,no,,52.5661672,13.4090789
+4366353588,Tierarztpraxis Am Westend,veterinary,,,,,+4930 3228 247,https://www.tierarztamwestend.de/,info@tierarztamwestend.de,"Mo,Tu,Th,Fr 10:00-13:00,17:00-19:00; We,Sa 10:00-13:00",,,,,,52.5179456,13.2866144
+4412304406,Tierarztpraxis Alexandra Sypitzki,veterinary,Sesenheimer Straße,15,10627,Berlin,+49 30 78957110,https://www.tierarztpraxis-sypitzki.de/,,Mo-Fr 08:30+,,,,no,,52.5105206,13.3075345
+4686885506,Tierarztpraxis Dr. Dorothea Werning,veterinary,Lindenthaler Allee,6,14163,Berlin,+49 30 8025009,https://www.tierarztpraxis-mexikoplatz.de/de/index.html,,"Mo, Tu, Th 10:00-13:00, 17:00-19:00; We 10:00-13:00, 17:00-20:00; Fr 10:00-17:00",Dr. Dorothea Werning,,,,,52.4358777,13.2310121
+4709401189,Tiergesundheitszentrum,veterinary,,,,,,,,"Mo-Sa 10:00-12:00, Mo-Fr 15:00-19:00, Sa 10:00-12:00; PH off",,,,yes,,52.4981659,13.5208894
+4715820728,Kleintierpraxis Jan Schneider,veterinary,Großbeerenstraße,169-171,12277,Berlin,+49 30 29032092,https://www.kleintierpraxis-schneider.com/,,"Mo,We,Fr 10:00-13:00,15:00-19:00; Tu,Th 17:00-21:00; Sa-Su 11:00-14:00",,,,no,,52.428896,13.3758384
+4789962778,Tierarztpraxis Oldenburger Straße,veterinary,Oldenburger Straße,44,10551,Berlin,+49303951555,https://www.tierarztpraxis-oldenburger-strasse.de,,"Mo 10:00-12:00,15:00-18:00; Tu 10:00-14:00,18:00-20:00; We 10:00-12:00,15:00-18:00; Th 10:00-14:00,18:00-20:00; Fr 10:00-12:00,15:00-18:00; Sa 09:00-11:00",,,,no,,52.5289464,13.3357023
+4809992565,Tierarztpraxis am Burgerpark,veterinary,Wilhelm-Kuhr-Straße,1,13187,Berlin,+49 (0)30 48479400,https://www.tierarzt-pankow.de/,,"Mo,We 14:00-19:00; Tu,Th 09:00-14:00; Fr 10:00-15:00",,,,no,,52.5694182,13.4001258
+5029362624,,veterinary,Wattstraße,10,13629,,,,,,,,,,,52.5373732,13.2664047
+5090019016,Tierarztpraxis,veterinary,Max-Steinke-Straße,2,13086,Berlin,+49 30 9252160,,,"Mo-Fr 09:00-11:00, Mo,Tu,Th,Fr 16:00-18:00, Sa 10:00-12:00",Dr.med.vet. Cordula Nitschke,,,yes,,52.5488636,13.4513273
+5166206721,Kleintierpraxis Ralf Boxhammer,veterinary,Zingster Straße,5,13051,,+49 30 9206644,http://www.ta-boxhammer.de,,,,,,no,,52.5640461,13.5033148
+5190500390,Tierarztpraxis Ralf Neuer,veterinary,Fischerinsel,2,10179,Berlin,,,,,,,,,,52.5140108,13.408851
+5297162644,Vets for cats,veterinary,Bayerischer Platz,2,10779,Berlin,+49 30 34398877,https://www.vetsforcats.de/,info@vetsforcats.de,"Mo-Fr 09:00-20:00; We 09:00-14:00; Sa,Su 10:00-12:00; PH off",,,,limited,,52.4897098,13.3392413
+5326151790,Tierarztpraxis Lenk,veterinary,Schönfließer Straße,1,,,+49304469769,https://tierarztpraxis-lenk.de/,info@tierarztpraxis-lenk.de,"Mo-Fr 08:00-19:00, Sa 09:00-18:00, Su 10:00-18:00",,,,no,,52.5502349,13.408248
+5357470034,Tierarztpraxis am Mauerpark,veterinary,,,,,,,,Mo-Fr 09:00-19:00,,,,limited,,52.5470756,13.4082736
+5424941690,Chung & Wahle,veterinary,Hauptstraße,89,12159,Berlin,+49 30 8593215,https://tierarztpraxis-chung-wahle.com/,info@tierarztpraxis-chung-wahle.com,"Mo,Fr 09:00-18:00; Tu,Th 09:00-20:00; We,Sa 09:00-14:00",Tierarztpraxis Chung und Wahle GbR,,,limited,,52.4751968,13.3401022
+5514404517,Tierarztpraxis Dr. Klaus Lendner,veterinary,,,,,,,,"Mo,Tu,Th,Fr 09:00-12:00,16:00-19:00; We,Sa 09:00-12:00",,,,yes,,52.4990938,13.344571
+5554342322,Martyna Pohnke Tierarzt,veterinary,Ostpreußendamm,65,,,+49 30 75765970,,,"Mo-Fr 09:00-12:00, Mo 16:00-19:00, Th 16:00-20:00",,,,,,52.4212925,13.3101216
+5733901242,Dr. Miriam Oczipka,veterinary,Mindener Straße,22,10589,Berlin,+49303441864,,,"Mo-Fr 09:00-12:00,16:00-19:00; Sa 11:00-13:00",,,,no,,52.5247542,13.3008749
+5762374254,Dr. med. vet. Sven Albrecht,veterinary,Baumschulenstraße,34,12437,Berlin,,,,"Mo,We,Fr 09:00-12:00,15:00-19:00; Tu,Th 09:00-12:00,13:00-15:00",,,,no,,52.4637752,13.4852571
+6270311794,Dr. Wegeler,veterinary,,,,,+49 307956044,,,"""nach Vereinbarung""",,,,,,52.3889212,13.3905608
+6344954141,Tierarztpraxis Hohenzollerndamm 3,veterinary,Hohenzollerndamm,3,10717,Berlin,+49 30 88679111,https://tierarztpraxis-hohenzollerndamm-3.de/,tierarztpraxis@hohenzollerndamm-3.de,"Mo-Tu,Th-Fr 10:00-12:30,17:00-19:00; We 18:00-20:00; Sa 11:00-13:00",Dr. A. Randelhoff,,,no,,52.4954404,13.3293192
+6449519970,Tierarztpraxis Anke Meeuw,veterinary,,,,,+49 30 96 59 96 52,http://www.tierarzt-karlshorst.info/willkommen.html,praxis@tierarzt-karlshorst.info,"Mo,We 09:00-19:00; Tu 07:30-14:00; Th 10:00-21:00; Fr 09:00-12:00; Sa 10:00-15:00",,,,yes,,52.4800707,13.5205309
+6470421529,Tierarztpraxis Sonnenallee,veterinary,Sonnenallee,204,12059,Berlin,+49 30 6814455,https://tierarztpraxis-sonnenallee.de/,post@tierarztpraxis-sonnenallee.de,"Mo-Fr 09:00-12:00,16:00-20:00; Sa 11:00-13:00 || ""und nach Vereinbarung""",Dr. Jana Kudritzki & Daniel Kitzing,,,no,,52.4748376,13.4534973
+6509362833,Tierarztpraxis Laskawy,veterinary,Bänschstraße,58,,Berlin,+49 30 4267684,http://www.laskawy-berlin.de,,"Mo,We 14:00-19:00; Tu,Th 08:00-13:00; Fr 08:00-13:00,14:00-19:00",,,,yes,,52.5177488,13.4661107
+6603772445,neko Tiergesundheit,veterinary,Provinzstraße,47,,,+49 30 54814390,https://www.neko-tiergesundheit.de,,"Mo 15:00-18:00, Tu 10:00-13:00, We 10:00-15:00, Fr 10:00-15:00, Tu 15:00-19:00, Th 15:00-19:00",Jennifer Geiseler,,,no,,52.5687932,13.3794234
+6705031970,Kleintierpraxis Dirk Oschika,veterinary,Krossener Straße,35A,10245,Berlin,+49 30 2946333,http://www.doschika.de/,,"Mo,Tu,Th 09:00-11:00,15:00-19:00",,,,no,,52.5094514,13.4645357
+6982811309,Vogelpraxis,veterinary,Mierendorffstraße,23,10589,Berlin,+49 30 34902843,https://vogelpraxis.de/,info@vogelpraxis.de,,,,,limited,,52.5241017,13.3024823
+7211094992,Rex Tierarztpraxis,veterinary,Greifswalder Straße,204,10405,Berlin,,,,Mo-Fr 08:00-20:00; Sa 09:00-16:00,,,,no,,52.5333026,13.4292251
+7227468226,Fahrpraxis Feske,veterinary,Allmendeweg,116,13509,Berlin,+49 30 40571512,https://www.tierarzt-feske.de/,,"Mo-Fr 08:00-20:00 open ""telefonisch erreichbar""",Dr. med. vet. Dana Feske,,,,,52.6047279,13.298452
+7310483025,Tierarztpraxis Claudia Handke,veterinary,Danziger Straße,15,10435,Berlin,+49 30 4421760,https://www.tierarztpraxis-prenzlauerberg.de,post@tierarztpraxis-prenzlauerberg.de,"Mo,Th,Fr 10:00-12:00, Tu,We 10:00-15:00, Mo 16:00-20:00, Th 16:00-19:00, Fr 16:00-18:00, Sa 11:00-13:00",,,,no,,52.5407903,13.4154364
+7326193661,Dr. Angelika Block,veterinary,,,,,,http://ta-block.weebly.com,,"Mo-Tu 10:00-12:00,16:00-18:30; We 16:00-18:30; Th-Fr 10:00-12:00,16:00-18:30; Sa 10:00-12:00",,,,limited,,52.4955514,13.2968989
+7376832510,Katharina Keil,veterinary,,,,,+49306916165,,,"Mo-Sa 10:00-12:00; Mo, Tu, Th, Fr 17:00-19:00",,,,,,52.4894813,13.4029606
+7478178484,Lorenz,veterinary,,,,,,https://www.tierarzt-lichterfelde.de/,,,,,,,,52.4183404,13.3320075
+7546074503,Wolf & Tiger,veterinary,Lauterstraße,12,12159,Berlin,+49 175 7366718,https://www.wolfandtiger.de/,,,MyVet GmbH,,,,,52.4726236,13.33503
+7609585407,Tierarztpraxis Denisse Barrera,veterinary,Karl-Marx-Straße,133,12043,Berlin,+49 30 6812161,,,Mo-Sa 16:00-20:00,,,,no,,52.4774124,13.439113
+7617449010,Angelika Weber,veterinary,Kundrystraße,2,12159,Berlin,,,,"Mo-Sa 10:00-12:00, Tu 16:00-19:00, Su 13:00-14:00",,,,,,52.4741292,13.3293259
+7623775572,Tierarztpraxis S. Lattermann,veterinary,Transvaalstraße,14,13351,Berlin,+49 30 45290790,http://www.tierarzt-wedding.de/,,"Mo,We 08:00-14:00,13:30-18:30; Tu,Th-Fr 14:00-20:00; PH closed",,,,yes,,52.5519001,13.3411969
+7643245687,Tierarztpraxis Otto Suhr,veterinary,,,,,,,,Mo-Fr 09:00-19:00,,,,no,,52.5150531,13.3130502
+7746191786,,veterinary,,,,,,,,,,,,,,52.5877876,13.3651552
+7747019462,Tierarztpraxis B. Migdal,veterinary,Grazer Platz,12,12157,Berlin,,,,"Mo,We 10:00-16:00; Tu,Th 16:00-20:00; Fr 12:00-18:00",,,,,,52.4667894,13.3465937
+7776123991,Silke Sanft,veterinary,Florastraße,6,12163,Berlin,,http://www.tierarztpraxis-sanft.de,,"Mo,Tu,Th,Fr 09:00-19:00; We,Sa 09:00-12:00",,,,,,52.4613066,13.3269746
+7777530635,Tierarztpraxis Rex,veterinary,Südwestkorso,11a,12161,Berlin,,https://www.tierarztpraxis-schluesing.de/,,"""Sprechzeiten nach Vereinbarung""",,,,no,,52.474559,13.3227841
+7813575354,Tierarztpraxis am Schlachtensee,veterinary,Breisgauer Straße,3,14129,Berlin,+49 30 80905830,https://www.tierarztpraxis-am-schlachtensee.de,info@tierarztpraxis-am-schlachtensee.de,"Mo-Th 09:00-13:00; We,Fr 14:00-18:00; Sa 10:00-14:00",Dr. Katharina Gröndahl,,,,,52.4391475,13.215708
+7937984201,Tierarztpraxis am Hermannplatz,veterinary,Lucy-Lameck-Straße,1,12049,Berlin,,https://www.tierarztpraxis-am-hermannplatz.de,,,,,,,,52.4863263,13.4233555
+7978440760,Dr. L. Chelminski,veterinary,,,,,+49 30 4954038,,,"Mo-Tu,Th-Fr,Su 08:30-11:00,15:30-17:30",,,,no,,52.5691003,13.3612016
+8000786185,Tierarztpraxis PD Dr. med. vet. Thomas Göbel,veterinary,Blissestraße,68,10713,Berlin,,https://www.tierarzt-goebel.de/,,,,,,,,52.4789701,13.3200646
+8068408243,Berliner Tierarztpraxis,veterinary,Mansfelder Straße,19,10713,Berlin,,https://www.berliner-tierarztpraxis.de/,,,Dr. med. vet. S. Heinemann;Beatrix Strathmann,,,,,52.4888413,13.3110131
+8068513185,Naturheilkunde für Tiere,veterinary,Bornimer Straße,6,10711,Berlin,,,,,Petra Clausius,,,,,52.4961991,13.2853794
+8330198884,Tierärztliche Gemeinschaftspraxis Blessing & Richter,veterinary,Quickborner Straße,76,13439,Berlin,+49 30 40710151,https://ta-blessing-richter.de/,info@ta-blessing-richter.de,Mo-Fr 09:00-19:00; Sa 09:00-11:00; Su off,,,,,,52.6045044,13.3664162
+8330236501,Katharina Dralle,veterinary,Rotdornstraße,7,12161,Berlin,+49 30 8527705,https://www.dr-dralle-berlin.de/,,,,,,,,52.4709098,13.3254977
+8357625079,Tierarztpraxis Matthias Müller,veterinary,Berliner Straße,11,13467,Berlin,+49 30 4034440,https://tierarzt-matthiasmueller.de/,,"Mo-Fr 11:00-13:00, 18:00-20:00; Sa-Su11:00-13:00; PH 11:00-13:00",,,,yes,,52.6139984,13.316783
+8579480418,Tierarztpraxis Galina Schirow GmbH,veterinary,Bartningallee,5,10557,Berlin,+49 30 39886966,https://www.vetpraxis-schirow.de/,,"Mo-Fr 10:00-13:00,16:00-19:00",,,,limited,,52.5189471,13.3427257
+8691573555,Dr. Kurt Helmich;Dr. Dieter Oelke,veterinary,Kufsteiner Straße,22,10825,Berlin,,https://tiermedizinzentrum.de/,,,,,,,,52.4854474,13.3367552
+8844721918,Am Schlosspark,veterinary,,,,,+49 30 475 316 93,https://tierarzt-schlosspark.de/,,"Mo-Fr 10:00-12:00,16:00-19:00; Sa 10:00-12:00",,,,,,52.5826045,13.40387
+8850856432,Tierärztliche Gemeinschaftspraxis für Kleintiere,veterinary,Birnhornweg,3,12107,Berlin,,,,,Thomas Hübner;Birte Nannen,,,,,52.4240806,13.3948851
+9038458603,Tierärzte-Kreuzberg,veterinary,Liegnitzer Straße,19,10999,Berlin,+49 30 6126474,http://www.tieraerzte-kreuzberg.de,tierarztpraxis.liegnitzerstr@t-online.de,"Mo-Fr 10:00-24:00,16:00-20:00; PH,Sa,Su 10:00-24:00",,,,,,52.4929733,13.4338357
+9166121510,Tierarztpraxis Dr. Dirk Mauch,veterinary,Elsa-Brändström-Straße,13,13189,Berlin,+49 30 4710133,http://www.elsavet.de/,,,Dr. Dirk Mauch,,,yes,,52.5600099,13.4154386
+9221860122,Tierarztpraxis am Amalienpark,veterinary,,,,,,https://www.tierarztpraxis-amalienpark.de/,,"Mo,Tu,Th 09:00-12:00,15:00-18:00; We 09:00-12:00; Fr 09:00-15:00",,,,no,,52.5721186,13.4135786
+9238314072,Tierarztpraxis Sarah Watson,veterinary,Altenbraker Straße,29,12051,Berlin,+49 30 6257209,https://www.tierarzt-watson.de/,info@tierarzt-watson.de,"We,Fr 09:00-15:00; Sa 10:00-12:00; Mo 09:00-17:00; Tu,Th 11:00-19:00",,,,no,,52.468653,13.4330363
+9396508717,4 Pfoten,veterinary,Fanningerstraße,27,10365,Berlin,+49 30 553 15 72,https://www.praxis4pfoten.de/,,"Mo 09:00-12:00,16:00-19:00; Tu 17:00-20:00; We 09:00-12:00; Th 09:00-12:00,16:00-19:00; Fr 09:00-12:00,14:00-16:00; Sa 10:00-12:00",,,,,,52.5143907,13.4951561
+9400600599,Tierarztpraxis Friedrichshain,veterinary,Auerstraße,44,10249,Berlin,+49 30 78 08 34 85,https://www.tierarztpraxis-friedrichshain.de,,Mo 09:00-15:00; Tu-We 12:00-15:00; Th 10:30-15:00; Fr 09:00-15:00,,,,,,52.5208823,13.4462478
+9432134789,Praxis für Kleintiermedizin Janine Lenk,veterinary,Eschengraben,47,13189,Berlin,+49 30 91203200,https://www.kleintiermedizin-lenk.de,,"Mo,Tu,Th 13:00-19:00; We 17:00-21:00; Fr 10:00-14:00",,,,,,52.556357,13.4245524
+9456247850,Peter Vogel,veterinary,Finowstraße,14,,,+49 30 29776835,https://www.drpetervogel.de/,,"Tu, We 10:00-15:00; Th 10:00-12:00; Mo, Fr 10:00-12:00, 16:00-19:00",,,,,,52.5111185,13.4668484
+9461140241,Dr. Karin Block,veterinary,Zimmermannstraße,16,12163,Berlin,,,,,,,,,,52.4607219,13.3195225
+9516282788,Tierarztpraxis im Komponistenviertel,veterinary,Bizetstraße,48,13088,Berlin,+49309273441,https://www.tierarztpraxis-peters-weissensee.de/,,Mo-Sa 10:00-12:00; Mo-Tu 16:00-19:00; Th-Fr 16:00-19:00,Dr. med. vet Anja Peters,,,,,52.5476848,13.4541052
+9653871480,Tierarztpraxis Lankwitz,veterinary,Bruchwitzstraße,30,12247,Berlin,+49 30 77208260,https://www.tierarztpraxis-lankwitz.de/,info@tierarztpraxis-lankwitz.de,"Mo-Tu,Th-Fr 10:00-13:00,15:00-18:00; We,Sa 09:00-12:00",,,,limited,,52.4370703,13.349587
+9723971361,Compassionate Care,veterinary,,,,,,,,,,,,,,41.6209167,-72.7426955
+9727228473,Kensington Bird & Animal Hospital,veterinary,,,,,,,,,,,,,,41.6324519,-72.7620133
+9733937508,Animal Hospital of Berlin,veterinary,,,,,,,,,,,,,,41.6385866,-72.7691732
+9786575482,Tierärztliche Praxis Beck,veterinary,Weichselstraße,25,12045,Berlin,+49 30 6239664,,,"Mo-Fr 09:00-11:00,15:00-19:00",,,,no,,52.4870325,13.4368022
+9880855648,Tierarztpraxis Marion Bickert,veterinary,Marchandstraße,38,12249,Berlin,+49 30 7755462,https://www.tierarztpraxis-bickert.de,office@tierarztpraxis-bickert.de,"Mo-Fr 09:00-11:00,16:00-18:00; Sa 09:30-10:30",,,,,,52.4227865,13.3566908
+10003860025,Teresa Lankes,veterinary,,,,,,,,"Mo,We,Fr 09:00-11:00, Mo-Fr 16:00-18:00",,,,,,52.5133005,13.2937818
+10169596123,Patrick O. Bolz,veterinary,,,,,,,,"Mo-Fr 10:00-12:00,16:00-19:00; PH,Sa,Su 10:00-12:00",,,,,,52.4564344,13.4367908
+10169838053,Tierarztpraxis Kaulsdorf-Süd,veterinary,,,,,+49 30 5666176,https://tierarztpraxis-kaulsdorf-sued.de/,juraske@tierarztpraxis-kaulsdorf-sued.de,"Tu,Th,Sa 10:00-12:00, Mo,Tu,Th 15:00-20:00, We,Fr 15:00-19:00; PH off",Friederike Juraske,,,,,52.486422,13.5746936
+10180980038,Tierarztpraxis Gasteiner Straße,veterinary,Gasteiner Straße,33,10717,Berlin,,https://tierarztpraxis-gasteiner-strasse.de/,,,Dr. Heike Hübner;Dr. Carolin Hallmann,,,,,52.4872926,13.3259046
+10781978832,,veterinary,,,,,,,,,,,,,,52.4873166,13.6046801
+10816474165,Valera,veterinary,,,,,,https://valera.vet/,,24/7,,,,,,52.4338095,13.2466898
+10944187119,Tieraztpraxis am Tierheim Berlin,veterinary,Hausvaterweg,39,,,+493093662200,https://tierarztpraxis-am-tierheim.de/,,"Mo-Fr 10:00-20:00; Sa,Su 10:00-17:00; PH 11:00-14:00",,,,,,52.5743133,13.5465736
+10946259246,Praxis für Tierzahnheilkunde,veterinary,Soorstraße,76,14050,Berlin,,https://rux.vet/,,"""nach Vereinbarung""",Dr. med. vet. Helmut Rux,,,,,52.5134999,13.2774866
+10956712577,Tierarztpraxis Birkenstein  Dr. med. vet H. Fuhrmann und Team,veterinary,,,,,,,,"Mo-Fr 09:30-11:00, Mo,Tu,Th,Fr 16:30-19:00, Sa 14:00-16:00",,,,,,52.5211838,13.6465809
+11008683231,Tierarztpraxis Alt-Buch,veterinary,Alt-Buch,57,13125,Berlin,+4930 911 42 778,https://www.tierarztpraxis-alt-buch.de/,,"Mo,Fr 09:00-16:00; Tu-Th 09:00-12:00, Tu,Th 16:00-19:00; Sa[1] 10:00-12:00; PH off",Tierärztin Lydia Klemer,,,,,52.636563,13.5022262
+11052551506,Ute Teutenberg,veterinary,,,,,+49 30 37588910,,,"Mo-Fr 08:00-12:00,15:00-18:00; We 08:00-12:00,17:00-20:00",,,,no,,52.5507862,13.1685048
+11101616402,Tierarzt Bello & Co.,veterinary,,,,,,https://belloundco.de/,,,,,,,,52.425741,13.4838753
+11201794003,Tierarztpraxis Dr. Pollmann,veterinary,Berliner Straße,17,,,+493081099440,https://tierarztpraxis-pollmann.de,,"Tu, Th 09:00-15:00; We, Fr 13:00-19:00; Sa 11:00-16:00",,,,,,52.4361962,13.2660844
+11313866984,Dr. Fenina + Burwieck,veterinary,Manteuffelstraße,74,12103,,+493063314227,https://meintierarzt.berlin,,,,,,,,52.4678078,13.3783605
+11345799891,Rex,veterinary,,,,,,https://www.rex.app/,,Mo-Fr 08:00-20:00,,,,yes,,52.5073508,13.4569833
+11556295677,Tierärztliche Gemeinschaftspraxis,veterinary,Hohenzollerndamm,185,10713,Berlin,,https://www.tierarztpraxis-berlin.net/,,,Antje Stolle-Malorny;Jens Vöster;Dr. med. vet. Iris Vöster,,,,,52.491509,13.3183436
+11717159971,Rex Tierarztpraxis,veterinary,Hermannstraße,227,12049,Berlin,,,,Mo-Sa 08:00-20:00,,,,,,52.4807206,13.425592
+11847097396,Kleintierkardiologie Tempelhof,veterinary,Burgemeisterstraße,34,12103,Berlin,+49 30 47006869,https://www.kardiobewegt.berlin/,,Mo-Th 08:00-18:00; PH off,Sinah Dohlen,,,yes,,52.4583689,13.3734169
+11985547873,Tierarztpraxis Kutzner,veterinary,Zum Kappgraben,13,13125,Berlin,+49 30 94382030,https://tierarzt-kutzner.de/,,"Mo-We,Fr 09:00-12:00,16:30-19:30; Th,Sa 09:00-12:00",,,,,,52.6164598,13.4890268
+12108668170,"Tierarztpraxis - Dr. med. vet. Dirk Emmelmann, Dr. med. vet. Albrecht Fengler",veterinary,Max-Beer-Straße,7,,,0302426512,,,"Mo, Tu, Th, Fr 09:00-12:00, 15:00-19:00; We 15:00-19:00",,,,no,,52.5251722,13.408013
+12154205819,Compassionate Care Veterinary Hospital,veterinary,Berlin Turnpike,196,06037,Berlin,+1 860-438-7597,https://compassionatevet.net/contact,info1088@compassionatevet.net,"Mo 09:00-18:00; Tu-We 08:00-17:00; Th 09:00-16:00; Fr 09:00-16:00; Sa 09:00-13:00 open ""every other Saturday""; Su off; PH off",,,,,,41.644342,-72.732768
+12219145454,Tierarztpraxis & Katzenbetreuung am Botanischen Garten,veterinary,Tietzenweg,23,,,+49 30 32294480,https://www.tierarztpraxis-botanischergarten.de,,"Mo, We 10:00-19:00; Tu, Th 08:30-14:00; Sa 10:00-12:00; Fr 10:00-14:00",Daniela Friedrich,,,,,52.4456015,13.3020665
+12238881093,Janine Bräuer,veterinary,Krüllsstraße,5,12435,Berlin,,,,"Mo 10:00-12:00,13:00-16:00; Tu 16:00-19:00; We 12:00-17:00; Fr,Sa 10:00-12:00; Th,Su off",Janine Bräuer,,,,,52.4922101,13.447823
+12793397931,Tierärztezentrum Birte Nannen,veterinary,Schlierbacher Weg,5,12349,Berlin,+49 30 25 92 17 88,https://www.tieraerztezentrum-nannen.de,,,,,,,,52.4160917,13.4047411
+12849196704,Praxis für Kleine Haustiere Dr. Niels Lösch,veterinary,,,,,+49309866411,,info@tierarzt-drloesch.de,"Mo-We, Fr 10:00-12:00; Mo, Tu, Th 16:00-19:00; Fr 16:00-18:00; Sa 11:00-12:30",,,,,,52.5399544,13.4849492
+12851066023,Dr. Pastor,veterinary,Brüsseler Straße,52a,13353,Berlin,,https://www.tierarztpraxis-pastor.de/,,"Mo-Fr 09:00-11:00,16:00-19:00; Sa,Su 14:00-16:00",,,,,,52.5486928,13.3531883
+12877756489,Sonnenberg,veterinary,,,,,,,,,,,,,,52.4406394,13.6866147
+12989186501,Tierarztpraxis am Wasserturm,veterinary,Rykestraße,4,10405,,,https://www.tierarztpraxis-wasserturm.de/,,,,,,,,52.5350637,13.419688
+13169469903,Haveldüne,veterinary,Gatower Straße,131,,,+49 30 362 91 07,https://www.tierarztpraxis-havelduene.de,,,,,,,,52.508699,13.180438
+24921047,Das Veterinärmedizinische Zentrum Berlin,veterinary,Scharnweberstraße,136,13405,Berlin,0049304127357,https://www.vetzentrum-berlin.de/,info@vetzentrum-berlin.de,24/7,Kai S. Rödiger,,,,,52.5638362,13.325898
+28608972,Zete Marton,veterinary,Alt-Reinickendorf,37,13407,Berlin,,,,"Mo-Fr 09:00-12:00, Mo,Th 16:00-19:00, Tu,We,Fr 15:00-18:00",,,,no,,52.5748484,13.3512788
+71173694,Tierärztlichen Klinik für Kleintiere,veterinary,Märkische Allee,258,12679,Berlin,,https://www.tierklinik-in-berlin.de/,,24/7,,,,yes,,52.5555554,13.5532476
+89101208,Tierarztpraxis Kathrin Böhm,veterinary,Robert-Siewert-Straße,90,10318,Berlin,+49 30 32669736,,,"Th 10:00-18:00; Tu,We 10:00-19:00; Fr 10:00-15:00; Sa 10:00-15:00; Mo 10:00-17:00",Kathrin Böhm,,,limited,,52.4926507,13.5369169
+117230559,Tierartzpraxis Gotthardt,veterinary,Winkler Straße,21,14193,Berlin,,,,,,,,,,52.4876219,13.2666057
+163836866,Tierklinik Berlin-Biesdorf,veterinary,Alt-Biesdorf,22,12683,Berlin,+49 30 5143760,https://www.tierklinik-in-biesdorf.de/,,"Mo-Fr 08:00-13:00,15:00-20:00; Sa 09:00-12:00",,,,no,yes,52.5087193,13.5557349
+286010852,Tierarztpraxis Dr. Christine Mueller,veterinary,Südekumzeile,26E,13591,Berlin,+49 30 366 0128,http://tierarztpraxis-spandau.de/,christinemueller.berlin@web.de,,,,,,,52.5311495,13.1485473
+955600399,Silver Lake Animal Hospital,veterinary,Berlin Turnpike,2762,06037,Berlin,,,,,,,,,,41.5791676,-72.7672698
