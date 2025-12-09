@@ -109,3 +109,45 @@ clinics in Berlin that can be used by the application for:
 
 - Ratings, reviews and quality scores are not included; they are out of scope
   for this open-data-based layer in the current iteration.
+
+## Concrete files used in this layer
+
+### 1. OSM vet clinics snapshot (GeoJSON)
+
+- **File**: `raw_osm_berlin_vet_clinics_20251209.geojson`
+- **Origin**: OpenStreetMap (Overpass Turbo export of `amenity = veterinary` within the Berlin bounding box).
+- **Update frequency**: OSM is updated continuously by contributors; this file is a static snapshot as of 2025-12-09.
+- **Data type**: Dynamic source, captured here as a static GeoJSON snapshot.
+- **Relevant fields**:
+  - `name`
+  - `addr:street`, `addr:housenumber`, `addr:postcode`, `addr:city`
+  - `phone`, `contact:phone`
+  - `email`, `contact:email`
+  - `website`, `contact:website`
+  - `opening_hours`
+  - `operator`
+  - `wheelchair`, `wheelchair:description`
+  - `emergency`
+  - geometry (point location)
+
+### 2. OSM vet clinics snapshot (CSV, older export)
+
+- **File**: `raw_osm_berlin_vet_clinics_2025-09-25.csv`
+- **Origin**: OpenStreetMap (Overpass Turbo export of `amenity = veterinary`).
+- **Update frequency**: Same as above (OSM is continuously updated); this file is an older static snapshot.
+- **Data type**: Dynamic source, captured as a static CSV snapshot.
+- **Role**: Kept for QA and comparison only (not used as the primary data source in the current pipeline).
+- **Relevant fields**: Similar to the GeoJSON snapshot (OSM tags for amenity, name, address, contact, opening_hours, etc.).
+
+### 3. Berlin LOR / Ortsteile polygons
+
+- **File**: `raw_berlin_lor_ortsteile.geojson`
+- **Origin**: Berlin Open Data portal (Lebensweltlich orientierte Räume – LOR / Ortsteile).
+- **Update frequency**: Updated by the city when administrative boundaries or LOR definitions change
+  (typically low-frequency, e.g. when new official boundaries are published).
+- **Data type**: Static geospatial dataset (polygons).
+- **Relevant fields**:
+  - `gml_id` (used as `lor_id`)
+  - `BEZIRK` (district name)
+  - `OTEIL` (neighborhood / Ortsteil name)
+  - `geometry` (polygon boundaries used for spatial join with vet clinic points)
