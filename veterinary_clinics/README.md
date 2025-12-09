@@ -151,3 +151,128 @@ clinics in Berlin that can be used by the application for:
   - `BEZIRK` (district name)
   - `OTEIL` (neighborhood / Ortsteil name)
   - `geometry` (polygon boundaries used for spatial join with vet clinic points)
+
+  ## Planned DB schema – `berlin_data.vet_clinics_table`
+
+The vet clinics layer will eventually be loaded into a dedicated table that follows
+the common POI schema used across the project.
+
+**Table name**: `berlin_data.vet_clinics_table`
+
+### Core columns (shared POI schema)
+
+These columns follow the common POI schema provided in the project guidelines:
+
+- `id VARCHAR(20) PRIMARY KEY`  
+  Numeric-only internal identifier, assigned during ETL (no letters).
+
+- `district_id VARCHAR(20) NOT NULL`  
+  Foreign key to `berlin_data.districts(district_id)`, derived from the
+  `district` name.
+
+- `name VARCHAR(200) NOT NULL`  
+  Clinic name, mapped from the cleaned `clinic_name` field. Defaults to
+  `"Unknown"` if null.
+
+- `latitude DECIMAL(9,6)`  
+  Latitude in WGS84, mapped from the cleaned dataset.
+
+- `longitude DECIMAL(9,6)`  
+  Longitude in WGS84, mapped from the cleaned dataset.
+
+- `geometry VARCHAR`  
+  Point geometry stored as a string in `POINT(<lon> <lat>)` format.
+
+- `neighborhood VARCHAR(100)`  
+  Neighborhood (Ortsteil) name, mapped from the LOR join.
+
+- `district VARCHAR(100)`  
+  District name, mapped from the LOR join.
+
+- `neighborhood_id VARCHAR(20)`  
+  LOR-based neighborhood identifier (mapped from the LOR `gml_id` / `lor_id`).
+
+The `district_id` column will be constrained as:
+
+    ```sql
+    CONSTRAINT vet_clinics_district_fk
+     FOREIGN KEY (district_id)
+     REFERENCES berlin_data.districts(district_id)
+     ON DELETE RESTRICT
+     ON UPDATE CASCADE;
+
+### Vet-clinics-specific columns
+
+Additional columns are specific to the vet clinics layer. They do not have  
+global constraints but follow consistent naming and data types:
+
+- **`address VARCHAR(255)`**  
+  Full address string, composed from OSM `addr:street`, `addr:housenumber`,  
+  `addr:postcode`, `addr:city`.
+
+- **`services_offered TEXT`**  
+  Free-text description of services. In the current version this mainly  
+  reflects emergency services derived from the OSM `emergency` tag  
+  (e.g. `"emergency"`), but can be extended with more detailed categories.
+
+- **`operating_days VARCHAR(50)`**  
+  Simple label describing operating days (e.g. `"Mon–Fri"`, `"Mon–Sun"`),  
+  derived using heuristics from the `opening_hours` string.
+
+- **`operating_hours VARCHAR(200)`**  
+  Human-readable opening hours string, mapped directly from OSM  
+  `opening_hours` where available.
+
+- **`contact_info TEXT`**  
+  Aggregated contact information, combining `phone`, `email` and `website`  
+  fields from OSM (`phone`, `contact:phone`, `email`, `contact:email`,  
+  `website`, `contact:website`).
+
+- **`accessibility_features TEXT`**  
+  Accessibility-related notes, currently derived from OSM `wheelchair` and  
+  `wheelchair:description` tags.
+
+- **`data_source VARCHAR(200)`**  
+  Provenance of the record, e.g. `"OSM amenity=veterinary, Berlin, snapshot 2025-12-09"`.
+
+- **`source_osm_id VARCHAR(50)`**  
+  Original OSM element identifier (e.g. `"node/..."`, `"way/..."`), mapped  
+  from the OSM `id` / `@id` field in the v0 dataset for traceability.
+
+
+---
+
+### Relationship with the cleaned CSV (`v1`)
+
+The cleaned CSV produced by  
+`02_vet_clinics_cleaning_and_normalization.ipynb`  
+(`cache/vet_clinics_berlin_clean_20251209_v1.csv`) provides most of the  
+content for this schema:
+
+- `name` ⇐ `clinic_name`  
+- `address` ⇐ `address`  
+- `district` ⇐ `district`  
+- `neighborhood` ⇐ `neighborhood`  
+- `services_offered` ⇐ `services_offered`  
+- `operating_days` ⇐ `operating_days`  
+- `operating_hours` ⇐ `operating_hours`  
+- `contact_info` ⇐ `contact_info`  
+- `latitude` ⇐ `latitude`  
+- `longitude` ⇐ `longitude`  
+- `accessibility_features` ⇐ `accessibility_features`  
+- `data_source` ⇐ `data_source`  
+
+
+---
+
+### Columns populated during the DB loading step (not in this notebook)
+
+The following fields belong to the final table schema but are created later  
+during ETL into the database:
+
+- **`id`** – numeric-only primary key.  
+- **`district_id`** – via join to `berlin_data.districts` using the district name.  
+- **`neighborhood_id`** – via join to the LOR / neighborhoods reference table  
+  (from LOR `gml_id` / `lor_id`).  
+- **`geometry`** – constructed as `POINT(longitude latitude)` in WGS84.  
+- **`source_osm_id`** – copied from the OSM `id` / `@id` in the v0 dataset.  
