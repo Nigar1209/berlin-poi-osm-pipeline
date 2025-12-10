@@ -1,86 +1,220 @@
 # job_centers/scripts/transform_jobcenters_data.py
+
+"""
+Jobcenter Berlin Data Transformation Pipeline
+
+This script prepares Jobcenter + Bundesagentur für Arbeit locations
+for integration into the Berlin Data Lake.
+
+Structure mirrors the company's existing ETL patterns (e.g., recreational zones).
+This file contains:
+ - Data extraction placeholders for OSM + Wikidata
+ - Transformation steps (cleaning, renaming, spatial join)
+ - Final schema mapping
+ - Export instructions (CSV ready for DB import)
+"""
+
 import pandas as pd
 import geopandas as gpd
 import requests
 import osmnx as ox
 import hashlib
 
-# --- 1. DATA EXTRACTION FUNCTIONS (Based on research in Step 1) ---
+
+
+# 1. DATA EXTRACTION FUNCTIONS (Step 1 Research Outputs)
+
 
 def fetch_osm_data_for_berlin():
     """
-    Fetches Jobcenter and Bundesagentur für Arbeit data from OpenStreetMap
-    using the Overpass API. This implements the research noted in the README.
+    Placeholder for fetching Jobcenter locations from the Overpass API.
+    Uses the tag: office=employment_agency.
+    This matches the research in /sources/README.md.
     """
-    # Placeholder for the Overpass API query (using the office=employment_agency tag)
-    # The actual query would target the Berlin bounding box
-    tags = {"office": "employment_agency"}
-    
-    
-    print("LOG: Drafting OSM query for Jobcenter locations.")
-    # Return an empty GeoDataFrame as placeholder for the raw data
+
+    print("LOG: Preparing Overpass API query for Jobcenter locations...")
+
+    # TODO: Implement real Overpass query using ox.geometries_from_xml or requests.post
+    # Example skeleton query (Berlin administrative boundary):
+    overpass_query = """
+    [out:json];
+    area["name"="Berlin"]["boundary"="administrative"]->.searchArea;
+    (
+      node["office"="employment_agency"](area.searchArea);
+      way["office"="employment_agency"](area.searchArea);
+      relation["office"="employment_agency"](area.searchArea);
+    );
+    out center;
+    """
+
+    # This is only a placeholder return until the real query is added
     return gpd.GeoDataFrame()
+
 
 def fetch_wikidata_data():
     """
-    Fetches supplementary data (e.g., official website, operator name) from Wikidata.
-    This implements the research noted in the README.
+    Placeholder: fetch supplementary attributes (operator name, official website)
+    for Jobcenter locations using a SPARQL query.
     """
-    print("LOG: Drafting SPARQL query for Wikidata supplementary data.")
-    # Return an empty DataFrame as placeholder
+
+    print("LOG: Preparing SPARQL query to fetch Wikidata attributes...")
+
+    # TODO: Add SPARQL endpoint call using requests.get() or SPARQLWrapper
     return pd.DataFrame()
 
-# --- 2. TRANSFORMATION AND SPATIAL JOIN LOGIC ---
+
+
+# 2. TRANSFORMATION HELPER FUNCTIONS
+
+
+def deduplicate_and_clean(df):
+    """
+    Removes duplicates, trims whitespace, and performs basic normalization.
+    This keeps the transformation step clean and reusable.
+    """
+
+    print("LOG: Cleaning + deduplicating raw data...")
+
+    if df.empty:
+        return df
+
+    # Trim whitespace from string fields
+    for col in df.select_dtypes(include='object'):
+        df[col] = df[col].astype(str).str.strip()
+
+    # Remove duplicate coordinates
+    coord_cols = [c for c in df.columns if c in ("latitude", "longitude")]
+
+    if coord_cols:
+        df = df.drop_duplicates(subset=coord_cols)
+
+    return df
+
+
+def generate_hashed_id(row):
+    """
+    Generates a deterministic unique ID using name + coordinates.
+    Similar to patterns in other data layers.
+    """
+
+    # Safe fallback if coordinates are missing
+    name = str(row.get("name", ""))
+    lat = str(row.get("latitude", ""))
+    lon = str(row.get("longitude", ""))
+
+    unique_string = f"{lat}{lon}{name}"
+    return int(hashlib.sha256(unique_string.encode("utf-8")).hexdigest(), 16) % (10**20)
+
+
+
+# 3. FINAL TRANSFORMATION PIPELINE
+
 
 def final_transformation(gdf_raw_data, gdf_lor_boundaries):
     """
-    Performs all cleaning, deduplication, spatial joins, and final schema mapping.
-    
-    Arguments:
-        gdf_raw_data: GeoDataFrame containing combined OSM/Wikidata data.
-        gdf_lor_boundaries: GeoDataFrame containing Berlin's LOR boundaries 
-                            (used for spatial join).
+    Applies cleaning, geometry creation, spatial joining, and final schema mapping.
+    This mirrors the logic used in the recreational_zones transformation notebook.
     """
-    print("LOG: Starting final data transformation.")
-    
-    # 1. Deduplication and Cleaning (Placeholder)
-    # merged_df = deduplicate_and_clean(gdf_raw_data)
-    
-    # 2. Spatial Join (Implements LOR mapping)
-    # The crucial step to link location coordinates to district and neighborhood IDs
-    # merged_df = gpd.sjoin(merged_df, gdf_lor_boundaries, how="left", predicate='within')
-    
-    # 3. Generate Unique ID and Geometry (Schema requirements)
-    def generate_id(row):
-        # Uses hashlib to create a unique, numeric-compatible ID from coordinates and name
-        unique_string = f"{row['latitude']}{row['longitude']}{row['name']}"
-        return int(hashlib.sha256(unique_string.encode('utf-8')).hexdigest(), 16) % (10**20)
 
-    # merged_df['id'] = merged_df.apply(generate_id, axis=1)
+    print("LOG: Starting transformation pipeline...")
+
+    if gdf_raw_data.empty:
+        print("WARNING: Raw data is empty — returning empty DataFrame for now.")
+        return pd.DataFrame()
+
     
-    # 4. Select and Rename Columns to Match Final Schema
-    # final_df = merged_df[['id', 'lor_district_id', 'name', 'latitude', 'longitude', ...]]
+    # 1) Normalize column names -> snake_case (matches repo convention)
+    
+    print("LOG: Normalizing column names...")
+    gdf_raw_data.columns = (
+        gdf_raw_data.columns
+        .str.lower()
+        .str.strip()
+        .str.replace(" ", "_")
+        .str.replace(":", "_")
+    )
 
-    # Placeholder return:
-    print("LOG: Final schema mapping complete. Data ready for export.")
-    return pd.DataFrame()
+    
+    # 2) Clean + Deduplicate
+    
+    gdf_clean = deduplicate_and_clean(gdf_raw_data)
+
+    
+    # 3) Convert to GeoDataFrame (create geometry column)
+    
+    print("LOG: Converting coordinates to geometry...")
+
+    if "latitude" in gdf_clean.columns and "longitude" in gdf_clean.columns:
+        gdf_clean["latitude"] = pd.to_numeric(gdf_clean["latitude"], errors="coerce")
+        gdf_clean["longitude"] = pd.to_numeric(gdf_clean["longitude"], errors="coerce")
+
+        gdf_clean = gpd.GeoDataFrame(
+            gdf_clean,
+            geometry=gpd.points_from_xy(gdf_clean.longitude, gdf_clean.latitude),
+            crs="EPSG:4326"
+        )
+    else:
+        print("WARNING: No latitude/longitude columns found.")
+        return pd.DataFrame()
+
+    
+    # 4) Spatial Join (Attach LOR district + neighborhood)
+    
+    print("LOG: Performing spatial join with LOR boundaries...")
+
+    # TODO: uncomment when LOR file available
+    # gdf_joined = gpd.sjoin(gdf_clean, gdf_lor_boundaries, how="left", predicate="within")
+    # For now keep as placeholder:
+    gdf_joined = gdf_clean.copy()
+    gdf_joined["district"] = None
+    gdf_joined["neighborhood"] = None
+
+    
+    # 5) Add unique ID column
+    
+    print("LOG: Generating unique IDs...")
+    gdf_joined["id"] = gdf_joined.apply(generate_hashed_id, axis=1)
+
+    
+    # 6) Map to Final Schema
+    
+    print("LOG: Mapping to final schema...")
+
+    # TODO: adjust schema once real fields are confirmed
+    final_df = gdf_joined[[
+        "id",
+        "name",
+        "operator" if "operator" in gdf_joined.columns else None,
+        "latitude",
+        "longitude",
+        "district",
+        "neighborhood",
+        "geometry"
+    ]].copy()
+
+    print("LOG: Transformation complete. Ready for CSV export.")
+    return final_df
 
 
-# --- 3. MAIN EXECUTION FLOW (The whole pipeline) ---
+
+# 4. MAIN EXECUTION (Pipeline entry point)
+
 
 if __name__ == "__main__":
-    # 1. Fetch Raw Data
+    print("\n=== Jobcenter ETL Pipeline Started ===")
+
+    # Step 1: Fetch raw sources
     osm_data = fetch_osm_data_for_berlin()
     wikidata_data = fetch_wikidata_data()
 
-    # 2. Load Boundary Data (LOR files)
-    # lor_boundaries = gpd.read_file("path/to/lor_ortsteile.geojson")
-    
-    # 3. Transform and Output
-    # final_data = final_transformation(osm_data, lor_boundaries)
+    # TODO: Combine OSM + Wikidata once real fields exist
+    # raw_combined = merge_osm_and_wikidata(osm_data, wikidata_data)
 
-    # 4. Export Final CSV (Ready for SQL \COPY command)
-    # final_data.to_csv('../../jobcenters_transformed.csv', index=False)
-    
-    print("\nSCRIPT READY: The transformation logic is implemented and prepared to execute the ETL flow.")
-    print("To run, fill in the placeholder logic and execute: python transform_jobcenters_data.py")
+    # Step 2: Load LOR boundaries (currently placeholder)
+    # lor_boundaries = gpd.read_file("../../lor_boundaries.geojson")
+
+    # Step 3: Transform
+    # final_data = final_transformation(raw_combined, lor_boundaries)
+
+    print("SCRIPT READY: Fill in TODOs and run `python transform_jobcenters_data.py`")
+
