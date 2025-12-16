@@ -1,0 +1,153 @@
+======================================================================
+ELASTICSEARCH CONNECTION
+======================================================================
+Cluster Name: docker-cluster
+Version: 9.2.2
+
+Index 'unified_pois' exists with 134403 documents
+
+======================================================================
+TASK 8: GENERAL FILTERING
+======================================================================
+
+--- Filter 1: All Restaurants ---
+Found 4630 restaurants
+  - Army Food in Mitte
+  - Augustiner auf Bötzow in Pankow
+  - Hasir in Mitte
+  - Moccachino in Mitte
+  - Bristol Grill in Charlottenburg-Wilmersdorf
+  - Casa di Maria in Charlottenburg-Wilmersdorf
+  - Aspendos in Tempelhof-Schöneberg
+  - Jōnetsu in Friedrichshain-Kreuzberg
+  - Habana in Friedrichshain-Kreuzberg
+  - Cantina in Pankow
+
+--- Filter 2: All neighborhoods in Mitte ---
+Found 10000 neighborhoods in Mitte
+  - Mitte (N/A)
+  - Moabit (N/A)
+  - Moabit (N/A)
+  - Moabit (N/A)
+  - Moabit (N/A)
+
+--- Filter 3: Restaurants in Mitte ---
+Found 903 restaurants in Mitte
+  - Army Food
+  - Hasir
+  - Moccachino
+  - Hung Anh
+  - Bistro Ribelle
+
+--- Filter 4: Restaurants OR Cafes ---
+Found 7096 restaurants or cafes
+  - Five Elephant (N/A)
+  - Çarik Kuruyemiş & Cafe (N/A)
+  - Ja Dilo (N/A)
+  - Karaca (N/A)
+  - Café Hexe 2.0 (N/A)
+
+======================================================================
+TASK 9: GEO-DISTANCE QUERIES
+======================================================================
+
+--- Query 1: Within 1km of long-WOH_2772_178_14055 ---
+Found 193 POIs within 1km
+  - Wohnung zur Miete 2.772 € 4 Zimmer 178 m² frei ab 01.09.2025 Stallupöner Allee 33 Westend Berlin 14055: 0.05 km away
+  - Stallupöner Allee: 0.11 km away
+  - Stallupöner Allee: 0.12 km away
+  - Stallupöner Allee: 0.13 km away
+  - Kranzallee: 0.17 km away
+
+--- Query 2: Within 5km of long-WOH_2772_178_14055 ---
+Found 9012 POIs within 5km
+  - Wohnung zur Miete 2.772 € 4 Zimmer 178 m² frei ab 01.09.2025 Stallupöner Allee 33 Westend Berlin 14055: 0.05 km away
+  - Stallupöner Allee: 0.11 km away
+  - Stallupöner Allee: 0.12 km away
+  - Stallupöner Allee: 0.13 km away
+  - Kranzallee: 0.17 km away
+
+--- Query 3: Within 200mtrs of long-WOH_2772_178_14055 ---
+Found 8 POIs within 200mtrs
+
+--- Comparison: Different Radii ---
+    500m:    38 POIs
+     1km:   193 POIs
+     2km:   642 POIs
+     5km:  9012 POIs
+
+--- Query 4: Restaurants within 5km ---
+Found 401 restaurants within 5km
+  - Tiroler Stuben: 0.52 km away
+  - Sardegna A Tavola Im Waldhaus: 0.68 km away
+  - Preußisches Landwirtshaus: 0.80 km away
+  - Il Porto: 1.03 km away
+  - Rafih: 1.60 km away
+
+======================================================================
+TASK 10: GEO-BOUNDING-BOX QUERIES
+======================================================================
+
+--- Query 1: POIs in Berlin ---
+Found 10000 POIs in Berlin bounding box
+  - Unknown at (52.5118522644043, 13.404717445373535)
+  - Unknown at (52.5009651184082, 13.383056640625)
+  - Unknown at (52.510101318359375, 13.39675235748291)
+  - Abenteuerspielplatz an der Marie at (52.53546905517578, 13.424474716186523)
+  - Unknown at (52.5369987487793, 13.40136432647705)
+
+--- Query 4: Restaurants in Berlin ---
+Found 852 restaurants in Berlin bounding box
+  - Army Food at ({'lat': 52.50835, 'lon': 13.389846})
+  - Augustiner auf Bötzow at ({'lat': 52.529637, 'lon': 13.41675})
+  - Hasir at ({'lat': 52.523819, 'lon': 13.401103})
+  - Hung Anh at ({'lat': 52.527619, 'lon': 13.386323})
+  - Bistro Ribelle at ({'lat': 52.52355, 'lon': 13.38628})
+
+---  Restaurants in Berlin ---
+Found 852 restaurants in Berlin bounding box
+  - Army Food at ({'lat': 52.50835, 'lon': 13.389846})
+  - Augustiner auf Bötzow at ({'lat': 52.529637, 'lon': 13.41675})
+  - Hasir at ({'lat': 52.523819, 'lon': 13.401103})
+  - Hung Anh at ({'lat': 52.527619, 'lon': 13.386323})
+  - Bistro Ribelle at ({'lat': 52.52355, 'lon': 13.38628})
+
+--- Restaurants in Berlin - multi bounding boxes ---
+Found 1146 restaurants in Berlin multi bounding box
+  - Army Food at ({'lat': 52.50835, 'lon': 13.389846})
+  - Augustiner auf Bötzow at ({'lat': 52.529637, 'lon': 13.41675})
+  - Hasir at ({'lat': 52.523819, 'lon': 13.401103})
+  - Jōnetsu at ({'lat': 52.513154, 'lon': 13.462049})
+  - Habana at ({'lat': 52.511884, 'lon': 13.456796})
+
+======================================================================
+TASK 11: GEO AGGREGATIONS
+======================================================================
+
+---  Geotile Grid (Zoom level 10) ---
+Found 2 geotile cells (zoom 10)
+  Tile 7/68/41: 91230 POIs
+  Tile 7/68/42: 43173 POIs
+
+---  Geohash Grid (Precision 6 - ~1.2km cells) ---
+Found 1806 geohash cells (precision 6)
+  Cell u33dbc: 1183 POIs
+  Cell u33d8g: 909 POIs
+  Cell u33ddm: 892 POIs
+  Cell u33dbg: 755 POIs
+  Cell u33d9e: 652 POIs
+  Cell u33dc5: 594 POIs
+  Cell u33df2: 578 POIs
+  Cell u33dce: 564 POIs
+  Cell u33dcn: 560 POIs
+  Cell u33d9u: 547 POIs
+
+---  Geo Centroid (Average Location) ---
+Center point of all 134403 POIs:
+  Latitude: 52.504970
+  Longitude: 13.403875
+
+---  Geo Bounds (Min/Max Coordinates) ---
+Bounding box of all POIs:
+  Top-left:     (52.666827, 13.090769)
+  Bottom-right: (52.251730, 13.759112)
