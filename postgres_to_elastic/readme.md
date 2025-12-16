@@ -1,4 +1,4 @@
-# Elasticsearch & Kibana
+# Elasticsearch & Kibana (local machine)
 
 ## Create network if not exists
 - docker network inspect elastic >/dev/null 2>&1 || docker network create elastic
