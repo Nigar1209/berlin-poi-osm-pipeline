@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS berlin_data.jobcenters (
 );
 
 
+
 -- STEP 2: DATA POPULATION VIA COPY COMMAND
 -- This section documents the method for bulk data insertion 
 -- after the Python transformation script generates the final CSV.
@@ -46,4 +47,5 @@ FROM 'path/to/jobcenters_transformed.csv' -- Path to the clean CSV output from S
 DELIMITER ',' 
 CSV HEADER;
 */
+
 
