@@ -1,4 +1,5 @@
 # Elasticsearch & Kibana (local machine)
+### How to setup and using the Kibana UI vs Python requests
 
 ## Create network if not exists
 - docker network inspect elastic >/dev/null 2>&1 || docker network create elastic
