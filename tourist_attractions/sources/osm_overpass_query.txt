@@ -1,0 +1,50 @@
+/*
+Overpass QL Query to extract tourist attractions in Berlin
+Includes: museums, attractions, galleries, monuments, memorials, historic sites
+
+To run this query:
+1. Visit https://overpass-turbo.eu/
+2. Copy and paste this query
+3. Click 'Run' to execute
+4. Export as GeoJSON for data processing
+
+Permalink: https://overpass-turbo.eu/s/2ho3
+*/
+
+[out:json][timeout:120];
+
+// Define Berlin area
+{{geocodeArea:Berlin}}->.searchArea;
+
+(
+  // Tourism-related tags
+  node["tourism"="attraction"](area.searchArea);
+  way["tourism"="attraction"](area.searchArea);
+  node["tourism"="museum"](area.searchArea);
+  way["tourism"="museum"](area.searchArea);
+  node["tourism"="gallery"](area.searchArea);
+  way["tourism"="gallery"](area.searchArea);
+  node["tourism"="artwork"](area.searchArea);
+  way["tourism"="artwork"](area.searchArea);
+  node["tourism"="viewpoint"](area.searchArea);
+  way["tourism"="viewpoint"](area.searchArea);
+  
+  // Historic tags
+  node["historic"="monument"](area.searchArea);
+  way["historic"="monument"](area.searchArea);
+  node["historic"="memorial"](area.searchArea);
+  way["historic"="memorial"](area.searchArea);
+  node["historic"="castle"](area.searchArea);
+  way["historic"="castle"](area.searchArea);
+  node["historic"="ruins"](area.searchArea);
+  way["historic"="ruins"](area.searchArea);
+  
+  // Cultural amenities
+  node["amenity"="theatre"](area.searchArea);
+  way["amenity"="theatre"](area.searchArea);
+  node["amenity"="arts_centre"](area.searchArea);
+  way["amenity"="arts_centre"](area.searchArea);
+);
+
+out center;
+>;
