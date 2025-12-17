@@ -1,0 +1,101 @@
+name,street,housenumber,postcode,city,country,suburb,opening_hours,internet_access,wheelchair,phone,email,website,latitude,longitude
+St. Oberholz,Rosenthaler Straße,72,10119,Berlin,DE,Mitte,"Mo-Th 08:00-24:00, Fr 08:00-03:00, Sa 09:00-03:00, Su 09:00-24:00",wlan,limited,+49 30 24085586,info@sanktoberholz.de,https://sanktoberholz.de/standorte/rosenthaler/,52.5295304,13.4017825
+unknown,Ella-Kay-Straße,38,10405,Berlin,unknown,Prenzlauer Berg,unknown,unknown,unknown,unknown,unknown,unknown,52.5401654,13.4328014
+Pulsraum Coworking Berlin,Kottbusser Damm,25,10967,Berlin,DE,Kreuzberg,Mo-Fr 07:00-21:00; Sa 10:00-19:00,wlan,unknown,unknown,unknown,unknown,52.4896345,13.4238697
+Fora,Unter den Linden,40,10117,Berlin,DE,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5171592,13.3864434
+Hauptstadt Räume,Kochstraße,,10969,Berlin,unknown,Kreuzberg,unknown,unknown,unknown,unknown,unknown,unknown,52.5065941,13.3870843
+Salon 31 Friseur,Gärtnerstraße,31,10245,Berlin,DE,Friedrichshain,We-Fr 10:00-20:00; Sa 10:00-18:00,unknown,no,unknown,unknown,unknown,52.5087141,13.4596825
+Charlottenburger Innovations-Centrum,Marie-Elisabeth-Lüders-Straße,1,10625,Berlin,DE,Charlottenburg,unknown,unknown,unknown,unknown,unknown,https://charlottenburg.wista.de,52.5129406,13.3167085
+Coworking Space Berlin-Friedrichshain Launch/Co,Rudolfstraße,14,10245,Berlin,DE,Friedrichshain,Mo-Fr 09:00-19:00,unknown,limited,+4930577000050,unknown,https://launchco.com/coworking,52.5036356,13.454467
+CubicMeter,Rodenbergstraße,29,10439,Berlin,DE,Prenzlauer Berg,unknown,unknown,unknown,unknown,unknown,unknown,52.5506682,13.4181026
+Horse Space,Revaler Straße,1,10243,Berlin,DE,Friedrichshain,unknown,unknown,no,unknown,unknown,unknown,52.5085075,13.4491643
+Haus des Holzes,Chausseestraße,99,10115,Berlin,unknown,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5325842,13.3801872
+Juicy Fields,Potsdamer Straße,147,10783,Berlin,unknown,Schöneberg,Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00,unknown,unknown,unknown,unknown,unknown,52.4960192,13.361546
+Leap - Quantum Technology Hub Berlin,Rudower Chaussee,29,12489,Berlin,unknown,Adlershof,unknown,yes,unknown,unknown,unknown,unknown,52.4287643,13.5285457
+enpact,Stresemannstraße,,10963,Berlin,unknown,Kreuzberg,unknown,unknown,unknown,unknown,unknown,unknown,52.5017276,13.3862771
+Spielfield Digital Hub,Skalitzer Straße,85,10997,Berlin,DE,Kreuzberg,unknown,unknown,unknown,unknown,unknown,https://www.spielfeld.com/,52.5003367,13.4363455
+Blogfabrik,Oranienstraße,185,10999,Berlin,unknown,Kreuzberg,unknown,unknown,yes,unknown,unknown,unknown,52.5006748,13.4210136
+Tuechtig,Oudenarder Straße,16,13347,Berlin,DE,Wedding,09:00-19:00,wlan,yes,+49 30 83216640,unknown,https://tuechtig-berlin.de/,52.5533166,13.3596927
+Mitosis,Weserstraße,165,12045,Berlin,DE,Neukölln,unknown,unknown,unknown,unknown,unknown,unknown,52.4833039,13.4413146
+St. Oberholz Zehdenicker,Zehdenicker Straße,1,10119,Berlin,unknown,Prenzlauer Berg,Mo-Fr 08:00-18:00; Sa-Su 10:00-16:00,wlan,no,unknown,info@sanktoberholz.de,https://sanktoberholz.de/standorte/zehdenicker/,52.529775,13.4074888
+Die Zusammenarbeiter,Wilhelmine-Gemberg-Weg,14,10179,Berlin,DE,Mitte,unknown,yes,yes,unknown,unknown,unknown,52.5103479,13.425172
+Nest Coworking,Görlitzer Straße,52,10997,Berlin,unknown,Kreuzberg,Th-Su 11:00-22:00,wlan,unknown,unknown,unknown,unknown,52.4971588,13.4391399
+Impact Hub,Rollbergstraße,28A,12053,Berlin,DE,Neukölln,Mo-Fr 09:00-18:00,unknown,unknown,+49 30 25925725,info@impacthub.berlin,https://berlin.impacthub.net,52.4791786,13.4322498
+WeWork,Kemperplatz,1,10785,Berlin,DE,Tiergarten,unknown,unknown,unknown,unknown,unknown,unknown,52.5108391,13.3718204
+Excellent Business Center,Europaplatz,2,10557,Berlin,DE,Moabit,unknown,unknown,unknown,unknown,unknown,unknown,52.5255276,13.3695902
+WeWork,Stresemannstraße,123,10963,Berlin,DE,Kreuzberg,unknown,unknown,yes,unknown,unknown,unknown,52.5074111,13.3782525
+WeWork,Eichhornstraße,3,10785,Berlin,DE,Tiergarten,unknown,unknown,unknown,unknown,unknown,unknown,52.5063847,13.3731454
+WeWork,Kurfürstendamm,11,10719,Berlin,DE,Tiergarten,unknown,wlan,unknown,unknown,unknown,unknown,52.5046435,13.3338036
+The Place,Charlottenstraße,2,10969,Berlin,DE,Kreuzberg,Mo-Fr 08:30-23:00,yes,yes,unknown,unknown,http://www.theplaceberlin.com/,52.5057457,13.393114
+unknown,Tauentzienstraße,13,10789,Berlin,unknown,Charlottenburg,Mo-Fr 09:00-17:00,wlan,unknown,unknown,unknown,unknown,52.5039784,13.3362493
+tuesday coworking,Belziger Straße,69/71,10823,Berlin,unknown,Schöneberg,unknown,yes,unknown,unknown,unknown,unknown,52.4845786,13.3466833
+tuesday coworking,Feurigstraße,51,10827,Berlin,unknown,Schöneberg,unknown,yes,unknown,unknown,unknown,unknown,52.483058,13.3537444
+Altmoabit 19,Alt-Moabit,19,10559,Berlin,DE,Moabit,unknown,unknown,unknown,+49 30 44678075,buero@altmoabit19.com,https://www.altmoabit19.com,52.5248113,13.352327
+Simplioffice,Nürnberger Straße,38,10777,Berlin,DE,Wilmersdorf,unknown,unknown,limited,+49 30 890070,info@commehr.de,http://www.commehr.de,52.4989306,13.335409
+Der Salon Coworking,Schudomastraße,45,12055,Berlin,DE,Neukölln,unknown,unknown,unknown,unknown,unknown,unknown,52.4739996,13.4500583
+Projektraum Spreefeld,Wilhelmine-Gemberg-Weg,12,10179,Berlin,unknown,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5107384,13.4249821
+Thinkfarm Berlin,Oberlandstraße,26-35,12099,Berlin,DE,Tempelhof,Mo-Fr 10:00-18:00,unknown,unknown,unknown,unknown,http://www.thinkfarm.org/,52.4645707,13.4089328
+Unicorn Brunnenviertel,Brunnenstraße,64-65,13355,Berlin,unknown,Gesundbrunnen,unknown,unknown,yes,unknown,unknown,unknown,52.5406763,13.3946326
+Le Box,Schliemannstraße,19,10437,Berlin,DE,Prenzlauer Berg,unknown,unknown,unknown,unknown,unknown,unknown,52.544151,13.4203548
+The Drivery,Mariendorfer Damm,1,12099,Berlin,DE,Tempelhof,unknown,unknown,unknown,unknown,unknown,unknown,52.4534017,13.385199
+Unicorn Workspaces Checkpoint Charlie,Markgrafenstraße,62/63,10969,Berlin,unknown,Kreuzberg,unknown,unknown,unknown,unknown,unknown,unknown,52.5076824,13.3939841
+Full Node,Glogauer Straße,6,10999,Berlin,DE,Kreuzberg,unknown,unknown,unknown,unknown,unknown,https://www.fullnode.berlin/,52.4940989,13.4377411
+Design Offices,Unter den Linden,26-30,10117,Berlin,DE,Mitte,Mo-Fr 8:30-18:00,unknown,no,+49 30 7262160,berlin.unterdenlinden@designoffices.de,https://www.designoffices.de/standorte/berlin-unter-den-linden/,52.5172821,13.3882458
+Coworking Motorwerk Berlin,An der Industriebahn,12,13088,Berlin,unknown,Weißensee,Mo-Fr 09:00-18:00,yes,unknown,unknown,unknown,unknown,52.5634242,13.4612349
+bUm - Raum für solidarisches Miteinander,Paul-Lincke-Ufer,21,10999,Berlin,DE,Kreuzberg,unknown,wlan,unknown,unknown,kontakt@bum.berlin,https://bum.berlin,52.4937932,13.4296611
+Unicorn Village,Richardstraße,85/86,12043,Berlin,DE,Neukölln,unknown,unknown,unknown,unknown,unknown,unknown,52.4759286,13.4437324
+Multimediabüro Bild-Schrift-Zahl,Weidenweg,51,10249,Berlin,unknown,Friedrichshain,unknown,yes,unknown,unknown,unknown,unknown,52.5185719,13.4522586
+CIC Innovation Campus,Lohmühlenstraße,65,12435,Berlin,DE,Alt-Treptow,unknown,unknown,unknown,unknown,unknown,unknown,52.494111,13.4463076
+Design Offices,Leipziger Platz,16,10117,Berlin,DE,Mitte,Mo-Fr 08:30-18:00,unknown,unknown,+49 30 700149850,berlin.leipzigerplatz@designoffices.de,https://www.designoffices.de/standorte/berlin-leipziger-platz/,52.5103646,13.3779461
+Design Offices,Koppenstraße,93,10243,Berlin,DE,Friedrichshain,Mo-Fr 08:30-18:00,unknown,unknown,+49 30 76758500,berlin.ostbahnhof@designoffices.de,https://www.designoffices.de/standorte/berlin-ostbahnhof/,52.5123646,13.433266
+Design Offices,Bertolt-Brecht-Platz,3,10117,Berlin,DE,Mitte,Mo-Fr 08:30-18:00,unknown,unknown,+49 30 58581340,berlin.amzirkus@designoffices.de,https://www.designoffices.de/standorte/berlin-am-zirkus/,52.5225746,13.3866189
+Design Offices,Alexanderufer,3-7,10117,Berlin,DE,Mitte,Mo-Fr 08:30-18:00,unknown,unknown,+49 30 726216250,berlin.humboldthafen@designoffices.de,https://www.designoffices.de/standorte/berlin-humboldthafen/,52.5239931,13.373505
+Mandel Open Space,Nollendorfstraße,21a,10777,Berlin,DE,Schöneberg,unknown,unknown,unknown,unknown,unknown,unknown,52.4975921,13.3501157
+Dugnad,Kienitzer Straße,16,12053,Berlin,DE,Neukölln,unknown,unknown,unknown,unknown,unknown,unknown,52.4773821,13.4361939
+L19 Bürogemeinschaft,Lychener Straße,19,10437,Berlin,DE,Prenzlauer Berg,unknown,unknown,limited,unknown,unknown,unknown,52.5421791,13.4156019
+Trust,Kluckstraße,25,10785,Berlin,unknown,Tiergarten,unknown,wlan,unknown,unknown,unknown,unknown,52.5029919,13.3615323
+Boho Space,Bülowstraße,6,10783,Berlin,DE,Schöneberg,unknown,unknown,unknown,unknown,unknown,unknown,52.4987853,13.3561157
+Fireworks,Stockholmer Straße,4,13359,Berlin,DE,Gesundbrunnen,24/7,yes,unknown,unknown,unknown,https://fireworkscoworking.wordpress.com/,52.5569465,13.3829524
+everyworks Coworking,Europaplatz,2,10557,Berlin,unknown,Moabit,Mo-Fr 08:30-18:30,yes,unknown,unknown,everyworks@deutschebahn.com,unknown,52.5255465,13.3695814
+Colonies,Paul-Robeson-Straße,,10439,Berlin,unknown,Prenzlauer Berg,unknown,unknown,unknown,unknown,unknown,unknown,52.5523168,13.4138173
+Raum,Karl-Kunger-Straße,7,12435,Berlin,DE,Alt-Treptow,unknown,unknown,unknown,unknown,unknown,unknown,52.4920791,13.4456736
+District One,Hauptstraße,151,10827,Berlin,unknown,Schöneberg,unknown,unknown,unknown,unknown,unknown,unknown,52.4882188,13.3586479
+Studio Neuf,Gneisenaustraße,42,10961,Berlin,DE,Kreuzberg,unknown,unknown,unknown,unknown,unknown,unknown,52.4895444,13.4010469
+WeWork,Friedrichstraße,76,10117,Berlin,unknown,Mitte,24/7,wlan,yes,unknown,unknown,unknown,52.5141245,13.3894807
+Scaling Spaces Berlin,Schwedenstraße,9,13359,Berlin,unknown,Gesundbrunnen,unknown,unknown,unknown,unknown,unknown,unknown,52.5579706,13.3735077
+Helix Hub,Invalidenstraße,113,10115,Berlin,unknown,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5306531,13.3839031
+SpielundLern.de,Damaschkestraße,34,10711,Berlin,DE,Charlottenburg,Mo-Fr 09:00-17:00,unknown,no,unknown,unknown,unknown,52.5013588,13.2975362
+AI Campus Berlin,Max-Urich-Straße,3,13355,Berlin,DE,Gesundbrunnen,24/7,wlan,yes,unknown,unknown,https://www.merantix-aicampus.com/,52.5394385,13.3838217
+P3A coworking,Perleberger Straße,3A,10559,Berlin,unknown,Moabit,unknown,unknown,unknown,unknown,unknown,unknown,52.5354917,13.3561773
+b+ office Coworking Space,Dudenstraße,10,10965,Berlin,DE,Kreuzberg,Mo-Fr 09:00-18:00,wlan,unknown,+49 30 3980994-0,unknown,https://bplusoffice.de/,52.4854344,13.3838886
+Coworking Toddler,Greifenhagener Straße,48,10437,Berlin,DE,Prenzlauer Berg,unknown,unknown,yes,unknown,unknown,unknown,52.5486175,13.4160056
+& Co,Hauptstraße,153,10827,Berlin,DE,Schöneberg,unknown,unknown,unknown,unknown,unknown,unknown,52.4885808,13.3589461
+Plantage Bürogemeinschaft,Prinz-Eugen-Straße,29A,13347,Berlin,unknown,Wedding,"""nach Anwesenheit""",wlan,no,unknown,unknown,unknown,52.5466015,13.3663377
+Spielhalle 2,Grunewaldstraße,81,10823,Berlin,DE,Schöneberg,unknown,unknown,unknown,unknown,unknown,https://www.spielhallezwei.berlin/,52.4898377,13.354489
+CI Space,Bugenhagenstraße,9,10551,Berlin,unknown,Moabit,Mo-Sa 10:00-22:00,wlan,unknown,unknown,unknown,unknown,52.5280242,13.3417811
+Tempelgehöft Co-Working,Tempelhofer Damm,152,12099,Berlin,unknown,Tempelhof,unknown,yes,yes,unknown,unknown,unknown,52.4648209,13.384876
+WeWork,Dircksenstraße,3,10179,Berlin,unknown,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5165745,13.4170552
+Mindspace Kurfürstendamm,Uhlandstraße,32,10719,Berlin,unknown,Charlottenburg,Mo-Fr 09:00-18:00,unknown,unknown,unknown,unknown,unknown,52.5004908,13.3247679
+Dein Freiraum,Käthe-Niederkirchner-Straße,25,10407,Berlin,unknown,Prenzlauer Berg,unknown,unknown,unknown,unknown,unknown,unknown,52.5300167,13.4333096
+WeWork,Rosenthaler Straße,43,10178,Berlin,unknown,Mitte,unknown,unknown,yes,unknown,unknown,unknown,52.5240425,13.4029404
+WeWork,Warschauer Platz,11-13,10245,Berlin,DE,Friedrichshain,"Mo-Su,PH 09:00-18:00",unknown,unknown,unknown,unknown,unknown,52.5044523,13.4495322
+Techspace,Köpenicker Straße,40B,10179,Berlin,unknown,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5091928,13.4255042
+Velt.studio,Urbanstraße,71,10967,Berlin,unknown,Kreuzberg,unknown,wlan,unknown,unknown,unknown,unknown,52.4878454,13.4232894
+Unicorn Workspaces Gendarmenmarkt,Französische Straße,24,10117,Berlin,unknown,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5146364,13.3904675
+Das Arbeitszimmer,Westerlandstraße,,13189,Berlin,unknown,Pankow,unknown,unknown,unknown,unknown,unknown,unknown,52.5580996,13.4147115
+Gesoworx,Langhansstraße,,13086,Berlin,unknown,Weißensee,unknown,unknown,unknown,unknown,unknown,unknown,52.5511393,13.4429771
+Creon,Methfesselstraße,43,10965,Berlin,unknown,Kreuzberg,unknown,unknown,unknown,unknown,unknown,unknown,52.4859683,13.3837321
+The Gate (TOR 201),Torstraße,201,10115,Berlin,DE,Mitte,unknown,unknown,unknown,unknown,unknown,unknown,52.5281159,13.3910714
+Unicorn Workspaces,Gerichtstraße,,13347,Berlin,unknown,Wedding,unknown,unknown,unknown,unknown,unknown,unknown,52.5446418,13.3665649
+St. Oberholz,Boxhagener Straße,18,10245,Berlin,unknown,Friedrichshain,24/7,unknown,unknown,unknown,unknown,unknown,52.5127959,13.4552451
+Engelnest Coworking Space and Event Venue,Wilhelm-Kabus-Straße,22-24,10829,Berlin,unknown,Schöneberg,unknown,yes,unknown,unknown,unknown,unknown,52.4826871,13.3673876
+w3.hub,Möckernstraße,,10963,Berlin,unknown,Kreuzberg,Mo-Fr 09:00-18:00,unknown,unknown,unknown,unknown,unknown,52.4980122,13.380209
+werkhain,Frankfurter Allee,108,10247,Berlin,unknown,Friedrichshain,unknown,unknown,unknown,unknown,unknown,unknown,52.512941,13.4748102
+CU.Office,Genter Straße,56,13353,Berlin,unknown,Wedding,unknown,unknown,unknown,unknown,unknown,unknown,52.5481408,13.3528978
+werkhain,Frankfurter Allee,108,10247,Berlin,unknown,Friedrichshain,unknown,unknown,unknown,unknown,unknown,unknown,52.5128845884545,13.47479207558809
+KAOS Halle,Wilhelminenhofstraße,,12459,Berlin,unknown,Oberschöneweide,unknown,unknown,unknown,unknown,unknown,unknown,52.462438214484244,13.509207565790492
+HAUS  1,Oberlandstraße,25-36,12099,Berlin,unknown,Tempelhof,unknown,unknown,unknown,unknown,unknown,unknown,52.46438794759451,13.410746939971459
+Coworking Holzmarkt,,43,10243,Berlin,DE,Friedrichshain,unknown,wlan,unknown,unknown,unknown,unknown,52.512511382822474,13.423889145179139
+unknown,Scharnweberstraße,,10247,Berlin,unknown,Friedrichshain,unknown,unknown,unknown,unknown,unknown,unknown,52.512696193318384,13.474739798976056
+werkhain,Frankfurter Allee,108,10247,Berlin,unknown,Friedrichshain,unknown,unknown,unknown,unknown,unknown,unknown,52.512781484073635,13.474764348196144
+B-Part,Luckenwalder Straße,6b,10963,Berlin,DE,Kreuzberg,Mo-Fr 09:00-18:00,unknown,unknown,unknown,unknown,unknown,52.4990791408707,13.373377561693202
