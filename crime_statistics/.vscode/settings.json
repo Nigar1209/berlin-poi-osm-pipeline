@@ -1,0 +1,10 @@
+
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/crime_env/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.enableNativeInteractiveWindow": true,
+    "notebook.output.textLineLimit": 1000,
+    "python.terminal.activateEnvInCurrentTerminal": true
+}

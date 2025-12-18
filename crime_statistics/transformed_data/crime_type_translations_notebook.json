@@ -1,0 +1,104 @@
+{
+  "Straftaten -insgesamt-": {
+    "english": "Total Crimes",
+    "category": "Overall",
+    "severity": 1.0,
+    "description": "Total of all reported crimes"
+  },
+  "Raub": {
+    "english": "Robbery",
+    "category": "Violent Crime",
+    "severity": 4.0,
+    "description": "Robbery and theft with violence or threat"
+  },
+  "Straßenraub, Handtaschen-raub": {
+    "english": "Street Robbery",
+    "category": "Violent Crime",
+    "severity": 4.5,
+    "description": "Street robbery and purse snatching"
+  },
+  "Körper-verletzungen -insgesamt-": {
+    "english": "Assault Total",
+    "category": "Violent Crime",
+    "severity": 3.5,
+    "description": "Total assault and bodily harm offenses"
+  },
+  "Gefährl. und schwere Körper-verletzung": {
+    "english": "Serious Assault",
+    "category": "Violent Crime",
+    "severity": 4.5,
+    "description": "Dangerous and serious bodily harm"
+  },
+  "Freiheits-beraubung, Nötigung, Bedrohung, Nachstellung": {
+    "english": "Coercion and Threats",
+    "category": "Violent Crime",
+    "severity": 3.0,
+    "description": "Deprivation of liberty, coercion, threats, stalking"
+  },
+  "Diebstahl -insgesamt-": {
+    "english": "Theft Total",
+    "category": "Property Crime",
+    "severity": 2.0,
+    "description": "Total theft offenses"
+  },
+  "Diebstahl von Kraftwagen": {
+    "english": "Vehicle Theft",
+    "category": "Property Crime",
+    "severity": 3.0,
+    "description": "Motor vehicle theft"
+  },
+  "Diebstahl an/aus Kfz": {
+    "english": "Theft from Vehicles",
+    "category": "Property Crime",
+    "severity": 2.5,
+    "description": "Theft from or of vehicle parts"
+  },
+  "Fahrrad- diebstahl": {
+    "english": "Bicycle Theft",
+    "category": "Property Crime",
+    "severity": 1.5,
+    "description": "Bicycle theft"
+  },
+  "Wohnraum- einbruch": {
+    "english": "Residential Burglary",
+    "category": "Property Crime",
+    "severity": 3.5,
+    "description": "Breaking and entering into residential properties"
+  },
+  "Branddelikte -insgesamt-": {
+    "english": "Arson Total",
+    "category": "Property Crime",
+    "severity": 4.0,
+    "description": "Total arson and fire-related offenses"
+  },
+  "Brand- stiftung": {
+    "english": "Arson",
+    "category": "Property Crime",
+    "severity": 4.5,
+    "description": "Intentional arson"
+  },
+  "Sach-beschädigung -insgesamt-": {
+    "english": "Property Damage Total",
+    "category": "Property Crime",
+    "severity": 1.5,
+    "description": "Total property damage offenses"
+  },
+  "Sach-beschädigung durch Graffiti": {
+    "english": "Graffiti Vandalism",
+    "category": "Property Crime",
+    "severity": 1.0,
+    "description": "Property damage through graffiti"
+  },
+  "Rauschgift-delikte": {
+    "english": "Drug Crimes",
+    "category": "Drug Offense",
+    "severity": 2.5,
+    "description": "Drug-related offenses"
+  },
+  "Kieztaten": {
+    "english": "Neighborhood Crimes",
+    "category": "Public Order",
+    "severity": 2.0,
+    "description": "Local neighborhood disturbances and minor crimes"
+  }
+}

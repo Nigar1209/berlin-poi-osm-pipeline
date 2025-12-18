@@ -1,0 +1,775 @@
+spaeti_id,district_id,neighborhood_id,name,address,phone_number,email,website,latitude,longitude,opening_hours,district_name,neighborhood_name
+26867411,11004004,0407,Bavaria petrol,Heilbronner Straße,nan,nan,nan,52.5019744,13.2944957,Mo-Fr 07:00-22:00; Sa 08:00-22:00,Charlottenburg-Wilmersdorf,Halensee
+29997723,11004004,0405,Aral,Messedamm,nan,nan,https://tankstelle.aral.de/tankstelle/berlin/messedamm-6/28601500/,52.5083702,13.2809474,24/7,Charlottenburg-Wilmersdorf,Westend
+63253672,11004004,0407,Späti Joe,Joachim-Friedrich-Straße,nan,nan,nan,52.4993218,13.2961178,24/7,Charlottenburg-Wilmersdorf,Halensee
+266629404,11010010,1003,...nah und gut,Mädewalder Weg,+49 30 5677706,e-markt-vollack@t-online.de,nan,52.5092086,13.5874999,Mo-Fr 07:00-19:00; Sa 07:00-13:00; PH off,Marzahn-Hellersdorf,Kaulsdorf
+269475044,11002002,0202,Milchladen,Dresdener Straße,nan,nan,nan,52.501786,13.4165373,Mo-Fr 11:00-18:00; Su 13:00-18:00,Friedrichshain-Kreuzberg,Kreuzberg
+270719151,11006006,0603,Zeitungskiosk Bagci,Dillgesstraße,nan,nan,nan,52.4346233,13.3424786,nan,Steglitz-Zehlendorf,Lankwitz
+278124916,11002002,0201,Drinks & more,Revaler Straße,nan,nan,nan,52.5083609,13.4530076,nan,Friedrichshain-Kreuzberg,Friedrichshain
+281413022,11009009,0910,Spreves,Friedrichshagener Straße,nan,nan,nan,52.452062,13.5784714,Mo-Su 00:00-24:00,Treptow-Köpenick,Köpenick
+282406641,11002002,0201,Drink Oase,Gärtnerstraße,nan,nan,nan,52.5108993,13.4611651,nan,Friedrichshain-Kreuzberg,Friedrichshain
+285079008,11002002,0201,Drinkbox,Boxhagener Straße,nan,nan,nan,52.5125022,13.4602102,nan,Friedrichshain-Kreuzberg,Friedrichshain
+285096511,11002002,0201,Späti am Comenius,Gubener Straße,nan,nan,nan,52.5114694,13.4490353,"Mo-Th 08:00-00:00, Fr 08:00-01:00, Sa 08:00-01:00, So 08:00-23:00",Friedrichshain-Kreuzberg,Friedrichshain
+287297820,11003003,0301,Midnight Shop,Schönhauser Allee,nan,nan,nan,52.5291171,13.4094976,"Su-Th 08:00-04:00, Fr,Sa 08:00-05:00",Pankow,Prenzlauer Berg
+291256974,11002002,0201,Kiez Kiosk,Libauer Straße,nan,nan,nan,52.5099551,13.4552692,nan,Friedrichshain-Kreuzberg,Friedrichshain
+292909486,11004004,0402,tabak & presse,Joachimsthaler Straße,nan,nan,nan,52.4996912,13.3304422,Mo-Fr 10:00-19:00; Sa 10:00-17:00,Charlottenburg-Wilmersdorf,Wilmersdorf
+310267641,11002002,0202,E-Kiezmarkt,Dieffenbachstraße,nan,nan,nan,52.492463,13.4177005,Mo-Sa 07:00-20:00,Friedrichshain-Kreuzberg,Kreuzberg
+310377176,11007007,0701,Mein Markt,Innsbrucker Straße,nan,nan,nan,52.4808992,13.3430964,Mo-Fr 08:00-20:00; Sa 08:00-16:00,Tempelhof-Schöneberg,Schöneberg
+312820851,11001001,0106,Spätkauf,Gerichtstraße,nan,nan,nan,52.5429183,13.376473,Mo-Sa 07:30-23:00; Su 14:00-20:00,Mitte,Gesundbrunnen
+313874493,11002002,0201,Eren,Ebertystraße,nan,nan,nan,52.5262878,13.4516579,Mo-Sa 08:00-24:00,Friedrichshain-Kreuzberg,Friedrichshain
+314401614,11002002,0201,Asia Lebensmittel,Straßmannstraße,nan,nan,nan,52.5231705,13.4531781,nan,Friedrichshain-Kreuzberg,Friedrichshain
+314401620,11002002,0201,Ja Dilo,Petersburger Straße,nan,nan,nan,52.5223054,13.4509232,nan,Friedrichshain-Kreuzberg,Friedrichshain
+322153511,11001001,0101,Kiezmarkt,Große Hamburger Straße,+49 30 28388905,nan,nan,52.5270008,13.3983824,Mo-Sa 08:00-22:00,Mitte,Mitte
+324227451,11001001,0101,Linden Grill,Unter den Linden,nan,nan,nan,52.5165439,13.382678,nan,Mitte,Mitte
+331347585,11002002,0201,Nice 2 See U,Wühlischstraße,nan,nan,nan,52.5087187,13.4616129,nan,Friedrichshain-Kreuzberg,Friedrichshain
+345783262,11006006,0602,Kiosk 24h,Baseler Straße,nan,nan,nan,52.4430926,13.2952128,24/7,Steglitz-Zehlendorf,Lichterfelde
+410135914,11002002,0202,Multi-Kulti-Shop,Wiener Straße,nan,nan,nan,52.4956379,13.4364652,"Su-Th 10:00-24:00, Fr,Sa 10:00-24:00+, Mo-Th 07:30-24:00, Fr 07:30-01:30, Sa 08:00-24:00",Friedrichshain-Kreuzberg,Kreuzberg
+415551368,11003003,0301,KIOSK,Lychener Straße,nan,nan,nan,52.5430552,13.4165959,nan,Pankow,Prenzlauer Berg
+420512359,11007007,0703,Spätkauf am Atillaplatz,Alarichstraße,+49 30 63412121,nan,nan,52.4550699,13.375534,"Mo-Th 06:00-00:00, Fr 06:00-01:00, Sa 10:00-00:30, Su 11:00-22:00",Tempelhof-Schöneberg,Tempelhof
+427670057,11011011,1103,Sheran Späti + Hermes Paketshop,Frankfurter Allee,nan,nan,nan,52.5120549,13.4970713,Mo-Su 07:00-01:00,Lichtenberg,Lichtenberg
+427670062,11011011,1103,Kiez-Shop,Frankfurter Allee,nan,nan,nan,52.5117432,13.4974878,nan,Lichtenberg,Lichtenberg
+428553725,11007007,0702,Post & More,Rheinstraße,nan,nan,nan,52.4673608,13.3312565,nan,Tempelhof-Schöneberg,Friedenau
+429729075,11007007,0701,City-Kiosk,Hauptstraße,nan,nan,nan,52.4899925,13.3602113,nan,Tempelhof-Schöneberg,Schöneberg
+431655696,11002002,0201,LPG,Krossener Straße,030 29351437,lpgbox@posteo.de,nan,52.5098271,13.4622545,Mo-Fr 09:00-20:00; Sa 09:00-18:00,Friedrichshain-Kreuzberg,Friedrichshain
+442749323,11008008,0801,Spät-Shop,Silbersteinstraße,nan,nan,nan,52.4673029,13.4403109,nan,Neukölln,Neukölln
+454251024,11008008,0801,Spätcampus,Weichselstraße,+4915731666909,nan,nan,52.4860909,13.4351467,24/7,Neukölln,Neukölln
+473629401,11001001,0106,Soldiner Späti,Soldiner Straße,nan,nan,nan,52.5578099,13.3900362,Mo-Sa 06:00-02:00,Mitte,Gesundbrunnen
+476259949,11008008,0801,Heimgetränke,Innstraße,nan,nan,nan,52.4816447,13.4441313,nan,Neukölln,Neukölln
+497835260,11008008,0801,Lotto Zeitungen Uray,Treptower Straße,nan,nan,nan,52.4823539,13.4539374,"Mo-Fr 06:00-22:00; Sa 07:00-22:00; PH,Su off",Neukölln,Neukölln
+506197795,11003003,0301,Lateshop Café Roj,Stargarder Straße,nan,nan,nan,52.544033,13.4242868,nan,Pankow,Prenzlauer Berg
+522780551,11001001,0106,Presse Tabak / Hermes Paket Shop,Stettiner Straße,nan,nan,nan,52.5548991,13.38937,Mo-Fr 06:00-18:00; Sa-Su 07:00-18:00,Mitte,Gesundbrunnen
+524769051,11012012,1202,Minimarkt Tegel,Alt-Tegel,nan,nan,nan,52.5891787,13.2803819,Mo-Sa 10:00-22:00,Reinickendorf,Tegel
+530715910,11001001,0105,Spätkauf & Backwaren,Sprengelstraße,nan,nan,nan,52.542862,13.3590534,nan,Mitte,Wedding
+539491913,11009009,0903,Spätkauf,Baumschulenstraße,nan,nan,nan,52.4672572,13.4893514,nan,Treptow-Köpenick,Baumschulenweg
+541077709,11003003,0301,Spätkauf 19,Danziger Straße,nan,nan,nan,52.5406899,13.4161081,nan,Pankow,Prenzlauer Berg
+560524658,11003003,0301,Asia Markt Frischekorb,Stargarder Straße,nan,nan,nan,52.5472275,13.4157637,Mo-Sa 08:00-21:00,Pankow,Prenzlauer Berg
+560525457,11003003,0301,Verbrauchermarkt,Stargarder Straße,nan,nan,nan,52.5454075,13.4204087,nan,Pankow,Prenzlauer Berg
+567546844,11002002,0201,Eberty Point,Ebertystraße,nan,nan,nan,52.523981,13.4527734,nan,Friedrichshain-Kreuzberg,Friedrichshain
+573381061,11002002,0201,Quang Loi,Scharnweberstraße,nan,nan,nan,52.5128191,13.4673128,nan,Friedrichshain-Kreuzberg,Friedrichshain
+576051172,11002002,0201,Lebensmittel,Kinzigstraße,nan,nan,nan,52.5129377,13.4658832,nan,Friedrichshain-Kreuzberg,Friedrichshain
+576051178,11002002,0201,Euro Spätkauf,Frankfurter Allee,nan,nan,nan,52.514379,13.4659476,24/7,Friedrichshain-Kreuzberg,Friedrichshain
+577380846,11003003,0301,Papki,Pappelallee,nan,nan,nan,52.5461354,13.4180767,nan,Pankow,Prenzlauer Berg
+588552735,11003003,0302,Insaf Supermarkt,Berliner Allee,+49-30-97008224,nan,nan,52.5494813,13.4555878,Mo-Sa 08:00-21:00,Pankow,Weißensee
+616284708,11011011,1103,Kiezshop am Stadtpark,Möllendorffstraße,nan,nan,nan,52.5200009,13.4793952,nan,Lichtenberg,Lichtenberg
+626304112,11003003,0301,Corner,Greifswalder Straße,nan,nan,nan,52.5344555,13.4305661,"Mo-Th 08:00-24:00; Fr,Sa 08:00-01:00",Pankow,Prenzlauer Berg
+639566330,11004004,0407,Backshop & Kiosk,Joachim-Friedrich-Straße,nan,nan,nan,52.4933967,13.2958852,Mo-Fr 07:00-19:00; Sa 07:30-17:00,Charlottenburg-Wilmersdorf,Halensee
+644658972,11001001,0106,Tabak Getränke Kaffee,Prinzenallee,nan,nan,nan,52.5538775,13.383155,nan,Mitte,Gesundbrunnen
+644659553,11001001,0106,Zeitungsladen Parlak,Pankstraße,nan,nan,nan,52.5504533,13.3788501,Mo-Fr 05:00-20:00; Sa 06:00-20:00; Su 07:00-20:00,Mitte,Gesundbrunnen
+646577061,11007007,0701,S. Balz,Ansbacher Straße,nan,nan,nan,52.5029438,13.3428732,Mo-Fr 06:00-20:00; Sa 07:00-20:00; Su off,Tempelhof-Schöneberg,Schöneberg
+667858504,11002002,0202,Kiezkauf,Oranienstraße,nan,nan,nan,52.5033965,13.4120065,nan,Friedrichshain-Kreuzberg,Kreuzberg
+685354675,11011011,1112,Oma Wenda,Irenenstraße,nan,nan,nan,52.5094753,13.4985107,Mo-Fr 09:00-20:00; Sa 09:30-20:00; PH closed,Lichtenberg,Rummelsburg
+697714204,11003003,0301,La Bodega,Schwedter Straße,nan,nan,nan,52.5342305,13.4086992,Mo-Su 12:00-24:00,Pankow,Prenzlauer Berg
+697907411,11003003,0301,Spätkauf -Late Shopping,Schönhauser Allee,nan,nan,nan,52.5488264,13.4140802,nan,Pankow,Prenzlauer Berg
+699713742,11011011,1103,Boysen Späti,Schulze-Boysen-Straße,nan,nan,nan,52.5082964,13.480045,24/7,Lichtenberg,Lichtenberg
+700775293,11011011,1112,Cleopatra's Oriental Food,Weitlingstraße,nan,nan,nan,52.5064642,13.4959683,Mo-Sa 08:30-22:00,Lichtenberg,Rummelsburg
+700775294,11011011,1112,Trang Asia Supermarkt,Weitlingstraße,+49 152 36763353,nan,nan,52.5067828,13.4965201,"Mo-Fr 09:00-20:00, Sa 09:00-19:00",Lichtenberg,Rummelsburg
+707353241,11001001,0106,Spätkauf Öztep,Pankstraße,nan,nan,nan,52.5508319,13.3787053,Mo-Sa 09:00-23:00,Mitte,Gesundbrunnen
+707452472,11001001,0106,Backwaren,Reinickendorfer Straße,nan,nan,nan,52.5463987,13.3696159,Mo-Sa 06:00-19:00; Su 07:00-14:00,Mitte,Gesundbrunnen
+707490367,11001001,0106,Kiosk,Badstraße,nan,nan,nan,52.552227,13.3821164,nan,Mitte,Gesundbrunnen
+715203874,11004004,0403,Köker Kiosk,Breite Straße,+493082407726,nan,nan,52.4734336,13.2990118,Mo-Su 05:30-21:00,Charlottenburg-Wilmersdorf,Schmargendorf
+725621498,11004004,0402,Spætkauf am Rüdi,Rüdesheimer Straße,nan,nan,nan,52.4727399,13.3140969,"Mo-Sa 08:00-24:00, Su 08:00-20:00",Charlottenburg-Wilmersdorf,Wilmersdorf
+730172938,11007007,0701,Spätshop,Goebenstraße,nan,nan,nan,52.493188,13.3668589,"Mo-Fr 05:30-24:00, Sa 06:30-01:00, Su,PH 07:30-01:00",Tempelhof-Schöneberg,Schöneberg
+736787803,11001001,0101,Pi pa po,Rosa-Luxemburg-Straße,nan,nan,nan,52.5278335,13.4100874,nan,Mitte,Mitte
+745722560,11008008,0801,Kiosk,Pannierstraße,nan,nan,nan,52.4897193,13.4334928,"Mo,We-Sa 07:30-24:00, Tu 07:30-23:00",Neukölln,Neukölln
+745729558,11008008,0801,Small All,Pannierstraße,nan,nan,nan,52.487789,13.431657,nan,Neukölln,Neukölln
+745733025,11008008,0801,small all,Weserstraße,nan,nan,nan,52.4879348,13.430489,Mo-Sa 06:30-24:00,Neukölln,Neukölln
+746478626,11008008,0801,Honigbienchen Späti & Bakery,Weichselstraße,nan,nan,nan,52.4875623,13.4375216,"Mo-Th 09:00-24:00, Fr,Sa 09:00-01:00",Neukölln,Neukölln
+747845608,11009009,0910,Café Kiez,Bahnhofstraße,nan,nan,nan,52.4553748,13.5765726,nan,Treptow-Köpenick,Köpenick
+753361458,11003003,0307,Flick Flack,Berliner Straße,nan,nan,nan,52.5704399,13.410203,24/7,Pankow,Pankow
+760002901,11008008,0801,Dr. Billy's Getränke,Wipperstraße,nan,nan,nan,52.4715943,13.4430406,nan,Neukölln,Neukölln
+769270131,11012012,1201,Naturkost,Alt-Reinickendorf,nan,nan,nan,52.5745998,13.357608,Mo-Fr 09:00-18:00; Sa 09:00-13:30,Reinickendorf,Reinickendorf
+778710944,11003003,0301,Spätkauf,Kastanienallee,nan,nan,nan,52.537337,13.4081356,"Mo-Th 09:00-23:00, Su 10:00-24:00; Fr 09:00-24:00",Pankow,Prenzlauer Berg
+778710967,11003003,0301,Polat's Minimarkt,Kastanienallee,nan,nan,nan,52.5401664,13.4111403,nan,Pankow,Prenzlauer Berg
+790502632,11003003,0301,Dilek,Prenzlauer Allee,nan,nan,nan,52.532597,13.4207405,nan,Pankow,Prenzlauer Berg
+803582040,11003003,0302,Brra Späti,Berliner Allee,nan,nan,nan,52.5496181,13.45622,nan,Pankow,Weißensee
+838429741,11002002,0201,Käptn Kiez,Sonntagstraße,nan,nan,nan,52.506133,13.4655484,"Mo 09:00-24:00; Tu-Th 00:00-02:00,09:00-24:00; Fr 00:00-02:00,10:00-24:00; Sa 00:00-04:00,10:00-24:00; Su 00:00-04:00",Friedrichshain-Kreuzberg,Friedrichshain
+838429794,11002002,0201,Die Späti Brüder,Sonntagstraße,nan,nan,nan,52.5046457,13.4678618,nan,Friedrichshain-Kreuzberg,Friedrichshain
+846251052,11007007,0702,Bio Grande,Wiesbadener Straße,+493085103648,nan,https://bio-grande.de/,52.4713935,13.3231813,Mo-Fr 09:00-19:00; Sa 09:00-14:00,Tempelhof-Schöneberg,Friedenau
+847906246,11009009,0909,Bistro Edison,Edisonstraße,+49 176 66668659,nan,nan,52.4675348,13.5130053,Mo-Su 09:00-01:00,Treptow-Köpenick,Oberschöneweide
+847907650,11009009,0909,Spätkauf 63,Edisonstraße,nan,nan,nan,52.4669419,13.5133836,Mo-Su 07:00-00:00,Treptow-Köpenick,Oberschöneweide
+848169211,11006006,0601,Kreuznacher Markt,Kreuznacher Straße,nan,nan,nan,52.4668756,13.3198096,nan,Steglitz-Zehlendorf,Steglitz
+854535872,11008008,0801,Zum Freund,Herrfurthstraße,nan,nan,nan,52.4769516,13.419938,nan,Neukölln,Neukölln
+861837755,11007007,0703,Karam Al-Sham,Tempelhofer Damm,nan,nan,nan,52.4575426,13.3843486,Mo-Fr 08:30-20:00; Sa 08:30-19:00,Tempelhof-Schöneberg,Tempelhof
+863962795,11002002,0201,Boxi Spätshop,Boxhagener Straße,nan,nan,nan,52.5072131,13.4684572,nan,Friedrichshain-Kreuzberg,Friedrichshain
+867497539,11001001,0102,Back und Späti Zwang,Gotzkowskystraße,nan,nan,nan,52.5255327,13.3303661,nan,Mitte,Moabit
+871561403,11002002,0202,#mein Spätkauf,Oranienstraße,nan,nan,nan,52.5017703,13.4179467,nan,Friedrichshain-Kreuzberg,Kreuzberg
+874265690,11002002,0202,Özlem,Dresdener Straße,nan,nan,nan,52.5002066,13.4177077,nan,Friedrichshain-Kreuzberg,Kreuzberg
+886089002,11002002,0202,Checkpoint Ali,Wiener Straße,nan,nan,nan,52.4982415,13.4288427,nan,Friedrichshain-Kreuzberg,Kreuzberg
+939667458,11001001,0105,Media Point,Föhrer Straße,nan,nan,nan,52.5416669,13.3494233,nan,Mitte,Wedding
+947968184,11002002,0202,HEIM Getränke2,Körtestraße,nan,nan,nan,52.4904132,13.4102485,Mo-Su 09:00-23:00,Friedrichshain-Kreuzberg,Kreuzberg
+947978148,11002002,0202,C@ll Shop,Körtestraße,nan,nan,nan,52.4894565,13.4084449,Mo-Su 09:00-24:00,Friedrichshain-Kreuzberg,Kreuzberg
+948655799,11008008,0804,Wirkaufenbastlerfahrzeuge.de,Köpenicker Straße,nan,nan,nan,52.4213368,13.5031786,nan,Neukölln,Rudow
+959231215,11002002,0202,Arslan's Mix,Urbanstraße,nan,nan,nan,52.4916744,13.4143561,Mo-Fr 07:00-19:00; Sa 08:00-19:00,Friedrichshain-Kreuzberg,Kreuzberg
+960164645,11001001,0102,Tante Emma Laden,Huttenstraße,nan,nan,nan,52.5288187,13.317796,nan,Mitte,Moabit
+966564742,11001001,0101,Getränkekiosk,Brunnenstraße,nan,nan,nan,52.5318464,13.3992362,Mo-Sa 10:00-21:00,Mitte,Mitte
+975312186,11001001,0101,BisSpäter,Neue Promenade,nan,nan,nan,52.5227533,13.4012964,nan,Mitte,Mitte
+1015808330,11002002,0202,Eylauer Markt,Eylauer Straße,+49 7809 7463,nan,nan,52.4871348,13.3747709,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1028138858,11008008,0801,Backshop Tabak&Presse,Reuterstraße,nan,nan,nan,52.4885157,13.4287783,nan,Neukölln,Neukölln
+1032978607,11011011,1110,Lotto und Zeitschriften Friese,Landsberger Allee,nan,nan,nan,52.5355242,13.4963824,Mo-Sa 07:00-20:00,Lichtenberg,Alt-Hohenschönhausen
+1045536192,11007007,0701,Momega,Feurigstraße,nan,nan,nan,52.4813582,13.3499269,nan,Tempelhof-Schöneberg,Schöneberg
+1092674698,11002002,0201,Natura Organics,Kopernikusstraße,nan,nan,nan,52.5102561,13.454931,nan,Friedrichshain-Kreuzberg,Friedrichshain
+1095435039,11003003,0301,Asia Mini Shop,Danziger Straße,nan,nan,nan,52.5402467,13.4158448,nan,Pankow,Prenzlauer Berg
+1100350416,11003003,0301,Danziger Express,Danziger Straße,nan,nan,nan,52.5394809,13.4238961,nan,Pankow,Prenzlauer Berg
+1102313854,11006006,0604,Lotto Kiosk,Teltower Damm,nan,nan,nan,52.4310434,13.2594594,nan,Steglitz-Zehlendorf,Zehlendorf
+1109675825,11008008,0801,Asien Supermarkt Hao Cai Lei,Karl-Marx-Straße,nan,nan,nan,52.4854176,13.4268834,Mo-Sa 10:00-19:30,Neukölln,Neukölln
+1140906805,11002002,0201,Ellîka Spätkauf,Neue Bahnhofstraße,nan,nan,nan,52.5065512,13.4698185,nan,Friedrichshain-Kreuzberg,Friedrichshain
+1140914372,11002002,0201,City Kiosk,Seumestraße,nan,nan,nan,52.5100791,13.4620544,Mo-Fr 10:00-18:00+; Sa 10:00-15:00; Su off,Friedrichshain-Kreuzberg,Friedrichshain
+1140926746,11002002,0201,K Mini Markt,Straße der Pariser Kommune,nan,nan,nan,52.5157165,13.4399122,nan,Friedrichshain-Kreuzberg,Friedrichshain
+1140927943,11002002,0201,Spätkauf am Ostbahnhof,Erich-Steinfurth-Straße,nan,nan,nan,52.5110245,13.4356582,24/7,Friedrichshain-Kreuzberg,Friedrichshain
+1140930611,11002002,0201,Spätshop 68,Petersburger Straße,nan,nan,nan,52.519883,13.4516496,09:00-24:00,Friedrichshain-Kreuzberg,Friedrichshain
+1147244150,11003003,0301,dicker Hermann,Straßburger Straße,nan,nan,nan,52.5315376,13.4153398,nan,Pankow,Prenzlauer Berg
+1161375510,11001001,0106,Jüli Späti,Jülicher Straße,nan,nan,nan,52.5534498,13.3921872,nan,Mitte,Gesundbrunnen
+1165884653,11008008,0801,I ♥️ Drink's Kiosk,Reuterstraße,nan,nan,nan,52.4870859,13.4291663,nan,Neukölln,Neukölln
+1181625810,11002002,0201,Esperanto,Simon-Dach-Straße,nan,nan,nan,52.5091058,13.4555933,nan,Friedrichshain-Kreuzberg,Friedrichshain
+1207272598,11012012,1208,"Beyer, Antje, Tabakwaren, Zeitschriften",Zabel-Krüger-Damm,nan,nan,http://www.pointoo.de/poi/Berlin/Antje-Beyer-Tabakwaren-Zeitschriften-2440408.html,52.6138552,13.3440574,nan,Reinickendorf,Lübars
+1213234319,11003003,0301,Gleim Shop,Gleimstraße,nan,nan,nan,52.5469795,13.4071727,Mo-Sa 00:00-24:00,Pankow,Prenzlauer Berg
+1229435273,11004004,0401,Borsa,Wilmersdorfer Straße,nan,nan,nan,52.5102675,13.3053735,"Mo-Sa 07:00-20:00; Su,PH off",Charlottenburg-Wilmersdorf,Charlottenburg
+1258615840,11002002,0201,Spätshop,Landsberger Allee,nan,nan,nan,52.5236611,13.4391265,nan,Friedrichshain-Kreuzberg,Friedrichshain
+1259381388,11011011,1112,Minimarkt Mura,Weitlingstraße,nan,nan,nan,52.5014008,13.4934074,"Mo-Fr 07:00-23:00; Sa,Su,PH 08:00-23:00",Lichtenberg,Rummelsburg
+1269798909,11001001,0105,Kiosk 21,Otawistraße,nan,nan,nan,52.5541616,13.3397118,Mo-Fr 07:00-19:00; Sa 07:00-16:00,Mitte,Wedding
+1293209218,11011011,1103,Minimarkt,Fanningerstraße,nan,nan,nan,52.5143319,13.4929949,Mo-Fr 08:00-20:00; Sa 08:00-19:00,Lichtenberg,Lichtenberg
+1300143980,11002002,0202,Lotto-Presse-Tabak Wielannd,Mehringplatz,nan,nan,nan,52.4992718,13.3904983,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1305230438,11004004,0401,Sultan Shop,Guerickestraße,nan,nan,nan,52.518017,13.3168638,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+1311121901,11004004,0401,Iran Shop,Kantstraße,nan,nan,nan,52.5062656,13.3113681,Mo-Sa 10:00-19:00,Charlottenburg-Wilmersdorf,Charlottenburg
+1320138052,11002002,0202,Eis Mari,Reichenberger Straße,nan,nan,nan,52.4980049,13.4211603,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1327231904,11002002,0202,Bioladen,Graefestraße,nan,nan,nan,52.4916836,13.4169394,Mo-Fr 09:00-19:00; Sa 09:00-15:00,Friedrichshain-Kreuzberg,Kreuzberg
+1336690073,11009009,0910,The 25 hours STORE,Bahnhofstraße,nan,nan,nan,52.4574104,13.5780299,nan,Treptow-Köpenick,Köpenick
+1336954992,11003003,0301,GP Getränkepartner,Danziger Straße,nan,nan,nan,52.5358545,13.4344178,nan,Pankow,Prenzlauer Berg
+1344436749,11007007,0702,Spätkauf,Hähnelstraße,+49 30 55522715,nan,nan,52.4757373,13.3398915,"Mo-Th 10:00-23:00; Fr,Sa 10:00-01:00",Tempelhof-Schöneberg,Friedenau
+1345222866,11002002,0202,The Shop's,Lausitzer Platz,nan,nan,nan,52.5006355,13.4316495,Mo-Sa 11:00-00:00,Friedrichshain-Kreuzberg,Kreuzberg
+1346939765,11002002,0202,Spätkauf Olive,Adalbertstraße,nan,nan,nan,52.5029232,13.4202891,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1356032933,11002002,0202,Asia Super Shop,Lindenstraße,nan,nan,nan,52.5030129,13.3956038,Mo-Fr 10:00-19:00; Sa 10:00-19:00,Friedrichshain-Kreuzberg,Kreuzberg
+1356471635,11007007,0701,Kevser,Rubensstraße,nan,nan,nan,52.4708586,13.3439672,nan,Tempelhof-Schöneberg,Schöneberg
+1372320330,11008008,0801,Spätkauf,Warthestraße,nan,nan,nan,52.4700074,13.4254726,Mo-Sa 08:00-20:00,Neukölln,Neukölln
+1377854757,11002002,0202,Ela Spätkauf,Stresemannstraße,nan,nan,nan,52.5035281,13.3842362,"Mo-Fr 00:00-03:00,08:00-24:00; Sa,Su 00:00-04:00,08:00-24:00",Friedrichshain-Kreuzberg,Kreuzberg
+1389043771,11003003,0301,City Spätkauf,Greifswalder Straße,nan,nan,nan,52.5295875,13.4258675,Mo-Su 10:00-01:00,Pankow,Prenzlauer Berg
+1389419270,11001001,0101,M&J Nightshop,Torstraße,nan,nan,nan,52.5282926,13.3937035,nan,Mitte,Mitte
+1419145185,11005005,0503,Die Kaffeerösterei,Nonnendammallee,nan,nan,nan,52.5368587,13.2704674,nan,Spandau,Siemensstadt
+1458646421,11003003,0301,Back Späti,Schönhauser Allee,nan,nan,nan,52.5541857,13.4142353,"Mo-Th 08:30-23:00; Fr,Sa 07:00-01:00",Pankow,Prenzlauer Berg
+1464069051,11002002,0201,Regenbogen,Frankfurter Allee,nan,nan,nan,52.5147081,13.4629142,24/7,Friedrichshain-Kreuzberg,Friedrichshain
+1471202665,11001001,0105,Imbiss-Punjab;Punjab Spätkauf,Groninger Straße,nan,nan,nan,52.5531116,13.3620341,nan,Mitte,Wedding
+1472157627,11008008,0801,Robinhood Store,Weserstraße,nan,nan,https://www.robinhood.store/,52.4884033,13.4270259,Mo-Sa 10:30-20:00,Neukölln,Neukölln
+1500108107,11009009,0901,Junky's Point,Karl-Kunger-Straße,nan,nan,nan,52.4927794,13.4445307,24/7,Treptow-Köpenick,Alt-Treptow
+1504564896,11002002,0201,Minas Brasil,Warschauer Straße,nan,nan,nan,52.509825,13.4517982,nan,Friedrichshain-Kreuzberg,Friedrichshain
+1515489375,11001001,0105,Bioladen Café,Tegeler Straße,nan,nan,nan,52.5426837,13.3562697,Mo-Fr 10:00-18:00; Sa 09:00-17:00; Su 09:00-16:00,Mitte,Wedding
+1531118797,11011011,1112,Nazar Getränkeshop,Irenenstraße,nan,nan,nan,52.5095164,13.4996572,Mo-Fr 08:00-18:00; Sa 08:00-13:00,Lichtenberg,Rummelsburg
+1531118804,11011011,1101,Kiezladen,Zachertstraße,nan,nan,nan,52.5065556,13.5034289,Mo-Fr 07:00-22:00; Sa 08:00-22:00,Lichtenberg,Friedrichsfelde
+1531989580,11009009,0910,My Späti,Alt-Köpenick,nan,nan,nan,52.4446573,13.5737799,"Mo-Th 09:00-01:00, Fr 09:00-02:00, Sa 09:00-24:00",Treptow-Köpenick,Köpenick
+1574753265,11001001,0104,Niezuspäti,Potsdamer Straße,nan,nan,nan,52.5091184,13.3748093,nan,Mitte,Tiergarten
+1575193680,11006006,0603,Onlinekasse Lankwitz,Kaiser-Wilhelm-Straße,nan,nan,nan,52.4339624,13.3413452,Mo-Fr 07:00-18:00; Sa 08:00-13:00,Steglitz-Zehlendorf,Lankwitz
+1584563390,11003003,0301,Prenzlwood Späti 68,Danziger Straße,+49 163 4563325,nan,nan,52.5391505,13.4229654,Mo-Sa 12:00-00:00,Pankow,Prenzlauer Berg
+1597742298,11001001,0102,Spätkauf,Birkenstraße,nan,nan,nan,52.5313486,13.3457172,nan,Mitte,Moabit
+1614361190,11002002,0202,Lebensmittel Hillmann,Oranienstraße,nan,nan,nan,52.5006325,13.4220527,Mo-Fr 10:00-19:00; Sa 10:00-15:00,Friedrichshain-Kreuzberg,Kreuzberg
+1625174234,11009009,0903,Kiez-Kiosk,Baumschulenstraße,nan,nan,nan,52.4655009,13.4866751,Mo-Fr 09:00-22:00+; Sa 12:00-20:00+,Treptow-Köpenick,Baumschulenweg
+1633204905,11002002,0201,Hoa Mai Asia-Supermarkt,Frankfurter Allee,+49 30 27573632,nan,nan,52.513557,13.4740244,Mo-Sa 09:00-20:00; PH off,Friedrichshain-Kreuzberg,Friedrichshain
+1637021706,11002002,0202,lieber Späti als nie,Oppelner Straße,nan,nan,nan,52.5000597,13.4408296,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1653339106,11001001,0101,Latino Point,Dircksenstraße,nan,nan,nan,52.5235713,13.4053774,Mo 12:00-16:00; Tu-Th 12:00-19:00; Fr 12:00-19:30; Sa 11:00-19:30; Su off,Mitte,Mitte
+1668788004,11004004,0402,We Love Späti,Hanauer Straße,nan,nan,nan,52.476671,13.3200611,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+1690437360,11011011,1111,Kiosk Tabakquelle,Anton-Saefkow-Platz,nan,nan,nan,52.5292651,13.470346,Mo-Fr 08:00-18:00; Sa 08:00-15:00,Lichtenberg,Fennpfuhl
+1696709223,11003003,0301,Night & Daily,Greifswalder Straße,nan,nan,nan,52.533697,13.4306174,"Mo-Th,Su 10:00-02:00; Fr-Sa 10:00-03:00",Pankow,Prenzlauer Berg
+1712622960,11006006,0601,Laws,Klingsorstraße,nan,nan,nan,52.4513964,13.3300295,nan,Steglitz-Zehlendorf,Steglitz
+1713177124,11007007,0701,நாகம்மா புடவையகம்,Willmanndamm,nan,nan,nan,52.4902201,13.3615476,nan,Tempelhof-Schöneberg,Schöneberg
+1781504927,11001001,0102,Lehrter Shop,Lehrter Straße,nan,nan,nan,52.5260626,13.3653911,"Mo-Fr 06:00-23:00; Sa 07:00-23:00; Su,PH 08:00-18:00",Mitte,Moabit
+1790063505,11004004,0401,Lotto-Laden/Post Zeybek,Bismarckstraße,nan,nan,nan,52.5112515,13.2980069,"Mo-Sa 07:00-19:00, Su 07:00-18:00",Charlottenburg-Wilmersdorf,Charlottenburg
+1795585824,11009009,0909,Tabakoweide,Rathenaustraße,nan,nan,nan,52.4588761,13.5271663,"Mo-Fr 06:00-18:00; PH,Su off; Sa 08:00-12:00",Treptow-Köpenick,Oberschöneweide
+1812138865,11001001,0101,Mutlu,Am Zwirngraben,nan,nan,nan,52.5225239,13.4017753,nan,Mitte,Mitte
+1814105912,11002002,0202,Central Coffee,Friedrichstraße,nan,nan,nan,52.5049337,13.3910364,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1831972687,11003003,0301,Vervielfältigungsservice Breitfeld,Rodenbergstraße,nan,nan,nan,52.550518,13.418591,Mo-Fr 09:30-18:00,Pankow,Prenzlauer Berg
+1843136483,11003003,0301,Spektrum Lebensfreude,Erich-Weinert-Straße,nan,nan,nan,52.5495578,13.4238982,Mo-Fr 09:00-18:00; Sa 09:00-14:00,Pankow,Prenzlauer Berg
+1845262965,11003003,0307,pir Getränke,Wollankstraße,nan,nan,nan,52.5647786,13.3942494,Mo-Fr 09:00-18:00; Sa 10:00-13:00,Pankow,Pankow
+1847156092,11001001,0106,Tausend Dinge,Wollankstraße,nan,nan,nan,52.5637284,13.3923484,Mo-Fr 10:00-18:00; Sa 10:00-14:00,Mitte,Gesundbrunnen
+1866365545,11001001,0102,Internet-Telecafe,Alt-Moabit,nan,nan,nan,52.5254005,13.3415781,"Mo-Su,PH 08:00-04:00",Mitte,Moabit
+1875070756,11003003,0301,Späti Bro's,Prenzlauer Allee,nan,nan,nan,52.5348742,13.4220914,nan,Pankow,Prenzlauer Berg
+1901112265,11007007,0701,Stein Metz Spätkauf,Steinmetzstraße,nan,nan,nan,52.4914731,13.3619397,Mo-Sa 09:00-24:00,Tempelhof-Schöneberg,Schöneberg
+1909993568,11010010,1001,Eckert,Helene-Weigel-Platz,nan,nan,nan,52.527952,13.5377778,"Mo-Fr 05:30-19:30; Sa 07:00-19:00; Su,PH 08:00-16:00",Marzahn-Hellersdorf,Marzahn
+1912183755,11001001,0102,GP GetränkeMarkt,Beusselstraße,nan,nan,nan,52.5324805,13.3287154,nan,Mitte,Moabit
+1915589274,11007007,0701,Lotto Lotto,Maaßenstraße,nan,nan,nan,52.4979431,13.3540304,Mo-Sa 07:00-21:00; Su off,Tempelhof-Schöneberg,Schöneberg
+1923316601,11008008,0801,cebe Werksverkauf,Sonnenallee,nan,nan,https://www.wilhelmreuss.com/,52.4724586,13.4592904,nan,Neukölln,Neukölln
+1923320817,11008008,0804,Milchhof Mendler,Lettberger Straße,nan,nan,https://www.milchhof-mendler.de/,52.4107485,13.5184591,nan,Neukölln,Rudow
+1928636123,11003003,0301,Spätkauf,Choriner Straße,nan,nan,https://www.leute-am-teute.de/2013/01/25/spatkauf-in-der-choriner-strase/,52.5328558,13.4070136,"Mo,Sa 18:00+; Tu-Fr 08:00+; Su 10:00+",Pankow,Prenzlauer Berg
+1943486650,11002002,0201,Can Kiosk,Kopernikusstraße,nan,nan,nan,52.5101636,13.4554347,nan,Friedrichshain-Kreuzberg,Friedrichshain
+1947086939,11002002,0202,Späti Alte Apotheke,Solmsstraße,nan,nan,nan,52.4906122,13.3925282,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1948899764,11004004,0401,Sidar Mini Market,Spandauer Damm,nan,nan,nan,52.518686,13.2877301,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+1965863431,11002002,0202,Spätverkauf und Internet,Wiener Straße,nan,nan,nan,52.4968006,13.4331118,nan,Friedrichshain-Kreuzberg,Kreuzberg
+1966836915,11004004,0401,Micha's Marktplatz,Guerickestraße,nan,nan,nan,52.5176047,13.3179411,Mo-Fr 05:30-15:30; Sa 07:00-13:30,Charlottenburg-Wilmersdorf,Charlottenburg
+1979735269,11004004,0402,Weltladen A Janela,Emser Straße,+49 30 88680877,info@ajanela.de,https://www.ajanela.de/,52.4965201,13.3198419,Di-Fr 10:00-19:00; Sa 11:00-16:00,Charlottenburg-Wilmersdorf,Wilmersdorf
+1979799014,11009009,0907,Sibir,Dörpfeldstraße,+49 176 62062793,nan,nan,52.439069,13.5509485,Mo-Fr 12:00-19:00; Sa 10:00-15:00,Treptow-Köpenick,Adlershof
+1980987092,11002002,0201,Kiez Shop,Frankfurter Allee,nan,nan,nan,52.5149112,13.4648549,24/7,Friedrichshain-Kreuzberg,Friedrichshain
+1981140798,11011011,1103,Mini Markt,Normannenstraße,nan,nan,nan,52.515992,13.4824955,"Mo-Sa 08:00-21:00; Su, PH off",Lichtenberg,Lichtenberg
+1985536781,11004004,0402,Automatico,Holsteinische Straße,nan,nan,https://www.automatico.store/,52.4909025,13.325004,24/7,Charlottenburg-Wilmersdorf,Wilmersdorf
+1988000838,11001001,0105,Jashims Tante-Emma-Laden,Otawistraße,nan,nan,nan,52.5537373,13.3391054,"PH,Mo-Su 07:00-12:00,14:00-23:00",Mitte,Wedding
+1988055925,11001001,0105,Isi's Kiosk,Transvaalstraße,nan,nan,nan,52.5524245,13.3420165,nan,Mitte,Wedding
+2013009721,11008008,0801,Burcak 36,Kottbusser Damm,nan,nan,nan,52.4950407,13.4210778,nan,Neukölln,Neukölln
+2018958606,11006006,0604,Reformhaus Demski,Onkel-Tom-Straße,nan,ot@demski.de,https://demski.de/filialen/onkel-tom-strasse/,52.4494832,13.2519251,Mo-Fr 09:00-19:00; Sa 08:30-14:00,Steglitz-Zehlendorf,Zehlendorf
+2018959799,11006006,0604,Reformhaus Demski,Fischerhüttenstraße,nan,fi@demski.de,https://demski.de/filialen/fischerhuettenstrasse/,52.4420764,13.2410664,Mo-Fr 09:00-19:00; Sa 09:00-14:00,Steglitz-Zehlendorf,Zehlendorf
+2029768594,11004004,0401,Kantshop,Kantstraße,nan,nan,nan,52.5065814,13.3119339,Mo-Sa 09:00-22:00; Su off,Charlottenburg-Wilmersdorf,Charlottenburg
+2072375894,11007007,0701,Kaiser Kiosk,Hauptstraße,nan,nan,nan,52.4869402,13.35674,24/7,Tempelhof-Schöneberg,Schöneberg
+2072853940,11008008,0801,Späti International,Weserstraße,nan,nan,nan,52.486351,13.4350101,nan,Neukölln,Neukölln
+2082394911,11004004,0401,Späti 1920,Leibnizstraße,nan,nan,nan,52.506901,13.313768,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+2086361730,11002002,0202,Zossener Eck Kiosk,Zossener Straße,nan,nan,nan,52.4911812,13.3945116,nan,Friedrichshain-Kreuzberg,Kreuzberg
+2095900342,11004004,0402,Tabakfreunde,Brandenburgische Straße,nan,nan,nan,52.4994253,13.3074996,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+2098290154,11006006,0603,Reformhaus Demski,Kaiser-Wilhelm-Straße,nan,kw@demski.de,https://demski.de/filialen/kaiser-wilhelm-strasse/,52.4355659,13.3449495,Mo-Fr 09:00-18:30; Sa 09:00-14:00,Steglitz-Zehlendorf,Lankwitz
+2131565441,11006006,0601,Feinkost Häusler,Albrechtstraße,+49 30 79016131,nan,https://www.polskashop.de/,52.4554898,13.32583,Mo-Fr 09:00-18:00; Sa 09:00-14:00,Steglitz-Zehlendorf,Steglitz
+2148260152,11003003,0307,Flora Bäckerei & Spätkauf,Florastraße,nan,nan,nan,52.5657292,13.3969445,nan,Pankow,Pankow
+2158243123,11004004,0405,Kiosk am Funkturm,Rognitzstraße,nan,nan,nan,52.5096638,13.2840145,nan,Charlottenburg-Wilmersdorf,Westend
+2245080185,11008008,0801,Lotto-Tabak-Shop,Hermannstraße,+49 30 93958000,nan,nan,52.4663491,13.4323085,Mo-Su 05:00-20:00,Neukölln,Neukölln
+2266759473,11002002,0202,Aqua Getränke- und Weinhandlung,Gneisenaustraße,nan,nan,nan,52.4909141,13.3961061,nan,Friedrichshain-Kreuzberg,Kreuzberg
+2273485076,11011011,1109,Tabak-Presse-Lotto,Rostocker Straße,nan,nan,nan,52.5745542,13.5094063,nan,Lichtenberg,Neu-Hohenschönhausen
+2281112713,11004004,0401,Quadro 7,Helmholtzstraße,nan,nan,nan,52.5217854,13.3253486,Mo-Fr 06:00-19:00; Sa 08:00-18:00,Charlottenburg-Wilmersdorf,Charlottenburg
+2283016893,11004004,0405,Der Kiezladen,Königin-Elisabeth-Straße,nan,nan,nan,52.5173986,13.2808959,"Mo-Fr 07:00-20:00; Sa 08:00-20:00; Su,PH off",Charlottenburg-Wilmersdorf,Westend
+2285962041,11007007,0703,Kısmet Market,Manteuffelstraße,nan,nan,nan,52.4593252,13.3765862,Mo-Sa 08:00-20:00,Tempelhof-Schöneberg,Tempelhof
+2287699197,11001001,0101,Asia Markt,Alte Jakobstraße,nan,nan,nan,52.51037,13.408449,nan,Mitte,Mitte
+2290594738,11008008,0801,Tabak-Lotto,Okerstraße,nan,nan,nan,52.474102,13.4267209,nan,Neukölln,Neukölln
+2296927807,11003003,0307,Doppelpack Handels GmbH,Heynstraße,nan,nan,http://www.doppel-pack.de/,52.564078,13.4025395,Mo-Fr 08:00-18:00; Sa 09:00-16:00,Pankow,Pankow
+2297383210,11001001,0105,Ultra Kiosk,Antonstraße,nan,nan,nan,52.5465572,13.3624695,Mo-Sa 08:00-20:00,Mitte,Wedding
+2301610392,11001001,0105,Sen Market,Schulstraße,nan,nan,nan,52.5500185,13.3644884,nan,Mitte,Wedding
+2301610475,11001001,0105,Späti 65,Reinickendorfer Straße,nan,nan,nan,52.5520262,13.3667233,nan,Mitte,Wedding
+2302013308,11002002,0201,Kiosk am Ostbahnhof,Erich-Steinfurth-Straße,nan,nan,nan,52.5114952,13.4344686,"Mo-Fr 05:30-22:00; Sa,Su 09:00-18:00",Friedrichshain-Kreuzberg,Friedrichshain
+2303852086,11001001,0105,C&C,Müllerstraße,nan,nan,nan,52.5466435,13.3582848,Mo-Fr 07:30-23:00; Sa 08:30-23:00,Mitte,Wedding
+2305236082,11001001,0105,Bil's Space,Prinz-Eugen-Straße,nan,nan,nan,52.5474713,13.3649186,nan,Mitte,Wedding
+2332757501,11008008,0801,Antipasto,Hermannstraße,nan,nan,nan,52.4638287,13.4337581,nan,Neukölln,Neukölln
+2335083233,11002002,0201,Day & Night Shop,Grünberger Straße,nan,nan,nan,52.5123328,13.4540704,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2335091426,11002002,0201,Mini Markt,Grünberger Straße,nan,nan,nan,52.5120577,13.4557455,Tu-Fr 08:00-21:30; Su off; Mo 08:00-21:00; Sa 08:00-22:00,Friedrichshain-Kreuzberg,Friedrichshain
+2335271957,11002002,0201,Markt Halle,Simon-Dach-Straße,nan,nan,nan,52.5109348,13.4564398,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2342347250,11008008,0801,Spätkauf,Emser Straße,nan,nan,nan,52.469581,13.438672,nan,Neukölln,Neukölln
+2352412654,11004004,0401,T.G.E.,Kantstraße,nan,nan,nan,52.5060444,13.3151924,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+2352673943,11008008,0801,Kollektiv Bioase,Karl-Marx-Straße,+49 30 36461211,hallo@bioase.berlin,https://bioase.berlin,52.4754348,13.4395206,"Mo,Tu,Th,Fr 09:00-20:00, We 10:00-20:00, Sa 09:00-18:00",Neukölln,Neukölln
+2361562308,11007007,0703,Elas Spätkauf 35,Manfred-von-Richthofen-Straße,nan,nan,nan,52.4838713,13.3833386,nan,Tempelhof-Schöneberg,Tempelhof
+2402138985,11007007,0705,Spätkauf 48,Marienfelder Allee,nan,nan,nan,52.4220388,13.3706571,Mo-Sa 09:00-0:00,Tempelhof-Schöneberg,Marienfelde
+2402339483,11002002,0202,Cennet,Südstern,nan,nan,nan,52.4900644,13.405571,Mo-Sa 09:00-23:00; Su 09:00-16:00,Friedrichshain-Kreuzberg,Kreuzberg
+2420799063,11003003,0301,Clerk's Späti,Paul-Robeson-Straße,nan,nan,nan,52.5521543,13.4119221,nan,Pankow,Prenzlauer Berg
+2423398551,11004004,0405,"momentan geschlossen""",Flatowallee,nan,nan,nan,52.5104141,13.2440033,Mo 08:30-18:30; Sa 08:00-13:00,Charlottenburg-Wilmersdorf,Westend
+2429480918,11002002,0201,Jung Shop,Jungstraße,nan,nan,nan,52.5112438,13.4654553,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2429501927,11002002,0201,Meet Kiosk Spätverkauf,Gabriel-Max-Straße,nan,nan,nan,52.5099712,13.4579456,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2432876317,11002002,0202,Kiosk Burhan Aykut,Wrangelstraße,nan,nan,nan,52.5022754,13.4326809,"Mo-Th 08:00-02:00, Fr,Sa 09:00-03:00",Friedrichshain-Kreuzberg,Kreuzberg
+2438849736,11002002,0201,Select Drinks & More,Wühlischstraße,nan,nan,nan,52.5090686,13.4591398,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2445456646,11004004,0402,Sweet Mini Markt,Brandenburgische Straße,nan,nan,nan,52.4869618,13.3200768,"Mo-Fr 07:00-24:00, Sa 10:00-24:00",Charlottenburg-Wilmersdorf,Wilmersdorf
+2468120437,11002002,0202,Mehring Spätshop,Mehringdamm,nan,nan,nan,52.493319,13.3875716,nan,Friedrichshain-Kreuzberg,Kreuzberg
+2481415292,11002002,0202,Drink More,Katzbachstraße,nan,nan,nan,52.4913075,13.3769934,nan,Friedrichshain-Kreuzberg,Kreuzberg
+2485492744,11002002,0202,DHL BVG Kiosk,Kottbusser Damm,nan,nan,nan,52.492694,13.4219892,nan,Friedrichshain-Kreuzberg,Kreuzberg
+2495556335,11002002,0202,Zigarren Lotto Post (Deutsche Post Filiale 578),Bergmannstraße,nan,nan,https://deutschepost.de/,52.4895209,13.3898936,Mo-Fr 06:00-20:00; Sa 07:00-13:00,Friedrichshain-Kreuzberg,Kreuzberg
+2496651179,11002002,0202,Café Tinto,Mehringdamm,nan,nan,nan,52.4923797,13.3878394,24/7,Friedrichshain-Kreuzberg,Kreuzberg
+2496841605,11002002,0201,Spätkauf Snacks Drinks & More,Gabriel-Max-Straße,nan,nan,nan,52.5101364,13.4583749,Mo-Sa 10:00-22:00; Su off,Friedrichshain-Kreuzberg,Friedrichshain
+2532870781,11004004,0401,TAEO Thai Supermarkt,Krumme Straße,nan,nan,nan,52.5072938,13.3091842,Mo-Fr 10:00-20:00 ; Sa 08:00-18:00,Charlottenburg-Wilmersdorf,Charlottenburg
+2538714890,11003003,0301,Duman Spätkauf - Lyca Mobile Partner,Greifswalder Straße,nan,nan,nan,52.5429975,13.4405078,"Su-Th 09:30-01:00, Fr,Sa 09:30-02:00",Pankow,Prenzlauer Berg
+2541043788,11008008,0801,Juwelier Saphir,Karl-Marx-Straße,+49 30 23367505,nan,nan,52.4746738,13.4402449,Mo-Fr 09:00-18:30; Sa 09:00-16:00,Neukölln,Neukölln
+2552465120,11007007,0701,Spätk@uf Internetcafe,Potsdamer Straße,nan,nan,nan,52.4947582,13.3608053,nan,Tempelhof-Schöneberg,Schöneberg
+2557705836,11001001,0102,Kiez Shop,Turmstraße,nan,nan,nan,52.5266073,13.3396977,nan,Mitte,Moabit
+2571168397,11002002,0201,Samariter Tourist Shop,Samariterstraße,nan,nan,nan,52.5167129,13.4654773,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2591225594,11008008,0801,Alpha and Omega International Afro Shop,Weserstraße,nan,nan,https://www.alphaandomegaafroshop.com/,52.4881174,13.4263919,Mo-Sa 10:00-21:00,Neukölln,Neukölln
+2618499940,11009009,0907,ASIA Lebensmittel,Dörpfeldstraße,nan,nan,nan,52.4381824,13.5491157,Mo-Fr 07:30-19:30; Sa 07:30-17:00,Treptow-Köpenick,Adlershof
+2625393031,11002002,0202,Bauerngarten,Admiralstraße,nan,nan,nan,52.4958735,13.4156315,Mo-Fr 08:00-20:00; Sa 09:00-15:00,Friedrichshain-Kreuzberg,Kreuzberg
+2631445467,11008008,0801,Spätkauf Stadt-Kiosk,Emser Straße,nan,nan,nan,52.4694557,13.4375405,Mo-Sa 12:00-23:00,Neukölln,Neukölln
+2663080756,11011011,1112,Kiez Einkaufseck,Kaskelstraße,nan,nan,nan,52.5041947,13.4791072,Mo-Sa 08:30-22:00,Lichtenberg,Rummelsburg
+2688507896,11008008,0801,Azam Getränkeshop Spätkauf,Braunschweiger Straße,nan,nan,nan,52.4709529,13.4456029,nan,Neukölln,Neukölln
+2727935365,11001001,0102,Mini Markt,Ufnaustraße,nan,nan,nan,52.5293432,13.3172393,"""shop closed""",Mitte,Moabit
+2730990672,11001001,0106,Tabak- & Presseshop,Freienwalder Straße,nan,nan,nan,52.5569821,13.3915382,nan,Mitte,Gesundbrunnen
+2745722989,11001001,0102,Asia - asiatische Lebensmittel Geschenkartikel,Bredowstraße,nan,nan,nan,52.5269513,13.3401211,Mo-Th 10:00-19:00; Fr 10:00-19:30; Sa 10:00-16:00,Mitte,Moabit
+2752211152,11001001,0106,Akso Export,Prinzenallee,nan,nan,http://www.aksoexport.de/,52.5567265,13.3851562,Mo-Sa 09:00-18:00,Mitte,Gesundbrunnen
+2752211158,11001001,0106,Balkan,Osloer Straße,nan,nan,nan,52.5559834,13.3875475,nan,Mitte,Gesundbrunnen
+2752211175,11001001,0106,Minimarkt,Grüntaler Straße,nan,nan,nan,52.5578622,13.3951502,nan,Mitte,Gesundbrunnen
+2752211176,11001001,0106,Orientshop,Prinzenallee,nan,nan,nan,52.557266,13.3855919,Mo-Sa 10:00-20:30,Mitte,Gesundbrunnen
+2796270178,11002002,0202,See U Späti,Falckensteinstraße,nan,nan,nan,52.4995723,13.4431934,Mo-Su 12:00-24:00,Friedrichshain-Kreuzberg,Kreuzberg
+2796736339,11001001,0101,Long Shop,Dircksenstraße,nan,nan,nan,52.5233158,13.4039862,nan,Mitte,Mitte
+2824979767,11002002,0201,Camel,Frankfurter Allee,nan,nan,nan,52.5151001,13.4630917,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2827585866,11001001,0102,Ed & Fred Nussdepot,Huttenstraße,+49 30 39878364,nan,http://www.genuss-roesterei.eu,52.5278526,13.3258011,Mo-Su 10:00-21:00,Mitte,Moabit
+2827585874,11001001,0102,Rostocker Getränke,Rostocker Straße,nan,nan,nan,52.5277348,13.3269872,nan,Mitte,Moabit
+2834832470,11003003,0301,Lotto Post Tabak,Bötzowstraße,nan,nan,nan,52.5322847,13.4352557,Mo-Fr 09:00-18:00; Sa 09:00-13:00,Pankow,Prenzlauer Berg
+2862295897,11002002,0201,Djangos Place,Petersburger Straße,nan,nan,nan,52.5198802,13.4525636,nan,Friedrichshain-Kreuzberg,Friedrichshain
+2886852045,11003003,0304,Elan,Tino-Schwierzina-Straße,nan,nan,nan,52.5583444,13.4326989,24/7,Pankow,Heinersdorf
+2926167818,11008008,0801,Späti47,Sonnenallee,nan,nan,nan,52.4872469,13.4264387,nan,Neukölln,Neukölln
+2935241502,11002002,0202,Abschnitt 36,Audre-Lorde-Straße,nan,nan,nan,52.4998177,13.4270118,nan,Friedrichshain-Kreuzberg,Kreuzberg
+2935252601,11002002,0202,Lotto,Reichenberger Straße,nan,nan,nan,52.497676,13.4237733,"Fr 10:00-02:00, Mo-Th 09:00-20:00, Sa 10:00-24:00",Friedrichshain-Kreuzberg,Kreuzberg
+2935386822,11008008,0801,Elbe Getränke,Weserstraße,nan,nan,nan,52.4840417,13.4400067,Mo-Sa 10:00-22:00,Neukölln,Neukölln
+2953781233,11012012,1201,Spätkauf,Residenzstraße,nan,nan,nan,52.5645334,13.3635767,Mo-Sa 07:00-01:50,Reinickendorf,Reinickendorf
+2953846658,11012012,1201,Kaufshop Bafi,Reginhardstraße,nan,nan,nan,52.5608633,13.37182,Mo-Fr 06:30-17:30; Sa 08:30-16:30,Reinickendorf,Reinickendorf
+2958353241,11003003,0311,SpätiPate,Dietzgenstraße,nan,nan,nan,52.5859354,13.4022828,nan,Pankow,Niederschönhausen
+2973862795,11004004,0402,#mein Spaetkauf,Hohenzollerndamm,nan,nan,nan,52.4881456,13.3019098,Mo-Sa 08:00-24:00; Su 12:00-20:00,Charlottenburg-Wilmersdorf,Wilmersdorf
+2987804839,11007007,0701,Miss and Mister,Yorckstraße,nan,nan,nan,52.4927967,13.3695214,nan,Tempelhof-Schöneberg,Schöneberg
+3004064464,11009009,0910,Weltladen Köpenick,Bahnhofstraße,nan,nan,nan,52.455164,13.576912,Mo-Fr 10:00-18:00; PH off,Treptow-Köpenick,Köpenick
+3072013563,11002002,0201,Botan Späti,Petersburger Straße,nan,nan,nan,52.5177493,13.453781,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3072944033,11007007,0701,Getränke-Tabakwaren-Zeitschriften,Großgörschenstraße,nan,nan,nan,52.4910584,13.3688981,Mo-Sa 08:00-21:00,Tempelhof-Schöneberg,Schöneberg
+3073260197,11002002,0202,Spätkauf Wrangelkiez,Wrangelstraße,nan,nan,nan,52.4994226,13.439601,nan,Friedrichshain-Kreuzberg,Kreuzberg
+3073291314,11002002,0202,Spätverkauf,Wrangelstraße,nan,nan,nan,52.4992017,13.4407618,nan,Friedrichshain-Kreuzberg,Kreuzberg
+3073294135,11002002,0202,Kiosque deluxe Post und Zeitung,Wrangelstraße,nan,nan,nan,52.4991081,13.4409258,nan,Friedrichshain-Kreuzberg,Kreuzberg
+3074531911,11002002,0202,Original Unverpackt,Wiener Straße,nan,nan,nan,52.4977813,13.4301896,Mo-Fr 10:00-20:00; Sa 09:00-20:00,Friedrichshain-Kreuzberg,Kreuzberg
+3140301723,11001001,0105,Müller Eck,Müllerstraße,nan,nan,nan,52.5434051,13.3638855,"Mo-Fr 07:00-03:00, Sa 08:00-03:00",Mitte,Wedding
+3140302231,11001001,0105,Tele Cafe,Burgsdorfstraße,nan,nan,nan,52.5428973,13.3630973,nan,Mitte,Wedding
+3149431447,11001001,0105,Krokodil Späti,Samoastraße,nan,nan,nan,52.5423337,13.3538487,nan,Mitte,Wedding
+3157747970,11001001,0101,Kiosk,Virchowweg,nan,nan,nan,52.524287,13.3764534,"Mo-Fr 09:00-15:00; PH,Sa,Su off",Mitte,Mitte
+3194403750,11006006,0604,Kiosk,Teltower Damm,nan,nan,nan,52.4144672,13.2667275,nan,Steglitz-Zehlendorf,Zehlendorf
+3221929062,11001001,0106,Der kleine Laden Spätkauf,Wiesenstraße,nan,nan,nan,52.5450464,13.3777723,nan,Mitte,Gesundbrunnen
+3228366761,11002002,0201,Nogi,Sonntagstraße,nan,nan,nan,52.5059058,13.4658406,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3286264361,11001001,0101,Mauerkiosk,Bernauer Straße,nan,nan,nan,52.5385789,13.3980036,"Mo-Th 11:00-24:00, Fr,Sa 00:00-01:00, Sa 11:00-24:00, Su 13:00-20:00",Mitte,Mitte
+3373144216,11008008,0801,JWANspäti,Wildenbruchstraße,nan,nan,nan,52.4835558,13.4423444,nan,Neukölln,Neukölln
+3383020379,11003003,0307,Spätshop + Bäckerei,Neumannstraße,nan,nan,nan,52.5540195,13.423999,Mo-Fr 07:00-18:00; Sa 07:00-17:00,Pankow,Pankow
+3391048641,11011011,1103,Alena Shop,Hotellgatan,nan,nan,nan,52.5152818,13.4781424,"Mo-Sa 09:00-24:00; PH,Su off",Lichtenberg,Lichtenberg
+3391940195,11004004,0407,Spätkauf am Q'damm,Kurfürstendamm,nan,nan,nan,52.4975288,13.2906187,nan,Charlottenburg-Wilmersdorf,Halensee
+3393706957,11003003,0301,Spätkauf,Schönhauser Allee,nan,nan,nan,52.5533461,13.4148575,nan,Pankow,Prenzlauer Berg
+3393947819,11001001,0105,Tabak Presse,Liebenwalder Straße,nan,nan,nan,52.5519495,13.3578031,nan,Mitte,Wedding
+3398525115,11002002,0201,Eldenaer Spätkauf 28,Eldenaer Straße,nan,nan,nan,52.5202178,13.4691741,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3400606710,11003003,0301,Storkower Shop,Storkower Straße,nan,nan,nan,52.5238056,13.4645875,Mo-Fr 05:00-19:00; Sa 07:00-17:00,Pankow,Prenzlauer Berg
+3442719667,11009009,0901,M&S Spätkauf,Karl-Kunger-Straße,nan,nan,nan,52.4917072,13.4462694,nan,Treptow-Köpenick,Alt-Treptow
+3442721070,11009009,0901,Asia Lebensmittel,Elsenstraße,+49-30-91560131,nan,nan,52.4893607,13.4542337,Mo-Sa 09:00-20:00,Treptow-Köpenick,Alt-Treptow
+3442739322,11009009,0901,Ost-West Späti,Onckenstraße,nan,nan,https://ost-west-spaeti-berlin.eatbu.com,52.4887011,13.4421223,Mo-Sa 08:00-22:00,Treptow-Köpenick,Alt-Treptow
+3452115332,11003003,0301,Kasatschok Russische Spezialitäten,Schivelbeiner Straße,nan,nan,nan,52.5505164,13.4131676,"Mo-Fr 10:00-19:00, Sa 10:00-17:00",Pankow,Prenzlauer Berg
+3465014812,11003003,0301,RK Markt,Bornholmer Straße,nan,nan,nan,52.5534973,13.4125696,nan,Pankow,Prenzlauer Berg
+3465014815,11003003,0301,Almaraii,Bornholmer Straße,nan,nan,nan,52.5534542,13.4138249,nan,Pankow,Prenzlauer Berg
+3480272990,11007007,0701,Der Weisse Salon,Winterfeldtstraße,nan,nan,nan,52.4968072,13.3557531,Mo-Fr 06:00-22:00; Sa 07:00-22:00; Su 08:00-22:00,Tempelhof-Schöneberg,Schöneberg
+3488847982,11007007,0701,SR-Kiosk,Eisenacher Straße,nan,nan,nan,52.4962443,13.3498056,Mo-Sa 07:00-20:00+; Sa 08:00-20:00+,Tempelhof-Schöneberg,Schöneberg
+3518024330,11003003,0301,We Love Späti,Danziger Straße,nan,nan,nan,52.539707,13.4192635,Mo-Th 08:00-02:00; Fr 08:00-04:00; Sa 09:00-04:00; Su 10:00-01:00,Pankow,Prenzlauer Berg
+3530849181,11004004,0401,Spätkauf Astier,Kantstraße,nan,nan,nan,52.5057147,13.3209726,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+3570845450,11006006,0601,Zora,Schloßstraße,nan,nan,nan,52.4601428,13.3235606,nan,Steglitz-Zehlendorf,Steglitz
+3578321975,11008008,0801,Oker Markt,Okerstraße,nan,nan,nan,52.4740238,13.4240611,Mo-Sa 09:00-21:00,Neukölln,Neukölln
+3632641136,11007007,0701,Tabakwaren Zeitschriften,Hauptstraße,nan,nan,nan,52.4842984,13.3532418,"Mo-Fr 06:00-20:00; Sa 07:00-19:00; Su,PH off",Tempelhof-Schöneberg,Schöneberg
+3644133594,11002002,0201,Tobacco & Drinks,Simon-Dach-Straße,nan,nan,nan,52.5105338,13.4567401,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3668356555,11011011,1102,Lotto-Toto-Tabak-Center,Treskowallee,+49 30 50012826,nan,nan,52.4825116,13.5249054,Mo-Fr 09:00-18:00; Sa 08:00-12:00,Lichtenberg,Karlshorst
+3710407323,11004004,0401,Mini Market,Bismarckstraße,nan,nan,nan,52.5110557,13.3021293,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+3712223331,11007007,0701,Spätkauf,Potsdamer Straße,nan,nan,nan,52.4986146,13.3626548,nan,Tempelhof-Schöneberg,Schöneberg
+3712391645,11004004,0401,Kaiser Spätkauf,Kaiser-Friedrich-Straße,nan,nan,nan,52.5119663,13.3017081,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+3721863451,11004004,0401,Späti Bull,Kantstraße,nan,nan,nan,52.5067185,13.3089922,"Mo-Th 09:00-23:30; Fr 10:00-24:00; Sa 00:00-01:00,10:00-24:00; Su 00:00-01:00",Charlottenburg-Wilmersdorf,Charlottenburg
+3757302128,11001001,0106,Prime Shop,Koloniestraße,nan,nan,nan,52.5567564,13.3774997,nan,Mitte,Gesundbrunnen
+3758674232,11006006,0601,Kiosk Späti,Bismarckstraße,nan,nan,nan,52.464366,13.3386596,nan,Steglitz-Zehlendorf,Steglitz
+3772659955,11011011,1109,Lotto und Zeitschriften Friese,Prerower Platz,nan,nan,nan,52.5649953,13.5062675,nan,Lichtenberg,Neu-Hohenschönhausen
+3780185339,11001001,0105,Müller-Kiosk / DHL Postfiliale 639,Müllerstraße,nan,nan,nan,52.5497772,13.3536711,Mo-Fr 08:00-20:00; Sa 08:00-12:00,Mitte,Wedding
+3780859027,11012012,1201,Christian Kowall,Residenzstraße,nan,nan,nan,52.5655004,13.3637597,nan,Reinickendorf,Reinickendorf
+3789168245,11009009,0909,Asia Supermarkt,Schillerpromenade,nan,nan,nan,52.4624408,13.5170444,Mo-Fr 08:00-19:00; Sa 08:00-17:00,Treptow-Köpenick,Oberschöneweide
+3789200614,11009009,0909,Spätkauf 30,Wilhelminenhofstraße,nan,nan,nan,52.4617007,13.517886,nan,Treptow-Köpenick,Oberschöneweide
+3789268878,11002002,0201,Kiosk & Bakery,Gubener Straße,+49 30 293 52 944,nan,nan,52.5107395,13.4492032,Mo-Su 06:00-22:00,Friedrichshain-Kreuzberg,Friedrichshain
+3792656709,11009009,0909,Spätkauf 49,Wilhelminenhofstraße,nan,nan,nan,52.4625301,13.5144455,nan,Treptow-Köpenick,Oberschöneweide
+3794192039,11011011,1102,Internet Spätkauf,Treskowallee,nan,nan,nan,52.4835934,13.5256459,Mo-Su 07:45-03:00,Lichtenberg,Karlshorst
+3798391366,11007007,0701,Späti Wood,Kurfürstenstraße,nan,nan,nan,52.4991411,13.3659567,nan,Tempelhof-Schöneberg,Schöneberg
+3826013967,11007007,0701,Late Night Shop,Nollendorfplatz,nan,nan,nan,52.498849,13.3537781,"Mo-Sa 00:00-00:00, Su 16:00-24:00",Tempelhof-Schöneberg,Schöneberg
+3874366757,11002002,0202,Späti Mustafa,Oranienstraße,nan,nan,nan,52.5064312,13.3999609,nan,Friedrichshain-Kreuzberg,Kreuzberg
+3886927364,11001001,0101,Kiosk,Fischerinsel,nan,nan,nan,52.5125551,13.4067388,nan,Mitte,Mitte
+3888332839,11004004,0401,Asia-Markt Lo,Nehringstraße,nan,nan,nan,52.5162234,13.2937195,Mo-Fr 10:00-19:00; Sa 10:00-18:00,Charlottenburg-Wilmersdorf,Charlottenburg
+3896292628,11002002,0201,Day & Night Shop,Grünberger Straße,nan,nan,nan,52.5124095,13.4520316,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3900932437,11003003,0301,Kulti Kiosk,Sredzkistraße,nan,nan,nan,52.5384966,13.4168427,nan,Pankow,Prenzlauer Berg
+3905682401,11009009,0909,Zeitungsladen / Lotto,Edisonstraße,nan,nan,nan,52.46306,13.5137675,Mo-Fr 05:30-22:00; Sa 07:00-22:00,Treptow-Köpenick,Oberschöneweide
+3906183599,11009009,0909,Edison 56,Edisonstraße,nan,nan,nan,52.4637641,13.5135992,Mo-Sa 09:00-21:00,Treptow-Köpenick,Oberschöneweide
+3906974557,11002002,0201,Kopernikus Kiosk,Kopernikusstraße,nan,nan,nan,52.5107407,13.4510868,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3907003400,11002002,0201,Quick,Warschauer Straße,nan,nan,nan,52.5089127,13.4514007,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3907014576,11002002,0201,Kiezbalkon,Marchlewskistraße,nan,nan,nan,52.5079859,13.4495868,nan,Friedrichshain-Kreuzberg,Friedrichshain
+3909159026,11009009,0909,Spätkauf Watt-Eck 81,Siemensstraße,nan,nan,nan,52.4641989,13.510527,"Mo-Sa 00:00-01:00,09:00-24:00; Su 00:00-01:00,10:00-24:00",Treptow-Köpenick,Oberschöneweide
+3909569394,11009009,0905,Orient Lebensmittel,Brückenstraße,nan,nan,nan,52.4581304,13.5113696,nan,Treptow-Köpenick,Niederschöneweide
+3912751175,11009009,0909,Lotto,Edisonstraße,nan,nan,nan,52.4674855,13.5129843,Mo-Fr 08:00-19:00; Sa 08:00-19:00; Su 09:00-16:00,Treptow-Köpenick,Oberschöneweide
+3937876893,11001001,0101,7. Himmel,Invalidenstraße,nan,nan,nan,52.5321673,13.3947646,"Mo-Th 07:00-22:00, PH,Su 07:00-24:00+, Fr,Sa 07:00-02:00",Mitte,Mitte
+3954780447,11001001,0106,Perle Spätkauf,Soldiner Straße,nan,nan,nan,52.5601414,13.3802921,nan,Mitte,Gesundbrunnen
+3968793066,11003003,0307,Mini-Markt „Tante Emma Laden 2.0“,Stubnitzstraße,nan,nan,nan,52.5667036,13.4153573,Mo-Fr 09:00-18:30; Sa 10:00-14:00,Pankow,Pankow
+3987047647,11009009,0905,Schneller Back & Spätkauf,Schnellerstraße,nan,nan,nan,52.4539824,13.5189305,Mo-Fr 07:00-24:00; Sa 08:00-24:00,Treptow-Köpenick,Niederschöneweide
+3998796728,11007007,0701,Dominicus Spätkauf,Dominicusstraße,nan,nan,nan,52.4819011,13.3477339,nan,Tempelhof-Schöneberg,Schöneberg
+4019236256,11001001,0101,Lotto Presse Shop,Platz vor dem Neuen Tor,nan,nan,nan,52.5291167,13.3792404,Mo-Fr 05:00-18:00,Mitte,Mitte
+4041681101,11002002,0201,Froyda,Warschauer Straße,nan,nan,https://froyda.de/,52.5132473,13.4525501,nan,Friedrichshain-Kreuzberg,Friedrichshain
+4100572573,11001001,0106,Youssef - Orientalische Lebensmittel,Brunnenstraße,nan,nan,nan,52.5461198,13.3903162,"Mo-Sa 10:00-21:00; PH,Su 13:00-20:00",Mitte,Gesundbrunnen
+4100572574,11001001,0106,Townie's,Brunnenstraße,nan,nan,nan,52.5457552,13.3905897,nan,Mitte,Gesundbrunnen
+4102963961,11001001,0101,Soda,Kastanienallee,nan,nan,nan,52.5340393,13.4054143,Mo-Sa 07:00-02:00; Su off,Mitte,Mitte
+4109578506,11001001,0106,Neon Späti,Wollankstraße,nan,nan,nan,52.5641319,13.3921666,nan,Mitte,Gesundbrunnen
+4109584179,11001001,0106,Späti,Wollankstraße,nan,nan,nan,52.5643397,13.3925917,nan,Mitte,Gesundbrunnen
+4131336489,11004004,0401,Finesse,Helmholtzstraße,nan,nan,nan,52.5221331,13.3272761,Mo-Su 11:00-23:00,Charlottenburg-Wilmersdorf,Charlottenburg
+4135097790,11008008,0802,Spätkauf,Buschkrugallee,+49 30 555 95 393,nan,nan,52.461851,13.4452674,nan,Neukölln,Britz
+4138580438,11001001,0105,Atti Asia Markt,Luxemburger Straße,+49 30 46605622,info@atti-asia-markt.de,https://www.atti-asia-markt.de/de/,52.5454693,13.3581119,Mo-Fr 10:30-20:00; Su off; Sa 10:30-19:00,Mitte,Wedding
+4139402061,11001001,0106,Kiosk 45,Koloniestraße,nan,nan,nan,52.5577242,13.3786754,nan,Mitte,Gesundbrunnen
+4139464889,11001001,0106,Adanas Spätkauf,Bellermannstraße,nan,nan,nan,52.5531673,13.3870306,nan,Mitte,Gesundbrunnen
+4149934389,11003003,0301,Kiosk Beycani,Schivelbeiner Straße,nan,nan,nan,52.5514807,13.4052058,"Mo-Su 00:00-01:00,09:00-24:00",Pankow,Prenzlauer Berg
+4152750391,11003003,0301,H & D Minimarkt,Danziger Straße,nan,nan,nan,52.5322164,13.4405574,Mo-Sa 07:00-21:00,Pankow,Prenzlauer Berg
+4155950167,11001001,0106,Orsa Discount,Brunnenstraße,nan,nan,nan,52.5414938,13.3931469,nan,Mitte,Gesundbrunnen
+4185555186,11002002,0201,KGB - Koschys Gemüse Butze,Ebertystraße,nan,nan,nan,52.5261484,13.4517394,Mo-Sa 09:00-20:00,Friedrichshain-Kreuzberg,Friedrichshain
+4188213618,11001001,0102,Späti 38,Lehrter Straße,nan,nan,nan,52.5346252,13.3588877,nan,Mitte,Moabit
+4200072390,11008008,0801,Kiosk Area 44,Hermannstraße,nan,nan,nan,52.4749729,13.4270512,nan,Neukölln,Neukölln
+4200389800,11001001,0106,Lotto-Tabakwaren Demircioglu,Bastianstraße,nan,nan,nan,52.5513283,13.3814957,Mo-Fr 06:00-22:00; Sa 07:00-22:00; Su 10:00-20:00,Mitte,Gesundbrunnen
+4223491592,11002002,0201,Loan's Supermarkt,Grünberger Straße,nan,nan,nan,52.5126792,13.4504279,Sa 08:30-22:00; Mo-Fr 08:00-21:00,Friedrichshain-Kreuzberg,Friedrichshain
+4225752738,11001001,0101,Der kleine Laden,Scharnhorststraße,nan,nan,nan,52.5337388,13.3712985,Mo-Fr 07:00-22:00; Sa 08:00-22:00,Mitte,Mitte
+4255872889,11012012,1202,"Kosicki | Zeitungen, Zeitschriften, Lotto & mehr",Waidmannsluster Damm,nan,nan,nan,52.6006269,13.3038319,nan,Reinickendorf,Tegel
+4298702900,11001001,0105,Drinks House,Burgsdorfstraße,nan,nan,nan,52.5426099,13.3620533,nan,Mitte,Wedding
+4304290491,11002002,0201,Maxi Spätkauf,Gabriel-Max-Straße,nan,nan,nan,52.5111832,13.458509,"Mo 08:00-24:00; Tu-Fr 00:00-05:00,08:00-24:00; Sa,Su 00:00-24:00",Friedrichshain-Kreuzberg,Friedrichshain
+4304633635,11001001,0105,Späti Vape City,Triftstraße,nan,nan,nan,52.5445969,13.3604466,nan,Mitte,Wedding
+4304633809,11001001,0105,Beste Späti,Triftstraße,nan,nan,nan,52.5445521,13.3602681,nan,Mitte,Wedding
+4307225827,11001001,0104,Minimarkt Feinkost,Flottwellstraße,nan,nan,nan,52.5015913,13.3710522,Mo-Fr 07:00-24:00; Sa 08:00-24:00,Mitte,Tiergarten
+4317329214,11005005,0501,Back Kiosk,Neuendorfer Straße,nan,nan,nan,52.5423966,13.205803,nan,Spandau,Spandau
+4320871292,11002002,0201,Absolut Spätkauf,Karl-Marx-Allee,nan,nan,nan,52.5157879,13.4513879,nan,Friedrichshain-Kreuzberg,Friedrichshain
+4320997490,11002002,0201,Kiosk / Tabakwaren,Straße der Pariser Kommune,nan,nan,nan,52.5164703,13.4401422,Mo-Fr 08:00-19:00; Sa 08:00-13:00,Friedrichshain-Kreuzberg,Friedrichshain
+4321019535,11004004,0401,Spätkauf,Goethestraße,nan,nan,nan,52.5089349,13.3218533,Mo-Sa 08:30-22:00,Charlottenburg-Wilmersdorf,Charlottenburg
+4336215193,11008008,0801,Multi Shop II,Sonnenallee,nan,nan,nan,52.4794167,13.4442714,nan,Neukölln,Neukölln
+4340695690,11010010,1002,Papeterie Biesdorf,Oberfeldstraße,+4930 5419455,nan,https://biesdorfer-papeterie.de/,52.517252,13.5556141,Tu-Fr 09:00-18:00; Sa 09:00-12:00; Mo 10:00-18:00,Marzahn-Hellersdorf,Biesdorf
+4351511613,11001001,0105,Kiosk Deika,Schulstraße,nan,nan,nan,52.5488148,13.3634973,nan,Mitte,Wedding
+4351511616,11001001,0106,Spätkauf,Exerzierstraße,nan,nan,nan,52.5538644,13.3734706,Mo-Sa 10:00-23:00,Mitte,Gesundbrunnen
+4396230907,11001001,0101,Spätkauf - Café - Backshop,Invalidenstraße,nan,nan,nan,52.5295852,13.3800959,24/7,Mitte,Mitte
+4409599066,11008008,0801,Spätkauf 178,Hermannstraße,nan,nan,nan,52.4717958,13.4292161,24/7,Neukölln,Neukölln
+4411267178,11004004,0401,All I Need,Goethestraße,nan,nan,nan,52.5090049,13.3089785,"Mo-Fr 10:00-24:00; Sa 00:00-02:00,10:00-24:00; Su 00:00-02:00; PH off",Charlottenburg-Wilmersdorf,Charlottenburg
+4411472398,11001001,0102,Lotto Shop,Emdener Straße,nan,nan,nan,52.5275317,13.3332238,Sa 08:00-21:00; Mo-Fr 08:00-21:00,Mitte,Moabit
+4411581590,11001001,0102,Kiez-Shop 558,Beusselstraße,nan,nan,nan,52.5283005,13.3284521,nan,Mitte,Moabit
+4411620089,11001001,0102,Kiosk 24,Beusselstraße,nan,nan,nan,52.5291339,13.3288611,nan,Mitte,Moabit
+4412294194,11001001,0105,Getränkemarkt Robin,Brüsseler Straße,nan,nan,nan,52.5472505,13.3503121,"Mo-Th 07:00-01:00, Fr,Sa 07:00-02:00",Mitte,Wedding
+4428728829,11001001,0101,All In One Shop,Brückenstraße,nan,nan,nan,52.5129671,13.4172783,nan,Mitte,Mitte
+4453818128,11001001,0102,Ceylin Elif,Wittstocker Straße,nan,nan,nan,52.5311505,13.3275626,nan,Mitte,Moabit
+4454150172,11001001,0102,Moabiter Spätkauf,Beusselstraße,nan,nan,nan,52.5282067,13.3284523,nan,Mitte,Moabit
+4454150177,11001001,0102,Dilek Shop,Turmstraße,nan,nan,nan,52.5271425,13.3293247,nan,Mitte,Moabit
+4502571354,11007007,0701,Späti am Nolle,Maaßenstraße,nan,nan,nan,52.4977434,13.3540766,nan,Tempelhof-Schöneberg,Schöneberg
+4520970753,11002002,0201,Kiosk,Kochhannstraße,nan,nan,nan,52.5248046,13.4505297,nan,Friedrichshain-Kreuzberg,Friedrichshain
+4524897429,11008008,0801,El-Fi,Karl-Marx-Straße,nan,nan,nan,52.4755953,13.4399372,nan,Neukölln,Neukölln
+4530197497,11002002,0201,E-Kiosk 24,Gärtnerstraße,nan,nan,nan,52.5085786,13.4599688,"Mo-Su,PH 00:00+",Friedrichshain-Kreuzberg,Friedrichshain
+4533857105,11002002,0201,Spätkauf,Boxhagener Straße,nan,nan,nan,52.5127092,13.4588488,Mo-Su 08:00-24:00+,Friedrichshain-Kreuzberg,Friedrichshain
+4542090687,11011011,1101,Big Kiosk,Einbecker Straße,nan,nan,nan,52.5097257,13.5038489,Mo-Sa 09:00-21:00,Lichtenberg,Friedrichsfelde
+4552123091,11004004,0401,Multishop @ Schloss,Otto-Suhr-Allee,nan,nan,nan,52.51907,13.3005531,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+4558385311,11001001,0102,ESEN,Turmstraße,+493034787437,nan,nan,52.5266687,13.3530311,Mo-Sa 08:00-20:00,Mitte,Moabit
+4589778489,11011011,1101,Kioskwelt,Sewanstraße,nan,nan,nan,52.4960392,13.5103346,Mo-Fr 07:00-18:00; Sa 09:00-16:00,Lichtenberg,Friedrichsfelde
+4589778490,11011011,1101,Lial,Sewanstraße,nan,nan,nan,52.4959997,13.5106044,Mo-Fr 09:00-18:00; Sa 09:00-14:00,Lichtenberg,Friedrichsfelde
+4593021190,11001001,0102,Wald Kiosk,Waldstraße,nan,nan,nan,52.5309959,13.3312013,nan,Mitte,Moabit
+4642493362,11001001,0102,Freundlicher Kiosk,Beusselstraße,nan,nan,nan,52.5335506,13.3280416,nan,Mitte,Moabit
+4672835104,11002002,0201,mini Getränkemarkt Tabakwaren,Corinthstraße,nan,nan,nan,52.4989464,13.4644209,Mo-Su 10:00-24:00,Friedrichshain-Kreuzberg,Friedrichshain
+4686702513,11001001,0102,Spätkauf,Alt-Moabit,nan,nan,nan,52.5245585,13.3352403,24/7,Mitte,Moabit
+4689341990,11008008,0801,Kanki-Shop,Erkstraße,nan,nan,nan,52.4815726,13.4392257,"Mo-Sa 08:00-02:00, Su 13:00-18:00",Neukölln,Neukölln
+4698884701,11009009,0909,Asia Mini Market,Rathenaustraße,nan,nan,nan,52.4588412,13.5269622,Mo-Fr 07:00-20:00; Sa 08:00-20:00,Treptow-Köpenick,Oberschöneweide
+4707490127,11006006,0602,Lotto Shop,Drakestraße,nan,nan,nan,52.4451546,13.2939825,Mo-Fr 08:00-19:00; Sa 08:00-16:00; PH off,Steglitz-Zehlendorf,Lichterfelde
+4709611465,11006006,0604,Liebe Asia,Clayallee,+49 30 81 05 85 60,nan,https://liebeasia.com,52.4374786,13.2615262,Mo-Fr 09:00-19:00; Sa 09:00-15:00; PH off,Steglitz-Zehlendorf,Zehlendorf
+4712129081,11009009,0903,1000 kleine Dinge,Baumschulenstraße,nan,nan,nan,52.4661971,13.4875061,Mo-Fr 09:00-18:00; Sa 09:00-16:00,Treptow-Köpenick,Baumschulenweg
+4712129084,11009009,0903,Q&T Sparland,Baumschulenstraße,nan,nan,nan,52.4664014,13.4877569,Mo-Fr 09:00-18:00; Sa 09:00-15:00,Treptow-Köpenick,Baumschulenweg
+4712129085,11009009,0903,Kiosk,Baumschulenstraße,nan,nan,nan,52.4664729,13.4878481,Mo-Fr 06:00-18:00; Sa 07:30-16:00,Treptow-Köpenick,Baumschulenweg
+4774716422,11001001,0105,Getränkepoint,Lindower Straße,nan,nan,nan,52.5444905,13.368703,nan,Mitte,Wedding
+4775130216,11004004,0401,Kant123,Kantstraße,nan,nan,nan,52.5062944,13.3107258,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+4783313906,11001001,0105,Spätkauf,Müllerstraße,nan,nan,nan,52.5538161,13.3456348,nan,Mitte,Wedding
+4789006622,11004004,0401,Elfbar,Otto-Suhr-Allee,nan,nan,nan,52.5177569,13.3047312,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+4791429237,11003003,0301,Asia Might,Kollwitzstraße,nan,nan,nan,52.5388347,13.4204884,nan,Pankow,Prenzlauer Berg
+4799571388,11001001,0106,Souvenir & more,Reinickendorfer Straße,nan,nan,nan,52.5414444,13.3702322,nan,Mitte,Gesundbrunnen
+4839177786,11007007,0701,Am Akazien Spätkauf,Akazienstraße,nan,nan,nan,52.4864674,13.355819,Mo-Su 11:00-23:00,Tempelhof-Schöneberg,Schöneberg
+4874345415,11002002,0202,M99 - Gemischtwarenladen für Revolutionsbedarf,Falckensteinstraße,nan,nan,nan,52.500459,13.4445106,nan,Friedrichshain-Kreuzberg,Kreuzberg
+4879044506,11004004,0402,Bundeskiosk,Bundesplatz,nan,nan,nan,52.4781727,13.3281608,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+4881993956,11002002,0201,Gula Sor,Wühlischstraße,nan,nan,nan,52.5081984,13.4627232,nan,Friedrichshain-Kreuzberg,Friedrichshain
+4899075822,11001001,0106,Zeitschriften und Tabakwaren,Schwedenstraße,nan,nan,nan,52.5551037,13.3760306,nan,Mitte,Gesundbrunnen
+4902369112,11002002,0201,Spätkauf,Proskauer Straße,nan,nan,nan,52.516676,13.4611824,Mo-Su 08:00-03:00,Friedrichshain-Kreuzberg,Friedrichshain
+4907995176,11002002,0201,md Mein Markt,Grünberger Straße,nan,nan,nan,52.5119567,13.4563393,"Mo-Th 07:00-21:00; Fr,Sa 07:00-24:00",Friedrichshain-Kreuzberg,Friedrichshain
+4908049915,11002002,0201,Spätkauf 24h,Grünberger Straße,nan,nan,nan,52.5114605,13.4578312,Mo-Su 00:00-24:00,Friedrichshain-Kreuzberg,Friedrichshain
+4920773047,11002002,0201,I Love Späti,Gärtnerstraße,nan,nan,nan,52.5084681,13.4595634,nan,Friedrichshain-Kreuzberg,Friedrichshain
+4931100758,11004004,0407,Tabak Getränke,Kurfürstendamm,nan,nan,nan,52.4974552,13.2912238,"Mo-Fr 08:00-24:00, Sa 10:00-03:00, Su 13:00-22:00",Charlottenburg-Wilmersdorf,Halensee
+4938816056,11003003,0301,Erdbär,Schönhauser Allee,nan,nan,nan,52.5392153,13.4116717,"Th-Fr 12:00-18:00; Sa 11:00-17:00; Mo-We,Su,PH off",Pankow,Prenzlauer Berg
+4944997006,11007007,0701,Kordiak - Schuh- & Schlüsseldienst,Richard-von-Weizsäcker-Platz,+49 30 89758214,info@kordiak-schuster.de,http://www.kordiak-schuster.de,52.4854826,13.3576049,nan,Tempelhof-Schöneberg,Schöneberg
+5008946464,11006006,0604,Loki Regional Lokal,Breisgauer Straße,+49 30 68079188,nan,https://loki.berlin,52.4393934,13.21517,Tu-Fr 10:00-18:00; Sa 10:00-14:00; Mo off,Steglitz-Zehlendorf,Zehlendorf
+5032732330,11001001,0106,BG MN Market Capris,Soldiner Straße,nan,nan,nan,52.5593926,13.3844073,Mo-Sa 08:00-20:00,Mitte,Gesundbrunnen
+5061136924,11008008,0803,EFE Backshop,Rudower Straße,nan,nan,nan,52.4424452,13.4570782,nan,Neukölln,Buckow
+5062318206,11011011,1101,Lebensmittel,Rummelsburger Straße,nan,nan,nan,52.5012096,13.5015582,Mo-Sa 09:00-18:00,Lichtenberg,Friedrichsfelde
+5073653615,11011011,1110,Lebensmittel - Getränke,Schalkauer Straße,nan,nan,nan,52.5371795,13.5090882,Mo-Fr 08:30-18:30; Sa 08:30-15:30,Lichtenberg,Alt-Hohenschönhausen
+5089978455,11003003,0302,Herr Buschmann - Alles in BIO,Smetanastraße,nan,nan,http://herrbuschmann.de/,52.5494487,13.4588849,"Mo-Fr 09:00-20:00, Sa 09:00-18:00",Pankow,Weißensee
+5111954943,11007007,0701,Schwälmer Stube,Langenscheidtstraße,nan,nan,nan,52.4894421,13.3616577,"Mo-Fr 07:00-21:00; Sa-Su,PH 09:00-21:00",Tempelhof-Schöneberg,Schöneberg
+5132524521,11009009,0913,Naturkost Grünau,Regattastraße,nan,nan,nan,52.4170179,13.5811286,"Mo-Fr 09:00-18:30; Sa 09:00-14:00; Su,PH off",Treptow-Köpenick,Grünau
+5153424275,11007007,0701,Uni-Shop,Wartburgstraße,nan,nan,nan,52.4860299,13.3389674,nan,Tempelhof-Schöneberg,Schöneberg
+5154083340,11011011,1112,H&E Spätkauf,Einbecker Straße,nan,nan,nan,52.5101013,13.5017875,nan,Lichtenberg,Rummelsburg
+5167689747,11007007,0701,The Market,Akazienstraße,+49 30 85736200,nan,nan,52.4891132,13.353594,Mo-Su 07:30-24:00,Tempelhof-Schöneberg,Schöneberg
+5193755040,11001001,0102,Spätkauf 80,Turmstraße,nan,nan,nan,52.5264396,13.3369125,nan,Mitte,Moabit
+5223291545,11003003,0301,Lotto,Eberswalder Straße,nan,nan,nan,52.5409529,13.4112607,nan,Pankow,Prenzlauer Berg
+5340487003,11001001,0101,Night Shop Amir,Chausseestraße,nan,nan,nan,52.5282929,13.3861382,nan,Mitte,Mitte
+5346650984,11006006,0601,Spätkauf Steglitz,Albrechtstraße,nan,nan,nan,52.4553968,13.3260388,Mo-Fr 07:30-24:00; Sa 09:30-24:00; Su 10:00-24:00,Steglitz-Zehlendorf,Steglitz
+5347037070,11008008,0801,Späti,Hobrechtstraße,nan,nan,nan,52.4916324,13.4261126,nan,Neukölln,Neukölln
+5351286162,11003003,0301,Tony's Kiosk,Schönhauser Allee,nan,nan,nan,52.5517974,13.414541,"Mo-Th 10:00-02:00, Fr,Sa 10:00-03:00",Pankow,Prenzlauer Berg
+5396546727,11004004,0403,Wein + Presse,Breite Straße,+49 30 82309373,nan,nan,52.4744252,13.2941878,Mo-Fr 05:45-18:00; Sa 06:30-13:00,Charlottenburg-Wilmersdorf,Schmargendorf
+5424941701,11007007,0701,jungenspäti,Hauptstraße,nan,nan,nan,52.4797085,13.345952,Mo-Sa 09:00-01:00; Su off,Tempelhof-Schöneberg,Schöneberg
+5424941706,11007007,0701,Spätkauf Zu Spät,Hauptstraße,nan,nan,nan,52.4847772,13.3541632,"Su-Th 10:00-02:00, Fr,Sa 10:00-05:00",Tempelhof-Schöneberg,Schöneberg
+5429627821,11006006,0601,Reoat,Markelstraße,nan,nan,nan,52.4639946,13.3252573,nan,Steglitz-Zehlendorf,Steglitz
+5471841985,11001001,0102,REWE To Go,Rathenower Straße,nan,nan,nan,52.5255021,13.3570272,24/7,Mitte,Moabit
+5503456919,11002002,0201,Trinkbar Spätkauf,Rigaer Straße,nan,nan,nan,52.5167677,13.4623235,nan,Friedrichshain-Kreuzberg,Friedrichshain
+5528648737,11001001,0101,AZ Minimarkt,Oranienburger Straße,nan,nan,nan,52.5235442,13.4008739,nan,Mitte,Mitte
+5548816495,11001001,0105,Late Night Spätkauf68,Reinickendorfer Straße,nan,nan,nan,52.5429689,13.3694793,"Mo-Th 09:00-24:00, Fr 11:00-23:00, Sa 11:00-23:00",Mitte,Wedding
+5573599276,11003003,0301,Molly's Späti,Kollwitzstraße,nan,nan,nan,52.5349713,13.4169222,nan,Pankow,Prenzlauer Berg
+5582920981,11002002,0202,Spätkauf 54,Gneisenaustraße,nan,nan,nan,52.491449,13.3934123,Mo-Sa 10:00-24:00,Friedrichshain-Kreuzberg,Kreuzberg
+5613723540,11002002,0202,Viktoria Späti,Katzbachstraße,nan,nan,nan,52.4887967,13.376466,nan,Friedrichshain-Kreuzberg,Kreuzberg
+5632343912,11008008,0801,Bürkner 7/24,Bürknerstraße,nan,nan,nan,52.4931538,13.4253134,24/7,Neukölln,Neukölln
+5648395321,11001001,0105,Trinkstelle,Brüsseler Straße,nan,nan,nan,52.5480192,13.3520847,Mo-Su 10:30-23:00,Mitte,Wedding
+5715364554,11001001,0101,Bollywood,Torstraße,nan,nan,nan,52.5274956,13.3881028,24/7,Mitte,Mitte
+5716675886,11003003,0301,Der Sache Wegen,Lychener Straße,nan,nan,nan,52.5443367,13.4180039,Mo-Fr 12:00-19:00; Sa 10:00-18:00,Pankow,Prenzlauer Berg
+5744850236,11012012,1209,Philinchen,Alt-Wittenau,nan,nan,nan,52.5905193,13.3313799,nan,Reinickendorf,Wittenau
+5754956329,11004004,0405,Yellow Spätkauf,Königin-Elisabeth-Straße,nan,nan,nan,52.5114944,13.2819373,"Su-Fr 08:00-02:00, Sa 08:00-03:00",Charlottenburg-Wilmersdorf,Westend
+5785203531,11003003,0302,Kiez Eck,Streustraße,nan,nan,nan,52.5527368,13.4331207,Mo-Fr 07:00-19:00; Sa 08:00-18:00,Pankow,Weißensee
+5806630454,11003003,0307,Asia-Markt,Florastraße,nan,nan,nan,52.565574,13.4075727,Mo-Fr 08:00-20:00; Sa 08:00-20:00,Pankow,Pankow
+5807513622,11008008,0801,Mira Food Store,Sanderstraße,+49 30 67 79 70 77,nan,https://mira-food-store.de,52.4921402,13.4237892,Mo-Sa 10:00-22:00,Neukölln,Neukölln
+5810887817,11007007,0701,Aleppo Market,Dominicusstraße,nan,nan,https://aleppo.market,52.4802668,13.3513895,Mo-Sa 09:00-20:00,Tempelhof-Schöneberg,Schöneberg
+5813033922,11001001,0101,Spätkauf / Postshop,Torstraße,nan,nan,nan,52.5294594,13.4043736,Mo-Su 08:00-18:30,Mitte,Mitte
+5843976451,11005005,0507,Pepita Spätkauf,Goltzstraße,nan,nan,nan,52.5641877,13.2151467,nan,Spandau,Hakenfelde
+5913018250,11001001,0101,Heimgetränke,Alte Schönhauser Straße,nan,nan,nan,52.5278644,13.4085289,nan,Mitte,Mitte
+5913018255,11001001,0101,24-Seven Market,Alte Schönhauser Straße,nan,nan,nan,52.5257894,13.4068812,nan,Mitte,Mitte
+5923190751,11001001,0106,Bäckerei Spätkauf,Neue Hochstraße,nan,nan,nan,52.5428874,13.3757646,24/7,Mitte,Gesundbrunnen
+5940202493,11011011,1110,LOTTO,Landsberger Allee,nan,nan,nan,52.534175,13.486261,Mo-Fr 07:00-18:00; Sa 08:00-13:00,Lichtenberg,Alt-Hohenschönhausen
+5998109885,11003003,0301,Asia-Markt,Kopenhagener Straße,+493040504959,nan,nan,52.5488599,13.4127221,Mo-Sa 10:00-20:00,Pankow,Prenzlauer Berg
+6005003081,11002002,0202,Sirplus,Eisenbahnstraße,nan,nan,nan,52.5023268,13.4314936,Fr 12:00-18:00; Sa 10:00-18:00,Friedrichshain-Kreuzberg,Kreuzberg
+6083287708,11008008,0801,All in one Shop,Karl-Marx-Straße,nan,nan,nan,52.4640263,13.4436026,nan,Neukölln,Neukölln
+6212858187,11003003,0301,Internetcafe - Day & Nightstore,Schönhauser Allee,nan,nan,nan,52.5526351,13.4139062,nan,Pankow,Prenzlauer Berg
+6251586817,11004004,0401,Schloß Späti,Spandauer Damm,nan,nan,nan,52.5191491,13.2895468,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+6264712200,11004004,0405,Bärlin Shop,Kaiserdamm,+49 30 3024676,nan,https://www.getraenke-baerlin.de,52.5104007,13.2841928,nan,Charlottenburg-Wilmersdorf,Westend
+6274765726,11004004,0401,The Market,Leibnizstraße,nan,nan,nan,52.5017546,13.3129938,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+6279431121,11003003,0301,Zora,Fehrbelliner Straße,nan,nan,nan,52.5308095,13.4108148,Mo-Sa 09:00-22:00,Pankow,Prenzlauer Berg
+6289113659,11008008,0801,Naz Spätkauf,Kottbusser Damm,nan,nan,nan,52.4895302,13.4245241,nan,Neukölln,Neukölln
+6289209485,11007007,0701,Glückskäfer,Hohenstaufenstraße,nan,nan,nan,52.4947058,13.3524772,Mo-Sa 08:00-21:00; Su 09:00-18:00,Tempelhof-Schöneberg,Schöneberg
+6297137063,11003003,0301,Max & Moritz,Bötzowstraße,nan,nan,nan,52.5337027,13.4365626,nan,Pankow,Prenzlauer Berg
+6316591591,11008008,0801,Multicafe,Karl-Marx-Straße,nan,nan,nan,52.4731391,13.4407055,nan,Neukölln,Neukölln
+6331736857,11008008,0801,Günes Spätkauf,Karl-Marx-Straße,nan,nan,nan,52.4759444,13.4392843,nan,Neukölln,Neukölln
+6430624973,11001001,0102,Spätkauf &,Beusselstraße,nan,nan,nan,52.5331986,13.3287084,nan,Mitte,Moabit
+6439774580,11007007,0704,Spätkauf,Rathausstraße,nan,nan,nan,52.4457196,13.3796731,nan,Tempelhof-Schöneberg,Mariendorf
+6457639384,11002002,0201,Baris-Ta,Wühlischstraße,nan,nan,nan,52.5090101,13.460391,nan,Friedrichshain-Kreuzberg,Friedrichshain
+6464021199,11002002,0201,Hao Hao,Voigtstraße,nan,nan,nan,52.5154325,13.4677048,Mo-Sa 09:00-20:00,Friedrichshain-Kreuzberg,Friedrichshain
+6464021202,11002002,0201,Schnell Minimarkt,Voigtstraße,nan,nan,nan,52.5149973,13.4675259,nan,Friedrichshain-Kreuzberg,Friedrichshain
+6467627416,11006006,0601,Getränke Shop Spätkauf,Lepsiusstraße,nan,nan,nan,52.4628634,13.3195658,"Mo-Sa 11:00-01:00, Su 11:00-24:00",Steglitz-Zehlendorf,Steglitz
+6467834786,11012012,1201,Seydo's Back n Späti,Ollenhauerstraße,nan,nan,nan,52.5681787,13.3297439,nan,Reinickendorf,Reinickendorf
+6480348199,11001001,0106,Bulgarische Lebensmittel,Schwedenstraße,nan,nan,nan,52.5556659,13.3753845,nan,Mitte,Gesundbrunnen
+6501199795,11004004,0401,Schillerspätkauf,Schillerstraße,nan,nan,nan,52.510124,13.3062383,"Mo-Fr 07:00-24:00; Sa 00:00-01:00,08:00-24:00; Su 00:00-01:00,13:00-22:00; PH 13:00-22:00",Charlottenburg-Wilmersdorf,Charlottenburg
+6503854377,11006006,0601,Spätkauf M & A,Albrechtstraße,nan,nan,nan,52.4540898,13.3292883,"Mo-Sa 10:00-22:00; PH,Su off",Steglitz-Zehlendorf,Steglitz
+6548214376,11003003,0301,Bis Späti,Oderberger Straße,nan,nan,nan,52.5403563,13.40546,nan,Pankow,Prenzlauer Berg
+6569710892,11001001,0102,Jiby,Perleberger Straße,nan,nan,nan,52.5318196,13.3495937,"Mo-Fr 08:00-02:00, Sa 09:00-02:00",Mitte,Moabit
+6571876492,11001001,0102,Spätshop Perleberger Straße,Perleberger Straße,nan,nan,nan,52.5355659,13.3563111,nan,Mitte,Moabit
+6575314493,11001001,0102,Kiosk 106,Alt-Moabit,nan,nan,nan,52.5245133,13.3486425,nan,Mitte,Moabit
+6580040823,11008008,0801,frugibus,Zwiestädter Straße,+49 176 50370638,mail@frugibus.de,nan,52.4733369,13.4478243,"Th,Fr 09:00-12:30,13:00-18:00; Sa 09:00-14:00",Neukölln,Neukölln
+6581421551,11008008,0801,Champa Center,Boddinstraße,nan,nan,nan,52.4808969,13.4344097,Mo-Fr 09:00-18:30; Sa 9:00-17:00,Neukölln,Neukölln
+6632057685,11001001,0102,Posty,Lehrter Straße,nan,nan,nan,52.531583,13.3616685,Mo-Sa 08:00-23:59; Su 13:00-20:00,Mitte,Moabit
+6638539748,11002002,0201,City Spätkauf Mini Markt,Boxhagener Straße,nan,nan,nan,52.51384,13.4541743,nan,Friedrichshain-Kreuzberg,Friedrichshain
+6700773085,11001001,0106,Tante Emma Laden,Reinickendorfer Straße,nan,nan,nan,52.5566572,13.3659415,Mo-Fr 07:00-17:00; Sa 08:00-16:00,Mitte,Gesundbrunnen
+6709895166,11003003,0302,Lycamobil Day & Night,Berliner Allee,nan,nan,nan,52.5568894,13.4666418,Mo-Sa 12:00-00:00,Pankow,Weißensee
+6795294506,11003003,0301,Kiosk,Greifswalder Straße,nan,nan,nan,52.5329386,13.4287575,Mo-Sa 10:00-03:00,Pankow,Prenzlauer Berg
+6868834335,11001001,0101,24-Seven Market,Rosenthaler Straße,nan,nan,nan,52.5287282,13.4021977,24/7,Mitte,Mitte
+6898983539,11004004,0401,Ragazzo's Wunderland,Krumme Straße,nan,nan,nan,52.5108631,13.3092812,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+6927919632,11011011,1112,Kiosk 47,Weitlingstraße,nan,nan,nan,52.5062598,13.496215,Mo-Sa 10:00-24:00,Lichtenberg,Rummelsburg
+6988271062,11005005,0503,Lotto,Siemensdamm,nan,nan,nan,52.5359595,13.2752833,nan,Spandau,Siemensstadt
+7025879081,11003003,0301,Central Food + Getränkemarkt,Danziger Straße,+49 30 47758375,nan,nan,52.5356481,13.4334779,"Mo-Th 08:00-02:00, Fr 08:00-03:00, Sa 09:00-03:00",Pankow,Prenzlauer Berg
+7053084877,11001001,0102,Späti by Sticky,Turmstraße,nan,nan,nan,52.5270468,13.3340028,nan,Mitte,Moabit
+7061716475,11011011,1110,Lotto Shop,Konrad-Wolf-Straße,nan,nan,nan,52.5436124,13.4919493,nan,Lichtenberg,Alt-Hohenschönhausen
+7069825864,11003003,0301,Späti,Hufelandstraße,nan,nan,nan,52.5328763,13.4301559,Mo-Fr 10:00-18:00 Sa 10:00-16:00,Pankow,Prenzlauer Berg
+7122918327,11003003,0301,Latenight Shop Tor,Torstraße,nan,nan,nan,52.528482,13.4118467,nan,Pankow,Prenzlauer Berg
+7129308477,11001001,0102,Kiosk Backshop Morgenstund Berlin,Werftstraße,nan,nan,nan,52.5228407,13.3595896,"Mo-Fr 06:00-20:00, Sa 07:00-19:00",Mitte,Moabit
+7129374733,11004004,0401,ServiceStore DB,Else-Ury-Bogen,nan,nan,nan,52.5051701,13.3202788,24/7,Charlottenburg-Wilmersdorf,Charlottenburg
+7143783086,11002002,0202,Graefe Kiez Späti,Graefestraße,nan,nan,nan,52.4921123,13.4172698,Mo-Fr 11:00-19:00; Sa 10:00-19:00,Friedrichshain-Kreuzberg,Kreuzberg
+7195094855,11011011,1101,Tante Emma Laden,Dolgenseestraße,nan,nan,nan,52.4937495,13.507647,Mo-Sa 08:00-19:00,Lichtenberg,Friedrichsfelde
+7211094991,11003003,0301,Sp@tkauf 47,Greifswalder Straße,nan,nan,nan,52.5334314,13.4293759,"Mo-Sa 09:00-02:00, Su 10:00-02:00",Pankow,Prenzlauer Berg
+7238456632,11007007,0701,Back & Tabak,Ebersstraße,nan,nan,nan,52.4791962,13.3494407,Mo-Fr 05:00-22:00; Sa 07:00-22:00; Su off,Tempelhof-Schöneberg,Schöneberg
+7239671331,11008008,0801,GOP Market,Schöneweider Straße,nan,nan,nan,52.47188,13.4455819,Mo-Su 09:30-19:30,Neukölln,Neukölln
+7249782637,11003003,0301,Little Presents,Greifswalder Straße,nan,nan,nan,52.5433962,13.4425388,Mo-Fr 08:00-20:00; Sa 09:00-18:00,Pankow,Prenzlauer Berg
+7252363283,11008008,0801,G-K Kiosk,Leinestraße,nan,nan,nan,52.4733372,13.426349,24/7,Neukölln,Neukölln
+7257448216,11008008,0801,Spätkauf 19,Hermannstraße,nan,nan,nan,52.4835211,13.4245609,nan,Neukölln,Neukölln
+7258108398,11008008,0801,Aller Kiosk,Allerstraße,nan,nan,nan,52.4750384,13.4266453,nan,Neukölln,Neukölln
+7260706585,11004004,0402,Fair unverpackt,Düsseldorfer Straße,nan,nan,nan,52.4959,13.3215,"Tu, Th-Fr 09:30-19:00; Sa 10:00-16:00; We 10:00-16:00",Charlottenburg-Wilmersdorf,Wilmersdorf
+7281046460,11003003,0301,Spätkauf,Lychener Straße,nan,nan,nan,52.5414137,13.4152046,nan,Pankow,Prenzlauer Berg
+7289003922,11003003,0301,La Bodega,Senefelderstraße,nan,nan,https://www.labodega-berlin.com/,52.5420621,13.4228421,nan,Pankow,Prenzlauer Berg
+7291373630,11003003,0301,Grüne Meile,Stargarder Straße,nan,nan,nan,52.5456231,13.4206904,nan,Pankow,Prenzlauer Berg
+7292198182,11003003,0301,Suti Asia Markt,Stargarder Straße,nan,nan,nan,52.5436032,13.4245381,nan,Pankow,Prenzlauer Berg
+7296525277,11002002,0201,Spätkauf Olive,Frankfurter Allee,nan,nan,nan,52.5147816,13.4619901,nan,Friedrichshain-Kreuzberg,Friedrichshain
+7297159360,11001001,0102,Tabakwaren Sahiner,Birkenstraße,nan,nan,nan,52.5324174,13.3415874,Mo-Fr 06:00-21:00; Sa 06:30-21:00,Mitte,Moabit
+7308566114,11003003,0301,Asialebensmittel,Raumerstraße,nan,nan,nan,52.5418025,13.4208702,"Mo-Th 08:30-21:00; Fr, Sa 08:30-22:00",Pankow,Prenzlauer Berg
+7310117371,11003003,0301,Dicke Schwester Späti,Prenzlauer Allee,nan,nan,nan,52.5423392,13.4256516,nan,Pankow,Prenzlauer Berg
+7310691228,11003003,0301,Internet Cafe,Danziger Straße,nan,nan,nan,52.5401872,13.4193385,"Mo-Th 07:00-03:00, Fr-Su 08:00-04:00",Pankow,Prenzlauer Berg
+7353865378,11007007,0703,Grünschnabel,Manfred-von-Richthofen-Straße,nan,nan,nan,52.4837245,13.3839439,Mo-Fr 08:30-19:30; Sa 08:30-18:30,Tempelhof-Schöneberg,Tempelhof
+7416760729,11008008,0801,Hemadi Späti,Herrnhuter Weg,nan,nan,nan,52.4760124,13.4401398,nan,Neukölln,Neukölln
+7463511384,11008008,0801,I♥️Späti24/7,Treptower Straße,nan,nan,nan,52.4789131,13.4494378,nan,Neukölln,Neukölln
+7497969380,11008008,0801,Neuköllner Eck,Sonnenallee,nan,nan,nan,52.4742805,13.4546145,nan,Neukölln,Neukölln
+7530005420,11004004,0402,Tabakwaren Freitag,Bernhardstraße,nan,nan,nan,52.4785289,13.3302012,Mo-Fr 08:00-17:00,Charlottenburg-Wilmersdorf,Wilmersdorf
+7541757198,11002002,0201,Späti Bro,Warschauer Straße,nan,nan,nan,52.513565,13.4534698,nan,Friedrichshain-Kreuzberg,Friedrichshain
+7554171397,11007007,0702,Pen & Paper,Rheinstraße,nan,nan,nan,52.4705796,13.3339648,Mo-Fr 08:00-19:30; Sa 09:00-18:00,Tempelhof-Schöneberg,Friedenau
+7598149826,11007007,0702,Romania Markt,Bundesallee,nan,nan,https://piaroma.de/,52.4746042,13.3287763,Mo-Fr 10:00-19:00; Sa 08:00-18:00,Tempelhof-Schöneberg,Friedenau
+7598895276,11007007,0702,dein Markt,Schmiljanstraße,nan,nan,nan,52.4693807,13.3321452,nan,Tempelhof-Schöneberg,Friedenau
+7605882339,11001001,0105,Multi Shop,Müllerstraße,nan,nan,nan,52.5543561,13.3446507,nan,Mitte,Wedding
+7609585410,11008008,0801,Spätkauf 44,Karl-Marx-Straße,nan,nan,nan,52.4772245,13.4390112,nan,Neukölln,Neukölln
+7612272366,11001001,0105,Eko Market,Müllerstraße,nan,nan,nan,52.5564623,13.3418179,nan,Mitte,Wedding
+7613183877,11001001,0105,Maasai Market (Spätkauf),Barfusstraße,+49 30 95594155,nan,nan,52.5546446,13.3459195,Mo-Sa 11:00-22:30,Mitte,Wedding
+7619972077,11008008,0801,Daily Shop,Kottbusser Damm,nan,nan,nan,52.4913924,13.4233919,nan,Neukölln,Neukölln
+7627025801,11001001,0106,Multishop Eisenkralle,Swinemünder Straße,nan,nan,nan,52.5434887,13.3968566,"Mo-Su,PH 06:00-24:00+",Mitte,Gesundbrunnen
+7640981830,11004004,0401,Ma Vie,Mierendorffstraße,nan,nan,nan,52.5236888,13.3019662,Mo-Sa 07:00-24:00; Su 13:00-24:00; PH closed,Charlottenburg-Wilmersdorf,Charlottenburg
+7650143968,11008008,0801,Back Shop,Schierker Straße,nan,nan,nan,52.4701257,13.4313706,nan,Neukölln,Neukölln
+7660503822,11004004,0401,Späti 4 You,Krumme Straße,nan,nan,nan,52.5074724,13.30919,Mo-Sa 10:00-24:00,Charlottenburg-Wilmersdorf,Charlottenburg
+7709526506,11011011,1112,Kiez Shop,Lückstraße,nan,nan,nan,52.5011467,13.491734,"Mar Su[-1]-Oct Su[-1] -1 day: Mo-Th,Sa 08:00-00:00; Mar Su[-1]-Oct Su[-1] -1 day: Fr 08:00-02:00; Oct Su[-1]-Mar Su[-1] -1 day: Mo-Th 10:00-22:00; Oct Su[-1]-Mar Su[-1] -1 day: Fr-Sa 10:00-00:00; Su,P",Lichtenberg,Rummelsburg
+7728924601,11001001,0106,Jülicher Minimarkt,Jülicher Straße,nan,nan,nan,52.5520885,13.3914105,"PH,Mo-Sa 11:00-23:00+",Mitte,Gesundbrunnen
+7749865515,11001001,0101,Berlinshop,Alexanderstraße,nan,nan,nan,52.5240803,13.4137336,nan,Mitte,Mitte
+7764085885,11001001,0101,Adriano & Rach,Hausvogteiplatz,nan,nan,nan,52.512938,13.3972399,"Mo-Fr 07:00-23:00; Sa,Su 09:00-23:00",Mitte,Mitte
+7767847100,11004004,0403,Spät Shop,Mecklenburgische Straße,nan,nan,nan,52.4793893,13.3104642,nan,Charlottenburg-Wilmersdorf,Schmargendorf
+7775194172,11002002,0202,Spätkauf 25,Friesenstraße,nan,nan,nan,52.4885166,13.3946276,nan,Friedrichshain-Kreuzberg,Kreuzberg
+7776107179,11006006,0601,Kiosk Berlin,Schöneberger Straße,nan,nan,nan,52.4645916,13.3296439,Mo-Sa 10:00-24:00,Steglitz-Zehlendorf,Steglitz
+7781356468,11010010,1005,Lotto/Tabak/Presse Raschel,Lion-Feuchtwanger-Straße,nan,nan,nan,52.517514,13.582289,"Mo-Fr 08:00-18:00, Sa 08:00-14:00; PH off",Marzahn-Hellersdorf,Hellersdorf
+7804824563,11008008,0801,Lädchen im sunpark,Mariendorfer Weg,nan,nan,nan,52.4639137,13.4256744,Mo-Fr 08:00-14:00; Sa 08:00-12:00,Neukölln,Neukölln
+7867631179,11003003,0301,Goldeck,Prenzlauer Allee,nan,nan,nan,52.5388105,13.4244808,nan,Pankow,Prenzlauer Berg
+7867810046,11003003,0301,Lebensmittel Getränke-Obst-Gemüse,Winsstraße,01778912936,nan,nan,52.5371026,13.4280725,Mo-Sa 11:00-20:30,Pankow,Prenzlauer Berg
+7869333375,11008008,0801,fast shop,Erkstraße,nan,nan,nan,52.4810374,13.4371154,Mo-Sa 11:00-19:00,Neukölln,Neukölln
+7877976455,11001001,0105,Weltladen Wedding,Seestraße,nan,nan,nan,52.5487969,13.3496502,"Mo,We 16:00-19:00; Sa 00:00-14:00",Mitte,Wedding
+7924001318,11004004,0401,Internationale Presse,Holtzendorffstraße,nan,nan,nan,52.5060116,13.2958174,Mo-Sa 07:00-18:00; Su 08:00-12:00,Charlottenburg-Wilmersdorf,Charlottenburg
+7935469608,11002002,0202,Yorck 22,Yorckstraße,nan,nan,nan,52.4929607,13.3802016,Mo-Sa 08:00-22:00,Friedrichshain-Kreuzberg,Kreuzberg
+7948555755,11010010,1001,Asia-Shop,Mehrower Allee,nan,nan,nan,52.5557347,13.5639969,Mo-Sa 10:30-20:00,Marzahn-Hellersdorf,Marzahn
+8023092338,11002002,0202,Grimm Shop,Grimmstraße,nan,nan,nan,52.494521,13.4142313,nan,Friedrichshain-Kreuzberg,Kreuzberg
+8039726233,11004004,0401,Spätshop,Wilmersdorfer Straße,nan,nan,nan,52.5109746,13.3055846,"Mo-Sa 00:00-02:00,08:00-24:00; Su,PH 00:00-02:00,14:00-24:00",Charlottenburg-Wilmersdorf,Charlottenburg
+8095094763,11008008,0801,Afro Shop - Tropical Markt,Erkstraße,nan,nan,nan,52.4809682,13.4366464,Mo-Fr 12:00-22:00,Neukölln,Neukölln
+8126649023,11008008,0801,Backshop & Kiosk,Hermannstraße,nan,nan,nan,52.4819011,13.4245925,nan,Neukölln,Neukölln
+8177206746,11006006,0601,The 25 Hours Store,Schloßstraße,nan,nan,nan,52.4624278,13.3263509,24/7,Steglitz-Zehlendorf,Steglitz
+8208959404,11001001,0102,Am Park,Ottostraße,+49 30 3916408,nan,nan,52.5256297,13.3348927,nan,Mitte,Moabit
+8222300375,11007007,0701,Ährensache,Eisenacher Straße,nan,nan,nan,52.4856413,13.3515127,Mo-Fr 07:30-19:00; Sa 07:30-13:30,Tempelhof-Schöneberg,Schöneberg
+8223127022,11007007,0701,city Market,Eisenacher Straße,nan,nan,nan,52.4851141,13.3521526,nan,Tempelhof-Schöneberg,Schöneberg
+8223127042,11007007,0701,Späti,Dominicusstraße,nan,nan,nan,52.4815147,13.3484967,"Mo-Th 08:00-23:00, Fr 08:00-01:00, Sa 09:00-24:00; Su off",Tempelhof-Schöneberg,Schöneberg
+8255148508,11011011,1110,Juvit Natur,Hauptstraße,nan,nan,nan,52.5479217,13.5041232,Mo-Fr 10:00-17:00; Sa 10:00-13:00,Lichtenberg,Alt-Hohenschönhausen
+8257529782,11004004,0402,Balkan Minimarkt EU 2,Berliner Straße,nan,nan,nan,52.4869544,13.3282094,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+8257529783,11004004,0402,Balkan Minimarkt EU 2,Berliner Straße,nan,nan,nan,52.4869406,13.3281402,Mo-Sa 00:00-20:00,Charlottenburg-Wilmersdorf,Wilmersdorf
+8264923018,11004004,0402,Spätkauf am Nachodeck,Nachodstraße,nan,nan,nan,52.4952316,13.3349458,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+8265318078,11007007,0701,Kiosk Luther 99,Martin-Luther-Straße,nan,nan,nan,52.4854755,13.3453416,nan,Tempelhof-Schöneberg,Schöneberg
+8320408698,11008008,0801,Kiosk Backshop Tunc,Finowstraße,nan,nan,nan,52.4823129,13.4433259,nan,Neukölln,Neukölln
+8323288146,11008008,0801,Kiosk mit Lotto,Sonnenallee,nan,nan,nan,52.4819696,13.4399523,Mo-Sa 07:30-20:00,Neukölln,Neukölln
+8330505686,11012012,1210,Karl-Heinz Nowak und Sven Nowak Kiosk,Wesendorfer Straße,+49 30 40710185,nan,nan,52.6010245,13.36331,Mo-Fr 05:00-17:00; Sa-Su 06:00-13:00,Reinickendorf,Märkisches Viertel
+8355364812,11006006,0601,Kiosk,Markelstraße,nan,nan,nan,52.4640533,13.3250919,Mo-Fr 09:30-18:00; Sa 10:00-17:00,Steglitz-Zehlendorf,Steglitz
+8370782654,11006006,0601,Buschfunk Späti,Birkbuschstraße,+49 30 95998848,nan,nan,52.4455514,13.3302018,Mo-Fr 06:30-23:00; Sa 08:00-23:00; Su 07:30-22:00,Steglitz-Zehlendorf,Steglitz
+8389925453,11004004,0402,Spätkauf,Bundesallee,nan,nan,nan,52.4925816,13.3312131,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+8413213041,11009009,0905,Spar Express,Michael-Brückner-Straße,nan,nan,nan,52.4529939,13.5141699,nan,Treptow-Köpenick,Niederschöneweide
+8463977950,11011011,1109,Engel-Presse,Ribnitzer Straße,nan,nan,nan,52.5700527,13.4963509,nan,Lichtenberg,Neu-Hohenschönhausen
+8508795469,11010010,1001,ServiceStore DB,Allee der Kosmonauten,nan,nan,nan,52.5263664,13.5368261,nan,Marzahn-Hellersdorf,Marzahn
+8516433535,11001001,0106,Spätkauf,Hansastraße,nan,nan,nan,52.5585895,13.3708729,Mo-Fr 08:00-02:00; Sa 08:00-03:00; Su 12:00-20:00,Mitte,Gesundbrunnen
+8691573561,11007007,0701,eisenacher Tabak & Spätshop,Eisenacher Straße,nan,nan,nan,52.4866091,13.3502428,"Mo-Sa 11:00-23:30; Su,PH off",Tempelhof-Schöneberg,Schöneberg
+8726177799,11007007,0702,City Kiosk,Bundesallee,nan,nan,nan,52.4749713,13.3280924,nan,Tempelhof-Schöneberg,Friedenau
+8735608879,11004004,0401,The Market,Leibnizstraße,nan,nan,nan,52.5017546,13.3129938,Mo-Sa,Charlottenburg-Wilmersdorf,Charlottenburg
+8735688397,11004004,0401,Spätkauf 59,Schlüterstraße,nan,nan,nan,52.5050383,13.3176509,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+8759425992,11001001,0105,Kivo's Back & Kiezshop,Luxemburger Straße,nan,nan,nan,52.5463101,13.3586357,nan,Mitte,Wedding
+8766255537,11009009,0913,Tommy's Minilädchen,Regattastraße,nan,nan,nan,52.4179609,13.5798336,nan,Treptow-Köpenick,Grünau
+8766255543,11009009,0913,Tuans Späti,Regattastraße,nan,nan,nan,52.4199942,13.5785091,"Mo-Fr 07:00-23:00, Sa 10:00-23:00",Treptow-Köpenick,Grünau
+8775512439,11008008,0801,Oriental Shop,Karl-Marx-Straße,nan,nan,nan,52.485462,13.4258668,Mo 09:00-20:00; Tu-Sa 10:00-19:00,Neukölln,Neukölln
+8775512441,11008008,0801,Marx shop 12,Karl-Marx-Straße,nan,nan,nan,52.4854094,13.4259762,nan,Neukölln,Neukölln
+8783823473,11002002,0201,Späti,Rigaer Straße,nan,nan,nan,52.5153286,13.4715926,"PH,Su-Th 12:00-24:00, Fr,Sa 12:00-01:00",Friedrichshain-Kreuzberg,Friedrichshain
+8785469876,11001001,0101,City Kiosk,Friedrichstraße,nan,nan,nan,52.509889,13.3901614,nan,Mitte,Mitte
+8833770016,11006006,0602,Siriketha,Hindenburgdamm,nan,nan,nan,52.4434355,13.3154091,Mo-Sa 10:00-19:00,Steglitz-Zehlendorf,Lichterfelde
+8833792861,11006006,0602,Ayoob Market,Hindenburgdamm,nan,nan,nan,52.4441728,13.3153061,Mo-Sa 08:00-22:00,Steglitz-Zehlendorf,Lichterfelde
+8880479836,11003003,0307,ServiceStore DB,Florastraße,nan,nan,https://www.servicestoredb.de/sst-de/Standortfinder#!/l/berlin/florastrasse-52/360886,52.5664796,13.4106966,We-Fr 05:00-20:00; Sa 06:00-20:00; Su 07:00-20:00; Mo-Tu 05:00-20:00,Pankow,Pankow
+8890286247,11001001,0106,Nido's Späti,Brunnenstraße,nan,nan,nan,52.5421037,13.39272,nan,Mitte,Gesundbrunnen
+8896048660,11001001,0102,Back- und Getränkeshop Yasar,Krefelder Straße,nan,nan,nan,52.5246035,13.3396995,"PH,Mo-Su 12:00-24:00",Mitte,Moabit
+8918782091,11008008,0801,L5 Späti,Lenaustraße,nan,nan,nan,52.4899624,13.425536,12:00-24:00,Neukölln,Neukölln
+8989690899,11007007,0703,Ronya Minimarkt Spätkauf,Manfred-von-Richthofen-Straße,nan,nan,nan,52.4826253,13.381665,"Mo-Fr 08:00-01:00, Sa 09:00-24:00",Tempelhof-Schöneberg,Tempelhof
+9015007575,11001001,0102,Le prunier,Sickingenstraße,nan,nan,nan,52.5329554,13.3275975,nan,Mitte,Moabit
+9031951437,11008008,0801,Lotto Kiosk,Hermannstraße,nan,nan,nan,52.4786898,13.4260427,nan,Neukölln,Neukölln
+9031974484,11008008,0801,Späti Corner,Hermannstraße,+496966405060,nan,nan,52.48096,13.4252575,Mo-Su 12:00-00:00,Neukölln,Neukölln
+9073606224,11003003,0302,Kany Getränke,Berliner Allee,nan,nan,nan,52.5499705,13.4578066,"Mo-Fr 08:00-02:00, Sa 09:00-02:00, Su 10:00-01:00",Pankow,Weißensee
+9073812247,11003003,0307,Spätkauf,Berliner Straße,nan,nan,nan,52.5597554,13.4128012,"Mo-Sa 09:00-24:00, Tu-Su 00:00-13:00, Su 12:00-24:00",Pankow,Pankow
+9073823860,11003003,0302,Bäckerei & Cafe - Leo,Berliner Allee,nan,nan,nan,52.5518023,13.4662136,"Mo-Fr 06:00-18:00; Sa,Su 07:00-14:00",Pankow,Weißensee
+9079425217,11008008,0801,Nie Spät,Niemetzstraße,nan,nan,nan,52.4716196,13.451233,nan,Neukölln,Neukölln
+9091314041,11001001,0105,Minimarket Bulgaria,Seestraße,nan,nan,nan,52.5487018,13.3478032,nan,Mitte,Wedding
+9098346561,11007007,0701,Kiezkiosk,Bautzener Straße,nan,nan,nan,52.4906774,13.3709872,Sa 10:00-24:00; Su 11:00-21:00; Mo-Th 09:00-22:00; Fr 09:00-24:00,Tempelhof-Schöneberg,Schöneberg
+9114715766,11008008,0805,Tabakwaren Haese,Lipschitzallee,nan,nan,nan,52.4246102,13.4628133,"Mo-Fr 06:30-18:30; Sa 08:00-16:00; Su,PH 08:00-14:00",Neukölln,Gropiusstadt
+9178061413,11004004,0401,Ak Spätshop,Leibnizstraße,nan,nan,nan,52.509047,13.314067,Mo-Sa 07:00-23:30; Su 12:00-21:00,Charlottenburg-Wilmersdorf,Charlottenburg
+9237900833,11002002,0201,Dein Späti,Samariterstraße,nan,nan,nan,52.5153381,13.4648779,nan,Friedrichshain-Kreuzberg,Friedrichshain
+9253499009,11008008,0801,Zuhause,Werbellinstraße,nan,nan,nan,52.4794108,13.4320893,Tu-Su 16:00-22:00,Neukölln,Neukölln
+9262040839,11001001,0105,Spätkauf Sunside,Seestraße,nan,nan,nan,52.5492766,13.3489436,nan,Mitte,Wedding
+9286872873,11001001,0106,Telewelt,Grüntaler Straße,nan,nan,nan,52.5506603,13.3849502,nan,Mitte,Gesundbrunnen
+9293399680,11005005,0501,Weltladen Spandau,Reformationsplatz,nan,nan,nan,52.5382557,13.205759,"Sa 11:00-14:00; Tu,Th,Fr 11:00-16:00; We 11:00-18:00",Spandau,Spandau
+9298567404,11006006,0602,Kebe,Lorenzstraße,nan,nan,https://www.kebe.de/,52.4264522,13.3318003,Tu-Fr 10:00-18:00; Sa 10:00-14:00,Steglitz-Zehlendorf,Lichterfelde
+9329137097,11002002,0202,DHL Paketshop 444,Hallesches Ufer,nan,nan,nan,52.4985219,13.3879268,Mo-Sa 10:00-22:00,Friedrichshain-Kreuzberg,Kreuzberg
+9408430208,11001001,0106,Lotto,Soldiner Straße,nan,nan,nan,52.559998,13.3821283,Mo-Fr 06:00-18:00; Sa 07:00-18:00,Mitte,Gesundbrunnen
+9410449829,11002002,0202,DMX Shop,Graefestraße,nan,nan,nan,52.4895086,13.4148135,Mo-Th 07:00-01:00; Fr 07:00-24:00; Sa 00:00-24:00; Su 00:00-25:00,Friedrichshain-Kreuzberg,Kreuzberg
+9421237669,11007007,0701,Späti Wunderlampe,Eisenacher Straße,nan,nan,nan,52.4890896,13.3488826,"Mo-Th 08:00-01:00, Fr,Sa 08:00-02:00",Tempelhof-Schöneberg,Schöneberg
+9423507588,11003003,0302,Flink,Berliner Allee,nan,nan,https://www.goflink.com/de-DE/,52.5490036,13.454938,nan,Pankow,Weißensee
+9494951636,11002002,0201,Kaffee 21,Kopernikusstraße,nan,nan,nan,52.5102659,13.4548587,nan,Friedrichshain-Kreuzberg,Friedrichshain
+9513652541,11003003,0301,ServiceStore DB,Landsberger Allee,+49 30 40048314,nan,nan,52.5291187,13.4551573,"Mo-Fr 05:00-22:00; Sa,Su 08:00-22:00; PH 08:00-22:00",Pankow,Prenzlauer Berg
+9600044964,11003003,0302,Der Kiosk,Langhansstraße,nan,nan,nan,52.5492293,13.4489621,Mo-Fr 08:00-18:00; Sa 10:00-18:00,Pankow,Weißensee
+9651437284,11005005,0501,u Zosi - Filialie Nr. 2,Breite Straße,+49 30 30345367,info@uzosi.de,https://uzosi.de/,52.5360263,13.2039572,Mo-Fr 09:00-20:00; Sa 10:00-18:00,Spandau,Spandau
+9655515803,11007007,0701,Baba Späti,Feurigstraße,nan,nan,nan,52.4838581,13.3552811,nan,Tempelhof-Schöneberg,Schöneberg
+9657884217,11007007,0701,SpeedySpäti,Kolonnenstraße,+49 162 9047866,nan,nan,52.4853083,13.3629026,Mo-Fr 09:00-23:00; Sa 10:00-23:00,Tempelhof-Schöneberg,Schöneberg
+9675677189,11012012,1201,Unser Kaufmann,Reginhardstraße,nan,nan,nan,52.565593,13.3734825,nan,Reinickendorf,Reinickendorf
+9710866805,11008008,0802,Rewands Mini Market,Britzer Damm,nan,nan,nan,52.451746,13.4385183,Mo-Sa 12:00-20:00,Neukölln,Britz
+9741661166,11001001,0106,Multishop,Pankstraße,nan,nan,nan,52.5470506,13.3726216,nan,Mitte,Gesundbrunnen
+9762108276,11004004,0403,Night Shop,Breite Straße,nan,nan,nan,52.4752777,13.2916571,Mo-Fr 07:30-24:00,Charlottenburg-Wilmersdorf,Schmargendorf
+9794512248,11006006,0601,Forst Kiosk,Forststraße,nan,nan,nan,52.4649952,13.3122641,Mo-Fr 09:00-19:00; Sa 10:00-17:00,Steglitz-Zehlendorf,Steglitz
+9794512254,11006006,0601,Herat Markt,Schildhornstraße,nan,nan,nan,52.4641573,13.3173925,Mo-Sa 10:00-22:00; PH off,Steglitz-Zehlendorf,Steglitz
+9797339523,11011011,1109,Syriana Halal Supermarket,Warnitzer Straße,nan,nan,nan,52.5663363,13.5198514,nan,Lichtenberg,Neu-Hohenschönhausen
+9815364428,11007007,0704,Spätkauf Kaffee & Kuchen,Mariendorfer Damm,nan,nan,nan,52.4440097,13.3863579,nan,Tempelhof-Schöneberg,Mariendorf
+9823829854,11001001,0106,Flip Flop,Stettiner Straße,nan,nan,nan,52.5539769,13.3875942,"Mo-Sa 06:00-24:00, Su 08:00-24:00",Mitte,Gesundbrunnen
+9851080877,11001001,0102,Alamir,Huttenstraße,nan,nan,nan,52.527275,13.3281364,nan,Mitte,Moabit
+9917944555,11003003,0313,Kiezladen Wilhelmsruh,Hauptstraße,nan,nan,https://www.wilhelm-gibt-keine-ruh.de/unsere-projekte/kiezladen/,52.5865129,13.3673521,Tu 14:00-18:00; We-Fr 10:00-18:00; Sa 10:00-14:00,Pankow,Wilhelmsruh
+9921853763,11008008,0801,Presseshop Sahinoglu,Hobrechtstraße,nan,nan,nan,52.4931207,13.425712,Mo-Fr 06:30-00:00; Sa 07:00-00:00,Neukölln,Neukölln
+9929107284,11007007,0703,Spätkauf 222 Tempelhof,Tempelhofer Damm,+49 30 7511840,nan,https://spaetkauf-222-tempelhof.jimdosite.com/,52.4561705,13.3836036,Mo-Sa 07:00-01:00,Tempelhof-Schöneberg,Tempelhof
+9937044800,11001001,0106,3 Brüder - Feinmarkt,Bärbel-Bohley-Ring,nan,nan,nan,52.5481224,13.3983783,Mo-Su 08:30-22:00,Mitte,Gesundbrunnen
+9963977597,11003003,0302,Botan Shop,Langhansstraße,nan,nan,nan,52.5533981,13.4350349,Mo-Fr 09:00-23:00; Sa 10:00-23:00,Pankow,Weißensee
+9982099019,11003003,0301,Schätzchen,Marienburger Straße,nan,nan,nan,52.5349049,13.4236558,Tu-Sa 10:00-18:00,Pankow,Prenzlauer Berg
+9991258485,11007007,0701,"Melody ""dein Spätcafe""",Nollendorfstraße,nan,nan,nan,52.4981381,13.3532327,nan,Tempelhof-Schöneberg,Schöneberg
+10003644032,11001001,0102,Day-n-night Späti,Bremer Straße,nan,nan,nan,52.5293355,13.3385369,Mo-Fr 10:00-24:00; Sa 10:00-01:00,Mitte,Moabit
+10015418517,11001001,0105,Späti am Leopold,Nazarethkirchstraße,nan,nan,nan,52.5472988,13.3583897,Mo-Sa 00:00-00:00,Mitte,Wedding
+10015764560,11003003,0301,The Winsy Späti,Winsstraße,nan,nan,nan,52.5332463,13.424969,nan,Pankow,Prenzlauer Berg
+10035799726,11003003,0301,Mate Mate Spätshop,Schönhauser Allee,nan,nan,nan,52.5457547,13.4132813,nan,Pankow,Prenzlauer Berg
+10035842243,11003003,0301,Multishop,Schönhauser Allee,nan,nan,nan,52.5439948,13.4128254,nan,Pankow,Prenzlauer Berg
+10035890556,11003003,0301,meinspätkauf.de,Schönhauser Allee,nan,nan,nan,52.5424177,13.4126322,nan,Pankow,Prenzlauer Berg
+10045257317,11003003,0301,Ari Mini Markt,Kanzowstraße,nan,nan,nan,52.5449548,13.4267595,nan,Pankow,Prenzlauer Berg
+10053826429,11003003,0301,Yonkel Ork,Pappelallee,nan,nan,nan,52.5457019,13.417076,Tu-Fr 11:00-19:00; Sa 10:00-18:00,Pankow,Prenzlauer Berg
+10061362362,11009009,0901,MUCA Kiosk,Martin-Hoffmann-Straße,nan,nan,nan,52.4945129,13.4597253,nan,Treptow-Köpenick,Alt-Treptow
+10074966372,11003003,0301,Erna,Knaackstraße,+49 30 44318111,nan,nan,52.5381175,13.415034,We-Fr 14:00-19:00; Sa 12:00-16:00,Pankow,Prenzlauer Berg
+10075119373,11003003,0301,Ali Baba Späti,Schönhauser Allee,nan,nan,nan,52.5461139,13.4125811,nan,Pankow,Prenzlauer Berg
+10080485097,11002002,0202,Ganesa Spätkauf,Liegnitzer Straße,nan,nan,nan,52.4932469,13.4346448,09:00-23:00,Friedrichshain-Kreuzberg,Kreuzberg
+10098812512,11007007,0701,REWE To Go,Hauptstraße,+49 30 8515286,nan,nan,52.4740166,13.3388093,24/7,Tempelhof-Schöneberg,Schöneberg
+10106683990,11002002,0202,BBK Backshop,Ritterstraße,nan,nan,nan,52.5037784,13.40279,Mo-Fr 05:00-19:00; Sa-Su 06:00-16:00,Friedrichshain-Kreuzberg,Kreuzberg
+10111578842,11002002,0202,Papa Arley,Lindenstraße,nan,nan,nan,52.5027416,13.3953945,nan,Friedrichshain-Kreuzberg,Kreuzberg
+10124884253,11007007,0701,Kiosk,Hauptstraße,nan,nan,nan,52.488383,13.3587727,nan,Tempelhof-Schöneberg,Schöneberg
+10124884263,11007007,0701,Kiez Kiosk Späti,Akazienstraße,nan,nan,nan,52.489661,13.3534564,nan,Tempelhof-Schöneberg,Schöneberg
+10128949517,11008008,0801,Nil,Karlsgartenstraße,nan,nan,nan,52.482043,13.4236478,Mo-Sa 07:00-24:00,Neukölln,Neukölln
+10159421696,11002002,0202,"Tabakwaren, Zeitungen, Lotto",Ritterstraße,nan,nan,nan,52.5008713,13.4126871,nan,Friedrichshain-Kreuzberg,Kreuzberg
+10276611650,11003003,0301,hutfabrik,Pappelallee,nan,nan,nan,52.5416613,13.4132583,nan,Pankow,Prenzlauer Berg
+10290515369,11008008,0801,Afro-Shop,Boddinstraße,+49 30 68088980,nan,nan,52.4808295,13.4339179,nan,Neukölln,Neukölln
+10292188833,11003003,0302,Ossi,Langhansstraße,nan,nan,nan,52.5509128,13.4428238,24/7,Pankow,Weißensee
+10311152256,11006006,0601,Sweet's & Paper,Albrechtstraße,nan,nan,nan,52.4548799,13.3273029,Mo-Fr 09:00-20:00; Sa 09:00-19:00,Steglitz-Zehlendorf,Steglitz
+10540009034,11008008,0801,Späti 61,Karl-Marx-Straße,nan,nan,nan,52.4826635,13.4320124,nan,Neukölln,Neukölln
+10559266027,11001001,0102,Urban Mix Moabit,Alt-Moabit,nan,nan,nan,52.5244782,13.3490165,nan,Mitte,Moabit
+10595269898,11007007,0704,Lotto Toto Kilic,Mariendorfer Damm,nan,nan,nan,52.4474487,13.3856534,Mo-Fr 06:00-19:00; Sa 07:00-19:00,Tempelhof-Schöneberg,Mariendorf
+10595706365,11003003,0301,Minimarkt,Danziger Straße,nan,nan,nan,52.5392935,13.4219175,nan,Pankow,Prenzlauer Berg
+10603028959,11003003,0302,Botan Shop,Gustav-Adolf-Straße,nan,nan,nan,52.5531315,13.4333835,nan,Pankow,Weißensee
+10656566373,11007007,0704,Spati Shop,Mariendorfer Damm,nan,nan,nan,52.4474341,13.3851889,24/7,Tempelhof-Schöneberg,Mariendorf
+10674188131,11001001,0102,Tele Center,Wilhelmshavener Straße,nan,nan,nan,52.5271444,13.3411645,nan,Mitte,Moabit
+10685954216,11003003,0301,Snackpoint,Schwedter Straße,nan,nan,nan,52.5390713,13.4052698,nan,Pankow,Prenzlauer Berg
+10719447727,11001001,0102,Bazarche Hafez,Alt-Moabit,nan,nan,nan,52.5242824,13.3317078,Mo-Sa 10:00-20:00,Mitte,Moabit
+10748234853,11002002,0201,Boximarkt,Boxhagener Straße,nan,nan,nan,52.5137055,13.4554472,nan,Friedrichshain-Kreuzberg,Friedrichshain
+10755840510,11001001,0105,Barakat Supermarkt,Müllerstraße,nan,nan,nan,52.5440904,13.3627229,Mo-Sa 09:00-20:00,Mitte,Wedding
+10770738600,11001001,0102,Spätimo,Siemensstraße,nan,nan,nan,52.5327276,13.3332264,nan,Mitte,Moabit
+10814372130,11001001,0106,bangla bazar,Brunnenstraße,nan,nan,nan,52.5407536,13.3945494,Mo-Sa 10:00-20:00,Mitte,Gesundbrunnen
+10816746847,11006006,0602,Tabakwaren am Händelplatz,Hindenburgdamm,nan,nan,nan,52.4491275,13.31561,nan,Steglitz-Zehlendorf,Lichterfelde
+10982675038,11001001,0106,Kiosk,Badstraße,nan,nan,nan,52.5503578,13.3846537,nan,Mitte,Gesundbrunnen
+10983736844,11004004,0401,E-Tankstelle,Pestalozzistraße,nan,nan,nan,52.507613,13.3156802,nan,Charlottenburg-Wilmersdorf,Charlottenburg
+11025761916,11001001,0102,Spätkauf Spree,Beusselstraße,nan,nan,nan,52.5251037,13.328004,Mo-Th 09:00-00:00; Fr 09:00-01:00; Sa 10:00-01:00,Mitte,Moabit
+11091254505,11001001,0101,MYCONBINI,Torstraße,nan,nan,https://www.myconbini.com/,52.5276639,13.4133166,Mo-Fr 11:00-19:00; Sa 12:00-18:00,Mitte,Mitte
+11108713287,11003003,0301,Nubras Markt,Stubbenkammerstraße,nan,nan,nan,52.5420134,13.4245987,nan,Pankow,Prenzlauer Berg
+11118514949,11001001,0101,Lido Multishop,Spandauer Straße,nan,nan,nan,52.5208623,13.4041395,nan,Mitte,Mitte
+11153203140,11004004,0404,REWE To Go,Kronberger Straße,nan,nan,nan,52.4761353,13.2791162,nan,Charlottenburg-Wilmersdorf,Grunewald
+11166253805,11004004,0402,Bamberger Späti,Bamberger Straße,nan,nan,nan,52.4962719,13.3370967,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+11199678483,11001001,0106,Zwischen Bier und Angel,Neue Hochstraße,nan,nan,nan,52.5421838,13.3752598,nan,Mitte,Gesundbrunnen
+11245474874,11003003,0301,E4,Eberswalder Straße,nan,nan,nan,52.5406942,13.4058763,nan,Pankow,Prenzlauer Berg
+11284530895,11009009,0904,Sternchen Kiosk,Sterndamm,nan,nan,nan,52.4466877,13.5075971,Mo-Fr 10:00-18:00,Treptow-Köpenick,Johannisthal
+11293017164,11008008,0801,Madame Hobrecht,Hobrechtstraße,nan,nan,nan,52.4931555,13.4253595,"Mo-Fr 07:00-19:00; Sa,Su 08:00-19:00",Neukölln,Neukölln
+11373954350,11001001,0102,Tojo-Spätkauf,Bochumer Straße,nan,nan,nan,52.5232762,13.3379329,"Mo-Th 07:00-19:00, Fr-Sa 07:00-14:00",Mitte,Moabit
+11505868352,11007007,0702,Kiosk Rubel,Schwalbacher Straße,+49 30 64327779,kioskrubel@web.de,https://kiosk-rubel.metro.biz/?lang=de,52.4704137,13.320449,nan,Tempelhof-Schöneberg,Friedenau
+11539985823,11008008,0801,Star Kiosk,Sonnenallee,nan,nan,nan,52.4746314,13.4539033,nan,Neukölln,Neukölln
+11608052734,11001001,0101,Japan Plaza,Rochstraße,nan,nan,nan,52.5227899,13.4080716,Mo-Sa 09:00-20:00,Mitte,Mitte
+11648549442,11008008,0801,fastshop,Fuldastraße,nan,nan,nan,52.4825637,13.434064,nan,Neukölln,Neukölln
+11675955592,11008008,0801,Spätkultur,Karl-Marx-Straße,nan,nan,nan,52.4827182,13.43269,nan,Neukölln,Neukölln
+11755121587,11002002,0201,Boxi Stop,Boxhagener Straße,nan,nan,nan,52.5081103,13.4667129,nan,Friedrichshain-Kreuzberg,Friedrichshain
+11758614202,11006006,0601,TJ’s Späti,Schloßstraße,nan,nan,nan,52.4537507,13.3158657,Mo-Su 07:00-00:00,Steglitz-Zehlendorf,Steglitz
+11779106407,11004004,0407,Späti am Bahnhof,Hohenzollerndamm,nan,nan,nan,52.4884331,13.3008858,nan,Charlottenburg-Wilmersdorf,Halensee
+11800119683,11002002,0202,Kiosk 61,Kottbusser Straße,nan,nan,nan,52.4978568,13.4185982,nan,Friedrichshain-Kreuzberg,Kreuzberg
+11840842162,11008008,0801,Razzia,Hermannstraße,nan,nan,nan,52.4681312,13.4311506,nan,Neukölln,Neukölln
+11924810849,11001001,0101,Cult Späti,Veteranenstraße,nan,nan,nan,52.5333502,13.4026991,nan,Mitte,Mitte
+11963981061,11004004,0402,Giuseppetti,Südwestkorso,nan,nan,nan,52.4715095,13.3190218,"Mo-Fr 7:00-21:00,Sa 08:00-22:00,Su 10:00-21:00",Charlottenburg-Wilmersdorf,Wilmersdorf
+11986351451,11003003,0301,Time Out,Schönhauser Allee,nan,nan,nan,52.5422592,13.4117926,nan,Pankow,Prenzlauer Berg
+11990116897,11008008,0801,90 Minutes,Hermannstraße,nan,nan,nan,52.4762498,13.4264684,nan,Neukölln,Neukölln
+12040633078,11002002,0202,Mein Spätkauf,Adalbertstraße,nan,nan,nan,52.5002941,13.4187311,nan,Friedrichshain-Kreuzberg,Kreuzberg
+12043368755,11002002,0202,Urban 176,Urbanstraße,nan,nan,nan,52.4942586,13.4021463,nan,Friedrichshain-Kreuzberg,Kreuzberg
+12118267291,11002002,0202,Lotto-Getränke-Tabakwaren,Oranienstraße,nan,nan,nan,52.5014557,13.419152,Mo-Su 09:00-24:00,Friedrichshain-Kreuzberg,Kreuzberg
+12118457728,11001001,0101,etwas Spätkauf,Fehrbelliner Straße,nan,nan,nan,52.5323129,13.4058055,Mo-Fr 09:00-19:30; Sa 10:00-17:00,Mitte,Mitte
+12129102970,11008008,0801,Multi Kulti Shop,Lichtenrader Straße,nan,nan,nan,52.476415,13.4201892,Mo-Sa 10:00-22:00,Neukölln,Neukölln
+12160270078,11001001,0101,Lebensmittel,Brunnenstraße,nan,nan,nan,52.5362082,13.3978132,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Mitte,Mitte
+12176945401,11001001,0101,Spätkauf,Köpenicker Straße,nan,nan,nan,52.5112073,13.4160764,nan,Mitte,Mitte
+12259425156,11007007,0706,Eurogida Lichtenrade,Lichtenrader Damm,+49 30 28 44 58 80,nan,https://www.eurogida.de/filialen/#lichtenrade,52.4047249,13.4057108,Mo-Sa 08:00-20:00,Tempelhof-Schöneberg,Lichtenrade
+12298833010,11007007,0704,Shell Shop,Mariendorfer Damm,nan,nan,nan,52.4360457,13.3884045,nan,Tempelhof-Schöneberg,Mariendorf
+12301084001,11010010,1002,Jet,Köpenicker Straße,+49 30 51064070,nan,https://www.jet-tankstellen.de/kraftstoff/filialfinder/XJ05766/,52.4959113,13.562842,Mo-Fr 05:00-22:00; Sa 05:30-22:00; Su 06:00-22:00,Marzahn-Hellersdorf,Biesdorf
+12309529401,11003003,0301,Spätkauf MiniMarkt,Gleimstraße,nan,nan,nan,52.5474804,13.4125645,Mo-Su 10:00-24:00,Pankow,Prenzlauer Berg
+12323846407,11003003,0302,Neptun Späti,Langhansstraße,nan,nan,nan,52.5497198,13.4466577,nan,Pankow,Weißensee
+12475391575,11008008,0801,Getränkeshop,Karl-Marx-Straße,nan,nan,nan,52.4706417,13.4412273,nan,Neukölln,Neukölln
+12484517625,11012012,1202,The 25 Hours Store,Berliner Straße,nan,nan,nan,52.589449,13.2834621,nan,Reinickendorf,Tegel
+12588387837,11003003,0307,Total,Am Feuchten Winkel,+49 30 4742621,nan,http://store.total.de/germany/store-total-de/berlin/berlin-am-feuchten-winkel-11/ND020255,52.5821047,13.4324097,24/7,Pankow,Pankow
+12637232301,11003003,0302,Kiosk & Späti,Rennbahnstraße,nan,nan,nan,52.5604576,13.4588015,Mo-Th 07:00-00:00; Fr 07:00-01:00; Sa 08:00-00:00; Su 10:00-23:00,Pankow,Weißensee
+12676233501,11002002,0201,Bunter Laden,Blumenstraße,+49 30 24723822,Bunter_laden@yahoo.com,https://www.bunterladen.shop,52.5172414,13.432504,Mo-Fr 10:00-17:30; Sa 10:00-14:00,Friedrichshain-Kreuzberg,Friedrichshain
+12691114993,11001001,0102,Mian Market,Birkenstraße,nan,nan,https://www.mianmarket.de/,52.531741,13.3442708,Mo-Su 10:00-20:00,Mitte,Moabit
+12725939903,11006006,0603,Zainab's Multishop Späti,Kamenzer Damm,nan,nan,nan,52.4336907,13.3597406,nan,Steglitz-Zehlendorf,Lankwitz
+12772285466,11002002,0201,Voigt Späti,Voigtstraße,nan,nan,nan,52.516312,13.4685364,nan,Friedrichshain-Kreuzberg,Friedrichshain
+12793386255,11011011,1112,Confetti MiniMarket Spätkauf Späti,Nöldnerstraße,+493055631177,nan,nan,52.5019872,13.4792815,Mo–Fr 11:00–21:00; So 12:00–21:00,Lichtenberg,Rummelsburg
+12829967540,11003003,0301,Späti Gate1,Danziger Straße,nan,nan,nan,52.5409924,13.4134536,nan,Pankow,Prenzlauer Berg
+12843851508,11002002,0201,City Shop,Frankfurter Allee,nan,nan,nan,52.5135742,13.4739177,"Mo-Fr 08:00-19:00, Sa 08:00-16:00",Friedrichshain-Kreuzberg,Friedrichshain
+12856273035,11004004,0401,Nehring Kiosk,Nehringstraße,nan,nan,nan,52.513624,13.2946261,Mo-Fr 07:00-20:00; Sa 08:00-16:00; PH Su off,Charlottenburg-Wilmersdorf,Charlottenburg
+12858786225,11001001,0101,The Market,Tucholskystraße,nan,nan,nan,52.5266376,13.3932471,nan,Mitte,Mitte
+12909656554,11007007,0704,Mohikan Spätkauf,Mariendorfer Damm,nan,nan,nan,52.4381457,13.3881351,nan,Tempelhof-Schöneberg,Mariendorf
+12915931140,11008008,0801,dies & das,Boddinstraße,nan,nan,nan,52.4801609,13.4291902,Mo-Su 07:00-02:00,Neukölln,Neukölln
+12926298378,11003003,0302,Asia Lebensmittel,Berliner Allee,nan,nan,nan,52.5486862,13.4535649,Mo-Sa 08:00-20:00; Su 09:00-16:00,Pankow,Weißensee
+12956844762,11011011,1103,Kiosk Liese,Frankfurter Allee,nan,nan,nan,52.5112571,13.495689,Mo-Th 09:30-20:00; Fr 09:30-22:00; Sa 10:00-22:00; Su 10:00-20:00,Lichtenberg,Lichtenberg
+13000132702,11002002,0202,Spätkauf am Bad,Wiener Straße,nan,nan,nan,52.4974323,13.4312857,nan,Friedrichshain-Kreuzberg,Kreuzberg
+13041168046,11003003,0301,Kiezladen Cihê Me,Prenzlauer Allee,nan,nan,nan,52.5464369,13.4276832,nan,Pankow,Prenzlauer Berg
+13049908236,11004004,0402,Hanguk Markt,Uhlandstraße,nan,nan,nan,52.4885882,13.3224306,nan,Charlottenburg-Wilmersdorf,Wilmersdorf
+13114861708,11011011,1112,Bangla Bazar,Frankfurter Allee,nan,nan,nan,52.510751,13.5016798,nan,Lichtenberg,Rummelsburg
+13135186401,11007007,0701,scoom,General-Pape-Straße,nan,nan,nan,52.4760859,13.3648649,24/7,Tempelhof-Schöneberg,Schöneberg
+13203605001,11003003,0304,momoga,Prenzlauer Promenade,nan,nan,http://momoga.de,52.5571405,13.4294522,Mo-Fr 14:00-20:00; Sa 10:00-20:00,Pankow,Heinersdorf
+13289688781,11007007,0703,ZZ Balkan Shop Berlin,Germaniastraße,017647387759,nan,nan,52.464107,13.3994745,Mo-Sa 10:00-18:00,Tempelhof-Schöneberg,Tempelhof
+13306244164,11002002,0201,Minimarkt,Markgrafendamm,nan,nan,nan,52.499581,13.4661453,*,Friedrichshain-Kreuzberg,Friedrichshain

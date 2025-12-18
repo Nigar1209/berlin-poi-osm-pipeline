@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Data and backup folders
+gyms/sources/*.csv
+gyms/sources/*.geojson
+scripts/Backup/
+
+# VS Code etc.
+.vscode/
+
+# macOS
+.DS_Store

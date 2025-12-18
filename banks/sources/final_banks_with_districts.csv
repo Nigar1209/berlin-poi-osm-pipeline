@@ -1,0 +1,324 @@
+,bank_id,name,brand,operator,street,housenumber,postcode,opening_hours,atm,wheelchair,latitude,longitude,district,district_id
+0,28968292,berliner volksbank,berliner volksbank,nan,berliner straße,42,10713,"mo-fr 10:00-13:00, mo 14:00-16:00, tu,th 14:00-18:00",true,true,52.4866675,13.319723,Charlottenburg-Wilmersdorf,11004004
+1,60848455,sparkasse,nan,berliner sparkasse,anton-saefkow-platz,13,10369,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,unknown,52.5303309,13.4710375,Lichtenberg,11011011
+2,87040399,dkb,nan,nan,nan,nan,nan,unknown,unknown,unknown,52.51105,13.3887982,Mitte,11001001
+3,89274635,deutsche bank,deutsche bank,deutsche bank,alexanderstraße,5,10178,"mo-tu 10:00-18:00; we 10:00-16:00; th 10:00-18:00; fr 10:00-14:00; sa,su,ph off",true,true,52.5232377,13.4157495,Mitte,11001001
+4,203561614,sparkasse,nan,berliner sparkasse,helene-weigel-platz,1/2,12681,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5276869,13.5383271,Marzahn-Hellersdorf,11010010
+5,213106681,sparkasse,nan,berliner sparkasse,danziger straße,119,10407,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5362734,13.4336585,Pankow,11003003
+6,213108224,sparkasse,nan,berliner sparkasse,nan,2,10178,mo-fr 09:30-18:00,true,true,52.5208149,13.4136431,Mitte,11001001
+7,213112439,sparkasse,nan,berliner sparkasse,hackescher markt,4,10178,24/7,true,true,52.5235168,13.4018803,Mitte,11001001
+8,239659091,sparkasse,nan,berliner sparkasse,treskowallee,112,10318,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4817888,13.5250469,Lichtenberg,11011011
+9,239661671,sparkasse,nan,berliner sparkasse,wilhelminenhofstraße,41,12459,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,true,52.4610112,13.5209589,Treptow-Köpenick,11009009
+10,249221047,sparkasse,nan,berliner sparkasse,scharnweberstraße,14,13405,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,unknown,52.5637254,13.3289891,Reinickendorf,11012012
+11,253625297,sparkasse,nan,berliner sparkasse,boxhagener straße,55,10245,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5072911,13.4677685,Friedrichshain-Kreuzberg,11002002
+12,255336764,berliner sparkasse,nan,nan,nan,nan,nan,unknown,unknown,unknown,52.4699818,13.4632351,Neukölln,11008008
+13,257704250,sparkasse,nan,berliner sparkasse,schönwalder straße,28,13585,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5479034,13.2015723,Spandau,11005005
+14,259863450,sparkasse,nan,berliner sparkasse,bruno-taut-straße,1,12524,mo-th 09:00-18:00; fr 09:30-16:00,true,true,52.4127212,13.5714066,Treptow-Köpenick,11009009
+15,266614884,berliner volksbank,berliner volksbank,nan,nan,nan,nan,unknown,true,true,52.5114264,13.5862843,Marzahn-Hellersdorf,11010010
+16,266629927,sparkasse,nan,berliner sparkasse,hönower straße,48,12623,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00; ph off",false,true,52.508749,13.6135549,Marzahn-Hellersdorf,11010010
+17,269380542,sparkasse,nan,berliner sparkasse,schönhauser allee,83,10439,mo-th 09:30-18:00; fr 09:30-15:00,true,true,52.5508457,13.4143413,Pankow,11003003
+18,270915509,berliner volksbank,berliner volksbank,nan,märkische allee,378,12689,"mo 10:00-13:00,14:00-16:00; tu 10:00-13:00,14:00-18:00; we 10:00-13:00; th 10:00-13:00,14:00-18:00; fr 10:00-13:00",true,true,52.5705858,13.5667532,Marzahn-Hellersdorf,11010010
+19,271707886,santander,santander,seb,nan,nan,nan,unknown,true,true,52.5369021,13.2030227,Spandau,11005005
+20,271708583,sparkasse,nan,berliner sparkasse,breite straße,21,13597,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00; sa,su off",true,true,52.5366871,13.2053397,Spandau,11005005
+21,271710347,targobank,targobank,nan,nan,nan,nan,"mo-fr 10:00-13:00, tu,th 14:00-18:00",true,true,52.5379015,13.2044788,Spandau,11005005
+22,271891568,targobank,targobank,nan,nan,nan,nan,"mo-fr 10:00-13:00, mo,tu,th 14:00-18:00",true,true,52.5011008,13.341955,Tempelhof-Schöneberg,11007007
+23,275891182,deutsche bank,deutsche bank,nan,unter den linden,13,10117,"mo 10:00-13:00,14:00-18:00; tu 10:00-13:00,14:00-18:00; we 10:00-13:00; th 10:00-13:00,14:00-18:00; fr 10:00-14:00",true,false,52.5168774,13.3916223,Mitte,11001001
+24,277065067,sparkasse,sparkasse,berliner sparkasse,schloßstraße,35,12163,"mo-fr 09:30-18:00; sa,su,ph off",true,true,52.4573971,13.3209,Steglitz-Zehlendorf,11006006
+25,278131188,commerzbank,commerzbank,commerzbank,nan,nan,nan,"mo,we 09:00-13:00,14:00-16:00; tu,th 09:00-13:00,14:30-18:00; fr 09:00-14:00",unknown,true,52.538325,13.2018907,Spandau,11005005
+26,278299922,berliner sparkasse,nan,nan,kaiserkorso,154,12101,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,true,52.4837587,13.3849844,Tempelhof-Schöneberg,11007007
+27,278735091,berliner volksbank,berliner volksbank,nan,müllerstraße,151,nan,"mo-fr 10:00-13:00; mo 14:00-16:00; tu,th 14:00-18:00; sa-su off",true,false,52.5465951,13.3583613,Mitte,11001001
+28,279305513,pax-bank,pax-bank,pax-bank eg,chausseestraße,128A,10115,mo-th 09:00-16:00; fr 09:00-13:00,true,true,52.5277358,13.3855389,Mitte,11001001
+29,279387386,deutsche bank,deutsche bank,nan,müllerstraße,32,13353,"mo,tu,th 10:00-13:00,14:00-18:00; we,fr 10:00-14:00",true,true,52.5479747,13.3568836,Mitte,11001001
+30,282430537,commerzbank,commerzbank,nan,nan,nan,nan,"mo-fr 09:00-13:00, th 14:00-18:00, tu 09:00-13:00,14:00-16:00",true,true,52.5159765,13.4575184,Friedrichshain-Kreuzberg,11002002
+31,282465619,sparkasse,nan,berliner sparkasse,erich-kurz-straße,9,10319,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00; ph off",true,true,52.4975398,13.5203133,Lichtenberg,11011011
+32,282758807,berliner volksbank,berliner volksbank,berliner volksbank,frankfurter allee,69,10247,"mo-fr 10:00-13:00, tu,th 14:00-18:00, mo 14:00-16:00",true,true,52.5146557,13.467775,Friedrichshain-Kreuzberg,11002002
+33,282759670,santander,santander,nan,frankfurter allee,70,10247,"tu,th 09:00-13:00,14:00-18:00; mo,we 09:00-13:00,14:00-16:00; fr 09:00-14:00",unknown,unknown,52.5142273,13.4672334,Friedrichshain-Kreuzberg,11002002
+34,282833032,sparkasse,nan,berliner sparkasse,hultschiner damm,83,12623,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00; ph off",false,true,52.4827553,13.6012962,Marzahn-Hellersdorf,11010010
+35,283287313,sparkasse,nan,berliner sparkasse,berliner straße,99,13507,mo-th 09:30-18:00; fr 09:30-16:00,true,false,52.5894424,13.2840835,Reinickendorf,11012012
+36,283287364,sparkasse,nan,berliner sparkasse,oranienburger straße,194,13437,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,true,52.5956546,13.332671,Reinickendorf,11012012
+37,283287402,sparkasse,nan,berliner sparkasse,müllerstraße,53,13349,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5531369,13.347713,Mitte,11001001
+38,283287488,sparkasse,nan,berliner sparkasse,friedrichstraße,148,10117,"tu,th 09:30-18:00; mo,we,fr 09:30-15:00; ph closed",true,true,52.5195079,13.3881322,Mitte,11001001
+39,285082079,sparkasse,nan,berliner sparkasse,warschauer straße,55,10243,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5086558,13.4513189,Friedrichshain-Kreuzberg,11002002
+40,287444109,reisebank,reisebank,nan,nan,nan,nan,"mo-su,ph 08:00-21:00",true,true,52.5066412,13.3321498,Charlottenburg-Wilmersdorf,11004004
+41,292051576,sparkasse,nan,berliner sparkasse,bölschestraße,81,12587,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.455179,13.6249313,Treptow-Köpenick,11009009
+42,292700480,sparda-bank berlin,sparda-bank berlin,sparda-bank berlin eg,nan,nan,nan,"mo-th 09:00-13:00,14:00-18:00; we,fr 09:00-13:00",true,true,52.5893531,13.2835504,Reinickendorf,11012012
+43,302949475,sparkasse,nan,berliner sparkasse,falkenseer chaussee,33,13583,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5480048,13.1836134,Spandau,11005005
+44,304791561,santander,santander,santander consumer bank,schönhauser allee,85,10439,"mo-th 09:00-13:00, mo,we 14:00-16:00, tu,th 14:00-18:00, fr 09:00-14:00",true,false,52.5515043,13.4144894,Pankow,11003003
+45,310385704,deutsche bank,deutsche bank,nan,wexstraße,1,10825,"mo,tu 14:00-18:00; we,th 10:00-13:00; fr 10:00-14:00",true,false,52.4789708,13.3433052,Tempelhof-Schöneberg,11007007
+46,311039022,deutsche bank,deutsche bank,nan,kurfürstendamm,28,10719,unknown,true,true,52.5031107,13.3268376,Charlottenburg-Wilmersdorf,11004004
+47,313144189,sparkasse sb-center,nan,berliner sparkasse,nan,nan,nan,mo-fr 07:00-24:00; sa 07:00-23:30,true,true,52.52588,13.4471598,Friedrichshain-Kreuzberg,11002002
+48,313162501,sparda-bank berlin,sparda-bank berlin,nan,schloßstraße,97,12163,"tu,th,fr 09:00-13:00, tu,th 14:00-18:00",unknown,true,52.4588324,13.3228843,Steglitz-Zehlendorf,11006006
+49,313233252,commerzbank,commerzbank,commerzbank,nan,nan,nan,mo-fr 09:00-19:00,unknown,true,52.5041776,13.3349624,Charlottenburg-Wilmersdorf,11004004
+50,315816388,sparkasse,nan,berliner sparkasse,hauptstraße,135,10827,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,false,52.4849159,13.3544351,Tempelhof-Schöneberg,11007007
+51,316772344,berliner volksbank,berliner volksbank,berliner volksbank,nan,nan,nan,"mo-fr 10:00-13:00,14:00-18:00",true,false,52.5893241,13.2842965,Reinickendorf,11012012
+52,319229036,commerzbank,commerzbank,commerzbank,nan,nan,nan,"mo-fr 09:00-13:00, th 14:00-18:00, tu 14:00-16:00",true,true,52.4322593,13.5357184,Treptow-Köpenick,11009009
+53,322078516,postbank,postbank,nan,müllerstraße,156b,13353,mo-fr 09:00-18:30; sa 09:00-14:00,true,unknown,52.5452716,13.3606846,Mitte,11001001
+54,323597687,deutsche bank,deutsche bank,deutsche bank,nan,nan,nan,"mo,tu,th 10:00-12:30, we,fr 10:00-14:00, mo,tu,th 14:00-18:00",true,true,52.4282677,13.3270905,Steglitz-Zehlendorf,11006006
+55,323602520,berliner volksbank,berliner volksbank,berliner volksbank,kranoldplatz,2,12209,mo-fr 10:00-13:00,true,unknown,52.4278403,13.3276196,Steglitz-Zehlendorf,11006006
+56,324365784,sparkasse,nan,berliner sparkasse,karl-marx-allee,91,10243,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",unknown,true,52.5177105,13.4401523,Friedrichshain-Kreuzberg,11002002
+57,330140989,sparkasse,nan,berliner sparkasse,skalitzer straße,15,10999,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4988786,13.420093,Friedrichshain-Kreuzberg,11002002
+58,331515778,gls bank,nan,gls gemeinschaftsbank,schumannstraße,10,10117,"mo-th 10:00-12:30,14:00-16:00; fr 10:00-13:00",true,true,52.5241263,13.3828334,Mitte,11001001
+59,332967732,santander,santander,nan,prinzenallee,89-90,13357,"mo,tu,th 09:00-13:00, tu,th 14:00-18:00, fr 09:00-14:00, we 09:00-13:00,14:00-16:00",unknown,unknown,52.5528208,13.3816626,Mitte,11001001
+60,334727707,sparkasse,nan,berliner sparkasse,muskauer straße,48,10997,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5013818,13.4312566,Friedrichshain-Kreuzberg,11002002
+61,335870281,hallo sparda,sparda-bank,sparda-bank berlin eg,blissestraße,5,10713,"mo 09:00-13:00; tu 09:00-13:00,14:00-18:00; th 09:00-13:00,14:00-18:00",true,unknown,52.4862003,13.3209362,Charlottenburg-Wilmersdorf,11004004
+62,340324654,postbank,postbank,nan,otto-schmirgal-straße,3,10319,"mo-fr 09:00-18:00, sa 09:00-12:30; ph off",true,true,52.4975046,13.5223099,Lichtenberg,11011011
+63,346135245,sparkasse,sparkasse,berliner sparkasse,schulzendorfer straße,1,13347,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,unknown,52.5398213,13.3709781,Mitte,11001001
+64,346608399,sparkasse,nan,berliner sparkasse,wilmersdorfer straße,57,10627,"mo-th 09:30-18:00; fr 09:30-15:00; sa-su,ph off||mo-th 06:00-23:00 open ""sb-bereich"";fr 06:00-24:00 open ""sb-bereich""; sa 00:00-24:00 open ""sb-bereich""; su 00:00-23:00 open ""sb-bereich""",true,true,52.5076156,13.3061738,Charlottenburg-Wilmersdorf,11004004
+65,355142046,commerzbank,commerzbank,commerzbank,nan,nan,nan,"mo-th 09:00-13:00, fr 09:00-14:00, mo,we 14:00-16:00, tu,th 14:30-18:00",unknown,false,52.5896791,13.2832149,Reinickendorf,11012012
+66,355180027,deutsche bank,deutsche bank,nan,teltower damm,2,14169,"mo,tu,th 10:00-12:30,14:00-18:00; we,fr 10:00-14:00",true,true,52.4349895,13.2596238,Steglitz-Zehlendorf,11006006
+67,366013582,sparkasse,nan,berliner sparkasse,turmstraße,33,10551,mo-th 09:30-18:00; fr 09:30-15:00,true,true,52.5265587,13.340121,Mitte,11001001
+68,366429802,sparkasse,nan,berliner sparkasse,stendaler straße,21,12627,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,true,52.5373155,13.6041606,Marzahn-Hellersdorf,11010010
+69,370131145,postbank,postbank,nan,steglitzer damm,24,12169,mo-fr 09:30-18:00; sa 09:30-14:00,false,true,52.4506725,13.339864,Steglitz-Zehlendorf,11006006
+70,370172188,commerzbank,commerzbank,commerzbank,turmstraße,32,10551,"tu-fr 09:00-13:00, 14:00-16:00, tu,th 14:30-18:00",true,true,52.5265453,13.3406471,Mitte,11001001
+71,370765387,berliner volksbank,berliner volksbank,nan,kurfürstendamm,nan,10707,"mo-fr 10:00-13:00,14:00-18:00",true,unknown,52.5018157,13.3192893,Charlottenburg-Wilmersdorf,11004004
+72,375800452,deutsche bank,deutsche bank,deutsche bank,nan,nan,nan,"mo, tu, th 10:00-18:00; we, fr 10:00-16:00",true,true,52.5140687,13.3197163,Charlottenburg-Wilmersdorf,11004004
+73,414996118,sparkasse,nan,berliner sparkasse,sterndamm,79,12487,mo 09:30-15:00; th 09:30-18:00,true,unknown,52.4455851,13.5057931,Treptow-Köpenick,11009009
+74,415791575,sparkasse,nan,berliner sparkasse,drakestraße,32,12205,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4426382,13.2974109,Steglitz-Zehlendorf,11006006
+75,415858762,berliner volksbank,berliner volksbank,berliner volksbank eg,tempelhofer damm,152,12099,"mo-th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00,14:00-16:00",true,unknown,52.4647956,13.3853614,Tempelhof-Schöneberg,11007007
+76,416660137,targobank,targobank,targobank,wilmersdorfer straße,128,10627,"mo-tu,th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00; sa-su,ph off",true,true,52.5101491,13.3058142,Charlottenburg-Wilmersdorf,11004004
+77,417302813,sparkasse privatkundencenter,nan,berliner sparkasse,weitlingstraße,59/60,10317,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5055916,13.4960317,Lichtenberg,11011011
+78,419566429,deutsche bank,deutsche bank,deutsche bank,nan,nan,nan,"mo-th 10:00-13:00, mo,tu,th 14:00-18:00, we 14:00-16:00, fr 10:00-14:00",unknown,true,52.5910337,13.2826465,Reinickendorf,11012012
+79,420448903,postbank,postbank,nan,nan,nan,nan,unknown,true,unknown,52.4868431,13.4237278,Friedrichshain-Kreuzberg,11002002
+80,421299910,berliner volksbank,berliner volksbank,berliner volksbank,bahnhofstraße,nan,12305,"mo 10:00-16:00; tu,th 10:00-18:00; we,fr 10:00-13:00",true,true,52.3865001,13.4028829,Tempelhof-Schöneberg,11007007
+81,421299912,deutsche bank,deutsche bank,deutsche bank,bahnhofstraße,nan,12305,"fr 10:00-14:00; mo,tu,th 10:00-12:30,14:00-18:00; we 10:00-14:00",true,unknown,52.3865106,13.4016296,Tempelhof-Schöneberg,11007007
+82,422510102,sparkasse sb-service,nan,berliner sparkasse,prenzlauer allee,182,10405,"mo-fr 06:00-23:00; sa, su 08:00-23:00",true,unknown,52.5432142,13.4261762,Pankow,11003003
+83,426581071,targobank,targobank,targobank ag & co. kgaa,badstraße,8,13357,"mo,tu,th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00",true,false,52.5497704,13.3865323,Mitte,11001001
+84,430643794,sparkasse,nan,berliner sparkasse,keilerstraße,17,13503,"tu 10:00-18:00, fr 10:00-15:00",true,unknown,52.610274,13.2490725,Reinickendorf,11012012
+85,434517788,sparkasse,nan,berliner sparkasse,hermannstraße,162,12051,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,unknown,52.4688328,13.4307923,Neukölln,11008008
+86,437514581,sparkasse,nan,berliner sparkasse,popitzweg,18,13629,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5370508,13.2737663,Spandau,11005005
+87,439234898,santander,santander,nan,bölschestraße,63,12587,"mo-th 09:00-13:00, we 14:00-16:00, mo,tu,th 14:00-18:00, fr 09:00-14:00",true,unknown,52.4553097,13.6255293,Treptow-Köpenick,11009009
+88,441306019,targobank,targobank,targobank,nan,nan,nan,unknown,true,true,52.5376745,13.2030843,Spandau,11005005
+89,441734598,commerzbank,commerzbank,commerzbank ag,karl-marx-straße,76,nan,"mo-th 09:00-13:00; mo,we 14:00-16:00; tu,th 14:30-18:00; fr 09:00-14:00; sa-su,ph off",true,true,52.4816263,13.4338,Neukölln,11008008
+90,442387117,commerzbank,commerzbank,nan,nan,nan,nan,"mo-fr 09:00-13:00, mo 14:00-16:00, tu,th 14:30-18:00",true,true,52.4605838,13.384535,Tempelhof-Schöneberg,11007007
+91,442393073,deutsche bank,deutsche bank,nan,mariendorfer damm,69,12109,"mo-th 10:00-18:00, fr 10:00-14:00",true,true,52.4464966,13.3858816,Tempelhof-Schöneberg,11007007
+92,442394344,berliner volksbank,berliner volksbank,nan,mariendorfer damm,88-90,12109,"mo-we,fr 10:00-18:00, th 10:00-19:30",true,true,52.4448559,13.3856992,Tempelhof-Schöneberg,11007007
+93,445821376,berliner sparkasse sb-service,berliner sparkasse,berliner sparkasse,britzer damm,100,12347,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,unknown,52.4538349,13.4378411,Neukölln,11008008
+94,447946785,@surfpoint,postbank,nan,nan,nan,nan,mo-fr 10:00-18:00; sa 10:00-12:30,unknown,true,52.4847666,13.3846979,Friedrichshain-Kreuzberg,11002002
+95,448810337,sparkasse,berliner sparkasse,berliner sparkasse,karl-marx-straße,91,12043,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,unknown,52.4804888,13.4361289,Neukölln,11008008
+96,450688374,berliner volksbank,berliner volksbank,nan,nan,nan,nan,unknown,true,unknown,52.5371926,13.2039561,Spandau,11005005
+97,454206542,berliner volksbank,berliner volksbank,nan,wilmersdorfer straße,65,10627,"mo-fr 10:00-13:00, mo 14:00-16:00, tu,th 14:00-18:00",true,true,52.5061264,13.3066124,Charlottenburg-Wilmersdorf,11004004
+98,467821680,berliner volksbank,berliner volksbank,berliner volksbank,kottbusser damm,63/64,10967,"tu,th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00; mo 10:00-13:00,14:00-16:00",true,true,52.4883294,13.425376,Friedrichshain-Kreuzberg,11002002
+99,469293560,commerzbank,commerzbank,nan,breite straße,4b,13187,"mo-fr 09:00-13:00, tu 14:00-16:00, th 14:00-18:00",true,true,52.5715907,13.4114826,Pankow,11003003
+100,472430734,targobank,targobank,targobank,nan,nan,nan,unknown,true,unknown,52.4311032,13.4568179,Neukölln,11008008
+101,472430735,deutsche bank,deutsche bank,nan,johannisthaler chaussee,300,12351,unknown,true,true,52.4307672,13.455791,Neukölln,11008008
+102,472514884,sparkasse sb-center,nan,berliner sparkasse,am treptower park,14,12435,mo-su 08:00-22:00,true,true,52.4908662,13.4574268,Treptow-Köpenick,11009009
+103,486078400,deutsche bank,deutsche bank,nan,marzahner promenade,25,12679,"mo,tu,th 10:00-12:30,14:00-18:00; we,fr 10:00-14:00",unknown,unknown,52.5437749,13.546687,Marzahn-Hellersdorf,11010010
+104,493681654,commerzbank,commerzbank,nan,kaiserdamm,118,14057,"mo-we 09:00-13:00, mo 14:00-16:00, tu,th 14:30-18:00",unknown,false,52.5106007,13.2969401,Charlottenburg-Wilmersdorf,11004004
+105,493681656,deutsche bank,deutsche bank,nan,bismarckstraße,68,10627,"mo-th 10:00-18:00, fr 10:00-14:00",true,true,52.5107652,13.2981039,Charlottenburg-Wilmersdorf,11004004
+106,500086133,berliner volksbank,berliner volksbank,nan,hohenzollerndamm,95,14199,unknown,true,true,52.4767912,13.2802998,Charlottenburg-Wilmersdorf,11004004
+107,500339585,sparkasse,nan,berliner sparkasse,frankfurter allee,111,10247,mo-fr 09:30-18:00; ph off,true,true,52.5139618,13.4746576,Friedrichshain-Kreuzberg,11002002
+108,508423750,commerzbank,commerzbank,nan,teplitzer straße,42,14193,"mo, we, fr 09:00-13:00; tu 09:00-13:00,14:00-16:00; th 09:00-13:00,14:00-18:00; sa, su, ph off",true,false,52.4774757,13.2810552,Charlottenburg-Wilmersdorf,11004004
+109,508504964,sparkasse,nan,berliner sparkasse,bahnhofstraße,33-38,12555,"mo,we,fr 09:30-15:00; ph off; tu,th 09:30-18:00",true,true,52.4584176,13.5788701,Treptow-Köpenick,11009009
+110,508657349,targobank,targobank,targo bank,nan,nan,nan,24/7,true,false,52.5878887,13.2851036,Reinickendorf,11012012
+111,510622166,targobank,targobank,targobank,nan,nan,nan,unknown,true,unknown,52.4580147,13.3844309,Tempelhof-Schöneberg,11007007
+112,514784167,deutsche bank,deutsche bank,nan,frankfurter allee,113-117,10365,"mo,tu,th 10:00-12:30, we,fr 10:00-14:00; ph off, mo,tu,th 14:00-18:00",true,true,52.5140938,13.4771868,Lichtenberg,11011011
+113,520518096,hypovereinsbank,hypovereinsbank,nan,leibnizstraße,100,10625,"mo,we,fr 10:00-13:00; tu,th 10:00-13:00,15:30-18:00; sa-su,ph off",true,true,52.5123669,13.314511,Charlottenburg-Wilmersdorf,11004004
+114,520518112,commerzbank,commerzbank,commerzbank ag,uhlandstraße,9,10623,mo-fr 08:00-19:30,true,true,52.5060841,13.3255831,Charlottenburg-Wilmersdorf,11004004
+115,534020277,sparkasse,nan,berliner sparkasse,schnellerstraße,128,12439,"mo,we,fr 09:30-15:00; tu,th 09:30-13:30,15:00-18:00",true,true,52.4565864,13.5103657,Treptow-Köpenick,11009009
+116,534893143,weberbank,nan,nan,nan,nan,nan,mo-th 09:00-18:00; fr 09:00-16:00,true,true,52.4833445,13.2927933,Charlottenburg-Wilmersdorf,11004004
+117,540771894,n26 bank gmbh,nan,nan,klosterstraße,62,10179,mo-sa 07:00-21:00,false,unknown,52.5160389,13.4125772,Mitte,11001001
+118,554098383,commerzbank,commerzbank,nan,nan,nan,nan,"mo-fr 09:00-13:00, tu,th 14:00-16:00",true,true,52.5424561,13.4898888,Lichtenberg,11011011
+119,560436662,berliner volksbank,berliner volksbank,berliner volksbank eg,baumschulenstraße,96,12437,"mo-fr 10:00-13:00, mo 14:00-16:00, tu,th 14:00-18:00",true,false,52.4672823,13.4888286,Treptow-Köpenick,11009009
+120,574458715,deutsche bank quartier zukunft,deutsche bank,nan,friedrichstraße,181,10117,mo-sa 10:00-18:00; ph closed,unknown,true,52.5126012,13.3893178,Mitte,11001001
+121,588557534,berliner volksbank,berliner volksbank,nan,berliner allee,19,13088,mo-su 06:00-23:00,true,true,52.5479896,13.4497608,Pankow,11003003
+122,588557537,targobank,targobank,targobank,berliner allee,36,13088,"mo-fr 10:00-13:00, tu 14:00-18:00",true,true,52.5482051,13.4514665,Pankow,11003003
+123,597276443,commerzbank,commerzbank,nan,nan,nan,nan,"mo-th 09:00-13:00, fr 09:00-14:00, mo,we 14:00-16:00, tu,th 14:30-18:00",true,true,52.5634416,13.3278923,Reinickendorf,11012012
+124,610317477,commerzbank,commerzbank,commerzbank,bahnhofstraße,nan,12305,"mo-fr 09:00-13:00, tu,th 14:00-18:00",true,true,52.3868293,13.4040655,Tempelhof-Schöneberg,11007007
+125,616300424,postbank,postbank,nan,wilmersdorfer straße,46,10627,"mo-fr 09:00-18:00; sa 10:00-14:00; su,ph off",unknown,true,52.5088354,13.3044726,Charlottenburg-Wilmersdorf,11004004
+126,622663107,sparda-bank berlin,sparda-bank berlin,sparda-bank berlin eg,nan,nan,nan,"mo-th 09:00-13:00,14:00-18:00, we,fr 09:00-13:00; ph off",true,unknown,52.5460255,13.5924192,Marzahn-Hellersdorf,11010010
+127,643509398,sparkasse,nan,berliner sparkasse,badstraße,4,13357,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5493977,13.3888512,Mitte,11001001
+128,652431954,commerzbank,commerzbank,nan,johannisthaler chaussee,307,12351,"mo,we 09:00-13:00,14:00-16:00; tu,th 09:00-13:00,14:30-18:00; fr 09:00-14:00",true,true,52.4295618,13.4552885,Neukölln,11008008
+129,652718726,gries & heissel bankiers,nan,nan,nan,nan,nan,unknown,unknown,unknown,52.4891489,13.289254,Charlottenburg-Wilmersdorf,11004004
+130,652724916,sparkasse,nan,berliner sparkasse,breite straße,12,14199,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.474255,13.2949251,Charlottenburg-Wilmersdorf,11004004
+131,656210656,sparkasse,nan,berliner sparkasse,brunsbütteler damm,261-263,13591,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5325968,13.1578795,Spandau,11005005
+132,660065068,sparkasse,nan,berliner sparkasse,mariendorfer damm,446,12107,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4147231,13.4006215,Tempelhof-Schöneberg,11007007
+133,660065069,deutsche bank,deutsche bank,deutsche bank,mariendorfer damm,444,12107,unknown,true,true,52.4150801,13.4004923,Tempelhof-Schöneberg,11007007
+134,667211363,berliner volksbank,berliner volksbank,nan,reichsstraße,nan,14052,mo-fr 10:00-13:00,true,true,52.5129532,13.2668736,Charlottenburg-Wilmersdorf,11004004
+135,667864326,postbank,postbank,postbank,zeltinger platz,10-14,13465,mo-fr 09:00-18:00; sa 09:00-14:00,true,true,52.6328863,13.2916214,Reinickendorf,11012012
+136,671776291,bankhaus dr. masel ag,nan,nan,nan,nan,nan,unknown,unknown,unknown,52.5092417,13.2660531,Charlottenburg-Wilmersdorf,11004004
+137,678417671,berliner volksbank,berliner volksbank,berliner volksbank,bahnhofstraße,19,12555,"mo-fr 10:00-13:00, mo 14:00-16:30; ph off, tu,th 14:00-18:00",true,unknown,52.4573282,13.5785363,Treptow-Köpenick,11009009
+138,693046729,berliner sparkasse,nan,nan,nan,nan,nan,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,true,52.4131968,13.3531833,Tempelhof-Schöneberg,11007007
+139,698825083,sparkasse,nan,berliner sparkasse,zingster straße,21,13051,unknown,true,true,52.5661469,13.500877,Lichtenberg,11011011
+140,701070442,deutsche bank,deutsche bank,nan,köpenicker straße,184,12355,unknown,true,false,52.4184785,13.496902,Neukölln,11008008
+141,753090670,deutsche bank,deutsche bank,nan,nan,nan,nan,"mo,we,fr 10:00-16:00; tu,th 10:00-19:00",unknown,unknown,52.4936804,13.3878115,Friedrichshain-Kreuzberg,11002002
+142,765566782,berliner volksbank,berliner volksbank,nan,teltower damm,26,14169,"mo-we,fr 10:00-18:00, th 10:00-19:30",true,true,52.4322675,13.2587755,Steglitz-Zehlendorf,11006006
+143,772525671,targobank,targobank,nan,bahnhofstraße,nan,12305,24/7,true,true,52.3868166,13.4035311,Tempelhof-Schöneberg,11007007
+144,773267657,berliner volksbank,berliner volksbank,berliner volksbank,nan,nan,nan,"mo-tu, th 10:00-13:00, 14:00-16:00; we, fr 10:00-13:00",true,true,52.5540922,13.4141826,Pankow,11003003
+145,775814260,berliner volksbank,berliner volksbank,nan,nan,nan,nan,"""filiale geschlossen""",true,false,52.5934756,13.3337207,Reinickendorf,11012012
+146,808391024,sparkasse,nan,berliner sparkasse,warnitzer straße,6,13057,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5665645,13.5197431,Lichtenberg,11011011
+147,808406151,sparkasse,nan,berliner sparkasse,ludolfingerplatz,8-8a,13465,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.6324225,13.287017,Reinickendorf,11012012
+148,831811519,sparda-bank berlin,sparda-bank berlin,nan,nan,nan,nan,"mo-we 09:00-13:00, tu 14:00-18:00",true,true,52.5694978,13.4027849,Pankow,11003003
+149,831811524,targobank,targobank,nan,nan,nan,nan,"mo-fr 10:00-13:00, mo,tu,th 14:00-18:00",true,true,52.569363,13.401952,Pankow,11003003
+150,837792490,sparkasse,nan,berliner sparkasse,oraniendamm,6-10,13469,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,unknown,52.6068092,13.3251975,Reinickendorf,11012012
+151,845268870,sparkasse,nan,berliner sparkasse,dörpfeldstraße,40-42,12489,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,unknown,52.4375561,13.5468079,Treptow-Köpenick,11009009
+152,847229074,berliner volksbank,berliner volksbank,berliner volksbank eg,nan,nan,nan,mo-fr 10:00-13:00,true,unknown,52.6319119,13.2876529,Reinickendorf,11012012
+153,876978848,commerzbank,commerzbank,nan,nan,nan,nan,"mo,we 09:00-13:00,14:00-16:00, tu,th 09:00-13:00,14:30-18:00, fr 09:00-14:00",true,true,52.4395374,13.2150745,Steglitz-Zehlendorf,11006006
+154,908158405,santander,santander,nan,budapester straße,37,10787,"mo,tu,th 09:00-13:00,14:00-18:00; we 09:00-13:00,14:00-16:00; fr 09:00-14:00",true,true,52.5049536,13.3408648,Mitte,11001001
+155,922413798,postbank,postbank,nan,königstraße,56,14109,unknown,true,true,52.418913,13.1572885,Steglitz-Zehlendorf,11006006
+156,922750362,targobank,targobank,nan,nan,nan,nan,"mo-fr 10:00-13:00, mo,tu,th 14:00-18:00",unknown,false,52.478157,13.4378661,Neukölln,11008008
+157,972897848,sparkasse,nan,berliner sparkasse,teltower damm,21,14169,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4329592,13.2596656,Steglitz-Zehlendorf,11006006
+158,997312579,berliner volksbank,berliner volksbank,berliner volksbank eg,scharnweberstraße,14,13405,"mo-th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00,14:00-16:00",true,true,52.5636211,13.3291909,Reinickendorf,11012012
+159,1005311925,sparkasse,nan,berliner sparkasse,bahnhofstraße,61,13125,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.6139469,13.4706414,Pankow,11003003
+160,1027076103,sparkasse,nan,berliner sparkasse,landsberger allee,277,13055,"mo,tu,th 09:30-18:00; we,fr 09:30-15:00",true,true,52.5352162,13.4957739,Lichtenberg,11011011
+161,1029813933,sparkasse vermögensanlage center,nan,nan,nan,nan,nan,unknown,unknown,true,52.4314922,13.2595968,Steglitz-Zehlendorf,11006006
+162,1082670211,hypovereinsbank,hypovereinsbank,nan,nan,nan,nan,"""nur termine""",true,unknown,52.4358971,13.2612377,Steglitz-Zehlendorf,11006006
+163,1082679886,commerzbank,commerzbank,nan,teltower damm,15,14169,"mo,we 14:00-16:00, tu,th 14:00-18:00, mo-fr 09:00-13:00",true,true,52.4333305,13.259864,Steglitz-Zehlendorf,11006006
+164,1094536340,targobank,targobank,nan,wilhelmsruher damm,nan,nan,"mo,tu,th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00 || ""nach vereinbarung""",true,true,52.5969699,13.3550498,Reinickendorf,11012012
+165,1110318360,targobank,targobank,nan,nan,nan,nan,"mo-fr 10:00-13:00, tu,th 14:00-18:00",true,true,52.4363635,13.2615366,Steglitz-Zehlendorf,11006006
+166,1112151826,targobank,targobank,nan,nan,nan,nan,"mo-fr 10:00-13:00, mo,tu,th 14:00-18:00; ph off",true,unknown,52.5134461,13.4749601,Friedrichshain-Kreuzberg,11002002
+167,1147145754,sparkasse,nan,berliner sparkasse,schönhauser allee,145,10435,mo-th 09:30-18:00; fr 09:30-16:00,true,true,52.5408702,13.4117627,Pankow,11003003
+168,1191109064,commerzbank,commerzbank,commerzbank,zeltinger platz,1,13465,"mo-fr 09:00-13:00, tu 14:00-16:00, th 14:00-18:00",true,true,52.6335336,13.2901236,Reinickendorf,11012012
+169,1242666930,targobank,targobank,targobank,nan,nan,nan,"mo-fr 09:00-13:00; mo-tu,th 14:00-18:00; fr 14:00-17:00",true,true,52.5496489,13.3529557,Mitte,11001001
+170,1251071269,postbank,postbank,lotto-post-schreibwaren,brückenstraße,1a,10179,mo-fr 08:00-19:00; sa 09:00-15:00,false,unknown,52.5114506,13.4169064,Mitte,11001001
+171,1287287816,deutsche bank,deutsche bank,nan,nan,nan,nan,unknown,unknown,unknown,52.5692009,13.4033001,Pankow,11003003
+172,1347625713,postbank,postbank,nan,wiltbergstraße,23,13125,"mo,tu,th 09:00-18:00; sa 09:00-12:00; we,fr 09:00-12:30,14:00-18:00",true,true,52.6357618,13.4937252,Pankow,11003003
+173,1362054947,sparkasse,nan,berliner sparkasse,märkische allee,412,12689,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",unknown,true,52.5711566,13.5686217,Marzahn-Hellersdorf,11010010
+174,1365431660,deutsche bank,deutsche bank,nan,nan,nan,nan,"mo-su,ph 06:00-24:00",unknown,unknown,52.5418288,13.2364486,Spandau,11005005
+175,1393837949,sparkasse,nan,berliner sparkasse,johannisthaler chaussee,333,12351,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4290623,13.4530371,Neukölln,11008008
+176,1416990132,sparkasse,nan,berliner sparkasse,schönefelder chaussee,239,12524,"tu 09:30-18:00; we,fr 09:30-15:00",unknown,true,52.4027961,13.5251617,Treptow-Köpenick,11009009
+177,1421159799,postbank,postbank,nan,frankfurter allee,71-77,10247,mo-fr 09:00-18:30; sa 09:30-13:00,unknown,true,52.5152801,13.4685743,Friedrichshain-Kreuzberg,11002002
+178,1482547497,sparkasse,nan,berliner sparkasse,baumschulenstraße,17,12437,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4658677,13.4877002,Treptow-Köpenick,11009009
+179,1490229135,postbank,postbank,nan,obstallee,28-30,13593,mo-fr 09:00-18:00; sa 09:00-13:00; ph off,unknown,true,52.5217728,13.1648267,Spandau,11005005
+180,1490229674,sparkasse,nan,berliner sparkasse,obstallee,28-30,13593,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5217075,13.164301,Spandau,11005005
+181,1506174408,postbank,postbank,nan,bahnhofstraße,33-38,12555,mo-fr 09:00-19:00; sa 09:30-14:00; ph off,true,true,52.4585581,13.5765348,Treptow-Köpenick,11009009
+182,1545967504,sparkasse,nan,berliner sparkasse,berliner allee,27,13088,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5483661,13.4505257,Pankow,11003003
+183,1600576787,bbbank,bbbank,bbbank eg,nan,nan,nan,"mo,we 09:00-13:30,14:30-16:00; tu,th 09:00-13:30,14:30-18:30; fr 09:00-13:30",true,false,52.5133406,13.396171,Mitte,11001001
+184,1617461950,postbank,postbank,nan,hindenburgdamm,99,12203,unknown,true,true,52.439468,13.3159172,Steglitz-Zehlendorf,11006006
+185,1641960507,sparkasse,nan,berliner sparkasse,tempelhofer damm,227,12099,mo-fr 09:30-18:00,unknown,true,52.4553928,13.3850418,Tempelhof-Schöneberg,11007007
+186,1659576693,santander,santander,nan,senftenberger straße,1,12627,"mo,we 09:00-13:00,14:00-16:00; tu,th 09:00-13:00,14:00-18:00; fr 09:00-14:00; ph off",unknown,unknown,52.5383083,13.6014816,Marzahn-Hellersdorf,11010010
+187,1665158269,berliner volksbank,berliner volksbank,nan,friedrichstraße,94,10117,"mo-fr 10:00-13:00, mo 14:00-16:00, tu,th 14:00-18:00",true,true,52.519169,13.3887493,Mitte,11001001
+188,1709968173,hypovereinsbank,hypovereinsbank,nan,kruckenbergstraße,1,12107,unknown,unknown,true,52.4316528,13.3907639,Tempelhof-Schöneberg,11007007
+189,1710043519,hypovereinsbank,hypovereinsbank,nan,winfriedstraße,6,14169,unknown,false,true,52.4380956,13.2692608,Steglitz-Zehlendorf,11006006
+190,1760855223,commerzbank,commerzbank,nan,nan,nan,nan,sa 09:00-17:00,unknown,true,52.5159466,13.3780432,Mitte,11001001
+191,1812414059,kfw kreditanstalt für wiederaufbau,nan,nan,nan,nan,10117,unknown,false,true,52.5149971,13.3912709,Mitte,11001001
+192,1819283270,postbank,postbank,nan,soorstraße,nan,14050,"mo 09:00-18:00, sa 09:00-13:00, tu-sa 09:00-13:00, tu-fr 14:00-18:00",true,false,52.5103571,13.2776883,Charlottenburg-Wilmersdorf,11004004
+193,1827452357,deutsche bank,deutsche bank,deutsche bank,kladower damm,366,14089,"mo 10:00-12:00; tu 10:00-12:00,14:00-16:00; th 10:00-12:00,14:00-16:00",true,true,52.454891,13.1444502,Spandau,11005005
+194,1845158183,sparkasse,nan,berliner sparkasse,breite straße,20,13187,mo-fr 09:30-18:00,true,true,52.5701377,13.4047316,Pankow,11003003
+195,1849636763,berliner sparkasse,nan,nan,hauptstraße,nan,13158,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,true,52.5856473,13.3671526,Pankow,11003003
+196,1905988818,sparkasse,nan,berliner sparkasse,königstraße,60,14109,"mo-fr 06:00-23:00; sa,su 08:00-23:00",true,true,52.4194386,13.1600973,Steglitz-Zehlendorf,11006006
+197,1905988881,berliner volksbank,berliner volksbank,nan,nan,nan,nan,"mo-su,ph 06:00-23:00",true,true,52.419633,13.1577207,Steglitz-Zehlendorf,11006006
+198,1915389761,sparkasse,nan,berliner sparkasse,otto-suhr-allee,97-99,10585,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5166919,13.3080541,Charlottenburg-Wilmersdorf,11004004
+199,1915658641,sparkasse,nan,berliner sparkasse,nollendorfplatz,3-4,10777,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4994594,13.3523032,Tempelhof-Schöneberg,11007007
+200,2132839254,sparkasse,nan,berliner sparkasse,oberfeldstraße,138,12683,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5247553,13.5574263,Marzahn-Hellersdorf,11010010
+201,2274239283,targobank,targobank,nan,nan,nan,nan,"mo-fr 09:00-13:00, mo,tu,th 14:00-18:00, fr 14:00-17:00",unknown,true,52.5690756,13.5170739,Lichtenberg,11011011
+202,2287986935,dz-bank,dz bank,"dz bank ag deutsche zentral-genossenschaftsbank, frankfurt am main",pariser platz,3,10117,mo-fr 09:00-18:00,unknown,true,52.5157252,13.3789891,Mitte,11001001
+203,2306458637,sparkasse,nan,berliner sparkasse,nazarethkirchstraße,51,13347,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,false,52.547597,13.3587744,Mitte,11001001
+204,2307254000,deutsche bank,deutsche bank,deutsche bank ag,nan,nan,nan,"mo,tu,th 10:00-12:30,14:00-18:00; we,fr 10:00-14:00",true,true,52.4862119,13.3221245,Charlottenburg-Wilmersdorf,11004004
+205,2334538121,sparkasse,nan,berliner sparkasse,kurfürstendamm,165-166,10707,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4996981,13.3074715,Charlottenburg-Wilmersdorf,11004004
+206,2439759134,commerzbank,commerzbank,nan,theodor-heuss-platz,4,14052,mo-su 06:00-22:00,true,true,52.5100952,13.2730463,Charlottenburg-Wilmersdorf,11004004
+207,2439759285,sparkasse,nan,berliner sparkasse,theodor-heuss-platz,8,14052,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5102719,13.2719203,Charlottenburg-Wilmersdorf,11004004
+208,2445456642,sparkasse,nan,berliner sparkasse,berliner straße,40-41,10715,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,false,52.486668,13.3206331,Charlottenburg-Wilmersdorf,11004004
+209,2470102842,sparkasse,nan,berliner sparkasse,goltzstraße,38,12307,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.3868513,13.4089,Tempelhof-Schöneberg,11007007
+210,2480681072,lbs,nan,lbs beratungszentrum berlin-schöneberg,hauptstraße,98-99,10827,mo-th 10:00-17:00; fr 10:00-15:00,true,false,52.4793307,13.3455025,Tempelhof-Schöneberg,11007007
+211,2496651178,sparkasse,nan,berliner sparkasse,gneisenaustraße,6,10961,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4922683,13.3893067,Friedrichshain-Kreuzberg,11002002
+212,2499471193,santander,santander,nan,clayallee,328 - 334,14169,"mo,tu,th 09:00-13:00,14:00-18:00; we 09:00-13:00,14:00-16:00; fr 09:00-14:00",true,true,52.4381214,13.262619,Steglitz-Zehlendorf,11006006
+213,2507402476,berliner volksbank,berliner volksbank,berliner volksbank eg,wollankstraße,132,13187,"mo-fr 10:00-13:00, tu,th 14:00-18:00, mo 14:00-16:00",true,unknown,52.5687746,13.4002748,Pankow,11003003
+214,2820028497,unicredit bank,unicredit bank,nan,dörpfeldstraße,30,12489,24/7,true,true,52.4338086,13.5382031,Treptow-Köpenick,11009009
+215,2821286563,postbank,postbank,nan,gutschmidtstraße,29,12359,mo-fr 09:00-18:30; sa 09:00-13:00,true,true,52.4367159,13.4471093,Neukölln,11008008
+216,2836989101,commerzbank,commerzbank,nan,bölschestraße,74,12587,"mo-th 09:00-13:00, mo,we 14:00-16:00; tu,th 14:30-18:00; fr 09:00-14:00",unknown,false,52.4563301,13.6249484,Treptow-Köpenick,11009009
+217,3014055807,hypovereinsbank,hypovereinsbank,nan,nan,nan,nan,"mo-fr 10:00-13:00, tu,th 14:30-17:00",true,true,52.5107446,13.3900711,Mitte,11001001
+218,3079610524,sparkasse,nan,berliner sparkasse,wiltbergstraße,5,13125,mo-fr 09:30-15:00,unknown,true,52.635025,13.49581,Pankow,11003003
+219,3089158091,sparkasse,nan,berliner sparkasse,heinsestraße,38-40,13467,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00; sa,su,ph off",true,true,52.617724,13.3062993,Reinickendorf,11012012
+220,3142792933,postbank,postbank,nan,nan,nan,nan,"mo-fr 09:30-18:30; sa 09:00-14:00 || mo-fr 08:00-18:30; sa 09:00-14:00 ""sb-bereich""",true,true,52.5197331,13.4115175,Mitte,11001001
+221,3167658080,santander,santander,santander consumer bank ag,hermannplatz,5-6,10967,"mo,we 09:00-13:00,14:00-16:00; tu,th 09:00-13:00,14:00-18:00; fr 09:00-14:00",true,unknown,52.4869924,13.4251445,Neukölln,11008008
+222,3229138227,deutsche bank,deutsche bank,deutsche bank,schloßstraße,114,12163,"mo,tu,th 10:00-18:00; we 10:00-16:00; fr 10:00-14:00; sa,su,ph off || ""by appointment""",true,unknown,52.4619862,13.3259071,Steglitz-Zehlendorf,11006006
+223,3229138230,commerzbank,commerzbank,commerzbank ag,schloßstraße,104,12163,"mo-fr 09:00-13:00, mo 14:00-16:00, tu,th 14:30-18:00",true,unknown,52.4601342,13.3241151,Steglitz-Zehlendorf,11006006
+224,3229138233,berliner volksbank,berliner volksbank,nan,schloßstraße,102,12163,"mo 10:00-13:00,14:00-16:00; tu,th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00; sa-su off",true,unknown,52.4599197,13.3239486,Steglitz-Zehlendorf,11006006
+225,3229157409,targobank,targobank,targobank,schloßstraße,111,12163,"mo-fr 10:00-13:00, mo,tu,th 14:00-18:00; ph,sa,su off",true,true,52.4615672,13.3255085,Steglitz-Zehlendorf,11006006
+226,3274210861,deutsche bank investment & finanzcenter,deutsche bank,deutsche bank ag,hermannstraße,256-258,12049,"mo,tu,th 10:00-18:00; we,fr 10:00-16:00",true,unknown,52.4860364,13.4245294,Neukölln,11008008
+227,3296728800,berliner volksbank,berliner volksbank,berliner volksbank,pablo-neruda-straße,2-4,12559,unknown,true,true,52.4414422,13.5869399,Treptow-Köpenick,11009009
+228,3354419279,hsbc,hsbc,nan,kurfürstendamm,234,10719,unknown,unknown,unknown,52.5040233,13.3336718,Charlottenburg-Wilmersdorf,11004004
+229,3354430606,sparkasse,nan,berliner sparkasse,rankestraße,33,10789,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5035001,13.3351246,Charlottenburg-Wilmersdorf,11004004
+230,3455613474,deutsche bank,deutsche bank,nan,nan,nan,nan,mo-su 06:00-22:00,true,true,52.500784,13.312102,Charlottenburg-Wilmersdorf,11004004
+231,3481852903,commerzbank,commerzbank,nan,hauptstraße,23/24,10827,"mo 09:00-13:00,14:00-16:00; tu,th 09:00-13:00,14:30-18:00; we,fr 09:00-13:00",true,false,52.4860967,13.3556625,Tempelhof-Schöneberg,11007007
+232,3530735894,berliner volksbank,berliner volksbank,berliner volksbank eg,sakrower landstraße,3,14089,"mo,fr 09:00-13:00,14:00-16:00; tu,th 09:00-13:00,14:00-18:00; we 09:00-13:00",true,unknown,52.4528647,13.1425214,Spandau,11005005
+233,3612041573,postbank,postbank,nan,kaiser-wilhelm-straße,60-62,12247,mo-fr 09:00-18:00; sa 09:00-13:00,true,true,52.4348658,13.3428843,Steglitz-Zehlendorf,11006006
+234,3612065220,postbank,postbank,nan,potsdamer straße,52,14163,"mo-fr 09:00-18:00; sa 09:00-14:00; su,ph off",true,true,52.4350315,13.2589843,Steglitz-Zehlendorf,11006006
+235,3612065221,postbank finanzcenter,nan,nan,nan,nan,nan,mo-fr 09:00-18:00; sa 10:00-13:00,true,unknown,52.4164007,13.3616914,Tempelhof-Schöneberg,11007007
+236,3644146593,sparkasse,nan,berliner sparkasse,grunewaldstraße,61-62,10825,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4886385,13.3425879,Tempelhof-Schöneberg,11007007
+237,3644438000,targobank,targobank,nan,nan,nan,nan,"mo-fr 09:00-13:00; mo,tu,th 14:00-18:00; fr 14:00-17:00; ph off",unknown,true,52.458029,13.5791673,Treptow-Köpenick,11009009
+238,3672738933,sparkasse,nan,berliner sparkasse,sakrower landstraße,10,14089,tu 09:30-18:00; we 09:30-15:00,true,true,52.4529689,13.1416433,Spandau,11005005
+239,3678881050,postbank,postbank,nan,joachimsthaler straße,41,10623,mo 09:30-19:00; tu-fr 09:30-18:30; sa 09:30-14:00,true,true,52.5049211,13.331798,Charlottenburg-Wilmersdorf,11004004
+240,3751771442,sparkasse,nan,berliner sparkasse,mariendorfer damm,118-120,12109,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4413847,13.3865459,Tempelhof-Schöneberg,11007007
+241,3772669591,sparkasse,nan,berliner sparkasse,prerower platz,1,13051,mo-fr 09:30-18:00,unknown,true,52.564565,13.5072405,Lichtenberg,11011011
+242,3780861041,sparkasse,nan,berliner sparkasse,residenzstraße,117,13409,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5653949,13.3638471,Reinickendorf,11012012
+243,3801390185,merck finck & co,nan,nan,nan,nan,nan,unknown,unknown,unknown,52.5022458,13.3257578,Charlottenburg-Wilmersdorf,11004004
+244,3804836464,bbbank,bbbank,baden-württembergischer genossenschaftsverband,luisenstraße,41,10117,"mo,we 9:00-13:30, 14:30-16:00, tu, th 9:00-13:30, 14:30-18:30, fr 9:00-13:30",true,true,52.5222017,13.3798834,Mitte,11001001
+245,3831846457,deutsche apotheker- und ärztebank,apobank,deutsche apotheker- und ärztebank eg,kantstraße,129,10625,mo-th 08:30-16:00; we 08:30-17:00; fr 08:30-15:00,true,true,52.5061552,13.3129289,Charlottenburg-Wilmersdorf,11004004
+246,3923928387,sparda-bank berlin,sparda-bank berlin,sparda-bank berlin eg,georgenstraße,23,10117,"mo,tu,th 09:00-13:00,14:00-18:00, we,fr 09:00-13:00; ph off",true,true,52.5196275,13.3865271,Mitte,11001001
+247,3959492199,targobank,targobank,nan,nan,nan,nan,unknown,unknown,unknown,52.5379735,13.6040853,Marzahn-Hellersdorf,11010010
+248,3959492214,berliner volksbank,berliner volksbank,berliner volksbank eg,nan,nan,nan,"mo-th 10:00-13:00,14:00-18:00, we,fr 10:00-13:00,14:00-16:00; ph off",true,unknown,52.5378952,13.604096,Marzahn-Hellersdorf,11010010
+249,4016608995,berliner volksbank,berliner volksbank,berliner volksbank eg,nan,nan,nan,mo-fr 10:00-13:00,true,unknown,52.4921793,13.3869499,Friedrichshain-Kreuzberg,11002002
+250,4057899359,berliner volksbank,berliner volksbank,berliner volksbank,rudower chaussee,9,12489,mo-fr 09:00-18:00,true,true,52.4328568,13.5367968,Treptow-Köpenick,11009009
+251,4111673894,postbank,postbank,postbank,schloßstraße,21,12163,mo-fr 10:00-19:00; sa 09:00-14:00; su off,true,unknown,52.4602939,13.3236624,Steglitz-Zehlendorf,11006006
+252,4224268265,reisebank,reisebank,nan,müllerstraße,30,13353,mo-fr 10:00-18:00,unknown,unknown,52.5475319,13.357655,Mitte,11001001
+253,4304451193,lbs,nan,nan,nan,nan,nan,unknown,unknown,false,52.4562208,13.577197,Treptow-Köpenick,11009009
+254,4304451194,deutsche bank,deutsche bank,deutsche bank,bahnhofstraße,41,12555,unknown,true,unknown,52.4568785,13.5776433,Treptow-Köpenick,11009009
+255,4457967201,denizbank,denizbank,nan,friedrichstraße,56,10117,"mo-fr 09:00-12:00,13:00-17:00",unknown,true,52.5097512,13.3902008,Mitte,11001001
+256,4464731328,psd bank berlin-brandenburg,psd bank,psd bank berlin-brandenburg eg,handjerystraße,34-36,12159,"mo,we 09:00-18:00; tu,th 09:00-15:00; fr 09:00-14:00",true,unknown,52.4712266,13.332116,Tempelhof-Schöneberg,11007007
+257,4515050389,sparkasse,nan,berliner sparkasse,torstraße,131,10119,"tu,th 09:30-18:00; mo 09:30-15:00",true,true,52.5297566,13.3999792,Mitte,11001001
+258,4537589632,vietin bank,nan,nan,nan,nan,nan,"mo-th 09:00-13:00, mo,we 14:00-16:00, tu,th 14:00-17:00, fr 09:00-14:30",unknown,true,52.5236237,13.4799737,Lichtenberg,11011011
+259,4537589638,targobank,targobank,nan,nan,nan,nan,"mo,tu,th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00",unknown,true,52.544059,13.5473669,Marzahn-Hellersdorf,11010010
+260,4537589642,berliner sparkasse,nan,nan,nan,nan,nan,"""nach vereinbarung""",unknown,true,52.5432793,13.5463128,Marzahn-Hellersdorf,11010010
+261,4537589643,commerzbank,commerzbank,nan,nan,nan,nan,24/7,unknown,true,52.5429898,13.5439631,Marzahn-Hellersdorf,11010010
+262,4554017836,western union,western union,nan,kaiser-friedrich-straße,nan,10627,mo-sa 09:00-20:00,unknown,false,52.5075807,13.3024475,Charlottenburg-Wilmersdorf,11004004
+263,4712176336,sparda-bank berlin,sparda-bank berlin,sparda-bank eg,baumschulenstraße,84/85,12437,"mo,tu,th 09:00-13:00, tu,th 14:00-18:00",true,true,52.4650346,13.4860903,Treptow-Köpenick,11009009
+264,4715193690,hypovereinsbank,hypovereinsbank,nan,nan,nan,nan,"mo 10:00-13:00; th 14:30-17:00; tu,we,fr off",unknown,false,52.4546767,13.6249033,Treptow-Köpenick,11009009
+265,4719368482,sparkasse,nan,berliner sparkasse,hasenheide,119,10967,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4862488,13.4238853,Neukölln,11008008
+266,4722086754,nan,nan,nan,hellersdorfer straße,77,12619,"mo,we,fr 09:30-15:00, tu,th 09:30-18:00; ph off",true,true,52.5210781,13.5873974,Marzahn-Hellersdorf,11010010
+267,4723290160,sparkasse,nan,berliner sparkasse,alte hellersdorfer straße,148,12629,"mo,we,fr 09:30-15:00, tu,th 09:30-18:00; ph off",true,true,52.5473104,13.5928928,Marzahn-Hellersdorf,11010010
+268,4723299597,sparkasse,nan,berliner sparkasse,marzahner promenade,1a,12679,"tu,th 09:30-18:00; mo,we,fr 09:30-15:00",true,true,52.5435705,13.5436114,Marzahn-Hellersdorf,11010010
+269,4724052367,sparkasse,nan,berliner sparkasse,mehrower allee,22,12687,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5555795,13.5609821,Marzahn-Hellersdorf,11010010
+270,4724701017,sparkasse,nan,berliner sparkasse,hauptstraße,13a,13127,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",unknown,true,52.6051514,13.4321245,Pankow,11003003
+271,4724815743,sparkasse,nan,berliner sparkasse,senftenberger ring,1,13439,"mo-fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.5985978,13.3556396,Reinickendorf,11012012
+272,4909118855,sparda-bank berlin,sparda-bank berlin,sparda-bank berlin eg,mehrower allee,20,12687,"tu, we, fr 10:00-13:00; mo 10:00-13:00, 16:00-18:00; th 09:00-13:00, 14:00-18:00",true,true,52.5556985,13.5593851,Marzahn-Hellersdorf,11010010
+273,4987882622,commerzbank,commerzbank,nan,nan,nan,nan,unknown,unknown,true,52.429988,13.4552831,Neukölln,11008008
+274,5147944700,berliner volksbank,berliner volksbank,nan,nan,nan,nan,24/7,true,true,52.5051114,13.3420037,Mitte,11001001
+275,5245852613,kd-bank - bank f. kirche u. diakonie,nan,nan,friedrichstraße,200,nan,unknown,unknown,true,52.5090141,13.38978,Mitte,11001001
+276,5471345774,berliner sparkasse,nan,berliner sparkasse,neumannstraße,13,13189,mo 09:30-15:00; tu 09:30-18:00; fr 09:30-15:00,unknown,true,52.5615408,13.4223373,Pankow,11003003
+277,5718697021,western union,western union,nan,nan,nan,nan,unknown,false,unknown,52.498426,13.3619781,Tempelhof-Schöneberg,11007007
+278,5774792924,deutsche bank,deutsche bank,nan,nan,nan,nan,unknown,unknown,true,52.5372453,13.2060017,Spandau,11005005
+279,5785192449,postbank,postbank,postbank,breite straße,20,13187,mo-fr 09:30-18:30; sa 09:30-14:00,true,true,52.5699034,13.4036524,Pankow,11003003
+280,5945635506,postbank,postbank,nan,nan,nan,nan,"mo-fr 09:00-18:30; sa 09:00-13:00 || mo-fr 09:00-18:30; sa 09:00-13:00 ""sb-bereich",unknown,unknown,52.4856043,13.3546589,Tempelhof-Schöneberg,11007007
+281,6044549331,deutsche bank,deutsche bank,nan,leipziger platz,8,10117,"mo,we,fr 10:00-14:00; tu,th 10:00-13:00,14:00-18:00",true,true,52.5089007,13.3787687,Mitte,11001001
+282,6111072585,wüstenrot,nan,wüstenrot,breite straße,51,14199,"mo-th 09:00-13:00,14:00-18:00",false,unknown,52.4731276,13.2985116,Charlottenburg-Wilmersdorf,11004004
+283,6267004287,santander,santander,santander,nan,nan,nan,"mo-th 09:00-13:00, mo,we 14:00-17:00, tu,th 14:00-18:00, fr 09:00-14:00",false,true,52.5526597,13.3815603,Mitte,11001001
+284,6801285875,commerzbank,commerzbank,nan,friedrichstraße,79,nan,"mo-fr 09:00-13:00, mo 14:00-16:00, tu,th 14:30-18:00",true,true,52.5149174,13.3893671,Mitte,11001001
+285,7021823831,creditplus bank berlin,nan,nan,danziger straße,127,10407,"mo,tu 09:00-18:00; fr 09:00-15:00; we,th 09:00-16:00",unknown,unknown,52.5358013,13.4345491,Pankow,11003003
+286,7261139569,western union,western union,nan,nan,nan,nan,"mo-fr 09:00-13:30, sa 10:00-18:00, mo-fr 14:15-18:00",unknown,unknown,52.4764909,13.4263444,Neukölln,11008008
+287,8397700150,postbank,postbank,nan,kurt-schumacher-damm,1-15,13405,mo-fr 09:00-18:00; sa 09:00-14:00,true,true,52.5627815,13.3273677,Reinickendorf,11012012
+288,8462242291,ing,ing,nan,prerower platz,1,13051,unknown,unknown,unknown,52.5648245,13.506073,Lichtenberg,11011011
+289,8462242299,postbank,postbank,nan,prerower platz,1,13051,mo-fr 09:00-18:30; sa 09:00-12:00,unknown,unknown,52.5646627,13.5070677,Lichtenberg,11011011
+290,8611640566,i̇şbank,i̇şbank,nan,müllerstraße,34a,13353,"mo-we 08:30-13:00,14:00-16:30; th 08:30-13:00,14:00-17:30; fr 08:30-13:00,14:00-16:30",true,true,52.5487108,13.3556221,Mitte,11001001
+291,9147776075,sb-service,nan,nan,rudi-dutschke-straße,17,10969,unknown,true,true,52.5067214,13.3931644,Friedrichshain-Kreuzberg,11002002
+292,9654277830,postbank,postbank,nan,nan,nan,nan,"mo 09:00-18:00, tu-fr 09:00-13:00, tu-th 14:00-18:00, sa 09:00-13:00",unknown,unknown,52.5506715,13.163499,Spandau,11005005
+293,9783952823,deutsche bank,deutsche bank,nan,nan,nan,nan,"mo,tu,th 10:00-18:00; fr 10:00-14:00",unknown,true,52.5650834,13.3640724,Reinickendorf,11012012
+294,9798306522,ziraat bank,nan,t.c. ziraat bankası,leipziger straße,31,10117,"mo-fr 09:00-12:00, mo,we 13:00-17:00, th 13:00-18:00, fr 13:00-16:15",unknown,unknown,52.5102542,13.3908408,Mitte,11001001
+295,9798306523,kt bank,nan,nan,leipziger straße,26,10117,"mo-th 09:00-13:00, fr 09:00-12:30, th 14:00-18:00, mo 14:00-17:00, tu 14:00-17:00, fr 14:30-16:30",unknown,unknown,52.5101755,13.3893814,Mitte,11001001
+296,9998946661,privatkundencenter buch,nan,berliner sparkasse,wiltbergstraße,5,13125,unknown,true,unknown,52.635039,13.4956023,Pankow,11003003
+297,10173367759,berliner volksbank,berliner volksbank,nan,nan,nan,nan,"ph,mo-su 06:00-22:00",unknown,false,52.4549272,13.4373988,Neukölln,11008008
+298,10297240439,sparda-bank berlin,sparda-bank berlin,nan,bornitzstraße,49-51,10365,"mo,tu,th 08:00-20:00",true,unknown,52.5209246,13.4876464,Lichtenberg,11011011
+299,10599976858,postbank,postbank,nan,nan,nan,nan,unknown,unknown,unknown,52.5495778,13.4161093,Pankow,11003003
+300,10839791615,commerzbank,commerzbank,commerzbank,kurfürstendamm,59,10707,"mo-fr 09:00-13:00, tu 14:00-16:00, th 14:30-18:00",true,unknown,52.5009575,13.3133912,Charlottenburg-Wilmersdorf,11004004
+301,11102502875,quirion ag,nan,nan,nan,nan,nan,unknown,false,unknown,52.4965976,13.2880963,Charlottenburg-Wilmersdorf,11004004
+302,11102502876,quirin privatbank ag,nan,nan,nan,nan,nan,unknown,false,unknown,52.4966213,13.2881286,Charlottenburg-Wilmersdorf,11004004
+303,11374894270,hw leasing gmbh,nan,nan,otto-suhr-allee,84,10585,unknown,unknown,unknown,52.5167764,13.3097104,Charlottenburg-Wilmersdorf,11004004
+304,11409766032,commerzbank,commerzbank,nan,nan,nan,nan,"mo-fr 09:00-13:00; tu 09:00-13:00,14:00-16:00; th 09:00-13:00,14:00-18:00",true,true,52.4294134,13.3302654,Steglitz-Zehlendorf,11006006
+305,11773890562,postbank,postbank,nan,otto-suhr-allee,6,nan,unknown,unknown,unknown,52.5140584,13.3194327,Charlottenburg-Wilmersdorf,11004004
+306,11800101423,i̇şbank,i̇şbank,nan,nan,nan,nan,"mo-we,fr 08:30-13:00,14:00-16:30; th 08:30-13:00,14:00-17:30",unknown,unknown,52.4985964,13.4176845,Friedrichshain-Kreuzberg,11002002
+307,11838472491,berlin hyp,nan,nan,tauentzienstraße,13,nan,unknown,false,unknown,52.504002,13.3363703,Charlottenburg-Wilmersdorf,11004004
+308,11893054160,berliner volksbank,berliner volksbank,nan,nan,nan,nan,"mo-su,ph 06:00-23:00",true,unknown,52.5245453,13.336027,Mitte,11001001
+309,12887277196,sparkasse sb-service,nan,nan,nan,nan,nan,"mo-fr 06:00-24:00, sa,su 08:00-24:00",unknown,true,52.5421735,13.4411349,Pankow,11003003
+310,28248222,bankhaus löbbecke,nan,nan,behrenstraße,36,10117,unknown,unknown,unknown,52.5157241,13.393561834971464,Mitte,11001001
+311,28413481,s kreditpartner,nan,sparkasse (lbb),nan,nan,nan,unknown,unknown,false,52.48568485,13.332845470530003,Charlottenburg-Wilmersdorf,11004004
+312,35983986,investitionsbank berlin,nan,land berlin,bundesallee,210,10719,"mo-th 08:00-17:00, fr 08:00-15:00",unknown,unknown,52.49597005,13.331528621908145,Charlottenburg-Wilmersdorf,11004004
+313,46596634,sparkasse,nan,berliner sparkasse,oberhofer weg,8,12209,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4267019,13.326513714111336,Steglitz-Zehlendorf,11006006
+314,50261756,hauck aufhäuser lampe,nan,nan,carmerstraße,13,10623,"mo-fr 09:00-14:00, mo-th 15:00-16:30, fr 15:00-15:30",unknown,false,52.507147950000004,13.324403588839878,Charlottenburg-Wilmersdorf,11004004
+315,60202998,reisebank,reisebank,nan,nan,nan,nan,"mo-su,ph 09:00-19:00",false,unknown,52.52513035,13.370069310685334,Mitte,11001001
+316,118613212,sparkasse,nan,berliner sparkasse,breisgauer straße,6,14129,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.438589050000004,13.214898369738997,Steglitz-Zehlendorf,11006006
+317,129778073,berliner volksbank,berliner volksbank,berliner volksbank eg,alt-rudow,71,12355,"mo-th 10:00-13:00,14:00-18:00; we,fr 10:00-13:00,14:00-16:00",true,unknown,52.416735,13.497172373455458,Neukölln,11008008
+318,210920895,sparkasse,nan,berliner sparkasse,alt-rudow,15,12357,"mo,we,fr 09:30-15:00; tu,th 09:30-18:00",true,true,52.4209529,13.49138781271209,Neukölln,11008008
+319,336063499,reisebank,reisebank,reisebank,am ostbahnhof,5,10243,mo-fr 09:00-19:00; sa 10:00-18:00,true,true,52.51035445,13.433634176345848,Friedrichshain-Kreuzberg,11002002
+320,422475544,allgemeine beamten bank,nan,nan,invalidenstraße,28,10115,"mo-fr 09:00-13:00, mo,we 14:00-18:00",unknown,true,52.53127685,13.384913035461516,Mitte,11001001
+321,423847739,sparda-bank berlin,sparda-bank berlin,sparda-bank berlin eg,nan,nan,nan,"mo,th 09:00-13:00,14:00-18:00",true,true,52.534183299999995,13.198554168873134,Spandau,11005005
+322,611744021,deutsche bundesbank,nan,nan,leibnizstraße,10,10625,mo-fr 08:00-13:00,unknown,true,52.512979849999994,13.315507078779703,Charlottenburg-Wilmersdorf,11004004

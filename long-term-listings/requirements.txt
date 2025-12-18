@@ -1,0 +1,10 @@
+selenium
+beautifulsoup4
+lxml
+pandas
+geopandas
+shapely
+geopy
+SQLAlchemy
+psycopg2-binary
+python-dotenv

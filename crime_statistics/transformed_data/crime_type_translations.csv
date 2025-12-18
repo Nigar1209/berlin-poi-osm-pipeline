@@ -1,0 +1,18 @@
+german_name,english_name,category,severity_weight,description,public_safety_relevance
+Straftaten -insgesamt-,Total Crimes,Overall,1.0,Total of all reported crimes,True
+Raub,Robbery,Violent Crime,4.0,Robbery and theft with violence or threat,True
+"Straßenraub, Handtaschen-raub",Street Robbery,Violent Crime,4.5,Street robbery and purse snatching,True
+Körper-verletzungen -insgesamt-,Assault Total,Violent Crime,3.5,Total assault and bodily harm offenses,True
+Gefährl. und schwere Körper-verletzung,Serious Assault,Violent Crime,4.5,Dangerous and serious bodily harm,True
+"Freiheits-beraubung, Nötigung, Bedrohung, Nachstellung",Coercion and Threats,Violent Crime,3.0,"Deprivation of liberty, coercion, threats, stalking",True
+Diebstahl -insgesamt-,Theft Total,Property Crime,2.0,Total theft offenses,True
+Diebstahl von Kraftwagen,Vehicle Theft,Property Crime,3.0,Motor vehicle theft,True
+Diebstahl an/aus Kfz,Theft from Vehicles,Property Crime,2.5,Theft from or of vehicle parts,True
+Fahrrad- diebstahl,Bicycle Theft,Property Crime,1.5,Bicycle theft,True
+Wohnraum- einbruch,Residential Burglary,Property Crime,3.5,Breaking and entering into residential properties,True
+Branddelikte -insgesamt-,Arson Total,Property Crime,4.0,Total arson and fire-related offenses,True
+Brand- stiftung,Arson,Property Crime,4.5,Intentional arson,True
+Sach-beschädigung -insgesamt-,Property Damage Total,Property Crime,1.5,Total property damage offenses,True
+Sach-beschädigung durch Graffiti,Graffiti Vandalism,Property Crime,1.0,Property damage through graffiti,True
+Rauschgift-delikte,Drug Crimes,Drug Offense,2.5,Drug-related offenses,True
+Kieztaten,Neighborhood Crimes,Public Order,2.0,Local neighborhood disturbances and minor crimes,True

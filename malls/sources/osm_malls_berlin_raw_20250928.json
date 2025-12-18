@@ -1,0 +1,2416 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-09-28T09:54:00Z",
+    "timestamp_areas_base": "2025-09-28T07:15:25Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 360009454,
+      "lat": 52.4551567,
+      "lon": 13.1444131,
+      "tags": {
+        "name": "Cladow-Center",
+        "shop": "mall",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2782835444,
+      "lat": 52.6078674,
+      "lon": 13.3259918,
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "6-10",
+        "addr:postcode": "13469",
+        "addr:street": "Oraniendamm",
+        "addr:suburb": "Waidmannslust",
+        "check_date": "2025-08-08",
+        "name": "Nordmeile",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "mall",
+        "toilets": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3982921774,
+      "lat": 52.5267284,
+      "lon": 13.5401045,
+      "tags": {
+        "name": "Springpfuhl-Passage",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5024078544,
+      "lat": 52.5287807,
+      "lon": 13.4717971,
+      "tags": {
+        "check_date": "2024-03-05",
+        "name": "Fennpfuhl-Karree",
+        "opening_hours": "24/7",
+        "shop": "mall",
+        "toilets": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 10632546,
+      "center": {
+        "lat": 52.5845756,
+        "lon": 13.2857717
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "13507",
+        "addr:street": "Am Borsigturm",
+        "addr:suburb": "Tegel",
+        "building": "retail",
+        "name": "Hallen am Borsigturm",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+49 30 72626600",
+        "shop": "mall",
+        "toilets": "yes",
+        "website": "http://www.hab-2.de",
+        "wheelchair": "yes",
+        "wikidata": "Q20871115",
+        "wikimedia_commons": "Category:Hallen Am Borsigturm"
+      }
+    },
+    {
+      "type": "way",
+      "id": 11076700,
+      "center": {
+        "lat": 52.5630387,
+        "lon": 13.3284849
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "140",
+        "addr:postcode": "13405",
+        "addr:street": "Scharnweberstraße",
+        "addr:suburb": "Reinickendorf",
+        "building": "retail",
+        "building:levels": "3",
+        "changing_table": "yes",
+        "check_date:opening_hours": "2024-01-08",
+        "email": "info@derclouberlin.de",
+        "fax": "+49 30 4952763",
+        "name": "Einkaufszentrum »Der Clou«",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+49 30 4987209697",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.derclouberlin.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Für die Behindertentoilette ist der Euro-Schlüssel notwendig."
+      }
+    },
+    {
+      "type": "way",
+      "id": 11249452,
+      "center": {
+        "lat": 52.5643776,
+        "lon": 13.5060401
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "13051",
+        "addr:street": "Prerower Platz",
+        "addr:suburb": "Neu-Hohenschönhausen",
+        "building": "retail",
+        "building:levels": "3",
+        "layer": "1",
+        "name": "Linden Center",
+        "opening_hours": "Mo-Sa 09:30-20:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://m.linden-center-berlin.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 11249566,
+      "center": {
+        "lat": 52.535248,
+        "lon": 13.4964673
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housename": "Allee Center",
+        "addr:housenumber": "277",
+        "addr:postcode": "13055",
+        "addr:street": "Landsberger Allee",
+        "addr:suburb": "Alt-Hohenschönhausen",
+        "building": "retail",
+        "contact:phone": "+49 30 9710010",
+        "contact:website": "http://allee-center.berlin",
+        "name": "Allee-Center Berlin",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 18771934,
+      "center": {
+        "lat": 52.5094209,
+        "lon": 13.4969436
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "22",
+        "addr:postcode": "10317",
+        "addr:street": "Weitlingstraße",
+        "addr:suburb": "Rummelsburg",
+        "building": "train_station",
+        "building:levels": "3",
+        "changing_table": "yes",
+        "check_date": "2024-03-29",
+        "contact:website": "http://www.s-bahn-berlin.de/fahrplanundnetz/pdf_umgebungsplaene/SLichtenberg.pdf",
+        "name": "Bahnhof Lichtenberg",
+        "opening_hours": "06:00-22:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:charge": "1 Euro",
+        "toilets:fee": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 20980117,
+      "center": {
+        "lat": 52.549773,
+        "lon": 13.3895302
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "13357",
+        "addr:street": "Badstraße",
+        "addr:suburb": "Gesundbrunnen",
+        "air_conditioning": "yes",
+        "building": "retail",
+        "building:colour": "white",
+        "changing_table": "yes",
+        "check_date": "2025-03-15",
+        "email": "info@gesundbrunnen-center.de",
+        "fax": "+4930493 000 99",
+        "internet_access": "wlan",
+        "layer": "1",
+        "max_level": "7",
+        "min_level": "-1",
+        "name": "Gesundbrunnen-Center",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "phone": "+49304930000",
+        "roof:colour": "grey",
+        "roof:material": "asphalt",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.gesundbrunnen-center.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Die Toiletten befinden sich im Untergeschoß. Die Eingangstüren im Frontbereich haben keinen automatischen Türöffner. Ein automatischer Türöffner befindet sich zur Bahnhofsseite hin neben der Sparkasse.",
+        "wikidata": "Q1519740",
+        "wikimedia_commons": "Category:Gesundbrunnen-Center",
+        "wikipedia": "de:Gesundbrunnen-Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22278549,
+      "center": {
+        "lat": 52.4973715,
+        "lon": 13.5212006
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "3",
+        "addr:postcode": "10319",
+        "addr:street": "Otto-Schmirgal-Straße",
+        "alt_name": "Bärenschaufenster",
+        "building": "retail",
+        "building:levels": "3",
+        "check_date:opening_hours": "2024-07-22",
+        "name": "TierparkCenter Berlin",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH 09:00-22:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no",
+        "website": "https://tierparkcenter.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22989670,
+      "center": {
+        "lat": 52.5074106,
+        "lon": 13.3741154
+      },
+      "tags": {
+        "building": "mall",
+        "building:levels": "2",
+        "contact:website": "https://www.ece.com/de/shopping-marketplaces/the-playce-berlin",
+        "name": "The Playce",
+        "old_name": "Potsdamer Platz Arkaden",
+        "shop": "mall",
+        "start_date": "1998",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2106556",
+        "wikipedia": "de:The Playce"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23942215,
+      "center": {
+        "lat": 52.5439518,
+        "lon": 13.5446857
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1a",
+        "addr:postcode": "12679",
+        "addr:street": "Marzahner Promenade",
+        "addr:suburb": "Marzahn",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Eastgate",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+49 30 9114590",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:fee": "yes",
+        "website": "https://www.eastgate-berlin.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Rollstuhlparkplätze auf allen Parkebenen, Einkaufszentrum für Rollifahrer sehr gut geeignet, Rolli-WC im 1. OG vorhanden",
+        "wikidata": "Q1278254",
+        "wikimedia_commons": "Category:Eastgate Berlin",
+        "wikipedia": "de:Eastgate Berlin"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23970735,
+      "center": {
+        "lat": 52.5143035,
+        "lon": 13.4741734
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "111",
+        "addr:postcode": "10247",
+        "addr:street": "Frankfurter Allee",
+        "alt_name": "Ringcenter",
+        "building": "retail",
+        "building:levels": "5",
+        "changing_table": "yes",
+        "dog": "leashed",
+        "elevator": "yes",
+        "internet_access": "wlan",
+        "name": "Ring-Center 1",
+        "opening_hours": "Mo-Sa 10:00-21:00; PH off",
+        "phone": "-49 (0)30 422 64 7 0",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.ring-center.de",
+        "wheelchair": "yes",
+        "wikidata": "Q2153462",
+        "wikimedia_commons": "Category:Ring-Center (shopping center)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 23970739,
+      "center": {
+        "lat": 52.5143933,
+        "lon": 13.4765019
+      },
+      "tags": {
+        "building:levels": "5",
+        "building:part": "yes",
+        "changing_table": "yes",
+        "contact:website": "https://www.ring-center.de",
+        "name": "Ring-Center 2",
+        "opening_hours": "Mo-Sa 10:00-21:00; PH off",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2153462",
+        "wikimedia_commons": "Category:Ring-Center (shopping center)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24263827,
+      "center": {
+        "lat": 52.503949,
+        "lon": 13.4732604
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "4",
+        "check_date": "2024-09-05",
+        "contact:website": "http://www.victoria-center-berlin.de",
+        "dog": "no",
+        "name": "Victoria Center",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "roof:colour": "gray",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24264277,
+      "center": {
+        "lat": 52.5151126,
+        "lon": 13.468629
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "8",
+        "check_date": "2025-05-07",
+        "contact:website": "https://plaza-frankfurter-allee.de",
+        "name": "Plaza Frankfurter Allee",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24273422,
+      "center": {
+        "lat": 52.5215216,
+        "lon": 13.4150832
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:place": "Alexanderplatz",
+        "addr:postcode": "10178",
+        "addr:suburb": "Mitte",
+        "building": "retail",
+        "building:colour": "#b6b0af",
+        "building:levels": "6",
+        "building:material": "stone",
+        "height": "40",
+        "name": "Die Mitte",
+        "roof:colour": "#64664c",
+        "roof:material": "grass",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "start_date": "2009-3-25",
+        "wheelchair": "limited",
+        "wikidata": "Q1219037",
+        "wikimedia_commons": "Category:Die mitte",
+        "wikipedia": "de:Die mitte"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24300563,
+      "center": {
+        "lat": 52.4581537,
+        "lon": 13.5775302
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "33-38",
+        "addr:postcode": "12555",
+        "addr:street": "Bahnhofstraße",
+        "addr:suburb": "Köpenick",
+        "building": "retail",
+        "building:colour": "#cca3b4",
+        "building:levels": "5",
+        "building:levels:underground": "1",
+        "contact:email": "centermanagement@forum-koepenick.de",
+        "contact:facebook": "https://www.facebook.com/ForumKoepenick/",
+        "contact:fax": "+49 30 65668499",
+        "contact:instagram": "https://www.instagram.com/forumkoepenick",
+        "contact:phone": "+49 30 6566840",
+        "contact:website": "https://www.forum-koepenick.de/",
+        "contact:youtube": "https://www.youtube.com/channel/UC_pXrMNW57O2k7AOkbD2R0w/",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Forum Köpenick",
+        "opening_hours": "Mo-Sa 10:00-20:00; PH off; Su 13:00-18:00 \"nur wenn verkaufsoffen\"",
+        "shop": "mall",
+        "start_date": "1997-10-23",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1439210",
+        "wikimedia_commons": "Category:Forum Köpenick"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24315002,
+      "center": {
+        "lat": 52.4820893,
+        "lon": 13.4322014
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "66",
+        "addr:postcode": "12043",
+        "addr:street": "Karl-Marx-Straße",
+        "addr:suburb": "Neukölln",
+        "building": "retail",
+        "building:levels": "9",
+        "check_date": "2025-08-04",
+        "check_date:opening_hours": "2025-08-04",
+        "contact:phone": "+49 30 6273973",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Neukölln Arcaden",
+        "old_name": "Forum Neukölln",
+        "opening_hours": "Mo-Sa 10:00-21:00",
+        "shop": "mall",
+        "smoking": "isolated",
+        "toilets": "yes",
+        "website": "https://www.neukoelln-arcaden.de/",
+        "wheelchair": "yes",
+        "wikidata": "Q1980816",
+        "wikimedia_commons": "Category:Neukölln Arcaden",
+        "wikipedia": "de:Neukölln Arcaden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24921263,
+      "center": {
+        "lat": 52.4529343,
+        "lon": 13.5863366
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "38-42",
+        "addr:postcode": "12555",
+        "addr:street": "Friedrichshagener Straße",
+        "addr:suburb": "Köpenick",
+        "building": "retail",
+        "name:signed": "no",
+        "shop": "mall",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25041154,
+      "center": {
+        "lat": 52.5686714,
+        "lon": 13.5684484
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "12A",
+        "addr:postcode": "12689",
+        "addr:street": "Havemannstraße",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Havemann-Center",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25094154,
+      "center": {
+        "lat": 52.5193285,
+        "lon": 13.4104606
+      },
+      "tags": {
+        "addr:city:fa": "برلین",
+        "addr:country": "DE",
+        "addr:housenumber": "1-14",
+        "addr:postcode": "10178",
+        "addr:street": "Rathausstraße",
+        "addr:suburb": "Mitte",
+        "alt_name": "Rathaus Passagen",
+        "building": "apartments",
+        "building:levels": "12",
+        "contact:website": "http://www.rathauspassagen-berlin.de",
+        "name": "Rathauspassagen",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "mall",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2132669",
+        "wikimedia_commons": "Category:Rathauspassagen",
+        "wikipedia": "de:Rathauspassagen",
+        "year_of_construction": "1967..1972"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25498297,
+      "center": {
+        "lat": 52.4687907,
+        "lon": 13.4436659
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "231-235",
+        "addr:postcode": "12055",
+        "addr:street": "Karl-Marx-Straße",
+        "addr:suburb": "Neukölln",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Neuköllner Tor",
+        "phone": "+4930 63227331",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wheelchair:description": "sehr gute Toilette vorhanden;Dachparkplatz ist zu empfehlen"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25898004,
+      "center": {
+        "lat": 52.5381021,
+        "lon": 13.2188344
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "44",
+        "addr:postcode": "13599",
+        "addr:street": "Am Juliusturm",
+        "addr:suburb": "Haselhorst",
+        "building": "commercial",
+        "building:levels": "3",
+        "name": "Center am Juliusturm",
+        "opening_hours": "Mo-Fr 06:30-00:30, Sa 06:30-24:00",
+        "shop": "mall",
+        "source": "Geoportal Berlin / ALKIS Berlin - Gebäude"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25945412,
+      "center": {
+        "lat": 52.5134734,
+        "lon": 13.3900198
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "71",
+        "addr:postcode": "10117",
+        "addr:street": "Friedrichstraße",
+        "building": "retail",
+        "building:levels": "6",
+        "contact:website": "https://www.quartier206berlin.de/",
+        "name": "Quartier 206",
+        "roof:levels": "2",
+        "roof:shape": "quadruple_saltbox",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wikidata": "Q17378098",
+        "wikimedia_commons": "Category:Quartier 206 (Berlin)",
+        "wikipedia": "de:Quartier 206"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26006285,
+      "center": {
+        "lat": 52.4315665,
+        "lon": 13.2597197
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "35",
+        "addr:postcode": "14169",
+        "addr:street": "Teltower Damm",
+        "addr:suburb": "Zehlendorf",
+        "building": "yes",
+        "name": "Forum Zehlendorf",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26031057,
+      "center": {
+        "lat": 52.5606664,
+        "lon": 13.4991707
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "236",
+        "addr:postcode": "13051",
+        "addr:street": "Hansastraße",
+        "addr:suburb": "Alt-Hohenschönhausen",
+        "building": "retail",
+        "name": "Hansa-Center",
+        "shop": "mall",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "z. Z. großer Schuhladen untere Etage, kein Einkaufszentrum im Haus"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26285059,
+      "center": {
+        "lat": 52.4416816,
+        "lon": 13.5874125
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "2-4",
+        "addr:postcode": "12559",
+        "addr:street": "Pablo-Neruda-Straße",
+        "addr:suburb": "Köpenick",
+        "building": "retail",
+        "building:levels": "3",
+        "check_date": "2025-05-11",
+        "ele": "8",
+        "name": "Allende-Center",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "phone": "+49 30 88471760",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "http://www.allende-center.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26495015,
+      "center": {
+        "lat": 52.5139121,
+        "lon": 13.4764056
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "113-117",
+        "addr:postcode": "10365",
+        "addr:street": "Frankfurter Allee",
+        "addr:suburb": "Lichtenberg",
+        "alt_name": "Ringcenter",
+        "building:levels": "3",
+        "building:part": "yes",
+        "changing_table": "yes",
+        "contact:website": "https://www.ring-center.de",
+        "internet_access": "wlan",
+        "name": "Ring-Center 3",
+        "opening_hours": "Mo-Sa 10:00-21:00",
+        "phone": "+49 (0)30 422 64 7 0",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "website": "https://www.ring-center.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28504026,
+      "center": {
+        "lat": 52.4609543,
+        "lon": 13.325446
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "109-110",
+        "addr:postcode": "12163",
+        "addr:street": "Schloßstraße",
+        "addr:suburb": "Steglitz",
+        "building": "retail",
+        "building:levels": "7",
+        "layer": "1",
+        "name": "Schloss 110",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wikidata": "Q135615886",
+        "wikimedia_commons": "Category:Schloss 110"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28504291,
+      "center": {
+        "lat": 52.4578032,
+        "lon": 13.3202814
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "34",
+        "addr:postcode": "12163",
+        "addr:street": "Schloßstraße",
+        "addr:suburb": "Steglitz",
+        "building": "retail",
+        "contact:phone": "+49 30 6669120",
+        "email": "info@dasschloss.de",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "layer": "1",
+        "name": "Das Schloss",
+        "name:ru": "ТЦ Дас Шлосс",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "shop": "mall",
+        "toilets": "yes",
+        "website": "https://www.dasschloss.de/",
+        "wheelchair": "yes",
+        "wikidata": "Q1170264",
+        "wikipedia": "de:Das Schloss (Berlin)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28505596,
+      "center": {
+        "lat": 52.4647526,
+        "lon": 13.3263683
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "12163",
+        "addr:street": "Schloßstraße",
+        "addr:suburb": "Steglitz",
+        "building": "retail",
+        "building:levels": "6",
+        "check_date:opening_hours": "2024-01-08",
+        "contact:website": "http://www.forum-steglitz.de",
+        "height": "26.4",
+        "name": "Forum Steglitz",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1439238",
+        "wikipedia": "de:Forum Steglitz"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28505733,
+      "center": {
+        "lat": 52.4654525,
+        "lon": 13.3275815
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "12161",
+        "addr:street": "Walther-Schreiber-Platz",
+        "addr:suburb": "Friedenau",
+        "building": "retail",
+        "name": "Schloss-Straßen-Center",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "shop": "mall",
+        "short_name": "SSC",
+        "website": "https://www.schloss-strassen-center.de/",
+        "wheelchair": "yes",
+        "wikidata": "Q1729147",
+        "wikipedia": "de:Schloss-Straßen-Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28700227,
+      "center": {
+        "lat": 52.5571877,
+        "lon": 13.5703651
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "7;9",
+        "addr:postcode": "12687",
+        "addr:street": "Oberweißbacher Straße",
+        "addr:suburb": "Marzahn",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:opening_hours": "2023-02-28",
+        "name": "Tal-Center",
+        "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-14:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29406321,
+      "center": {
+        "lat": 52.5648336,
+        "lon": 13.5235325
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "18A",
+        "addr:postcode": "13057",
+        "addr:street": "Vincent-van-Gogh-Straße",
+        "addr:suburb": "Neu-Hohenschönhausen",
+        "building": "yes",
+        "end_date": "2012-03-01",
+        "name": "Welsegalerie 2",
+        "shop": "mall",
+        "source": "Geoportal Berlin / Hauskoordinaten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30452383,
+      "center": {
+        "lat": 52.5090723,
+        "lon": 13.3050827
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "46",
+        "addr:postcode": "10627",
+        "addr:street": "Wilmersdorfer Straße",
+        "addr:suburb": "Charlottenburg",
+        "building": "retail",
+        "building:use": "retail",
+        "name": "Wilma",
+        "old_name": "Wilmersdorfer Arcaden",
+        "phone": "+49 30 31805290",
+        "shop": "mall",
+        "toilets": "yes",
+        "website": "https://www.wilmersdorfer-arcaden.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30675878,
+      "center": {
+        "lat": 52.5136392,
+        "lon": 13.5216873
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "10315",
+        "addr:street": "Seddiner Straße",
+        "addr:suburb": "Friedrichsfelde",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Seddiner Passagen",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30977186,
+      "center": {
+        "lat": 52.5434687,
+        "lon": 13.4426018
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "90",
+        "addr:postcode": "10409",
+        "addr:street": "Greifswalder Straße",
+        "addr:suburb": "Prenzlauer Berg",
+        "building": "commercial",
+        "building:levels": "3",
+        "height": "15",
+        "name": "Mühlenberg-Center",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-18:00",
+        "operator": "Concarus Real Estate Invest GmbH",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31831879,
+      "center": {
+        "lat": 52.5131286,
+        "lon": 13.4181242
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "5-6a",
+        "addr:postcode": "10179",
+        "addr:street": "Brückenstraße",
+        "building": "office",
+        "name": "Jannowitz-Center",
+        "shop": "mall",
+        "wikidata": "Q114036779",
+        "wikimedia_commons": "Category:Jannowitzcenter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32269730,
+      "center": {
+        "lat": 52.5220475,
+        "lon": 13.1642048
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "28-30",
+        "addr:postcode": "13593",
+        "addr:street": "Obstallee",
+        "addr:suburb": "Staaken",
+        "building": "retail",
+        "building:levels": "2",
+        "contact:email": "info@staakencenter.de",
+        "contact:phone": "+49 30 36478082",
+        "contact:website": "https://www.staakencenter.de/",
+        "name": "Staaken-Center",
+        "opening_hours": "Mo - Fr 9:00 - 20:00; Sa 9:00 - 18:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "source": "Geoportal Berlin / Hausumringe",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32509599,
+      "center": {
+        "lat": 52.5701517,
+        "lon": 13.4957402
+      },
+      "tags": {
+        "building": "retail",
+        "name": "RiZ",
+        "shop": "mall",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32574854,
+      "center": {
+        "lat": 52.5379642,
+        "lon": 13.6054811
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "6",
+        "name": "Marktplatz-Center",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1901172"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32651656,
+      "center": {
+        "lat": 52.5062764,
+        "lon": 13.3074406
+      },
+      "tags": {
+        "building": "retail",
+        "name": "Kant Center",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34000362,
+      "center": {
+        "lat": 52.5459511,
+        "lon": 13.5551681
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:opening_hours": "2022-02-27",
+        "name": "Marzahner Promenade",
+        "opening_hours:signed": "no",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34113800,
+      "center": {
+        "lat": 52.5454448,
+        "lon": 13.5529516
+      },
+      "tags": {
+        "addr:housenumber": "41,42,43",
+        "addr:street": "Marzahner Promenade",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Marzahner Promenade",
+        "opening_hours:signed": "no",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34146669,
+      "center": {
+        "lat": 52.5447834,
+        "lon": 13.5506173
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Fußgängerzone Marzahner Promenade",
+        "opening_hours": "24/7",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34348766,
+      "center": {
+        "lat": 52.5427654,
+        "lon": 13.5443144
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:opening_hours": "2024-10-03",
+        "name": "Marzahner Promenade",
+        "opening_hours:signed": "no",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35092463,
+      "center": {
+        "lat": 52.5668795,
+        "lon": 13.5277286
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:opening_hours": "2021-07-30",
+        "name": "Welsegalerie 1",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35160810,
+      "center": {
+        "lat": 52.4858474,
+        "lon": 13.3570245
+      },
+      "tags": {
+        "building": "retail",
+        "building:colour": "#d96c56",
+        "building:levels": "3",
+        "building:material": "brick",
+        "contact:website": "https://www.kaiser-wilhelm-passage.de/",
+        "name": "Kaiser-Wilhelm-Passage",
+        "roof:colour": "#817164",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 39674922,
+      "center": {
+        "lat": 52.4673083,
+        "lon": 13.4325301
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "158",
+        "addr:postcode": "12051",
+        "addr:street": "Hermannstraße",
+        "addr:suburb": "Neukölln",
+        "building": "retail",
+        "building:levels": "2",
+        "building:levels:underground": "2",
+        "name": "Hermann Quartier",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 42500531,
+      "center": {
+        "lat": 52.5295065,
+        "lon": 13.5927133
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "3",
+        "contact:facebook": "https://www.facebook.com/Corso-Center-Hellersdorf-Forum-Kienberg-108460280603191/",
+        "name": "Forum Kienberg",
+        "shop": "mall",
+        "wheelchair": "limited",
+        "wikidata": "Q1602807"
+      }
+    },
+    {
+      "type": "way",
+      "id": 42738239,
+      "center": {
+        "lat": 52.4377344,
+        "lon": 13.2632365
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "328-334",
+        "addr:postcode": "14169",
+        "addr:street": "Clayallee",
+        "addr:suburb": "Zehlendorf",
+        "building": "retail",
+        "name": "Zehlendorfer Welle",
+        "shop": "mall",
+        "source": "Geoportal Berlin / k5_2012_sw_sued.zip",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47282874,
+      "center": {
+        "lat": 52.5233607,
+        "lon": 13.5862763
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "77-83",
+        "addr:postcode": "12619",
+        "addr:street": "Hellersdorfer Straße",
+        "building": "retail",
+        "building:levels": "2",
+        "building:levels:underground": "1",
+        "name": "Spree Center",
+        "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-16:00",
+        "phone": "+49 30 5688080",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no",
+        "website": "https://spree-center-berlin.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47282925,
+      "center": {
+        "lat": 52.5223853,
+        "lon": 13.5868785
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "77-83",
+        "addr:postcode": "12619",
+        "addr:street": "Hellersdorfer Straße",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Spree Center",
+        "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-16:00",
+        "phone": "+49 30 5688080",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://spree-center-berlin.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47283010,
+      "center": {
+        "lat": 52.5212158,
+        "lon": 13.5871897
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "3",
+        "building:levels:underground": "1",
+        "name": "Spree Center",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-16:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48395703,
+      "center": {
+        "lat": 52.6074351,
+        "lon": 13.3259022
+      },
+      "tags": {
+        "addr:housenumber": "6-10",
+        "addr:postcode": "13469",
+        "addr:street": "Oraniendamm",
+        "addr:suburb": "Waidmannslust",
+        "building": "retail",
+        "building:levels": "2",
+        "check_date:opening_hours": "2025-07-16",
+        "name": "Nordmeile",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "source": "Geoportal Berlin / Hausumringe",
+        "toilets": "no",
+        "website": "http://www.nordmeile-berlin.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 48990546,
+      "center": {
+        "lat": 52.4587641,
+        "lon": 13.3830395
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "198-200",
+        "addr:postcode": "12099",
+        "addr:street": "Tempelhofer Damm",
+        "addr:suburb": "Tempelhof",
+        "building": "commercial",
+        "building:use": "retail",
+        "heritage": "4",
+        "heritage:operator": "lda",
+        "lda:criteria": "Baudenkmal",
+        "name": "Markthalle Tempelhof",
+        "ref:lda": "09075208",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wikidata": "Q14548278",
+        "wikipedia": "de:Betriebshof Tempelhof"
+      }
+    },
+    {
+      "type": "way",
+      "id": 75405910,
+      "center": {
+        "lat": 52.548852,
+        "lon": 13.3538334
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "141",
+        "addr:postcode": "13353",
+        "addr:street": "Müllerstraße",
+        "addr:suburb": "Wedding",
+        "building": "retail",
+        "building:levels": "5",
+        "contact:website": "http://www.cittipoint-berlin.de/",
+        "name": "Cittipoint",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 88716001,
+      "center": {
+        "lat": 52.4294707,
+        "lon": 13.3295789
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels:underground": "1",
+        "name": "LIO",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 105154993,
+      "center": {
+        "lat": 52.5320908,
+        "lon": 13.3970391
+      },
+      "tags": {
+        "architect": "Hermann Blankenstein",
+        "building": "supermarket",
+        "building:colour": "yellow",
+        "building:material": "brick",
+        "heritage": "4",
+        "heritage:operator": "lda",
+        "heritage:website": "https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09010137",
+        "lda:criteria": "Baudenkmal",
+        "name": "Ackerhalle",
+        "old_name": "Markthalle VI",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "ref:lda": "09010137",
+        "shop": "mall",
+        "start_date": "1886..1888",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q17343587",
+        "wikimedia_commons": "File:Berlin Markhalle VI Fassade Ackerstrasse.jpg",
+        "wikipedia": "de:Ackerhalle"
+      }
+    },
+    {
+      "type": "way",
+      "id": 120314493,
+      "center": {
+        "lat": 52.4548347,
+        "lon": 13.3845588
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "227",
+        "addr:inclusion": "actual",
+        "addr:postcode": "12099",
+        "addr:street": "Tempelhofer Damm",
+        "addr:suburb": "Tempelhof",
+        "building": "retail",
+        "building:levels": "2",
+        "layer": "-1",
+        "location": "surface",
+        "name": "EKZ Tempelhofer Hafen",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "roof:levels": "0",
+        "shop": "mall",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 142202879,
+      "center": {
+        "lat": 52.5616949,
+        "lon": 13.4670198
+      },
+      "tags": {
+        "building": "retail",
+        "name": "Zentrum am Rathaus",
+        "shop": "mall",
+        "short_name": "ZAR"
+      }
+    },
+    {
+      "type": "way",
+      "id": 150810044,
+      "center": {
+        "lat": 52.4905895,
+        "lon": 13.4573467
+      },
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:postcode": "12435",
+        "addr:street": "Am Treptower Park",
+        "building": "retail",
+        "building:levels": "8",
+        "changing_table": "yes",
+        "check_date": "2024-08-21",
+        "name": "Park Center",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "operator": "ATCP Management GmbH",
+        "shop": "mall",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 152177691,
+      "center": {
+        "lat": 52.4124323,
+        "lon": 13.5719082
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "12524",
+        "addr:street": "Bruno-Taut-Straße",
+        "addr:suburb": "Bohnsdorf",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Taut Passage",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:00-16:00",
+        "phone": "+49-30-67990530",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "url": "http://www.taut-passage-berlin.de",
+        "website": "https://taut-passage-berlin.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156959020,
+      "center": {
+        "lat": 52.5688054,
+        "lon": 13.515824
+      },
+      "tags": {
+        "building": "retail",
+        "name": "FALKENBOGEN",
+        "shop": "mall",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 167177398,
+      "center": {
+        "lat": 52.457739,
+        "lon": 13.5796652
+      },
+      "tags": {
+        "addr:postcode": "12555",
+        "addr:street": "Bahnhofstraße",
+        "building": "retail",
+        "building:levels": "5",
+        "name:signed": "no",
+        "opening_hours": "Mo-Sa 10:00-20:00; PH off",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179019726,
+      "center": {
+        "lat": 52.4892913,
+        "lon": 13.3946855
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "10961",
+        "addr:street": "Marheinekeplatz",
+        "addr:suburb": "Kreuzberg",
+        "amenity": "marketplace",
+        "building": "retail",
+        "building:levels": "2",
+        "check_date:opening_hours": "2025-05-19",
+        "name": "Marheineke Markthalle",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00",
+        "phone": "+49 30 61286146",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://meine-markthalle.de/",
+        "wheelchair": "yes",
+        "wikipedia": "de:Markthalle XI"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183966473,
+      "center": {
+        "lat": 52.5236528,
+        "lon": 13.4619765
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "38",
+        "addr:postcode": "10249",
+        "addr:street": "Hermann-Blankenstein-Straße",
+        "addr:suburb": "Prenzlauer Berg",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-05-11",
+        "check_date:opening_hours": "2022-02-07",
+        "noname": "yes",
+        "opening_hours": "Mo-Fr 07:00-24:00, Sa 07:00-23:30",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 194952966,
+      "center": {
+        "lat": 52.4628374,
+        "lon": 13.3243602
+      },
+      "tags": {
+        "building": "commercial",
+        "contact:website": "https://boulevard-berlin.klepierre.de/",
+        "internet_access": "wlan",
+        "name": "Boulevard Berlin",
+        "opening_hours": "Mo-Sa 10:00-20:00; PH,Su off",
+        "shop": "mall",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q895069",
+        "wikipedia": "de:Boulevard Berlin"
+      }
+    },
+    {
+      "type": "way",
+      "id": 211775432,
+      "center": {
+        "lat": 52.4230228,
+        "lon": 13.4755919
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "3",
+        "comment": "umbenannt bei Neueröffnung 2012, vormals \"Einkaufszentrum Wutzkyallee\"",
+        "loc_name": "Wutzky Center",
+        "name": "Wutzky",
+        "old_name": "Einkaufszentrum Wutzkyallee",
+        "opening_hours": "Mo-Sa 06:00-22:00, Su,PH 07:00-16:00",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wikidata": "Q70833503"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258898047,
+      "center": {
+        "lat": 52.5190551,
+        "lon": 13.4157891
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:city:fa": "برلین",
+        "addr:country": "DE",
+        "addr:housename": "Alexa",
+        "addr:housenumber": "20",
+        "addr:postcode": "10179",
+        "addr:street": "Grunerstraße",
+        "addr:suburb": "Mitte",
+        "alt_name": "Alexa Berlin",
+        "building": "retail",
+        "building:colour": "#b6434e",
+        "building:levels": "4",
+        "building:material": "concrete",
+        "contact:website": "https://www.alexacentre.com/",
+        "name": "Alexa",
+        "opening_hours": "Mo-Sa 10:00-21:00",
+        "phone": "+49 30 269340121",
+        "roof:colour": "gray",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "start_date": "2007-9-12",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q322847",
+        "wikipedia": "de:Alexa (Einkaufszentrum)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 294455863,
+      "center": {
+        "lat": 52.5703096,
+        "lon": 13.4040977
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "13187",
+        "addr:street": "Breite Straße",
+        "addr:suburb": "Pankow",
+        "building": "retail",
+        "building:levels": "4",
+        "changing_table": "yes",
+        "check_date:opening_hours": "2025-09-27",
+        "contact:website": "https://www.rathauscenter-pankow.de/",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Rathaus-Center Pankow",
+        "name:fa": "مرکز شهر تاون",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q41620808"
+      }
+    },
+    {
+      "type": "way",
+      "id": 317858421,
+      "center": {
+        "lat": 52.5303689,
+        "lon": 13.4620481
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Landsberger Spitze",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 360417478,
+      "center": {
+        "lat": 52.527843,
+        "lon": 13.3441934
+      },
+      "tags": {
+        "name": "Schultheiss Quartier",
+        "opening_hours": "Mo-Fr 10:00-20:00; Su,PH off",
+        "shop": "mall",
+        "toilets": "yes",
+        "website": "https://schultheissquartier.de/",
+        "wheelchair": "yes",
+        "wikidata": "Q56871284"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364457341,
+      "center": {
+        "lat": 52.5057217,
+        "lon": 13.3360431
+      },
+      "tags": {
+        "building": "retail",
+        "heritage": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:operator:wikidata": "Q123478667",
+        "internet_access:password": "no",
+        "internet_access:ssid": "BIKINI BERLIN",
+        "loc_name": "Bikinihaus",
+        "name": "Bikini Berlin",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q860063",
+        "wikimedia_commons": "Category:Bikini-Haus",
+        "wikipedia": "de:Bikini-Haus"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377223108,
+      "center": {
+        "lat": 52.4570633,
+        "lon": 13.5079497
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "12439",
+        "addr:street": "Schnellerstraße",
+        "addr:suburb": "Niederschöneweide",
+        "building": "retail",
+        "contact:phone": "+49 30 63223260",
+        "contact:website": "https://www.zentrumschoeneweide.de/",
+        "name": "Zentrum Schöneweide",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 382117071,
+      "center": {
+        "lat": 52.5482424,
+        "lon": 13.5039336
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "9-9D",
+        "addr:postcode": "13055",
+        "addr:street": "Hauptstraße",
+        "addr:suburb": "Alt-Hohenschönhausen",
+        "building": "mall",
+        "building:levels": "3",
+        "name": "Storchenhof",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "wikidata": "Q130397568"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409103517,
+      "center": {
+        "lat": 52.4330494,
+        "lon": 13.5353389
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "4",
+        "building:parts": "vertical",
+        "name": "Einkaufszentrum Adlershofer Tor",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 449574126,
+      "center": {
+        "lat": 52.5337689,
+        "lon": 13.1966537
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "13581",
+        "addr:street": "Klosterstraße",
+        "addr:suburb": "Spandau",
+        "air_conditioning": "yes",
+        "building": "commercial",
+        "building:levels": "2",
+        "contact:facebook": "https://www.facebook.com/spandauarcaden",
+        "email": "spandau-arcaden@urw.com",
+        "layer": "1",
+        "name": "Spandau Arcaden",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+49 30 3300110",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "source": "Geoportal Berlin / Hausumringe",
+        "stroller": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.spandau-arcaden.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Fahrstühle vorhanden, stufenlos alles zu erreichen, nicht jede Tür öffnet automatisch, behindertengerechte Toiletten sind vorhanden, Eistheke und Smoothietresen am Eingang sehr hoch gelegen",
+        "wikidata": "Q111738326",
+        "wikimedia_commons": "Category:Spandau Arcaden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 494737961,
+      "center": {
+        "lat": 52.5105691,
+        "lon": 13.3813724
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "12",
+        "addr:postcode": "10117",
+        "addr:street": "Leipziger Platz",
+        "alt_name": "LP12 (Leipziger Pl. 12)",
+        "check_date": "2025-06-23",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "loc_name": "Mall of Shame",
+        "name": "Mall of Berlin",
+        "opening_hours": "Mo-Sa 10:00-21:00",
+        "phone": "+49 30 20621770",
+        "power_supply": "USB",
+        "shop": "mall",
+        "smoking": "no",
+        "toilets": "yes",
+        "website": "https://www.mallofberlin.de/",
+        "wheelchair": "yes",
+        "wikidata": "Q15118274",
+        "wikimedia_commons": "Category:LP12 Mall of Berlin",
+        "wikipedia": "de:Mall of Berlin"
+      }
+    },
+    {
+      "type": "way",
+      "id": 512957003,
+      "center": {
+        "lat": 52.5556413,
+        "lon": 13.5586819
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "20",
+        "addr:postcode": "12687",
+        "addr:street": "Mehrower Allee",
+        "building": "apartments",
+        "building:levels": "1",
+        "name": "Plaza Marzahn",
+        "opening_hours": "24/7",
+        "roof:shape": "flat",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 513015071,
+      "center": {
+        "lat": 52.5322726,
+        "lon": 13.4691626
+      },
+      "tags": {
+        "architect": "Hinrich Baller",
+        "architect:wikidata": "Q1619451",
+        "architect:wikipedia": "de:Hinrich Baller",
+        "building": "apartments",
+        "check_date:opening_hours": "2024-12-05",
+        "name": "Castello",
+        "opening_hours": "Mo-Fr 06:00-20:00; Sa 06:00-20:00",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "http://www.castelloberlin.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 515927450,
+      "center": {
+        "lat": 52.5654272,
+        "lon": 13.5714421
+      },
+      "tags": {
+        "building": "retail",
+        "name": "Einkaufszentrum \"Zu den Eichen\"",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 566145932,
+      "center": {
+        "lat": 52.5494818,
+        "lon": 13.4154267
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:postcode": "10439",
+        "addr:street": "Schönhauser Allee",
+        "addr:suburb": "Prenzlauer Berg",
+        "building": "retail",
+        "building:levels": "5",
+        "check_date": "2024-06-10",
+        "name": "Schönhauser Allee Arcaden",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+49 30 447 117 17",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://schoenhauseralleearcaden.de/",
+        "wheelchair": "yes",
+        "wikidata": "Q47088877",
+        "wikimedia_commons": "Category:Schönhauser Allee Arcaden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594722015,
+      "center": {
+        "lat": 52.5134235,
+        "lon": 13.5216971
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "10315",
+        "addr:street": "Seddiner Straße",
+        "addr:suburb": "Friedrichsfelde",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Seddiner Passagen",
+        "shop": "mall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594722016,
+      "center": {
+        "lat": 52.5134614,
+        "lon": 13.5222653
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "10315",
+        "addr:street": "Seddiner Straße",
+        "addr:suburb": "Friedrichsfelde",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Seddiner Passagen",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 615700425,
+      "center": {
+        "lat": 52.5061593,
+        "lon": 13.4466389
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "11",
+        "addr:postcode": "10243",
+        "addr:street": "Tamara-Danz-Straße",
+        "building": "retail",
+        "building:levels": "5",
+        "name": "East Side Mall",
+        "opening_hours": "Mo-Sa 10:00-21:00",
+        "shop": "mall",
+        "toilets": "yes",
+        "website": "https://www.eastsidemall.de/",
+        "wikidata": "Q24032115",
+        "wikimedia_commons": "Category:East Side Mall",
+        "wikipedia": "en:East Side Mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 682543123,
+      "center": {
+        "lat": 52.4096389,
+        "lon": 13.3812564
+      },
+      "tags": {
+        "building": "commercial",
+        "building:levels": "6",
+        "loc_name": "EKZ Südmeile",
+        "name": "Südmeile",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "mall",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 703257706,
+      "center": {
+        "lat": 52.5363177,
+        "lon": 13.2750963
+      },
+      "tags": {
+        "building": "mall",
+        "name": "Kaufmitte Siemensstadt",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "mall",
+        "start_date": "1961-10-26"
+      }
+    },
+    {
+      "type": "way",
+      "id": 753249359,
+      "center": {
+        "lat": 52.5320391,
+        "lon": 13.344805
+      },
+      "tags": {
+        "building": "commercial",
+        "building:levels": "5",
+        "changing_table": "yes",
+        "contact:email": "info@moabogen.de",
+        "contact:website": "https://moabogen.de/",
+        "name": "Moa Bogen",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "wikidata": "Q57027136"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1035930982,
+      "center": {
+        "lat": 52.5064438,
+        "lon": 13.5590298
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "108",
+        "addr:postcode": "12683",
+        "addr:street": "Weißenhöher Straße",
+        "addr:suburb": "Biesdorf",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Biesdorf Center",
+        "opening_hours": "Mo-Sa 09:30-20:00",
+        "operator": "Greenman Biesdorf B.V.",
+        "phone": "+49 30 51652269311",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.biesdorf-center.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1041665235,
+      "center": {
+        "lat": 52.5992116,
+        "lon": 13.3545864
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "17",
+        "addr:postcode": "13439",
+        "addr:street": "Senftenberger Ring",
+        "email": "info@maerkische-zeile.de",
+        "fax": "+49304158132",
+        "landuse": "retail",
+        "name": "Märkische Zeile",
+        "opening_hours": "Mo-Fr 09:30-20:00, Sa 09:00-20:00",
+        "operator": "ECE Marketplaces GmbH & Co. KG",
+        "phone": "+49304168051",
+        "shop": "mall",
+        "website": "https://www.maerkische-zeile.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054276972,
+      "center": {
+        "lat": 52.5043341,
+        "lon": 13.3380417
+      },
+      "tags": {
+        "building": "mall",
+        "contact:website": "https://europa-center-berlin.de/",
+        "heritage": "4",
+        "heritage:operator": "lda",
+        "lda:criteria": "Baudenkmal",
+        "name": "Europa-Center",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "ref:lda": "09096462",
+        "shop": "mall",
+        "start_date": "1965-04",
+        "toilets": "yes",
+        "wikidata": "Q703289",
+        "wikipedia": "de:Europa-Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065811824,
+      "center": {
+        "lat": 52.5143274,
+        "lon": 13.4765019
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "113-117",
+        "addr:postcode": "10365",
+        "addr:street": "Frankfurter Allee",
+        "addr:suburb": "Lichtenberg",
+        "building": "retail",
+        "changing_table": "yes",
+        "contact:website": "https://www.ring-center.de",
+        "name": "Ring-Center Berlin II",
+        "opening_hours": "Mo-Sa 10:00-20:00; PH off",
+        "phone": "+49 30 4226470",
+        "shop": "mall",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2153462",
+        "wikimedia_commons": "Category:Ring-Center (shopping center)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1238152790,
+      "center": {
+        "lat": 52.4558061,
+        "lon": 13.386016
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Tempelhofer Hafen",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "shop": "mall",
+        "start_date": "2009-04-29",
+        "toilets": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q21036628",
+        "wikimedia_commons": "Category:Tempelhofer Hafen (shopping center)",
+        "wikipedia": "de:Tempelhofer Hafen (Einkaufszentrum)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1244901436,
+      "center": {
+        "lat": 52.5976128,
+        "lon": 13.3545182
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "3a",
+        "addr:postcode": "13439",
+        "addr:street": "Senftenberger Ring",
+        "contact:email": "maerkisches.zentrum@dtz.com",
+        "contact:fax": "+49 30 40710173",
+        "contact:phone": "+49 30 40710171",
+        "contact:website": "https://www.maerkisches-zentrum.de/",
+        "email": "maerkisches.zentrum@kintyre.de",
+        "fax": "+493040710173",
+        "landuse": "retail",
+        "name": "Märkisches Zentrum",
+        "operator": "MV Geschäftshaus-Marketing GmbH",
+        "phone": "+493040710171",
+        "shop": "mall",
+        "website": "https://www.maerkisches-zentrum.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 380240,
+      "center": {
+        "lat": 52.5126135,
+        "lon": 13.390499
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "67",
+        "addr:postcode": "10117",
+        "addr:street": "Friedrichstraße",
+        "alt_name": "Quartier 205",
+        "architect": "Oswald Mathias Ungers",
+        "building": "retail",
+        "check_date:opening_hours": "2021-10-11",
+        "name": "The Q",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "shop": "mall",
+        "type": "multipolygon",
+        "wheelchair": "yes",
+        "wikidata": "Q17591274",
+        "wikimedia_commons": "Category:Quartier 205 (Berlin)"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2671992,
+      "center": {
+        "lat": 52.5223779,
+        "lon": 13.465988
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "2",
+        "noname": "yes",
+        "opening_hours:signed": "no",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "toilets:wheelchair": "yes",
+        "type": "multipolygon",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 4540346,
+      "center": {
+        "lat": 52.5613783,
+        "lon": 13.4227619
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Neumann-Forum",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "roof:levels": "1",
+        "shop": "mall",
+        "type": "multipolygon",
+        "wikidata": "Q41623913"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7701165,
+      "center": {
+        "lat": 52.4301282,
+        "lon": 13.4551989
+      },
+      "tags": {
+        "brand": "Westfield",
+        "brand:wikidata": "Q106623253",
+        "building": "retail",
+        "building:levels": "6",
+        "check_date": "2023-07-08",
+        "name": "Gropius Passagen",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "operator": "Unibail-Rodamco-Westfield",
+        "operator:wikidata": "Q608518",
+        "shop": "mall",
+        "type": "multipolygon",
+        "website": "https://www.gropius-passagen.de/",
+        "wheelchair": "yes",
+        "wikidata": "Q1413944"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8504555,
+      "center": {
+        "lat": 52.5292601,
+        "lon": 13.4563404
+      },
+      "tags": {
+        "building": "commercial",
+        "name": "Forum Landsberger Allee",
+        "roof:shape": "flat",
+        "shop": "mall",
+        "type": "multipolygon",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17353905,
+      "center": {
+        "lat": 52.4375589,
+        "lon": 13.4463336
+      },
+      "tags": {
+        "building": "yes",
+        "name": "GEHAG Einkaufzentrum",
+        "shop": "mall",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19445153,
+      "center": {
+        "lat": 52.4935737,
+        "lon": 13.5072316
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Dolgensee-Center",
+        "shop": "mall",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

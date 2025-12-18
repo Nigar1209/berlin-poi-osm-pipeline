@@ -1,0 +1,46 @@
+https://data.gov.de/suche/daten/schulene99f8 (Schulregister)
+
+https://localpedia.de/berlin/berliner-bezirke (bezirkskarte)
+
+https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=schulen@senstadt
+
+https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/2656f411-e4e9-3e57-8dc7-b4533426e048 (schulen geodaten etc)
+https://www.bildungsstatistik.berlin.de/statistik/ListGen/schuldaten_a.aspx (nochmal schuldaten ggf aktueller checken)
+https://daten.berlin.de/datensaetze/schulen-in-berlin-1096779
+https://fbinter.stadt-berlin.de/fb/index.jsp ( suchwort schulen denke ich benutzt die selbe wie gdi)
+
+https://github.com/ini20/berliner-schulen/tree/master (old 2015)
+
+https://www.bildungsstatistik.berlin.de/statistik/ListGen/SVZ_Fakt5.aspx (Schueler Lehrer Statistiken  oeffentliche)
+
+https://daten.berlin.de/datensaetze/schulen-im-starchancen-programm-1570794 ( Schulen im Startchancen-programm fuer sozial benachteiligte)
+
+https://jedeschule.de/schulen/ (trasnparenzfokusbericht von 2017 evtl rating helfer) - (weiter aktualisierte)
+https://jedeschule.codefor.de/ueber/
+
+https://berlinerschulen.ini20.de/#/ (aelterees Projekt 2015) aber unterscheidet noch nach duales lernen / ganztag / zweiter bildungsweg
+https://github.com/ini20/berliner-schulen/tree/master
+
+https://www.berlin.de/sen/bildung/schule/bildungswege/grundschule/anmeldung/ (Schulanmeldung)
+
+https://www.berlin.de/sen/bildung/lebenslanges-lernen/zweiter-bildungsweg/ (relevant fuer wer bietet 2ten bildungsweg an  tag oder abend)
+
+https://www.bildungsmonitoring.de/bildung/online?operation=abruftabelleBearbeiten&levelindex=2&levelid=1750377257745&auswahloperation=abruftabelleAuspraegungAuswaehlen&auswahlverzeichnis=ordnungsstruktur&auswahlziel=werteabruf&code=BE-E07.2i&auswahltext=&werteabruf=Werteabruf#abreadcrumb
+(E7.2: Schülerinnen- und Schülerzahlen
+nach Teilbereichen des Berufsbildungssystems ggf fuer private average oder so)
+https://www.statistik-berlin-brandenburg.de/gesellschaft/bildung
+(muss noch genauer durchsehen)
+https://www.bildungsstatistik-berlin.de/p1/dac/r/Schultypisierung.html (ggf fuers rating)
+https://www.bildungsstatistik.berlin.de/
+
+https://privatschulen.de/?s=Berlin (eventuel auch durchsuchen)
+
+| Source                | Type                        | Format      | Update Frequency  | Use Case                                               |
+| --------------------- | --------------------------- | ----------- | ----------------- | ------------------------------------------------------ |
+| GDI Berlin “Schulen”  | Governance / Geodata        | WFS/GeoJSON | Monthly/Quarterly | Mapping, public/private flag, geospatial joins         |
+| Open Data Portal CKAN | Statistics                  | CSV/XLS     | Annual            | Student/teacher counts, school attributes              |
+| ArcGIS Hub            | Geodata mirror              | CSV/GeoJSON | Periodic          | Alternative download, visualization                    |
+| SenBJF Website        | Official registry & funding | Web/PDF     | Semi-annual       | Validation, program classification, private references |
+| Education research    | Meta analysis               | PDF         | Irregular         | Informs data quality expectations                      |
+
+https://dataportals.org/portal/berlin-open-data?utm_source=chatgpt.com ( Open Data Portal CKAN )
