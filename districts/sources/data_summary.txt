@@ -1,0 +1,7 @@
+Berlin Geographic Data Summary
+Generated: 2025-07-23 14:20:36
+
+Districts: 12 records
+Neighborhoods: 96 records
+Coordinate System: EPSG:4326
+Geometry Format: WKT

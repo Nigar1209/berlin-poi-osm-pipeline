@@ -1,0 +1,782 @@
+osm_type,osm_id,name,addr_street,addr_housenumber,addr_postcode,addr_city,opening_hours,wheelchair,phone,email,website,lat,lon
+node,304183504,,Hönower Straße,75,12623,Berlin,,,,,,52.5114112,13.612096
+node,313539258,Zahnzentrum Wedding,Müllerstraße,34a,13353,Berlin,Mo 09:00-19:00; Tu 09:00-18:00; We 09:00-17:00; Th 09:00-20:00; Fr 09:30-15:00,yes,,,,52.5488382,13.3553052
+node,325161442,A. Nejad,,,,,Mo-Tu 09:00-19:00; We 09:00-14:00; Th 09:00-19:00; Fr 09:00-12:00,yes,+49 30 361 91 06,,,52.5088434,13.1804772
+node,345236220,Dr. Beate Lengert,Kurfürstendamm,218,10719,Berlin,,,,,http://www.dr-beate-lengert.de/,52.5027217,13.3281367
+node,391394177,Serpil Hartfiel,Kollwitzstraße,77,10435,Berlin,Mo-Th 08:00-19:00; Fr 08:00-12:00,no,,,https://www.zahnarztpraxis-hartfiel.de/,52.5375469,13.4189939
+node,420517053,"Zahnärzte Nicolas Weiss, Volker Landmann",,,,,"Mo-Fr ""nach Vereinbarung""",,+49 30 7445020,praxis.weiss.landmann@gmail.com,http://www.zahnarztpraxis-lichtenrade.de/,52.3849683,13.4048698
+node,430545835,DentZ,Tempelhofer Damm,143,12099,Berlin,"Mo,Tu,Fr 09:00-16:00; We,Th 11:00-19:00",yes,+49 30 2647972600,,http://dentz-berlin.de,52.466306,13.3859476
+node,442391661,Zahnklinik Medeco,,,,,"Mo-Fr 07:00-21:00; Sa,Su,PH 09:00-18:00",limited,,,,52.4510627,13.3851782
+node,484267657,Mund-Kiefer-Gesichtschirugie,,,,Berlin,,,,,,52.5251579,13.3101292
+node,552149348,Zahnärztliche Gemeinschaftspraxis,,,,,Mo-Th 08:00-19:00; Fr 08:00-14:00,,+4930 4542013,Kontakt@Zahnarztpraxis-Speda.de,https://www.zahnarztpraxis-speda.de/,52.5413785,13.3537903
+node,567546834,Dagmar Monse,,,,,"Mo,Tu,Th 08:00-19:30; We 08:00-14:00",,+49 30 4272633,,,52.522482,13.4498403
+node,567546843,Leutloff,Ebertystraße,10,,,Mo-Th 07:00-20:00; Fr 10:00-17:00,no,+49 39 4270115,,,52.5252435,13.451933
+node,567546849,T. Witascheck,,,,,Mo 11:00-18:00; Tu 08:00-18:00; We 15:00-18:00; Th 08:00-14:00; Fr 08:00-12:00,,+49 30 4299828,,,52.5259802,13.4518655
+node,575192285,Zahnärzte am Weddingplatz MVZ,Reinickendorfer Straße,11,13347,Berlin,Mo-Fr 07:00-21:00; Sa 09:00-18:00; Su 11:00-17:00,yes,+49 30 4651449,info@zahnaerzte-wedding.de,https://www.zahnaerzte-wedding.de/,52.5419983,13.3702409
+node,582854287,Dr. Jan-Hendrik Hollenstein & Kollegen,Marienfelder Allee,75-79,12277,Berlin,"Mo-Th 09:00-13:00,14:00-19:00; Fr 09:00-15:00",yes,,,,52.4192555,13.3684671
+node,596559372,Zahnarztpraxis Schenk,Edisonstraße,63,12459,Berlin,Mo-We 07:30-19:00; Th 09:30-19:30,yes,+49 30 530 15 624,,http://www.dr-schenk-berlin.de,52.4615207,13.5129466
+node,596559476,Zahnklinik Ost GmbH,Treskowallee,112,,,Mo-Fr 07:00-21:00,yes,+493050014944,karlshorst@zahnklinik-ost.de,https://www.zahnklinik-ost.de/,52.4821618,13.5250672
+node,603743003,Dr. Robert Schulz,Goebelstraße,117,13629,Berlin,,,+49 30 3813400,,,52.539162,13.2721971
+node,654356082,Dr. Bodo Seidel,Rohrdamm,26,13629,Berlin,"Mo 10:00-19:00; Tu 08:00-15:00; We 10:00-19:00; Th 08:00-13:00,14:00-18:00; Fr 08:00-12:00",,+49 30 3828415,,https://www.za-seidel.de/,52.5375986,13.2646306
+node,655145025,Zahnarzt Dr. Kalinke,Hauptstraße,5B,10317,Berlin,"Mo,Th 08:00-16:00; Tu 08:00-16:00; Fr 08:00-13:00",yes,+49 30 +5589089,,,52.5000343,13.4777222
+node,715203795,Zahnarztpraxis Toma,Mecklenburgische Straße,17,10713,Berlin,"Mo-Fr 09:00-13:00, Mo,Tu,Th 14:00-18:00",yes,+49 30 8243402,,https://www.za-toma.de/,52.4815199,13.314376
+node,725621502,Dr. med. dent. Stella Talesnik (Fachärztin f. Kieferorthopädie),Landauer Straße,9,14197,Berlin,"Mo-Th 09:00-13:00,14:00-18:00",yes,,,,52.4727155,13.3172496
+node,740049026,Peter Krause,Kamenzer Damm,40,12249,Berlin,,,+49 30 7751071,,,52.4340065,13.3596273
+node,746841829,Dental 21,Neumannstraße,13,13189,Berlin,Mo-Th 08:00-20:00; Fr 08:00-16:00,,,,https://www.dental21-pankow.de/,52.5609416,13.4225578
+node,747200081,Dipl.-Stom. Rolf Jammer,,,,,"Mo,We 12:00-18:00; Tu,Th 08:00-13:00",limited,,,,52.5814655,13.3973766
+node,747816979,MVZ Volksdent,Prenzlauer Allee,176,10409,Berlin,Mo-Th 09:00-18:00; Fr 09:00-17:00,limited,03022325373,,https://volksdent.de,52.5456067,13.4273474
+node,753361471,Dr. Springer,Berliner Straße,3,13187,Berlin,"""nach Vereinbarung""",no,,,https://pankow-zahnarzt.berlin,52.5701667,13.4104527
+node,769958194,Zahnarztpraxis Birgit Kleinschmidt,Karl-Lade-Straße,40,10369,Berlin,"Tu,Fr 08:00-15:00, We,Th 14:00-20:00, We 14:00-16:00",limited,,,https://www.zahnarztpraxis-kleinschmidt.de/,52.5285621,13.4654732
+node,837697561,,Pilotenstraße,14,12487,Berlin,,no,,,,52.4480148,13.5138099
+node,837714008,Dhentica,,,,,"Mo 12:00-20:00, Tu 09:00-17:00, Th 10:00-20:00, Fr 09:00-12:00, Mi, Sa ""nach Vereinbarung""",,,,,52.4327892,13.5355561
+node,867281416,Kottident,Adalbertstraße,94,,,"Mo,Tu,Th 09:00-14:00,15:00-19:00; We 14:00-20:00; Fr 09:00-15:00; Sa ""nach Vereinbarung""",,+49 30 3911155; +49 30 69598003,info@kottident.de,https://kottident.de,52.5007252,13.4187141
+node,867872386,Dr. A. Hessberger,Oranienstraße,53,10969,Berlin,"Mo,Tu,Th 11:00-19:00; We 09:00-14:00; Fr 09:00-14:00",no,,,,52.5032559,13.4125501
+node,867872389,Kinderdentist,Oranienstraße,158,10969,Berlin,Mo-Th 08:00-20:00; Fr 08:00-18:00,yes,,,,52.5028297,13.413253
+node,872179392,Kiez-Smile,Mariannenstraße,9-10,10999,Berlin,,,030 615 8728,,,52.4996752,13.4224807
+node,967206093,Andrea-Maria Sistori,Ringbahnstraße,14,10711,Berlin,"Mo,Tu,Th 08:00-15:00; We,Fr 12:00-20:00",limited,,,https://www.zahnarzt-sistori.de/,52.4978625,13.2891596
+node,1069158603,Michael Heine,,,,,,,,,,52.526948,13.5465311
+node,1086008650,Dr. Weibrecht,,,,,Mo 08:00-15:00; Tu 10:00-18:00; We 14:00-19:00; Th 12:00-19:00; Fr 08:00-13:00,no,,,,52.5015153,13.4522867
+node,1086945323,Tina Sommerfeld,,,,,,,,,,52.6170354,13.3167165
+node,1111395270,Zahnarztpraxis Dr. Leo Pishwa,,,,,,,,,,52.4121997,13.1403245
+node,1134070235,Zahnretter Berlin,Auguststraße,1,10117,Berlin,,,+49 30 6514354,,https://www.zahnretter-berlin.de/,52.5257791,13.3905468
+node,1135819846,,,,,,,,,,,52.5472091,13.2091794
+node,1145597657,Grietje Franken,Bernauer Straße,132a,13507,Berlin,Mo-Fr 9:00-14:00,,03043566767,,https://www.zahnarzt-tegel-sued.de/,52.5759456,13.2777074
+node,1150113155,Dr. Sabine Weiß & Juliane Sonnen,Hubertusstraße,11,12163,Berlin,"Mo,Th 09:00-13:00,14:00-19:00; Tu,Fr 09:00-13:00; We 09:00-13:00,14:00-20:00",no,+49 30 7937413,,http://www.dr-sabine-weiss.de/,52.4603579,13.3258882
+node,1233981916,Zahnarztpraxis Schäfer,Schönhauser Allee,75,10439,Berlin,"Mo,Th 08:00-14:00; Tu,We 11:00-19:00; Fr 08:00-13:00",yes,+49304483164,,https://www.zapinar.de/,52.549214,13.4141423
+node,1270213088,Fachzentrum für Zahnheilkunde und Implantologie,Karl-Marx-Allee,105A,10243,Berlin,"Mo,We 12:00-19:00; Tu,Th 08:00-16:00; Fr 08:00-13:00",no,+49 30 4227254,kontakt@zap-kama105a.de,http://www.zap-kama105a.de/,52.5175395,13.4451958
+node,1274104703,Zahnarztpraxis Bodenheimer Frömming,Richard-Sorge-Straße,73,10249,Berlin,Mo-Th 09:00-18:00; Fr 09:00-15:00,no,+49 30 42010110;+49 304272627,,https://zahnarztpraxis-froemming.com,52.520238,13.4471274
+node,1285681206,Dr. Saskia Herbst-Liebmann Kieferorthopädie,Länderallee,10,14052,Berlin,"Mo-Th 08:00-18:00; Fr 08:00-13:00; Sa,Su,PH off",,+49-30- 304 5891,,https://www.kieferorthopaedin.berlin/,52.5098903,13.261588
+node,1297259149,Zahnarzt Ingrid Wolf,Richardstraße,108,12043,Berlin,"Mo 12:00-18:00, Tu 10:00-16:00, We 10:00-14:00, Th 13:00-18:00, Fr 09:00-14:00",limited,+49 30 6871846,,,52.4782712,13.4392054
+node,1352697275,Dr. med. dent. Heike Tischer,,,,,"Mo 11:00-17:00, Tu 11:00-19:00, We 09:00-12:00, Th 09:00-17:00",no,,,,52.5527983,13.4157657
+node,1379836612,Wunschlächeln,Gotthardstraße,27,13407,Berlin,,,,,,52.5662551,13.3454904
+node,1394484085,Zahnartzpraxis am Bundesplatz,Bundesplatz,12a,10715,Berlin,"Mo-Fr 10:00-15:00; Tu,Th 14:00-19:00",,+49 30 91145657,,https://www.zahnarztpraxis-am-bundesplatz.de/,52.4784281,13.3290979
+node,1401087657,Ulrich Lohse,Danziger Straße,104,10405,Berlin,"Mo 10:00-19:00; Tu 08:00-13:00; We 10:00-14:00,15:00-19:00; Th 08:00-15:00",limited,+49 30 4427005,,,52.5368578,13.4301125
+node,1507945428,Praxis für Zahnheilkunde und Kieferorthopädie,Germaniapromenade,28,12347,Berlin,"Mo-Fr 09:00-19:00 || ""und nach Vereinbarung""",no,+49 30 6255302,,https://www.zahnaerzte-britz.de/,52.4605064,13.4309956
+node,1524609077,Zahnarztpraxis K. Jovanovic-Leskova,Manfred-von-Richthofen-Straße,10,12101,Berlin,"Mo-Th 09:00-12:00,15:00-18:00; Fr 09:00-12:00",,+49 30 7867506,,,52.4838724,13.3832099
+node,1703498521,Renate Reimer & Verena Rinas,Dörpfeldstraße,6,12489,Berlin,"Mo,Th 12:00-19:00, Tu,We 07:00-13:00; PH off",no,+49 30 677 42 92,,,52.435897,13.5423381
+node,1752496989,Zahnecke,Helmholtzstraße,31,10587,Berlin,PH off; Mo-Th 08:00-19:00; Fr 08:00-14:00,no,+49 30 91603860,,https://zahnecke-berlin.de/,52.5216917,13.3246468
+node,1774557607,Bernd Jaeckel,Cranachstraße,52,12157,Berlin,"Mo,We,Fr 08:00-14:00; Tu 13:00-19:00, Th 11:00-18:00",no,+49 30 8558047,info@zahnarzt-jaeckel.de,http://zahnarzt-jaeckel.de/,52.4669173,13.3424769
+node,1829598959,Sibylle Tewes,,,,,"Mo,Tu 09:00-13:00, Mo 15:00-18:00, Tu 15:00-20:00, We,Th 09:00-14:00, Fr 09:00-12:00",,,,,52.4906325,13.3317955
+node,1870414833,Dr. Seda Sanli,Eisenacher Straße,108,10777,Berlin,,,,,,52.4965965,13.3498142
+node,1965271018,Zahnklinik Medeco,,,,,Mo-Su 07:00-21:00,,+49 30 6273090,neukoelln@mvzmedeco.berlin,https://www.mvzmedeco.berlin/standort-neukoelln,52.4847029,13.4284296
+node,1977673372,dentalzentrum plus,Potsdamer Straße,160,10783,Berlin,Mo-Fr 09:00-19:00,yes,,info-sb@dentalzentrumplus.de,https://dentalzentrumplus.de/,52.4961274,13.3609232
+node,1979921448,Kinderzahnarzt,,,,,,yes,,,,52.5016713,13.314331
+node,1991923975,Zahnarztpraxis Olaf Vogel,Gutenbergstraße,2,12557,Berlin,"Mo-Fr 08:00-13:00, Mo,We,Th 14:00-20:00, Tu 15:00-20:00||""nach Vereinbarung"" ; PH off",yes,+49 30 6559397,,https://www.zaehne-zum-zeigen.de,52.4451649,13.5698939
+node,2040942693,Dr. Haase,Hohenzollerndamm,28a,10713,Berlin,Mo 09:00-18:00; Tu-Th 09:00-20:00; Fr 08:00-13:00,yes,+4930 863 99 100,info@zahnarzt-drhaase.de,http://www.zahnarzt-drhaase.de,52.4915968,13.3171553
+node,2040942694,"Zentrum für Implantologie, Oralchirurgie und Mund-, Kiefer- & Gesichtschirurgie",Hohenzollerndamm,28a,10713,Berlin,,,+49 30 8609870,,https://oralchirurgie-wilmersdorf.berlin/,52.4916443,13.3172726
+node,2102927601,Dres. Zimny & Kollegen,Uhlandstraße,53,,Berlin,Mo-Fr 08:00-19:00,limited,,,https://www.zahnarzt-zimny.de/,52.4961549,13.3237877
+node,2146656155,Kathrin Genger,Wollankstraße,123A,13187,Berlin,"Mo,Tu 12:00-19:00; Th 08:00-15:00",no,+49 30 4422788,,,52.5673951,13.3986549
+node,2201339795,Zahnarztpraxis Schröter,Fischerinsel,5,10179,Berlin,Mo-Fr 08:00-12:00,,+49-30-2011480,,,52.5129543,13.4082422
+node,2353495978,Zahnarztpraxis Renate Hübner,Graefestraße,76,10967,Berlin,"Mo-Tu 08:30-12:00,14:00-18:00; We 08:30-14:00; Th 08:30-12:00,14:00-18:00; PH off",no,+49 30 6918934,,,52.4928693,13.4178515
+node,2362657759,Grundmann Dentistry,Parrisiusstraße,2,12555,Berlin,Mo-Th 08:00-20:00; Fr 08:00-14:00,no,+49 30 6571444,,https://www.grundmann-dentistry.de/,52.457186,13.578565
+node,2410196747,Dr. Roman Kogan,Schönhauser Allee,48,10437,Berlin,Mo-Th 08:00-20:00; Fr 08:00-19:00; Sa 09:00-14:00; PH off,limited,+49 30 4440978,info@kogan-berlin.de,http://www.kogan-berlin.de/,52.5421277,13.4127111
+node,2420872249,Annett Paszkier,,,,,"Mo,Tu,Th 08:00-12:00,14:00-18:00; We 08:00-12:00,14:00-16:00",no,+49303958902,,,52.5286923,13.3401723
+node,2421116413,Larissa Kusika Zahnarzt,,,,,Mo 14:00-19:00; Tu 09:00-14:00; PH off,,+49304339482,,,52.5834671,13.3012447
+node,2423248085,Dipl. Med. Christiane Lechler,Lemkestraße,188,12623,Berlin,,yes,,,http://www.zapclechler.de/,52.5162793,13.6245678
+node,2429478687,F. Michel,Oderstraße,10,10247,Berlin,"Mo,We 12:00-20:00; Tu,Th 08:00-12:00,14:00-20:00; Fr 08:00-13:00",yes,+49 30 2910070,,,52.511357,13.4679514
+node,2432727162,Zahnzentrum,Waidmannsluster Damm,38,13509,Berlin,"Mo-We 09:00-13:00, 15:00-20:00; Th 09:00-18:00; Fr 09:00-14:00; PH off",,+49304339430,,https://praxis-goehlich.de/,52.5972465,13.2965286
+node,2435123102,Zahnmedizin Nordend,Dietzgenstraße,70,13156,Berlin,,,,,,52.5875664,13.4020071
+node,2438853428,Dr. Martina Geier,Gabriel-Max-Straße,1,10245,Berlin,,no,+49 30 2912501,,,52.5092595,13.457922
+node,2445456644,Dental 21,Uhlandstraße,95,10717,Berlin,"""Termine online""",limited,,,,52.4866468,13.3221575
+node,2460213599,Zahnarztpraxis MundWerk,Grunerstraße,20,10179,Berlin,,yes,,,,52.5182246,13.4162078
+node,2492200546,Dr. med. dent. Evelin und Agnes Rößner,Weerthstraße,7,12489,Berlin,"Mo 08:00-12:00,14:00-19:30; Tu 10:00-13:00,14:00-18:00; We 08:00-12:00,14:00-18:30; Th 08:00-12:00,14:00-18:30; Fr 08:00-12:00,13:00-16:00; PH off",no,+49 30 6775587,info@zahnarzt-in-adlershof.de,https://zahnarzt-in-adlershof.de/,52.4348552,13.5438258
+node,2496652041,Zahnarztpraxis am Mehringhof,,,,,"Mo-Fr 09:00-18:30; We 14:00-18:30; ""Mittwoch ab 14:00 Uhr Kinderbehandlung""; Sa 09:00-14:00 ""nach Vereinbarung""; Su,PH off",yes,+49 30 6904790,,http://www.zam-berlin.de,52.4924855,13.3883124
+node,2540972560,,,,,,"Tu,Th,Fr 10:00-12:00, Tu,Th 15:00-18:00",,,,,52.591835,13.2969472
+node,2544041945,Zahnarztpraxis Yvonne Burda,Rheinsteinstraße,4,10318,Berlin,"Mo-Th 08:00-19:00, Fr 08:00-16:00",yes,+49 30 50 88 260,,http://www.zahnarztpraxis-burda.de,52.4826899,13.5268154
+node,2577155097,Zahnarztpraxis Staffehl,,,,,"Mo,Th 09:00-19:00; Tu,We 09:00-20:00; Fr 08:00-14:00",no,+49 30 6035252,,https://imakeyousmile.de/,52.4313152,13.4613435
+node,2618499974,Zahnklinik Ost,Dörpfeldstraße,46,12489,Berlin,"Mo-Fr 07:00-21:00; Sa-Su,PH 10:00-18:00",yes,+49 30 565 90 50 0,kontakt@zahnkultur-berlin.de,https://www.zahnklinik-ost.de/,52.43809,13.5481142
+node,2625897815,Janka Huttula,Fröaufstraße,5,12161,Berlin,"Mo 08:00-12:00,15:00-20:00; Tu,Fr 08:00-14:00; We ""nur nach Vereinbarung""; Th 13:00-20:00",,+49 30 8515402,,https://www.praxis-huttula.de/,52.4672349,13.3262273
+node,2629598975,Zahnmedizinisches Fachzentrum am Savignyplatz,Savignyplatz,5,10623,Berlin,Mo-Fr 08:00-20:00; Sa 10:00-14:00,no,+49 30 92400590,,http://www.zahnmedizinisches-fachzentrum-berlin.de/,52.5065041,13.3229365
+node,2629814814,KU64 Dr. Ziegler & Partner Zahnärzte,Kurfürstendamm,64,10707,Berlin,Mo-Fr 08:00-20:00; Sa 09:00-19:00; Su 10:00-18:00,yes,+49 30 8647320,info@ku64.de,https://www.ku64.de/,52.5008328,13.3103862
+node,2648384917,S. Reimann,,,,,"Mo 09:00-12:00,15:00-18:00; Tu-We 15:00-18:00; Th 09:00-12:00,15:00-18:00; Fr 15:00-18:00; Sa 09:00-12:00",,,,,52.5174499,13.3183583
+node,2669844282,Zahnarzt- und Prophylaxepraxis Dr. med. dent. Arne Mallien,Schillerstraße,15,10625,Berlin,,yes,+49 30 3123256,,http://www.doktor-mallien.de/kontakt.html,52.5109648,13.316685
+node,2669909393,Die Praxis,Pfalzburger Straße,45,10717,Berlin,,limited,,,,52.4897039,13.3214646
+node,2712536292,"Kompetenzzentrum für Zahnimplantate, Herr Dr. Gutsche & Kollegen",Mauerstraße,12,10117,Berlin,"Mo 08:30-17:00; Tu,Th 08:30-18:00; We 08:30-14:30; Fr 08:30-14:00",yes,,,https://www.implantat-berlin-mitte.de/,52.5103807,13.3874543
+node,2733928085,MeinDentist,Arkonaplatz,4,10435,Berlin,Mo-Fr 08:00-20:00,,,,,52.537692,13.401928
+node,2738673442,Dr. Kathrin Lehmann,Koppenstraße,75,10243,Berlin,"Mo,Th 10:00-14:00, 15:00-18:00; Tu 08:00-11:00, 12:00-14:00; We 08:00-11:00, 12:00-13:00; Fr ""nach Vereinbarung""",no,+49 30 2965422,info@zahnarzt-lehmann.com,http://zahnarztpraxis-dres-lehmann.de/,52.5142527,13.4348448
+node,2752211181,Sabine Peters,Grüntaler Straße,70,13359,Berlin,"Mo 08:00-12:00,13:00-18:00; Tu 08:00-12:00,13:00-16:00; We 13:00-20:00; Th 08:00-12:00,13:00-16:00; Fr 08:00-14:00",limited,,,,52.5564296,13.3926726
+node,2755857692,Ole Storch,Prenzlauer Allee,209,10405,Berlin,,no,+49 (0)30 44 19 073,,http://www.zahnarzt-ole-storch.de/,52.5368112,13.4223345
+node,2756763472,Zahnärzte,Wollankstraße,31,,,"Mo,We,Th 09:00-18:00; Tu 09:00-19:00; Fr 09:00-12:00",no,+49 30 4938006,,,52.5632822,13.3904929
+node,2770549010,Praxis Dr.med. Martina Schüler Zahnärztin,,,,,"Tu 10:30-12:30,13:00-20:00; We 09:00-15:00; Th 12:00-20:00; Fr 09:00-14:00",no,,,,52.5125699,13.5002672
+node,2776721737,Moritz & Inga Strehle,Schöneberger Straße,16,12163,Berlin,"Mo 08:00-12:00,13:00-16:00; Tu 11:00-14:00,15:00-18:30; We 09:00-13:00,15:00-18:00; Th 11:00-14:00,15:00-18:30; Fr 08:00-12:00; Sa,Su,PH off",no,+49 30 8524649,praxis@zahnarzt-strehle.de,https://zahnarzt-strehle.de/,52.4648511,13.328986
+node,2805930435,Dr. Becker,Prinz-Eugen-Straße,10,,,Mo 08:00-17:00; Tu-Th 11:00-21:00,no,,,,52.5482206,13.3643094
+node,2822998223,Zahnarztpraxis Reinhard Weßel,Hermannstraße,30,12049,Berlin,"Mo-Th 09:00-13:30, 15:00-18:30; Fr 09:00-19:00 open ""Nach Vereinbarung""",no,+49 30 6214007;+49 177 2594816,info@r-wessel.de,https://www.r-wessel.de/,52.4817697,13.4245722
+node,2839098322,Zahnarztpraxis zahnPLUSgesundheit,Paul-Robeson-Straße,49,10439,Berlin,Mo-Fr 08:00-20:00,,+49 30 44650288,,,52.5520505,13.4132099
+node,2844659327,Peter Zahl,Klutstraße,9,12587,Berlin,"Mo 14:00-19:00; Tu 08:00-13:00,14:00-19:00; We 08:00-13:00; Th 08:00-13:00,14:00-19:00; Fr 08:00-14:00",,+49 30 645 1552,peterzahl@t-online.de,http://www.zahnarztpraxis-friedrichshagen.de/,52.4532819,13.6291935
+node,2849057624,Praxis für Zahnerhaltung.Berlin,Carmerstraße,2,10623,Berlin,"Mo 08:00-20:00; Tu,We 12:30-20:00; Th,Fr 08:00-17:00",no,+49 30 313 56 48,,https://www.zahnerhaltung.berlin/,52.5078465,13.3245115
+node,2864467603,Zahnarztpraxis Berlin-Buckow,,,,,"Mo-Fr 08:00-13:00, Mo-Th 14:00-20:00",yes,,,https://www.zahnarztpraxis-buckow.de/,52.4238975,13.4367314
+node,2864556805,Zahnarztpraxis Daniela Grunow,,,,,,yes,,,,52.4181368,13.4360268
+node,2866359090,Zahnklinik Gropius-Passagen,,,,,,yes,,,https://www.zahnklinik-berlin.info/,52.4289205,13.4568296
+node,2877316919,Dr. Kappel,,,,,,,,,,52.5212264,13.1996766
+node,2889853055,Medentes - Zahnarztpraxis Reinickendorf,Oranienburger Straße,73,13437,Berlin,,,+49 30 411 12 47,,https://www.medentes.de/,52.5919596,13.3341987
+node,2904608126,Torsten Beier,Joachim-Gottschalk-Weg,13,12353,Berlin,,,,,,52.4231496,13.4760864
+node,2912884795,Dr. Heike Wachtel,Lenbachstraße,8,10245,Berlin,"Mo 10:00-13:30,14:30-19:30; Tu 14:00-19:00; We,Fr 09:00-13:00; Th 09:00-13:30,14:30-18:00",limited,+49 30 2910884,info@dr-wachtel-heike.de,https://www.dr-wachtel-heike.de/,52.5053348,13.4662764
+node,2917780974,Göpner + Göpner | Stefan Gerlach,Württembergallee,1,14052,Berlin,Mo-Th 09:00-18:00; Fr 08:00-13:00,no,,,,52.5096681,13.2664777
+node,2924646500,Juliane Baumbach,Bänschstraße,32,10247,Berlin,Fr 07:00-14:00; Mo 10:00-20:00; We 07:00-19:00; Th 07:00-17:00; Tu 08:00-19:00,no,,,https://zahnarzt-friedrichshain.de/,52.5184555,13.4628583
+node,2928065325,Blümich & Collegen,Schulzendorfer Straße,106,13503,Berlin,Mo-Fr 08:00-19:00,,+49 30 4313724,,https://bluemich-collegen.de/,52.6135801,13.2261335
+node,2947843271,Zahnarztpraxis Kathrin Späthe,Habichtstraße,3,13505,Berlin,"Mo 08:00-16:00, Tu-We 12:00-18:00, Th 08:00-16:00, Fr 08:00-12:00",,+49 30 430049-10,,https://zahnarztpraxis-spaethe.de/,52.5854359,13.228967
+node,2967205874,Dr. K & K Zahnärzte,Zepernicker Straße,56,13125,Berlin,Mo 12:30-20:30; Tu 07:00-19:00; We 08:00-20:30; Th 07:00-15:00; Fr 08:00-12:00; PH off,,+49309490084,,https://dr-krause.jimdofree.com/,52.6411024,13.5127197
+node,2967205876,Dr. K & K Zahnärzte,Alt-Buch,57,13125,Berlin,"Mo 08:00-17:00; Tu,Th 12:00-20:30; We,Fr 08:00-12:00; PH off",,+493094413544,,https://dr-krause.jimdofree.com/,52.6364062,13.5023791
+node,3021117658,MEINDENTIST-Praxis Hellersdorf,Adele-Sandrock-Straße,5,12627,Berlin,,,0309912014,,,52.5329316,13.6210033
+node,3021118319,Ute Henrion,Louis-Lewin-Straße,8,12627,Berlin,,,,,,52.5316077,13.621904
+node,3024159964,Zahnarztpraxis Dr. Anne Kehler,Siegfriedstraße,212,10365,Berlin,Mo 07:00-20:00; Tu-Th 08:00-20:00; Fr 08:00-16:00,no,+49 30 5588905,,https://www.zahnarztpraxis-kehler.de,52.5124232,13.4975205
+node,3047251380,Kieferorthopäde Dr. Carmen Peikert Berlin Spandau/Kladow,Alt-Kladow,25,14089,Berlin,,,+49 30 20096960,info@kfo-praxis-peikert.de,https://kfo-praxis-peikert.de/,52.4534507,13.1435584
+node,3050190214,Zahnarztpraxis Reuter,Uhlandstraße,98,10715,Berlin,"Mo 12:00-19:00; Tu,We,Fr 08:00-15:00; Th 12:00-19:00",no,+49 30 8735901,info@zahnarzt-reuter.de,https://www.zahnarzt-reuter.de/,52.4859146,13.3220346
+node,3059314271,Dr. med. dent. Marcus Nowak,,,,,Mo 08:00-19:00; Tu-Th 08:00-20:00; Fr 08:00-16:00; Sa 10:00-15:00,,,,,52.5105924,13.270895
+node,3081739147,Zahnarztpraxis Dr. Anja Peschel & Kollegen,Meraner Straße,7,10779,Berlin,,yes,+49-30-8544483,,https://www.zahnarzt-peschel.de/,52.4882442,13.3392225
+node,3095193833,Zahnarztpraxis Mareen Scharf,Puchanstraße,35,12555,Berlin,"Tu 09:00-14:00, We 12:00-17:00, Mo,Th 13:00-19:00; PH off",no,+49 30 6571017,kinderzahnfee@hotmail.de,http://die-kinderzahnfee.de/,52.4532066,13.5768121
+node,3291015361,Zahnarztpraxis Mario Liebers,Zionskirchstraße,21,10119,Berlin,"Mo,We 13:30-18:00, Fr 08:00-12:00, Tu,We 08:00-12:00, Tu 13:00-15:00, Th 13:00-18:00",no,+49 30 4496176,,,52.535074,13.402638
+node,3318520561,Zahnarztpraxis Marion Woelm,Martin-Buber-Straße,24,14163,Berlin,,yes,+49 30 255 64 320,,http://www.zahnaerztinwoelm.de,52.4312967,13.2572137
+node,3334326816,Dr. med. dent. Nicole Dlabka,Sundgauer Straße,87,14169,Berlin,"Mo 09:00-15:30; Tu,Th 09:00-20:00; We 11:00-20:00; Fr 11:00-15:30",,+493080 90 91 800,info@zahnarzt-zehlendorf-paro.de,https://www.zahnarzt-zehlendorf-paro.de/,52.4388582,13.2712769
+node,3353229503,Dentalzentrum Pankow,,1,13187,Berlin,"Mo-We 10:30-18:00; Th,Fr 08:30-16:00",yes,,,http://dentalzentrum-pankow.de/,52.5673453,13.4109403
+node,3357799468,ZZB - Zahnmedizinisches Zentrum Berlin,Bahnhofstraße,9,12305,Berlin,Mo-Fr 07:00-20:00; Sa 08:00-13:00,yes,+49 30 7055090,,https://zzb.de/,52.3868134,13.4053401
+node,3391940094,Zahnteam-Halensee,,,,,Mo 12:00-19:00; Tu 12:00-19:00; Fr 09:00-13:30; We 09:00-15:00; Th 12:00-19:00,,,,http://www.zahnteam-halensee.de/,52.497418,13.2908931
+node,3392527028,Zahnarztpraxis Neumann,Prenzlauer Allee,15,10405,Berlin,Fr 08:00-13:00; Mo-Th 08:00-19:00,,+4930-4426919,info@zahnarztpraxis-neumann-berlin.de,http://www.zahnarztpraxis-neumann-berlin.de/,52.5306025,13.4194295
+node,3396696863,Zahnarzt Gabriele Letzner,,,,,,,+49 30 4324412,,http://www.letzner.net/index.html,52.5754793,13.2749306
+node,3405316893,Dr. Vanja Bohinc-Abbate,Niebuhrstraße,62,10629,Berlin,,,+49 30 3247637,,,52.5043988,13.3106379
+node,3414392396,Zahnärzte an der Jungfernheide,Teichgräberzeile,1,13627,Berlin,,,+49 30 3453060,,,52.5383854,13.2976995
+node,3442708588,Zahn33,Karl-Kunger-Straße,65,12435,Berlin,Mo-Fr 08:00-20:00,limited,+49 30 53213930,,https://www.zahn33.de/standort-treptow,52.4922791,13.4458931
+node,3530867518,Zahnarztpraxis Riedel,,,,,,no,,,https://www.dr-riedel-zahnarztpraxis.de/,52.5043469,13.3240365
+node,3585050578,Zahnretter Berlin,Kietz,7,,Berlin,Mo-Th 08:00-18:00; Fr 08:00-14:00,no,+49 30 6514354,,https://www.zahnretter-berlin.de,52.4434206,13.5775733
+node,3652911933,Endopraxis Berlin,Weseler Straße,17,10318,Berlin,,no,+49 30 5090606,info@endopraxis.berlin,,52.4832083,13.5273327
+node,3712880326,Frank Mertens,Goebenstraße,25,10783,Berlin,"Mo,Tu,Th 09:00-12:00,15:00-18:00; Fr 08:00-14:00",,,,,52.4943023,13.3631985
+node,3714770725,Ina Elisabeth Dietrich-Knauth,Tauernallee,2a,12107,Berlin,"Mo,Th 10:00-14:00,15:00-19:30; Tu 08:30-14:00; We 08:30-12:00; Fr 08:30-13:00",,+49307414040,,http://www.zahnarztpraxis-dietrich.de/,52.4233687,13.3967436
+node,3722675323,Andrea Thiele,Scharnweberstraße,21 / 22,13405,Berlin,"Mo 10:00-15:00; Tu,We 10:00-19:00; Th 10:00-14:00",no,+4930 4178355 0,praxis@andreathiele.de,http://www.andreathiele.de/,52.5647878,13.3262452
+node,3799268655,Romana Roither,,,,,"Mo,Tu,Th 09:00-14:00,15:00-19:00; Fr 09:00-15:00",,+49 30 7812135,,,52.4839852,13.3537009
+node,3826013975,Dr. Med. M. Dachner,Motzstraße,11,10777,Berlin,"Mo-Tu 09:00-12:00,14:00-17:00",no,+49 30 2162931,,,52.4983531,13.3504395
+node,3826013979,Viktoria Böttcher,Nollendorfstraße,13-14,10777,Berlin,"Mo,Tu,Th 9:00-18:00; We,Fr 9:00-13:00",no,+49 30 2164100,,,52.4979933,13.3523262
+node,3831132304,Zahnärzte am Alex,Rathausstraße,7,10178,Berlin,Mo-Th 08:00-20:00; Fr 08:00-14:00,limited,+49 30 2403090,,,52.5198277,13.4109934
+node,3837620218,F. Brouwer & M. Lehmensiek,Potsdamer Straße,116,10785,Berlin,Mo-Tu 12:00-20:00; We 08:00-16:00; Th 08:00-18:00; Fr 08:00-15:00,,+49 30 2651189,,http://www.prophylaxe-arzt.de/,52.5003158,13.3628555
+node,3845486787,Smile & Smile,,,,,,,,,,52.5011342,13.3214257
+node,3859397155,Lipp Lutz – Zahnärzte,Nollendorfplatz,8-9,10777,Berlin,Mo-Th 08:00-20:00; Fr 08:00-12:00,yes,+49 30 3212069,,https://www.lipp-lutz.de/,52.4987957,13.3544844
+node,3874446057,Bülow 90 Die Zahnärzte,Bülowstraße,90,10783,Berlin,Mo-Th 08:00-15:00; Fr 08:00-12:00,no,+49 30 2644040,,https://www.buelow90.de/,52.4984137,13.3604227
+node,3878798868,,,,,,,yes,,,,52.4599921,13.5800028
+node,3879948717,Dr. Paul-Olaf Beeking und Paul Schewtschenko,Sonntagstraße,1,10245,Berlin,"Mo,We 08:00-13:00; Th,Tu 13:00-18:30; Fr 08:00-12:00",yes,+49 30 2910667,,https://zahnaerzte-am-ostkreuz.de/,52.504498,13.4680341
+node,3900932280,Dipl.-Stomat. Sylvia Hinzmann,,,,,Mo 10:00-19:00; Tu 08:00-19:00; We 08:00-12:00; Th-Fr 08:00-15:00,no,+49 30 4423857,,,52.5386049,13.4178703
+node,3900935677,J.U. Schneider / Dr. A. Schwarz,Husemannstraße,13,10435,Berlin,"Mo 09:00-19:00; Tu,Th 09:00-20:00; We 09:00-17:00; Fr 09:00-15:00; Sa-Su off",no,+49 30 442 41 78,,,52.5380042,13.4173133
+node,3906863522,Zahnärzte in Friedrichshain,Warschauer Straße,9,10243,Berlin,Mo-Th 08:00-20:00; Sa 09:00-15:00; Fr 08:00-15:00,no,,,,52.5137606,13.4527505
+node,3906983461,Dr. Reinhard Fleckenstein,Magistratsweg,21,13593,Berlin,,no,+49 30 3631058,,,52.5226048,13.1618565
+node,3907040636,Zahnarztpraxis Jörg Harder,Gubener Straße,43,10243,Berlin,"Mo 10:00-18:00; Tu 08:00-14:00; We 14:00-19:00; Th 09:00-17:00; Fr ""n. Vereinbarung"";Sa,Su,PH off",,+49 30 2962210,,http://zahnheilkunst.biz/cms/index.php?id=725883,52.5115439,13.4489793
+node,3908265303,Dr. -medic stom Marion Grein,Lauffener Straße,5,12459,Berlin,"We,Th 10:00-13:00",,,,,52.4598747,13.5203682
+node,3946741289,Awerkow,,,,,"Mo, Tu, Th, Fr 09:00-13:00; Mo, Tu, Th 14:00-19:00",,+49 30 3916725,,https://www.zahnarzt-awerkow.de,52.5226002,13.3311365
+node,3952294121,Zahnarzt Praxis Rohloff,Hubertusallee,11a,14193,Berlin,,,,,,52.492872,13.2847197
+node,4006392911,Zahnarztpraxis Christian Franke,Plesser Straße,2,12435,Berlin,"Mo 09:00-13:00,13:30-18:00; Tu 08:00-12:30,13:00-16:00; We 08:00-13:00; Th 11:00-15:00,15:30-19:00; Fr 08:00-13:00",limited,+49 30 5348560,,https://www.zahnarzt-treptow-berlin.de/,52.4892162,13.4523862
+node,4012876222,Zahnarztpraxis Dres. Häßelbarth,Müllerstraße,70c,13349,Berlin,Mo-Th 9:00-19:00; Fr 9:00-13:00,yes,+49 30 4514051,,https://www.dr-haesselbarth.de/,52.5573548,13.3403297
+node,4027630412,Medentes - Zahnarztpraxis,,,,,,,+49 30 881 72 71,,https://www.medentes.de/,52.5035263,13.3392906
+node,4061391775,Zahnärzte im KantCenter,Wilmersdorfer Straße,108-111,10627,Berlin,"Mo-Fr 07:00-21:00; Sa 09:00-16:00 || ""nach Vereinbarung""",,+49 30 31991990,,https://www.kantcenter.com/,52.5062227,13.3072747
+node,4081733586,Praxis fuer Kieferorthopaedie,Dörpfeldstraße,11,12489,Berlin,"Mo,Tu 08:00-12:00,14:00-18:00, We,Th 08:00-12:00,15:00-19:00 || ""nach Vereinbarung""; PH off",,+49 30 671 37 93,,,52.4363771,13.5443815
+node,4085469146,Zahnarztpraxis Matthias Schütze,Gellertstraße,3,12489,Berlin,Mo-Th 08:00-18:00,,+49 30 678 247 62,,https://adlershof-zahnarzt.de/,52.4362431,13.5443663
+node,4113764194,Kathrin Schimmack,Wilhelminenhofstraße,30,12459,Berlin,Mo-Tu 12:00-19:00; We-Th 08:30-13:00; Fr 12:00-18:00,no,+49 30 535 15 34,,https://www.zahnarztpraxis-schimmack.de,52.4617267,13.5178617
+node,4124277988,Dr.med.dent. Birgit Kühne,Florian-Geyer-Straße,98,12489,Berlin,"Mo 09:00-13:00,14:00-18:00; Tu 08:00-14:00; We ""Nach Vereinbarung""; Th 12:00-18:00; Fr 08:00-13:00; PH off",no,+49 30 677 29 78,,https://gzm-heilraum-96.de/,52.4380006,13.5434723
+node,4126890657,Zahnarzt Dr. Matthias Thuma & Kollegen,Welfenallee,6,,,Mo-Fr 08:00-20:00,yes,+49 30 4017776,info@dr-thuma.de,https://dr-thuma.de/,52.6315306,13.2888796
+node,4143174674,"Barbara Kistner, Anne Speda, Dr. Ali Mokabberi",,,,,Mo-Fr 08:00-20:00; Sa 09:00-15:00,,+4930 413 5022,,https://meindentist.de/reinickendorf/,52.5706899,13.3301115
+node,4145388521,Kerstin Winkelmann Kieferorthopäde,,,,,"Mo-Th 09:00-12:00,14:00-17:00",,+4930 4964060,,,52.5862915,13.2821391
+node,4149387592,Dr. Katrin Nestler,Greifswalder Straße,89,10409,Berlin,"Mo 08:00-12:00,14:00-18:00; Tu 09:00-14:00; We 08:00-12:00,14:00-18:00; Th 09:00-14:00",yes,+49 30 4479525,,https://zahnarzt-dr-nestler.de/,52.5430606,13.4417455
+node,4152750390,Petra Gräf,Pasteurstraße,44,,,Mo-Tu 12:00-19:00; We-Th 08:00-15:00,no,+49 30 4235027,,,52.5315064,13.4375824
+node,4152750789,Kathrin Urner,Pasteurstraße,44,,,Mo-Tu 08:00-14:00; We-Th 12:00-17:00,no,+49 30 4250099,,,52.5314893,13.4375939
+node,4223494993,Maria Palion & a. ZA Tarek Tantush,Grünberger Straße,8,10243,,"Th 15:00-18:00,09:00-13:00; Tu 13:00-19:00; Mo 15:00-18:00,09:00-13:00; We 09:00-13:00; Fr 09:00-13:00",no,+49 30 296 27 68,,,52.5129462,13.4488015
+node,4241074540,Dr. Christian Scherret,Hagenstraße,52,10365,Berlin,Mo 12:30-19:00; Tu 08:00-18:00; We 08:00-13:00; Th 12:30-19:00; Fr 08:00-13:00,no,,,,52.5132861,13.4992636
+node,4250466736,Holger Kretzschmar,Schönhauser Allee,41,10435,Berlin,,yes,+49 30 4424238,,http://www.zpraxis-kb.de,52.5397986,13.4126289
+node,4363684342,Thomas Kersten,Wiesbadener Straße,3,12161,Berlin,"Mo 09:00-15:00; Tu 12:00-19:00; We 09:00-19:00; Th 09:00-12:00,14:00-16:00; Fr 09:00-14:00",,+49 30 8593226,,http://www.zahnarzt-kersten.de/,52.471735,13.3262477
+node,4379157895,Andreas Schubert,Rathausstraße,65,12105,Berlin,,no,,,,52.4427617,13.3809007
+node,4381928514,Ihre Zahnärzte am Bundesplatz 3,Bundesplatz,3,10715,Berlin,Mo 09:00-19:00; Tu 08:30-20:00; We 09:00-20:00; Th 08:30-19:00; Fr 09:00-12:00,,+49 30 8531095,,http://www.zahnaerzte-wiede-gruss.de/,52.4795294,13.3276707
+node,4396185290,Zahnärztinnen Birgit u. Alexandra Schümberg,Alt-Müggelheim,17,,,"Mo,Th 07:00-20:00; Tu 08:00-20:00; We 13:00-20:00; Fr 08:00-12:00",yes,+49 3065940909,,,52.4123495,13.6623835
+node,4415604088,Meindentist,Wilmersdorfer Straße,42,,,"Mo-Fr 08:00-20:00; Sa-Su,PH off",limited,+49 30 397733333,,,52.5106386,13.3052633
+node,4429357805,Zahnarzt H. Khello,Hohenzollernring,95,13585,,,no,+49 30 3352898,,,52.5558045,13.2070283
+node,4448386318,Dr. Antje Tothfalvy,,,,,"Mo,We 11:00-19:00; Tu,Fr 09:00-14:00",,+4930 4121701,praxis@tothfalvy.de,https://www.tothfalvy.de/,52.5674545,13.3149546
+node,4448386319,Dr. Bernhard Vaupel,,,,,"Mo,Tu,Th 09:00-18:00; We 09:00-15:00; Fr 09:00-13:00",,+4930 4121793,,,52.5680297,13.3134972
+node,4448394614,Peter Luck,,,,,"Mo,Tu,Th,Fr 08:00-12:00; Mo-Th 14:00-18:00",,+4930 4121880,,,52.5672262,13.3167584
+node,4448528289,Dr. Freidon Fathi,Ritterstraße,45,10969,Berlin,"Mo,Tu,Th 08:00-13:00,14:00-18:00; We 08:00-14:00; Fr 08:00-12:00",yes,+49 30 6142442,,https://praxisfathi.de/,52.5040428,13.4019016
+node,4450551052,,,,,,"Mo,Tu 08:00-14:00; We 12:00-19:00; Th 13:00-19:00; Fr 08:00-13:00||""nach Vereinbarung""; PH off",,+49 30 5677932,,,52.510765,13.5881498
+node,4484997989,Zahnärzte am Tierpark,Otto-Schmirgal-Straße,5,10319,Berlin,"Mo,Tu,Th 08:00-19:00; We 08:00-15:00; Fr 08:00-13:00; PH off",yes,+49 30 55005777,,https://www.zahnaerzte-am-tierpark.de/,52.4971225,13.5209527
+node,4518597218,Dr. Hager,Lowise-Reuter-Ring,15,12359,Berlin,"Mo 10:00-19:30; Tu,We 08:00-14:15; Th 09:00-19:00; Fr 10:00-17:00",no,,,,52.4488152,13.4477893
+node,4556857274,torhaus – Ihre Zahnärzte,Robert-Koch-Platz,11,10115,Berlin,Mo-Fr 08:00-20:00,limited,+49 30 27 90 74 90,,https://www.zahnarzt-torhaus.de/,52.5283805,13.3783808
+node,4572797245,Zahnmedizinisches Kompetenzzentrum Berlin - Zahnärztin Schaaf-Zielinska,Uhlandstraße,173,10719,Berlin,Mo 10:00-16:00; Th 10:00-16:00; We 15:00-20:30; Th 15:00-20:30; Fr 10:00-16:00,no,+49 30 21478066,,http://www.zmko.de,52.5013627,13.3252953
+node,4580241384,Zahnärzte am Adenauerplatz,,,,,"Mo,Tu,Th 09:00-18:00, We,Fr 09:00-14:00",,,,,52.5015446,13.3078767
+node,4589683768,Dr. Feick,,,,,"Mo,Tu 09:00-14:00; We 15:00-19:00; Th 13:00-19:00; Fr 09:00-12:00",,+4930 4481243,ina.feick@t-online.de,http://www.ina-marina-feick.de,52.5368334,13.4075971
+node,4596258286,Zahnarztpraxis Hauck & Hauck,Baumschulenstraße,14,12437,Berlin,"Mo,Th 08:00-18:00; Tu 08:00-14:00; We 08:00-14:00",no,,,https://www.zahnarztpraxis-hauck.berlin/,52.4663129,13.4882451
+node,4652767551,Casa Dentalis,,,,,,,,,,52.4778249,13.2819123
+node,4665154493,Adentics Kieferorthopäden,,,,,,,,,,52.3870852,13.4093319
+node,4667811598,Martin Schymanski Inselzahnarzt,Inselstraße,1,10179,Berlin,"Mo,Tu,Th 09:00-13:00, We 13:00-19:00, Fr 09:00-14:00, Mo,Tu,Th 15:00-19:00",,+49 30 23456696,inselzahnarzt@online.de,http://www.inselzahnarzt-berlin-mitte.de/,52.5119729,13.4129785
+node,4683353420,Nosrat Delbasteh,Friedrichstraße,32;33,10969,Berlin,,,+49 30 2515262,,,52.504873,13.3910692
+node,4692697892,Dr. Tatjana Hussain,Unter den Eichen,62,12203,Berlin,"Mo,We 09:00-14:00; Tu,Th 14:00-19:00; Fr 09:00-13:00; PH off",,+49 30 8328788,,,52.4461582,13.2940298
+node,4714897790,Praxis am Viktoriapark,Katzbachstraße,21,10965,Berlin,Mo 09:00-18:00; Tu 09:00-18:00; We 09:00-18:00; Th 09:00-14:00; Fr 09:00-13:00; PH off,,+49 30 78952810,,http://www.Praxis-am-Viktoriapark.de,52.4867044,13.376422
+node,4715187590,Sabine Röser,,,,,"Mo,Tu 13:00-19:00; We 08:00-14:00; Th 08:00-15:00",no,+49 30 6455143,,https://www.zahnarzt-friedrichshagen.berlin/,52.4554155,13.6249716
+node,4732220324,edelweisslab,Augsburger Straße,39,,,,,,,,52.5025271,13.3323356
+node,4738310426,Dr. Andrea Bloching,Bundesallee,90,12161,Berlin,"Mo 09:00-15:00; Tu 09:00-13:00,14:00-18:00; We 09:00-14:00; Th 10:00-13:00,14:00-18:00; Fr 09:00-13:00",limited,+49 30 8524239,,https://friedenau-zahnarzt.de,52.4676701,13.3280318
+node,4739883539,Praxis für Kieferorthopädie Wilmersdorf Dr. Nicola Schmidt-Rogge,Gieselerstraße,26,10713,Berlin,"""Termine nach Vereinbarung""",,,,https://www.spange-na-klar.de,52.4895133,13.3178209
+node,4749503276,Stefan Strauss,Erdmannstraße,13,,,Mo 12:00-19:00; Tu 10:00-18:00; We 09:00-13:00; Th 10:00-19:00; Fr 09:00-13:00; Sa-Su off,,+49 30 7813864,,https://www.zahnarztstrauss.de/,52.4888306,13.3600187
+node,4773307934,Dr. Gerald Keller und Dr. Deepa Rayamajhi,Wühlischstraße,30,10245,Berlin,"Mo 09:00-14:00; Tu 11:00-19:00; We 10:00-18:00; Th 08:00-16:00; Fr 09:00-14:00; Sa,Su off",no,+49 30 291 17 47,,,52.5097313,13.4574298
+node,4789962779,Kieferorthopädie Moabit,,,,,,no,,,,52.5288451,13.3356409
+node,4792258872,Zahnarzt Jürgen Dreiling,,,,,"Mo-Th 09:00-12:00,14:00-18:00; Fr 09:00-13:00; PH off",no,+49 30 76405607,,,52.3816109,13.3964337
+node,4793146523,Raphael Will,,,,,"""by appointment""",,,,,52.510017,13.2858719
+node,4809992558,Heike Kirsten,Wollankstraße,4,13187,Berlin,Mo 09:00-18:00; Tu 08:00-17:00; We 14:00-19:00; Th 08:00-14:00; Fr 08:00-12:00,,,,,52.5683736,13.398919
+node,4813445329,Zahnärzte am Oranienburger Tor,,,,,,,+49302827349,,http://www.berlin.dental,52.5265016,13.388182
+node,4823213242,Böhme Andreas Dr. Fachpraxis für Kieferorthopädie,Müggelseedamm,208,12587,Berlin,"""nach Vereinbarung""",,+493064092028,,http://www.praxis-drboehme.de/,52.4462907,13.6294432
+node,4832749385,Scaladent Zahntechnik,Breite Straße,29B,13187,Berlin,"Mo,Tu 08:00-18:00; We,Th 08:00-17:00; Fr 08:00-16:00",no,,,https://scaladent.de/,52.5692512,13.4045811
+node,4837051167,Dr. Anna Kokocinski,Thaerstraße,43,10249,Berlin,"Mo,Tu,Th 08:00-12:30,13:30-18:00",limited,+49 30 4225960,,https://www.kieferorthopaedie-friedrichshain.de/,52.5200503,13.4538799
+node,4839187421,opensmile,Karl-Marx-Straße,84-86,12043,Berlin,"Mo-Fr 08:00-20:00; Sa 10:00-18:00; Su,PH off",limited,+49 30 689773930,info2@zahnarzt-brandmann.de,https://zahnarzt-brandmann.de/,52.4809275,13.4347395
+node,4843378684,Zahnarztpraxis Dr. med. dent. Alexander Voss,Clayallee,319,,,"Mo,Tu,Fr 08:00-20:00; We,Th 08:00-20:00; Sa ""Nach Vereinbarung""",yes,+49 30 94874030,info@zahnarztpraxis-drvoss.de,https://www.zahnarztpraxis-drvoss.de/,52.4390777,13.2620313
+node,4890379781,Zahnarztpraxis Sabrina Roedel,,,,,"Mo 08:00-12:00,14:00-18:00, Tu 13:00-19:00, We 08:00-14:00, Th 13:00-19:00, Fr 08:00-14:00",yes,+49 30 6721740,,https://www.zahnarztpraxis-roedel.de/,52.424777,13.5277173
+node,4899765888,Berodent Zahnärzte,Schwedenstraße,1,13357,Berlin,Mo-Fr 08:00-20:00; Sa 10:00-16:00,yes,+49 30 4624014,sws@berodent.de,https://berodent.de/,52.5543456,13.3769414
+node,4904825451,Markus Kuhnke,Hauptstraße,87,12159,Berlin,"Mo,We 11:30-19:00; Th 08:00-16:00; Tu 08:00-15:00; Fr ""Nach Vereinbarung""",yes,+49 30 89742090,,https://www.zahnarzt-kuhnke.de,52.4745272,13.3396401
+node,4910597717,Atef Eltiri,Bernulfstraße,7,12524,Berlin,,yes,+49 30 67 98 97 88,,,52.413944,13.5380252
+node,4918199241,Claudia Döring,,,,,"Mo, Tu 09:00-13:00, 15:00-18:00; We 12:00-19:00; Th 10:00-13:00, 15:00-19:00",,+49 30 4921902,,,52.5608225,13.3719767
+node,4962021021,Zahnarztpraxis,Eichborndamm,18,13403,,Mo-Th 09:00-19:00; Fr 09:00-14:00,,+49 304122607,info@berlin-zahnaerzte.com,https://www.berlin-zahnaerzte.com/berlin-reinickendorf-eichborndamm/,52.5697914,13.3127858
+node,4989289053,Zahnarztpraxis Hawar Kadro,Alt-Moabit,84a,10555,Berlin,"Mo,Tu 09:00-18:00; We 09:00-16:00; Th 11:00-20:00, Fr 09:00-16:00; Sa ""nach Vereinbarung""",no,+49 30 3917424,,http://zahnarzt-kadro.de/,52.5256078,13.3398355
+node,4990230170,Dr. med. dent. Norbert Kruse,Neuköllner Straße,352,12355,Berlin,"Mo 08:00-13:00,14:00-19:00; Tu 10:00-17:00; We,Fr 08:00-14:00; Th 10:00-19:00",no,+49 30 66909553,dr.norbertkruse@gmx.de,https://www.schoene-zaehne-rudow.de/,52.4152518,13.4969754
+node,4990230183,Zahnarztpraxis in Rudow,Alt-Rudow,49,12357,Berlin,Mo-Th 09:00-19:00; Fr 09:00-14:00,no,+49 30 60490888,,https://www.zahnarztpraxis-in-rudow.de/,52.4186372,13.4946943
+node,4990230195,Implantat-Praxis-Rudow,Krokusstraße,90,12357,Berlin,"Mo,Tu,Th 08:00-18:30, We,Fr 08:00-14:30",no,+49 30 6616096,,http://www.implantatpraxis-rudow.de,52.4208065,13.493223
+node,4990230208,Dr. Christian W. Gerz,Groß-Ziethener Chaussee,14,12355,Berlin,"Mo,Tu,Th 09:00-18:00; We,Fr 08:00-13:00",yes,+49 30 6645051,,https://www.doktor-gerz.de/,52.4151756,13.4946623
+node,5003699414,Meindentist,,,,,Mo-Fr 08:00-20:00; Sa 09:00-15:00,no,,,,52.5356589,13.4176728
+node,5003699714,Kinderdentist,,,,,Mo-Fr 08:00-20:00; Sa 09:00-15:00,no,,,,52.5358059,13.4178345
+node,5042849964,Zahnarztpraxis El-Sayed,Karl-Marx-Straße,24,12043,Berlin,"Mo 09:00-13:00,15:00-19:00; Tu 11:00-19:00; We 09:00-14:00; Th 11:00-19:00; Fr 08:00-12:00",no,+49 30 6912444,info@zahnarzt-elsayed.de,http://www.zahnarzt-elsayed.de,52.4846364,13.4276388
+node,5054068386,Zahnarztpraxis Udo Schulwitz,Georg-Wilhelm-Straße,23,10711,Berlin,"Mo,We,Fr 08:00-15:00; Tu,Th 12:00-19:00",,,,,52.4979652,13.2901141
+node,5071700149,Zahnarztpraxis Klaus Flanz,,,,,"Mo 09:00-18:00; Tu 11:00-18:00; We, Th 08:00-16:00; Fr 08:00-12:00",limited,+49302829064,,https://www.praxis-flanz.de/,52.5285382,13.3802756
+node,5105263127,Dr. Angela Petzold,Florastraße,20,12623,Berlin,,,,,,52.5185066,13.621748
+node,5163428747,White Smile,Kieler Straße,1,12163,Berlin,,,,,http://zahnarzt.berlin,52.4586751,13.3232912
+node,5175538299,Zahnarztpraxis Kanowskij und Olchow,,,,,"Mo,Tu,Th 10:00-19:00; We,Fr 11:00-15:00",,+4930 4022325,zahnarztpraxis-kanowskij-olchow@web.de,http://www.za-reinickendorf.de/,52.5643459,13.3284524
+node,5181703344,Zahnarztpraxis Feldmann,Otto-Suhr-Allee,59,10585,Berlin,"Mo-Fr 14:00-19:00, Mo,We,Th 09:00-13:00",no,,,http://www.zahnarztpraxis-feldmann.de,52.5150042,13.311714
+node,5191557462,Zahnarztpraxis Urban und Kollegen,Birkbuschstraße,37,12167,Berlin,"Mo-Th 09:00-19:00; Fr 09:00-14:00; Sa,Su,PH off",,+49 30 771 7007,post@zap37.de,,52.4455517,13.3288072
+node,5208803226,Dr. Leopold Lechler,Unter den Eichen,57,12203,Berlin,"Mo,Tu,Th 09:00-12:00, Mo 14:00-18:00, Tu,Th 14:00-19:00, We 08:00-14:00, Fr 08:00-12:00",,+49 30 84109906,praxis@dres-lechler.de,https://www.zahnaerzte-berlin-steglitz.de/,52.446548,13.2950506
+node,5223291546,Dr. Kogan & Kollegen,,,,,"Mo,Tu 11:00-19:00; We,Th 08:00-17:00; Fr 08:00-16:00; Sa 09:00-14:00",,,,,52.5420417,13.4125991
+node,5230011456,Jörg Sommer Zahnarzt,Mädewalder Weg,22,12621,Berlin,,,+49 30 5678927,,,52.5069757,13.5884701
+node,5239809913,Vach,Schönhauser Allee,134,10437,Berlin,Mo-Th 08:00-20:00; Fr 08:00-18:00,,,,,52.5443105,13.4120962
+node,5250472541,Dr. Carmen Glier,Titiseestraße,3,13469,Berlin,,,+49304021035,,http://www.carmenglier.de/,52.6098172,13.3352661
+node,5284640591,Dr. Proft & Freunde,Hauptstraße,19,10827,Berlin,Mo-Th 08:00-20:00; Fr 08:00-13:00,yes,+49 307881108,,http://doktor-proft.de/,52.4866852,13.35649
+node,5284901285,Dr. Melek Elcivan,Wilhelmstraße,45,10117,Berlin,,limited,,,,52.5118234,13.3836114
+node,5284901286,Harry H. O. Einfeld,Wilhelmstraße,45,10117,Berlin,,limited,,,,52.5118585,13.3835632
+node,5308981017,Dentallabor Daniel Rödel,,,,,Mo-Fr 08:00-17:30,no,+49 30 64083792,,https://www.dentallabor-roedel.de/,52.5078757,13.4978308
+node,5309005813,Zahnarzt Dr. med. Hans-Christian Rapp,,,,,"Mo,Tu,Th 08:00-11:00,14:00-17:30; Fr 08:00-14:00",no,,,,52.5078863,13.4977822
+node,5335169597,Dr. I. N. Falorni,Chausseestraße,10,,,"Mo,Th 14:00-19:00; Tu,We,Fr 08:00-14:00",yes,,,,52.5284016,13.3860163
+node,5335385561,Staudt,,,,,"Mo-Tu 07:00-12:00,14:00-20:00, We 14:00-20:00, Th-Fr 07:00-15:00",no,,,https://dr-staudt.de/ihr-zahnarzt.html,52.5530398,13.4111808
+node,5337406387,Odile Popescu,,,,,"Mo 12:00-20:00, Tu 08:00-14:00, We 08:00-18:00, Th 12:00-20:00, Fr 08:00-14:00,08:00-18:00",,,,,52.5524622,13.4112358
+node,5338838695,Sabina Nawka,,,,,"Mo,Th 12:00-19:00; Tu,We 08:00-14:00",,,,https://www.nawka-dent.de/,52.5527542,13.4075981
+node,5339103229,BAG Zahnärzte Dr. Bähre & Stärz,Paul-Robeson-Straße,28,,,"Mo, Th 12:00-17:00; We 08:00-14:00; Tu 08:00-14:30; Fr 08:00-12:00",,+49304440606,,,52.5527524,13.4041489
+node,5339248767,Dimitrij Lomtev,,,,,"Mo,Th 08:00-15:00; Tu-We,Fr 12:00-20:00",,,,,52.5519184,13.4015087
+node,5347031647,Zahnärztin,,,,,Mo 09:00-16:00; Tu 12:00-19:00; We 09:00-14:00; Th 12:00-19:00,,,,,52.4917934,13.42608
+node,5354951054,Angelika Wenzel,,,,,,,,,,52.5479361,13.4095512
+node,5389236100,Zemlin,Hermannstraße,196,12049,Berlin,"Mo 09:00-14:00,16:00-18:00; Tu 09:00-14:00,15:00-18:00; We 09:00-20:00; Th 09:00-14:00,15:00-18:00; Fr 09:00-13:00",no,,,,52.4745854,13.4278147
+node,5401492387,Kristin Börner,,,,,,,+49302826922,mail@berliner-zahnaerztin.de,https://www.berliner-zahnaerztin.de/berlin-mitte/,52.5289894,13.3880451
+node,5403962694,Manueal Arlt,,,,,,,+49304455305,,,52.5540247,13.4040747
+node,5427213198,Zahnarztpraxis Iskandar,,,,,"Mo,Th,Fr 08:00-14:00, Tu, We 11:00-19:00",yes,+493055069493,mail@iskandarpraxis.de,https://www.iskandarpraxis.de/,52.5324443,13.3885852
+node,5442977087,Zahnarztpraxis Hübner,Gartenstraße,9,10115,Berlin,Tu-Th 07:30-19:30; Mo 07:30-18:30; Fr 07:30-14:00,no,,,http://www.zahnarztpraxis-huebner.de/,52.5302792,13.3917739
+node,5451560612,Ulrike Töwel-Helm,Schivelbeiner Straße,33,10439,Berlin,"Mo 12:00-19:00, Tu 08:00-12:00,18:00-21:00, We 08:00-12:00,15:00-19:00, Th,Fr 08:00-15:00",no,+49 30 4458613,praxis.toewe-helm@t-online.de,http://www.zahnarztpraxis-toewe-helm.de/,52.550916,13.4076671
+node,5479064923,Soraya Jalali,Wilmersdorfer Straße,55,10627,Berlin,"Mo-Tu 09:00-14:00,15:00-18:00; Th 09:00-14:00,15:00-18:00; Fr 09:00-16:00",,+49 30 3139800,,,52.5080337,13.3058368
+node,5498440622,Zahnarztpraxis Johan Michael Schmidt,,,10623,,"Mo,We-Th 09:00-13:00,14:00-18:00; Tu,Fr 09:00-13:00",no,+49 303126435,zahnaerzte.schmidt@gmail.com,https://www.zahnaerzte-charlottenburg.de/,52.5072792,13.3216512
+node,5522678114,Adentics Kieferorthopäde Berlin-Mitte,Leipziger Platz,7,10117,Berlin,Mo-Fr 09:00-19:00,yes,+49 30 31174740,,,52.5088353,13.3783235
+node,5524943576,Lana Well Iryna Uspenska,,,,,,,,,,52.4523641,13.3842802
+node,5580769363,Zahnarztpraxis Dr. Norbert Steinecker,Falckensteinstraße,17,10997,Berlin,,,+49 30 6114271,info@dr-steinecker.de,http://www.dr-steinecker.de/,52.497587,13.4411874
+node,5630437211,Zahnarztpraxis Hans-Peter Fenske,Rhinstraße,15,10315,Berlin,"Mo 08:30-12:00,14:00-18:00; Tu 12:00-18:00; We 08:30-14:00; Th 12:00-18:00; Fr off; Sa 09:00-14:00; PH off",no,+49 30 3445040,info@zahnarzt-berlin-fenske.de,https://www.zahnarzt-berlin-fenske.de,52.512961,13.5180243
+node,5656522307,Volksdent,Rosa-Luxemburg-Straße,19,10178,Berlin,Mo-Fr 09:00-19:00,yes,,,http://volksdent.de/,52.5252451,13.4103702
+node,5664672418,Praxis Dr. Matthias Deumer-Platu,Kladower Damm,366,14089,Berlin,"Tu, Th 09:00-19:00; Mo, We 09:00-18:30; Fr 09:00-14:00",,,praxis@dr-deumer.de,,52.4552369,13.1449138
+node,5730290890,David Stolyar,,,,,,,,,,52.5091371,13.2980435
+node,5743052727,Zahnarztpraxis Dr. Stephan,Bismarckallee,23,14193,Berlin,,,,,,52.4889142,13.278082
+node,5818003958,Dr. med. dent. Karin Rieger,Alt-Friedrichsfelde,2,10315,Berlin,"Mo 12:00-18:30; Tu,Th 08:00-12:00,14:00-18:30; We 08:00-13:00",limited,+49304004515,,https://www.zahnarzt-dr-karin-rieger-berlin.de,52.5104756,13.50524
+node,5859059958,MVZ Zahnärzte,,,,,Mo-Th 09:00-18:30; Fr 09:00-15:00,yes,+49 30 4932050,,https://zahnzentrum-in-berlin.de/,52.5517428,13.3833687
+node,5890350141,Martin Paetz und Partner,Gotthardstraße,27,13407,Berlin,"Mo 09:00-13:00,14:00-20:00; Tu 08:00-15:00; We 08:00-13:00,14:00-18:00; Th 12:00-20:00",,,,,52.5665915,13.3461454
+node,5893926308,Dr. Michael Hopp,,,,,"Mo 08:00-17:00; Tu,Th 08:00-20:00; We,Fr 08:00-14:00",,,,,52.4281705,13.3269189
+node,6009834091,PearlDent,Kantstraße,58,,Berlin,Mo-Fr 08:00-20:00,,,,,52.5069394,13.3056309
+node,6029312755,Zahnarztpraxis Stefan Hölck,,,,,"Mo,Th 13:00-19:00; Tu,We 08:00-14:00; Fr open ""nach Vereinbarung""",yes,+49 30 5348695,,,52.4938975,13.4600538
+node,6029694393,Zahnarzt Mario Fosca,,,,,"Mo,Th,Fr 08:00-14:00; Tu,We 13:00-19:00",,+49 30 5348695,,,52.4938953,13.4599334
+node,6046293838,Ingo Ziemann,Florastraße,44,13187,Berlin,"Mo 08:00-13:00,14:00-19:30; Tu 08:00-13:00,14:00-18:00; We 08:00-14:00; Th 08:00-13:00,14:00-19:00; Fr 08:00-13:00; Sa 09:00-12:00",yes,+49 30 4858175,,,52.5662363,13.409438
+node,6073190196,TeethTerminal,Am Rudolfplatz,6,10245,Berlin,"Mo,We 08:00-14:00; Tu,Th 12:00-19:00; Fr 09:00-13:30",,+49 30 2910953,rezeption@teethterminal.com,https://www.teethterminal.com/,52.5023414,13.4564904
+node,6088929411,Mundpropaganda,Christburger Straße,37,10405,Berlin,"Mo-Th 08:00-20:00; Fr 08:00-14:30; Sa,Su off",no,+4930519999530,,https://mundpropaganda.de/,52.5359247,13.426974
+node,6103392635,Dr. Kunze,Pasewalker Straße,8,13347,Berlin,"Mo-Th 09:00-12:00,14:00-18:00; Fr 09:00-12:00",yes,+49 30 4552288,,https://www.zahnarztpraxis-drkunze.de/,52.5450138,13.3677187
+node,6124771660,Zahnarztpraxis Dr.Franke,,,,,"Mo,Tu 08:00-20:00; We 08:00-14:00; Th 11:00-19:00; PH off",yes,+49 30 42020440,info@zahnarztpraxis-franke.berlin,http://www.zahnarztpraxis-franke.berlin,52.5161783,13.4728475
+node,6126717440,Astrid Richter,Zingster Straße,1,,,,yes,,,,52.563543,13.5038732
+node,6171060482,Zahnarztpraxis Henrike Venus,,,,,,,+49 30 508 11 71,,,52.478874,13.5243121
+node,6176650519,Dr. med. dent. Julia Hauschildt,,,,,"Mo-Fr 09:00-12:30; Mo-Tu,Th-Fr 14:30-18:00; Sa 09:00-17:00",no,+49 30 4911950,,https://www.zahnarzt-hauschildt.de,52.5685501,13.3792441
+node,6187634244,Löger,Thaerstraße,30 B,10249,Berlin,"Mo,Th 09:00-14:00; Tu 08:00-14:00; We 10:00-19:00; Fr 08:00-13:00",,+49 1590 6150753,,,52.5241027,13.4568404
+node,6191833420,United Dentists,Skalitzer Straße,137,10999,Berlin,Mo-Fr 09:00-19:00,no,+49 30 69005528,,,52.4995876,13.4182751
+node,6208567231,Dipl.-Stom. Georgij Jakovenko,,,,,"Mo 12:00-20:00, Tu,We 08:00-20:00, Th 08:00-16:00 || ""nach Vereinbarung""; PH off",no,+49 30 51588580,,,52.4977285,13.5097608
+node,6208567233,Andre Kociok,,,,,"Mo 08:00-16:00; Tu 11:00-19:00; We 08:00-16:00; Th 11:00-19:00; Fr ""nach Vereinbarung""; PH off",yes,+49 30 51060060,,,52.4980073,13.5098763
+node,6208567234,Dr. Olivia Schallmayer,,,,,"Mo 08:00-15:00; Tu 08:00-12:00,14:00-19:00; We 08:00-14:00; Th 11:00-19:00; Fr-Su,PH off",yes,+49 30 5122157,info@zahnarztpraxis-schallmayer.de,https://zahnarztpraxis-schallmayer.de/,52.4992037,13.507033
+node,6215988101,High-End Dent,Platz vor dem Neuen Tor,5,10115,Berlin,Mo-Th 08:00-19:00; Fr 08:00-12:00,no,,,https://highend-dent.de,52.5287198,13.3778399
+node,6228367329,United Dentists,Residenzstraße,115,,,Mo-Fr 09:00-19:00,limited,+49 309395071213,,,52.5649616,13.3640353
+node,6239959886,Massimo Micalef,Stargarder Straße,18,10437,Berlin,Mo-Th 08:00-19:00; Fr 08:00-15:00,,,,https://www.zahnarzt-micalef.de/,52.5459398,13.419182
+node,6283884488,Den-Tina,,,,,,,,,,52.4487096,13.3534866
+node,6285561786,Zahnarztpraxis Dr. Fleck,Müllerstraße,91,,,"Mo,Tu,Th 08:30-12:00,14:00-18:00; Fr 08:30-14:00",,+49 304524690,,,52.5603333,13.3340759
+node,6296200321,Dr. Gabriela Uhlmann,Neuköllner Straße,292,,,"Mo-Fr 08:00-14:00, Tu,Th 13:00-20:00, Mo,We 13:00-19:00",,+49 30 28836837,,,52.4228595,13.4865025
+node,6300989303,Marec Stürtz,Winsstraße,10,10405,Berlin,"Mo,We,Fr 08:00-13:00, Tu,Th 14:00-19:00, We,Fr 14:00-17:00, Tu,Th 09:00-13:00, Mo 14:00-20:00",limited,+49 30 473779510,,https://www.doctolib.de/zahnmedizin/berlin/marec-stuertz,52.5325806,13.424351
+node,6339449283,froben 11 Zahnarztpraxis,Frobenstraße,11,10783,Berlin,"""nach Vereinbarung""",no,+49 (0)30 2164205,,https://www.froben11.de/,52.4965616,13.3586882
+node,6354886220,Die Zahnarztpraxis,Jagowstraße,24,10555,Berlin,"Mo,Tu,Th 08:00-19:00; We 08:00-18:00,08:00-14:00",,,,,52.5242629,13.3343389
+node,6370899577,Zahnarztpraxis Breitenbachplatz,Breitenbachplatz,21,14195,Berlin,Mo-Th 08:00-20:00; Fr 08:00-14:00,,,,https://zahnarztpraxis-breitenbachplatz.de/,52.4660155,13.3076324
+node,6371252644,Zahnarztpraxis Dipl.-Stom. Ines Bergmann,Warnitzer Straße,28,13057,Berlin,"Mo 08:00-16:00; Tu 11:00-19:00; We 08:00-12:00; Th 11:00-19:00; Fr ""by appointment""",,+49 30 9290221,,http://www.zahnarztpraxis-bergmann.de/,52.566684,13.5167866
+node,6388933464,Zahnarztpraxis Q117,,,,,Mo-Fr 09:00-19:00,,,,,52.4972488,13.2895799
+node,6403074325,Zahnärzte am Breslauer Platz,Lauterstraße,17-18,12159,Berlin,Mo-Th 08:00-19:00; Fr 08:00-15:00,,+49 30 609836868,,https://www.zahnarztfriedenau.de/,52.4717903,13.3349781
+node,6403150187,Martin Kretschmar,,,,,Mo-Th 08:00-19:00; Fr 08:00-14:00,,+493044714895,,https://www.kretschmar-dent.de/,52.5526104,13.4061512
+node,6404662492,Juphia Zahnmedizin,Savignyplatz,6,,Berlin,Mo-Fr 08:00-20:00,limited,03092400590,,http://www.juphia.de,52.5065667,13.3222177
+node,6409345453,Zahnarztpraxis am Askanischen Platz,Askanischer Platz,1,10963,,"Mo 08:00-13:00; Tu 14:00-20:00; We 08:00-13:00,14:00-16:00; Th 14:00-20:00",yes,+49 30 2542060,,https://www.zahn-med.de/,52.5048735,13.3811437
+node,6419453960,Dipl.-Med. B. Spuhle,Teterower Ring,41,12619,Berlin,"Mo 12:00-17:00, Tu,Fr 08:00-12:00, Tu 13:00-15:00, We 07:30-12:00, Th 11:00-13:00,14:00-18:00; PH off",,+49 30 5622029,,,52.5218512,13.5864362
+node,6419453961,Dr. med. dent. Beate Viol,Teterower Ring,41,12619,Berlin,Mo 08:00-15:00; Tu 08:00-18:00; We 12:00-18:00; Th 12:00-18:00; Fr 08:00-12:00,,+49 30 5622169,,,52.5219921,13.5863687
+node,6458743490,Simon Bass,Wittelsbacherstraße,19,10707,Berlin,"Mo 09:00-17:00; Tu,Th 12:00-19:00; We 09:00-15:00; Fr 09:00-13:00",,+49 30 791 32 21,,https://www.zahnarztpraxis-simon-bass.de/,52.4954516,13.3089556
+node,6480580927,Zahnarztpraxis Alpha Mitte,Chausseestraße,105,10115,Berlin,,yes,,,,52.5317843,13.3812765
+node,6481555288,,,,,,,,,,,52.5285336,13.2087918
+node,6504408010,Dr. med. Ch. Röhnert,Seelower Straße,9,10439,Berlin,"Mo-Tu 08:00-15:00, We-Th 11:00-19:00, Fr 08:00-12:00",,+49 30 4458655,info@zahnarztprenzlauerberg.de,https://www.zahnarztprenzlauerberg.de/,52.5520266,13.4108073
+node,6509362916,Regina Marx,Bänschstraße,58,10247,Berlin,Mo-Th 08:00-19:00; Fr 08:00-14:00,no,+49 30 41728911,,,52.5176626,13.4663324
+node,6516579586,Zahnarztpraxis Münstermann,,,,,"Mo,Th 09:00-14:00,15:00-19:00; Tu 09:00-14:00,15:00-20:00; We,Fr 08:00-14:00",,,,,52.589545,13.2880194
+node,6612961270,Zahnarztpraxis Kreuzkölln,Mainzer Straße,13,12053,Berlin,"Mo,Tu,Th 09:00-18:00; We 09:00-15:00; Fr 09:00-13:00",limited,+49 30 6211039,info@zahn-kreuzkoelln.de,https://zahn-kreuzkoelln.de/,52.4828334,13.4272385
+node,6652785315,Dr. Waldemar Goldin,Oberhofer Weg,2,12209,Berlin,"Mo 08:00-12:00,14:00-18:00; Tu,Th 08:00-20:00; We,Fr 08:00-16:00",yes,+49307723094/95,zahnarztgoldin@aol.com,https://www.zahnarztgoldin.de,52.4273347,13.3262748
+node,6656951434,Zahnarztpraxis Brünau,,,,,"Mo 13:00-19:00; Tu 09:00-13:00,15:00-18:00; We 09:00-13:00; Th 12:00-18:00; Fr 09:00-12:00",,,,,52.5183878,13.2899174
+node,6657466887,Maczey,,,,,"Mo,Tu 09:00-13:00, Fr 09:00-12:00, Th 13:00-18:00, We 14:00-18:00, Mo 16:00-18:00",,,,,52.5615403,13.364409
+node,6670658708,Zahnärzte in Friedrichshain,Frankfurter Allee,9,10247,Berlin,"Mo,Tu,Th 09:00-19:00; We 08:00-19:00; Fr 08:00-14:00",yes,+49 30 4225895,,https://www.zahnarzt-in-friedrichshain.de/,52.5161083,13.4567344
+node,6674312441,Dr. med. dent. Alexander T. Simeon,,,,,"Mo 08:00-13:00,14:00-19:00; Th 09:00-13:00,14:00-18:00; Tu 09:00-12:00,14:00-18:00; We 09:00-18:00; Fr 08:00-13:00",,+49 30 45606426,,,52.5502372,13.3529351
+node,6674312443,Kostyantyn Shelkov,,,,,"Mo,Tu,Th 11:00-18:00; We,Fr 09:00-13:30",,+49 30 4533025,,,52.5498827,13.3524465
+node,6674312444,Kaliakra Bruske,,,,,"Mo-Tu,Th 09:00-12:00,14:30-18:00; We,Fr 09:00-12:00",,+49 30 4533166,,,52.5498025,13.3526336
+node,6681304919,Faruk Yashar & Kollegen,Oppelner Straße,46-47,,,Mo-Th 09:00-19:00; Fr 09:00-14:00,,+49 30 6126863,,https://zahnarztpraxis-friedrichshain-kreuzberg.de/,52.5001329,13.4414402
+node,6694854107,Zahnarztpraxis,Mellenseestraße,24,10319,Berlin,Mo 08:00-14:00; Tu 13:00-19:00; We 08:00-12:00; Th 13:30-19:00,no,+49 30 51009314,mail@zahnarztpraxisfalk.de,https://www.zahnarztpraxisfalk.de/,52.4937407,13.5115501
+node,6702453596,Dr. med. dent. Johannes Zielasko,Ferdinandstraße,25,12209,Berlin,"Mo,We,Th 08:30-12:00; Mo,Tu,Th 15:00-19:00; Tu 09:00-12:00; Fr 08:00-12:00",,+49 30 7725003,,https://dr-zielasko.de/,52.4262736,13.3295649
+node,6703425592,Zahnarzt Moabit,Stromstraße,64,10555,Berlin,"Mo-Th 09:00-19:00, Fr 09:00-16:00",no,+49303915005,,https://www.zahnarzt-moabit.de/,52.5251841,13.3424673
+node,6710543735,Dipl.-Stom. Christine Barz,Falkenberger Straße,27,13088,Berlin,"Mo, Tu, We 09:00-18:00; Th 08:00-13:00; PH off",yes,+49 30 9269475,post@za-barz.de,https://www.za-barz.de/,52.555079,13.4754654
+node,6721252983,Zahnärztin Christiane Wehnert,Adele-Sandrock-Straße,113,12627,Berlin,"Mo,Fr 08:00-12:00, Tu 08:00-16:00, We,Th 11:00-19:00; PH off",,+49 30 9915163,,,52.536928,13.6199665
+node,6724790486,Dr. med. A. Uebel,Eduardstraße,18,,,Mo 08:00-16:00; Tu 08:00-15:00; Th 12:00-20:00; Fr 08:00-14:00,no,+49305104117,,,52.5051486,13.4934898
+node,6727913393,Zahnarztpraxis Talesnik,Flughafenstraße,76,12049,Berlin,"Mo,Tu,Th 09:00-12:00,14:30-18:30; We 09:00-12:00,14:30-20:30; Fr 09:00-12:00 ""nach Vereinbarung""; Sa,Su,PH off",no,+49 30 6214086,,http://www.zahnarztpraxis-talesnik.de/,52.4806235,13.4224605
+node,6738634363,Dr. Paul Held,Tempelhofer Damm,178,12099,Berlin,"Mo,We,Th 10:00-12:00,13:15-17:30; Tu 10:00-12:00,13:15-19:30 || ""und nach Vereinbarung""",,+49 30 7516019,,http://www.kfo-held.de/,52.4613699,13.3846378
+node,6764573665,Dr. Sandra G. Ammar,Lankwitzer Straße,9,12209,Berlin,"Mo,Tu,Th 09:00-13:00,14:00-18:00",no,+49 30 70082772,,,52.4292553,13.3312356
+node,6775428889,Zahnarztpraxis eDent,,,,,"Mo 09:00-18:00; Tu 09:00-20:00; We,Fr 09:00-14:00; Th 09:00-19:00; Sa,Su,PH off",,+49 30 6213087,eDent.berlin@gmail.com,,52.4800738,13.4262804
+node,6915035485,Claudia Ruppert-Münnich,,,,,"Mo 08:00-18:00; Tu 08:00-14:00; We,Fr 08:00-12:00; Th 08:00-18:00; PH off",,,,,52.3868681,13.4018743
+node,6917396184,Dörfer Kieferorthopädie,Tauentzienstraße,5,10789,Berlin,Mo-Th 12:00-19:00,,+49 30 54 71 67 400,praxis-tauentzien@dr-doerfer.de,https://www.dr-doerfer.de/,52.5028885,13.3408758
+node,7025879203,Marco Michael,Danziger Straße,141,10407,Berlin,Mo 11:00-18:00; Tu 08:00-16:00; We 08:00-15:00; Th 11:00-19:00; Fr 08:00-14:00,limited,,,https://zahnarztdanziger141.de/,52.5349653,13.4363122
+node,7025879210,Zahnarzt Erich Meißner,Danziger Straße,153,10407,Berlin,,,,,https://zahnarzt-prenzlauerberg.com/,52.5341702,13.4379755
+node,7069825872,Zahnärzte,Hufelandstraße,14,,Berlin,Mo-Th 08:00-19:00; Fr 08:00-13:00,limited,,,,52.5321207,13.4310972
+node,7069855807,Zahnarzt Carsten Becker,Bötzowstraße,30,10407,Berlin,"Mo,Tu 09:30-12:00,13:00-18:00; We 09:30-14:00; Th 15:00-17:00,07:00-12:00,13:00-16:00; Fr 07:00-12:30",limited,,,,52.5316693,13.4343918
+node,7076940677,Zahnärzte am Nordbahnhof,Schlegelstraße,14,10115,Berlin,Mo-Fr 08:00-19:00,limited,+49 30 2826003,info@zahnaerzte-nordbahnhof.de,https://www.zahnärzte-nordbahnhof.de/,52.5304295,13.3882262
+node,7077103550,Zahnärzte im Gesundheitszentrum,Rummelsburger Straße,13,10315,Berlin,Mo-Th 08:00-19:00; Fr 08:00-13:00,yes,+49 30 51069507,kontakt@za-gesundheitszentrum.de,https://za-sana.de/,52.5041525,13.5119057
+node,7095755745,Zahnarzt René Zabel,Pasteurstraße,3,10407,Berlin,"Mo 08:00-12:00,15:00-19:00; Tu,Th 12:00-19:00; We,Fr 08:00-14:00",limited,,,,52.5343865,13.4318441
+node,7148689080,Zahnärzte Brunotte,Bundesallee,126,12161,Berlin,"Mo-Th 09:00-14:00,15:00-19:00; We,Fr 09:00-14:00",no,+49 30 8512016,mail@zahn-mediziner.de,https://www.zahnarztpraxis-berlin-friedenau.de/,52.4700534,13.3287069
+node,7160347385,Zahnarztpraxis Wenzel & Vandré,,,10707,,"Mo,Th 09:00-20:00; Tu 08:00-17:00; We 08:00-14:00; Fr 08:00-14:00",,+49 30 8813075,info@wenzel-vandre.de,https://wenzel-vandre.de/,52.4978948,13.3143943
+node,7161466780,Dr. Thomas Badke & Partner,,,,,,,+49 30 9799522 0,rezeption@familienpraxis.berlin,https://familienpraxis.berlin/,52.5396877,13.5056661
+node,7186526975,about:dents,Greifswalder Straße,122,10409,Berlin,"Mo,Tu,We, Th 08:00-20:000; Fr 08:00-14:00",,+49 30 4217041,,,52.5454194,13.4475608
+node,7233554308,Zahnarztpraxis Breyer - Jonscher,Greifswalder Straße,165,10409,Berlin,"Mo,Th 09:00-14:30; Tu,We 12:00-19:00",limited,+49 30-4246529,,https://www.breyer-jonscher-zahnarztpraxis.de/,52.5421788,13.4395002
+node,7235107559,Zahnarzt Katzorke,Simon-Dach-Straße,3,10245,Berlin,"Mo,Tu,Fr 08:00-13:00; We,Th 12:00-18:00",,,,,52.5124063,13.4571396
+node,7238653682,Christina Klein,Kienitzer Straße,20,12053,Berlin,,,+49 30 6872280,,https://www.zahnarztpraxisberlin.de/christina-klein-zahnarztpraxis,52.4773458,13.4358118
+node,7239146475,Zahnarztpraxis Gundi Haase,Friedelstraße,24,12047,Berlin,"Mo, We, Fr 10:00-16:00; Tu, Th 10:00-18:00",,+493062900418,,http://zahnhaase.de,52.4919174,13.4282287
+node,7250675994,Cuculescu & Partner,,,,,"Mo,Tu,Th 09:00-13:00, 14:00-19:00; We 14:00-19:00; Fr 09:00-13:00 || ""und nach Vereinbarung""",,+49 30 62730181,info@zahnarzt-cuculescu.de,http://zahnarzt-cuculescu.de/,52.4732964,13.4279055
+node,7255687766,George Chirilas,Weisestraße,13,12049,Berlin,Tu-Th 09:00-16:30; Fr 09:00-16:00; Sa 09:00-12:45,,+49 30 6216097,,,52.4778646,13.4235977
+node,7255720028,Zahnärzte Manukyan & Kollegen,Fontanestraße,18,12049,Berlin,"Tu,Th 12:00-20:00; Fr 09:00-14:00; Mo,We 09:00-15:00",no,+49 30 6213654,info@zp-am.de,https://zp-am.de/,52.4789437,13.4217409
+node,7258836029,Dr. Károly Horváth,Hermannstraße,256-258,12049,Berlin,"Mo,Tu,Th,Fr 09:00-12:00, Tu,We 15:00-19:00",no,+49 30 6214080,,https://www.dr-horvath.de/,52.485938,13.424505
+node,7258885928,Holger Heyn und Kollegen,Hermannstraße,158a,12051,Berlin,Mo-Th 08:00-20:00; Fr 08:00-18:00; Sa 10:00-16:00,,+49 30 6064152,zahnarztpraxis.heyn@gmail.com,https://www.zahnarztpraxis-neukoelln.de/,52.4672994,13.4322192
+node,7258912252,Zahnärztliche Gemeinschaftspraxis,Hermannstraße,147,12051,Berlin,Mo-Th 08:00-18:00; Fr 08:00-14:00,no,+49306252486,,https://www.alldente.de/,52.4645502,13.4332189
+node,7272877267,Zahnarzt Dr. Michael,Dunckerstraße,11,10437,Berlin,"Mo,Th 13:00-19:00; Tu 09:00-15:00; Fr 08:00-14:00",,+49 30 4445656,,https://drmichael.de/,52.5425873,13.4210998
+node,7280430677,Dr. Ingrid Ispas,,,,,"Mo-We,Fr 09:00-12:00; Mo,Th 14:00-18:00",no,+49307858022,,,52.4927661,13.3817171
+node,7284438905,Zahnzentrum Kreuzberg,Urbanstraße,31,10967,Berlin,Mo-Fr 08:00-20:00,no,+49306944647,,https://www.zahnzentrum-kreuzberg.de,52.4914286,13.4138241
+node,7297187780,Praxisgemeinschaft für Zahnheilkunde,Karl-Marx-Straße,132,12043,Berlin,"Tu,We,Sa 12:00-20:00; Th 10:00-18:00; Fr 12:00-18:00",,+49 30 68087868,,,52.4772407,13.4384682
+node,7297187784,Zahnarztpraxis,Karl-Marx-Straße,124,12043,Berlin,"Mo,Th 10:00-19:00; Tu 08:00-19:00; We,Fr 08:00-14:00",,+49 30 6871783,,http://www.dentisten-berlin.de,52.4778329,13.4380264
+node,7310701581,Prenzl Zahnärzte,Danziger Straße,57,10435,Berlin,Mo-Fr 07:30-19:30,limited,+49 30 23327510,,http://www.prenzlzahnärzte.de/,52.5398339,13.4216142
+node,7326618585,Zahnärztliche Gemeinschaftspraxis Exner & Hausl,,,,,,no,+49 30 2513037,zahnaerzte.exner.hausl@t-online.de,http://www.zahnaerzte-in-kreuzberg.de/,52.4978233,13.3851529
+node,7335401290,Dr. Kreller & Dr. Joos,,,,,"Mo-Fr 09:00-13:00; Mo,Tu,Th 15:00-18:00",no,+49 30 8927501,,https://www.zahnarztpraxis-kreller.de,52.4959329,13.2966509
+node,7361597386,Johan Michael Schmidt,Uhlandstraße,118,10717,Berlin,,,+49 30 3126435,,https://www.zahnaerzte-charlottenburg.de/,52.4895115,13.3231451
+node,7380197218,Zahnarztzentrum am Potsdamer Platz,Eichhornstraße,2,10785,Berlin,"Mo 07:00 -14:00,Tu 14:00 - 21:00, We 14:00 - 21:00, Th 07:00 - 14:00, Fr 08:00 - 16:00",yes,+49 30 25925100,,,52.5059885,13.3741844
+node,7401129455,Zahnarztpraxis K. Yildirgan,,,,,"Mo,Th 09:00-19:00; Tu 09:00-17:00; We 09:00-15:00; Fr 09:00-13:00 || ""nach Vereinbarung""",,+49 30 6252031,,,52.4651069,13.435386
+node,7419089364,q213,Kurfürstendamm,213,10719,Berlin,,,+49 30 88922800,,https://www.q213.de/,52.5022012,13.3256972
+node,7422294536,Kieferorthopädie,,,,,"Mo-Th 08:00-12:00, 13:00-18:00",,+49 30 6862233,,http://kfo-mahjoub.de,52.4782347,13.4366845
+node,7428911686,Peter Euler,,,,,"Mo-We 09:00-14:00,15:00-19:00; Th,Fr 09:00-15:00",,,,,52.5580111,13.3425039
+node,7438355333,my teeth bliss,Blissestraße,33,10713,Berlin,"Mo 09:00-19:00, Tu 08:00-14:00,We 09:00-19:00, Thu 09:00-15:00, Fr 10:00-15:00",,+49 30 34353010,,https://www.myteethbliss.de/,52.4821203,13.3205809
+node,7504035344,Dr. Claus-H. Gutsche,Rheinstraße,19,12161,Berlin,Mo-Th 08:30-19:30; Fr 09:00-15:00,,+49 30 8528039,,http://www.drgutsche.de/,52.4688561,13.3320871
+node,7523172840,Dr. Barbara Poralla,,,,,"Mo-Tu,Th 08:00-12:00,14:00-18:00 open ""Voranmeldung erbeten""; We,Fr 08:00-12:00 open ""Voranmeldung erbeten""; PH closed",,+49 30 7440244,,,52.3861319,13.4052612
+node,7546074497,Dr. Brigitta Wilke,Hauptstraße,76 II,12159,Berlin,Mo 10:00-17:00; Tu-Th 10:00-18:00,,,,,52.4741715,13.3380692
+node,7548355343,Sabine Quack,Wühlischstraße,15/16,10245,Berlin,Mo-We 08:00-19:00; Th 09:00-19:00; Fr 08:00-13:00,no,030 611 45 83,,https://www.zap-sabinequack.de/,52.5084773,13.4626645
+node,7553714904,Zahnarztpraxis Sofija Stoljar,Richardstraße,43,12055,Berlin,"Mo 10:00-18:00, Tu 13:00-18:00, We 12:00-18:00, Th 09:00-18:00, Fr 09:30-13:00 || ""und nach Vereinbarung""; PH off",,+49 30 6835265,,,52.4735606,13.4452651
+node,7560353413,Dieter Voit,Detmolder Straße,64a,10715,Berlin,Mo-We 10:00-17:00; Th 10:00-18:00; Fr 08:00-12:00,,,,,52.4785688,13.3265926
+node,7563880561,Andreas Kretschmer,Detmolder Straße,16,10715,Berlin,"Mo 09:00-12:00,15:30-18:30; Tu 09:00-12:00,15:30-18:30; Th 09:00-12:00,15:30-18:30; Fr 09:00-15:00",,,,,52.4789131,13.3220134
+node,7563880571,Feine Zähne,Detmolder Straße,2,10715,Berlin,"""Mo-Fr nach Vereinbarung""",,,,,52.4788701,13.3271985
+node,7598149816,Magda Doumit,Bundesallee,67,12161,Berlin,"Mo,Th 09:00-12:00,13:00-16:00; Tu,We 11:00-14:00,16:00-19:00; Fr 09:00-13:00",,+49 30 8526063,,https://www.zahnarztpraxis-doumit.de/,52.4759071,13.3280455
+node,7599664901,SwissMedAI MVZ,Bundesallee,140,12161,Berlin,"Mo,Tu,Th,Fr 09:00-18:00; We 09:00-13:00; PH off",no,,,https://www.swissmedzahnmedizin.de/,52.476717,13.3288133
+node,7609527375,Zahnarzt N. Schaar,,,,,,,,,,52.5502604,13.3506987
+node,7609889241,Zahnarztpraxis Dr. Amina-Roxane Fielitz,Teltower Damm,51,14167,Berlin,,no,+49 30 8159898,info@praxisdrfielitz.de,http://www.zahnarztpraxis-zehlendorf.net/,52.4295557,13.2601508
+node,7620604045,Oralchirurgie,Lauterstraße,16,12159,Berlin,"Mo,Tu,Th 09:00-17:00; We ""nach Vereinbarung""; Fr 09:00-13:00",,+49 30 8594972,,https://www.mesgarian.de/,52.4719768,13.3349586
+node,7633023878,S. Arshadi,Müllerstraße,114A,13349,Berlin,Mo 10:00-14:00; Tu 13:00-18:00; We 09:00-12:00; Th 10:00-18:00; Fr 09:00-11:00,no,+49 30 4517700,,,52.5553504,13.3427272
+node,7633128465,"Stefan Günter, J.P.Reister",Georg-Wilhelm-Straße,3,10711,Berlin,"""Sprechstunden nach Vereinbarung""",,,,https://www.prophylaxepraxis-berlin.de/,52.498115,13.2906433
+node,7640877832,Dr. Udo Sauer,Sarrazinstraße,23,12159,Berlin,,no,,,,52.4737224,13.3298095
+node,7653520293,Kieferorthopädie,Lauterstraße,16,12159,Berlin,,,,,https://www.kieferorthopaedie-berlin.de/,52.4719795,13.3349095
+node,7658184212,Henning Dudat,Dickhardtstraße,61-62,12159,Berlin,Mo 08:00-17:00; Tu 10:00-19:00; We 13:00-18:00; Th 08:00-18:00; Fr 08:00-13:00,no,,,,52.4713459,13.3356341
+node,7659253634,Praxis für ästhetische Zahnmedizin,Wexstraße,2,10825,Berlin,"Mo 14:00-18:30; Tu,Th 11:00-17:00; We 08:00-13:00",,,,http://www.pfazm.de/,52.4789679,13.3427834
+node,7660694118,Tobias Mache,Niedstraße,22,12159,Berlin,"""Termine nach Vereinbarung""",,,,,52.4726594,13.3293576
+node,7679907384,Kieferorthopädie an der Kaisereiche,Saarstraße,1,12161,Berlin,"Mo-Th 09:00-13:00,14:00-18:00",no,+49 30 85109077,,https://kfo-kaisereiche.de/,52.4685936,13.3330331
+node,7680001265,Iris Göhringer,Saarstraße,5,12161,Berlin,"Mo 10:00-20:00; Tu 08:00-15:00; We 13:00-20:00; Th,Fr 08:00-11:00",,+49 30 85757205,,http://www.irisgoehringer.de/,52.4681428,13.3341927
+node,7680118563,Detlef Bruhn,Beckerstraße,10,12157,Berlin,"Mo-Th 09:00-13:30,15:30-19:00; We,Fr 09:00-15:00",,+49 30 8551340,,https://drbruhn.de/,52.4670669,13.3394142
+node,7683100379,Horst Wendorff,Schmargendorfer Straße,16,12159,Berlin,Mo-Fr 07:30-20:00; Sa 08:30-14:00,no,+49 30 8522168,,https://za-wendorff.de/,52.4716585,13.3301162
+node,7683719228,Sonja Herrmann,Sponholzstraße,28-29,12159,Berlin,"""Termine nach Vereinbarung""",,,,https://www.dr-sonja-herrmann.de/,52.4709806,13.3406057
+node,7687404788,Erhard Templiner,Eichborndamm,243,13437,Berlin,,,,,,52.5906844,13.3252867
+node,7687756087,Geist,,,,,,,,,,52.5741933,13.31312
+node,7700452317,Svetlana Savić-Paltin,Blissestraße,12,10713,Berlin,"Mo,Tu,Th,Fr 09:00-12:00, Mo-Th 15:00-18:00",,,,http://www.zahnaerzte-berlin-wilmersdorf.de,52.4850449,13.3200805
+node,7704696588,Mohammed Azzawi,,,,,"Mo,Tu,Th 09:00-18:00; We,Fr 08:00-14:00",,,,,52.500927,13.397783
+node,7705812130,Zahnarztpraxis Platto,Rheinstraße,41,12161,Berlin,Mo-Th 09:00-20:00; Fr 09:00-16:00,,+49 30 85102930,,http://zahnarzt-platto.de/,52.4652163,13.3290843
+node,7707711192,Dr. Günter Matthies,Westfälische Straße,31,10709,Berlin,"We,Fr 09:00-13:00, Tu 14:00-18:30, Th 14:00-17:00, Tu,Th 09:00-12:00",,,,,52.4957412,13.2976289
+node,7707719360,,Bundesplatz,3,10715,Berlin,"Mo-Th 09:00-12:00,13:00-18:00",,,,https://www.drschenk-kfo.com/,52.4795294,13.327602
+node,7728839480,Daniel Babel,Liebenwalder Straße,32,13347,Berlin,"Mo,Tu,Th 09:00-12:00,15:00-18:00; We,Fr 09:00-13:00",,+49 30 4562205,,,52.5519828,13.3584743
+node,7730784543,dental total,Zabel-Krüger-Damm,17,13469,Berlin,Mo-Th 08:00-18:00; Fr 08:00-14:00,,,,https://www.dentaltotal.de,52.6090053,13.327105
+node,7733685993,,,,,,,,,,,52.4235853,13.5120598
+node,7740589457,Zahnarztpraxis Michael Klein & Dr. Thomas Klein & Dr. Cristoph Klein (MSc),Regattastraße,125,12527,Berlin,"Mo, We-Th 08:00-19:00; Tu 07:00-19:00; Fr 07:00-14:00",,030 672 97 97,zahnarztpraxisklein@hotmail.com,,52.4174839,13.5806988
+node,7746191687,,,,,,,,,,,52.5849776,13.3630514
+node,7746191688,Kaschte,,,,,"Mo,Tu,Th 14:00-19:00; We,Fr,Sa 10:00-13:00",,,,,52.5870574,13.3677285
+node,7762091086,Gemeinschaftspraxis Zahnärtzinnen Bislanis,Nogatstraße,25,12051,Berlin,"Mo,Tu,Th 11:00-18:00; Fr 09:30-15:00; We ""nach Vereinbarung""",,,,,52.4693197,13.4311322
+node,7773837716,Zahnärzte am Bundesplatz,Bundesallee,55,10715,Berlin,Mo-Th 08:30-19:00; Fr 08:30-16:00,,,,https://www.zahnaerzteambundesplatz.de/,52.4815218,13.3289245
+node,7775875896,G. Dochow,Rheinstraße,30,12161,Berlin,"Mo 09:00-17:00; Tu,Th 12:00-19:00; Fr 09:00-13:00",,,,,52.4669579,13.3300217
+node,7776221536,Dr. Michael Vortmann,Holsteinische Straße,22,12161,Berlin,,,+49 30 85075140,,,52.4656943,13.3317434
+node,7785697821,Zahnarztpraxis Schirmer,Hedwigstraße,11,12159,Berlin,Mo-We 09:00-19:00; Th-Fr 09:00-12:30,,+49 30 8513233,info@zahnschirm.de,https://zahnschirm.de/,52.471543,13.3396215
+node,7799378780,"Bianca Wark, Chung-U Nam",Rheinstraße,35,12161,Berlin,"""Termine nach Vereinbarung: 852 67 56""",,,,https://zahnhimmel.de/,52.4661965,13.3293127
+node,7804846351,Zahnarztpraxis Habich,Berliner Straße,141,10715,Berlin,"Mo,Th 14:00-20:00; Tu,We 09:00-15:00",,,,https://www.zahnarzt-habich.de/,52.4863277,13.3241098
+node,7809936545,Claudius Kubina,,,,,"Mo,Tu,Th 09:00-12:00, Fr 09:00-12:00; PH off, Mo,Tu,Th 14:00-17:00",,,,,52.3863666,13.3992281
+node,7813617850,Zahnarztpraxis Alexander Piosik,Breisgauer Straße,12,14129,Berlin,Mo-Th 08:00-19:00; We 08:00-15:00; Fr 08:00-13:00,,+49 30 8036088,info@piosik-zahnarzt.de,https://www.zahnarzt-piosik.de/,52.4378223,13.215412
+node,7814038847,Panodontis,Spessartstraße,13,14197,Berlin,"""Termine nach Vereinbarung""",,,,https://www.panodontis.de/,52.4747701,13.314808
+node,7814038851,Dr. Werner H. Mendler,Aßmannshauser Straße,11,14197,Berlin,"Tu,Fr ""nach telefonischer Vereinbarung""",no,,,,52.4749865,13.3139363
+node,7816112858,Seligmann Zahnärzte in Friedenau,Hauptstraße,68a,12159,Berlin,"Mo-Th 08:00-20:45; We,Fr 08:00-16:00",no,+49 30 8527530,hallo@seligmann.org,https://dr-seligmann.de/,52.4760243,13.340356
+node,7821177808,Olaf H. Körner,Bundesallee,53,10715,Berlin,"Mo,We,Th 09:00-13:00, Tu,Fr 09:00-12:00, Mo,We,Th 14:00-18:00",,,,https://www.zahnarzt-praxis-wilmersdorf.de/,52.4822505,13.329427
+node,7844240258,Zahnarztpraxis Dr. Sebastian Albrecht,Laubacher Straße,35,14197,Berlin,Mo-Th 08:00-20:00; Fr 08:00-13:00,,,,http://zahnarztalbrecht.de/,52.4753865,13.3199383
+node,7844240264,Dr. Susanne Karsten;Dr. Claudia Dietrich,Aßmannshauser Straße,11a,14197,Berlin,"Mo-Fr 09:00-12:00, Mo,Tu,Th 15:00-18:00",,,,http://www.karsten-dietrich.de/,52.4748861,13.3138351
+node,7859148818,Zahnärzte in Friedenau,Menzelstraße,2,12157,Berlin,"Mo-Th 09:00-12:00,15:00-18:00; Fr 09:00-12:00",,+49 30 8550737,,https://zahnpraxis-friedenau.de/,52.467621,13.3397719
+node,7859148821,Uwe Scherf,Moselstraße,1,12159,Berlin,"Mo,Tu,Th 09:00-13:00,14:00-18:00; We,Fr 09:00-14:00",,+49 30 8522813,,http://zahnarztpraxis-uwe-scherf.de/,52.4688879,13.333481
+node,7859148824,J.-U. Arndt,Rheinstraße,56,12159,Berlin,Mo-Th 08:00-20:00; Fr 08:00-15:30,,+40 30 7829988,,https://www.zahnarzt-arndt.de/,52.4694532,13.3335326
+node,7867810049,Kinderzahnarzt Dr. Monzer Solyman,Winsstraße,43,10405,Berlin,"Mo-Tu 09:00-14:00, 15:00-19:00; We-Th 09:00-15:00; Fr 09:00-14:00",,+49304423788,info@dr-solyman.de,https://www.dr-solyman.de/,52.5366928,13.4276946
+node,7869270562,Dr. med. dent. Wolfgang Schilling,,,,,"Mo-Th 10:00-13:00, 14:00-18:00; Fr 10:00-14:00",,,,,52.4201197,13.4920765
+node,7897421785,Zahnärzte Kiefer & Hudecek,,,,,"Mo,Th 12:00-20:00; Tu,Fr 08:00-16:00; We,Sa,Su,PH off",,+49 30 8552776,,,52.4679061,13.3479182
+node,7902838213,Antje Brandt,Alt-Rudow,64-66,12355,Berlin,"Mo 11:00-16:00; Tu 09:00-13:00, 15:00-18:00; Th 09:00-13:00, 15:00-18:00; Fr 09:00-13:00",,+49 30 663 20 19,,,52.4172674,13.4956837
+node,7904323485,Dentaffin,Belziger Straße,69,10823,Berlin,Mo 09:00-14:30; Tu 08:00-19:00; We 09:00-16:00; Th 10:00-20:00; Fr 08:00-13:00,,+49 30 5099777,,https://www.dentaffin.de,52.4848126,13.3465288
+node,7934345263,Zahnarztpraxis Sylvia Mainzer & Carsten Lambrecht,Schloßstraße,67,12165,Berlin,Mo-Th 08:00-18:00; Fr 08:00-14:00,no,+49 30 8345023,praxis@meinzer-lambrecht-zahnarzt.com,https://www.meinzer-lambrecht-zahnarzt.com,52.4537926,13.3171406
+node,7959695698,Annette Magiera,,,,,Mo-Th 08:00-18:00; Fr 09:00-12:00,,+49 30 4617095,,,52.5516269,13.3678031
+node,7994883598,Rajka Živkovic;Karin-Biesel-Živkovic,Johann-Georg-Straße,21/22,10709,Berlin,Mo-Fr 08:30-18:30; Sa 09:00-14:30,,+49 30 8911007,,,52.4961723,13.29804
+node,7994883610,Dr. Birgit Guizetti,Kurfürstendamm,139,10711,Berlin,"Mo,We 09:00-16:00; Tu,Th 09:00-18:00; Fr 09:00-12:00",,,,,52.497561,13.2957136
+node,7995684587,Harald Roller,Hauptstraße,100,10827,Berlin,"Mo-Fr 08:00-13:00, Mo,Tu,Th 14:00-19:00",,+49 30 7820307,,https://www.mein-zahnarzt-in-schoeneberg.de/,52.4796583,13.3459194
+node,7995684604,Harald Zirkler,Hauptstraße,111,10827,Berlin,Mo-Th 09:00-18:00; Fr 09:00-16:00,,,,http://www.zahnarzt-zirkler.de/,52.48139,13.3482225
+node,8000704917,Zahnmedizin Martin Thomas,Residenzstraße,130,13409,Berlin,"Mo 09:00-14:00,15:00-17:00; Tu 10:00-14:00,15:00-18:00; We 10:00-14:00; Th 10:00-14:00,15:00-18:00; Fr 09:00-12:00",no,+49 30 4953459,,https://www.mt-zahnmedizin.de,52.5689172,13.3620352
+node,8004581239,Dr. Stefan Naumann,Auguste-Viktoria-Straße,7,14193,Berlin,,,,,https://www.dr-naumann.berlin/,52.4916714,13.2908659
+node,8007613102,Alexander Krom,Geisenheimer Straße,34,14197,Berlin,"Mo,Tu,Th 09:00-12:00,15:00-18:00; We 09:00-12:00; Fr 09:00-14:00",no,+49 30 8212773,,,52.46979,13.3166852
+node,8046844289,Zahnarzt Ludwig Lippert,,,,,"Mo-Fr 09:00-13:00, Mo,Tu,Th 14:00-19:00, We 14:00-17:00, Fr 14:00-16:00",,+49 30 69001250,info@praxislippert.de,,52.4936744,13.4184822
+node,8091797800,Zahnarztpraxis am Stadtpark,Albrechtstraße,36a,12167,Berlin,"Mo,We 09:00-20:00; Tu,Th 09:00-16:00; Fr 09:00-14:00",,,,,52.4518303,13.3332871
+node,8094802658,Bastian Pandura,Wiesbadener Straße,3,12161,Berlin,Mo 09:00-18:00; Tu 09:00-19:00; We 14:00-19:00; Th 09:00-14:00; Fr 09:00-13:00,,+49 30 8593226,,http://www.zahnarztpraxis-pandura.de/,52.4717014,13.3264447
+node,8118755947,Gunther Schwarz,Goßlerstraße,29,12161,Berlin,,,,,,52.4706824,13.3273821
+node,8119481790,Christiane Kannenberg,Grunewaldstraße,27,12165,Berlin,"Mo,Th 08:00-18:00; Tu 08:00-16:00; We 13:00-20:00; Fr 08:00-14:00",,,,https://www.zahnarztpraxis-berlin-steglitz.de/,52.4601619,13.309956
+node,8121763036,Yan Kruglyakov,Bundesallee,84,12161,Berlin,"Mo,Th 09:00-12:00,13:00-18:00; Tu 11:00-18:00; Fr 09:00-13:00 ""und nach Vereinbarung""",,,,,52.4691686,13.3279738
+node,8122194420,Dezsö Sztankay,Bundesallee,92,12161,Berlin,Mo-Th 09:00-19:00; Fr 09:00-14:00,,,,https://www.dr-sztankay.de/,52.4672959,13.3279184
+node,8143926005,Margareta Sliwinski,Südwestkorso,19,14197,Berlin,"Mo-Th 10:00-12:30,13:00-18:00",,,,,52.4720087,13.3195485
+node,8146859268,Yuriy Sorokin,Plönzeile,2,12459,Berlin,"Mo 13:00-19:00; Tu 08:00-14:00; We 08:00-15:00; Th 13:00-19:00; Fr 08:00-13:00 || Tu 14:00-19:00 open ""Kindersprechstunde""",yes,+49 30 5350502,,https://zahnarztpraxis-gesunderzahn.de/,52.461858,13.5226784
+node,8147270770,Bernalin Kaya,Heylstraße,33,10825,Berlin,,,+49 30 78891144,info@zahnboegen.de,https://www.zahnboegen.de,52.4807356,13.3461292
+node,8156098125,Zahnarztpraxis Bismarckstr. 49,Bismarckstraße,49,12169,Berlin,"Mo 08:30-13:00, 14:00-19:00; Tu 08:00-13:00, 14:00-19:00; We 08:00-13:00, 14:00-19:00; Th 08:30-13:00, 14:00-19:00; Fr 08:30-13:00, 14:00-19:00",,,,,52.4532214,13.3390104
+node,8165603043,City Dent,Hedemannstraße,13,10969,Berlin,"Mo,Tu,Th 09:00-13:00,15:00-18:00; We 09:00-13:00; Fr 09:00-14:00",,,,http://www.city-dent.com,52.5030952,13.3902287
+node,8177206748,kleene große zähne,Schloßstraße,114,12163,Berlin,"Mo,Tu 13:00-18:00; We 09:00-13:00,15:00-18:00; Th 09:00-14:00 || ""Termine nach Vereinbarung""",,+49 30 7914891,,https://www.kleene-grosse-zaehne.de/,52.4619517,13.3259577
+node,8185198474,"Dr. Heinze, ZA Agababyan",Sesenheimer Straße,17,10627,Berlin,"Mo-Tu,Th 09:00-12:00,15:00-19:00",no,+49 30 8815857,,http://www.dr-w-heinze.de/,52.5106023,13.3075195
+node,8199219279,Dr. Rainer Hohenwald und Kolleginnen,Rüdesheimer Straße,43,14197,Berlin,"Mo-Fr 09:00-13:00,15:00-18:30",limited,,,,52.4691579,13.3120757
+node,8200085123,Yvonne Ende,Breitenbachplatz,10,14195,Berlin,"Mo-Fr 09:00-13:00, Mo,Th 14:00-18:00, Tu 14:00-19:00",no,,,https://www.zahnarztbreitenbachplatz.de/,52.467235,13.3080456
+node,8200085132,Dr. Klaus Hunger,Schorlemerallee,7A,14195,Berlin,"Mo,Tu,Th 09:00-13:00,14:00-17:30; We 08:00-12:00,13:00-16:30",,,,http://www.dr-hunger.de/,52.4660201,13.3055214
+node,8215826720,Carola Mayerhofer-Djordjevic,,,,,"Mo-Fr 09:00-14:00, Mo,Tu 15:00-18:00, Th 15:00-20:00",,,,,52.5027254,13.3887987
+node,8222417374,Dr. Ingo Eberth,Goßlerstraße,17,12161,Berlin,Mo-Fr 09:00-18:00,,030 215 37 74,info@zahnarzt-eberth.de,https://www.zahnarzt-eberth-friedenau.de/,52.4687392,13.3240438
+node,8222751499,Zahnarztpraxis Dr. Balbach,Breite Straße,51,14199,Berlin,"Mo 08:00-12:00,14:00-18:00; Tu 08:00-14:00; We 13:00-19:00; Th 13:00-19:00; Fr 09:00-14:00",no,+49308244211,post@zahnarztpraxis-schmargendorf.de,https://zahnarztpraxis-schmargendorf.de,52.4731477,13.2983904
+node,8222836697,Siegfried Gerlach,Büsingstraße,15,12161,Berlin,"""Sprechzeiten nach telefonischer Vereinbarung""",,+49 30 8511010,,https://dr-gerlach.de/,52.4681057,13.3259488
+node,8223127032,Zahnärzte Schöneberg,Hauptstraße,131,10827,Berlin,"Mo-Th 08:00-13:00,14:00-18:00; Fr 08:00-13:00",,+49 30 7817210,praxis@zahnaerzte-schoeneberg.de,https://zahnaerzte-schoeneberg.de/,52.4843429,13.3534416
+node,8235472592,"Mechthild Jonczyk-Hauke, Lutz Schubert",Corinthstraße,50,10245,Berlin,"Mo-Th 08:00-19:00; Fr 08:00-13:00 || ""und nach Vereinbarung""",,+49 30 2912963,,,52.4992399,13.4634427
+node,8245997143,Zahnarztpraxis B18,Badensche Straße,18,10715,Berlin,,,,,http://www.zahnarztpraxisb18.de,52.4862328,13.3323344
+node,8245997157,Christoph Kathke,Innsbrucker Straße,35,10825,Berlin,"Mo,Tu,Th 08:00-19:00; We,Fr 08:00-16:00",,,,,52.4801701,13.3434374
+node,8257529776,Fadila Sörensen,Berliner Straße,154,10715,Berlin,,,,,,52.4869995,13.3304054
+node,8264511433,zahnmedic,Marburger Straße,2,10789,Berlin,,,,,https://www.zahnmedic.de/,52.5032304,13.3369351
+node,8264511449,Dental Care,Marburger Straße,12,10789,Berlin,,,,,,52.5020221,13.3365049
+node,8265318072,Dr. Katja Hasselberg,Salzburger Straße,11,10825,Berlin,"Mo,Th 13:00-19:00; Tu 09:00-15:00; We,Fr 08:00-14:00",,,,https://dr-hasselberg.de/,52.4880852,13.3413838
+node,8265318080,Zahnarztpraxis Herrn,Martin-Luther-Straße,99,10825,Berlin,"Mo,Tu,Th 09:00-12:00,15:00-18:00; Fr 09:00-12:00",no,,,https://www.zahnarztpraxis-herrn.de/,52.4819824,13.3453521
+node,8327512912,A. Parish,Rheinstraße,34,12161,Berlin,"Mo,Fr 08:00-13:00, Tu,Th 09:00-14:00,15:00-19:00, Mo 14:00-18:00",,,,https://zahnarzt-friedenau.jimdofree.com/,52.4664087,13.3295248
+node,8327512914,Simone Fritzsche,Roennebergstraße,3,12161,Berlin,"""Termine nach Vereinbarung""",,,,https://www.simone-fritzsche.de/,52.4679185,13.3304456
+node,8327564917,Yanina Ketzelmann,Lauterstraße,17-18,12159,Berlin,"Mo-Th 08:00-19:00; Fr ""nach Vereinbarung""",,+49 30 609836861,,https://www.kfo-ketzelman.de/,52.4717499,13.3349973
+node,8329244783,Zahnarztpraxis Dr. Schneider,Quickborner Straße,96,13439,Berlin,"Mo 09:00-12:00, 13:00-18:00; Tu 09:00-12:00, 14:00-20:00; We 12:00-15:00, 16:00-20:00; Th 09:00-12:00, 14:00-20:00; Fr 09:00-12:00, 13:00-18:00; Sa ""nach Vereinbarung""",yes,+49 30 415 16 26,praxis@zahnaerzte-schneider-berlin.de,https://www.zahnaerzte-schneider-berlin.de,52.6064955,13.3643055
+node,8330301607,Die Zahnärzte,Turmstraße,72,10551,Berlin,"Mo-Fr 08:15-13:00,14:00-18:45",,+49 30 3916285,info@zahn-arzt.de,https://www.zahn-arzt.de,52.5265716,13.3324908
+node,8355407918,Jutta Kassner,Markelstraße,59,12163,Berlin,,,,,,52.4637185,13.3252809
+node,8373187489,Smile & Smile Zahnarztpraxis,Hermannstraße,44,12049,Berlin,"Mo,Tu,Th 10:00-18:00; We,Fr 10:00-13:00",no,+49 30 6222023,,,52.4789979,13.4254011
+node,8378546958,dentalSTUDIO Friedenau,Hackerstraße,6,12161,Berlin,Mo 10:00-18:00; Tu 09:00-15:00; We 12:00-19:00; Th 10:00-15:00,,+49 30 8511112,,https://www.dentalstudio-friedenau.de/,52.4660494,13.3243342
+node,8378546970,iDentis,Schloßstraße,110,12163,Berlin,,,,,https://www.identis.net,52.4610771,13.3252975
+node,8378546974,Manuela Langhoff,Schloßstraße,19,12163,Berlin,"Mo 10:00-18:00; Tu,We 08:00-14:00; Th 13:00-20:00; Fr 08:00-13:00",,,,https://www.zahnarztpraxislanghoff.de/,52.4608371,13.3241623
+node,8379002233,Ngoc Hieu Ngo,Hackerstraße,27,12161,Berlin,"Mo,Tu,Th 09:30-18:00; We 13:00-18:00; Fr 09:00-13:30",,,,,52.4659061,13.3248156
+node,8422865841,Ladewig & Ladewig,Berliner Straße,9,10715,Berlin,"Mo,Tu,Th 08:00-12:00,14:30-18:00; We 08:00-14:30; Fr 08:00-14:00",,,,https://www.zahnarzt-ladewig.de/,52.4876991,13.3324208
+node,8430105026,Andreas Krautien,Wildenbruchplatz,6,12045,Berlin,"Mo-Tu 08:30-12:30, 14:30-18:00; We 08:30-13:30; Th 13:00-19:00; Fr 08:30-13:00 || ""und nach Vereinbarung""",,+49 30 6873040,,,52.4833087,13.4447744
+node,8467557734,Zahnarztpraxis am Kreuzberg,Bergmannstraße,2,10961,Berlin,Mo-Th 09:00-18:00,,,,https://www.zahnarztpraxis-am-kreuzberg.de/,52.4897724,13.3877217
+node,8486926095,Karras & Braunsdorf,Beckerstraße,3,12157,Berlin,,no,,,https://www.zahnärztinnen-berlin.de/,52.4672231,13.3428349
+node,8505637973,Dr. Flentje · Zahnarztpraxis,Fürstendamm,1A,13465,Berlin,"Mo-Th 08:00-13:00,15:00-20:00, Fr 08:00-13:00",no,+4930 610 821 11 0,praxis@dr-flentje.de,https://dr-flentje.de/,52.63268,13.2923219
+node,8508648491,Zahnarztpraxis Dr. Uta Kalinke,Zeltinger Platz,5,13465,Berlin,"Mo 08:00-15:00; Tu,Th 11:00-18:00; We off; Fr 08:00-12:00",no,+4930 401 71 08,kontakt@dr-kalinke.de,https://www.dr-kalinke.de/,52.6337156,13.289929
+node,8508833124,Georg Scherpf Zahnarzt,Fürstendamm,66,13465,Berlin,"""Nach Vereinbarung""",,+4930 401 30 70,scherpf@scherpf.de,http://scherpf.de/,52.6326364,13.2931515
+node,8520443317,Dr. Caemmerer,Hohefeldstraße,41,13467,Berlin,Mo 08:00-14:00; Tu 12:00-19:00; We 08:00-14:00; Th 12:00-19:00; Fr 08:00-13:00,,,,https://www.dr-caemmerer.de/,52.6237077,13.3019855
+node,8541213000,Susanne Schicks,Babelsberger Straße,12,10715,Berlin,Mo 08:30-14:00; Tu 12:00-19:00; We 10:00-17:00; Fr 11:00-18:00,,,,https://www.zahnarztpraxis-in-wilmersdorf.de/,52.4847258,13.3348689
+node,8542075825,Familienzahnmedizin Frohnau,Ludolfingerplatz,4,13465,Berlin,,,+49 30 401 45 45,,,52.6331606,13.2880872
+node,8611586643,Annette Voeste,Müllerstraße,36,13353,Berlin,Mo-Th 08:00-20:00; Fr 09:00-15:00,,,,https://praxis-voeste.de,52.5492054,13.3547877
+node,8618994034,Sabine Pöggel,Wildenbruchstraße,91,12045,Berlin,"Mo,We 09:00-15:00; Tu,Th 09:00-13:00,14:00-19:00; Fr 09:00-14:00",,+49 30 6810792,,,52.4819956,13.4402631
+node,8618994038,Zahnarzt Udo Kleine,Erkstraße,1A,12043,Berlin,"Mo,Tu,Th 09:00-12:00,15:00-18:00; We 09:00-14:00; Fr ""nach Vereinbarung""",no,+49 30 6875422,,,52.4808181,13.4357437
+node,8628376808,Zahnarztpraxis Dr. Joselowitsch,Bülowstraße,23,10783,Berlin,"Mo,Tu,Th 09:00-18:00; We,Fr 09:00-13:00",,,,https://www.dr-zahnarzt.berlin/zahnarzt-schoeneberg/,52.4977798,13.3608954
+node,8637686158,Zahnarztpraxis Wolram Schmitz,Zwickauer Damm,11,12353,Berlin,"Mo-Fr ""Nach Vereinbahrung""",,+49306612258,rezeption@zahnarzt-schmitz.de,https://www.zahnarzt-schmitz.de/,52.4225683,13.483865
+node,8637878900,Praxis für Oralchirurgie,Feurigstraße,52,10827,Berlin,"""Termine nach Vereinbarung""",,,,https://www.oralchirurgen.berlin/,52.4831975,13.3540288
+node,8691573557,Dr. Jörg-Michael Lorenz;Dr. Deniz Uğur-Lorenz,Hauptstraße,34 / 35,10827,Berlin,,,,,,52.4846763,13.352598
+node,8691573577,Dr. Susanne C. Albrecht,Badensche Straße,54,10825,Berlin,,,,,http://albrechtonline.de/,52.4854009,13.3398712
+node,8691573578,Manana Kreibohm,Badensche Straße,54,10825,Berlin,,,,,,52.4854732,13.3397362
+node,8712315659,Zahnarzt am Rüdesheimer Platz,Rüdesheimer Straße,8,14197,Berlin,"Mo 08:00-13:00,14:00-18:00; Tu,Th 09:00-13:00,14:00-19:00; We,Fr 08:00-15:00",no,+49 30 8277700,,http://www.zahnarzt-ruedi.de,52.4728339,13.3140042
+node,8744163625,Tanja Bohrmann,Birkbuschstraße,16,12167,Berlin,Mo-Fr 09:00-18:00,,+49 30 8344080,,https://www.zahnaerztin-steglitz.de,52.4502088,13.3225293
+node,8850856434,Dentalzentrum Mariendorf,Birnhornweg,5,12107,Berlin,,,,,http://wp.dentalzentrum-mariendorf.de/,52.4239807,13.3946052
+node,8863272990,Zahnarztpraxis Jens Lehrke,Reuterstraße,89,12053,Berlin,"Mo-Fr 08:00-19:00 || ""Sa und Spättermine nach Vereinbarung""",no,+49 30 6238189,praxis@jenslehrke.de,https://www.jens-lehrke.de/,52.4823506,13.4288526
+node,8890344632,Zahnarzt Praxis,,,,,,,,,,52.5413388,13.3932218
+node,8895185217,Dr. C. Nauschütz & Dr. V. Roman,,,,,"Mo-Tu, Th 09:00-18:00; We 08:00-19:00; Fr 08:00-14:00",,+493076503836,,,52.3941201,13.4120241
+node,8901865138,,Marchwitzastraße,26,12681,Berlin,Mo-Th 08:00-20:00; PH off,,+49 30 5441051,praxis@zahnarztpraxis-nicoleschmidt.de,https://zahnarztpraxis-nicoleschmidt.de,52.5225074,13.5451031
+node,8972523895,Zahnarztpraxis Dr. Karin Wolf,Rhinstraße,15,10315,Berlin,Mo 12:00-19:00; Tu 09:00-17:00; We 09:00-13:00; Th 08:00-12:00; Fr off; Sa off; PH off,no,+49 30 5251068,karinwolf.berlin@t-online.de,,52.5129002,13.5180244
+node,9010130120,Oralchirurgische Praxis Wilmersdorfer Straße,Wilmersdorfer Straße,58,10627,,"Mo-Tu,Th 08:00-20:00; We 08:00-16:00; Fr 08:00-17:00; Sa-Su,PH off",,+49 30 31991770,za@torklus.de,http://www.praxis-torklus.de,52.507456,13.306165
+node,9011256400,berliner MundArt,Hauptstraße,23-24,10827,Berlin,,,,,https://www.berliner-mundart.de/,52.4860883,13.3554596
+node,9011846032,Thilo Gaspar,Belziger Straße,34,10823,Berlin,"Mo,Tu,Th 09:00-12:00, We,Fr 09:00-14:00, Mo,Th 15:00-18:00, Tu 15:00-20:00",,,,,52.4867991,13.3522039
+node,9032836575,MEINDENTIST-Praxis Hellersdorf,Janusz-Korczak-Straße,17,12627,Berlin,Mo-Fr 08:00-20:00; Sa 09:00-15:00;PH off,yes,+49 30 403613161,praxis-januszkorczak@meindentist.de,https://meindentist.de/hellersdorf-2/ueber-die-praxis/praxisphilosophie/,52.5386292,13.6020968
+node,9063225314,Christian Koch,Sybelstraße,69,10629,Berlin,"Mo,Tu,Th 09:00-13:00,15:00-18:00; Fr 09:00-13:00",,,,https://zahnaerzte-berlin-charlottenburg.de/,52.5019572,13.3126145
+node,9073478427,Denspoint,Calvinstraße,2,10557,Berlin,Mo-Th 08:00-20:00; Fr 08:00-13:00,no,+49 30 391 76 44,,https://www.denspoint.de,52.5237144,13.3519128
+node,9102103460,Thomas Seefeldt,Raumerstraße,21,10437,Berlin,"Mo,Th 08:00-12:00,13:00-15:00; Tu,We 13:00-18:30; Fr ""by appointment""",,+49 30 4427776,,,52.5412321,13.423447
+node,9133253730,Dr. med. Peter Czaikowski Fachzahnarzt,Senftenberger Straße,1,12627,Berlin,"Mo,Tu 08:00-12:00,15:00-19:00, We 08:00-13:00, Th 15:00-20:00, Fr 08:00-13:00; PH off",,+49 30 208983114,,https://www.arzttermine.de/arzt/dr-peter-czaikowski,52.538299,13.6012464
+node,9138261917,Dr. med. dent. Gabriele Grafentin,Heerstraße,417,13593,Berlin,"Mo-Tu,Fr 9:00 - 14:30; We-Th 15:00 - 20:00 || ""nach Vereinbarung""",,+49 30 363 11 14,,,52.5194539,13.1640816
+node,9149937185,Dr. Korbel Praxis für Umwelt-Zahnmedizin,Giesebrechtstraße,21,10629,Berlin,"Mo-Th 08:30-18:00, Fr 08:30-12:00",yes,+49 30 3236161,z@hnaerzte.info,https://zahnschmelz.info,52.5030427,13.3086878
+node,9165152477,Dr. Thomas Hohlfeld,,,,,Mo-Tu 12:00-18:00; We-Fr 08:30-15:00,no,+49 30 4 91 15 03,praxis-dr.hohlfeld@mail.de,https://dr-thomas-hohlfeld.jimdofree.com/,52.5714023,13.3800887
+node,9180698922,Kieferorthopädie Dr. Käppler & Dres. Kossack,Hönower Straße,74,12623,Berlin,"Mo-Th 08:00-12:00,14:00-18:00; PH off",,+49 30 9917062,post@kfo-behandlung.de,https://kfo-behandlung.de,52.5112454,13.6126287
+node,9193385058,Kiez Zahnarztpraxis,Kottbusser Damm,95,10967,Berlin,Mo-Fr 09:00-19:00; Sa 09:00-12:00,no,+49 30 693 46 86,rehe@aezte-berlin.de,https://www.zahnarztpraxisberlin.de/kiez-zahnarztpraxis/,52.4939886,13.4217615
+node,9204620167,Dr. med. Kerstin Hanig - Fachzahnärztin für Kieferorthopädie,Bucher Chaussee,5,13125,Berlin,,,+49 30 9416661,,,52.6165109,13.4859093
+node,9233618517,neodent,Kaiser-Friedrich-Straße,90,,,,,,,,52.5147392,13.3012701
+node,9266867542,"Dr. Markus Hoffmann, Gerhard Gneist",Spießweg,35,13437,Berlin,"Mo,Tu,Th 09:00-18:00; We,Fr 09:00-15:00",no,,,,52.5934552,13.326335
+node,9286946466,Smile Dent,,,,,"Mo,We,Th 08:00-18:00; Tu 10:00-20:00; Fr 08:00-16:00",,,,,52.4380952,13.3875403
+node,9294235735,Dr. Teichmann,Nazarethkirchstraße,56,13347,Berlin,"Mo,Tu,Th,Fr 09:00-13:00, Mo,Tu,Th 14:00-18:00, We 09:00-14:00",,+49 30 4567616,,,52.5472752,13.3583453
+node,9302038355,Praxisclinic Berlin,,,,,"Mo 10:00-15:00; Tu 08:00-15:00; We 08:00-19:00; Th,Fr 12:00-19:00; Sa 10:00-12:00",,+49 30 7717343,,https://www.praxisclinic.de,52.4385324,13.3343271
+node,9344492307,Dr. Grun,Manfred-von-Richthofen-Straße,16,12101,Berlin,,,+49 30 7865191,,http://www.zahnaerztin-grun.de/,52.4833242,13.3821413
+node,9362866627,Ulrike Ariane Lechler,Scharnweberstraße,44,12587,Berlin,"Mo 13:00-18:00; Tu,Th 08:00-12:00; We 13:00-19:00",,+49306455563,zahnarztpraxislechler-ulrike@freenet.de,http://zahnarzt-friedrichshagen.de/,52.4527347,13.6282771
+node,9394199738,Dr. Annette Klose,Bizetstraße,108,13088,Berlin,"""Nach Vereinbarung""",,+4930 960 698 48,,,52.5491605,13.4608105
+node,9397831459,Zahnarztpraxis Tobias Bahr + Susanne Jung,Florastraße,78,13187,Berlin,"Mo, Tu, Th 09:00-19:00; We 13:00-19:00; Fr 09:00-12:00",no,,,,52.5657189,13.4027701
+node,9404797519,Zahnärzte im Bismarckviertel,Lauenburger Straße,2,12157,Berlin,Mo-Fr 08:00-18:00,,+49 30 7912501,,https://www.zahnaerzteimbismarckviertel.de/,52.4637473,13.3352507
+node,9420355139,Dipl.-Stom. Sabine Mansfeld,Berliner Allee,82,13088,Berlin,Tu 11:00-19:00; Th 08:00-14:00; Fr 08:00-12:00,,+49 30 9246064,praxis@eschner-mansfeld.de,https://eschner-mansfeld.de,52.5492363,13.4560657
+node,9420708924,Dr. Farina Fenske,Herbert-Baum-Straße,5,13088,Berlin,"Mo,Tu 11:00-19:00; We 09:00-13:00; Th 09:00-16:00",,+49 30 9250625,info@dr-fenske.de,https://dr-fenske.de/,52.5488994,13.4561336
+node,9429184192,Romina Sjølund,Kurfürstendamm,130,10711,Berlin,,,,,,52.4970431,13.2920592
+node,9429571795,Zahnarztpraxis Perić,Karl-Marx-Straße,175,12043,Berlin,"Mo-Fr 08:30-12:00, Mo,Tu,Th 13:30-16:30, Fr 13:30-16:00",,+49 30 6148031,,,52.4745727,13.4403608
+node,9429571799,Zahnarzt M. Abo Hamada,Finowstraße,25a,12045,Berlin,"Mo,Th 09:00-17:00;Tu 11:00-19:00;We 09:00-15:00;Fr 09:00-13:00",,+49 30 6875077,,,52.4821722,13.4426533
+node,9434234316,ZA Dembinski/Reinnagel,Kissingenstraße,45,13189,Berlin,Mo-Th 08:00-18:00; Fr 08:00-11:00,no,,,http://www.pankow-zahnarzt.de/,52.5668298,13.4168158
+node,9436903921,Integrative Kieferorthopädie König,Stubnitzstraße,1,13189,Berlin,"Mo 10:00-13:00, 14:00-18:00; Tu,We 10:00-13:00, 14:00-19:00;Th 09:00-14:00",no,+49 30 91745061,info@integrative-kieferorthopaedie.de,https://www.integrative-kieferorthopaedie.de,52.5667939,13.4165939
+node,9448502492,Dental21 Berlin Friedrichshain,Eldenaer Straße,26,10247,Berlin,Mo-Th 08:00-19:30; Fr 08:00-14:30,,+493083797905,,https://www.dental21-friedrichshain.de/,52.5201654,13.4683999
+node,9461140237,B. P. Wylutzki;Ariane Bauch,Lepsiusstraße,54,12163,Berlin,,,,,https://www.zaehne.org/,52.4613881,13.3176156
+node,9461140248,Pia Mocker,Zimmermannstraße,34,12163,Berlin,,,,,,52.4598832,13.3210174
+node,9461140253,"Dr. Thorsten Gehrke, Carola Busse-Gehrke",Zimmermannstraße,2,12163,Berlin,,,,,https://paropraxisberlin.de/,52.4596865,13.3225261
+node,9461408625,Matthias Schulze,Schloßstraße,26,12163,Berlin,,,,,,52.4595703,13.3229075
+node,9461408628,J. Schafir,Schloßstraße,22,12163,Berlin,"Mo,Tu,Th 09:00-13:00, Fr 09:00-14:00, Mo,Tu,Th 15:00-19:00, We 13:00-19:00",,,,https://zahnarzt-schafir.de/,52.4601375,13.323462
+node,9461579635,Zahnarztpraxis Blümel & Dahlem,Schloßstraße,107-108,12163,Berlin,"Mo,Th 11:00-19:00; Tu,We 08:00-15:00; Fr 08:00-14:00",,,,https://zahnaerzte-in-steglitz.de,52.4606648,13.3248299
+node,9461579642,Praxisgemeinschaft Dickhardtstraße,Dickhardtstraße,42,12161,Berlin,"Mo,Fr 08:00-13:00; Tu-Th 13:00-19:00",,+49 30 8515000,,https://www.zahnarzt-friedenau-berlin.de/,52.4677074,13.3350024
+node,9461788108,Dr. med. dent. Eva Helldörfer,Amendestraße,109,13409,Berlin,"Mo, Th 09:00-18:00; Tu 11:00-19:00",,+4930 4962021,,,52.5675086,13.362953
+node,9461900800,Dr. Kurt Feierl,Residenzstraße,10,13409,Berlin,Mo-Fr 09:00-18:00,,,,,52.5721741,13.3595313
+node,9461900891,,,,,,,,,,,52.5685943,13.3611992
+node,9500078395,Zahnarztpraxis am Olivaer Platz,,,,,Mo-Th 08:00-20:00; Fr 08:00-14:00,yes,,,,52.4971328,13.3129392
+node,9502948681,Zahnarztpraxis Dr. Gamig,,,,,,,,,,52.4945575,13.3102531
+node,9502968275,matern dental,,,,,,,,,,52.4946131,13.3102691
+node,9504263793,Zahnärztin Berlin Weissensee,Smetanastraße,16,13088,Berlin,Mo-Fr 09:00-18:00,no,,,https://www.zahnaerztin-berlin-weissensee.de/,52.548494,13.4589888
+node,9505635795,Karl Wasserkampf,,,,,"Mo,We 10:00-18:00; Tu,Th,Fr 09:00-15:00",,,,,52.4958552,13.3107627
+node,9505688602,Dr. Siebert,,,,,,,,,,52.499994,13.3163677
+node,9506134389,Monika Nowak,,,,,,,,,,52.4991631,13.3084829
+node,9509428765,Zahnarztpraxis Heidt,,,,,"Mo,Tu,Th 10:00-14:00,15:00-19:00; We,Fr 09:00-14:00",,,,,52.497127,13.3218457
+node,9510054932,Zahnarztpraxis Lisa Berisha,,,,,,,,,,52.4990707,13.31133
+node,9512131903,Kovačev & Albert,,,,,,,,,,52.5089098,13.2966273
+node,9548281672,Iwona Burzynska und Partner,Schloßstraße,27,12163,Berlin,,,,,https://www.burzynska.de/,52.4591917,13.3226098
+node,9548281673,Zahnärzte am Schloss,Schloßstraße,28,12163,Berlin,,,,,http://www.zahnaerzte-am-schloss-berlin.de/,52.4590462,13.3223502
+node,9548281678,"Irina Talesnik, Dr. Igor Talesnik",Schloßstraße,29,12163,Berlin,Mo-Th 10:00-18:00; Fr 10:00-14:00,,+49 30 7908430,,https://www.zahnarztpraxis-talesnik.net/,52.4589162,13.3222276
+node,9549472740,Zahnarztpraxis Michael Hahne,,,,,,,,,,52.5247948,13.3045961
+node,9556678093,Dent 95,Schloßstraße,95,12163,Berlin,"Mo-Fr 08:00-19:00; Sa,Su,PH off",yes,,,,52.4584189,13.3225704
+node,9556678094,Andrea Vath,,,,,"Mo,We,Fr 08:00-14:00; Tu,Th 14:00-20:00; PH,Sa,Su off",,+49 30 5532331,,https://www.zahnarztpraxis-vath.de/,52.4583377,13.3225509
+node,9556678096,Lothar Lübke und Brigitte Lübke,Schloßstraße,93,12163,Berlin,,,,,,52.4582328,13.3223409
+node,9558016966,Zahnarztpraxis Karl W. Eisenberg,Albrechtstraße,127,12165,Berlin,"Mo,Th 13:00-20:00; Tu,Fr 08:00-14:00; We 08:00-13:00",no,,,,52.4561462,13.3243579
+node,9560632311,Paro-Endo,Bismarckstraße,24,10625,Berlin,,,,info@paro-endo-berlin.de,https://www.paro-endo-berlin.de/,52.5122843,13.312139
+node,9586774574,dentes,Richard-Wagner-Straße,50,10585,Berlin,,,+49 30 34357594,,https://dentality-lab.de/,52.5161827,13.3070216
+node,9587639165,Mund-Kiefer-Gesicht-Chirurgie Westend,,,,,,,,,,52.5113289,13.2685159
+node,9587997325,Dirk Scheve,Nestorstraße,4,10711,Berlin,"Mo,Tu,Th 08:00-12:00,14:00-18:00; We,Fr 08:00-12:00",,,,https://drscheve.de/,52.4994761,13.3000569
+node,9587997334,Herbert Burdich,Nestorstraße,7,10709,Berlin,"Mo,Th 12:00-19:00; Tu 09:00-15:00; Fr 09:00-14:00",,,,,52.4978051,13.2997485
+node,9592884384,,Wilmersdorfer Straße,123,10627,Berlin,"Mo-Fr 08:00-20:00; Sa-Su,PH off",no,+49 30 3130745,,,52.509234,13.3062077
+node,9592884387,Zahnarztpraxis Dörte Rohwedder,Wilmersdorfer Straße,125,10627,Berlin,Mo 12:00-19:00; Tu 08:00-14:00; We 12:00-19:00; Th 08:00-14:00,,+49 30 88475999,,,52.5095253,13.3061615
+node,9598362840,Annett & Roger Traboulsi,Wilmersdorfer Straße,52,10627,Berlin,"Mo-Th 08:30-19:00; Fr 08:30-15:00; Sa-Su,PH off",limited,+49 30 323 7578,,,52.5088896,13.3057023
+node,9600037400,Praxis für Zahnmedizin Dirk Kondak & KollegInnen,Greifswalder Straße,122,10409,Berlin,Mo 09:00-19:00; Tu 07:00-19:00; We 07:00-19:00; Th 09:00-19:00; Fr 09:00-13:00,no,+4930 421 70 41,,https://www.zahnarztpraxis-dirk-kondak.de/,52.5452921,13.4479701
+node,9608422622,Zahnarztpraxis Anja Wolfgram,,,,,Mo 08:00-17:00; Tu 08:00-15:00; We 10:00-19:00; Th 12:00-19:00; Fr 08:00-12:00,no,,,,52.5738942,13.406895
+node,9611720491,Ivana Naumann,Pestalozzistraße,78,10627,Berlin,"Mo-Th 08:00-19:00; Fr 09:30-17:00; Sa,Su,PH off",,+49 30 3152000,,,52.5077758,13.3073017
+node,9611720493,Dr. Uta Lemke,Pestalozzistraße,80,10627,Berlin,,,+49 30 31805758,,,52.507718,13.3079537
+node,9631262547,Voslamber Praxis für Kieferorthopädie,Fechnerstraße,23,10717,Berlin,,,,,https://kieferorthopaede-in-berlin.de,52.4887208,13.3204628
+node,9631262555,,Gasteiner Straße,9,10717,Berlin,,,,,http://www.zahnarztpraxis-wilmersdorf.de/,52.4877909,13.3220319
+node,9632071017,Hans-Peter Fusenig,Sachsenwaldstraße,29,12157,Berlin,"Mo,Tu,Th 09:00-13:00, Mo,We 14:00-18:00, Tu,Th 14:00-19:00, Fr 09:00-14:00",,,,,52.4626999,13.3415963
+node,9692661751,Dr. Antje Lindhammer,,,,,,,,,https://www.dr-lindhammer.de,52.5319059,13.457254
+node,9704349404,Dr. Dieter Hankel/ Dr. Bettina Heukenkamp,,,,,"Mo-Th 09:00-12:00, 14:00-19:00",,+49 30 79404075,,,52.4474077,13.3427458
+node,9704352559,Faire Dentaire Dr. Ladwig,Albrechtstraße,70,12167,Berlin,"Mo, Tu, Th, Fr 07:00-19:00; Tu 08:00-19:00; Sa 10:00-14:00",,+49 30 7953559,,http://www.fairedentaire.de,52.4472213,13.3422139
+node,9713211078,Kieferorthopädie Korb,Oberfeldstraße,2,12683,Berlin,"Mo-Th 08:00-13:00,14:00-18:00; Fr ""nach Vereinbarung""; PH off",yes,+49 30 54979800,info@kieferorthopaedie-korb.de,https://kieferorthopaedie-berlin-biesdorf.de,52.5138251,13.5543173
+node,9756756767,Zahnarztpraxis Dr. Kristina Latt,Sabinensteig,14,13053,Berlin,"Mo 07:30-10:30,11:30-14:30; Tu 09:30-12:30,13:30-16:30; We-Th 12:30-15:00,16:00-19:00; Fr 08:00-14:00",,,,https://www.zahnarztpraxis-latt.de/,52.5490305,13.4933738
+node,9786074937,Dr. Miethe,Wiltbergstraße,28,,,"Mo 08:00-18:00; Tu, Th 08:00-20:00; We 08:00-13:00",,+49 30 9492173,,https://www.zahnarzt-miethe.de/,52.6365143,13.4933777
+node,9786588756,Praxis für Zahnmedizin,Wildenbruchstraße,14,12045,Berlin,"Mo 09:00-16:00; Tu,Th 09:00-18:30; We 09:00-14:00; Fr 09:00-13:00",no,+49 30 6872215,,,52.4839078,13.4432818
+node,9795581153,MVZ Medeco,Prinzenallee,89-90,13357,Berlin,Mo-Fr 07:00-24:00; Sa-Su 07:00-21:00,yes,,,https://www.mvzmedeco.berlin/standort-wedding,52.5527179,13.3814011
+node,9815364438,Rubby Akhionbare;Sofia Friedel-Römer,Mariendorfer Damm,82,12109,Berlin,,,,,https://zahnarzt-mariendorf.com/,52.4453328,13.3855225
+node,9815364446,Goncy Geyik,Mariendorfer Damm,78,12109,Berlin,"Mo 08:00-18:00; Tu 09:00-18:00; We,Fr 08:00-12:00; Th 09:00-18:00",,,,https://www.praxisgeyik.de/,52.4457697,13.385438
+node,9820874123,Gohdarz Hajo und Cheirko Hajo,Emser Straße,26,12051,Berlin,"Mo,Tu,Th 09:00-18:00; We,Fr 09:00-15:00",,+49 30 62845859,,,52.4689868,13.4338884
+node,9837099330,Maziar Fazeli,Albrechtstraße,12,12167,Berlin,Mo-Fr 10:00-18:00; Sa 10:00-16:00,,,,https://www.kieferorthopädie-berlin-steglitz.de/,52.4552763,13.3254514
+node,9839824871,Fachzahnarztpraxis für Oralchirurgie Implantologie,Britzer Damm,73,12347,Berlin,"Mo,Tu,Th 09:00-17:00; We,Fr 09:00-12:00",yes,+49 30 6066088,,,52.4561475,13.437459
+node,9860099481,Zahnarzt Alexander Nachimowski,Karl-Marx-Straße,88,12043,Berlin,"Mo,Tu,Th 09:00-13:00, 14:00-18:00; We 12:00-20:00; Fr 09:00-14:00; Sa open ""nach Vereinbarung""",no,+49 30 6813819,,,52.4806113,13.4352758
+node,9879638282,,Gersdorfstraße,35,12105,Berlin,,,,,,52.4471766,13.3716204
+node,9883516253,Peter Völkel,Karl-Marx-Straße,156,12043,Berlin,Mo-Th 08:00-19:00; Fr 08:00-14:00,,+49 30 6812852,,https://www.neukoelln-zahnaerzte.de/,52.4758899,13.4393111
+node,9914475786,Stephan York Kledzik,Jahnstraße,5,12347,Berlin,"Mo-Fr 09:00-12:00, Mo,Tu,Th 16:00-18:00, Fr 14:00-16:00",,+49 30 6841980,,,52.461198,13.4450962
+node,9924009696,Zahnarztpraxis Dr. Andreas Nietzold und Sibylle Reimers,Klosterstraße,34-35,,,Mo-Fr 09:00-13:00; Mo-Th 14:00-18:00,,+49303313423,,https://www.zahnarztpraxis-nietzold-reimers.de,52.5320864,13.1983096
+node,9932814913,Zahnarztpraxis,Möllendorffstraße,111,10367,Berlin,"Mo,Th,Fr 08:00-13:00,Tu,We 08:00-19:00||""nach Vereinbarung""; PH off",,+49 30 5533127,,,52.5161324,13.4786589
+node,9937197345,Zahnarztpraxis Nancy Mallkowsky,Oschatzer Ring,10,12627,Berlin,,,+49309918065,info@zahnaerztin-hellersdorf.de,https://zahnaerztin-hellersdorf.de/,52.5415317,13.6149878
+node,9956807118,Dentalzentrum Plus,Wilmersdorfer Straße,112,10627,Berlin,"Mo-Fr 08:00-20:00; Sa,Su,PH off",,+49308560940,,https://dentalzentrumplus.de/standorte/charlottenburg/,52.5069808,13.3068568
+node,9970925115,Zahnärzte Feuerlandhöfe,Chausseestraße,38,10115,Berlin,Mo-Th 09:00-19:00; Fr 09:00-14:00,yes,+49 30 55518310,info@feuerlandhoefe.de,https://www.feuerlandhoefe.de/,52.5335419,13.3796416
+node,9983043617,Zahnarztpraxis Christine Rexer,Gethsemanestraße,4,10437,Berlin,Mo 11:30-19:00; Tu 09:30-16:00; We 08:00-13:00; Th 10:00-18:00; Fr 08:00-12:00,,+49 30 4484080,info@rexer.dental,http://rexer.dental,52.5476374,13.4173358
+node,9994345862,Zahnarztpraxis Wenk,Stargarder Straße,80,10437,Berlin,"Mo,We-Th 08:30-18:00; Tu 08:30-14:00; Fr 08:30-12:00",,,,https://www.zahnarztpraxis-wenk.de/,52.5479839,13.4144691
+node,10003704990,Zahnärztin Sigrid Weigl,Beusselstraße,39,10553,Berlin,,,,,https://www.zahnarzt-weigl.de/,52.5319428,13.3287725
+node,10015432817,Apodontos MVZ,Kirchplatz,1,13591,,"Mo 10:00-18:00; Tu, Th 08:00-16:00",,+49303662352,,,52.5408259,13.1459941
+node,10030317353,Zahnarztpraxis Georg und Antje Possekel,Bismarckstraße,66,12157,Berlin,"Mo,We-Fr 08:30-12:30,14:30-18:30, Tu,Fr 08:30-12:30",,+49307966129,info@zahn-arzt.berlin,https://www.zahn-arzt.berlin/,52.46115,13.3397166
+node,10032352476,Lidija Dejanović,,,,,,,,,,52.4374635,13.3450602
+node,10035635747,Uta Berndt,Stargarder Straße,3,10437,Berlin,"Mo,We,Fr 08:00-14:00; Tu,Th 13:00-20:00",,+49 30 4458507,,https://www.dr-uta-berndt.de/,52.5473777,13.4143412
+node,10035905182,Zahnarzt Christian Vogt,Auguste-Viktoria-Straße,7A,13467,Berlin,,,,,,52.6186491,13.3129476
+node,10053346450,Zahnarzt Mario Fleischer & Partner,Greifswalder Straße,205,10405,Berlin,"Mo 09:00-15:00; Tu-We 09:00-14:00,15:00-19:00; Th 09:00-17:00,18:00-20:00; Fr 09:00-14:00,15:00-18:00; Sa 09:00-14:00",yes,+49 30 814785741,,,52.5330685,13.4289345
+node,10081973300,99 Zahnspangen,Albrechtrstraße,99,,,Mo-Th 09:00-18:00; Fr 08:00-13:00,,+49 30 397988210,,https://www.kieferorthopaede-steglitz.berlin/,52.4529516,13.3323162
+node,10090590167,Zahnklinik Medeco,Klosterstraße,18,13581,Berlin,"Mo-Fr 07:00 - 21:00; Sa,Su 09:00-18:00",no,+49 30 3519410,,https://www.medeco.de/zahnarzt-berlin/spandau/,52.5299874,13.195133
+node,10103295228,Jia-Li Chen,Immanuelkirchstraße,27,10405,Berlin,"Mo 14:00-19:00; Tu 09:00-12:00,14:00-16:00; We,Th 09:00-12:00,14:00-18:00; Fr 09:00-12:00",limited,,,,52.5324113,13.4248843
+node,10103312533,Holger Menz / Frank Strahlendorf,Greifswalder Straße,207 B,10405,Berlin,Mo-Th 08:00-19:00; Fr 08:00-17:00,,+49 30 4426621,,,52.5327632,13.4284566
+node,10118851429,Schrinner-KFO,Schönwalder Straße,12,13347,Berlin,"Mo,We,Fr 09:00-12:00,13:00-18:00; Tu,Th 10:00-13:00,14:00-19:00",no,+49 30 4 61 81 54,,https://www.schrinner-koenig.de/,52.5421937,13.371927
+node,10121509313,Uta Köpke,Büsingstraße,19,12161,Berlin,"Mo,Tu,Th 10:00-12:00, 14:00-18:00; We, Fr ""nach Vereinbarung""",,+49 30 85999603,,,52.4667869,13.3262165
+node,10124692452,M. Simsek,Hauptstraße,21,10827,Berlin,"Mo,Tu,Th 09:00-12:00,14:00-16:00; Fr 09:00-13:00",,+49 30 78703550,,,52.486409,13.356226
+node,10124884251,Zahnarztpraxis Moutsidis,Hauptstraße,147,10827,Berlin,"Mo,We 09:00-15:00; Tu 09:00-13:00,14:00-19:00; Th 09:00-13:00,14:00-20:00; Fr 09:00-13:00,14:00-18:00",,+49 30 7824084,,https://www.zahndoktor-berlin.de/,52.4874431,13.357967
+node,10124884256,Zahnarztpraxis Susanne Spilker,Vorbergstraße,1,10823,Berlin,,,,,https://www.zahnarztpraxis-spilker.de/,52.4888486,13.3580631
+node,10124884258,Doc T,Vorbergstraße,8,10823,Berlin,"""Termine nach Vereinbarung""",,,,http://www.doct-zahnarzt.de/,52.4893637,13.355248
+node,10124884276,,Innsbrucker Straße,58,10825,Berlin,,,,,https://www.dr-hink.de/,52.4879685,13.3406007
+node,10137901020,Tempeldent,Ringbahnstraße,76-80,12103,,Mo-Th 09:00-20:00; We 09:00-15:00; Fr 09:00-14:00,yes,+49 30 26399080,,https://www.tempeldent.de/,52.4687911,13.3844306
+node,10180980046,B. Fadel,Berliner Straße,18,10715,Berlin,,,,,https://www.berliner-kieferorthopaede.de/,52.4869395,13.3278529
+node,10186687941,Zahnarztpraxis Steinberg,Frankfurter Allee,245,10365,Berlin,,,,,https://www.zahnarztpraxis-steinberg.com,52.512084,13.4974013
+node,10197888974,Felix Stukenborg,Muthesiusstraße,38,12163,Berlin,,,,,https://praxis-stukenborg.de/,52.460213,13.3176255
+node,10215280317,Zahn33,,,,,Mo-Fr 08:00-20:00,yes,,,,52.5052373,13.4401505
+node,10227001860,Zahnarztpraxis Dental Smile,,,,,"Mo-Fr 09:00-13:00, Mo,Tu,Th 13:30-17:00, We 13:00-18:00",,,,,52.5203507,13.3476688
+node,10248382943,Med Aesthetico,,,,,"Mo,Tu,Th 11:00-19:00; We,Fr 09:00-15:00",,,,,52.4977746,13.3266396
+node,10259494163,Helena Ritter,,,,,"Tu,We,Fr 09:00-12:00, Mo 13:00-18:00, We 15:00-18:00, Th 09:00-14:00",no,,,,52.4332076,13.4636127
+node,10261282722,Familienzahnmedizin Prenzlauer Berg,Schivelbeiner Straße,19,10439,Berlin,Mo-Tu 12:00-20:00; We 08:00-14:00; Th 07:00-14:00; Fr 08:00-12:30,,+40 30 67891875,info@zahnarzt-prenzlauerberg.de,https://zahnarztpraxis-panescu.de/,52.5514931,13.4048324
+node,10293894599,Berlin Smile,Heidestraße,14,,,Mo-Fr 08:00-20:00,limited,,,,52.5318526,13.3673022
+node,10314816001,Zahnarzt Wael Alah Raschi,Hauptstraße,160,10827,Berlin,,,+49 30 7817815,,https://www.za-alahraschi.de/,52.489992,13.3602904
+node,10554177339,Zahnärzte Prenzlauer Berg,Senefelderstraße,28,10437,Berlin,"Mo-Th 08:00-20:00; Fr ""by appointment""",,+49 30 4457611,,https://www.zahnaerzte-prenzlauerberg.de/,52.5417671,13.4227261
+node,10587136573,Hajo Hantel,,,,,"Mo, We 12:00-19:00; Tu, Th 08:00-14:00",no,0309248384,mail@zahnarzt-hantel.de,https://www.zahnarzt-hantel.de/,52.5528283,13.4376516
+node,10597843064,Irina Schmidt,,,,,Mo 08:00-18:00; Tu 11:00-18:00; We 08:00-18:00; Th 08:00-14:00; Fr 08:00-14:00,,,,,52.557325,13.4145883
+node,10608880228,Zenker & Partner,Ferdinandstraße,21,12209,Berlin,"Mo-Fr 08:30-12:30,13:30-18:30",,,,,52.4253217,13.330399
+node,10683766929,Zahnarztpraxis Dr. Eichhorst,,,,,Mo 10:00-19:00; Tu 12:00-19:00; We-Fr 08:00-13:00; Fr 10:00-17:00; PH closed,,+49 30 40536595,,,52.6108679,13.3183713
+node,10690055583,Dorina Diebow,Normannenstraße,38,10367,Berlin,"Mo 8:00-14:00; Tu, We 11:00-20:00; Th 8:00-14:00; Fr ""nach Vereinbarung""",,+49 30 5532366,,,52.5162747,13.4820626
+node,10738464551,Zahnklinik Dentalis Lichterfelde,,,,,Mo-Fr 07:30-21:00; Sa 08:00-17:00; Su 09:00-14:30,,,,,52.4397217,13.3006995
+node,10752546950,Mehringdamm ZMM,,,,,,,,,,52.4905098,13.3862095
+node,10758671271,Zahnärztin Frieauff,,,,,,,+49308141850,,info@zahnarztpraxis-berlin-zehlendorf.de,52.4490986,13.2532894
+node,10770257781,,,,,,,,,,,52.5289775,13.4459701
+node,10785164777,Dr. med. dent. Achim Wundt;Cathrin Wundt,Carmerstraße,7,10623,Berlin,,no,,,,52.5069584,13.3234346
+node,10785164782,Kieferorthopädie Savignyplatz,Carmerstraße,5,10623,Berlin,,,,,https://www.zahnmedizinisches-fachzentrum-berlin.de/,52.5073911,13.3239671
+node,10785164784,white cocoon,Carmerstraße,5,10623,Berlin,,,,,https://www.white-cocoon.de,52.5074433,13.3240161
+node,10802640715,alexeins,Alexanderplatz,1,10178,Berlin,Mo-Fr 08:00-19:00; Sa 08:30-13:30,yes,+49 30 688391288,mail@alex1-berlin.de,https://www.alex1-berlin.de/,52.5212694,13.412599
+node,10875819631,Zahnärztliches MVZ Berlin,Kottbusser Damm,72,10967,Berlin,Mo-Th 09:00-18:00; Fr 09:00-15:00,,+49 30 6941112,,,52.4897609,13.4244012
+node,10883024305,Zahnklinik Medeco,,,,,"Mo-Fr 07:00-21:00; Sa,Su 09:00-18:00",yes,2309560,,,52.5071734,13.378599
+node,10905828912,Dr. Annette Seewaldt,,,,,,,,,,52.4891546,13.3595406
+node,10932196196,Corinna Kant,Sigmaringer Straße,6,10713,Berlin,,,,,http://www.zahnarztpraxis-kant.de/,52.4887689,13.3197283
+node,10962336335,Katrin Hansen,Möllendorffstraße,11,10367,Berlin,"Mo 08:00-14:00; Tu-We 12:00-19:00; Th 09:00-15:00; Fr ""nach Vereinbarung""",,4425763,,,52.517352,13.4804243
+node,10992362278,Zahnarztpraxis Catrin Finger,Zerndorfer Weg,54,13465,Berlin,"Mo-Th 09:00-12:00, Tu 15:00-18:00, Th 17:00-22:00",,+493088660534,info@zahnarztfinger.de,https://www.zahnarztfinger.de/,52.6376139,13.3013941
+node,10995087335,Andreas Wein,,,,,"Mo-Th 09:00-18:00; We 15:00-18:00; Fr 09:00-14:00 || ""nach Vereinbarung""",,+49 30 4161171,,,52.5981672,13.355677
+node,10996127321,Zahnarztpraxis Urich & Weber,,,,,"Mo,We 08:00-18:00; Tu,Th 10:00-20:00; Fr 08:00-13:00",,,,,52.5972091,13.3558359
+node,11001061730,ZahnZimmer,Kaiser-Wilhelm-Straße,30,12247,Berlin,"Mo-Th 09:00-12:00,14:00-18:00; We 14:00-18:00; Fr 09:00-12:00",yes,030 8336024,,https://zahnzimmer.berlin/,52.431764,13.3374389
+node,11002529646,Maher Nwaiser,,,,,"Mo-Th 09:00-12:00,14:00-18:00; We 09:00-12:00; Fr 09:00-13:00",,+49 30 4161026,praxis@nwaiser.de,https://www.nwaiser.de/,52.5976422,13.3555804
+node,11002529648,Robert & Laura Hornig,,,,,"Mo-Th 09:00-13:00,15:00-18:00; We off; Fr 09:00-13:00",,+49 30 4250334,,https://www.zahnarztpraxis-hornig.de/,52.5976628,13.3556275
+node,11006949323,,,,,,,,,,,52.4412397,13.5842103
+node,11007207465,Abdullah Al-Wadhaf,Reinickendorfer Straße,5,,,Mo 09:00-18:00; Tu 09:00-15:00; Th 09:00-17:30; Fr 08:30-13:00,no,,,,52.5409386,13.3704786
+node,11010465091,Zahnärzte Wittenau Zahnarzt M. Moazzen und Kollegen,,,,,Mo-Th 09:00-19:00; Fr 09:00-13:00,yes,,,,52.5952357,13.3333885
+node,11027823893,Katja Hagenstein,,,,,"Mo 09:00-16:00; Tu,Th 09:00-18:00; We 09:00-14:00; Fr 09:00-13:00; PH off",,+49 304169045,,,52.5911199,13.3466931
+node,11035783625,Matthias Fromin,,,,,"Mo-Fr ""by appointment""",,+49302170211,,,52.4928302,13.3538157
+node,11049874968,Dr. Terkhany,Grüner Weg,46,12359,Berlin,"Mo 09:00-15:00, Tu 09:00-13:00, 14:00-19:00, We 13:00-19:00,Th 09:00-15:00",,+49 30 6012098,,https://www.zahnarzt-britz.de/,52.4415436,13.4546002
+node,11051662714,Dr. dent. Jalil Mohammadi Mosanen,,,,,Mo-Fr 08:00-18:00,,+49 30 4946030,,,52.5577563,13.37902
+node,11060621705,CenDenta,Elsterwerdaer Platz,3,12683,,Mo-Fr 08:00-19:00,,030 21960970,,https://cendenta.de/,52.5049752,13.558268
+node,11064828761,Tùng Trần,,,,,Mo-Th 11:00-14:00,,,,,52.5148869,13.4981588
+node,11128599464,Dr. Jan B. Schibenes & Kollegen,Normannenstraße,1-2,,,"Mo 09:00-17:00; Tu,Th 11:30-19:30; We 08:30-16:30",,+49 30 35122218,praxis@dr-schibenes.de,https://www.dr-schibenes.de,52.516091,13.4803854
+node,11135664497,Zahnarztpraxis Kerstin Hillenberg,,,,,,,,,,52.6133795,13.4732423
+node,11177334844,Dentalzentrum Plus,,,,,Mo-Fr 08:00-19:00 ;Sa 09:00-14:00,yes,+49 30 56 49 28 61,Info-mz@dentalzentrum.de,https://dentalzentrumplus.de/standorte/marzahn/,52.5191243,13.5649063
+node,11182155138,Zahnarztpraxis Wilhelmsruh,Hauptstraße,29 A,13158,Berlin,,,,,https://zahnarztpraxis-wilhelmsruh.de/,52.5870065,13.3682513
+node,11200740093,,Rheinsteinstraße,1,10318,Berlin,Mo 08:00-15:00; Tu 12:00-20:00 ; We 12:00-19:00; Th 08:00-14:00; Fr 08:00-13:00,,+49 30 5 09 82 89,,,52.4829595,13.5264213
+node,11200740095,,Rheinsteinstraße,1,10318,Berlin,"Mo,Th 12:00-19:00; Tu 12:00-17:00 open ""CMD-Sprechstunde""; We,Fr open ""nach tel. Vereinbarung""",,+49 30 5090288,,https://www.zahnarztpraxis-christine-berndt.de,52.4829287,13.5264527
+node,11207741271,Mundpropaganda,,,,,,yes,,,,52.5324471,13.420709
+node,11227873573,Praxis für Kieferorthopädie Mitte,Invalidenstraße,7,10115,Berlin,,,+49 30 40042900,,https://www.kieferorthopaede-berlin.de/de/mitte/index.php,52.5321356,13.3925004
+node,11245635862,Cinderella Kolarikal,Rochstraße,1,10178,Berlin,,no,+49 30 2821385,,https://www.dentists-zahnarzt-berlin.de/,52.5243777,13.4075593
+node,11341635444,Christiane Weigmann,Dottistraße,20,10367,Berlin,,no,,,,52.5143585,13.4821504
+node,11377676159,Joselowitsch dental,,,,,"Mo 08:00-13:00, 14:00-19:00; Tu 08:00-13:00, 14:00-19:00; We 08:00-13:00; Th 08:00-13:00, 14:00-19:00; Fr 08:00-13:00",,+49-30-9317062,,https://www.dr-zahnarzt.berlin/,52.5453013,13.5718949
+node,11407396944,Smile Shine,Bamberger Straße,49,10779,Berlin,,,,,https://www.zahnarztpraxis-sreekumar.de/,52.4941009,13.3375364
+node,11407518399,Alexandra Stein,Kufsteiner Straße,5,10825,Berlin,,,,,https://www.zahnarztpraxis-stein.com/,52.487633,13.3372846
+node,11414440181,Zahnarztpraxis Dirk Kondak & KollegInnen,Frankfurter Allee,151,10365,Berlin,,,,,https://www.zahnarztpraxis-dirk-kondak.de/,52.5132041,13.4819804
+node,11422559631,Zahnärzte am Leo,,,,,"Mo,We 09:00-13:00,14:00-17:00; Tu,Th,Fr 10:00-13:00,14:00-18:00",,,,,52.5458904,13.3593028
+node,11510695754,D. Naumann,,,,,Mo-Th 09:00-18:00; Fr 09:00-15:00,,,,,52.5501019,13.3850506
+node,11510743372,Praxisgemeinschaft Martin Funke,,,,,"Mo-Th 08:00-12:00,14:00-18:00",,+493048637855,,https://www.zahnarzt-martin-funke.de,52.5717031,13.4072262
+node,11514477186,Dr. med. dent. Ulrike Müller,Holsteinische Straße,19,10717,Berlin,,,,,https://die-zahnarztpraxis-wilmersdorf.de/,52.4910653,13.3250814
+node,11538214175,Perleweiss,,,,,Mo-Th 09:00-18:00; Fr 09:00-15:00,,,,,52.5356388,13.3562296
+node,11540450286,dentaxx Britz,Britzer Damm,116,12347,Berlin,Mo-Fr 08:00-20:00,no,+49 30 6064053,praxis-britz@dentaxx.de,https://zahnarzt-praxis-britz.de,52.4524085,13.4381439
+node,11556295674,Silke Conrad,Hohenzollerndamm,182,10713,Berlin,"Mo,Th 10:00-18:00; We,Fr 09:00-14:00",,,,https://www.zahnpraxis-conrad.de/,52.4907968,13.3163371
+node,11556295679,Boris Wais,Hohenzollerndamm,187,10713,Berlin,,,,,,52.4915965,13.3187828
+node,11556295680,Dr. medic. stom. Gennady Esterov,Hohenzollerndamm,187,10713,Berlin,,,,,,52.4916029,13.3188315
+node,11556823126,Orthodont,,,,,"Mo-We 09:00-13:00, Mo,Tu,Th 14:00-18:00, We 14:00-18:30",,,,,52.4678224,13.490114
+node,11603093695,,,,,,,,,,,52.516859,13.3093527
+node,11635521513,Berodent,Handjerystraße,3,12159,Berlin,Mo-Fr 10:00-18:00,,,,https://berodent-kfo.de/,52.4763553,13.3324646
+node,11638252150,Dr. Ulrich Weik,,,,,"Mo-Fr 08:00-12:00, Mo,Tu 14:00-18:00, Th 14:00-20:00",,,,,52.4533576,13.4380476
+node,11659638737,Dr. Gunnar Frahn,,,,,,,,,,52.4840406,13.5257706
+node,11809481769,Zahnarztpraxis Kantstrasse,,,10627,,"Mo-Tu, Th 10:00-18:00; We 09:00-18:00; Fr 09:00-13:00",,030-3138579,kontakt@zahnarzt-kantstr.de,https://zahnarzt-kantstr.de/,52.5067727,13.3083202
+node,11809513162,Zahnarztpraxis Berger,Ehrlichstraße,32,10318,Berlin,,,,,,52.4808881,13.5194864
+node,11813466857,Novowhite,,,,,,,,,https://www.novowhite.de/,52.5135587,13.478921
+node,11828745705,Dentalzentrum Grünau,,,,,Mo-Th 08:00-20:00; Fr 08:00-18:00,yes,+49 30 220117060,kontakt@dentalzentrum-gruenau.de,,52.41246,13.5730998
+node,11828745706,Zahnarztpraxis Dr. Lucas & Dr. Herold,,,,,"Mo,Th 08:00-13:00; 14:00-18:00; Tu,We 09:00-13:00; 14:00-19:00; Fr 09:00-13:00",yes,+49 30 672 90 17,info@zahnfeen.com,https://www.zahnfeen.com/,52.4124723,13.5725362
+node,11845019725,happybite Zahnzentrum,Lehrter Straße,23B,10557,Berlin,"Mo-Th 08:00-20:00; Fr 08:00-19:00; Sa,Su,PH off",,,,https://www.happybite-berlin.de,52.5305724,13.3623335
+node,11866782286,Frank Hoffmann,,,,,"Mo-Th 09:00-12:00,13:30-17:30",,,,,52.4327266,13.4719912
+node,11877912192,,,,,,"Mo,Th 09:00-18:00, Tu,We 08:00-15:30, Fr 08:00-14:00; PH off",no,,,,52.5125233,13.4182624
+node,11897217628,Priesterjahn Ruth,Romy-Schneider-Straße,1,13599,Berlin,Mo 09:00-17:00; Tu 12:00-20:00; We 09:00-12:00; Th 11:00-19:00,,+49 30 33776483,,,52.5449238,13.2244438
+node,11898924401,,,,,,,,+49 30 5445424,info@zahnarztpraxis-mahlsdorf.de,https://www.zahnarztpraxis-mahlsdorf.de/,52.5087315,13.6136035
+node,11925432203,Huhndorf,Neustädtische Kirchstraße,6,,,,yes,+493020634610,praxis@zahnmedizin-huhndorf.de,https://zahnmedizin-huhndorf.de,52.518762,13.3856781
+node,11956048098,Jens Matzat,Friedrich-Engels-Straße,52,,,"Mo, Tu, Th 13:00-19:00; We 08:00-14:00; Fr 08:00-13:00",no,0304772123,,,52.5847631,13.3907263
+node,11983860345,Biss45,,,,,"Mo-Th 09:00-12:00, 13:00-19:00; Fr-Su, PH off",,+4930959989320,,https://biss45.de/,52.5118145,13.3045382
+node,12037489221,Zahnarztpraxis Dr. Nancy Stahl,,,,,"Mo,Th 08:00-12:00,15:00-18:00; Tu,We,Fr 08:00-12:00",,,,,52.5017673,13.297401
+node,12069832753,Zahnarztpraxis Irina Lin,,,,,"Mo-Tu,Th 09:00-20:00; We 09:00-15:00; Fr 09:00-17:00; PH closed",,+49 30 68893131,zahnarztpraxis-lin@gmx.de,https://zahnarztpraxis-lin.de/,52.4781815,13.4383464
+node,12085739244,MeinDentist,Anklamer Straße,26,10115,Berlin,Mo-Fr 08:00-20:00,,+49 30 51999933,praxis-anklamer@meindentist.de,https://meindentist.de/berlin/mitte/,52.5362718,13.4010236
+node,12112303001,Zahnärzte Norman Scheidereiter und Susann Unger,Prinzenallee,50,13359,,"Mo 09:30-13:00, 14:00-18:30; Tu, Th 09:00-13:00, 14:00-18:30; Fr 09:00-13:00",,+49304946206,,https://www.zahnarzt-wedding.de/de,52.5594031,13.386461
+node,12125365862,MEINDENTIST,Karl-Marx-Straße,188,12043,Berlin,Mo-Fr 08:00-20:00,,+49 30 695282669,,https://meindentist.de/berlin/neukoelln/,52.4733097,13.4405797
+node,12133771514,Dipl.-Stom. Heidrun Eschner,Berliner Allee,82,13088,Berlin,Tu 08:00-14:00; Th 11:00-19:00; Fr 08:00-12:00,,+49 30 9246064,praxis@eschner-mansfeld.de,https://eschner-mansfeld.de,52.5492347,13.4560554
+node,12145644749,,Kantstraße,15A,10623,Berlin,,,+49 30 3133237,,,52.5060898,13.3266447
+node,12153293351,Von Wolff,,,,,,,,,,52.5016001,13.3134421
+node,12158159246,Caterina Vogel,Königsberger Straße,43,,,"Mo,We 10:00-18:00; Tu 08:00-14:00; Th 13:00-20:00; Fr 09:00-13:00",,+49 30 7722080,,,52.4283907,13.3239073
+node,12158159251,Sibylle Hardt,Königsberger Straße,45,,,"Mo 12:00-19:30; Tu 11:00-13:00,14:00-19:30; Th 10:00-13:00,14:00-18:00; Fr 09:00-13:00",,+49 30 7728275,,https://www.zahn-hardt.de,52.4282566,13.3243928
+node,12163449471,Zahnarztpraxis Lankwitz Dr. Roman Blühdorn,Kaulbachstraße,67A,,,Sprechzeiten nach Vereinbarung,,+49 30 8525219,info@zahnarztpraxis-lankwitz.de,,52.4390162,13.341284
+node,12177706124,,,,,,"Mo,Tu,Th 09:00-18:00, We,Fr 09:00-15:00; PH off",no,+49 30 5588626,,,52.5187687,13.4219239
+node,12183247396,Lagrou,Müllerstraße,151,,,,,+49304538089,,,52.5466147,13.3583227
+node,12188572093,Dr. Karin Wellnitz,Rheinsteinstraße,4,10318,Berlin,Mo 10:00-18:00; Tu 08:30-15:00; We 12:00-19:00; Th 08:00-15:00; Fr 08:00-13:00,,,,,52.4827042,13.5268049
+node,12192559687,Dr. Wolfgang Bender,,,,,,,,,,52.4532862,13.4386186
+node,12241368367,MVZ Dr. Siebers,Soorstraße,26,,,Mo-Do 07:00-19:00; Fr 07:00-14:00,,+493031802300,info@zahnarzt-siebers.de,https://www.zahnarzt-siebers.de/,52.5104355,13.277197
+node,12271801546,Dr. Thielicke,,,,,,,,,,52.5598663,13.3494698
+node,12291736948,MeinDentist,Franz-Ehrlich-Straße,9,12489,Berlin,Mo-Fr 08:00-20:00,,+49 30 403684844,,https://meindentist.de/adlershof/franz-ehrlich-str/,52.4339341,13.54118
+node,12306933220,Prophylaxepraxis Yvonne Wowk,,,,,Mo 08:00-19:00; Tu 11:00-19:00; We 08:00-16:00; Th 13:00-20:00; Fr 08:00-14:00,,,,,52.5708741,13.4106891
+node,12314441299,"Dr. med. dent. Martin Kraemer
+Gemeinschaftspraxis",Hildburghauser Straße,29 b,,,,,+49 30 7218420,,,52.4130508,13.352793
+node,12323800377,Dent GmbH Zahntechnisches Labor,,,,,,,,,,52.5513733,13.4414709
+node,12395604492,Zahnarztpraxis Löger,,,,,"Mo,Th 08:00-19:00, Tu,Fr 08:00-12:00, We 08:00-12:30, Tu 13:00-18:00",,,,,52.5168991,13.4794731
+node,12400804018,Dr. Jain,,,,,,,,,,52.510536,13.2834044
+node,12404664952,"Dr. Simon, Simon-Kurzawa",,,,,Mo-Th 09:00-19:00; Fr 09:00-17:00,,,,,52.4096662,13.4043955
+node,12420649482,Boris Shrage & Kollegen,,,,,"Mo 09:00-13:00,14:00-18:00; Tu 11:00-15:00,16:00-20:00; We 10:00-14:00; Th 09:00-15:00; Fr 09:00-14:00",,,,,52.500264,13.3255177
+node,12420725581,Reese & Wilke,,,,,,limited,,,,52.500654,13.3304939
+node,12488509944,Dr. Annegret Presting-Koite,Gierkeplatz,12,10585,Berlin,Mo 12:00-19:00; Tu-We 09:00-19:00; Th-Fr 09:00-16:00,,+49 30 3418585,,,52.5176859,13.3027135
+node,12499058001,Zahnarztpraxis Dr. Ziegler,Müllerstraße,56-58,13349,,,,03045199191,praxiszipi@t-online.de,https://www.zahnarztpraxisdrziegler.de/,52.5543784,13.3467692
+node,12509442854,Konzeptdental,Residenzstraße,122,,,,,+4930 4959090,,https://www.zahn-reinickendorf.de,52.5664574,13.3633318
+node,12565804410,,,,,,,,,,,52.4655522,13.3846106
+node,12587462774,Dentologicum,,,,,,,,,,52.563641,13.3639866
+node,12594249966,Zahnärzte Buckow,,,,,,,,,,52.4231869,13.4358407
+node,12610058101,M. Nakhoda-Laas,Schönwalder Straße,30,13347,,"Mo-Tu, Th 09:00-12:00, 15:00-18:00; Fr 09:00-12:00",,4652432,,,52.5422714,13.3750727
+node,12613103902,Zahnarztpraxis Dr. Jochen Steuerwald und Kollegen,Eisenacher Straße,,10781,Berlin,"Mo,Tu,Th 09:00-13:00,14:00-18:00; We,Fr 08:00-13:00",no,+49 30 2187237,info@zahnarzt-steuerwald.de,https://www.zahnarzt-steuerwald.de/,52.4900176,13.3493194
+node,12618380489,Zahnarztpraxis am Anhalter Bahnhof,,,,,"Mo,Tu,Th,Fr 08:00-13:00, Mo,Tu,Th 14:00-18:00, We 09:00-15:00",yes,,,,52.5044985,13.3809236
+node,12673203083,Dr.med.dent. Stefan Rattunde,Olympische Straße,10,,,,,0303042313,,https://www.zahnarzt-rattunde.de/,52.5166261,13.2581307
+node,12708075962,Zahnärztin Dr. med. dent. Judith Mehner,,,,,Mo 12:00-19:00; Tu 08:00-15:00; We 08:00-12:00; Th 14:00-20:00,,+49 30 65 47 05 46,,,52.4280129,13.5847067
+node,12715905761,Zahnarztpraxis Dr. Döpel,Lichtenberger Straße,1,10178,Berlin,"Mo-Do 08:00-13:00,14:00-19:00; Fr 08:00-13:00",,+49-30-4273664,,https://www.dr-doepel.de/,52.5219368,13.4284875
+node,12723910763,Zahnkult am Weißensee,Berliner Allee,158,13088,Berlin,Mo 08:00-20:00; Tu 08:00-19:00; We-Th 08:00-20:00; Fr 08:00-18:00,,,,https://zahnkult.berlin,52.5519674,13.4662257
+node,12761936900,Zahnärzte am Friedrichshain,Matthiasstraße,11,10249,Berlin,Mo-Fr 08:00-20:00,,+49-30-42028952,praxis@zaf-berlin.de,https://www.zaf-berlin.de/,52.5232399,13.4403283
+node,12800708138,Zahnärztin Irina Herzog,Lübecker Straße,51,,,"Mo,Th 15:00-19:00; Tu-We 08:00-16:00; Fr 08:00-13:00",,+49 30 39789255,,,52.5267648,13.3451751
+node,12830935663,Beate Bünger,,,,,"Mo,Th 09:00-13:00,15:00-19:00; Tu 09:00-14:00 || 14:00-21:00; We,Fr 09:00-14:00",,,,,52.5547909,13.3438892
+node,12860637971,Zahnarztpraxis Olyslager & Uffmann,,,,,,,+49 30 44737030,,https://www.praxissenefelder.de,52.5432994,13.4237744
+node,12905424134,Dr. Gudrun Anschütz,Karl-Marx-Straße,192,12055,Berlin,,,,,,52.473042,13.4407002
+node,12911295748,Ulrich Knabe,Mariendorfer Damm,144,12107,Berlin,closed,,,,,52.4384796,13.3875275
+node,12912238368,Zahnarztpraxis Silvia Hartung,Palisadenstraße,82,10243,Berlin,"Mo,We 09:00-15:00; Tu,Th 09:00-18:00",,+49-30-427 1997,info@zahnarzt-fhain.de,https://zahnarzt-fhain.de/,52.5202317,13.4328497
+node,12912290103,Zahnarzt Friedrichshain,Frankfurter Allee,42,10247,Berlin,Mo-Th 08:00-19:00; Fr 08:00-12:00,no,+49-30-291 2161,,https://zahnarztfriedrichshain.com/,52.5146755,13.4629182
+node,12926260443,Dr. Leuenberg Zahnarztpraxis,Charlottenburger Straße,1,13086,Berlin,"Mo 08:00-14:30; Tu 13:00-19:30; We 13:00-19:30; Th 08:00-14:30; Fr ""mit Termin""",,+49-30-925 3416,mail@leuenberg-zahnarztpraxis.de,https://www.leuenberg-zahnarztpraxis.de,52.5500515,13.4536477
+node,12945024511,Dr. Uta Janssen,Manfred-von-Richthofen-Straße,18,12101,Berlin,,,,,https://www.zahnarzt-in-tempelhof.de/,52.4831902,13.3818654
+node,12969012336,Zahnarztpraxis Metz,Karl-Marx-Allee,61,10243,Berlin,"Mo,Tu,Th 08:00-13:00,14:00-18:00; Fr 08:00-13:00",,+49-30-427 2544,,,52.5185762,13.4315008
+node,13058146861,Zahnarztpraxis Birgit Samarrai,,,,,"Mo,We,Fr 09:00-15:00; Tu,Th 14:00-19:00",,,,,52.5121655,13.288979
+way,28303205,Zahnarztpraxis Dr. Meyer,Landsberger Allee,49,10249,Berlin,Mo-Su 20:00-02:00,no,+49 30 13 02 31 437,,,52.5245233,13.4406287
+way,57796020,Zahnarztpraxis Dr. Kämpfe & Dr. Midderhoff,Seeburger Weg,13,13581,Berlin,,no,+49 30 36 19 07 1,info@zahnarzt-spandau.de,https://www.zahnarzt-spandau.de/,52.5244502,13.1763198
+way,68730451,Zahnärztin Dr. med. Michaela Kirchner,Brunsbütteler Damm,274,13591,Berlin,"Mo,We 12:00-19:00; Tu,Th 08:00-14:00; Fr 08:00-12:00 || ""nach Vereinbarung""",,+49 30 367 069 0,,https://spandau.zahnarzt-staaken.de,52.5332447,13.1556798
+way,94445292,MVZ Medeco Berlin Dahlem,Podbielskiallee,89,14195,Berlin,"Mo-Fr 07:00-21:00; Sa,Su 09:00-18:00",,+49 30 8419100,,https://www.mvzmedeco.berlin/standort-dahlem,52.4588124,13.3030237
+way,154605413,Zahnglück,,,,,"Mo-Th 08:00-20:00, Fr 08:00-15:00; PH off",,+49 30 56701770,email@zahnglueck-berlin.de,https://www.zahnglueck-berlin.de,52.4965759,13.5776902
+way,211149952,Zahnmanufaktur Zehlendorf,Argentinische Allee,211,14169,Berlin,,,,,https://www.zahnmanufaktur-zehlendorf.com/,52.4511615,13.2620674
+way,212674868,Zahnärzte an den Kaulsdorfer Seen,Achardstraße,24,12621,Berlin,"Mo,We 8:00-12:00,13:00-15:00; Tu,Th 13:00-18:00; Fr 8:00-12:00; Sa,Su,PH off",,+49 30 5660546,praxis.niewolik@t-online.de,https://zahnarztpraxis-niewolik.de,52.4990431,13.5847152
+way,243780677,Praxis für Zahnmedizin,Landsberger Allee,223,13055,Berlin,Mo-Fr 08:00-20:00,yes,+49 30 92408530,info@praxis-zahnmedizin.de,https://www.praxis-zahnmedizin.de/,52.5352716,13.4854569
+way,293129382,Zahnarztpraxis Sabrina Smolny,Eichborndamm,290,13437,Berlin,,,,,,52.5947443,13.3315305
+relation,14319705,Dr. med. dent. Alexander Korb,,,,,,,,,,52.5138251,13.5543173
+relation,14331970,Dr. med. dent. Karl-Heinz Kossack,,,,,,,,,,52.5112454,13.6126287
+relation,14331971,Dr. med. dent. Kathrin Käppler,,,,,,,,,,52.5112454,13.6126287
+relation,14331972,Dr. med. dent. Christoph Kossack,,,,,,,,,,52.5112454,13.6126287
+relation,16180048,Zahnärzte Patricia Würden und Heike Köhler,,,,,,,,,https://www.praxis-wuerden.de/,52.4258946,13.4348992

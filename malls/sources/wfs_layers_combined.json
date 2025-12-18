@@ -1,0 +1,17 @@
+[
+  {
+    "endpoint": "https://gdi.berlin.de/services/wfs/alkis_bezirke",
+    "name": "alkis_bezirke:bezirksgrenzen",
+    "title": "Bezirksgrenzen"
+  },
+  {
+    "endpoint": "https://gdi.berlin.de/services/wfs/alkis_ortsteile",
+    "name": "alkis_ortsteile:ortsteile",
+    "title": "Ortsteile"
+  },
+  {
+    "endpoint": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_ortsteile",
+    "name": "fis:s_wfs_alkis_ortsteile",
+    "title": "ALKIS Berlin Ortsteil - GID6"
+  }
+]

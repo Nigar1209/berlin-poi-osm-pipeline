@@ -1,0 +1,676 @@
+Unnamed: 0,pharmacy_id,name,operator,street,housenumber,postcode,suburb,phone,website,openinghours,dispensing,wheelchair_accessible,latitude,longitude,district,district_id
+0,60775323,reichenberger apotheke,,reichenberger straße,3,13055.0,Alt-Hohenschönhausen,+49309713807,https://reichenbergerapotheke.de/,mo-th 08:00-19:00; fr 08:00-18:30; sa 09:00-13:00,yes,yes,52.5407412,13.4866016,Lichtenberg,11011011
+1,60848447,castello-apotheke,,,,,,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.5318353,13.4696536,Lichtenberg,11011011
+2,60852928,rosen apotheke,,rudolf-seiffert-straße,11,10369.0,Fennpfuhl,+49309759449,https://www.zurrose.de/,mo-fr 08:00-19:00; sa 08:00-12:00,yes,yes,52.5275552,13.4685134,Lichtenberg,11011011
+3,68437791,margareten-apotheke,,karl-kunger-straße,46,12435.0,Alt-Treptow,+49305337855,http://www.apotheke.borchert-online.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,no,52.4893898,13.4505704,Treptow-Köpenick,11009009
+4,69226035,leipziger apotheke,,leipziger straße,43,10117.0,Mitte,,https://www.leipziger-apotheke.de/,mo-fr 08:00-19:00; sa 08:00-14:00,yes,yes,52.5105561,13.3958628,Mitte,11001001
+5,76507297,preußen-apotheke,,paretzer straße,2,10713.0,Wilmersdorf,+49308227190,,mo-fr 08:00-18:30; sa 08:00-13:00,yes,limited,52.4815485,13.3190694,Charlottenburg-Wilmersdorf,11004004
+6,76519952,bundes-apotheke,,bundesallee,177,10715.0,,+49308541307,,mo-fr 08:30-18:30; sa 09:00-13:00,yes,yes,52.4865543,13.3314064,Charlottenburg-Wilmersdorf,11004004
+7,76596388,mühlenberg-apotheke,,thomas-mann-straße,1,10409.0,Prenzlauer Berg,+493042852020,https://www.muehlenberg-apotheke.de/,mo-fr 09:00-19:00; sa 09:00-14:00,yes,yes,52.5431994,13.4423197,Pankow,11003003
+8,78244254,axels apotheke,,rudi-dutschke-straße,8,,,+493025767820,https://www.axels-apotheke.de/,mo-fr 08:30-19:00; sa 09:00-13:00,,yes,52.5071247,13.3947881,Friedrichshain-Kreuzberg,11002002
+9,79603436,diamant apotheke,,kurt-schumacher-damm,1-15,13405.0,,+49304985750,https://www.diamantapo.berlin/,mo-fr 09:00-19:00; sa 10:00-19:00,yes,yes,52.5633045,13.3287743,Reinickendorf,11012012
+10,79606682,apotheke am markt reinickendorf,,scharnweberstraße,,13405.0,Reinickendorf,,,"mo-fr 08:30-18:00, sa 08:30-13:00",yes,limited,52.5668918,13.3170343,Reinickendorf,11012012
+11,79624638,barlach apotheke,,auguste-viktoria-allee,81,13403.0,Reinickendorf,+49304132840,https://www.barlach-apotheke.de/,"mo-fr 08:30-18:30, sa 08:30-13:00",yes,yes,52.5701291,13.3213944,Reinickendorf,11012012
+12,79688159,park-apotheke,,bundesallee,55,10715.0,Wilmersdorf,+49308532514,,mo-fr 08:30-18:30,yes,yes,52.4815398,13.3289844,Charlottenburg-Wilmersdorf,11004004
+13,81362602,kranich-apotheke,,lindenallee,28,14050.0,Westend,+49303015073,https://www.kranich-apotheke-berlin.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.5104923,13.2716035,Charlottenburg-Wilmersdorf,11004004
+14,87036261,nordland apotheke,tina töllner e.k.,invalidenstraße,114,10115.0,,,https://nordlandapotheke-berlin.de/,mo-fr 08:00-19:00,yes,yes,52.5306975,13.3841248,Mitte,11001001
+15,87040402,friedrichstadt apotheke,,glinkastraße,4,10117.0,,+493020452820,https://www.friedrichstadtapotheke.de/,mo-fr 08:00-19:00; sa 09:00-13:00,yes,yes,52.5117692,13.3868843,Mitte,11001001
+16,89274697,panorama apotheke,,panoramastraße,1,10178.0,Mitte,,,mo-fr 08:00-20:00; sa 08:30-18:00,yes,no,52.521847,13.4098188,Mitte,11001001
+17,89274888,bezirksapotheke am roten rathaus,bezirksapotheke,rathausstraße,5,10178.0,,+493027583083,https://www.bezirksapotheke.de/amrotenrathaus/,mo-fr 09:00-19:30; sa 10:00-19:00,yes,yes,52.5197805,13.4108917,Mitte,11001001
+18,89275182,fischerinsel-apotheke,ralf goepfert e.k.,gertraudenstraße,19,10178.0,Mitte,,,mo-fr 08:00-19:00; sa 08:30-14:00,yes,yes,52.5133809,13.4053524,Mitte,11001001
+19,203469194,poseidon-apotheke,,helene-weigel-platz,10,12681.0,Marzahn,,,,yes,yes,52.5276071,13.5421939,Marzahn-Hellersdorf,11010010
+20,203474469,skarabäus-apotheke,raphael abongnelah,oberfeldstraße,30,12683.0,Biesdorf,,,"mo-fr 08:30-19:00;sa 08:30-13:00;su,ph off",yes,yes,52.5204665,13.5558118,Marzahn-Hellersdorf,11010010
+21,250195921,alte roland-apotheke,,turmstraße,15,10559.0,Moabit,+49303943056,https://www.alte-roland-apotheke.de/,mo-fr 09:00-18:30; sa 09:00-13:00,,yes,52.5264625,13.3501221,Mitte,11001001
+22,251737915,virchow apotheke,,seestraße,99,13353.0,Wedding,,https://www.virchow-apotheke-berlin.de/,"mo,tu 08:30-19:00; we 08:30-18:30; th 08:30-19:00; fr 08:30-18:30",yes,yes,52.54973,13.3498263,Mitte,11001001
+23,254307048,wotan apotheke,,grolmanstraße,51,10623.0,Charlottenburg,,,mo-fr 08:00-18:30; sa 09:00-14:00,yes,yes,52.5069033,13.3218338,Charlottenburg-Wilmersdorf,11004004
+24,255825174,wildenbruch apotheke,mosa masalmeh,sonnenallee,105,12045.0,Neukölln,,,"mo-fr 09:00-18:30, sa 10:30-16:30",yes,yes,52.4818892,13.440147,Neukölln,11008008
+25,255825368,frühlicht-apotheke,,anzengruberstraße,7,12043.0,,,,mo-fr 09:00-18:00; sa 09:00-14:00,yes,yes,52.4803687,13.4394937,Neukölln,11008008
+26,259081139,nordring apotheke,,schönhauser allee,118,10437.0,Prenzlauer Berg,,,mo-fr 08:00-20:00; sa 09:00-15:00; ph off,yes,yes,52.549263,13.4133047,Pankow,11003003
+27,259081143,vita apotheke,,schivelbeiner straße,33,10439.0,Prenzlauer Berg,,http://www.vita-apotheke.com,"mo-fr 08:00-19:00, sa 08:00-14:00",yes,limited,52.5509103,13.4079077,Pankow,11003003
+28,260865620,taut-apotheke,,,,,,,,mo-fr 10:00-20:00; sa 10:00-16:00,yes,yes,52.4124087,13.5725538,Treptow-Köpenick,11009009
+29,261963290,grüne apotheke,docmorris kooperationen gmbh,elsenstraße,111,12435.0,,+493053212201,http://www.docmorris-apotheke.de/de/apotheken/list/berlin/treptow/,mo-fr 09:00-18:30; sa 10:00-18:00,yes,yes,52.4907054,13.4567328,Treptow-Köpenick,11009009
+30,262213475,möllendorff-apotheke,,möllendorffstraße,47,10367.0,Fennpfuhl,,,"mo-fr 08:30-18:30, sa 08:30-13:00",yes,yes,52.5241575,13.4800051,Lichtenberg,11011011
+31,263699380,robinson apotheke,,lion-feuchtwanger-straße,22,12619.0,Hellersdorf,,,"mo-fr 08:00-18:30, sa 08:00-13:00; ph off",yes,yes,52.517681,13.5829,Marzahn-Hellersdorf,11010010
+32,266630604,georginen-apotheke,andrea weigel,treskowstraße,76,12623.0,Mahlsdorf,+49305665731,https://www.georginen-apotheke-berlin.de/,mo-fr 08:00-19:00; sa 09:00-13:00; ph off,yes,yes,52.5111499,13.6121832,Marzahn-Hellersdorf,11010010
+33,266632232,mahlsdorfer apotheke,,hönower straße,54,12623.0,Mahlsdorf,+49305677417,http://www.mahlsdorfer-apotheke.de,"mo,tu 08:00-19:30, we-fr 08:00-18:30, sa 08:00-13:00; ph off",yes,yes,52.509361,13.6138214,Marzahn-Hellersdorf,11010010
+34,266674656,neue medikus apotheke,christoph neumann e.k.,myslowitzer straße,49,12621.0,Kaulsdorf,+4930565998990,https://www.neue-medicus-apotheke.de/,mo-fr 08:00-19:00;sa 08:00-13:00; ph off,yes,yes,52.5071368,13.592044,Marzahn-Hellersdorf,11010010
+35,267366952,wins-apotheke,,winsstraße,45,10405.0,Prenzlauer Berg,+49304439390,https://www.wins-apotheke.de/,mo-fr 08:00-19:00; sa 09:00-14:00; su off,yes,yes,52.5360082,13.4270624,Pankow,11003003
+36,267860831,seegefelder-apotheke,,seegefelder straße,63,13583.0,Spandau,+49303332484,,,yes,no,52.5372848,13.1879163,Spandau,11005005
+37,268636979,brandenburg-apotheke,,brandenburgische straße,37,10707.0,Wilmersdorf,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.4985391,13.3071113,Charlottenburg-Wilmersdorf,11004004
+38,268726812,rosegger-apotheke,axel emmrich,sonnenallee,144,12059.0,,+493068237037,https://www.rosegger-apotheke.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4789497,13.4451781,Neukölln,11008008
+39,268844381,storchen-apotheke,,schulzendorfer straße,70,13503.0,Heiligensee,+49304313204,https://www.storchen-apotheke.org/,mo-fr 09:00-18:30; sa 09:00-13:00,yes,yes,52.6128103,13.2315014,Reinickendorf,11012012
+40,268844523,apotheke am markt,ulrike klaus,bekassinenweg,18,13503.0,Heiligensee,,https://www.apotheke-heiligensee.de/,mo-fr 08:00-18:30;sa 08:30-13:30,yes,no,52.607565,13.2348292,Reinickendorf,11012012
+41,268981834,grimm-apotheke,,grimmstraße,9,10967.0,Kreuzberg,,,mo-fr 09:00-18:30; sa 09:00-14:00,yes,limited,52.4935361,13.4134932,Friedrichshain-Kreuzberg,11002002
+42,269478054,apotheke am engelbecken,ralf goepfert e.k.,heinrich-heine-straße,15,10179.0,Mitte,,,mo-fr 08:00-19:00; sa 08:30-14:00,yes,yes,52.507579,13.414104,Mitte,11001001
+43,270814718,kur-apotheke,,spanische allee,37,14129.0,Schlachtensee,+49308017398,,,yes,,52.4322803,13.219675,Steglitz-Zehlendorf,11006006
+44,270814721,die dorotheen apotheke,dr. petra schneider,potsdamer chaussee,80,14129.0,Nikolassee,+49308039579,https://www.die-dorotheen-apotheke.de/,mo-fr 08:30-20:00; sa 08:00-14:00,yes,yes,52.4271388,13.216597,Steglitz-Zehlendorf,11006006
+45,270906159,rosen-apotheke berlin,,fürstenwalder allee,266,12589.0,Rahnsdorf,,,,yes,yes,52.4327628,13.7098785,Treptow-Köpenick,11009009
+46,271282692,kolberger apotheke,,gerichtstraße,18,13347.0,Gesundbrunnen,,,mo-fr 08:30-18:00; sa 08:30-13:00,yes,no,52.543989,13.3735976,Mitte,11001001
+47,271405514,hauptstadt apotheke,jana schreiber,klosterstraße,34-35,13581.0,,+4930337759410,https://hauptstadtapotheke.de,mo-fr 08:00-19:00; sa 09:00-13:00,yes,yes,52.5320913,13.1981714,Spandau,11005005
+48,271708716,altstadt apotheke,,,,,,+49303332030,https://www.altstadt-apotheke-berlin.de/,mo-fr 08:00-19:00; sa 09:00-14:00; su off,yes,yes,52.5366282,13.2052104,Spandau,11005005
+49,271708914,löwen-apotheke,,,,,,+493035304740,https://www.loewen-apotheke-berlin.de/,mo-fr 08:30-18:30; sa 09:00-14:00,yes,no,52.5376866,13.2060246,Spandau,11005005
+50,271710934,adler-apotheke,,carl-schurz-straße,39,13597.0,Spandau,+49303335064,https://www.adler-apotheke-berlin.de/,mo-fr 08:00-19:00; sa 08:00-16:00; su off,yes,yes,52.5376635,13.2036654,Spandau,11005005
+51,271713876,spandauer apotheke,docmorris,feldstraße,56,13585.0,,,,"mo-fr 08:00-18:30; sa 09:00-13:00; ph,su off",yes,limited,52.542908,13.2059594,Spandau,11005005
+52,272385616,jäger apotheke,,adamstraße,3,13595.0,Wilhelmstadt,+49303616090,https://www.jaeger-apotheke-spandau.de/,"mo-fr 08:30-18:30; sa 08:30-13:00; ph,su off",yes,yes,52.5211632,13.1970215,Spandau,11005005
+53,272385919,adam apotheke,,adamstraße,41,13595.0,Wilhelmstadt,+49303619042,,mo-fr 08:30-18:00; sa 08:30-13:00,yes,yes,52.5208942,13.1948184,Spandau,11005005
+54,272386317,pichelsdorf apotheke,,pichelsdorfer straße,120,13595.0,Wilhelmstadt,+49303322007,https://www.pichelsdorfapotheke.de/,"mo-fr 08:30-18:30; sa 08:30-13:30; su,ph off",yes,yes,52.5254705,13.1971411,Spandau,11005005
+55,272499930,ringbahn-apotheke,,karl-marx-straße,239,12055.0,Neukölln,+493068302613,,"mo-fr 08:30-18:30, sa 08:30-13:00",yes,limited,52.4678648,13.4421953,Neukölln,11008008
+56,272662737,kaiser apotheke,,bergmannstraße,23,10961.0,,+49306937881,https://kaiser-apotheke-berlin.de,mo-fr 08:30-20:00; sa 09:00-20:00,yes,yes,52.4889422,13.3939616,Friedrichshain-Kreuzberg,11002002
+57,273743446,apotheke bahnhof spandau,,seegefelder straße,16,13597.0,Spandau,,https://www.apothekebahnhofspandau.de/,"mo,tu,th 08:00-18:30; we,fr 08:00-18:00; sa 09:00-13:00",yes,limited,52.5356492,13.1956671,Spandau,11005005
+58,274864546,hansa apotheke,,,,,,,,,yes,no,52.5217984,13.198061,Spandau,11005005
+59,275623282,gesundleben apotheke mahlsdorf,,hönower straße,95A,12623.0,Mahlsdorf,+49309918153,https://www.gesundleben-apotheken.de/mahlsdorf,mo-fr 08:00-19:00; sa 09:00-13:00; ph off,yes,yes,52.5133802,13.6120014,Marzahn-Hellersdorf,11010010
+60,275887592,galenus-apotheke,,,,,,+49302827871,https://galenus-berlin.de/,mo-fr 08:00-19:00; ph off,yes,no,52.5236295,13.386715,Mitte,11001001
+61,276145617,stern apotheke,christoph albertini e.k.,baumschulenstraße,96,12437.0,Baumschulenweg,+493053027866,https://www.sternapotheke-berlin.de/,mo-fr 08:00-19:00; sa 08:30-13:30,yes,limited,52.4671189,13.4886389,Treptow-Köpenick,11009009
+62,276774391,marien-apotheke,,gatower straße,85,13595.0,Wilhelmstadt,+49303616707,,mo-fr 08:30-18:00; sa 08:30-13:00,yes,yes,52.512828,13.1833779,Spandau,11005005
+63,280296894,thalia apotheke,,,,,Lankwitz,,,mo-fr 08:30-18:30; sa 08:30-13:00,,yes,52.4364093,13.3464079,Steglitz-Zehlendorf,11006006
+64,282744493,mirbach,,,,,,,,mo-fr 08:30-19:00; sa 08:30-13:30,yes,yes,52.517377,13.4686866,Friedrichshain-Kreuzberg,11002002
+65,282762536,frankfurter apotheke,,frankfurter allee,52,10247.0,Friedrichshain,,,mo-fr 08:00-20:00; sa 09:00-15:00,yes,yes,52.5144752,13.4648596,Friedrichshain-Kreuzberg,11002002
+66,282836294,treskow-apotheke,,ehrenfelsstraße,46,10318.0,Karlshorst,+493050012614,https://www.treskow-apotheke.de/,mo-fr 08:00-18:30; sa 09:00-13:00,yes,yes,52.4825451,13.526263,Lichtenberg,11011011
+67,283346896,uferpalais-apotheke,,,,,,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,no,52.5467539,13.2094458,Spandau,11005005
+68,287852225,bärliner apotheke,,havemannstraße,24,12689.0,Marzahn,,,mo-fr 08:00-19:00; sa 08:30-14:00,yes,yes,52.5678242,13.5724583,Marzahn-Hellersdorf,11010010
+69,287970707,apotheke im kaufland,,romain-rolland-straße,19,13089.0,Heinersdorf,+49304790780,https://www.kaufland-apotheke-weissensee.de/apotheke/willkommen.htm,mo-sa 08:30-19:30,yes,yes,52.5643537,13.4445534,Pankow,11003003
+70,291014069,tulpen-apotheke,apothekerin irmtraud knuth,mariendorfer damm,432,12107.0,Lichtenrade,+493076203014,https://www.tulpen-apotheke-berlin.de/,mo-fr 8:00-19:00;sa 8:00-14:00,yes,yes,52.4163173,13.3997542,Tempelhof-Schöneberg,11007007
+71,291212713,atlas-apotheke,apotheker dr. christian fechner e. k.,falkenseer chaussee,23,13583.0,Falkenhagener Feld,,,mo-fr 09:00-18:30; we 09:00-17:45; sa 09:00-13:00,yes,yes,52.5473903,13.1871238,Spandau,11005005
+72,291432407,kreisel-apotheke,,schloßstraße,82,12165.0,Steglitz,,,mo-fr 08:30-19:00; sa 09:00-18:00,yes,yes,52.4564263,13.3209201,Steglitz-Zehlendorf,11006006
+73,292699498,birken-apotheke,,,,,,+49304115834,https://www.birken-apotheke-berlin.de/,mo-fr 08:00-19:30; sa 08:00-16:00,yes,yes,52.5953568,13.3351509,Reinickendorf,11012012
+74,297410017,pharmland-apotheke,dr. frank kiesewalter,sewanstraße,4,10319.0,Friedrichsfelde,+493067302370,https://www.lichtenberg.pharmland.de/lichtenbergpharmland,mo-sa 09:00-19:00,yes,yes,52.4997043,13.4969744,Lichtenberg,11011011
+75,297489806,helgoland apotheke,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4125676,13.359647,Tempelhof-Schöneberg,11007007
+76,297512115,helianthus-apotheke,sharareh hemmati sadeghi,rheinstraße,27,12161.0,Friedenau,+493089726932,https://www.helianthus-apotheke-berlin.de/,"mo-fr 08:30-19:00; sa,su off",yes,no,52.4675849,13.3308517,Tempelhof-Schöneberg,11007007
+77,297512117,burger apotheke,norbert peter e.k.,bundesallee,92,12161.0,Friedenau,+49308516305,https://www.burger-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,limited,52.4672318,13.3279955,Tempelhof-Schöneberg,11007007
+78,304367397,glückskind apotheke,,heerstraße,560,13591.0,Staaken,+493036404066,http://www.glückskind-apotheke.de/,"mo-fr 09:00-14:00,15:00-18:00; sa 09:00-13:00",yes,yes,52.5249401,13.1424401,Spandau,11005005
+79,307983960,leo apotheke,,müllerstraße,152,13353.0,Wedding,,https://www.leoapotheke.de/,mo-fr 08:30-19:00; sa 09:00-14:00,no,yes,52.5463569,13.3586662,Mitte,11001001
+80,308019535,apotheke 24,,,,,,,,mo-fr 08:00-18:30; sa 09:00-14:00,yes,yes,52.5054076,13.5142084,Lichtenberg,11011011
+81,308719063,hedwig-apotheke,,oberhofer weg,2,12209.0,Lichterfelde,+49307722580,,mo-fr 08:30-18:30; sa 08:00-13:30,yes,yes,52.4274299,13.3262036,Steglitz-Zehlendorf,11006006
+82,310377174,ahorn apotheke,bettina achilles,innsbrucker straße,25,10825.0,Schöneberg,+493085729720,https://www.ahorn-apotheke-berlin-schoeneberg.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,no,52.4801897,13.3428141,Tempelhof-Schöneberg,11007007
+83,310764887,berliner bär-apotheke,britta küttner,,,,,,,mo-fr 08:00-18:30,yes,yes,52.5057922,13.5128096,Lichtenberg,11011011
+84,311089081,m.c. apotheke,,schlüterstraße,35,10629.0,Charlottenburg,,,,yes,limited,52.5028212,13.3167347,Charlottenburg-Wilmersdorf,11004004
+85,312714262,tauern-apotheke,,albulaweg,29,12107.0,Mariendorf,+490307411234,https://www.tauern-apotheke.de/,mo-fr 8:00-20:00; sa 08:00-14:00,yes,yes,52.4236416,13.3978849,Tempelhof-Schöneberg,11007007
+86,312956048,alexandrinen-apotheke,,warnemünder straße,29,14199.0,Schmargendorf,+49308233078,,mo-fr 08:30-18:30; sa 09:00-13:00,yes,no,52.4752159,13.2899562,Charlottenburg-Wilmersdorf,11004004
+87,313173921,pankow-apotheke,christoph gümpel,stubnitzstraße,31,13189.0,Pankow,,https://www.pankow-apotheke.de/,mo-fr 08:00-19:00; sa 08:00-13:00,yes,limited,52.5667802,13.4155075,Pankow,11003003
+88,313584459,apotheke dahlem-dorf,,königin-luise-straße,38,14195.0,Dahlem,,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,limited,52.4578484,13.2924415,Steglitz-Zehlendorf,11006006
+89,313933591,arkona apotheke,,kastanienallee,38,10119.0,Mitte,,,mo-fr 08:00-20:00; sa 08:00-18:00,yes,,52.5355836,13.4063535,Mitte,11001001
+90,314022672,insel apotheke,,giesebrechtstraße,13,10629.0,Charlottenburg,,,mo-fr 08:00-18:30; sa 08:30-13:00,yes,no,52.5015083,13.3110277,Charlottenburg-Wilmersdorf,11004004
+91,315234035,preußenapotheke,,kurfürstenstraße,57,12105.0,Mariendorf,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.4479601,13.3849712,Tempelhof-Schöneberg,11007007
+92,315803527,regina apotheke,,martin-luther-straße,58,10779.0,Schöneberg,,,mo-fr 08:00-18:30; sa 08:00-14:00,yes,no,52.4912774,13.3447676,Tempelhof-Schöneberg,11007007
+93,315820338,akazien-apotheke,,hauptstraße,19,10827.0,Schöneberg,+493076768777,https://www.akazien-apotheke-berlin-app.de/,mo-fr 09:00-19:00; sa 09:00-18:00,yes,yes,52.4866004,13.3565305,Tempelhof-Schöneberg,11007007
+94,316533474,waage apotheke,,kurfürstendamm,142,10709.0,Halensee,,,mo-fr 08:30-20:00; sa 08:30-19:00,yes,yes,52.497907,13.2973176,Charlottenburg-Wilmersdorf,11004004
+95,316704530,aida apotheke,,osnabrücker straße,4,10589.0,Charlottenburg,+49303445656,,mo-fr 08:30-18:30; sa 09:00-13:00,yes,no,52.5260065,13.3022696,Charlottenburg-Wilmersdorf,11004004
+96,317148496,petersburger apotheke,,petersburger platz,3,10249.0,Friedrichshain,,,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.5214676,13.4496352,Friedrichshain-Kreuzberg,11002002
+97,317175755,albrecht-apotheke steglitz,fr. martina bethke e.k.,schloßstraße,40,12165.0,Steglitz,+49307926084,,mo-th 08:00-19:00; fr 08:00-18:30,yes,yes,52.4565269,13.319862,Steglitz-Zehlendorf,11006006
+98,317552407,easy apotheke,christian melzer e.k.,rudower chaussee,12,12489.0,Adlershof,,,mo-th 08:00-19:30; sa 09:00-18:00; ph off; fr 08:00-20:00,yes,yes,52.4332816,13.5362695,Treptow-Köpenick,11009009
+99,317552408,aesculap apotheke,christian melzer e.k.,albert-einstein-straße,2,12489.0,Adlershof,+493063922358,https://www.aesculap-berlin.de/,"mo,tu,th 08:00-18:30; we,fr 08:00-18:00",yes,yes,52.4317485,13.5373807,Treptow-Köpenick,11009009
+100,317614303,fräulein beckers lieblingsapotheke,,karl-marx-allee,101,10243.0,Friedrichshain,,,"mo-fr 09:00-13:00,15:00-18:30",yes,yes,52.5174584,13.4428803,Friedrichshain-Kreuzberg,11002002
+101,319092509,merlin-apotheke,,,,,,,,"mo-we,fr 08:00-18:30; th 08:00-19:30; sa 09:00-13:00",yes,limited,52.5267866,13.4149448,Mitte,11001001
+102,319494473,apotheke im kaufzentrum,,siemensdamm,43,13629.0,Siemensstadt,+493038302320,https://www.apotheken.de/club/13629/apotheke-im-kaufzentrum/,mo-fr 08:30-18:30; sa 09:00-14:00,yes,,52.5361217,13.2754707,Spandau,11005005
+103,322151533,apotheke am koppenplatz,,,,,,+493028598313,http://www.wolfgang-weidlich.de/,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.5274856,13.3978184,Mitte,11001001
+104,322490383,alexa apotheke,,grunerstraße,20,10179.0,Mitte,,,mo-fr 09:00-19:00; sa 10:00-19:00,yes,yes,52.5189866,13.4155159,Mitte,11001001
+105,323597684,gertruden-apotheke,norbert bartetzko,lankwitzer straße,1,12209.0,Lichterfelde,+49307721096,,mo-fr 08:30-19:00; sa 08:00-14:00,yes,yes,52.4285785,13.3284113,Steglitz-Zehlendorf,11006006
+106,324023598,cecilien-apotheke,ludger klabes,,6,12619.0,Hellersdorf,,,"mo-fr 08:00-19:00, sa 08:00-13:00; ph off",yes,yes,52.5207833,13.5917073,Marzahn-Hellersdorf,11010010
+107,324363717,apotheke am strausberger platz,christine gunkel e.k.,strausberger platz,11-12,10243.0,Friedrichshain,+49302493863,https://www.strausberger-platz-berlin.de/,mo-fr 09:00-18:30; sa 09:00-13:00,yes,yes,52.5177829,13.4292246,Friedrichshain-Kreuzberg,11002002
+108,324789478,anker apotheke,,alt-marienfelde,55,12277.0,Marienfelde,,,"sa 08:30-13:00; we 08:30-13:00; mo,tu,th,fr 08:00-18:30",yes,yes,52.4130862,13.3638844,Tempelhof-Schöneberg,11007007
+109,330966646,hölderlin-apotheke,,wilhelmstraße,20,10963.0,Kreuzberg,,,"mo,tu,th 08:30-19:00; we,fr 08:30-18:30",yes,yes,52.5031924,13.3883155,Friedrichshain-Kreuzberg,11002002
+110,332555438,seume-apotheke,,wühlischstraße,20,10245.0,Friedrichshain,,,mo-fr 09:00-19:00; sa 09:00-14:00,yes,limited,52.5088216,13.4612497,Friedrichshain-Kreuzberg,11002002
+111,332555440,apotheke am ostkreuz,,sonntagstraße,12,10245.0,Friedrichshain,+49302916212,http://www.apotheke-am-ostkreuz.de/,mo-fr 09:00-19:00; sa 09:00-13:00,yes,yes,52.5062364,13.4658756,Friedrichshain-Kreuzberg,11002002
+112,332961993,apotheke am nauener platz,,,,,,,,mo-fr 08:30-18:30; sa 08:30-14:00,yes,yes,52.551654,13.3669194,Mitte,11001001
+113,332964520,dr. gropler´s apotheke,,,,13347.0,,,,mo-fr 08:00-18:30; sa 08:00-13:00,yes,yes,52.5498675,13.3686632,Mitte,11001001
+114,333408605,werbellin-apotheke,,hermannstraße,52,12049.0,Neukölln,,,mo-fr 08:30-20:00; sa 09:00-18:00; su off,yes,yes,52.4776537,13.4258598,Neukölln,11008008
+115,333410692,apotheke am herrfurthplatz,,herrfurthstraße,9,12049.0,Neukölln,,,mo-fr 09:00-19:00; sa 09:00-14:00,yes,limited,52.4773102,13.4229686,Neukölln,11008008
+116,333909847,driesener apotheke,,driesener straße,19,10439.0,Prenzlauer Berg,,https://driesener-apotheke.de,"mo,tu,th 08:00-19:30; we,fr 08:00-18:30; sa 08:00-13:00",yes,no,52.5528911,13.4058278,Pankow,11003003
+117,336117214,grüne apotheke 62,,wilmersdorfer straße,62,10627.0,,,,"mo-fr 09:00-19:00; sa 10:00-16:00; su,ph off",yes,yes,52.507096,13.3063256,Charlottenburg-Wilmersdorf,11004004
+118,340129941,apotheke carmer-7,bettina moeglich,carmerstraße,7,10623.0,Charlottenburg,+493031809444,https://www.apotheke-carmer-7.de/,"mo-tu,th-fr 08:00-20:00; we 08:00-19:00; sa 09:00-14:00",yes,no,52.5068886,13.3234474,Charlottenburg-Wilmersdorf,11004004
+119,347298415,seydlitz-apotheke,,kaiser-wilhelm-straße,30,12247.0,Lankwitz,+49307723035,,mo-fr 08:30-18:00; sa 09:30-13:00,no,yes,52.4316877,13.3373088,Steglitz-Zehlendorf,11006006
+120,347422942,eichen apotheke,,drakestraße,29a,12205.0,Lichterfelde,+49308334422,http://www.eichenapotheke.com,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.4415204,13.2986338,Steglitz-Zehlendorf,11006006
+121,348052909,augusta-apotheke am mexikoplatz,,argentinische allee,1,14163.0,Zehlendorf,,,mo-fr 08:30-18:30; sa 08:30-13:00,no,,52.4380311,13.233166,Steglitz-Zehlendorf,11006006
+122,349301668,leibniz apotheke berlin,,kantstraße,130b,10625.0,Charlottenburg,,,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.5060889,13.3140939,Charlottenburg-Wilmersdorf,11004004
+123,352983796,kronen apotheke,,schützenstraße,7,12165.0,Steglitz,+493079702993,https://www.kronen-apotheke-berlin.com/,"mo-fr 08:00-18:00; sa 08:00-13:00; su,ph off",no,,52.4544874,13.3238828,Steglitz-Zehlendorf,11006006
+124,353744167,apotheke am flughafen,,manfred-von-richthofen-straße,2,12101.0,Tempelhof,,https://www.apo-am-flughafen.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.4845367,13.3847889,Tempelhof-Schöneberg,11007007
+125,356807869,arcaden apotheke,,schönhauser allee,79,10439.0,,+493044734752,https://www.arcaden-apotheke-berlin.de,mo-fr 08:30-20:00; sa 09:00-20:00,yes,yes,52.5495274,13.4153133,Pankow,11003003
+126,366186442,hutten-apotheke,,gotzkowskystraße,1,10555.0,Moabit,,https://www.hutten-apotheke-berlin.de/,mo-fr 08:30-19:00; sa 08:30-13:30,yes,yes,52.5270388,13.3302792,Mitte,11001001
+127,366536622,jagow-apotheke,,jagowstraße,24,10555.0,Moabit,,,mo-th 08:30-19:30; fr 08:30-18:30; sa 08:30-14:00,yes,yes,52.5242051,13.3343198,Mitte,11001001
+128,371157962,gethsemane-apotheke,,stargarder straße,79,10437.0,Prenzlauer Berg,+493044653370,https://www.gethsemane-apotheke.de/,mo-fr 09:00-19:00; sa 09:00-15:00,yes,yes,52.547683,13.4146196,Pankow,11003003
+129,380498298,dorotheenstadt apotheke,ulrike uhlig,friedrichstraße,151,10117.0,Mitte,+493020453401,http://www.dorotheenstaedtische-apotheke.de/,"mo-fr 08:00-19:00, sa 09:00-14:00",yes,yes,52.5185603,13.3879579,Mitte,11001001
+130,380498345,mediosapotheke,,luisenstraße,54/55,10117.0,,,https://www.mediosapotheke.de/,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.5247199,13.3794578,Mitte,11001001
+131,387491865,wilhelminenhof apotheke,,wilhelminenhofstraße,51,12459.0,Oberschöneweide,+49305350246,,mo-fr 08:00-18:30; sa 08:00-12:30,yes,limited,52.4590312,13.5255932,Treptow-Köpenick,11009009
+132,393409421,easyapotheke,,kurfürstendamm,110,10711.0,Halensee,,,mo-fr 08:30-19:00; sa 09:00-16:00,yes,yes,52.4977192,13.2927797,Charlottenburg-Wilmersdorf,11004004
+133,393409422,sky apotheke am kudamm,,kurfürstendamm,139,10711.0,Halensee,,,mo-fr 08:00-19:00; sa 08:00-13:00,yes,yes,52.4976209,13.2956562,Charlottenburg-Wilmersdorf,11004004
+134,399348493,elsen-apotheke,,weitlingstraße,73,10317.0,Rummelsburg,,https://www.elsen-apotheke.de/,mo-fr 08:00-19:00; sa 08:00-13:00,yes,yes,52.5047368,13.4953236,Lichtenberg,11011011
+135,400912055,apotheke am hugenottenplatz,,hugenottenplatz,1,13127.0,Französisch Buchholz,,,mo-fr 08:00-19:00; sa 08:00-14:00,yes,yes,52.6066817,13.4199092,Pankow,11003003
+136,409760015,apotheke am hochmeisterplatz,,westfälische straße,,10709.0,,,,"mo,tu,th,fr 09:00-18:30; we 09:00-14:00; sa 09:00-13:30",yes,yes,52.4957099,13.2976849,Charlottenburg-Wilmersdorf,11004004
+137,409775548,engel apotheke,nico hauffe e.k.,michelstadter weg,50,13587.0,Hakenfelde,+49303559410,https://www.engel-apotheke-berlin.de/,"mo-fr 08:30-18:30; sa 08:30-13:00; su,ph off",yes,yes,52.5618492,13.2069484,Spandau,11005005
+138,409925337,polimedica-apotheke,heike gebauer e.k.,elsterwerdaer platz,1,12683.0,,+493023254110,http://www.polimedica-apotheke.de/,sa 08:00-13:00; mo-fr 08:00-19:00,yes,yes,52.5053398,13.5582606,Marzahn-Hellersdorf,11010010
+139,409925350,apotheke im gesundheitsforum köpenick,dr. ulrike timm e.k.,mahlsdorfer straße,110,12555.0,Köpenick,+49306571902,http://www.phoenix-apotheke-berlin.de/,mo-th 08:00-19:00; fr 08:00-19:00; ph off; sa 08:00-14:00,yes,yes,52.4592786,13.5795409,Treptow-Köpenick,11009009
+140,410135921,reichenberger apotheke,,reichenberger straße,110,10999.0,Kreuzberg,,,mo-fr 09:00-18:30; sa 09:00-13:30,yes,yes,52.4941966,13.4356179,Friedrichshain-Kreuzberg,11002002
+141,410499179,blumberger apotheke,,hohensaatener straße,18,12679.0,Marzahn,+49309316160,https://www.blumbergerapotheke.eu/,mo-fr 08:00-19:00; sa 08:30-13:00; su off,yes,yes,52.5495695,13.5770672,Marzahn-Hellersdorf,11010010
+142,411273144,askanier apotheke,,streitstraße,11-14,13587.0,Hakenfelde,+49303352680,https://askanier-apotheke.berlin/,mo-fr 08:30-18:30; sa 09:00-14:00; ph off,yes,yes,52.5576682,13.2082963,Spandau,11005005
+143,411273455,hakenfelder apotheke,,streitstraße,31,13587.0,Hakenfelde,+49303553440,,"mo,tu,th,fr 08:30-19:00; we 08:30-18:00; sa 08:30-13:00",yes,no,52.5621448,13.2088093,Spandau,11005005
+144,412408145,kaiser wilhelm apotheke,,richard-von-weizsäcker-platz,1-2,10827.0,Schöneberg,+493078703000,https://www.kawia.de/,mo-fr 09:00-20:00; sa 09:00-18:00,yes,yes,52.4860593,13.3566766,Tempelhof-Schöneberg,11007007
+145,415318053,apotheke am helmholtzplatz,,raumerstraße,14a,10437.0,Prenzlauer Berg,,http://www.apotheke-am-helmholtzplatz.de,"mo-fr 08:00-19:00, sa 08:30-13:30",yes,yes,52.5420046,13.4200711,Pankow,11003003
+146,416660118,apotheke an der oper,karsten kiepert,bismarckstraße,89,10627.0,Charlottenburg,,,"mo-fr 08:30-18:30; sa 09:00-14:00; su,ph off",yes,yes,52.5114912,13.3083188,Charlottenburg-Wilmersdorf,11004004
+147,416660134,minerva-apotheke,farhad rasta,wilmersdorfer straße,135,10627.0,Charlottenburg,+49303124835,,"mo-fr 09:00-19:00; sa 09:00-18:00; su,ph off",yes,yes,52.5111671,13.3055221,Charlottenburg-Wilmersdorf,11004004
+148,416660138,bong-apotheke,thomas bong e. k.,wilmersdorfer straße,46,10627.0,Charlottenburg,,,"mo-fr 08:30-20:00; sa 09:00-20:00; su,ph off",yes,yes,52.5096216,13.3054736,Charlottenburg-Wilmersdorf,11004004
+149,416660142,goethe apotheke,sigrun klemp,goethestraße,40,10625.0,Charlottenburg,,,mo-fr 08:30-18:30; sa 08:30-14:00,yes,yes,52.5090254,13.3067193,Charlottenburg-Wilmersdorf,11004004
+150,419545768,herz apotheke,ihsan vurankaya,badstraße,57,13357.0,Gesundbrunnen,,,mo-sa 08:30-22:30; su 10:00-22:30,yes,yes,52.55144,13.3827993,Mitte,11001001
+151,427670055,aponeo,konstantin primbas e.k.,frankfurter allee,241,10365.0,Lichtenberg,+493098694441,https://www.apotheken-umschau.de/apotheken/deutschland/10365/berlin-aponeo-apotheke.html,mo-fr 09:00-18:30; sa 09:00-13:00,yes,yes,52.5120353,13.4967682,Lichtenberg,11011011
+152,428114271,central-apotheke,judit gottwald,hindenburgdamm,94a,12203.0,Lichterfelde,+49308342046,http://www.central-apo-berlin.de,mo-fr 08:30-18:30;sa 08:30-16:00,yes,limited,52.4414214,13.3156473,Steglitz-Zehlendorf,11006006
+153,428114289,laurentius-apotheke,,hindenburgdamm,76C,12203.0,Lichterfelde,,,mo-fr 09:00-18:30; sa 09:00-14:00; su off,yes,limited,52.4476658,13.3150432,Steglitz-Zehlendorf,11006006
+154,428293745,apotheke am mierendorffplatz,,mierendorffplatz,12-14,10589.0,Charlottenburg,,,"mo-fr 08:30-18:30, sa 08:00-13:00",yes,no,52.5255288,13.3050256,Charlottenburg-Wilmersdorf,11004004
+155,438089365,apotheke im storchenhof,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.548636,13.5040553,Lichtenberg,11011011
+156,438098504,euro-apotheke,,karl-marx-straße,214,12055.0,Neukölln,+4915141964502,,mo-fr 08:30-19:00;sa 09:00-18:00,yes,yes,52.4706903,13.441201,Neukölln,11008008
+157,439234903,kristinen-apotheke,,,,,,+49306451762,https://www.erezept-berlin-treptow-koepenick-kristinenapotheke.de/#,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.4512997,13.624489,Treptow-Köpenick,11009009
+158,439234905,anker-apotheke,,,,,,+49306455274,https://brandt-apo.de,mo-fr 08:00-19:00; sa 09:00-13:00,yes,yes,52.4503297,13.6249106,Treptow-Köpenick,11009009
+159,440322354,mehringplatz apotheke berlin,,mehringplatz,12,10969.0,,,https://www.apotheke-am-mehringplatz.de,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.499708,13.3912545,Friedrichshain-Kreuzberg,11002002
+160,440330654,dafne apotheke,,,,,,,,mo-fr 08:30-19:30; sa 09:30-18:00,yes,yes,52.480346,13.4363242,Neukölln,11008008
+161,440332220,neukölln-apotheke,,karl-marx-straße,88,12043.0,Neukölln,,,"mo-fr 08:30-20:00, sa 10:00-20:00",yes,limited,52.4806677,13.435211,Neukölln,11008008
+162,440333191,forum apotheke,,karl-marx-straße,80,12043.0,Neukölln,+493061309031,https://www.forum-apotheke.de/,mo-fr 08:00-20:00; sa 09:00-18:00,yes,yes,52.4814172,13.4341084,Neukölln,11008008
+163,440335563,libertas apotheke,,karl-marx-straße,16,12043.0,Neukölln,,,"mo,tu,th 08:30-19:00; we,fr 08:30-18:30; sa 10:00-14:00",,yes,52.4850824,13.4266376,Neukölln,11008008
+164,440338666,wilhelm busch apotheke,petra lorenz,karl-marx-straße,132,12043.0,Neukölln,+493068809443,https://www.wilhelm-busch-apo.de/,"mo-fr 08:30-19:00, sa 08:30-18:00",yes,limited,52.4773129,13.4384935,Neukölln,11008008
+165,440340785,bären apotheke,,karl-marx-straße,188,12043.0,Neukölln,+493068809574,http://www.pharmland.de/index.php,"mo,tu,th 08:30-19:00; we 09:00-19:00; fr 08:30-18:30; sa 09:00-15:00",yes,no,52.4734058,13.4405484,Neukölln,11008008
+166,441512663,ulrich-apotheke,,hermannstraße,,12049.0,,+493062709373,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.4759595,13.4265886,Neukölln,11008008
+167,441514950,arminius apotheke,,,,,,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,limited,52.4794042,13.4257606,Neukölln,11008008
+168,441878984,sonnenblumen apotheke,,,,,,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.4699293,13.4631867,Neukölln,11008008
+169,441878991,hindenburg-apotheke,laia saatkari,schudomastraße,46,12055.0,,+49306875056,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.4740953,13.4496732,Neukölln,11008008
+170,442351144,pelikan apotheke,,tempelhofer damm,139,12099.0,Tempelhof,+49307579050,https://www.pelikanapotheke.de/,"mo-th 08:30-19:30; we,fr 08:30-18:30; sa 08:00-14:00",yes,yes,52.4669292,13.3859911,Tempelhof-Schöneberg,11007007
+171,442390303,hafen-apotheke,,tempelhofer damm,215,12099.0,Tempelhof,,https://www.hafen-apotheke-berlin-app.de/,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.4568204,13.3844542,Tempelhof-Schöneberg,11007007
+172,442393071,fortunatus apotheke,,mariendorfer damm,68,12109.0,Mariendorf,+49307061780,https://www.fortunatus-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.4466168,13.3852622,Tempelhof-Schöneberg,11007007
+173,442394335,akazien apotheke,,mariendorfer damm,73,12109.0,Mariendorf,+493076106790,http://www.akazien-apotheke-mariendorf.de/,mo-fr 08:30-18:30,yes,limited,52.4461252,13.385909,Tempelhof-Schöneberg,11007007
+174,442394341,markt apotheke,,mariendorfer damm,84,12109.0,Mariendorf,,,"mo-fr 08:30-18:30, sa 08:30-13:00",yes,no,52.4451968,13.3856432,Tempelhof-Schöneberg,11007007
+175,442705525,hermann apotheke,,hermannstraße,116,12051.0,Neukölln,+493062981014,,"mo,tu,th 09:00-18:30, sa 09:00-13:00, we,fr 09:00-18:00",yes,yes,52.4665033,13.4316536,Neukölln,11008008
+176,443464250,glasow-apotheke,ralf katzur,hermannstraße,144,12051.0,Neukölln,,,"mo-tu,th 09:00-18:30; we,fr 09:00-18:00; sa 09:00-13:00",yes,yes,52.4639518,13.4336361,Neukölln,11008008
+177,443604961,apotheke zum goldenen einhorn,,gneisenaustraße,92,10961.0,,+49306917430,,"mo,tu,th 08:30-19:00; we,fr 08:30-18:30; sa 09:30-13:00",yes,no,52.4919031,13.3942991,Friedrichshain-Kreuzberg,11002002
+178,445821371,orchideen-apotheke,,,,,,,,"mo,tu,th 08:30-18:30; we,fr 08:30-18:00; sa 08:30-13:00",yes,yes,52.4564405,13.4372988,Neukölln,11008008
+179,445821378,luisen-apotheke,,britzer damm,107,12347.0,,+49306008640,,"mo-th 09:00-18:30; we,fr 09:00-18:00; sa 09:30-12:30",yes,yes,52.4533259,13.438621,Neukölln,11008008
+180,446759637,brillant apotheke,,kurfürstendamm,71,10709.0,Charlottenburg,,,mo-fr 09:00-20:00; sa 09:00-19:00,yes,yes,52.5001376,13.3065427,Charlottenburg-Wilmersdorf,11004004
+181,448591443,palmen-apotheke,christiane koch,schlesische straße,37,10997.0,Kreuzberg,,,mo-fr 09:00-18:30; sa 11:00-13:00,yes,no,52.4997229,13.4448618,Friedrichshain-Kreuzberg,11002002
+182,448811294,pasteur-apotheke,,kottbusser damm,,10967.0,Kreuzberg,,,mo-fr 09:00-18:30; sa 09:00-14:00,yes,no,52.4901283,13.4235773,Friedrichshain-Kreuzberg,11002002
+183,448913486,cecilien-apotheke,,gaudystraße,1,10437.0,Prenzlauer Berg,,,mo-fr 09:00-18:00; sa 10:00-14:00; ph off,yes,yes,52.546825,13.4126429,Pankow,11003003
+184,448915579,arminius-apotheke,,schönhauser allee,172A,,,,,mo-fr 08:00-19:00; sa 08:00-13:00,yes,yes,52.5329218,13.4122894,Pankow,11003003
+185,452946886,koala-apotheke,,weißenseer weg,36,13055.0,Alt-Hohenschönhausen,+493097105750,https://www.koalaapotheke.de/,mo-fr 08:00-19:00; sa 08:00-13:00,yes,yes,52.5359237,13.4743188,Lichtenberg,11011011
+186,452951395,krumme lanke apotheke,michaela kretzschmar,fischerhüttenstraße,64,14163.0,Zehlendorf,+493080902884,https://www.krumme-lanke-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.4421581,13.2408947,Steglitz-Zehlendorf,11006006
+187,453013649,apotheke am fennpfuhl,,franz-jacob-straße,10,10369.0,Fennpfuhl,,,mo-th 08:00-19:00; fr 08:00-18:00; sa 08:30-12:30,yes,yes,52.5280106,13.4679731,Lichtenberg,11011011
+188,454167250,bartels apotheke,,,,,,+493047301356,https://www.bartels-apotheke.de/,mo-fr 08:00-19:00; sa 08:00-13:00,yes,yes,52.558703,13.413785,Pankow,11003003
+189,454216844,koala apotheke,,breite straße,20,13187.0,Pankow,,,mo-fr 08:00-20:00; sa 09:00-20:00,yes,yes,52.569669,13.4033014,Pankow,11003003
+190,454234943,rusche-apotheke,ursula stübner,ruschestraße,103,10365.0,Lichtenberg,,,mo-th 08:00-18:30; fr 08:00-18:00; sa 09:00-13:00,yes,no,52.5152094,13.4853643,Lichtenberg,11011011
+191,456388989,sterndamm-apotheke,alexander rogowski e.k.,sterndamm,11,12487.0,Johannisthal,,,"mo-th 08:00-19:00; we,fr 08:00-18:30; sa 09:00-12:30",yes,yes,52.452556,13.5094857,Treptow-Köpenick,11009009
+192,456389100,apotheke johannisthal,,,,,,,,mo-fr 08:00-18:30; sa 09:00-13:00,yes,yes,52.4458331,13.5060772,Treptow-Köpenick,11009009
+193,456414245,pfauen-apotheke,,,,,,,,mo-fr 08:00-18:30; sa 08:30-13:30,yes,yes,52.4412581,13.4588411,Neukölln,11008008
+194,456421034,fontane-apotheke,,rudower straße,,12351.0,Britz,,,"mo-fr 08:00-13:00,14:00-18:30; sa off",yes,yes,52.4426146,13.4568396,Neukölln,11008008
+195,458915641,adler apotheke,,breite straße,41,13187.0,Pankow,+493047539300,https://adlerapotheke-berlin.de/,mo-fr 08:00-18:30; sa 09:00-14:00,yes,limited,52.5707966,13.4103966,Pankow,11003003
+196,459166572,zieten apotheke,,gerichtstraße,31,13347.0,Wedding,,https://www.zietenapotheke.de,mo-fr 08:30-18:30; sa 09:00-13:00,yes,yes,52.5449696,13.3686333,Mitte,11001001
+197,459650830,easy apotheke,,kottbusser damm,78,10967.0,Neukölln,+493069814634,https://kottbusser-damm.easyapotheken.de/,mo-fr 09:00-20:00; sa 09:00-19:00; su off,yes,yes,52.491228,13.4234937,Friedrichshain-Kreuzberg,11002002
+198,459653935,paul-lincke-apotheke,johannes harter,,,,,+49306181020,,mo-fr 08:00-19:00; sa 08:30-16:00,yes,yes,52.4966636,13.4199367,Friedrichshain-Kreuzberg,11002002
+199,459673262,lavendel apotheke,,blankenburger straße,1,13156.0,Niederschönhausen,,,"mo-th 09:00-18:30; fr 09:00-18:00; sa,su off",yes,yes,52.5816372,13.4045453,Pankow,11003003
+200,459785177,steinbock-apotheke,,,,,,,,"mo-fr 09:00-18:30, sa 09:00-13:00",yes,no,52.5595433,13.3354795,Mitte,11001001
+201,459799715,müller-apotheke,,müllerstraße,156C,,,+493046604488,,mo-fr 08:30-19:00; sa 09:00-16:00,yes,yes,52.545171,13.3608309,Mitte,11001001
+202,460523245,hohenzollern-apotheke,h.w. kopsch,pichelsdorfer straße,101,13595.0,Wilhelmstadt,+49303318447,https://www.hozoapo.de/,,yes,yes,52.5241148,13.1973279,Spandau,11005005
+203,461626277,europa apotheke,katrin peter e. k.,karl-marx-allee,90a,10243.0,Friedrichshain,,,"mo-fr 08:30-18:30, sa 08:30-13:00",yes,yes,52.5164022,13.4406999,Friedrichshain-Kreuzberg,11002002
+204,472371488,vivapotheke in hellersdorf,,hellersdorfer straße,237,12627.0,Hellersdorf,,http://www.apo-berlin.de/#4rdpage,,,yes,52.5365149,13.603422,Marzahn-Hellersdorf,11010010
+205,475236781,tasmania apotheke,,emser straße,105,12051.0,Neukölln,+49306257035,https://www.tasmania-apotheke.de/,mo-fr 08:30-19:30; sa 08:30-14:00,yes,yes,52.468338,13.4305501,Neukölln,11008008
+206,476243460,luna apotheke,,am treptower park,40,12435.0,Plänterwald,+493053698100,https://www.luna-apotheke-berlin.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4857173,13.4660642,Treptow-Köpenick,11009009
+207,482797544,sabelus xxl apotheke,,buntzelstraße,117,12526.0,Bohnsdorf,+49306763313,https://www.sabelus.de/apotheke-berlin-bohnsdorf-621444.html,mo-fr 8:00-19:00;sa 8:00-13:00,yes,limited,52.4010732,13.5617695,Treptow-Köpenick,11009009
+208,499046359,kastanien-apotheke pankow,,kastanienallee,37-38,13158.0,Rosenthal,+493091207990,https://www.kastanien-apotheke-pankow.de/,mo-sa 08:00-20:00,yes,yes,52.5920493,13.3830878,Pankow,11003003
+209,499963012,stolpe-apotheke,bianca dabbagh e.k.,chausseestraße,13,14109.0,Wannsee,,,mo-fr 08:30-18:30; we 08:30-18:00; sa 08:30-13:00,yes,no,52.4157499,13.1456517,Steglitz-Zehlendorf,11006006
+210,502409526,baumschulen-apotheke,,baumschulenstraße,29-31,12437.0,Baumschulenweg,+493064167777,https://www.baumschulen-apotheke-berlin.de/,we-fr 08:00-19:00; sa 08:00-15:00,yes,yes,52.4642316,13.4857268,Treptow-Köpenick,11009009
+211,505990860,rathaus apotheke,,großbeerenstraße,26,10963.0,,+49302158084,https://www.apotheken.de/10963/berlin/rathaus-apotheke-kreuzberg,mo-fr 09:00-18:30; sa 09:00-14:00; ph off,yes,yes,52.4943559,13.3835242,Friedrichshain-Kreuzberg,11002002
+212,506338850,farma-plus,,britzer damm,30,12347.0,Britz,,,"mo,tu,th,fr 09:00-18:00; we 09:00-14:00; sa off",yes,yes,52.46018,13.4350711,Neukölln,11008008
+213,508423804,hagen apotheke,,hohenzollerndamm,94,14199.0,Schmargendorf,+49308264067,,mo-fr 08:30-18:30;sa 08:30-13:30,yes,no,52.4773766,13.2811924,Charlottenburg-Wilmersdorf,11004004
+214,510624102,albrecht-apotheke,heike borchardt,tempelhofer damm,179,12099.0,Tempelhof,+49307518014,https://www.albrecht-apotheke-berlin.de/,"mo,tu,th 08:30-19:00; we,fr 08:30-18:30; sa 08:30-14:00; su,ph off",yes,yes,52.4609874,13.38514,Tempelhof-Schöneberg,11007007
+215,516609077,gorki-apotheke,,gorkistraße,3,13507.0,Tegel,,,"mo-fr 08:00-20:00, sa 08:00-18:00",yes,yes,52.5898484,13.2842663,Reinickendorf,11012012
+216,518011179,adler-apotheke,,berliner straße,91,13507.0,Tegel,,,"mo-fr 08:30-19:00, sa 09:30-13:30",yes,yes,52.5876355,13.2860212,Reinickendorf,11012012
+217,520518100,opernviertel-apotheke,,bismarckstraße,30,10625.0,Charlottenburg,,,mo-fr 08:00-18:30; sa 08:00-13:00,yes,yes,52.5120981,13.3105177,Charlottenburg-Wilmersdorf,11004004
+218,527503229,sankt rochus apotheke,,schlangenbader straße,25,14197.0,Wilmersdorf,+49308236041,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4728776,13.3071455,Charlottenburg-Wilmersdorf,11004004
+219,527503232,rheinland apotheke,,spessartstraße,13,14197.0,Wilmersdorf,+493082793412,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4745711,13.3146216,Charlottenburg-Wilmersdorf,11004004
+220,527873296,normannen-apotheke,,grünauer straße,"7,8",12524.0,Altglienicke,+49306728354,https://www.normannen-apotheke-berlin.de,mo-fr 08:00-18:30; sa 08:30-13:00;ph off,yes,no,52.4195999,13.5403651,Treptow-Köpenick,11009009
+221,528643412,elefanten apotheke,,,,,,,,"mo-fr 08:30-18:30, sa 09:00-14:00",yes,yes,52.4247473,13.5276421,Treptow-Köpenick,11009009
+222,529805424,europa-apotheke,,schnellerstraße,21,12439.0,,,,mo-sa 09:00-19:00,yes,yes,52.4565863,13.5089986,Treptow-Köpenick,11009009
+223,530687969,sano apotheke,omar obaid,,,,,,,mo-fr 08:00-19:00; sa 10:00-19:00; ph off,yes,no,52.4473124,13.5758981,Treptow-Köpenick,11009009
+224,534879643,hohenzollerndamm apotheke,dr. martin krause,hohenzollerndamm,56,14199.0,Schmargendorf,,http://www.hohenzollerndamm-apo.de/,"mo-th 08:30-18:30; we,fr 08:30-18:00; sa 08:30-13:00",yes,yes,52.4866689,13.2975626,Charlottenburg-Wilmersdorf,11004004
+225,538057637,apotheke im forum köpenick,nicola runge e.k.,bahnhofstraße,33-38,12555.0,,+493065016200,https://www.apotheke-im-forum-koepenick.de/,"mo-fr 08:00-20:00, sa 09:00-20:00; ph off",yes,yes,52.4581201,13.5786266,Treptow-Köpenick,11009009
+226,564123162,nibelungen-apotheke,,gotlindestraße,49,10365.0,Lichtenberg,,,mo-fr 08:00-19:00; sa 08:00-13:00,yes,yes,52.5181103,13.496335,Lichtenberg,11011011
+227,565034853,columbia apotheke,,kaiserdamm,13,14057.0,Charlottenburg,+493032678610,http://www.columbia-apotheke.de/,mo-fr 08:30-18:30; sa 08:30-13:30,yes,limited,52.5106646,13.288557,Charlottenburg-Wilmersdorf,11004004
+228,571800623,st. hubertus,,marienfelder allee,47,12277.0,Marienfelde,+493072320615,https://www.apotheke-marienfelde.de/,"mo,tu,th,fr 08:30-18:30; we 08:30-18:00; sa 08:30-13:00",yes,yes,52.4215579,13.3702571,Tempelhof-Schöneberg,11007007
+229,573452398,apotheke in der volkradstraße,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:00,,yes,52.499528,13.5073798,Lichtenberg,11011011
+230,576608994,apotheke im gesundbrunnen-center,,badstraße,4,13357.0,,+493049760419,https://www.premium-apotheken-berlin.de/,mo-sa 09:00-20:00,yes,yes,52.5499687,13.3891501,Mitte,11001001
+231,581322478,brunnen apotheke,,badstraße,11,13357.0,Gesundbrunnen,,,"mo,tu,th 08:30-19:00; we 08:30-15:00; fr 08:30-18:30",yes,yes,52.5503414,13.3855631,Mitte,11001001
+232,582854286,ursus-apotheke,,marienfelder allee,75,12277.0,Marienfelde,,https://www.ursus-apotheke-berlin.de/,mo-fr 08:30-18:00; sa 08:30-13:00,yes,yes,52.4193408,13.3684082,Tempelhof-Schöneberg,11007007
+233,585143218,schwarze adler apotheke,,prinzessinnenstraße,2,12307.0,Lichtenrade,+49307446063,,,yes,no,52.386944,13.3954661,Tempelhof-Schöneberg,11007007
+234,585144206,bahnhof-apotheke,,bahnhofstraße,26,12305.0,Lichtenrade,,,mo-fr 08:30-18:30; sa 08:30-13:00; ph off,yes,no,52.3868901,13.3997371,Tempelhof-Schöneberg,11007007
+235,585473264,lessing apotheke,,reinickendorfer straße,12,13347.0,,+49304652145,https://www.lessing-apotheke-berlin.de/,mo-fr 08:30-19:00; sa 09:00-14:00; su closed,yes,yes,52.5420876,13.3701655,Mitte,11001001
+236,588141093,linden apotheke,,bahnhofstraße,52,12305.0,,+49307445082,https://www.linden-apotheke-lichtenrade.de/,mo-fr 08:00-18:30; sa 08:30-13:30,yes,limited,52.3865399,13.404185,Tempelhof-Schöneberg,11007007
+237,588552725,katharinen apotheke,,,,,,,,mo-fr 08:30-19:00; sa 09:00-13:00,yes,no,52.5494413,13.4553976,Pankow,11003003
+238,588552733,medicus apotheke,,berliner allee,82,13088.0,Weißensee,+49309250220,http://www.medicus-apotheke.de/06_start/index.html,mo-fr 08:00-19:30; sa 08:30-14:00,yes,yes,52.5492679,13.4562626,Pankow,11003003
+239,588557536,sky apotheke am antonplatz,,langhansstraße,1,13086.0,Weißensee,,https://www.apotheke-am-antonplatz.de/,mo-fr 08:00-20:00; sa 09:00-14:00,yes,yes,52.5487495,13.4506766,Pankow,11003003
+240,592122156,schlachtensee apotheke,dr. jutta wenger,breisgauer straße,7,14129.0,Schlachtensee,+493080902191,http://www.schlachtensee-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,limited,52.4386509,13.2155816,Steglitz-Zehlendorf,11006006
+241,593781884,lankwitz-apotheke,,kaiser-wilhelm-straße,68,12247.0,Lankwitz,+49307749254,https://www.lankwitz-apotheke-berlin.de,mo-fr 08:30-18:30; sa 08:30-13:30,yes,no,52.4352813,13.3437222,Steglitz-Zehlendorf,11006006
+242,595536654,mediosapotheke hackescher markt,,rosenthaler straße,46-47,10178.0,Mitte,,,mo-fr 08:00-19:00; sa 09:00-19:00,yes,no,52.5245938,13.4032424,Mitte,11001001
+243,602531459,wedding apotheke,dr. axel müller-de ahna e.k.,müllerstraße,139,13353.0,Wedding,,https://www.wedding-apotheke.de/,mo-fr 08:15-20:00; sa 08:30-16:00,yes,yes,52.5492948,13.353572,Mitte,11001001
+244,604938266,apotheke im karstadt,,,,,,+493062736580,,mo-sa 9:00-20:00,yes,yes,52.4874834,13.4238942,Neukölln,11008008
+245,608524481,prenz’l-apotheke,,schönhauser allee,81,10439.0,Prenzlauer Berg,,,mo-fr 08:00-20:00; sa 08:30-20:00; ph off,yes,yes,52.550241,13.4142615,Pankow,11003003
+246,609142032,elch apotheke,,johannisthaler chaussee,321,,,+493060258313,,mo-fr 08:00-20:00; sa 09:00-20:00,yes,yes,52.4292565,13.4536256,Neukölln,11008008
+247,609146610,gropius-apotheke,,imbuschweg,40,12353.0,Gropiusstadt,,,,yes,yes,52.42958,13.4570794,Neukölln,11008008
+248,610199208,tempelritter-apotheke,,bahnhofstraße,60,12305.0,Lichtenrade,+493076403454,https://www.tempelritter-apotheke.de/,mo-fr 08:00-18:30; sa 08:30-13:00,yes,yes,52.3865161,13.4066989,Tempelhof-Schöneberg,11007007
+249,616284712,apotheke am rathaus,sliman dirki,möllendorffstraße,111,10367.0,Lichtenberg,,,"mo-fr 08:00-19:00, sa 09:00-14:00; ph off",yes,limited,52.5161624,13.4787925,Lichtenberg,11011011
+250,621584928,gerhart-hauptmann-apotheke,,fritz-reuter-allee,181,12359.0,Britz,+49306019551,,mo-fr 08:30-19:00; sa 08:30-13:00,yes,yes,52.4373715,13.4477689,Neukölln,11008008
+251,627415668,gesundbrunnen- apotheke,,badstraße,64,13357.0,Gesundbrunnen,,,mo-fr 08:30-18:30; sa 09:00-13:00,yes,yes,52.55057,13.3842488,Mitte,11001001
+252,630214264,apotheke an der rhinstraße,,,,,,,,mo-sa 08:30-19:30,yes,yes,52.5136166,13.5179566,Lichtenberg,11011011
+253,630214267,bahnhof-apotheke,,,,,,,,mo-fr 08:00-19:00; sa 08:00-14:00,yes,yes,52.5137587,13.5198414,Lichtenberg,11011011
+254,631755396,elch-apotheke,,ludolfingerplatz,2,13465.0,Frohnau,+493040632891,https://www.elch-apotheke-frohnau.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.6331147,13.2887685,Reinickendorf,11012012
+255,635821864,pantherapotheke,,scheelestraße,140,12209.0,Lichterfelde,,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.412393,13.3208889,Steglitz-Zehlendorf,11006006
+256,636005023,rathaus-apotheke schmargendorf,,berkaer straße,6,14199.0,Schmargendorf,+49308261586,,mo-fr 08:30-18:30; sa 08:30-14:00,yes,yes,52.4767049,13.288994,Charlottenburg-Wilmersdorf,11004004
+257,638953355,weitling-apotheke,,weitlingstraße,58,10317.0,,+493052279730,https://www.weitling-apotheke.de/,mo-fr 08:00-19:00; sa 08:00-13:00; su 08:00-16:00,yes,no,52.5060983,13.4957547,Lichtenberg,11011011
+258,644658975,jülicher apotheke,,jülicher straße,27,13357.0,Gesundbrunnen,,,"mo,tu,th,fr 09:00-18:00; we 09:00-14:00; sa 08:30-13:00",yes,yes,52.5539606,13.3923404,Mitte,11001001
+259,645677466,die neue apotheke,,turmstraße,77,10551.0,Moabit,,,mo-fr 08:00-19:00; sa 09:00-18:00,yes,yes,52.5265328,13.3357313,Mitte,11001001
+260,645677469,arminius apotheke,,turmstraße,38,10551.0,Moabit,,,mo-fr 08:30-18:30; sa 08:30-14:00,yes,yes,52.5268142,13.3365504,Mitte,11001001
+261,646579859,ansbacher apotheke,,ansbacher straße,13,10787.0,Schöneberg,,https://www.ansbacher-apotheke.de/,mo-fr 08:30-19:00; sa 09:00-16:00,yes,yes,52.5034922,13.3429298,Tempelhof-Schöneberg,11007007
+262,647943536,hubertus apotheke am salzufer,,salzufer,13/14,10587.0,Charlottenburg,,,"mo-fr 08:30-18:00; sa,su off",yes,yes,52.5183557,13.3228681,Charlottenburg-Wilmersdorf,11004004
+263,650633578,ludwigs-apotheke,,essener straße,16,10555.0,,+493039903655,https://www.ludwigs-apotheke-berlin-app.de/,mo-fr 09:00-19:00; sa 09:00-14:00,yes,yes,52.523569,13.3363347,Mitte,11001001
+264,653256888,apotheke am asternplatz,,asternplatz,3,12203.0,Lichterfelde,+493084109303,https://www.apothekeamasternplatz-berlin.de/,mo-fr 09:00-18:30; sa 09:00-13:30,yes,yes,52.4488384,13.3038018,Steglitz-Zehlendorf,11006006
+265,653289588,easyapotheke,,storkower straße,5,10409.0,Prenzlauer Berg,,,mo-fr 08:30-19:00; sa 09:00-16:00,yes,yes,52.5410448,13.4403303,Pankow,11003003
+266,656006001,düppel apotheke,,ludwigsfelder straße,53,14165.0,Zehlendorf,+49308028981,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4234139,13.2419523,Steglitz-Zehlendorf,11006006
+267,656210648,mariannen-apotheke,,brunsbütteler damm,271,13591.0,Staaken,+49303664364,https://www.mariannen-apo-berlin.de/,"mo-fr 08:00-19:00; sa 08:00-14:00; su,ph off",yes,yes,52.5325457,13.1556432,Spandau,11005005
+268,658444284,apotheke am augustenburger platz,,triftstraße,37,13353.0,Wedding,,http://www.hauptstadt-apotheke.de/,mo-fr 09:00-19:00; sa 09:00-14:00,yes,yes,52.541849,13.3503744,Mitte,11001001
+269,658612646,schildhorn apotheke,,schloßstraße,19,12163.0,Steglitz,,,"mo-sa 09:00-20:00; su,ph off",yes,yes,52.4607968,13.3241522,Steglitz-Zehlendorf,11006006
+270,661092195,atlantis-apotheke,,wilmersdorfer straße,31,10585.0,Charlottenburg,+49303422926,https://www.atlantis-apotheke-berlin-app.de/,"mo-fr 09:00-19:00, sa 09:00-15:00",yes,yes,52.5130881,13.3048087,Charlottenburg-Wilmersdorf,11004004
+271,661126965,flora-apotheke,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.5172034,13.3043479,Charlottenburg-Wilmersdorf,11004004
+272,663008203,karlsbader apotheke,,karlsbader straße,18,14193.0,Schmargendorf,+493083224950,,mo-fr 08:30-19:00; sa 09:00-14:00,yes,no,52.4780536,13.2821088,Charlottenburg-Wilmersdorf,11004004
+273,665535053,pestalozzi apotheke,sarab ridha,kaiser-friedrich-straße,45a,10627.0,Charlottenburg,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,no,52.5080757,13.3018276,Charlottenburg-Wilmersdorf,11004004
+274,666388871,erasmus-apotheke,,hohenzollerndamm,47a,10713.0,Halensee,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,no,52.4886003,13.3013735,Charlottenburg-Wilmersdorf,11004004
+275,666961028,siemensstadt apotheke,,toeplerstraße,35,13627.0,Charlottenburg-Nord,+49303822076,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.5379148,13.2799585,Charlottenburg-Wilmersdorf,11004004
+276,667211329,fürstenplatz-apotheke,,,,,,,,"mo,tu,th,fr 08:00-19:30; sa 09:00-14:00; we 08:00-14:00",yes,yes,52.5123167,13.2653691,Charlottenburg-Wilmersdorf,11004004
+277,667211352,quant apotheke,,reichsstraße,105,14052.0,Westend,+493030823363,https://www.quant-apotheke.de/,"mo,tu,th 08:00-19:00; we,fr 08:00-18:00; sa 09:00-13:00",yes,yes,52.510638,13.2698479,Charlottenburg-Wilmersdorf,11004004
+278,667211375,raphael-apotheke,inh. kristin kneuß e.k.,reichsstraße,36,14052.0,Westend,,https://www.raphael-apo.de,"mo-fr 08:30-18:30,sa 08:30-13:00",,yes,52.5191931,13.2572734,Charlottenburg-Wilmersdorf,11004004
+279,667211386,reichs-apotheke,,,,,,,,mo-fr 08:00-19:00; sa 08:00-14:00,yes,limited,52.5158753,13.2609904,Charlottenburg-Wilmersdorf,11004004
+280,667211398,apotheke am steubenplatz,,reichsstraße,22,14052.0,,,,mo-fr 09:00-19:00; sa 09:00-13:30,yes,yes,52.5160655,13.2616014,Charlottenburg-Wilmersdorf,11004004
+281,668246090,barbara-apotheke,,ladenstraße,9-10,14169.0,Zehlendorf,+49308134088,https://www.barbara-apotheke-berlin.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.4497045,13.2530168,Steglitz-Zehlendorf,11006006
+282,668899440,apotheke am tierpark,,rummelsburger straße,13,10315.0,,+493051591623,https://www.apotheke-am-tierpark.de/,mo-fr 08:00-18:30; sa 09:00-12:00,yes,yes,52.504119,13.5124502,Lichtenberg,11011011
+283,670658040,königin-luise-apotheke,,bülowstraße,23,10783.0,,,,mo-fr 08:30-20:00; sa 08:30-14:00,yes,yes,52.4977903,13.3609228,Tempelhof-Schöneberg,11007007
+284,671210857,annen-apotheke,,ernststraße,62,13509.0,Borsigwalde,+493043566486,https://www.annen-apotheke-borsigwalde.de/,mo-fr 08:30-18:30; sa 08:30-13:00; ph off,yes,no,52.58365,13.301616,Reinickendorf,11012012
+285,671390314,vitacura-apotheke,,marchwitzastraße,29 b,12681.0,Marzahn,,https://www.vitacura-apotheke-berlin.de/,mo-fr 08:00-19:00; sa 09:00-13:00,yes,yes,52.5235741,13.5438535,Marzahn-Hellersdorf,11010010
+286,671488820,apotheke am s-bahnhof storkower straße,sylke möller,hermann-blankenstein-straße,38,10249.0,Prenzlauer Berg,,,mo-sa 09:00-18:00,yes,yes,52.5239265,13.4623091,Pankow,11003003
+287,671696780,westend - apotheke,,spandauer damm,130,14050.0,,,,mo-fr 08:30-18:00; sa 09:00-12:00,yes,yes,52.5185444,13.2787702,Charlottenburg-Wilmersdorf,11004004
+288,674086086,kronen-apotheke,,schönwalder straße,29,13585.0,Spandau,+493035503630,https://www.kronen-apotheke-spandau.de/,,yes,yes,52.5480636,13.2013519,Spandau,11005005
+289,674316062,gervinus-apotheke,,wilmersdorfer straße,106,10629.0,,,,mo-fr 08:30-19:00; sa 08:30-18:00,yes,no,52.5044892,13.3075551,Charlottenburg-Wilmersdorf,11004004
+290,678295768,waldsee-apotheke,,berliner straße,41,13467.0,Hermsdorf,+49304041045,http://www.waldsee-apotheke.de,,yes,yes,52.6208593,13.3136912,Reinickendorf,11012012
+291,689563385,christophorus-apotheke,,schloßstraße,88,12163.0,Steglitz,+49307912787,,mo-fr 08:30-19:00; sa 09:00-18:00,yes,limited,52.4576143,13.3217071,Steglitz-Zehlendorf,11006006
+292,691484619,althoff-apotheke,apothekerin daniela stoepel e.k.,bergstraße,9,12169.0,Steglitz,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4580136,13.3299507,Steglitz-Zehlendorf,11006006
+293,691484670,dr. krachts apotheke,abdolreza morad-reza,rheinstraße,52a,12161.0,Friedenau,+49308515565,http://drkrachtsapotheke.de/,mo-fr 08:30-19:00; sa 09:00-16:00,yes,no,52.4681185,13.3320209,Tempelhof-Schöneberg,11007007
+294,699533239,gartenstadt apotheke,,lieselotte-berger-platz,9,12355.0,Rudow,+493066920324,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.4041242,13.5072138,Neukölln,11008008
+295,699538009,apotheke alt-rudow,,alt-rudow,26,12357.0,Rudow,+49306635068,https://www.apotheke-alt-rudow-app.de/,"mo-fr 08:00-18:30, sa 08:00-14:00",yes,yes,52.4201063,13.4920406,Neukölln,11008008
+296,703042593,paracelsus apotheke,,neuköllner straße,208,12357.0,,,https://www.paracelsus-apotheke-berlin.de/,mo-fr 08:30-18:00; sa 08:00-14:00,yes,no,52.4292698,13.4779131,Neukölln,11008008
+297,703802174,meraner apotheke,,meraner straße,16,10825.0,Schöneberg,+49308536013,https://www.meraner-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-13:00,yes,yes,52.4866223,13.3386726,Tempelhof-Schöneberg,11007007
+298,715203766,möwen-apotheke,,helgolandstraße,1,14199.0,,,,mo-fr 08:00-18:30; sa 09:00-13:00,yes,yes,52.4729719,13.2991581,Charlottenburg-Wilmersdorf,11004004
+299,715203882,fortuna-apotheke,,uhlandstraße,86,10717.0,Wilmersdorf,+49308616011,https://www.apotheken.de/club/10717/fortuna-apotheke/,,yes,yes,52.4888204,13.3224732,Charlottenburg-Wilmersdorf,11004004
+300,715203887,josephinen apotheke,,uhlandstraße,79a,,,,,,yes,yes,52.4901513,13.3227162,Charlottenburg-Wilmersdorf,11004004
+301,715911607,suarez-apotheke,nelli smachtin,suarezstraße,64,14057.0,Charlottenburg,,,mo-fr 08:30-19:00; sa 09:00-15:00,yes,yes,52.5103771,13.2975749,Charlottenburg-Wilmersdorf,11004004
+302,718143915,apotheke am funkturm,,neue kantstraße,18,14057.0,Charlottenburg,+49303216761,https://www.apoamfunkturm.de/,"mo,tu,th,fr 08:30-18:30; we 08:30-18:00; sa 08:30-13:00",yes,no,52.5063159,13.2842068,Charlottenburg-Wilmersdorf,11004004
+303,730172940,goeben-apotheke,mojgan yousefi kamangar e.k.,goebenstraße,15a,10783.0,Schöneberg,+49302162454,https://www.goeben-apotheke.de,mo-fr 09:00-18:30; sa 09:00-13:00,yes,yes,52.4931996,13.3667198,Tempelhof-Schöneberg,11007007
+304,733902771,centrum apotheke,,lipschitzallee,68,12353.0,Gropiusstadt,,,,yes,yes,52.4254275,13.4630198,Neukölln,11008008
+305,737199963,gesundleben,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.5268005,13.478518,Lichtenberg,11011011
+306,738996191,kurmark apotheke,,kurfürstenstraße,154,10785.0,Schöneberg,+493026555477,http://www.apo-net.de/kurmark/index2.htm,mo-fr 08:30-19:00; sa 09:00-13:30,yes,no,52.4994495,13.3637956,Mitte,11001001
+307,747517159,nordend-apotheke,,,,,,,,mo-fr 09:00-18:00; sa 09:00-12:30,yes,no,52.5894147,13.4014334,Pankow,11003003
+308,753467604,mendel apotheke,,breite straße,6,13187.0,Pankow,,,mo-fr 08:00-19:00; sa 09:00-13:00,yes,yes,52.5714517,13.4108555,Pankow,11003003
+309,762002923,heide-apotheke,birgit schmidt e.kfr.,chemnitzer straße,203,12621.0,,+49305675290,https://www.heide-apotheke-berlin.de/,"mo-fr 08:30-18:30, sa 09:00-12:30; ph off",yes,no,52.4870402,13.5749614,Marzahn-Hellersdorf,11010010
+310,765341424,eulen apotheke,,florastraße,4,13187.0,Pankow,+493043724730,https://www.eulenruf.de/,"mo-fr 08:30-19:00, sa 09:00-14:00",yes,yes,52.5657093,13.397257,Pankow,11003003
+311,765566778,adler-apotheke,,teltower damm,31,14169.0,Zehlendorf,,https://www.adlerapoberlin.de/,"mo-fr 08:30-19:00; sa 08:30-14:00; su,ph off",yes,yes,52.4321449,13.2591411,Steglitz-Zehlendorf,11006006
+312,766742178,sternlicht apotheke,,körtestraße,22,10967.0,Kreuzberg,,,mo-fr 09:00-18:30; sa 09:00-14:00,yes,yes,52.4904307,13.4094009,Friedrichshain-Kreuzberg,11002002
+313,766875155,elefanten-apotheke,anne poppe e.k.,dörpfeldstraße,46,12489.0,Adlershof,+493067894942,https://www.elefanten-apotheke-berlin.de/,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.4382284,13.5480046,Treptow-Köpenick,11009009
+314,766875188,adler apotheke,oscar wilfried lienau e.k.,dörpfeldstraße,7,12489.0,Adlershof,+49306771440,https://www.adler-apotheke-adlershof-berlin.de/,"mo-fr 08:00-19:00, sa 09:00-14:00",yes,yes,52.4360165,13.543222,Treptow-Köpenick,11009009
+315,769270129,kopenhagener apotheke,,kopenhagener straße,2,13407.0,Reinickendorf,+49304955590,,"mo-fr 08:30-18:30, sa 08:30-13:00",yes,limited,52.5743966,13.3595153,Reinickendorf,11012012
+316,769318454,lindauer-apotheke,azam azadegan e.k.,residenzstraße,154,13409.0,Reinickendorf,,,"mo-fr 08:00-18:30; sa 08:00-13:00; ph,su off",yes,limited,52.573665,13.3594452,Reinickendorf,11012012
+317,769365479,apotheke am moritzplatz,,oranienstraße,158,10969.0,Kreuzberg,,,"mo,tu,th,fr 08:30-19:00; we 09:00-13:00",yes,yes,52.5028987,13.4129908,Friedrichshain-Kreuzberg,11002002
+318,769847926,urban-apotheke,,urbanstraße,39,10967.0,Kreuzberg,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4908644,13.4158532,Friedrichshain-Kreuzberg,11002002
+319,769847931,körte-apotheke,,grimmstraße,17,10967.0,Kreuzberg,,,mo-fr 09:00-18:30; sa 09:00-13:00,yes,yes,52.4919934,13.4137912,Friedrichshain-Kreuzberg,11002002
+320,770651959,sonnen apotheke,,langhansstraße,82,13086.0,Weißensee,+49305654720,https://www.sonnenapotheke-berlin.de/,mo-fr 09:00-18:00; sa 09:00-13:00,yes,limited,52.5544002,13.4317943,Pankow,11003003
+321,771332595,bavaria-apotheke,,ansbacher straße,53,10777.0,Schöneberg,+49302182225,http://www.apo-net.de/bavaria/index2.htm,mo-fr 08:30-19:00; sa 08:30-16:00,yes,yes,52.4979101,13.340083,Tempelhof-Schöneberg,11007007
+322,775342929,germania apotheke,apothekerin sabine brakowski e.k.,schloßstraße,29,12163.0,,+49307916975,https://germaniaapotheke-berlin.de,"mo-fr 08:30-19:00; sa 09:30-18:30; su,ph off",yes,yes,52.4589046,13.3223417,Steglitz-Zehlendorf,11006006
+323,775578347,prenzlauer apotheke,,prenzlauer allee,214,10405.0,Prenzlauer Berg,,https://www.prenzlauer-apotheke.de/,mo-fr 09:00-19:30; sa 09:00-18:00,yes,yes,52.5359441,13.4218153,Pankow,11003003
+324,795255878,brigitten-apotheke,,steglitzer damm,29,12169.0,Steglitz,,,mo-fr 08:30-19:00; sa 08:30-14:30,yes,yes,52.4509538,13.3409295,Steglitz-Zehlendorf,11006006
+325,808390982,brunnen-apotheke,,falkenberger chaussee,134,13057.0,Neu-Hohenschönhausen,+493092091464,https://www.brunnenapotheke-berlin.de/,"mo-fr 08:00-19:30, sa 09:00-12:00",yes,yes,52.5678366,13.5256044,Lichtenberg,11011011
+326,808390994,auxilia-apotheke,,prerower platz,4,13051.0,,,https://www.auxilia-apotheke.de/,sa 08:00-12:30; fr 08:00-18:30; mo-th 08:00-19:00,yes,yes,52.5648301,13.5075743,Lichtenberg,11011011
+327,808391031,falken-apotheke,,warnitzer straße,20,13057.0,Neu-Hohenschönhausen,,,mo-fr 08:30-18:00; sa 08:30-13:00,yes,yes,52.5673914,13.5180117,Lichtenberg,11011011
+328,811187886,nord-west-apotheke,,rathenower straße,26,10559.0,Moabit,,https://www.nord-west-apotheke-berlin.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.5323433,13.3509417,Mitte,11001001
+329,813811847,curtius-apotheke,,curtiusstraße,4,12205.0,Lichterfelde,,http://www.curtius-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.4429005,13.2960084,Steglitz-Zehlendorf,11006006
+330,816598789,apotheke am hansaplatz,,bartningallee,5,10557.0,Hansaviertel,,,mo-fr 09:00-18:30; sa 09:00-13:00,yes,yes,52.5187747,13.3429225,Mitte,11001001
+331,833390882,easyapotheke,mehmet geyik e.k.,schloßstraße,1,12163.0,Steglitz,+493079016052,https://forum-steglitz.easyapotheken.de/,mo-fr 09:00-20:00; sa 10:00-20:00,yes,yes,52.4646654,13.3261851,Steglitz-Zehlendorf,11006006
+332,848509143,apotheke berg,,skalitzer straße,133,10999.0,Kreuzberg,,,"mo,tu,th 08:30-19:00; we,fr 08:30-19:00; sa 10:00-18:00",yes,yes,52.4992782,13.4196742,Friedrichshain-Kreuzberg,11002002
+333,849520185,wilhelm-voigt-apotheke,,pablo-neruda-straße,2-4,12559.0,,+493065499919,https://www.wilhelm-voigt-apotheke.de/,"mo-fr 08:00-20:00, sa 08:00-16:00; ph off",yes,yes,52.4414305,13.5873859,Treptow-Köpenick,11009009
+334,853806321,grüne apotheke lichtenrade,apothekerin franziska bukowski,lichtenrader damm,24,12305.0,Lichtenrade,+49307428815,https://www.gruene-apotheke-lichtenrade.de/,mo-fr 08:30-18:30; sa 09:00-13:00,yes,no,52.4119945,13.4022416,Tempelhof-Schöneberg,11007007
+335,854996274,utrechter apotheke,,maxstraße,13,13347.0,Wedding,,,mo-fr 09:00-18:00; sa 09:00-13:00,yes,no,52.5506076,13.3630015,Mitte,11001001
+336,858380325,apotheke charlottenburg-nord,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.5353861,13.2863661,Charlottenburg-Wilmersdorf,11004004
+337,858382391,sanimedius-apotheke im plaza marzahn,,mehrower allee,20,12687.0,Marzahn,+493093798493,https://www.klee-apotheke.de/,mo-fr 08:00-18:30; sa 09:00-13:00,yes,yes,52.5555383,13.5592685,Marzahn-Hellersdorf,11010010
+338,876479038,grünberger apotheke,,grünberger straße,43-45,10245.0,Friedrichshain,,,mo-fr 08:00-19:00; sa 09:00-13:00,yes,yes,52.5121401,13.4551452,Friedrichshain-Kreuzberg,11002002
+339,928338769,zieten apotheke,,großbeerenstraße,11,10963.0,Kreuzberg,+49305471690,https://www.zietenapotheke.de,mo-fr 08:00-18:30; sa 09:00-14:00,yes,no,52.4981158,13.384792,Friedrichshain-Kreuzberg,11002002
+340,931658983,lucia-apotheke am wildenbruchplatz,,,,,,,,mo-fr 09:00-18:30,yes,yes,52.484367,13.4434517,Neukölln,11008008
+341,933513518,neue apotheke am see,,breisgauer straße,1A,14129.0,Schlachtensee,+4930810542770,,mo-sa 08:00-20:00,yes,yes,52.4390902,13.2153435,Steglitz-Zehlendorf,11006006
+342,956306643,apotheke q205,,friedrichstraße,68,10117.0,Mitte,,,"mo-fr 08:00-20:00, sa 09:00-19:00",yes,yes,52.5122639,13.3903812,Mitte,11001001
+343,977657079,achilles apotheke,,achillesstraße,69,13125.0,Karow,+493094380797,https://www.achillesapotheke.de/,,yes,limited,52.6171891,13.4903858,Pankow,11003003
+344,983454566,friedrich-apotheke,,frankfurter allee,100,10247.0,Friedrichshain,,,mo-fr 08:00-19:00; sa 09:00-14:00; ph off,yes,no,52.5136594,13.4731765,Friedrichshain-Kreuzberg,11002002
+345,992805862,flora-apotheke,,leonorenstraße,91,12247.0,Lankwitz,,,"mo,tu,th 08:30-18:30; we,fr 08:30-18:00; sa 08:30-13:00",yes,no,52.4372593,13.3451962,Steglitz-Zehlendorf,11006006
+346,998713196,wannsee apotheke,,königstraße,18,14109.0,Wannsee,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,,52.4196142,13.1575816,Steglitz-Zehlendorf,11006006
+347,1008402120,punkt apotheke,,,,,,,https://www.apotheken.de/club/12349/punkt-apotheke/,mo-fr 08:30-18:00; sa 08:30-13:00,yes,yes,52.4180116,13.436734,Neukölln,11008008
+348,1018833559,mozart apotheke,,wiener straße,18,10999.0,Kreuzberg,,,mo-fr 09:00-19:00; sa 09:00-14:00,yes,no,52.4976442,13.4306508,Friedrichshain-Kreuzberg,11002002
+349,1020532583,schmargendorfer apotheke,,breite straße,13,14199.0,Schmargendorf,+49308237784,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,no,52.4743541,13.2944008,Charlottenburg-Wilmersdorf,11004004
+350,1032978552,stern-apotheke,,landsberger allee,277,13055.0,,,,mo-sa 08:30-19:00,yes,yes,52.535795,13.4961485,Lichtenberg,11011011
+351,1037241970,damian apotheke,,falkenseer chaussee,196,13589.0,Falkenhagener Feld,+49303735792,,,yes,yes,52.5511687,13.163271,Spandau,11005005
+352,1038217551,falken-apotheke,,siegener straße,59,13583.0,Falkenhagener Feld,,,"mo,tu,th 08:00-19:00; we,fr 08:00-18:30; sa 08:00-14:00",yes,yes,52.5475503,13.1771981,Spandau,11005005
+353,1042258380,berolina apotheke,,clayallee,345,14169.0,Zehlendorf,+49308099600,https://www.berolina-apotheke.de/,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.4363152,13.2608479,Steglitz-Zehlendorf,11006006
+354,1051174903,süd-apotheke,,ladiusstraße,31,14165.0,Zehlendorf,+49308153248,,mo-fr 08:30-18:30; sa 09:00-13:00,yes,yes,52.4107881,13.2617669,Steglitz-Zehlendorf,11006006
+355,1075295993,stadt apotheke,,teltower damm,5,14169.0,Zehlendorf,,,"mo-fr 09:00-19:00; sa 09:00-16:00; su,ph off",yes,yes,52.4344191,13.2604293,Steglitz-Zehlendorf,11006006
+356,1082750111,staufen-apotheke,,clayallee,331,14169.0,Zehlendorf,+49308015044,https://www.staufenapotheke-berlin.de/,mo-fr 09:00-18:00; sa 09:00-13:00,yes,no,52.4375339,13.2615692,Steglitz-Zehlendorf,11006006
+357,1083676123,prinzen apotheke,,prinzenstraße,96,10969.0,Kreuzberg,,,"mo,we,fr 08:30-18:30; tu,th 08:30-19:00; sa 09:00-14:00",yes,yes,52.5010849,13.4083406,Friedrichshain-Kreuzberg,11002002
+358,1094105653,baba jaga,,,,,,,https://www.babajaga-apotheke-berlin.de,mo-fr 08:30-19:00; sa 08:30-14:00,,yes,52.5277137,13.5386173,Marzahn-Hellersdorf,11010010
+359,1110626664,apotheke zum goldenen anker,,,,,,,,mo-fr 09:00-18:30; sa 09:00-14:00,yes,limited,52.4903456,13.4277648,Neukölln,11008008
+360,1124601226,park-apotheke,,zeltinger platz,7,13465.0,Frohnau,,,mo-fr 08:30-18:00; sa 08:30-14:00,yes,no,52.6339256,13.2896726,Reinickendorf,11012012
+361,1124612201,ludolfinger-apotheke,,,,,,+49304011033,https://www.ludolfinger-apotheke.de,mo-fr 08:30-19:00; sa 08:30-14:00,yes,yes,52.6325774,13.2869838,Reinickendorf,11012012
+362,1143798306,pro-samed apotheke,,greifswalder straße,155,10409.0,Prenzlauer Berg,,https://www.pro-samed-apotheke.de/,mo-fr 08:00-19:00; su off; sa 09:00-13:00,yes,yes,52.5440277,13.4416805,Pankow,11003003
+363,1145597661,apotheke am tegeler see,,namslaustraße,83,13507.0,,+49304327788,,"mo-fr 08:30-18:00, sa 08:30-13:00",yes,,52.5774369,13.2791669,Reinickendorf,11012012
+364,1163265616,borussia-apotheke,ursula geibel,knobelsdorffstraße,4,14059.0,Charlottenburg,,,mo-fr 09:00-18:00,yes,limited,52.5136253,13.2956492,Charlottenburg-Wilmersdorf,11004004
+365,1169920988,easyapotheke,,großbeerenstraße,2,12107.0,Mariendorf,+493076106690,https://www.easyapotheken.de/mariendorf/,,yes,yes,52.4388221,13.380108,Tempelhof-Schöneberg,11007007
+366,1200964445,witzlebenapotheke24,witzleben apotheke,kaiserdamm,24,14057.0,Westend,+493093952030,https://witzleben-apotheke.de,"mo,tu,th 08:00-19:00; we,fr 08:00-18:30",yes,yes,52.5103117,13.2827609,Charlottenburg-Wilmersdorf,11004004
+367,1200964491,witzlebenapotheke26,witzleben apotheke,kaiserdamm,26,14057.0,Westend,+493093952000,https://witzleben-apotheke.de/,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.5102306,13.2814283,Charlottenburg-Wilmersdorf,11004004
+368,1212618057,sonnenschein-apotheke,,,,,,+493050378600,https://www.sonnenschein-apotheke-app.de/,mo-fr 08:00-18:30; sa 09:00-13:00,,yes,52.4787595,13.5243036,Lichtenberg,11011011
+369,1234501223,paul gerhardt apotheke,,,,,,+493045798050,https://www.paul-gerhardt-apotheke.de/,mo-fr 08:30-19:30; sa 09:00-14:00,yes,limited,52.5543245,13.3456342,Mitte,11001001
+370,1235266856,sonnen-apotheke,monika wahren e.k.,hultschiner damm,,12623.0,Mahlsdorf,+49305654720,https://sonnenapotheke-berlin.de/,mo-fr 08:30-18:30; sa 09:00-12:00; ph off,yes,yes,52.4805013,13.6013424,Marzahn-Hellersdorf,11010010
+371,1236581643,doc+ apotheke,,müllerstraße,40,13353.0,Wedding,,https://www.docplus-apotheke.de/,mo-fr 08:00-20:00; sa 08:00-18:00,yes,yes,52.5501219,13.3530389,Mitte,11001001
+372,1246989790,apotheke zum schwan,,oranienstraße,64,10969.0,Kreuzberg,,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,limited,52.5043488,13.4092742,Friedrichshain-Kreuzberg,11002002
+373,1252777062,schloss-apotheke tegel,,berliner straße,6,13507.0,Tegel,+49304338777,https://www.schlossapotheketegel.de/,mo-fr 08:00-20:00; sa 08:00-16:00,yes,yes,52.5885653,13.2843949,Reinickendorf,11012012
+374,1252944782,alte spree apotheke,,,,,,+49304339785,https://www.alte-spree-apotheke.de/,mo-fr 08:00-19:30; sa 09:00-17:00,yes,yes,52.5895474,13.2826806,Reinickendorf,11012012
+375,1257075697,apotheke am friedrichshain,,,,,,,,sa 08:30-12:30; mo-fr 08:00-18:30,yes,yes,52.5237553,13.4398917,Friedrichshain-Kreuzberg,11002002
+376,1298246171,vineta apotheke,,brunnenstraße,121,13355.0,Gesundbrunnen,,https://www.herz-apotheke-berlin.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.5405418,13.3938688,Mitte,11001001
+377,1298511709,apotheke am gartenplatz,,,,,,,,mo-fr 09:00-18:00; sa 09:00-13:00,yes,yes,52.5380192,13.3854708,Mitte,11001001
+378,1315650095,kur-apotheke,,mehringdamm,50,10961.0,,+49307861016,https://kaiser-apotheke-berlin.de/unsere-apotheken/kur-apotheke/,"mo-fr 08:30-19:30, sa 09:30-14:30",yes,yes,52.4920432,13.3869021,Friedrichshain-Kreuzberg,11002002
+379,1336599080,dr. rothes apotheke,gunnar arendt e.k.,bahnhofstraße,10,12555.0,Köpenick,+49306572151,https://www.dr-rothes-apotheke.de/,mo-fr 08:00-19:00; sa 08:30-13:00; ph off,yes,limited,52.4553026,13.5770429,Treptow-Köpenick,11009009
+380,1336725194,stadt-apotheke,susanne mackeldey e.k.,grünstraße,24,12555.0,Köpenick,+49306557463,https://www.stadt-apotheke-koepenick.de/,mo-fr 08:00-18:00; sa 09:00-13:00; ph off,yes,yes,52.444918,13.5747201,Treptow-Köpenick,11009009
+381,1336788980,süd-apotheke,,wendenschloßstraße,324a,12557.0,Köpenick,+49306559474,http://www.sued-apotheke-berlin.de,"mo-fr 08:00-19:00; sa 09:00-13:00; ph,su off",yes,yes,52.427899,13.5848235,Treptow-Köpenick,11009009
+382,1338226878,jumbo apotheke,,otto-schmirgal-straße,3,10319.0,,,,mo-fr 08:30-20:00; sa 08:30-16:00; ph off,,yes,52.4973391,13.5217595,Lichtenberg,11011011
+383,1365702036,haselhorster apotheke,,gartenfelder straße,109,13599.0,Haselhorst,+49303342367,https://www.haselhorster-apotheke.de,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.5424964,13.2388868,Spandau,11005005
+384,1374215630,immanuel apotheke,,immanuelkirchstraße,2,10405.0,Prenzlauer Berg,,,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.533075,13.4221508,Pankow,11003003
+385,1375170411,kiwi apotheke,,hugo-cassirer-straße,26,13587.0,,+493033771500,https://www.kiwi-apotheke.de/,"mo-fr 09:00-18:00; sa 09:00-13:00; su,ph off",yes,limited,52.557697,13.2189479,Spandau,11005005
+386,1397070332,dominicus apotheke,,hauptstraße,117,10827.0,Schöneberg,+49307486565,https://www.dominicus-apotheke.de/,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.4824434,13.3497166,Tempelhof-Schöneberg,11007007
+387,1400224784,fritz apotheke,michael lindenbacher,mariendorfer damm,165,12107.0,Mariendorf,+4930743046660,https://www.fritz-apotheke.de/,mo-fr 08:30-18:30; th 08:30-19:00; sa 08:30-13:30,yes,yes,52.4370757,13.388732,Tempelhof-Schöneberg,11007007
+388,1413247085,apotheke 97,,nonnendammallee,97,13629.0,Siemensstadt,+49303824234,,mo-fr 08:30-18:30; sa 09:00-13:30,yes,yes,52.5369189,13.2672695,Spandau,11005005
+389,1419134521,central apotheke,frau atanaska winkler,nonnendammallee,94,13629.0,Siemensstadt,+49303826006,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.5369057,13.2684032,Spandau,11005005
+390,1434256844,apotheke am bayerischen platz,helma heinrici,bayerischer platz,6,10779.0,Schöneberg,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.4885983,13.3390663,Tempelhof-Schöneberg,11007007
+391,1492336686,esmarch apotheke,,hufelandstraße,15,10407.0,Prenzlauer Berg,,,"mo-fr 09:00-13:30,14:30-18:30; sa 09:00-13:00",yes,yes,52.532136,13.431803,Pankow,11003003
+392,1498608858,apotheke biesdorf-süd,gabriele heyn,weißenhöher straße,88,12683.0,,+49305173711,,mo-sa 09:00-19:00,yes,yes,52.5060706,13.5582187,Marzahn-Hellersdorf,11010010
+393,1504564883,warschauer apotheke,gisela brückl,warschauer straße,56,10243.0,Friedrichshain,+493026948789,,"mo-fr 08:30-14:00,15:00-18:30; sa 10:30-14:00",yes,yes,52.5090106,13.451441,Friedrichshain-Kreuzberg,11002002
+394,1527942471,apotheke impuls,,karl-marx-straße,29,12043.0,Neukölln,,,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.4846388,13.4285441,Neukölln,11008008
+395,1552051348,mediosapotheke,,friedrichstraße,113A,10117.0,Mitte,+49302833530,https://www.mediosapotheke.de/,mo-su 08:00-24:00,yes,yes,52.5260899,13.3875545,Mitte,11001001
+396,1554257377,st.hildegard apotheke,,gersdorfstraße,50,12105.0,Mariendorf,,https://www.st-hildegard-apotheke-berlin.de/,mo-fr 08:30-18:15; sa 08:30-13:00,yes,no,52.4460352,13.372337,Tempelhof-Schöneberg,11007007
+397,1575512027,tannenberg apotheke,,birkbuschstraße,59,12167.0,Steglitz,+49307718824,,"mo-fr 08:30-19:00; sa 08:30-14:00; su,ph 10:00-18:00",yes,yes,52.4460263,13.329341,Steglitz-Zehlendorf,11006006
+398,1577132742,oskar helene apotheke,,clayallee,177,14195.0,Dahlem,,,"mo-fr 08:30-19:00; sa 09:00-14:00; su,ph off",yes,yes,52.4513152,13.269836,Steglitz-Zehlendorf,11006006
+399,1585171546,fleming apotheke,,zabel-krüger-damm,31,13469.0,Waidmannslust,+49304024085,,mo-fr 08:30-18:30;sa 08:30-14:00,yes,yes,52.6097315,13.3294059,Reinickendorf,11012012
+400,1597559553,apotheke am schlosspark,,hermann-hesse-straße,4a,13156.0,,,,mo-fr 08:00-19:00; sa 08:00-14:00; ph off,yes,yes,52.581118,13.4024597,Pankow,11003003
+401,1617416107,aktiv apotheke,,ostpreußendamm,139,12207.0,Lichterfelde,,,mo-fr 08:30-19:00; sa 09:00-15:00,yes,yes,52.4231693,13.3137602,Steglitz-Zehlendorf,11006006
+402,1617419904,apotheke im schweizer viertel,,lausanner straße,83,12205.0,Lichterfelde,,https://www.apotheke-im-schweizer-viertel.de/,mo-fr 08:30-20:00; sa 09:00-16:00,yes,yes,52.4268932,13.3036661,Steglitz-Zehlendorf,11006006
+403,1624585364,vital-apotheke,,skalitzer straße,15,10999.0,Kreuzberg,,,mo-fr 08:30-19:00; sa 09:00-16:00,yes,yes,52.4988803,13.4203076,Friedrichshain-Kreuzberg,11002002
+404,1628927163,apotheke im pankeviertel,,blankenburger straße,153,13127.0,,+49304767060,,mo-fr 08:30-18:30; sa 09:00-12:00,yes,,52.5881829,13.4282736,Pankow,11003003
+405,1632227368,linden apotheke,,lindenstraße,1a,12207.0,Lichterfelde,,https://www.linden-apotheke-lichterfelde.de/,mo-fr 08:30-18:00; sa 08:30-13:00,yes,yes,52.4174336,13.3059616,Steglitz-Zehlendorf,11006006
+406,1636830086,blaue apotheke,robert roggenbuck,,,,,,,mo-fr 08:30-18:30; sa 09:30-14:00,yes,yes,52.4939436,13.4601281,Treptow-Köpenick,11009009
+407,1640616159,bären-apotheke,,oranienburger straße,85-86,13437.0,Wittenau,+493040911112,http://www.baeren-apotheke-berlin.de,mo-fr 08:00-19:30; sa 08:00-14:30,yes,yes,52.595082,13.3333432,Reinickendorf,11012012
+408,1654832841,hausapotheke - vivantes klinikum neukölln,,kormoranweg,45,12351.0,,,https://www.vivantes.de/knk/apotheke-sued,,yes,no,52.4367426,13.4564982,Neukölln,11008008
+409,1655132802,sundgauer apotheke,,berliner straße,43b,,,,,,yes,yes,52.4385108,13.2707693,Steglitz-Zehlendorf,11006006
+410,1659884034,märkische apotheke,,müllerstraße,33,13353.0,Wedding,,,mo-fr 08:30-19:00; sa 09:00-18:00,yes,yes,52.5483468,13.3562137,Mitte,11001001
+411,1663350357,bezirksapotheke,melanie dolfen e. kfr.,warschauer straße,27,10243.0,Friedrichshain,,https://www.bezirksapotheke.de/am-friedrichshain/,mo-fr 08:00-20:00; sa 09:00-18:00,yes,yes,52.5101873,13.4511485,Friedrichshain-Kreuzberg,11002002
+412,1678448395,forst apotheke,,forststraße,31,12163.0,Steglitz,,,mo-fr 08:30-18:00; sa 08:00-13:00,yes,no,52.4652856,13.3104944,Steglitz-Zehlendorf,11006006
+413,1703401473,apotheke am schillerplatz,,stubenrauchstraße,58,12161.0,Friedenau,,,mo-fr 08:30-18:30; sa 09:00-13:00,yes,no,52.471767,13.3235696,Tempelhof-Schöneberg,11007007
+414,1704256871,lichtenrader apotheke,,barnetstraße,41-42,12305.0,Lichtenrade,+493074685667,https://www.lichtenrader-apotheke.de/,mo-fr 08:00-20:00; sa 08:00-18:00,yes,yes,52.3981287,13.3914745,Tempelhof-Schöneberg,11007007
+415,1719664188,apotheke am anton-saefkow-platz,,anton-saefkow-platz,8,10369.0,Fennpfuhl,,,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.5286228,13.4714754,Lichtenberg,11011011
+416,1721061596,apotheke in nikolassee,,prinz-friedrich-leopold-straße,3,14129.0,Nikolassee,,https://www.aponik.de/,"mo-fr 09:00-18:30; tu,th 09:00-19:00; sa 09:00-13:00",Apotheke in Nikolassee,yes,52.4300081,13.1949978,Steglitz-Zehlendorf,11006006
+417,1777151508,apotheke am stadtrand,,ahrensfelder chaussee,141,12689.0,Marzahn,+49309375468,https://www.apotheke-am-stadtrand.de/,mo-fr 08:30-18:30,yes,yes,52.5708343,13.5635073,Marzahn-Hellersdorf,11010010
+418,1782386007,zieten apotheke rudow,,köpenicker straße,184,12355.0,Rudow,+49306631092,https://neueapotheke.net/,mo-fr 08:30-18:30; sa 08:30-13:30,yes,no,52.4184421,13.496804,Neukölln,11008008
+419,1828707071,rennbahn apotheke,,rennbahnstraße,22-23,13086.0,Weißensee,+49309253104,https://www.rennbahn-apotheke.de/,mo-fr 08:00-18:30; sa 08:00-13:00,yes,yes,52.5603111,13.4591942,Pankow,11003003
+420,1833509167,apotheke am bahnhof grunewald,,fontanestraße,4,14193.0,Grunewald,,,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.4870726,13.2640301,Charlottenburg-Wilmersdorf,11004004
+421,1845158730,wollank apotheke,gisela poser,wollankstraße,30,13359.0,Gesundbrunnen,+493049907923,https://www.wollank-apotheke-berlin.de/,mo-fr 08:00-18:30; sa 09:00-14:00,yes,no,52.5636023,13.3910866,Mitte,11001001
+422,1863567226,schwanen apotheke,,hans-otto-straße,42,10407.0,Prenzlauer Berg,,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,yes,52.532715,13.43824,Pankow,11003003
+423,1866461768,ostsee-apotheke,,greifswalder straße,137,10409.0,Prenzlauer Berg,,,mo-fr 08:00-19:00,,yes,52.5461931,13.4455087,Pankow,11003003
+424,1905963630,fasanen-apotheke,,uhlandstraße,158,10719.0,Wilmersdorf,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,limited,52.4987789,13.3248652,Charlottenburg-Wilmersdorf,11004004
+425,1906515104,emser apotheke,,emser straße,44,10719.0,Wilmersdorf,+49308811119,https://www.emser-apotheke.de/,"mo,tu,th,fr 09:00-18:00; sa 09:00-13:00; we 09:00-15:00",yes,yes,52.4967633,13.3198452,Charlottenburg-Wilmersdorf,11004004
+426,1914403852,ranke-apotheke,,joachimsthaler straße,24,10719.0,Wilmersdorf,+49308814565,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,yes,52.5000244,13.3305311,Charlottenburg-Wilmersdorf,11004004
+427,1914552632,apotheke am ludwigkirchplatz,,pariser straße,47,10719.0,Wilmersdorf,+49308811418,https://www.apotheke-am-ludwigkirchplatz-berlin.de/,mo-fr 08:30-19:00; sa 08:30-14:00,yes,no,52.4970403,13.3234022,Charlottenburg-Wilmersdorf,11004004
+428,1933362462,viereck apotheke,,wiltbergstraße,25,13125.0,Buch,,,"mo-fr 08:00-19:00, sa 08:00-13:00",yes,yes,52.6360319,13.4934176,Pankow,11003003
+429,1948961324,charlotten-apotheke,,,,,,,,"mo-fr 08:30-18:30, sa 08:30-13:30",yes,yes,52.518856,13.2898547,Charlottenburg-Wilmersdorf,11004004
+430,1948961329,falken-apotheke,,danckelmannstraße,51,14059.0,Charlottenburg,+49303221551,https://www.apotheken.de/club/14059/falken-apotheke,mo-fr 09:00-18:30; sa 09:00-13:30,yes,no,52.5152489,13.290931,Charlottenburg-Wilmersdorf,11004004
+431,1963129662,atoll-apotheke,c. reiners e.k.,hermannstraße,158A,12051.0,Neukölln,,,mo-fr 09:00-19:00,yes,yes,52.4674061,13.4318149,Neukölln,11008008
+432,2013009698,cottbusserdamm apotheke,,,,,,,,mo-fr 08:30-18:30; sa 09:00-15:00,yes,yes,52.4951332,13.4204287,Friedrichshain-Kreuzberg,11002002
+433,2018710520,ibis apotheke,,neuköllner straße,261,12357.0,,+49306614004,,"mo-fr 08:30-18:30, sa 08:30-13:00",yes,yes,52.4257157,13.4838189,Neukölln,11008008
+434,2026247343,adler apotheke,,,,,,,,mo-we 09:00-19:00; th-sa 09:00-20:00;su off,yes,yes,52.5247222,13.5580924,Marzahn-Hellersdorf,11010010
+435,2026466974,abacus apotheke,,,,,,,,,,,52.5345031,13.5521929,Marzahn-Hellersdorf,11010010
+436,2038240175,sanimedius-apotheke im spreecenter,ronald clasen,hellersdorfer straße,77,12619.0,Hellersdorf,+49305622113,https://www.spreecenter-apotheke-berlin.de,"mo-fr 08:00-19:00, sa 08:00-16:00; ph off",yes,yes,52.5211516,13.5874121,Marzahn-Hellersdorf,11010010
+437,2039162001,apotheke wutzky-center,,,,,,+49306612674,https://www.apo-wutzky.de/,mo-fr 08:30-19:00; sa 08:00-16:00,yes,yes,52.4227979,13.4754642,Neukölln,11008008
+438,2046807703,wartenberger apotheke,,egon-erwin-kisch-straße,32,13059.0,Neu-Hohenschönhausen,+49309298017,,mo-fr 08:00-19:00; sa 09:00-13:00,yes,limited,52.5730689,13.5049041,Lichtenberg,11011011
+439,2098147261,doc maier,,siemensstraße,2,12247.0,Steglitz,,,mo-sa 08:30-19:00; su 08:30-14:00,yes,yes,52.4467545,13.3418127,Steglitz-Zehlendorf,11006006
+440,2098221272,markus apotheke,,albrechtstraße,51,12167.0,Steglitz,+49307958130,,mo-fr 09:00-18:00; sa 09:00-13:00,yes,yes,52.4481027,13.3397351,Steglitz-Zehlendorf,11006006
+441,2110613369,oldenburger apotheke,,oldenburger straße,37,10551.0,Moabit,,,"mo,th 08:30-19:00; tu,we,fr 08:30-18:30; sa 08:30-13:00",yes,yes,52.5302571,13.3359327,Mitte,11001001
+442,2139861333,meine apotheke,,olivaer platz,17,10707.0,Wilmersdorf,,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,yes,52.4996926,13.3125891,Charlottenburg-Wilmersdorf,11004004
+443,2139861379,cornelia-apotheke,,konstanzer straße,4,10707.0,Wilmersdorf,,,mo-fr 08:30-18:30; sa 08:30-14:00,yes,limited,52.4983773,13.311957,Charlottenburg-Wilmersdorf,11004004
+444,2169170618,preussen apotheke spandau,,carl-schurz-straße,29,13597.0,,,,"mo-fr 08:30-18:30; sa 09:00-15:00; su,ph off",yes,yes,52.5368301,13.2024674,Spandau,11005005
+445,2181178545,linden apotheke,,,,,,,,mo-fr 09:00-18:00; sa 09:30-13:00,yes,yes,52.506761,13.398262,Friedrichshain-Kreuzberg,11002002
+446,2251295178,masuren-apotheke ohg,"homam rasheed, dr. fadi mansoor",angerburger allee,45,14055.0,Westend,+49303045968,https://www.masuren-apotheke.de/,,yes,yes,52.5094033,13.2223693,Charlottenburg-Wilmersdorf,11004004
+447,2273462199,easyapotheke,,egon-erwin-kisch-straße,80,13059.0,,,,,,yes,52.56849,13.5108472,Lichtenberg,11011011
+448,2274239284,vitalis apotheke,,,,,,,,"mo-fr 08:00-19:00, sa 08:00-13:00",yes,yes,52.5688682,13.5162437,Lichtenberg,11011011
+449,2288127751,moabiter apotheke,,alt-moabit,18,10559.0,Moabit,,,"mo-fr 08:00-18:30, sa 08:00-14:00; ph off",yes,no,52.5243574,13.3522408,Mitte,11001001
+450,2320532525,havelland-apotheke,,sakrower landstraße,6,14089.0,,+49303655955,https://www.havelland-apotheke-kladow.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4531286,13.1422529,Spandau,11005005
+451,2320629344,apotheke am wittenbergplatz,,bayreuther straße,44,10787.0,Schöneberg,,http://www.apotheke-am-wittenbergplatz.de,mo-fr 08:30-18:30,yes,yes,52.5035594,13.3444884,Tempelhof-Schöneberg,11007007
+452,2325407968,dafne-apotheke,,karl-marx-straße,231-235,12055.0,Neukölln,,,mo-sa 09:00-20:30,yes,yes,52.4684978,13.4427459,Neukölln,11008008
+453,2423122288,octopus apotheke,,waidmannsluster damm,176,13469.0,,+493041109110,https://octopus-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-13:00,yes,,52.6065358,13.3192004,Reinickendorf,11012012
+454,2424327600,süd-apotheke,heike steinhausen,hultschiner damm,24,12623.0,,+493056702347,https://suedapotheke-mahlsdorf.de/,"mo-fr 08:00-18:30, sa 08:00-12:30; ph off",,yes,52.4766287,13.6007627,Marzahn-Hellersdorf,11010010
+455,2429162139,löwen apotheke,,ollenhauerstraße,110a,13403.0,,,https://www.loewen-apo-berlin.de/,"mo,tu,th,fr 08:30-18:30, we 08:30-18:00, sa 08:30-14:00",yes,limited,52.5696336,13.3297842,Reinickendorf,11012012
+456,2439759182,lilien-apotheke,,theodor-heuss-platz,6,14052.0,Westend,+493022194380,,mo-fr 08:00-19:30; sa 08:00-16:00,yes,limited,52.5101677,13.2724807,Charlottenburg-Wilmersdorf,11004004
+457,2445456645,sylter apotheke,,berliner straße,37,10715.0,Wilmersdorf,+49308614211,https://www.sylter-apotheke.de/,mo-fr 08:30-18:30; sa 09:00-14:00,yes,limited,52.4866571,13.3215081,Charlottenburg-Wilmersdorf,11004004
+458,2476268050,blitz apotheke,,wexstraße,30,10715.0,Wilmersdorf,,,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.478841,13.3299374,Charlottenburg-Wilmersdorf,11004004
+459,2484338009,sonnenapotheke,mohammed el azouzi,sonnenallee,76,12045.0,,,,mo-fr 08:30-19:00; sa 09:00-14:00,yes,yes,52.4835661,13.4358446,Neukölln,11008008
+460,2496651331,kreuzberg apotheke,,mehringdamm,69,10961.0,Kreuzberg,+49306937739,http://www.kreuzberg-apotheke-berlin.de,mo-fr 08:00-20:00; sa 09:00-14:00,yes,limited,52.4902187,13.3870554,Friedrichshain-Kreuzberg,11002002
+461,2516120286,flora-apotheke seit 1880,,berliner allee,109,13088.0,Weißensee,+49309250107,,"mo-fr 08:00-19:00, sa 09:00-13:00",yes,no,52.5504319,13.4597629,Pankow,11003003
+462,2541179150,apotheke zum elefanten,,karl-marx-straße,150,12043.0,,+49306875079,,mo-fr 08:30-19:30; sa 09:00-18:00,yes,no,52.4762082,13.4391375,Neukölln,11008008
+463,2541258991,easyapotheke,,wilmersdorfer straße,64,10627.0,Charlottenburg,,,mo-fr 09:00-19:30; sa 09:00-19:00,yes,yes,52.5065338,13.3064648,Charlottenburg-Wilmersdorf,11004004
+464,2557710789,spree-apotheke,,alt-moabit,86b,10555.0,,,,"mo-fr 08:00-19:00, sa 09:00-14:00",yes,yes,52.5253262,13.342,Mitte,11001001
+465,2638963983,richthofen-apotheke,,manfred-von-richthofen-straße,15,12101.0,Tempelhof,,,sa 08:30-14:00; mo-fr 08:00-18:30,yes,yes,52.4831066,13.3826359,Tempelhof-Schöneberg,11007007
+466,2713665583,apotheke im bismarck-karree,,bismarckstraße,45-47,10627.0,Charlottenburg,,,mo-fr 08:00-19:00,yes,yes,52.5117094,13.3046182,Charlottenburg-Wilmersdorf,11004004
+467,2717366804,stadtpark-apotheke,,albrechtstraße,94,12167.0,Steglitz,+49307955090,https://www.stadtpark-apotheke-berlin.de/,mo-fr 09:00-19:00; sa 09:00-14:00,yes,no,52.4523689,13.3335365,Steglitz-Zehlendorf,11006006
+468,2779341569,saint charles apotheke,,pariser straße,20,10707.0,Wilmersdorf,+493088725300,http://www.saintcharles.de/stcharles_berlin.html,mo-fr 08:00-19:00; sa 09:00-16:00,yes,limited,52.4985147,13.317788,Charlottenburg-Wilmersdorf,11004004
+469,2782835460,sanitas apotheke,,oraniendamm,6-10,13469.0,Waidmannslust,+493040396922,,mo-fr 08:30-20:00; sa 09:00-20:00,yes,yes,52.6078978,13.3255639,Reinickendorf,11012012
+470,2796710201,apotheke hackesches quartier,,henriette-herz-platz,3,10178.0,Mitte,,https://www.apotheke-hackesches-quartier.de/,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.5221812,13.4024813,Mitte,11001001
+471,2820029176,apotheke an der alten schule,stephan liebreich e.k.,dörpfeldstraße,55,12489.0,Adlershof,+49306773830,http://www.versandapotheke-adlershof.de,mo-fr 08:00-20:00; sa 08:00-16:00,,no,52.4387416,13.5506904,Treptow-Köpenick,11009009
+472,2829271312,regenbogen apotheke,stefan rezepa e.k,seestraße,64,13347.0,,+49304558665,https://regenbogen-apotheke.berlin/,"mo-tu,th-fr 08:30-19:00; we 08:30-15:00",yes,yes,52.5537925,13.3593721,Mitte,11001001
+473,2857712871,achat apotheke,,brunnenstraße,160,10115.0,Mitte,,,mo-fr 08:00-19:00; sa 08:30-13:30,yes,yes,52.5347618,13.3977794,Mitte,11001001
+474,2864467602,post-apotheke buckow,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4245859,13.4360037,Neukölln,11008008
+475,2864491450,apotheke alt-buckow,,,,,,,,mo-fr 08:00-19:00; sa 08:00-14:00,yes,yes,52.4231003,13.4356893,Neukölln,11008008
+476,2867498526,gertrauden apotheke,,,,,,,,mo-fr 08:00-18:30; sa 08:00-13:00,yes,yes,52.4205157,13.4273954,Neukölln,11008008
+477,2872185601,kloster-apotheke,,klosterstraße,6/7,13581.0,Spandau,+49303311900,https://www.kloster-apotheke-berlin.de/,mo-fr 08:00-18:30; sa 08:00-13:00,yes,yes,52.5323465,13.1975304,Spandau,11005005
+478,2917786907,apotheke am steubenplatz,,reichsstraße,22,14052.0,Westend,,,,,,52.5160627,13.2616016,Charlottenburg-Wilmersdorf,11004004
+479,2952546845,neue apotheke,,residenzstraße,137,,,,,mo-fr 08:00-19:00; sa 09:00-14:30; su off,yes,no,52.5703596,13.3612245,Reinickendorf,11012012
+480,2952573359,residenz apotheke,,,,,,,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,no,52.5667626,13.3630766,Reinickendorf,11012012
+481,2969309057,märkische apotheke kladow,,kladower damm,366,14089.0,Kladow,,https://www.mapok.de/,"mo-th 08:30-19:00; we,fr 08:30-18:30; sa 08:30-14:00",yes,yes,52.4549833,13.1446817,Spandau,11005005
+482,2998135448,amtsfeld-apotheke,,salvador-allende-straße,2–8,12559.0,,,,mo-fr 07:30-19:00; sa 08:00-13:00,yes,,52.4405588,13.5939645,Treptow-Köpenick,11009009
+483,3012143573,falken-apotheke,ute nitzer,edisonstraße,18,12459.0,Oberschöneweide,+49305351125,https://www.falken-apo-berlin.de/,mo-fr 08:00-18:30; sa 08:30-13:00,yes,no,52.464407,13.5138972,Treptow-Köpenick,11009009
+484,3041745938,manteuffel-apotheke,,manteuffelstraße,19,12103.0,Tempelhof,,https://www.manteuffel-apotheke.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4604721,13.3763073,Tempelhof-Schöneberg,11007007
+485,3045761935,amsel-apotheke,,rostocker straße,15,13059.0,Neu-Hohenschönhausen,+493096203963,https://www.amsel-apotheke-app.de/,mo-fr 08:00-20:00; sa 08:00-15:00,yes,,52.5745184,13.5094017,Lichtenberg,11011011
+486,3072343433,apotheke am viktoria-luise-platz,,viktoria-luise-platz,9,10777.0,Schöneberg,+493021967226,https://www.apoviktoria.de/,mo-fr 08:30-18:30; sa 09:00-14:00,yes,yes,52.4952479,13.3410681,Tempelhof-Schöneberg,11007007
+487,3080747241,ginkko-apotheke,,walter-friedrich-straße,6,13125.0,Buch,,,mo-fr 08:00-19:30,yes,yes,52.6343256,13.4943853,Pankow,11003003
+488,3089158088,leuchtturm apotheke,claudia spieß e.k.,heinsestraße,32-34,13467.0,Hermsdorf,,,"mo-fr 08:00-19:00, sa 08:30-14:00;su,ph off",yes,yes,52.6169159,13.3070697,Reinickendorf,11012012
+489,3112851447,schlosspark-apotheke,,walter-friedrich-straße,4A,13125.0,Buch,,,"mo-fr 08:00-19:00, sa 09:00-15:00",yes,yes,52.6348377,13.4955488,Pankow,11003003
+490,3118107216,apotheke am ukb,,,,,,,https://apotheke-am-ukb.de,"mo-fr 08:00-19:00, sa 09:00-13:00",yes,yes,52.5191748,13.5645435,Marzahn-Hellersdorf,11010010
+491,3157838594,apotheke zum zirkel,jürgen drescher,beckerstraße,4,12157.0,Schöneberg,+493085600861,https://www.apotheke-zum-zirkel.de/,mo-fr 08:30-18:30; sa 08:30-13:30,yes,no,52.4672036,13.342445,Tempelhof-Schöneberg,11007007
+492,3157917186,lauter apotheke,anna fredrich e.k.,rheinstraße,2,12159.0,Friedenau,+49308524403,https://www.lauter-apotheke.de,mo-fr 09:00-18:30; sa 09:00-14:00,yes,yes,52.4713396,13.3347336,Tempelhof-Schöneberg,11007007
+493,3167654650,apotheke am hermannplatz,,,,,,,,"mo,tu,th,fr 08:30-19:00; we 08:30-18:00; sa 09:00-14:00",yes,limited,52.4875333,13.4256151,Neukölln,11008008
+494,3206454429,karolinen apotheke,herr s. stoof,schloßstraße,5,13507.0,Tegel,+493043655510,,"mo,tu,th 08:30-19:00; we,fr 08:30-18:30",yes,yes,52.5912527,13.28343,Reinickendorf,11012012
+495,3216711374,eick apotheke,,oranienstraße,7,10997.0,Kreuzberg,,,mo-fr 08:30-19:00; sa 09:00-15:00,yes,no,52.4998605,13.4247979,Friedrichshain-Kreuzberg,11002002
+496,3229138232,diana apotheke,,schloßstraße,116,12163.0,Steglitz,+493079788430,https://www.diana-apotheken-berlin.de/filialen/berlin-steglitz/,"mo-fr 08:00-20:00; sa 09:00-19:00; su,ph off",yes,yes,52.4622982,13.3262168,Steglitz-Zehlendorf,11006006
+497,3300157792,karow apotheke,,bucher chaussee,1-3,13125.0,Karow,+493094380913,,,yes,,52.616322,13.4855923,Pankow,11003003
+498,3307700070,elisabeth apotheke,,prenzlauer allee,184,10405.0,Prenzlauer Berg,+493044651717,,mo-fr 08:00-19:00; sa 09:00-14:00,yes,yes,52.5426874,13.4258787,Pankow,11003003
+499,3310052861,apotheke rosenthaler platz,,weinbergsweg,1,10119.0,Mitte,,,mo-fr 08:00-20:00; sa 09:00-18:00,yes,yes,52.5299308,13.4017313,Mitte,11001001
+500,3310698935,apotheke an der galenusstraße,,galenusstraße,59,13187.0,Pankow,,,mo-fr 08:00-18:30; sa 09:00-13:00,yes,,52.5806283,13.4237469,Pankow,11003003
+501,3328474346,birken-apotheke karow,,bahnhofstraße,17A,13125.0,Karow,+490309430542,,"mo,tu,th 08:00-18:30; we,fr 08:00-18:00; sa 08:30-13:00",yes,no,52.6119717,13.4742827,Pankow,11003003
+502,3331787468,aschenbachs apotheke,,georgenstraße,25,10117.0,Mitte,,,mo-fr 07:00-20:00; sa 10:00-17:00,,yes,52.5196854,13.3874475,Mitte,11001001
+503,3334327193,apotheke 4.0,apotheken im center,turmstraße,29,10551.0,Moabit,,https://apotheken-im-center.info/berlin/de/apotheke-4.0.php,mo-sa 08:00-21:00,,yes,52.526505,13.3417528,Mitte,11001001
+504,3337674441,kristall apotheke,kathrin wernecke e.kfr.,tegeler weg,3,10589.0,Charlottenburg,,,mo-fr 08:30-18:30,yes,no,52.5233862,13.299693,Charlottenburg-Wilmersdorf,11004004
+505,3337738729,apotheke am heckerdamm,,heckerdamm,225,13627.0,Charlottenburg-Nord,+493034901533,https://www.apotheke-am-heckerdamm.de/,mo-fr 08:00-18:30; sa 08:00-13:30,yes,,52.5390832,13.2994523,Charlottenburg-Wilmersdorf,11004004
+506,3337776414,eva-apotheke,,schönwalder straße,78-79,13585.0,,+49303753573,https://www.eva-apotheke-berlin.de/,mo 08:00-18:30;sa 08:00-13:30,yes,no,52.5492831,13.2003621,Spandau,11005005
+507,3338623569,apotheke wilhelmstraße,,wilhelmstraße,24B,13593.0,Wilhelmstadt,+4930365093010,https://apotheke-wilhelmstrasse.de/,mo-sa 08:00-20:00,,yes,52.5212776,13.1854103,Spandau,11005005
+508,3338651114,gesundheits-apotheke,,schönefelder chaussee,233,12524.0,Altglienicke,+49306734185,http://www.docmorris-apotheke.de/de/apotheken/list/berlin/altglienicke-schoenefeld/,mo-fr 08:00-19:00; sa 08:00-14:00,yes,yes,52.4029704,13.5240121,Treptow-Köpenick,11009009
+509,3339491292,titisee apotheke,,titiseestraße,5,13469.0,,+49304022980,https://www.titisee-apotheke-berlin.de/,mo-fr 08:30-18:00; sa 08:30-13:00,,yes,52.6092923,13.335399,Reinickendorf,11012012
+510,3340079413,oran-apotheke,,oranienburger straße,60,13437.0,Wittenau,+49304140990,https://www.oran-apotheke-berlin.de/,mo 08:00-18:30;tu 08:00-19:30;we 08:00-18:30;th 08:00-19:30;fr 08:00-18:30;sa 08:00-13:00,yes,yes,52.5894338,13.3346308,Reinickendorf,11012012
+511,3341588831,kolonie-apotheke,ahmed aziz,koloniestraße,22,13359.0,,+493049913399,,mo-fr 08:30-19:00; sa 09:00-13:00,yes,,52.5578575,13.3787231,Mitte,11001001
+512,3350477701,nordkreuz apotheke,ling girgsdies e.k.,hanne-sobek-platz,,13357.0,,+493049917111,https://www.nordkreuz-apotheke.de/,mo-fr 08:00-20:00; su 10:00-16:00; sa 09:00-19:00,no,yes,52.548374,13.3887526,Mitte,11001001
+513,3353191483,berlinda apotheke,,schloßstraße,34,12163.0,Steglitz,,,mo-fr 09:00-20:00; sa 10:00-20:00,yes,yes,52.4576052,13.3197716,Steglitz-Zehlendorf,11006006
+514,3353229504,mediosapotheke,,,1,13187.0,Pankow,,,sa 09:00-16:00; mo-fr 08:00-19:00,yes,yes,52.567326,13.4108465,Pankow,11003003
+515,3353236089,arcaden-apotheke,,,,,,+49303300100,https://www.arcaden-apotheke.com/spandau,mo-fr 09:00-21:00; sa 10:00-21:00,yes,yes,52.5334895,13.1975602,Spandau,11005005
+516,3353252595,arcaden-apotheke,,tempelhofer damm,227,12099.0,Tempelhof,,,mo-fr 09:00-20:00; sa 10:00-20:00,yes,yes,52.456063,13.3862617,Tempelhof-Schöneberg,11007007
+517,3353551041,sky apotheke kreuzberg,,bergmannstraße,5-7,10961.0,Kreuzberg,,,,,yes,52.4895389,13.3888023,Friedrichshain-Kreuzberg,11002002
+518,3354050334,friedrich-wilhelm apotheke,,friedrich-wilhelm-platz,6,12161.0,Friedenau,,,mo-fr 08:15-18:30; sa 09:00-13:00,yes,limited,52.4721004,13.3275938,Tempelhof-Schöneberg,11007007
+519,3357535140,kollwitz-apotheke,,,,,,,,mo-fr 09:00-19:00; sa 09:00-16:00,yes,yes,52.5361903,13.4182329,Pankow,11003003
+520,3374665796,krankenhaus-apotheke,,,,,,,,mo-fr 07:30-17:00; sa 09:00-12:00,no,,52.5438614,13.3446673,Mitte,11001001
+521,3411987196,wittekind-apotheke am attilaplatz,,manteuffelstraße,32,12103.0,Tempelhof,+49307523045,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4565876,13.3754259,Tempelhof-Schöneberg,11007007
+522,3446123445,sophien-apotheke,,invalidenstraße,157,10115.0,Mitte,,,mo-fr 08:00-19:00; sa 08:00-14:00,yes,yes,52.5323503,13.3968456,Mitte,11001001
+523,3472167668,apotheke goltzstraße,apotheker david bekerman e.k.,goltzstraße,35,10781.0,Schöneberg,,,mo-fr 09:00-19:00; sa 09:00-17:00,yes,yes,52.4939336,13.3535927,Tempelhof-Schöneberg,11007007
+524,3556800140,fontane-apotheke,,uhlandstraße,28,10719.0,Wilmersdorf,+493088701720,https://www.fontane-apotheke-berlin-app.de/,mo-fr 08:30-19:30; sa 09:00-18:00,yes,no,52.5015768,13.3249245,Charlottenburg-Wilmersdorf,11004004
+525,3625376503,titania apotheke,apothekerin sonja lessing e. k.,markelstraße,3,12163.0,Steglitz,,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,no,52.463688,13.3261596,Steglitz-Zehlendorf,11006006
+526,3632641123,feurig-apotheke,konstantin lamboy,hauptstraße,131,10827.0,Schöneberg,+493078709309,https://feurig-apotheke.de/,sa 09:00-14:00; mo-fr 08:30-19:00,yes,yes,52.4843624,13.3533655,Tempelhof-Schöneberg,11007007
+527,3632641432,pommern apotheke,,hauptstraße,152,10827.0,Schöneberg,,,mo-fr 08:30-18:30; sa 09:00-13:00,yes,yes,52.4885088,13.3588471,Tempelhof-Schöneberg,11007007
+528,3644288801,schloss apotheke,dagmar wilhelm e.kfr.,rudower straße,13,12557.0,Köpenick,+493065880970,http://www.schlossapotheke-berlin.de/,mo-fr 08:30-18:30; sa 08:30-13:00; su off,yes,no,52.4440241,13.5671809,Treptow-Köpenick,11009009
+529,3652905896,rheinstein-apotheke,,rheinsteinstraße,4-10,10318.0,Karlshorst,+493050159099,https://www.rheinstein-apotheke.de/,mo-fr 08:00-18:30; sa 09:00-14:00,,yes,52.48275,13.5270224,Lichtenberg,11011011
+530,3662929427,cranach apotheke,,cranachstraße,6,12157.0,Schöneberg,,,mo-fr 08:30-18:30; sa 08:30-13:00,,yes,52.4682275,13.3418488,Tempelhof-Schöneberg,11007007
+531,3666540067,roland apotheke,,motzstraße,68,10777.0,Schöneberg,+49302182276,https://www.roland-apotheke-berlin-app.de/,mo-fr 08:30-18:30; sa 08:30-13:30,yes,yes,52.4947915,13.3384366,Tempelhof-Schöneberg,11007007
+532,3675973919,apotheke in der metropole,,joachimsthaler straße,21,10719.0,Charlottenburg,+493088550033,https://www.apotheke-metropole-berlin.de/,"mo-fr 08:30-19:00; sa-su,ph off",yes,yes,52.5006408,13.3306491,Charlottenburg-Wilmersdorf,11004004
+533,3678881033,apotheke am zoo,,joachimsthaler straße,38,10623.0,Charlottenburg,,,mo-fr 08:30-19:00; sa 09:00-16:00,yes,yes,52.5045271,13.3317185,Charlottenburg-Wilmersdorf,11004004
+534,3686215389,mörike apotheke,lars rieck e.k.,baumschulenstraße,90-91,12437.0,,+493053699720,https://www.moerike-apotheke.de/,mo-fr 08:00-19:30; sa 08:00-14:00,yes,yes,52.4659153,13.4870512,Treptow-Köpenick,11009009
+535,3727826475,greifswalder apotheke,,greifswalder straße,207A,,,,,mo-fr 08:00-19:30; sa 09:00-14:00,yes,limited,52.5328339,13.4286374,Pankow,11003003
+536,3770254015,apotheke am bärenschaufenster,,erich-kurz-straße,11,10319.0,,+49305129106,,mo-fr 08:30-18:30,yes,yes,52.4974009,13.5197847,Lichtenberg,11011011
+537,3772676294,linden-apotheke,,prerower platz,1,13051.0,,,https://www.lindenapotheke-app.de/,,,yes,52.5648805,13.5063233,Lichtenberg,11011011
+538,3775184617,pannier-apotheke,,,,,,,,mo-fr 08:30-19:00; sa 09:00-15:00,,yes,52.4864104,13.4299259,Neukölln,11008008
+539,3803786798,apotheke im gesundheitsforum köpenick,,,,,,,,"mo,tu,th 08:00-19:00; we 08:00-14:00; fr 08:00-18:00",yes,yes,52.4598672,13.5798681,Treptow-Köpenick,11009009
+540,3826013963,magnus apotheke,,motzstraße,11,10777.0,Schöneberg,,https://www.apomagnus.de/,mo-fr 08:30-20:00; sa 09:00-16:00,,yes,52.4984847,13.3508484,Tempelhof-Schöneberg,11007007
+541,3826455882,quartier apotheke nolleturm,,nollendorfplatz,3-4,10777.0,Schöneberg,,,mo-fr 08:30-20:00; sa 09:00-17:00,,yes,52.4993503,13.3522231,Tempelhof-Schöneberg,11007007
+542,3826455892,viapharm,,kleiststraße,34,10787.0,Schöneberg,,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,limited,52.500298,13.3489734,Tempelhof-Schöneberg,11007007
+543,3834271596,humboldt-apotheke,,lützowstraße,93,10785.0,Tiergarten,,,"mo-fr 08:30-18:00, sa 08:30-13:00",yes,no,52.5027647,13.3665376,Mitte,11001001
+544,3844572789,st. annen apotheke,,eisenacher straße,46,10823.0,Schöneberg,,,mo-fr 08:30-18:30; sa 08:30-13:00,yes,limited,52.4883801,13.3490721,Tempelhof-Schöneberg,11007007
+545,3859397154,quartier apotheke maaßenstraße,"quartier apotheke nollendorfplatz e.k., kai uwe wilken-prozesky",maaßenstraße,3,10777.0,Schöneberg,,,mo-fr 08:30-20:00; sa 09:00-20:00,yes,yes,52.498601,13.3544313,Tempelhof-Schöneberg,11007007
+546,3861762721,hermes-apotheke,,bleibtreustraße,40,10623.0,Charlottenburg,,,mo-fr 08:30-19:00; sa 09:00-15:00,yes,limited,52.5027976,13.3197952,Charlottenburg-Wilmersdorf,11004004
+547,3883143867,sonnen-apotheke,annette arendt,wilhelminenhofstraße,27,12459.0,Oberschöneweide,+49305376785,https://www.sonnen-apotheke-osw.de/,mo-fr 08:00-19:00; sa 08:30-13:00,,no,52.4618568,13.5171942,Treptow-Köpenick,11009009
+548,3883215153,kant - apotheke,christine kempfert,griechische allee,24,12459.0,Oberschöneweide,,,mo-fr 08:00-18:30; sa 08:00-13:00,,no,52.4638103,13.5184661,Treptow-Köpenick,11009009
+549,3914041314,sedan apotheke,hans-christian milhahn,albrechtstraße,41,12167.0,,+49307916097,,"mo-fr 09:00-18:30, sa 09:00-13:00",,yes,52.4510523,13.3356849,Steglitz-Zehlendorf,11006006
+550,3941585864,jasmin apotheke,,lortzingstraße,42,13355.0,Gesundbrunnen,,https://www.jasmin-apotheke.de/,mo-fr 08:30-18:30; sa 08:30-13:30,yes,limited,52.5427547,13.3929225,Mitte,11001001
+551,3978727083,pharmland,,,,,,,,mo-sa 09:00-19:00,,yes,52.4522616,13.5867921,Treptow-Köpenick,11009009
+552,3987051088,casana-apotheke,,oberweißbacher straße,7-9,12687.0,,,https://www.casana-apotheke-berlin.de/,mo-fr 09:00-18:00; sa 09:00-13:00,yes,yes,52.5574272,13.5705133,Marzahn-Hellersdorf,11010010
+553,4010310541,sonnenhut apotheke,katrin paul e. kfr.,riesaer straße,102,12627.0,,+493099401840,https://www.sonnenhutapotheke.de/,"mo-fr 08:00-18:30,sa 08:30-13:00; ph off",yes,,52.5302632,13.6207446,Marzahn-Hellersdorf,11010010
+554,4116109275,easyapotheke marzahn,,,,,,,,"mo,tu,th,fr 08:00-18:30; sa 08:00-13:00; we 08:00-15:00",,yes,52.5441347,13.5484221,Marzahn-Hellersdorf,11010010
+555,4119531056,bären-apotheke,,elsenstraße,99,12435.0,,,,mo-fr 08:00-18:30; sa 08:30-13:00,,,52.4885571,13.4538009,Treptow-Köpenick,11009009
+556,4197401453,die herz apotheke 12,,badstraße,12,,,,,mo-fr 08:00-18:30; sa 08:00-13:00,,yes,52.5506141,13.385108,Mitte,11001001
+557,4221018789,apotheke helle mitte,heike häring e.k.,fritz-lang-platz,6,12627.0,,+493099401040,https://www.apo-hellemitte.de/,"mo-fr 08:00-19:00, sa 08:00-14:00; ph off",,yes,52.5376932,13.6022698,Marzahn-Hellersdorf,11010010
+558,4234162689,sky apotheke,,müllerstraße,142,13353.0,Wedding,+493068402707,,,,yes,52.5487229,13.3544811,Mitte,11001001
+559,4235016190,grüne apotheke,,fritz-lang-straße,5,12627.0,,+49309913060,http://www.apo-berlin.de,"mo,tu,th,fr 09:00-18:00, we 09:00-14:00; ph off",,,52.536915,13.6028472,Marzahn-Hellersdorf,11010010
+560,4318602145,melanchthon apotheke,,,,,,,,mo-fr 09:00-18:00; sa 09:00-13:00,,yes,52.5191421,13.197578,Spandau,11005005
+561,4347330563,apotheke am adenauerplatz,,,,,,,,mo-fr 08:30-19:00; sa 09:00-16:00,yes,yes,52.50064,13.3075874,Charlottenburg-Wilmersdorf,11004004
+562,4365384392,löwenburg-apotheke,,alt-blankenburg,67a,13129.0,,+493094516340,https://www.loewenburg-apotheke.de/,"mo-fr 08:00-19:30; sa 08:30-14:00; su,ph off",,yes,52.5937649,13.4607566,Pankow,11003003
+563,4381928183,apotheke am bundesplatz,michaela kröger,bundesplatz,3,10715.0,,+493085405670,https://www.apotheke-bundesplatz.de/,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4796809,13.3276877,Charlottenburg-Wilmersdorf,11004004
+564,4396193589,müggel-apotheke,,,,,,,,mo-fr 08:00-18:30; sa 08:00-13:00,,yes,52.4125675,13.660795,Treptow-Köpenick,11009009
+565,4396385781,apotheke am t-damm,pinar toprak,tempelhofer damm,198-200,12099.0,Tempelhof,+493075512815,https://www.tdammapotheke.de/,"mo-fr 08:30-19:30, sa 08:30-16:00",yes,limited,52.4586221,13.3840737,Tempelhof-Schöneberg,11007007
+566,4413004968,rosen-apotheke,,,,,,,,"mo,tu,th,fr 09:00-18:30; we 09:00-18:00; sa 09:00-13:00",,,52.5651319,13.324363,Reinickendorf,11012012
+567,4415351535,humboldt-apotheke,apotheker sliman dirki e.kfm.,chausseestraße,7,10115.0,Mitte,,,mo-fr 09:00-19:00; sa 09:00-14:00,,limited,52.5281171,13.3863624,Mitte,11001001
+568,4436482370,dafne apotheke,,badstraße,32,13357.0,Gesundbrunnen,,,mo-fr 08:30-18:30; sa 09:30-14:00,,yes,52.5529761,13.3801354,Mitte,11001001
+569,4439765092,drive in,,,,,,,,mo-fr 07:30-20:00; sa 07:30-18:00,,yes,52.6343857,13.4943757,Pankow,11003003
+570,4485201590,apotheke alt-lichtenrade,,groß-ziethener straße,35,12309.0,Lichtenrade,,,"mo,tu,th 08:00-19:00; we,fr 08:00-18:30; sa 08:00-14:00",,yes,52.3943701,13.410495,Tempelhof-Schöneberg,11007007
+571,4508100704,südend-apotheke,,,,,,,https://www.suedendapotheke.de/,mo-fr 08:30-18:30; sa 08:30-13:00,,no,52.4497048,13.3478529,Steglitz-Zehlendorf,11006006
+572,4514495946,falken-apotheke,,,,,,+493092799330,https://www.bk-apo.de/,mo-fr 08:30-19:00; sa 08:30-13:00,,,52.553737,13.4751797,Pankow,11003003
+573,4580235141,easyapotheke residenzstraße,,residenzstraße,33,13409.0,,,,mo-fr 08:00-19:00; sa 09:00-15:00,,yes,52.56738,13.3621478,Reinickendorf,11012012
+574,4590302593,bärenapotheke,,clayallee,225,14195.0,Dahlem,,,,,yes,52.4495841,13.2694016,Steglitz-Zehlendorf,11006006
+575,4590578897,schneemann's apotheke rahnsdorf,,fürstenwalder allee,318,12589.0,Rahnsdorf,,https://www.schneemannsapotheke.de,mo-fr 08:30-18:00,,yes,52.4315546,13.715511,Treptow-Köpenick,11009009
+576,4630466562,wilhelm-tell-apotheke,,,,,,,,"mo-fr 08:00-18:30, sa 08:00-14:00",,limited,52.5662533,13.3456239,Reinickendorf,11012012
+577,4630466565,primus-apotheke,,,,,,,,,,,52.5678274,13.3514899,Reinickendorf,11012012
+578,4656560689,zwilling apotheke,r. h. scheer,,,,,+49308979990,http://www.zwilling-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-14:00,,no,52.467232,13.3082149,Steglitz-Zehlendorf,11006006
+579,4682866291,haus apotheke,,landsberger allee,117,10407.0,,,https://haus-apotheke-berlin.de/,mo-fr 08:00-20:00; sa 08:00-16:00; ph off,,yes,52.5290131,13.4566633,Pankow,11003003
+580,4715153492,rathaus-apotheke,,bölschestraße,59,12587.0,Friedrichshagen,,,mo-fr 08:00-19:00; sa 09:00-14:00,,yes,52.4544602,13.6254184,Treptow-Köpenick,11009009
+581,4737978945,kleo apotheke,,müllerstraße,130,13349.0,Wedding,+493026594844,,mo-fr 08:30-19:30; sa 09:00-18:00,,yes,52.5520193,13.3487888,Mitte,11001001
+582,4767441824,corso apotheke,corso-apotheke,,,,,,,,,yes,52.5292971,13.5926423,Marzahn-Hellersdorf,11010010
+583,4936116186,,,,,,,,,,,,52.5463275,13.5924702,Marzahn-Hellersdorf,11010010
+584,4936408725,puls apotheke,,goltzstraße,39,12307.0,Lichtenrade,+493070784791,https://www.puls-apotheke-berlin.de/,mo-fr 08:30-18:30; sa 09:00-13:00,yes,yes,52.3870475,13.4092711,Tempelhof-Schöneberg,11007007
+585,4957605786,kastanienaphotheke,,kastanienallee,37-38,13158.0,,,,,,,52.5919888,13.3829714,Pankow,11003003
+586,5099191724,apotheke des westens,,rankestraße,34,10789.0,Charlottenburg,,,"ph,su off; mo 08:00-20:00; tu-fr 08:00-19:00; sa 09:00-18:00",yes,yes,52.5035548,13.3351723,Charlottenburg-Wilmersdorf,11004004
+587,5136059327,apotheke am kurfürstendamm,,kurfürstendamm,200,10719.0,Charlottenburg,,,,,yes,52.5014929,13.320417,Charlottenburg-Wilmersdorf,11004004
+588,5168728119,edelweiss apotheke,,hauptstraße,29A,13158.0,Wilhelmsruh,,,"mo-fr 08:00-18:30; sa 08:00-13:00; su,ph off",,yes,52.5869484,13.3682051,Pankow,11003003
+589,5181703340,königliche hof-apotheke,dr. sabine maria knoll-schütze,otto-suhr-allee,89,10585.0,Charlottenburg,,,"mo-fr 09:00-19:00; sa 09:00-14:00; su,ph off",yes,yes,52.516328,13.3091043,Charlottenburg-Wilmersdorf,11004004
+590,5244950366,tilia apotheke,,,,,,+493048476134,https://tilia-apotheke-berlin.de,"mo-fr 09:00-19:00, sa 09:00-12:00",,yes,52.5608476,13.3688276,Reinickendorf,11012012
+591,5266816861,apotheke am weißen see,rené rogge,berliner allee,168,13088.0,,+493089038390,http://apotheke-am-weissen-see.de,mo-fr 08:30-18:00,,yes,52.5531267,13.4674421,Pankow,11003003
+592,5381166353,kiez-apotheke,,schnellerstraße,127,12439.0,Niederschöneweide,,,"mo-fr 08:00-19:00; sa 09:00-13:00; su,ph off",yes,yes,52.4564723,13.5107243,Treptow-Köpenick,11009009
+593,5471345775,center apotheke,,,,,,,,mo-fr 08:30-19:00; sa 08:30-14:00,yes,,52.5609831,13.422458,Pankow,11003003
+594,5505144605,thüringer apotheke,anja schmitt,mainzer straße,13,10715.0,Wilmersdorf,+49308534290,https://thueringer-apotheke.de,mo-fr 08:30-18:30; sa 08:30-13:00,yes,yes,52.4797463,13.3265646,Charlottenburg-Wilmersdorf,11004004
+595,5539552743,apotheke an der dorfkirche,,potsdamer straße,53,14163.0,,,,mo-fr 09:00-18:00; sa 09:00-13:00,yes,,52.4350381,13.2594338,Steglitz-Zehlendorf,11006006
+596,5558763418,kloster-apotheke,,,,,,+49306631051,,mo-fr 08:00-19:00; sa 08:00-14:00,yes,,52.4167392,13.4961631,Neukölln,11008008
+597,5570687529,linden-apotheke,jonny neumann,mark-twain-straße,1,12627.0,,+49309917085,,"mo-fr 08:00-18:30, sa 09:00-12:30; ph off",,,52.5336443,13.6093932,Marzahn-Hellersdorf,11010010
+598,5617991157,zedern-apotheke,nuriye örs-reppert e.kfr.,gustav-müller-straße,48,10829.0,,+49307828670,https://www.zedernapotheke.de/,mo-fr 08:00-18:30; sa 08:30-13:00,yes,,52.4852031,13.3627094,Tempelhof-Schöneberg,11007007
+599,5625098623,hermsdorfer apotheke,,,,,,,,"mo,tu,th 08:00-19:00; we,fr 08:00-18:30",,yes,52.6178582,13.3083377,Reinickendorf,11012012
+600,5777420980,schönhauser apotheke,nico daniel reinold,danziger straße,5,10435.0,,+49304427767,,mo-fr 08:00-19:00; sa 08:30-14:00,yes,yes,52.5409918,13.4135467,Pankow,11003003
+601,5838129619,apotheke im polikum friedenau,astrid scherer,,,12157.0,,+4930720110810,https://apotheke-im-polikum-friedenau.de/,mo-fr 08:00-20:00,yes,yes,52.4638126,13.3449085,Tempelhof-Schöneberg,11007007
+602,5971003197,die herz apotheke,,seeburger straße,8,13581.0,Wilhelmstadt,,,mo- fr 08:00-18:30; sa 08:00-14:00,yes,yes,52.5286371,13.1918731,Spandau,11005005
+603,6006371223,lorbeer-apotheke,,danziger straße,133,10407.0,Prenzlauer Berg,,,mo-fr 08:30-19:00; sa 08:30-20:00; su 10:00-20:00,,yes,52.5353496,13.4355276,Pankow,11003003
+604,6143046477,pluspunkt apotheke potsdamer platz,,,,,,+49302559220,https://www.pluspunkt-apotheke.de,"mo-fr 09:00-19:00; sa 10:00-19:00; ph,su off",yes,yes,52.506893,13.3736538,Mitte,11001001
+605,6200110157,adler-apotheke,,konrad-wolf-straße,132,13055.0,Alt-Hohenschönhausen,,,mo-fr 08:00-18:30; sa 08:00-13:00,yes,yes,52.5464133,13.4974134,Lichtenberg,11011011
+606,6254464585,apotheke im kadewe,,,,,,,https://www.apothekeimkadewe.de/,,yes,,52.5011294,13.340043,Tempelhof-Schöneberg,11007007
+607,6308903438,bio 7.0 apotheke,marietta dubinski e.k.,kurfürstendamm,203-205,10719.0,,+493088723997,https://www.apotheke-bio.de/,mo-fr 08:30-20:00; sa 09:00-20:00,yes,yes,52.5017853,13.3223333,Charlottenburg-Wilmersdorf,11004004
+608,6316429002,stier-apotheke,,hauptstraße,76,12159.0,,+49308512031,https://www.stier-apotheke.de/,mo-fr 08:30-18:30; sa 09:00-14:00,yes,yes,52.4740181,13.3379088,Tempelhof-Schöneberg,11007007
+609,6501792388,am schäfersee,,,,,,,,mo-fr 08:30-18:30; sa 08:00-13:00,,,52.5622445,13.3567494,Reinickendorf,11012012
+610,6510008627,feuerland-apotheke,,chausseestraße,42,10115.0,,,https://feuerlandapotheke-berlin.de,mo-fr 08:00-19:00; sa 09:00-16:00,yes,yes,52.5339592,13.3791115,Mitte,11001001
+611,6518240976,olms-apotheke,,rixdorfer straße,117,12109.0,,+49307032077,https://www.olms-apotheke.de/,"mo-fr 08:30-13:00,14:00-18:30; sa 08:30-13:00",yes,no,52.4444414,13.3999635,Tempelhof-Schöneberg,11007007
+612,6939573755,apotheke an der dahme,,regattastraße,79,12527.0,,+493067489001,,mo-fr 08:00-18:30; sa 08:30-13:00; ph closed,,yes,52.4209973,13.5780562,Treptow-Köpenick,11009009
+613,7039246613,apotheke im regierungsviertel,,wilhelmstraße,93,10117.0,Mitte,,https://www.aporeg.com/,"mo-fr 09:00-18:00; sa 09:00-14:00; su,ph off",yes,yes,52.512012,13.3825855,Mitte,11001001
+614,7039503416,die city apotheke,,hermannstraße,51,12049.0,,,,mo-fr 09:00-19:00; sa 10:00-18:00,,,52.4779916,13.4257337,Neukölln,11008008
+615,7072465637,neumann apotheke,,hönower straße,16,12623.0,Mahlsdorf,,,mo-fr 08:00-20:00; sa 09:00-18:00; ph off,,yes,52.5062602,13.6130564,Marzahn-Hellersdorf,11010010
+616,7090489961,dolgensee-apotheke,sabine fischer e.kfr,dolgenseestraße,8a,10319.0,Friedrichsfelde,,,"mo-fr 08:00-18:30; sa 08:00-12:30; su,ph off",yes,yes,52.4938077,13.5073306,Lichtenberg,11011011
+617,7093679841,reseda-apotheke,,,,,,+49309263148,https://reseda-apotheke.de/,mo-fr 08:30-18:30; sa 09:00-13:00,yes,no,52.5533211,13.4343492,Pankow,11003003
+618,7223008667,burg-apotheke,,,,,,,,mo-fr 08:30-18:30; sa 08:30-13:30,,no,52.4146728,13.3473596,Tempelhof-Schöneberg,11007007
+619,7235438319,schneemanns apotheke,carolin und stefanie schneemann,hansastraße,236,13051.0,,,https://www.schneemannsapotheke.de/,"mo-fr 9:00-19:00, sa 09:00-16:00",yes,,52.5609423,13.4995745,Lichtenberg,11011011
+620,7627061713,fontane apotheke,,,,,,,,mo-fr 08:00-19:00; sa 09:00-14:00,,yes,52.5371206,13.2042266,Spandau,11005005
+621,7723893754,unsere apotheke,,bayerischer platz,9,10779.0,,,https://www.unsere-apotheke.com/,mo-fr 08:30-18:30; sa 08:30-14:00,yes,,52.4881753,13.3405964,Tempelhof-Schöneberg,11007007
+622,7822423712,herzpunkt apotheke,,,,,,+4930400487740,https://www.herzpunkt-apotheke-berlin.de,mo-th 08:00-19:00; fr 08:00-18:30; sa 09:00-14:00,yes,yes,52.5459056,13.4285582,Pankow,11003003
+623,7829177030,zentrum apotheke,hans-jürgen bracht e.k.,obstallee,28-30,13593.0,,,,mo-fr 08:30-19:00; sa 08:30-14:00; ph off,yes,yes,52.5218384,13.1632186,Spandau,11005005
+624,7843356143,apotheke am leipziger platz,,leipziger platz,12,,,,,mo-fr 09:00-20:00; sa 10:00-20:00,,yes,52.5099924,13.3813001,Mitte,11001001
+625,7858528547,falken-apotheke,,turmfalkenstraße,25,13505.0,,+49304313733,,,yes,,52.5846771,13.2289448,Reinickendorf,11012012
+626,7887845846,apotheke im ring-center ii,,frankfurter allee,113-117,10365.0,Lichtenberg,,,mo-sa 09:00-20:00; ph off,yes,,52.5145499,13.4757696,Lichtenberg,11011011
+627,7924001320,cäcilien apotheke,,holtzendorffstraße,16,14057.0,,+49303238140,http://www.caecilien-apotheke-charlottenburg.de/,mo-fr 09:00-19:00; sa 09:00-14:00,yes,no,52.505317,13.295222,Charlottenburg-Wilmersdorf,11004004
+628,7951875987,fürst bismarck apotheke,ilka stamp,wrangelstraße,47,10997.0,Kreuzberg,,,mo-fr 08:00-18:30; sa 08:30-14:00,yes,limited,52.4990942,13.4404067,Friedrichshain-Kreuzberg,11002002
+629,8139335201,löwenzahn apotheke,,louis-lewin-straße,99,12627.0,Hellersdorf,+493099400609,https://www.loewenzahnapotheke.de/,mo-fr 08:00-19:00; sa 08:00-13:00,yes,yes,52.536995,13.6204854,Marzahn-Hellersdorf,11010010
+630,8463977955,löwenzahn-apotheke,,ribnitzer straße,24,13051.0,,,,,yes,,52.5702396,13.4954864,Lichtenberg,11011011
+631,8464152653,känguruh-apotheke,,wittenberger straße,72,12689.0,,,,,yes,,52.5646969,13.5711546,Marzahn-Hellersdorf,11010010
+632,8464152657,atrium-apotheke,,,,,,,,mo-fr 08:00-19:00; sa 09:00-13:00,yes,,52.5684906,13.5686949,Marzahn-Hellersdorf,11010010
+633,8668129617,rialto,,prenzlauer allee,146,,,,,mo-fr 08:00-18:30; sa 08:00-14:00,yes,yes,52.5487826,13.4286319,Pankow,11003003
+634,8761696565,zehlendorf apotheke,,teltower damm,19,14169.0,,+4930810585550,https://www.zehlendorf-apotheke.de,mo-fr 08:30-19:00; sa 09:30-15:30,yes,yes,52.4330755,13.2597431,Steglitz-Zehlendorf,11006006
+635,9048798363,easyapotheke,lars rieck e.k.,karl-marx-straße,66,12043.0,,+493069572000,,mo-fr 09:00-21:00; sa 10:00-21:00,yes,,52.4818918,13.4318468,Neukölln,11008008
+636,9665677325,pelikan discount apotheke,,tempelhofer damm,126,12099.0,,+49307579280,https://pelikan-apotheke-berlin.de/,"mo-th 08:30-19:00; we,fr 08:30-18:30; sa 09:00-15:00",yes,,52.4682465,13.3852028,Tempelhof-Schöneberg,11007007
+637,9705828231,grüne apotheke schmargendorf,,berkaer straße,"41,42",14199.0,Schmargendorf,+493053605993,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,,52.4764885,13.2887772,Charlottenburg-Wilmersdorf,11004004
+638,9799003817,bromelia apotheke,,märkische allee,172,12681.0,,,https://www.bromelia-apotheke.de,"mo-fr 09:00-19:00; sa 08:00-14:00; ph,su off",,yes,52.5340933,13.5380235,Marzahn-Hellersdorf,11010010
+639,9818005937,apotheke heerstraße-nord,,,,,,,,mo-fr 08:30-18:30; sa 09:00-13:30,,,52.521879,13.1620771,Spandau,11005005
+640,9861117952,panda-apotheke,,marienfelder chaussee,160,12349.0,Buckow,,https://panda-apotheke-berlin.de/,"mo,tu,th 08:00-19:00; we,fr 08:00-18:30; sa 08:00-14:00",yes,,52.4153134,13.4030883,Neukölln,11008008
+641,9901787917,apotheke am kutschi,,ollenhauerstraße,3-5,13403.0,,+493085622710,https://www.gesundleben-apotheken.de/apotheke-am-kutschi/,mo-fr 08:00-19:00; sa 09:00-14:00,,yes,52.5642372,13.3284535,Reinickendorf,11012012
+642,10018043153,city apotheke,,pauline-staegemann-straße,2-4,10249.0,Friedrichshain,,,mo-fr 09:00-18:00; sa 09:00-13:00,,yes,52.525689,13.4222821,Friedrichshain-Kreuzberg,11002002
+643,10033057617,buchholzer apotheke,,hauptstraße,14,13127.0,Französisch Buchholz,,,mo-fr 08:00-19:00; sa 08:00-13:00,,,52.6052569,13.4323738,Pankow,11003003
+644,10109657661,prager apotheke,dr. goetz krauter,,1-3,10779.0,,,,"mo-fr 09:00-18:00 , sa 09:00-14:00",yes,yes,52.4938498,13.3326554,Charlottenburg-Wilmersdorf,11004004
+645,10658455542,+1 apotheke,mayada al-hashimi e.k.,brunnenstraße,64,13355.0,,+49304634069,https://www.plus1apotheke.de/,mo-fr 08:00-18:30; sa 08:00-13:00,yes,yes,52.540412,13.3948502,Mitte,11001001
+646,10717290064,weissenseer apotheke,marco sliwa,schönstraße,7,,,,,"mo,tu,th 08:00-19:00; we,fr 08:00-18:30; sa 09:00-13:00",,yes,52.5536278,13.4507454,Pankow,11003003
+647,10804876421,,,,,,,,,,,,52.4411922,13.6889974,Treptow-Köpenick,11009009
+648,10982679274,easy apotheke,,,,,,,,,,,52.5992401,13.3549158,Reinickendorf,11012012
+649,10983944860,großkreuz-apotheke,,,,,,,,mo-sa 09:00-20:00,,yes,52.597978,13.3557529,Reinickendorf,11012012
+650,10983962574,äskulap-apotheke,,,,,,,,mo-fr 08:30-20:00; sa 08:30-16:00,,,52.597539,13.3557984,Reinickendorf,11012012
+651,11078666918,friedrichsberg-apotheke,,schulze-boysen-straße,35,10365.0,,,https://www.friedrichsberg-apotheke.de/,mo-fr 08:30-19:00; sa 08:30-13:00,,yes,52.5082273,13.4798799,Lichtenberg,11011011
+652,11260371583,alt marzahner apotheke,,allee der kosmonauten,198,,,+493054397720,https://www.alt-marzahner-apotheke.de/,mo-fr 08:00-19:00; sa 08:00-13:00,,,52.5416626,13.5641461,Marzahn-Hellersdorf,11010010
+653,11418681907,brücken apotheke,apothekerin christine marsitzky,allee der kosmonauten,47,12681.0,Marzahn,,,mo-fr 08:00-18:30,yes,,52.5261333,13.5341455,Marzahn-Hellersdorf,11010010
+654,11589912368,kienberg-apotheke,,suhler straße,35-37,12629.0,,+49305612104,,,yes,,52.5372498,13.5885574,Marzahn-Hellersdorf,11010010
+655,11778497232,oskar ziethen apotheke,,frankfurter allee,231 A,10365.0,,+49305779886,https://oskar-ziethen-apotheke.de,mo-fr 09:00-18:00,yes,,52.5127599,13.4962174,Lichtenberg,11011011
+656,11811875867,wuhletal apotheke,,,,,,,,mo-fr 08:00-19:00; sa 08:00-14:00,,yes,52.5281227,13.5699477,Marzahn-Hellersdorf,11010010
+657,11822086727,flieder-apotheke,,köpenzeile,113,12557.0,Köpenick,,,"mo-fr 07:00-13:00; 14:00-19:00; sa 08:00-13:00 ; ph,su off",yes,yes,52.4299348,13.5945896,Treptow-Köpenick,11009009
+658,12141688889,apotheke in den hallen am borsigturm,,am borsigturm,2,13507.0,,,,,,,52.583964,13.2865008,Reinickendorf,11012012
+659,12277590806,apotheke am lichtenrader damm,,,,,,,,mo-fr 08:30-18:30; sa 09:00-13:00,,yes,52.4096484,13.4042874,Tempelhof-Schöneberg,11007007
+660,12872855271,apotheke zum stift,,mariendorfer damm,189A,,,,,mo-fr 08:30-18:30; sa 08:30-14:00,yes,,52.4349255,13.3899504,Tempelhof-Schöneberg,11007007
+661,26323278,hufeisen-apotheke,,parchimer allee,84,12359.0,Britz,+49306064014,,"mo-fr 08:30-13:00, mo,tu,th,fr 14:00-18:30",yes,limited,52.44601595,13.447320327145215,Neukölln,11008008
+662,32367124,lilas apotheke,,knesebeckstraße,93,10623.0,Charlottenburg,,,mo-fr 08:30-18:30; sa 09:00-14:00,yes,yes,52.508883,13.32317983168942,Charlottenburg-Wilmersdorf,11004004
+663,59806041,apotheke im berliner hauptbahnhof,,europaplatz,1,10557.0,Moabit,,https://www.einkaufsbahnhof.de/berlin-hauptbahnhof/store/apotheke hmm,mo-su 07:00-21:00,yes,yes,52.5256116,13.36954230049114,Mitte,11001001
+664,135737898,nikolai apotheke,,sandstraße,58A,13593.0,Wilhelmstadt,,,mo-fr 09:00-18:00; sa 09:00-13:00; ph off,yes,yes,52.51796,13.169603070622426,Spandau,11005005
+665,192889139,marien-apotheke,,ruthstraße,12,12247.0,Lankwitz,+49307723011,,mo-fr 08:00-18:30; sa 08:00-13:00,yes,,52.43402255,13.34117708903523,Steglitz-Zehlendorf,11006006
+666,337165575,bahnhof-apotheke friedrichshain,,am ostbahnhof,5,10243.0,Friedrichshain,,,mo-sa 08:00-20:00; su 10:00-18:00,yes,yes,52.50996365,13.433837273756904,Friedrichshain-Kreuzberg,11002002
+667,372016529,condor apotheke,matthias roos e.k.,neuköllner straße,350,12355.0,Rudow,+49306631047,https://condor-apotheke.de,"mo,tu,th,fr 08:30-19:00; we 08:00-18:30; sa 08:30-14:00",yes,limited,52.415270699999994,13.496729383690552,Neukölln,11008008
+668,381240714,apotheke im bahnhof südkreuz,,general-pape-straße,1,12101.0,Schöneberg,+493078897374,http://www.apotheke-bahnhof-suedkreuz.de/apotheke-suedkreuz.html,mo-fr 07:00-20:00; sa 09:00-19:00; su 10:00-18:00,yes,yes,52.4766629,13.3643145,Tempelhof-Schöneberg,11007007
+669,430955094,lichtenberg apotheke,lukas & maria zoschke ohg,weitlingstraße,22,,,+493051068800,https://www.lichtenberg-apotheke.de/,"mo-sa 08:00-20:00, su,ph 10:00-16:00",yes,yes,52.509553749999995,13.49729738433939,Lichtenberg,11011011
+670,510479858,hirsch-apotheke,christiane von dallwitz,heinsestraße,47,13467.0,,,,mo-fr 08:30-18:30; sa 08:30-14:00,,yes,52.6184127,13.305324546749375,Reinickendorf,11012012
+671,739645093,arena apotheke,,,,,,+49304226620,https://www.arena-apotheke.de/,"mo-fr 08:00-20:00; sa 09:00-20:00; su,ph off",yes,yes,52.5058097,13.447141357890771,Friedrichshain-Kreuzberg,11002002
+672,1002286243,kastanien apotheke,sandra bouvain e.k.,stendaler straße,24,12627.0,Hellersdorf,,,"mo-fr 08:30-20:00, sa 10:00-20:00; ph off",yes,yes,52.53735795,13.605459251299257,Marzahn-Hellersdorf,11010010
+673,1208913688,prinzen apotheke,karin neumann e.k.,,,,,+49305638146,https://prinzen-apotheke-berlin.de/,"mo-fr 08:00-18:30, sa 09:00-12:00; ph off",yes,yes,52.5130653,13.58978681699029,Marzahn-Hellersdorf,11010010
+674,1410373889,apotheke im schultheiss quartier,,stromstraße,14,10551.0,,,https://www.premium-apotheken-berlin.de/apotheken/apotheke-im-schultheiss-quartier/,mo-sa 09:00-20:00,,yes,52.528121850000005,13.343690050014466,Mitte,11001001

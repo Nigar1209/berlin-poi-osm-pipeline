@@ -1,0 +1,145 @@
+pool_id,name,pool_type,street,postal_code,city,latitude,longitude,open_all_year
+472,Strandbad Lübars,Naturbad,Am Freibad 9,13469,Berlin,52.61824,13.33519,False
+473,Kleine Schwimmhalle Wuhlheide,Hallenbad,An der Wuhlheide 161,12459,Berlin,52.45993,13.53965,True
+474,Kombibad Mariendorf,Kombibad,Ankogelweg 95,12107,Berlin,52.41972,13.40154,True
+475,Schwimmhalle Anton-Saefkow-Platz,Hallenbad,Anton-Saefkow-Platz 1,10369,Berlin,52.53093,13.47184,True
+476,Stadtbad Kreuzberg - Baerwaldbad,Hallenbad,Baerwaldstraße 64-67,10961,Berlin,52.49451,13.40432,True
+477,Strandbad am Weißen See,Naturbad,Berliner Allee 155,13086,Berlin,52.55396,13.46583,False
+478,Sommerbad Staaken-West,Freibad,Brunsbüttler Damm 443,13591,Berlin,52.53386,13.13123,False
+479,Schwimmhalle Kaulsdorf,Schulbad,Clara-Zetkin-Weg 13,12619,Berlin,52.5208,13.58541,True
+480,Sommerbad Neukölln,Freibad,Columbiadamm 160-180,10965,Berlin,52.48025,13.41595,False
+481,Schwimmhalle Finckensteinallee,Hallenbad,Finckensteinallee 73,12205,Berlin,52.43225,13.29791,False
+482,Schwimmhalle Fischerinsel,Hallenbad,Fischerinsel 11,10179,Berlin,52.51236,13.40452,True
+674,Sommerbad Wilmersdorf,Freibad,Forckenstraße 14,14199,Berlin,52.48209,13.30394,False
+675,Strandbad Orankesee,Naturbad,Gertrudstraße 7,13053,Berlin,52.55011,13.48448,False
+676,Sportforum Hohenschönhausen,Hallenbad,Fritz-Lesch-Straße 24,13053,Berlin,52.54022,13.471753,True
+677,Stadtbad Wilmersdorf 2,Schulbad,Fritz-Wildung-Straße 7,14199,Berlin,52.48613,13.30139,True
+882,Stadtbad Neukölln,Hallenbad,Ganghoferstraße 3-5,12043,Berlin- Neuköln,52.47875,13.43993,True
+883,Stadtbad Mitte James Simon,Hallenbad,Gartenstraße 5,10115,Berlin- Mitte,52.52964,13.39259,True
+884,Kombibad Spandau Süd,Kombibad,Gatower Straße 19-29,13595,Berlin,52.5189,13.18761,True
+885,Stadtbad Tempelhof,Hallenbad,Götzstraße 14-18,12099,Berlin-Tempelhof,52.46445,13.38932,True
+961,Stadtbad Schöneberg - Hans Rosenthal,Hallenbad,Hauptstraße 39,10827,Berlin-Schöneberg,52.4845,13.35136,False
+962,Schwimmhalle Helene-Weigel-Platz Helmut Behrendt,Hallenbad,Helene-Weigel-Platz 9,12681,Berlin,52.52822,13.54134,False
+979,Sommerbad Lichterfelde Spucki,Freibad,Hindenburgdamm 9,12203,Berlin-Lichtfelde,52.43366,13.31226,False
+980,Schwimmhalle Hüttenweg,Schulbad,Hüttenweg 41,14195,Berlin,52.45388,13.26759,True
+1023,Strandbad Jungfernheide,Naturbad,Jungfernheideweg 60,13629,Berlin- Charlottenburg,52.54394,13.27431,False
+1024,Strandbad Halensee,Naturbad,Königsallee 5,14193,Berlin,52.49399,13.28308,False
+1025,Stadtbad Charlottenburg - Alte Halle,Hallenbad,Krumme-Straße 10,10585,Berlin-Charlottenburg,52.51436,13.30956,True
+1026,Stadtbad Charlottenburg - Neue Halle,Hallenbad,Krumme Straße 6a-8,10585,Berlin-Charlottenburg,52.51482,13.30889,True
+1027,Stadtbad Lankwitz,Hallenbad,Leonorenstraße 39,12247,Berlin,52.44207,13.34324,False
+1028,Schwimmhalle Ernst-Thälmann-Park,Hallenbad,Lilli-Henoch-Straße 20,10405,Berlin,52.54082,13.43367,True
+1029,Kombibad Gropiusstadt,Kombibad,Lipschitzallee 27-33,12351,Berlin-Buckow,52.42968,13.47158,True
+1037,Kinderbad Platsch Marzahn,Freibad,Max Herrmann-Straße 7,12687,Berlin-Marzahn,52.5518,13.56266,True
+1038,Stadtbad Wilmersdorf 1,Hallenbad,Mecklenburgische Straße 80,10713,Berlin,52.48079,13.3147,False
+1040,Liquidrom Therme Berlin Kreuzberg,Freizeitbad,Möckernstraße 10,10963,Berlin,52.50152,13.38177,True
+1041,Strandbad Wendenschloß,Naturbad,Möllhausenufer 30,12557,Berlin,52.41541,13.59948,False
+1042,Strandbad Friedrichshagen,Naturbad,Müggelseedamm 216,12587,Berlin-Friedrichshagen,52.44654,13.63062,False
+1043,Sommerbad Am Insulaner,Freibad,Munsterdamm 80,12169,Berlin-Stegliz,52.45619,13.34936,False
+1044,Schwimmhalle Baumschulenweg,Schulbad,Neue Krugallee 209,12437,Berlin,52.47012,13.49372,False
+1045,Strandbad Plötzensee,Naturbad,Nordufer 24,13351,Berlin-Wedding,52.54177,13.33102,False
+1046,Thermen am Europa-Center,Freizeitbad,Nürnberger Straße 7,10787,Berlin,52.50424,13.3402,True
+1047,Sommerbad Olympiastadion,Freibad,Olympischer Platz 1,14053,Berlin,52.51476,13.24641,False
+1048,Kinderbad Monbijou,Freibad,Oranienburger Straße 78,10178,Berlin-Mitte,52.52281,13.39614,False
+1049,Schwimmhalle Allendeviertel,Hallenbad,Pablo-Neruda-Straße 5,12559,Berlin,52.44256,13.58781,False
+1050,Schwimm- und Sprunghalle im Europasportpark (SSE),Hallenbad,Paul-Heyse-Straße 26,10407,Berlin- Prenzlauer Berg,52.5291701,13.4526408,True
+1051,Sommerbad Kreuzberg - Prinzenbad,Freibad,Prinzenstraße 113-119,10969,Berlin,52.49774,13.40577,False
+1052,Hallenbad Spandau Nord,Hallenbad,Radelandstraße 1,13589,Berlin,52.55498,13.19472,True
+1053,Sommerbad Mariendorf,Freibad,Rixdorfer Straße 130,12109,Berlin-Mariendorf,52.44363,13.39817,False
+1054,Paracelsus-Bad,Hallenbad,Roedernallee 200,13407,Berlin,52.57545,13.34721,True
+1055,Kombibad Seestraße,Kombibad,Seestraße 80,13347,Berlin-Wedding,52.5569,13.36323,True
+1056,Schwimmhalle Sewanstraße,Schulbad,Sewanstraße 229,10319,Berlin,52.49584,13.51619,True
+1057,Stadtbad Tiergarten,Hallenbad,Seydlitzstraße 7,10557,Berlin- Tiergarten,52.52745,13.36027,True
+1058,Strandbad Grünau,Naturbad,Sportpromenade 5,12527,Berlin-Grünau,52.40912,13.60418,False
+1063,FEZ Schwimmbad Berlin,Hallenbad,Straße zum FEZ 2,12459,Berlin,52.46091,13.5489,True
+1064,Sommerbad Wuhlheide,Freibad,Treskowallee 211,12459,Berlin- Oberschöneweide,52.4699,13.5183,False
+1088,Freibad Wannsee,Naturbad,Wannseebadweg 25,14129,Berlin,52.43811,13.17952,False
+1089,Wellenbad am Spreewaldplatz,Hallenbad,Wiener Straße 59h,10999,Berlin,52.49766,13.43206,True
+1090,Sommerbad Humboldthain,Freibad,Wiesenstraße 1,13357,Berlin-Wedding,52.5453478,13.3817041,False
+1092,Stadtbad Märkisches Viertel,Hallenbad,Wilhelmsruher Damm 142D,13439,Berlin-Wittenau,52.59821,13.35319,False
+1094,Schwimmhalle Buch,Hallenbad,Wolfgang-Heinz-Straße 41,13125,Berlin,52.62868,13.49203,True
+1095,Sommerbad Pankow,Freibad,Wolfshagener Straße 91-93,13187,Berlin- Pankow,52.57358,13.41314,False
+1096,Schwimmhalle Zingster Straße,Hallenbad,Zingster Straße 16,13051,Berlin-Malchow,52.56625,13.5029,True
+1947,Schwimmhalle Forumbad Olympiastadion,Hallenbad,Hanns-Braun-Straße,14053,Berlin,52.51642,13.23951,True
+1948,Freizeitforum Marzahn,Hallenbad,Marzahner Promenade 55,12679,Berlin,52.54693,13.55615,True
+1949,Sport- und Lehrschwimmhalle Schöneberg,Hallenbad,Sachsendamm 11,10829,Berlin,52.47655,13.35547,True
+1950,Stadtbad Oderberger Straße,Hallenbad,Oderberger Str. 57,10435,Berlin,52.53801,13.41059,False
+1952,Schwimmhalle Thomas-Mann-Straße,Schulbad,Thomas-Mann-Straße 3,10409,Berlin,52.5429,13.44299,True
+1953,Sportzentrum Siemensstadt,Hallenbad,Buolstr. 14,13629,Berlin,52.54525,13.25877,False
+2084,Strandbad Müggelsee,Naturbad,Fürstenwalder Damm 838,12589,Berlin–Köpenick,52.44537,13.67614,False
+2085,Flussbad Gartenstraße,Naturbad,Gartenstraße 46-48,12557,Berlin,52.44103,13.57604,False
+2086,Freibad Heiligensee,Naturbad,Sandhauser Str. 132-140,13503,Berlin,52.6001,13.21309,False
+3958,Vabali Berlin,Sonstiges Bad,Seydlitzstr. 6,10557,Berlin,52.52754,13.3605,True
+6394,Sportbad Britz,Freibad,Kleiberweg 3,12359,Berlin,52.439552,13.473681,False
+6987,Centrovital Spa,Hotelbad,Neuendorfer Straße 25,13585,Berlin,52.54689,13.20953,True
+6988,Hallenbad im Johannesstift,Klinikbad,Schönwalder Allee 26,13587,Berlin,52.56768,13.19243,True
+6994,Hotelbad Mercure Hotel,Hotelbad,Ohmstraße 4-6,13629,Berlin,52.53571,13.27307,False
+6996,Bewegungsbad Vivantes Klinikum,Klinikbad,Neue Bergstraße 6,13585,Berlin,52.55013,13.207,True
+7002,Schwimmbad Holiday Inn,Hotelbad,Rohrdamm 80,13629,Berlin,52.54047,13.26229,True
+7283,Merdian Spa,Sonstiges Bad,Klostertraße 3,13581,Berlin,52.53366,13.19839,True
+7889,Bethanien Havel Garten,Klinikbad,Spandauer Burgwall 29,13581,Berlin,52.52633,13.20077,True
+7891,Seniorenhaus Havelblick,Klinikbad,Havelschanze 3,13587,Berlin-Spandau,52.55422,13.20851,True
+7893,Boiler Berlin,Sonstiges Bad,Mehringdamm 34,10961,Berlin,52.49361,13.38776,True
+7896,Haubentaucher Berlin,Freibad,Revaler Str. 99,10245,Berlin,52.50814,13.45182,False
+7898,Hotel The Yard,Hotelbad,Alexandrinenstraße 125,10969,Berlin,52.49906,13.39989,True
+7911,Holmes Place Berlin,Sonstiges Bad,Hirschberger Straße 3,10317,Berlin,52.50468,13.4736,True
+7912,Sportforum Berlin,Hallenbad,Weißenseer Weg 53,13053,Berlin,52.53881,13.47189,False
+7913,Andels Hotel Berlin,Hotelbad,Landsberger Allee 106,10369,Berlin,52.52842,13.45716,True
+7932,Nils Holgersson Schule,Schulbad,Otto-Marquardt-Straße 12-14,10369,Berlin,52.53387,13.47167,True
+7935,St. Marien Krankenhaus,Klinikbad,Gallwitzallee 123 -143,12249,Berlin-Lankwitz,52.42349,13.35094,True
+8070,Holmes Place Berlin Schlossstraße,Sonstiges Bad,Schildhornstrasse 1,12163,Berlin,52.46208,13.32444,True
+8072,Kinderschwimmschule Steglitz,Hallenbad,Plantagenstraße 2,12169,Berlin,52.45453,13.32958,True
+8075,PrimaVita Berlin,Klinikbad,Teltower Damm 95-101,14167,Berlin,52.42421,13.26374,True
+8112,Hallenbad Zehlendorfer Wespen,Hallenbad,Lloyd-G.-Wells-Str. 55,14163,Berlin,52.42301,13.22634,True
+8229,Immanuel Krakenhaus,Klinikbad,Königstraße 63,14109,Berlin,52.41958,13.16418,True
+8311,Peter-Frankenfeld Schule,Schulbad,Wedellstraße 26,12247,Berlin,52.43519,13.35496,True
+8312,Fitness First Berlin,Sonstiges Bad,Schloßstraße 110,12163,Berlin,52.46093,13.32494,True
+8315,Vitaworxx,Hallenbad,Ferdinandstraße 33,12209,Berlin,52.42767,13.32852,False
+8316,Elixia Lichterfelde,Hallenbad,Lankwitzer Str. 19-24,12209,Berlin,52.42924,13.32967,True
+8317,Fitness First Zehlendorf,Hallenbad,Clayallee 328-334,14169,Berlin,52.43819,13.26265,True
+8318,Fitness First im Schloss Ladies Club,Hallenbad,Schloßstr. 33-36,12163,Berlin,52.45796,13.32144,True
+8322,Kurbad Lichterfelde Ost,Klinikbad,Bahnhofstraße 39,12207,Berlin,52.43016,13.32351,True
+8325,Clays Berlin,Hallenbad,Clayallee 171,14195,Berlin,52.45215,13.27077,True
+8329,Crowne Plaza Berlin City Center,Hotelbad,Nürnberger Str. 65,10787,Berlin,52.50386,13.3405,True
+8379,Tertianum Residenz Schöneberg,Klinikbad,Passauer Str. 5-7,10789,Berlin,52.50115,13.33957,True
+8380,Tranxx Berlin,Hallenbad,Akazienstraße 27/28,10823,Berlin,52.48684,13.35497,True
+8381,Flughafensee,Natürliche Badestelle,,13507,Reinickendorf,52.56843,13.28369,True
+8496,Geatriezentrum Berlin,Klinikbad,Reinickendorfer Str. 61,13347,Berlin,52.55456,13.36572,True
+8498,Holmes Place Neue Welt,Sonstiges Bad,Hasenheide 109,10967,Berlin,52.4855,13.42189,True
+8499,Schwimmschule Robbi,Hallenbad,Alt-Britz 101B,12359,Berlin,52.44496,13.43625,True
+8500,Schule am Park,Schulbad,Eichborndamm 276 – 284,13437,Berlin,52.59398,13.32978,True
+8501,Schule am Pappelhof,Schulbad,Eilenburger Str. 4,12627,Berlin,52.54015,13.62883,True
+8578,Schilling Schule Berlin,Schulbad,Paster-Behrens-Straße 81,12359,Berlin,52.44276,13.44384,True
+8581,Helios Berlin,Freibad,Im Jagen 57,14193,Berlin,52.48437,13.25038,False
+8626,Finkenkrug Schule,Schulbad,Mannheimer Str. 21,10713,Berlin,52.4844,13.3161,True
+8634,Helene Häusel Schule,Schulbad,Mendelssohnstraße 10,10405,Berlin,52.5269,13.41938,True
+8637,Erna Linder Haus,Klinikbad,Bahnhofstraße 7A,12305,Berlin,52.38768,13.40646,True
+9940,Radfahrerwiese,Natürliche Badestelle,Havelchaussee,14193,Berlin,52.456028,13.188304,False
+9941,Badestelle Sandhausen,Natürliche Badestelle,Sandhauser Str. 61,13505,Berlin,52.594441,13.22086,False
+9942,Schlachtensee,Natürliche Badestelle,Am schlachtensee,14129,Berlin,52.441468,13.213535,False
+9943,Teufelssee,Natürliche Badestelle,Teufelsseechaussee,14193,Berlin,52.491031,13.233136,False
+9947,Alter Hof,Natürliche Badestelle,Uferpromenade,14109,Berlin,52.433297,13.142397,False
+9948,Bammelecke,Natürliche Badestelle,Sportpromenade 15,12527,Berlin,52.407579,13.622649,False
+9949,Breitehorn,Natürliche Badestelle,Breitehornweg 40,14089,Berlin,52.465649,13.17987,False
+9951,Bürgerablage,Natürliche Badestelle,Niederneuendorfer Allee 80,13587,Berlin,52.585114,13.211398,False
+9952,Dämeritzsee,Natürliche Badestelle,,12589,Berlin,52.426804,13.735059,False
+9953,Groß Glienicker See Nord,Natürliche Badestelle,Uferpromenade,14089,Berlin,52.471872,13.118485,False
+9955,Groß Glienicker See Süd,Natürliche Badestelle,Verlängerte Uferpromenade 48,14089,Berlin,52.460646,13.114743,False
+9956,Große Krampe,Natürliche Badestelle,Gosener Damm,12559,Berlin,52.39698,13.653033,False
+9957,Große Steinlanke,Natürliche Badestelle,Badeweg 1,14193,Berlin,52.454812169362,13.186067360138,False
+9958,Badestelle Grunewaldturm,Natürliche Badestelle,Havelchaussee,14193,Berlin,52.481989,13.194461,False
+9959,Kleine Badewiese,Natürliche Badestelle,Am Wiesenhaus 8,14089,Berlin,52.483144,13.185883,False
+9961,Kleiner Müggelsee,Natürliche Badestelle,Hinter der Düne 8,12559,Berlin,52.42837,13.677193,False
+9962,Krumme Lanke,Natürliche Badestelle,,14163,Berlin,52.452258,13.233758,False
+9963,Lieper Bucht,Natürliche Badestelle,Havelchaussee 2,14193,Berlin,52.469353,13.196756,False
+10223,DRK Kliniken Berlin,Klinikbad,Britzer Straße 91,12109,Berlin,52.439755737656,13.397093152932,False
+10224,Wannseeschule,Schulbad,Zum Heckeshorn 36 ,14109,Berlin,52.430555890989,13.161793621188,False
+10231,Evangelisches Hubertuskrankenhaus,Klinikbad,Spanische Allee 10-14,14129,Berlin,52.431207767807,13.219199007359,True
+10232,Schwimmbad Berlin Steglitz,Hallenbad,Grunewaldstraße 14a,12165,Berlin,52.459351100537,13.31478191951,True
+10238,Badestelle Reiherwerder am Forsthaus,Natürliche Badestelle,Schwarzer Weg 69,13505,Berlin,52.585398129862,13.255379600268,False
+10504,Badestelle Reiswerder,Natürliche Badestelle,Bernauer Straße 160,13507,Berlin,52.56826,13.256,False
+10505,Badestelle Saatwinkel,Natürliche Badestelle,Im Saatwinkel 65,13599,Berlin,52.56234,13.24679,True
+10506,Badestelle Scharfenberg,Natürliche Badestelle,Schwarzer Weg 99,13505,Berlin,52.57552,13.24402,True
+10507,Badestelle Schmöckwitz,Natürliche Badestelle,Wernsdorfer Straße 30,12527,Berlin,52.37322,13.65275,True
+10508,Seddinsee,Natürliche Badestelle,Seddinpromenade,12527,Berlin,52.38848,13.68237,True
+10509,Freibad Tegeler See,Naturbad,Schwarzer Weg 21,13505,Berlin,52.57837,13.24602,False
+10510,Freibad Wendenschloss,Naturbad,Möllhausenufer 30,12557,Berlin,52.41499,13.6003,False

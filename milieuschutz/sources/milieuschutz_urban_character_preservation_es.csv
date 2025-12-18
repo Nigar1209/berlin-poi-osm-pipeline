@@ -1,0 +1,95 @@
+schluessel,bezirk,gebietsname,f_gvbl_dat,f_in_kraft,ae_gvbldat,ae_inkraft,fl_in_ha
+ES0101,Mitte,Poststadion,30.12.1988,31.12.1988,,,53.2
+ES0102,Mitte,Spandauer Vorstadt,25.06.1993,26.06.1993,,,109.1
+ES0103,Mitte,Südliche Brunnenstraße Teile der Rosenthaler Vorstadt,09.12.1995,10.12.1995,,,18.8
+ES0104,Mitte,Friedrich-Wilhelm-Stadt,31.08.1996,01.09.1996,,,69.5
+ES0105,Mitte,"Dorotheenstadt, Friedrichstadt",10.04.1997,11.04.1997,,,98.7
+ES0106,Mitte,Karl-Marx-Allee II. Bauabschnitt,07.11.2015,08.11.2015,,,58.7
+ES0107,Mitte,erweitertes Gebiet südliche Brunnenstraße Teile der Rosenthaler Vorstadt,14.12.2000,15.12.2000,,,57.8
+ES0108,Mitte,Heinrich-Heine-Siedlung,25.01.2001,26.01.2001,,,12.6
+ES0109,Mitte,westliches Ergänzungsgebiet südliche Brunnenstraße,28.02.2004,29.02.2004,,,16.8
+ES0110,Mitte,Köllnischer Park mit Umgebung,28.10.2006,29.10.2006,,,22.0
+ES0111,Mitte,Luisenstädtischer Kanal mit Umfeld,28.10.2006,29.10.2006,,,26.3
+ES0112,Mitte,Stephankiez,07.11.1991,08.11.1991,,,30.7
+ES0113,Mitte,Huttenkiez,10.12.1993,11.12.1993,,,4.8
+ES0115,Mitte,Wilhelmstraße,19.04.2018,20.04.2018,,,7.6
+ES0116,Mitte,Nikolaiviertel,07.06.2018,08.06.2018,,,5.1
+ES0117,Mitte,Hansaviertel,30.01.2020,31.01.2020,,,54.3
+ES0118,Mitte,Leipziger Straße,24.07.2020,25.07.2020,26.01.2022,27.01.2022,10.4
+ES0119,Mitte,Erste Erweiterung Friedrichstadt,07.12.2022,08.12.2022,,,2.0
+ES0203,Friedrichshain-Kreuzberg,Urbanhafen / Südstern,10.02.2011,11.02.2011,,,48.5
+ES0204,Friedrichshain-Kreuzberg,Graefestraße,18.03.2022,19.03.2022,,,67.3
+ES0205,Friedrichshain-Kreuzberg,Luisenstadt,29.07.2023,30.07.2023,,,268.8
+ES0206,Friedrichshain-Kreuzberg,Weberwiese,18.03.2022,19.03.2022,,,28.7
+ES0207,Friedrichshain-Kreuzberg,Karl-Marx-Allee/Frankfurter Allee (ehemals Stalinallee) und deren flankierende Bereiche,27.02.2021,28.02.2021,,,121.8
+ES0208,Friedrichshain-Kreuzberg,IBA 87 - Südliche Friedrichstadt,18.03.2022,19.03.2022,,,69.4
+ES0301,Pankow,Weißenseer Spitze,16.11.1996,17.11.1996,,,28.9
+ES0302,Pankow,Weißensee Süd,16.11.1996,17.11.1996,,,85.1
+ES0303,Pankow,Dorf Blankenfelde,25.02.1998,26.02.1998,,,52.1
+ES0304,Pankow,Stadtrandsiedlung Malchow,29.07.1998,30.07.1998,,,56.9
+ES0305,Pankow,Stadtrandsiedlung Karow / Am Kappgraben,29.07.1998,30.07.1998,,,38.7
+ES0306,Pankow,Teutoburger Platz,11.04.2007,12.04.2007,,,52.7
+ES0307,Pankow,Ostseestraße / Grellstraße,08.10.2003,09.10.2003,,,58.8
+ES0308,Pankow,Humannplatz,30.09.2009,01.10.2009,,,85.0
+ES0401,Charlottenburg-Wilmersdorf,Schmargendorf,28.10.1989,29.10.1989,,,0.4
+ES0402,Charlottenburg-Wilmersdorf,Alt-Charlottenburg,05.07.1990,06.07.1990,,,22.9
+ES0403,Charlottenburg-Wilmersdorf,Klausenerplatz,31.07.1996,01.08.1996,,,78.7
+ES0404,Charlottenburg-Wilmersdorf,Kurfürstendamm,23.12.2000,11.06.2000,,,77.7
+ES0405,Charlottenburg-Wilmersdorf,Westend,23.12.2000,24.12.2000,,,46.1
+ES0406,Charlottenburg-Wilmersdorf,B-Plan IX-153,28.10.2000,29.10.2000,,,0.6
+ES0407,Charlottenburg-Wilmersdorf,B-Plan IX-B10,28.10.2000,29.10.2000,,,2.8
+ES0408,Charlottenburg-Wilmersdorf,B-Plan IX-B11,28.10.2000,29.10.2000,,,1.4
+ES0409,Charlottenburg-Wilmersdorf,B-Plan IX-B12,28.10.2000,29.10.2000,,,6.6
+ES0502,Spandau,Altstadt Spandau,15.06.2016,16.06.2016,,,57.7
+ES0601,Steglitz-Zehlendorf,Lichterfelde-West,19.11.1991,20.11.1991,,,204.9
+ES0602,Steglitz-Zehlendorf,Fichtenberg,19.11.1991,20.11.1991,,,48.4
+ES0603,Steglitz-Zehlendorf,Lichterfelde-Ost,20.07.1996,21.07.1996,,,162.0
+ES0604,Steglitz-Zehlendorf,Siedlung Zinnowweg,04.05.2005,05.05.2005,,,9.8
+ES0605,Steglitz-Zehlendorf,B-Plan X-6-1,16.06.1994,17.06.1994,,,3.8
+ES0606,Steglitz-Zehlendorf,B-Plan X-B 1c,10.11.2012,11.11.2012,,,36.8
+ES0607,Steglitz-Zehlendorf,B-Plan X-B 2c,27.09.2016,28.09.2016,,,41.3
+ES0608,Steglitz-Zehlendorf,B-Plan X-B 2e,30.12.2011,31.12.2011,,,45.8
+ES0609,Steglitz-Zehlendorf,B-Plan X-B 7,07.07.2006,08.07.2006,,,43.5
+ES0610,Steglitz-Zehlendorf,B-Plan X-B 8,05.07.2005,06.07.2005,,,36.8
+ES0611,Steglitz-Zehlendorf,B-Plan X-B 9,02.12.2005,03.12.2005,,,37.0
+ES0612,Steglitz-Zehlendorf,B-Plan X-B 10,02.12.2005,03.12.2005,,,47.1
+ES0613,Steglitz-Zehlendorf,B-Plan X-B 11,07.07.2006,08.07.2006,,,44.7
+ES0614,Steglitz-Zehlendorf,B-Plan X-B 12,07.07.2006,08.07.2006,,,54.3
+ES0615,Steglitz-Zehlendorf,B-Plan X-B 16,10.03.2012,11.03.2012,,,26.9
+ES0616,Steglitz-Zehlendorf,B-Plan X-B 18,23.11.2017,24.11.2017,,,48.5
+ES0617,Steglitz-Zehlendorf,B-Plan X-B 21,30.10.2003,31.10.2004,,,17.3
+ES0618,Steglitz-Zehlendorf,B-Plan 6-34 B,30.01.2020,31.01.2020,,,27.5
+ES0701,Tempelhof-Schöneberg,Friedenau,24.07.1986,25.07.1986,06.10.1988,07.10.1988,51.5
+ES0702,Tempelhof-Schöneberg,Neu-Tempelhof,11.09.1991,12.09.1991,,,99.1
+ES0703,Tempelhof-Schöneberg,Alt-Lichtenrade,15.07.1995,16.07.1995,,,1.4
+ES0704,Tempelhof-Schöneberg,Abendrotsiedlung,13.11.1996,14.11.1996,,,6.4
+ES0705,Tempelhof-Schöneberg,Wolframsiedlung,16.09.2000,17.09.2000,,,6.2
+ES0706,Tempelhof-Schöneberg,"Stadtrandsiedlung Marienfelde I, II und III",16.06.2001,17.06.2001,,,37.4
+ES0707,Tempelhof-Schöneberg,Maaßenstraße,06.11.2010,07.11.2010,,,3.0
+ES0708,Tempelhof-Schöneberg,Alt-Lichtenrade,24.03.1981,25.03.1981,,,3.5
+ES0801,Neukölln,Rixdorf,29.11.1986,30.11.1986,15.06.1989,16.06.1989,8.4
+ES0802,Neukölln,Schillerpromenade,09.07.1996,10.07.1996,06.10.2001,07.10.2001,42.6
+ES0803,Neukölln,Krugpfuhlsiedlung,01.11.2008,02.11.2008,,,15.6
+ES0804,Neukölln,Ortskern Rudow,01.11.2008,02.11.2008,,,15.8
+ES0901,Treptow-Köpenick,Altstadt Köpenick,12.03.1993,13.03.1993,,,18.7
+ES0902,Treptow-Köpenick,Kietz-Vorstadt,12.03.1993,13.03.1993,,,6.4
+ES0903,Treptow-Köpenick,Friedrichshagen,12.03.1993,13.03.1993,,,95.5
+ES0904,Treptow-Köpenick,Oberschöneweide,22.12.2004,23.12.2004,,,89.8
+ES0905,Treptow-Köpenick,Hirschgarten,27.07.1999,28.07.1999,,,14.6
+ES0906,Treptow-Köpenick,Alter Dorfkern Rahnsdorf,25.01.2001,26.01.2001,,,5.8
+ES0907,Treptow-Köpenick,Teilbereich Hessenwinkel,21.04.2001,22.04.2001,,,39.8
+ES0908,Treptow-Köpenick,Wilhelmshagen,21.04.2001,22.04.2001,,,40.8
+ES0909,Treptow-Köpenick,Pflanzgartensiedlung,16.11.2004,17.11.2004,,,14.7
+ES0910,Treptow-Köpenick,Wohnanlage Dammweg,20.09.2007,21.09.2007,,,1.5
+ES0911,Treptow-Köpenick,Dorfkern Alt-Müggelheim,06.03.2008,07.03.2008,,,7.0
+ES0912,Treptow-Köpenick,Mahlsdorfer Straße 54 bis 61 und Genovevastraße 2,24.12.2020,25.12.2020,,,0.9
+ES1101,Lichtenberg,Dorf Malchow,09.11.1993,10.11.1993,06.11.2018,07.11.2018,47.4
+ES1102,Lichtenberg,Dorf Wartenberg,09.11.1993,10.11.1993,,,26.7
+ES1103,Lichtenberg,Dorf Falkenberg,09.11.1993,10.11.1993,,,34.9
+ES1104,Lichtenberg,Kaskelstraße / Viktoriastadt,04.11.1997,05.11.1997,22.12.2004,23.12.2004,28.1
+ES1105,Lichtenberg,Seen- / Prinzenviertel,26.03.1999,27.03.1999,,,34.3
+ES1106,Lichtenberg,Siedlung Paul-Koenig-Straße / Titastraße,01.06.2001,02.06.2001,,,4.5
+ES1201,Reinickendorf,Frohnau,17.05.1997,18.05.1997,,,783.8
+ES1202,Reinickendorf,B-Plan XX-187,04.11.2000,05.11.2000,,,1.1
+ES1203,Reinickendorf,B-Plan XX-247,31.03.2001,01.04.2001,,,1.9
+ES1204,Reinickendorf,B-Plan XX-240a-g,04.07.2002,05.07.2002,,,26.8

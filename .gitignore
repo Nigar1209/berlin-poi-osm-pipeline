@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+playgrounds_parks/data/*.parquet
+playgrounds_parks/data/*.geojson
+playgrounds_parks/data/*.csv
+__pycache__/
+.venv/
