@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS berlin_data.jobcenters (
     center_name VARCHAR(200) NOT NULL,   -- Updated from 'name' to 'center_name'
     latitude DECIMAL(9,6) NOT NULL,
     longitude DECIMAL(9,6) NOT NULL,
+    geometry_wkt TEXT NOT NULL,          -- WKT representation of geometry
     neighborhood VARCHAR(100),
     district VARCHAR(100),
     neighborhood_id VARCHAR(50),         -- LOR spatial_name code
