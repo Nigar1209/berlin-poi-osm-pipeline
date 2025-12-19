@@ -1,4 +1,4 @@
-id,district_id,center_name,latitude,longitude,geometry_wkt,neighborhood,district,neighborhood_id,data_source
+id,district_id,center_name,latitude,longitude,geometry,neighborhood,district,neighborhood_id,data_source
 6660665090,11001001,Jobcenter Mitte am Leopoldplatz,52.5467722,13.3565162,POINT (13.3565162 52.5467722),Wedding,Mitte,0105,OSM_LOR
 1092468394,11005005,Arbeitsagentur Spandau,52.5337752,13.1865537,POINT (13.1865537 52.5337752),Spandau,Spandau,0501,OSM_LOR
 730832232,11008008,Jobcenter Berlin Neukölln,52.4789752,13.4278868,POINT (13.4278868 52.4789752),Neukölln,Neukölln,0801,OSM_LOR

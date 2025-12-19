@@ -15,13 +15,16 @@ print("Fetching data from OSM...")
 gdf_raw = ox.features_from_place(PLACE_NAME, OSM_TAGS)
 gdf_raw = gdf_raw.to_crs(epsg=4326)
 
+# Safety check: Remove rows without geometry before processing
+gdf_raw = gdf_raw.dropna(subset=['geometry']).copy()
+
 # --- 3. COORDINATE PREP & STABLE ID ---
 print("Generating coordinates and stable IDs...")
 # Extracting Lat/Lon from centroids
 gdf_raw['latitude'] = gdf_raw.geometry.centroid.y
 gdf_raw['longitude'] = gdf_raw.geometry.centroid.x
 
-# Deterministic ID generation using hashlib (without a def function)
+# Deterministic ID generation using hashlib
 gdf_raw['id'] = gdf_raw.apply(
     lambda row: int(hashlib.sha256(f"{row.get('name', 'Unknown')}_{row['latitude']}_{row['longitude']}".encode()).hexdigest(), 16) % (10**10), 
     axis=1
@@ -33,15 +36,12 @@ if os.path.exists(LOR_PATH):
     lor_gdf = gpd.read_file(LOR_PATH).to_crs(epsg=4326)
     
     # Mapping coordinates into LOR boundaries
-    # Note: sjoin adds the columns from the LOR file to our job centers
     gdf_mapped = gpd.sjoin(gdf_raw, lor_gdf, how='left', predicate='within')
 else:
     print(f"Error: {LOR_PATH} not found at {os.getcwd()}")
     gdf_mapped = gdf_raw.copy()
 
 # --- 5. DISTRICT & NEIGHBORHOOD CLEANUP ---
-# Ensure columns match your specific GeoJSON property names
-# If your GeoJSON uses 'BEZIRK' and 'OTEIL', we rename them here:
 rename_dict = {
     'name': 'center_name',
     'BEZIRK': 'district',
@@ -61,13 +61,25 @@ district_mapping = {
 }
 gdf_mapped['district_id'] = gdf_mapped['district'].map(district_mapping)
 
-# --- 6. FINAL EXPORT ---
-final_cols = ['id', 'district_id', 'center_name', 'latitude', 'longitude', 'neighborhood', 'district', 'neighborhood_id']
-# Filter only columns that successfully exist after the join
+# --- 6. GEOMETRY TO WKT (NEW STEP) ---
+print("Formatting geometry for SQL...")
+# Convert the geometry objects into Well-Known Text (WKT) strings
+gdf_mapped['geometry'] = gdf_mapped['geometry'].apply(
+    lambda x: x.wkt if x is not None else None
+)
+
+# --- 7. FINAL EXPORT ---
+# Include 'geometry' in the final list
+final_cols = [
+    'id', 'district_id', 'center_name', 'latitude', 'longitude', 
+    'geometry', 'neighborhood', 'district', 'neighborhood_id'
+]
+
+# Filter columns and add data source
 df_final = gdf_mapped[[c for c in final_cols if c in gdf_mapped.columns]].copy()
 df_final['data_source'] = 'OSM_LOR'
 
 os.makedirs("output", exist_ok=True)
 df_final.to_csv(OUTPUT_PATH, index=False)
 
-print(f"✅ Success! File saved at: {OUTPUT_PATH}")
+print(f"Success! File with geometry column saved at: {OUTPUT_PATH}")
