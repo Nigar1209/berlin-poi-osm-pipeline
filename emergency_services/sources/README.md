@@ -98,14 +98,16 @@ This section outlines how raw datasets will be processed into a unified schema s
 
 ---
 
-## 1. Data Collection  
+## 1. Data Collection
+
 - Retrieve OSM entries via Overpass API  
 - Download official datasets from Berlin Open Data Portal  
 - Use Wikidata to fill missing fields or validate attributes  
 
 ---
 
-## 2. Data Cleaning  
+## 2. Data Cleaning
+
 - Normalize names (trim, lowercase, remove special characters)  
 - Standardize address fields  
 - Harmonize latitude/longitude formats  
@@ -114,11 +116,12 @@ This section outlines how raw datasets will be processed into a unified schema s
 
 ---
 
-## 3. Data Normalization  
+## 3. Data Normalization
+
 Mapping raw fields to the standardized schema:
 
 | Standard Field | Description |
-|----------------|-------------|
+|---------------|------------|
 | `id` | Unique identifier |
 | `district_id` | Foreign key referencing Berlin districts |
 | `name` | Cleaned location name |
@@ -132,32 +135,74 @@ Mapping raw fields to the standardized schema:
 
 ---
 
-## 4. Spatial Enrichment  
+## 4. Spatial Enrichment
+
 - Reverse geocoding to identify districts and neighborhoods  
-- Join with LOR/Ortsteil tables for consistent hierarchy  
+- Join with LOR / Ortsteil tables for consistent hierarchy  
 - Validate spatial correctness (within Berlin boundaries)  
 
 ---
 
-## 5. Quality Assurance  
+## 5. Quality Assurance
+
 - Check for missing or inconsistent fields  
 - Validate foreign key relationships  
 - Remove duplicate POIs across sources  
-- Ensure geometry is correctly formatted for the DB layer  
+- Ensure geometry is correctly formatted for the database layer  
 
 ---
 
-## 6. Final Export & Database Insertion  
-- Export cleaned data to CSV/GeoJSON  
+## 6. Final Export & Database Insertion
+
+- Export cleaned data to CSV / GeoJSON  
 - Insert into `emergency_services_table`  
 - Verify referential integrity (districts / neighborhoods)  
 - Prepare for incremental updates if needed  
 
 ---
 
-## Summary  
-This document outlines:  
+## Scope & Current Status (Step 2 – Data Transformation & Preprocessing)
+
+This repository implements **Step 2: Data Transformation & Preprocessing**  
+for the Emergency Services data layer as defined in the project issues.
+
+### OSM-first Principle
+
+- OpenStreetMap (OSM) is used as the **primary and authoritative data source**.
+- Only attributes already present in OSM are cleaned and normalized.
+- Missing values (e.g. `operator`, `contact_info`, `operating_hours`) are  
+  **intentionally not backfilled from external sources** at this stage.
+
+### Use of External Data Sources
+
+- Berlin Open Data Portal and Wikidata are documented as **potential enrichment sources**.
+- External datasets are **not automatically merged** into the unified dataset in Step 2.
+- These sources may be used in later enrichment steps if OSM is missing  
+  critical or verified information.
+
+### Known Data Gaps & Design Decisions
+
+- The `operator` field is partially missing, especially for:
+  - volunteer fire stations
+  - some ambulance locations
+- Address-level attributes are inconsistently available across OSM entries.
+- These gaps are preserved to maintain transparency and to comply with the  
+  OSM-first integration strategy.
+
+### Output of This Step
+
+- A unified emergency services dataset (Police, Fire, Ambulance) with:
+  - standardized schema
+  - validated geometry (EPSG:4326)
+  - spatial enrichment (district & neighborhood)
+- The dataset is prepared for database ingestion and further enrichment.
+
+---
+
+## Summary
+
+This document outlines:
 - All identified data sources  
 - Key relevant fields  
-- How datasets will be standardized  
-- The complete transformation plan required for Step 1 (Issue #535)
+- How datasets are standardized  
+- The complete transformation plan required for Step 2 (Data Transformation & Preprocessing)
