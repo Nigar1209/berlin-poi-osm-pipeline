@@ -12,9 +12,9 @@ import os
 from sqlalchemy import create_engine, text
 
 # === CONFIGURATION ===
-DB_USER = "neondb_owner"
-DB_PASS = "a9Am7Yy5r9_T7h4OF2GN"
-DB_HOST = "ep-falling-glitter-a5m0j5gk-pooler.us-east-2.aws.neon.tech"
+DB_USER = ""
+DB_PASS = ""
+DB_HOST = ""
 DB_PORT = "5432"
 DB_NAME = "neondb"
 SCHEMA = "test_berlin_data"
