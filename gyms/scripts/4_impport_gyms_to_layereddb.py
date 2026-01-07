@@ -12,12 +12,12 @@ import os
 from sqlalchemy import create_engine, text
 
 # === CONFIGURATION ===
-DB_USER = "lars_petschke"
-DB_PASS = "8TC03BAumEWiM9MQ"
+DB_USER = ""
+DB_PASS = ""
 DB_HOST = "localhost"
 DB_PORT = "5433"
-DB_NAME = "layereddb"
-SCHEMA = "berlin_source_data"
+DB_NAME = ""
+SCHEMA = ""
 CSV_PATH = os.path.join('gyms/sources/gyms_with_district_and_neighborhood.csv')
 TABLE_NAME = "gyms"
 
