@@ -238,6 +238,7 @@ FINAL DATASET OVERVIEW (SCHEMA SUMMARY)
 | is_operational               | boolean   | Operational status if explicitly tagged              |
 | district                     | object    | Administrative district                              |
 | neighborhood                 | object    | Neighborhood or locality                             |
+| neighborhood_id                  | object    | Neighborhood or locality identifier                   |
 | district_id                  | object    | Administrative district identifier                   |
 
 
@@ -339,6 +340,11 @@ neighborhood
   Type: object (string)
   Description:
   Neighborhood or locality name, if available.
+
+neighborhood_id
+  Type: object (string)
+  Description:
+  Identifier associated with the neighborhood, when present.
 
 district_id
   Type: object (string)
