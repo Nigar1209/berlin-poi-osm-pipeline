@@ -1,0 +1,101 @@
+name,street,housenumber,postcode,city,country,suburb,opening_hours,internet_access,wheelchair,phone,email,website,latitude,longitude,district,neighborhood_id,neighborhood,district_id,address
+St. Oberholz,Rosenthaler Straße,72,10119,Berlin,DE,Mitte,"Mo-Th 08:00-24:00, Fr 08:00-03:00, Sa 09:00-03:00, Su 09:00-24:00",wlan,limited,+49 30 24085586,info@sanktoberholz.de,https://sanktoberholz.de/standorte/rosenthaler/,52.5295304,13.4017825,Mitte,0101,Mitte,11001001,Rosenthaler Straße 72 10119 Berlin
+,Ella-Kay-Straße,38,10405,Berlin,,Prenzlauer Berg,,,,,,,52.5401654,13.4328014,Pankow,0301,Prenzlauer Berg,11003003,Ella-Kay-Straße 38 10405 Berlin
+Pulsraum Coworking Berlin,Kottbusser Damm,25,10967,Berlin,DE,Kreuzberg,Mo-Fr 07:00-21:00; Sa 10:00-19:00,wlan,,,,,52.4896345,13.4238697,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Kottbusser Damm 25 10967 Berlin
+Fora,Unter den Linden,40,10117,Berlin,DE,Mitte,,,,,,,52.5171592,13.3864434,Mitte,0101,Mitte,11001001,Unter den Linden 40 10117 Berlin
+Hauptstadt Räume,Kochstraße,,10969,Berlin,,Kreuzberg,,,,,,,52.5065941,13.3870843,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Kochstraße 10969 Berlin
+Salon 31 Friseur,Gärtnerstraße,31,10245,Berlin,DE,Friedrichshain,We-Fr 10:00-20:00; Sa 10:00-18:00,,no,,,,52.5087141,13.4596825,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Gärtnerstraße 31 10245 Berlin
+Charlottenburger Innovations-Centrum,Marie-Elisabeth-Lüders-Straße,1,10625,Berlin,DE,Charlottenburg,,,,,,https://charlottenburg.wista.de,52.5129406,13.3167085,Charlottenburg-Wilmersdorf,0401,Charlottenburg,11004004,Marie-Elisabeth-Lüders-Straße 1 10625 Berlin
+Coworking Space Berlin-Friedrichshain Launch/Co,Rudolfstraße,14,10245,Berlin,DE,Friedrichshain,Mo-Fr 09:00-19:00,,limited,+4930577000050,,https://launchco.com/coworking,52.5036356,13.454467,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Rudolfstraße 14 10245 Berlin
+CubicMeter,Rodenbergstraße,29,10439,Berlin,DE,Prenzlauer Berg,,,,,,,52.5506682,13.4181026,Pankow,0301,Prenzlauer Berg,11003003,Rodenbergstraße 29 10439 Berlin
+Horse Space,Revaler Straße,1,10243,Berlin,DE,Friedrichshain,,,no,,,,52.5085075,13.4491643,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Revaler Straße 1 10243 Berlin
+Haus des Holzes,Chausseestraße,99,10115,Berlin,,Mitte,,,,,,,52.5325842,13.3801872,Mitte,0101,Mitte,11001001,Chausseestraße 99 10115 Berlin
+Juicy Fields,Potsdamer Straße,147,10783,Berlin,,Schöneberg,Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00,,,,,,52.4960192,13.361546,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Potsdamer Straße 147 10783 Berlin
+Leap - Quantum Technology Hub Berlin,Rudower Chaussee,29,12489,Berlin,,Adlershof,,yes,,,,,52.4287643,13.5285457,Treptow-Köpenick,0907,Adlershof,11009009,Rudower Chaussee 29 12489 Berlin
+enpact,Stresemannstraße,,10963,Berlin,,Kreuzberg,,,,,,,52.5017276,13.3862771,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Stresemannstraße 10963 Berlin
+Spielfield Digital Hub,Skalitzer Straße,85,10997,Berlin,DE,Kreuzberg,,,,,,https://www.spielfeld.com/,52.5003367,13.4363455,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Skalitzer Straße 85 10997 Berlin
+Blogfabrik,Oranienstraße,185,10999,Berlin,,Kreuzberg,,,yes,,,,52.5006748,13.4210136,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Oranienstraße 185 10999 Berlin
+Tuechtig,Oudenarder Straße,16,13347,Berlin,DE,Wedding,09:00-19:00,wlan,yes,+49 30 83216640,,https://tuechtig-berlin.de/,52.5533166,13.3596927,Mitte,0105,Wedding,11001001,Oudenarder Straße 16 13347 Berlin
+Mitosis,Weserstraße,165,12045,Berlin,DE,Neukölln,,,,,,,52.4833039,13.4413146,Neukölln,0801,Neukölln,11008008,Weserstraße 165 12045 Berlin
+St. Oberholz Zehdenicker,Zehdenicker Straße,1,10119,Berlin,,Prenzlauer Berg,Mo-Fr 08:00-18:00; Sa-Su 10:00-16:00,wlan,no,,info@sanktoberholz.de,https://sanktoberholz.de/standorte/zehdenicker/,52.529775,13.4074888,Pankow,0301,Prenzlauer Berg,11003003,Zehdenicker Straße 1 10119 Berlin
+Die Zusammenarbeiter,Wilhelmine-Gemberg-Weg,14,10179,Berlin,DE,Mitte,,yes,yes,,,,52.5103479,13.425172,Mitte,0101,Mitte,11001001,Wilhelmine-Gemberg-Weg 14 10179 Berlin
+Nest Coworking,Görlitzer Straße,52,10997,Berlin,,Kreuzberg,Th-Su 11:00-22:00,wlan,,,,,52.4971588,13.4391399,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Görlitzer Straße 52 10997 Berlin
+Impact Hub,Rollbergstraße,28A,12053,Berlin,DE,Neukölln,Mo-Fr 09:00-18:00,,,+49 30 25925725,info@impacthub.berlin,https://berlin.impacthub.net,52.4791786,13.4322498,Neukölln,0801,Neukölln,11008008,Rollbergstraße 28A 12053 Berlin
+WeWork,Kemperplatz,1,10785,Berlin,DE,Tiergarten,,,,,,,52.5108391,13.3718204,Mitte,0104,Tiergarten,11001001,Kemperplatz 1 10785 Berlin
+Excellent Business Center,Europaplatz,2,10557,Berlin,DE,Moabit,,,,,,,52.5255276,13.3695902,Mitte,0102,Moabit,11001001,Europaplatz 2 10557 Berlin
+WeWork,Stresemannstraße,123,10963,Berlin,DE,Kreuzberg,,,yes,,,,52.5074111,13.3782525,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Stresemannstraße 123 10963 Berlin
+WeWork,Eichhornstraße,3,10785,Berlin,DE,Tiergarten,,,,,,,52.5063847,13.3731454,Mitte,0104,Tiergarten,11001001,Eichhornstraße 3 10785 Berlin
+WeWork,Kurfürstendamm,11,10719,Berlin,DE,Tiergarten,,wlan,,,,,52.5046435,13.3338036,Charlottenburg-Wilmersdorf,0401,Charlottenburg,11004004,Kurfürstendamm 11 10719 Berlin
+The Place,Charlottenstraße,2,10969,Berlin,DE,Kreuzberg,Mo-Fr 08:30-23:00,yes,yes,,,http://www.theplaceberlin.com/,52.5057457,13.393114,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Charlottenstraße 2 10969 Berlin
+,Tauentzienstraße,13,10789,Berlin,,Charlottenburg,Mo-Fr 09:00-17:00,wlan,,,,,52.5039784,13.3362493,Charlottenburg-Wilmersdorf,0401,Charlottenburg,11004004,Tauentzienstraße 13 10789 Berlin
+tuesday coworking,Belziger Straße,69/71,10823,Berlin,,Schöneberg,,yes,,,,,52.4845786,13.3466833,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Belziger Straße 69/71 10823 Berlin
+tuesday coworking,Feurigstraße,51,10827,Berlin,,Schöneberg,,yes,,,,,52.483058,13.3537444,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Feurigstraße 51 10827 Berlin
+Altmoabit 19,Alt-Moabit,19,10559,Berlin,DE,Moabit,,,,+49 30 44678075,buero@altmoabit19.com,https://www.altmoabit19.com,52.5248113,13.352327,Mitte,0102,Moabit,11001001,Alt-Moabit 19 10559 Berlin
+Simplioffice,Nürnberger Straße,38,10777,Berlin,DE,Wilmersdorf,,,limited,+49 30 890070,info@commehr.de,http://www.commehr.de,52.4989306,13.335409,Charlottenburg-Wilmersdorf,0402,Wilmersdorf,11004004,Nürnberger Straße 38 10777 Berlin
+Der Salon Coworking,Schudomastraße,45,12055,Berlin,DE,Neukölln,,,,,,,52.4739996,13.4500583,Neukölln,0801,Neukölln,11008008,Schudomastraße 45 12055 Berlin
+Projektraum Spreefeld,Wilhelmine-Gemberg-Weg,12,10179,Berlin,,Mitte,,,,,,,52.5107384,13.4249821,Mitte,0101,Mitte,11001001,Wilhelmine-Gemberg-Weg 12 10179 Berlin
+Thinkfarm Berlin,Oberlandstraße,26-35,12099,Berlin,DE,Tempelhof,Mo-Fr 10:00-18:00,,,,,http://www.thinkfarm.org/,52.4645707,13.4089328,Tempelhof-Schöneberg,0703,Tempelhof,11007007,Oberlandstraße 26-35 12099 Berlin
+Unicorn Brunnenviertel,Brunnenstraße,64-65,13355,Berlin,,Gesundbrunnen,,,yes,,,,52.5406763,13.3946326,Mitte,0106,Gesundbrunnen,11001001,Brunnenstraße 64-65 13355 Berlin
+Le Box,Schliemannstraße,19,10437,Berlin,DE,Prenzlauer Berg,,,,,,,52.544151,13.4203548,Pankow,0301,Prenzlauer Berg,11003003,Schliemannstraße 19 10437 Berlin
+The Drivery,Mariendorfer Damm,1,12099,Berlin,DE,Tempelhof,,,,,,,52.4534017,13.385199,Tempelhof-Schöneberg,0703,Tempelhof,11007007,Mariendorfer Damm 1 12099 Berlin
+Unicorn Workspaces Checkpoint Charlie,Markgrafenstraße,62/63,10969,Berlin,,Kreuzberg,,,,,,,52.5076824,13.3939841,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Markgrafenstraße 62/63 10969 Berlin
+Full Node,Glogauer Straße,6,10999,Berlin,DE,Kreuzberg,,,,,,https://www.fullnode.berlin/,52.4940989,13.4377411,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Glogauer Straße 6 10999 Berlin
+Design Offices,Unter den Linden,26-30,10117,Berlin,DE,Mitte,Mo-Fr 8:30-18:00,,no,+49 30 7262160,berlin.unterdenlinden@designoffices.de,https://www.designoffices.de/standorte/berlin-unter-den-linden/,52.5172821,13.3882458,Mitte,0101,Mitte,11001001,Unter den Linden 26-30 10117 Berlin
+Coworking Motorwerk Berlin,An der Industriebahn,12,13088,Berlin,,Weißensee,Mo-Fr 09:00-18:00,yes,,,,,52.5634242,13.4612349,Pankow,0302,Weißensee,11003003,An der Industriebahn 12 13088 Berlin
+bUm - Raum für solidarisches Miteinander,Paul-Lincke-Ufer,21,10999,Berlin,DE,Kreuzberg,,wlan,,,kontakt@bum.berlin,https://bum.berlin,52.4937932,13.4296611,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Paul-Lincke-Ufer 21 10999 Berlin
+Unicorn Village,Richardstraße,85/86,12043,Berlin,DE,Neukölln,,,,,,,52.4759286,13.4437324,Neukölln,0801,Neukölln,11008008,Richardstraße 85/86 12043 Berlin
+Multimediabüro Bild-Schrift-Zahl,Weidenweg,51,10249,Berlin,,Friedrichshain,,yes,,,,,52.5185719,13.4522586,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Weidenweg 51 10249 Berlin
+CIC Innovation Campus,Lohmühlenstraße,65,12435,Berlin,DE,Alt-Treptow,,,,,,,52.494111,13.4463076,Treptow-Köpenick,0901,Alt-Treptow,11009009,Lohmühlenstraße 65 12435 Berlin
+Design Offices,Leipziger Platz,16,10117,Berlin,DE,Mitte,Mo-Fr 08:30-18:00,,,+49 30 700149850,berlin.leipzigerplatz@designoffices.de,https://www.designoffices.de/standorte/berlin-leipziger-platz/,52.5103646,13.3779461,Mitte,0101,Mitte,11001001,Leipziger Platz 16 10117 Berlin
+Design Offices,Koppenstraße,93,10243,Berlin,DE,Friedrichshain,Mo-Fr 08:30-18:00,,,+49 30 76758500,berlin.ostbahnhof@designoffices.de,https://www.designoffices.de/standorte/berlin-ostbahnhof/,52.5123646,13.433266,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Koppenstraße 93 10243 Berlin
+Design Offices,Bertolt-Brecht-Platz,3,10117,Berlin,DE,Mitte,Mo-Fr 08:30-18:00,,,+49 30 58581340,berlin.amzirkus@designoffices.de,https://www.designoffices.de/standorte/berlin-am-zirkus/,52.5225746,13.3866189,Mitte,0101,Mitte,11001001,Bertolt-Brecht-Platz 3 10117 Berlin
+Design Offices,Alexanderufer,3-7,10117,Berlin,DE,Mitte,Mo-Fr 08:30-18:00,,,+49 30 726216250,berlin.humboldthafen@designoffices.de,https://www.designoffices.de/standorte/berlin-humboldthafen/,52.5239931,13.373505,Mitte,0101,Mitte,11001001,Alexanderufer 3-7 10117 Berlin
+Mandel Open Space,Nollendorfstraße,21a,10777,Berlin,DE,Schöneberg,,,,,,,52.4975921,13.3501157,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Nollendorfstraße 21a 10777 Berlin
+Dugnad,Kienitzer Straße,16,12053,Berlin,DE,Neukölln,,,,,,,52.4773821,13.4361939,Neukölln,0801,Neukölln,11008008,Kienitzer Straße 16 12053 Berlin
+L19 Bürogemeinschaft,Lychener Straße,19,10437,Berlin,DE,Prenzlauer Berg,,,limited,,,,52.5421791,13.4156019,Pankow,0301,Prenzlauer Berg,11003003,Lychener Straße 19 10437 Berlin
+Trust,Kluckstraße,25,10785,Berlin,,Tiergarten,,wlan,,,,,52.5029919,13.3615323,Mitte,0104,Tiergarten,11001001,Kluckstraße 25 10785 Berlin
+Boho Space,Bülowstraße,6,10783,Berlin,DE,Schöneberg,,,,,,,52.4987853,13.3561157,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Bülowstraße 6 10783 Berlin
+Fireworks,Stockholmer Straße,4,13359,Berlin,DE,Gesundbrunnen,24/7,yes,,,,https://fireworkscoworking.wordpress.com/,52.5569465,13.3829524,Mitte,0106,Gesundbrunnen,11001001,Stockholmer Straße 4 13359 Berlin
+everyworks Coworking,Europaplatz,2,10557,Berlin,,Moabit,Mo-Fr 08:30-18:30,yes,,,everyworks@deutschebahn.com,,52.5255465,13.3695814,Mitte,0102,Moabit,11001001,Europaplatz 2 10557 Berlin
+Colonies,Paul-Robeson-Straße,,10439,Berlin,,Prenzlauer Berg,,,,,,,52.5523168,13.4138173,Pankow,0301,Prenzlauer Berg,11003003,Paul-Robeson-Straße 10439 Berlin
+Raum,Karl-Kunger-Straße,7,12435,Berlin,DE,Alt-Treptow,,,,,,,52.4920791,13.4456736,Treptow-Köpenick,0901,Alt-Treptow,11009009,Karl-Kunger-Straße 7 12435 Berlin
+District One,Hauptstraße,151,10827,Berlin,,Schöneberg,,,,,,,52.4882188,13.3586479,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Hauptstraße 151 10827 Berlin
+Studio Neuf,Gneisenaustraße,42,10961,Berlin,DE,Kreuzberg,,,,,,,52.4895444,13.4010469,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Gneisenaustraße 42 10961 Berlin
+WeWork,Friedrichstraße,76,10117,Berlin,,Mitte,24/7,wlan,yes,,,,52.5141245,13.3894807,Mitte,0101,Mitte,11001001,Friedrichstraße 76 10117 Berlin
+Scaling Spaces Berlin,Schwedenstraße,9,13359,Berlin,,Gesundbrunnen,,,,,,,52.5579706,13.3735077,Mitte,0106,Gesundbrunnen,11001001,Schwedenstraße 9 13359 Berlin
+Helix Hub,Invalidenstraße,113,10115,Berlin,,Mitte,,,,,,,52.5306531,13.3839031,Mitte,0101,Mitte,11001001,Invalidenstraße 113 10115 Berlin
+SpielundLern.de,Damaschkestraße,34,10711,Berlin,DE,Charlottenburg,Mo-Fr 09:00-17:00,,no,,,,52.5013588,13.2975362,Charlottenburg-Wilmersdorf,0401,Charlottenburg,11004004,Damaschkestraße 34 10711 Berlin
+AI Campus Berlin,Max-Urich-Straße,3,13355,Berlin,DE,Gesundbrunnen,24/7,wlan,yes,,,https://www.merantix-aicampus.com/,52.5394385,13.3838217,Mitte,0106,Gesundbrunnen,11001001,Max-Urich-Straße 3 13355 Berlin
+P3A coworking,Perleberger Straße,3A,10559,Berlin,,Moabit,,,,,,,52.5354917,13.3561773,Mitte,0102,Moabit,11001001,Perleberger Straße 3A 10559 Berlin
+b+ office Coworking Space,Dudenstraße,10,10965,Berlin,DE,Kreuzberg,Mo-Fr 09:00-18:00,wlan,,+49 30 3980994-0,,https://bplusoffice.de/,52.4854344,13.3838886,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Dudenstraße 10 10965 Berlin
+Coworking Toddler,Greifenhagener Straße,48,10437,Berlin,DE,Prenzlauer Berg,,,yes,,,,52.5486175,13.4160056,Pankow,0301,Prenzlauer Berg,11003003,Greifenhagener Straße 48 10437 Berlin
+& Co,Hauptstraße,153,10827,Berlin,DE,Schöneberg,,,,,,,52.4885808,13.3589461,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Hauptstraße 153 10827 Berlin
+Plantage Bürogemeinschaft,Prinz-Eugen-Straße,29A,13347,Berlin,,Wedding,"""nach Anwesenheit""",wlan,no,,,,52.5466015,13.3663377,Mitte,0105,Wedding,11001001,Prinz-Eugen-Straße 29A 13347 Berlin
+Spielhalle 2,Grunewaldstraße,81,10823,Berlin,DE,Schöneberg,,,,,,https://www.spielhallezwei.berlin/,52.4898377,13.354489,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Grunewaldstraße 81 10823 Berlin
+CI Space,Bugenhagenstraße,9,10551,Berlin,,Moabit,Mo-Sa 10:00-22:00,wlan,,,,,52.5280242,13.3417811,Mitte,0102,Moabit,11001001,Bugenhagenstraße 9 10551 Berlin
+Tempelgehöft Co-Working,Tempelhofer Damm,152,12099,Berlin,,Tempelhof,,yes,yes,,,,52.4648209,13.384876,Tempelhof-Schöneberg,0703,Tempelhof,11007007,Tempelhofer Damm 152 12099 Berlin
+WeWork,Dircksenstraße,,10178,Berlin,,Mitte,,,,,,,52.5165745,13.4170552,Mitte,0101,Mitte,11001001,Dircksenstraße 10178 Berlin
+Mindspace Kurfürstendamm,Uhlandstraße,32,10719,Berlin,,Charlottenburg,Mo-Fr 09:00-18:00,,,,,,52.5004908,13.3247679,Charlottenburg-Wilmersdorf,0401,Charlottenburg,11004004,Uhlandstraße 32 10719 Berlin
+Dein Freiraum,Käthe-Niederkirchner-Straße,25,10407,Berlin,,Prenzlauer Berg,,,,,,,52.5300167,13.4333096,Pankow,0301,Prenzlauer Berg,11003003,Käthe-Niederkirchner-Straße 25 10407 Berlin
+WeWork,Rosenthaler Straße,43,10178,Berlin,,Mitte,,,yes,,,,52.5240425,13.4029404,Mitte,0101,Mitte,11001001,Rosenthaler Straße 43 10178 Berlin
+WeWork,Warschauer Platz,11-13,10245,Berlin,DE,Friedrichshain,"Mo-Su,PH 09:00-18:00",,,,,,52.5044523,13.4495322,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Warschauer Platz 11-13 10245 Berlin
+Techspace,Köpenicker Straße,40B,10179,Berlin,,Mitte,,,,,,,52.5091928,13.4255042,Mitte,0101,Mitte,11001001,Köpenicker Straße 40B 10179 Berlin
+Velt.studio,Urbanstraße,71,10967,Berlin,,Kreuzberg,,wlan,,,,,52.4878454,13.4232894,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Urbanstraße 71 10967 Berlin
+Unicorn Workspaces Gendarmenmarkt,Französische Straße,24,10117,Berlin,,Mitte,,,,,,,52.5146364,13.3904675,Mitte,0101,Mitte,11001001,Französische Straße 24 10117 Berlin
+Das Arbeitszimmer,Westerlandstraße,,13189,Berlin,,Pankow,,,,,,,52.5580996,13.4147115,Pankow,0307,Pankow,11003003,Westerlandstraße 13189 Berlin
+Gesoworx,Langhansstraße,,13086,Berlin,,Weißensee,,,,,,,52.5511393,13.4429771,Pankow,0302,Weißensee,11003003,Langhansstraße 13086 Berlin
+Creon,Methfesselstraße,43,10965,Berlin,,Kreuzberg,,,,,,,52.4859683,13.3837321,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Methfesselstraße 43 10965 Berlin
+The Gate (TOR 201),Torstraße,201,10115,Berlin,DE,Mitte,,,,,,,52.5281159,13.3910714,Mitte,0101,Mitte,11001001,Torstraße 201 10115 Berlin
+Unicorn Workspaces,Gerichtstraße,,13347,Berlin,,Wedding,,,,,,,52.5446418,13.3665649,Mitte,0105,Wedding,11001001,Gerichtstraße 13347 Berlin
+St. Oberholz,Boxhagener Straße,18,10245,Berlin,,Friedrichshain,24/7,,,,,,52.5127959,13.4552451,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Boxhagener Straße 18 10245 Berlin
+Engelnest Coworking Space and Event Venue,Wilhelm-Kabus-Straße,22-24,10829,Berlin,,Schöneberg,,yes,,,,,52.4826871,13.3673876,Tempelhof-Schöneberg,0701,Schöneberg,11007007,Wilhelm-Kabus-Straße 22-24 10829 Berlin
+w3.hub,Möckernstraße,,10963,Berlin,,Kreuzberg,Mo-Fr 09:00-18:00,,,,,,52.4980122,13.380209,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Möckernstraße 10963 Berlin
+werkhain,Frankfurter Allee,108,10247,Berlin,,Friedrichshain,,,,,,,52.512941,13.4748102,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Frankfurter Allee 108 10247 Berlin
+CU.Office,Genter Straße,56,13353,Berlin,,Wedding,,,,,,,52.5481408,13.3528978,Mitte,0105,Wedding,11001001,Genter Straße 56 13353 Berlin
+werkhain,Frankfurter Allee,108,10247,Berlin,,Friedrichshain,,,,,,,52.5128845884545,13.47479207558809,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Frankfurter Allee 108 10247 Berlin
+KAOS Halle,Wilhelminenhofstraße,,12459,Berlin,,Oberschöneweide,,,,,,,52.462438214484244,13.509207565790492,Treptow-Köpenick,0909,Oberschöneweide,11009009,Wilhelminenhofstraße 12459 Berlin
+HAUS  1,Oberlandstraße,25-36,12099,Berlin,,Tempelhof,,,,,,,52.46438794759451,13.410746939971459,Tempelhof-Schöneberg,0703,Tempelhof,11007007,Oberlandstraße 25-36 12099 Berlin
+Coworking Holzmarkt,,43,10243,Berlin,DE,Friedrichshain,,wlan,,,,,52.512511382822474,13.423889145179139,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,43 10243 Berlin
+,Scharnweberstraße,,10247,Berlin,,Friedrichshain,,,,,,,52.512696193318384,13.474739798976056,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Scharnweberstraße 10247 Berlin
+werkhain,Frankfurter Allee,108,10247,Berlin,,Friedrichshain,,,,,,,52.512781484073635,13.474764348196144,Friedrichshain-Kreuzberg,0201,Friedrichshain,11002002,Frankfurter Allee 108 10247 Berlin
+B-Part,Luckenwalder Straße,6b,10963,Berlin,DE,Kreuzberg,Mo-Fr 09:00-18:00,,,,,,52.4990791408707,13.373377561693202,Friedrichshain-Kreuzberg,0202,Kreuzberg,11002002,Luckenwalder Straße 6b 10963 Berlin
