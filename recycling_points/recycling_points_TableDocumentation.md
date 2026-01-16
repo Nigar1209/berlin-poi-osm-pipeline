@@ -101,4 +101,19 @@ The following checks were performed after loading the table:
 - All district_id values are valid and exist in the districts table.
 - No missing coordinates (latitude, longitude).
 - No invalid coordinate ranges.
-- Administrative mappings validated (district_id, nei_
+- Administrative mappings validated (district_id, neighborhood_id).
+- Geometry successfully serialized to WKT for database storage.
+
+
+NOTES
+=====
+
+This table is intended to be production-ready and consistent with Berlin
+Data Platform layer conventions.
+
+It follows a strict “no inferred data” principle:
+- Missing values represent unknown information, not negative assertions.
+- All semantic fields are derived from explicit OpenStreetMap tags only.
+
+Geometry is preserved internally during processing for spatial operations
+and exported as WKT for database compatibility and downstream consumption.
