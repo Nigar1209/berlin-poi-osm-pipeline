@@ -62,7 +62,7 @@ pip install osmnx geopandas pandas numpy
 
 PROJECT STRUCTURE
 -----------------
-
+```text
 .
 ├── scripts/
 │   └── recycling_points_berlin.ipynb
@@ -73,7 +73,7 @@ PROJECT STRUCTURE
 │   └── final_recycling_points_with_district.csv
 ├── recycling_points_TableDocumentation.md
 └── README.md
-
+```
 
 PROCESSING PIPELINE OVERVIEW
 ----------------------------
