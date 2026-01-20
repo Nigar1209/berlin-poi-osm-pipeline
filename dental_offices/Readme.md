@@ -13,14 +13,13 @@ for spatial analysis, visualization, and comparison with other public data sourc
 ## Project Structure
 
 ```text
-project/
+dental_offices/
 ├─ scripts/
-│   ├─ dental_data.ipynb
-│   └─ kzv_scraper.py
+│   ├─ dental_offices_data_fetching.ipynb
 ├─ sources/
-│   └─ kzv_zahnarztsuche.html   # optional / exploratory
-├─ data/
-│   └─ kzv_dentists_berlin.csv
+│   └─ raw_osm_dental_offices_v_01_19_2026.csv
+│   └─ raw_osm_dental_offices_v_01_19_2026.geojson
+│   └─ README.md
 └─ README.md
 ```
 ## Data Sources
@@ -52,5 +51,5 @@ the scope of this project.
 | source           | [OpenStreetMap (OSM) - API](https://overpass-api.de/api/interpreter), global crowdsourced geo DB                |
 | update_frequency | Monthly / as published                                                                                          |
 | data_type        | Dynamic (crowdsourced data accessed via API)                                                                    |
-| relevant_fields  | name, addr:street, addr:housenumber, addr:postcode, addr:city, opening_hours, healthcare:speciality, wheelchair, phone, email, website, geometry   
+| relevant_fields  | name,addr:street,addr:housenumber,addr:postcode,addr:city,level,opening_hours,check_date,healthcare:speciality,wheelchair,wheelchair:description,phone,email,website,geometry,health_facility:type,health_specialty:oral_surgery,health_specialty:orthodontics,health_specialty:periodontology | 
 | license          | ODbL 1.0 (Open Database License); attribution required, share-alike applies |

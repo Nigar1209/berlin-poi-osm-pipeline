@@ -53,7 +53,7 @@ official API or bulk export and would require complex scraping approaches.
 | source           | [OpenStreetMap (OSM) - API](https://overpass-api.de/api/interpreter), global crowdsourced geo DB                |
 | update_frequency | Monthly / as published                                                                                          |
 | data_type        | Dynamic (crowdsourced data accessed via API)                                                                    |
-| relevant_fields  | name, addr:street, addr:housenumber, addr:postcode, addr:city, opening_hours, healthcare:speciality, wheelchair, phone, email, website, geometry                                                                                                      |
+| relevant_fields  | name,addr:street,addr:housenumber,addr:postcode,addr:city,level,opening_hours,check_date,healthcare:speciality,wheelchair,wheelchair:description,phone,email,website,geometry,health_facility:type,health_specialty:oral_surgery,health_specialty:orthodontics,health_specialty:periodontology |
 
 ## Transformation Plan
 1. Normalize names and addresses (strip whitespace, standardize capitalization).  
