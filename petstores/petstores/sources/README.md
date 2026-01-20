@@ -161,4 +161,97 @@ WHERE p.neighborhood != n.neighborhood;
 
 ### Transformation Plan
 
-TBD
+#### Notebook cleanup
+
+There is a python cell creating a `petstores_cleaned` DataFrame, which is never used after that.
+This can be safely removed, including the Markdown cell above.
+
+```python
+# Remove this cell:
+
+keep_cols = [
+  # ...
+]
+
+petstores_cleaned = petstores_gdf[keep_cols].copy()
+
+# ...
+```
+
+There is another cell trying to drop columns that do not exist.
+Additionally, it tries to remove the `geometry` column, which will be added during transformation.
+
+```python
+cols_to_drop = [
+  "geometry_x",
+  "geometry_y",
+  "geometry",
+  "district_id_right",
+  "index_right"
+]
+
+# ...
+```
+
+#### ID Format Correction
+
+* Remove `PET` prefix from IDs
+* Use purely numeric IDs
+* Use OSM's IDs to make sure they are unique
+
+```python
+keep_cols = [
+  "id",
+  # ...
+]
+
+# ...
+
+# Remove the following line:
+# petstores_final["id"] = "PET" + petstores_final.index.astype(str).str.zfill(6)
+```
+
+#### Add geometry
+
+* Keep `geometry` in DataFrame `petstores_final`
+* Convert `geometry` to string in the POINT() format
+
+```python
+petstores_cleaned['geometry'] = petstores_cleaned['geometry'].apply(lambda g: f"POINT ({g.x} {g.y})")
+
+correct_order = [
+  # ...
+  "latitude",
+  "geometry",
+  "district",
+  # ...
+]
+
+# ...
+```
+
+#### Database Schema Corrections
+
+```SQL
+CREATE TABLE test_berlin_data.petstores_final (
+    id VARCHAR(20) PRIMARY KEY,         -- changed from VARCHAR(50)
+    name VARCHAR(200) DEFAULT 'Unknown',-- changed from VARCHAR(255), added default
+    brand VARCHAR(255),
+    opening_hours VARCHAR(255),
+    phone VARCHAR(255),
+    website VARCHAR(500),
+    full_address VARCHAR(500),
+    longitude DECIMAL(9,6),             -- changed from FLOAT
+    latitude DECIMAL(9,6),              -- changed from FLOAT
+    district VARCHAR(100),              -- changed from VARCHAR(255)
+    neighborhood VARCHAR(100),          -- changed from VARCHAR(255)
+    district_id VARCHAR(20) NOT NULL,   -- changed from VARCHAR(50), added NOT NULL
+    neighborhood_id VARCHAR(20),        -- changed from VARCHAR(50)
+    geometry VARCHAR,                   -- added column
+    CONSTRAINT fk_pets_district
+        FOREIGN KEY (district_id)
+        REFERENCES test_berlin_data.districts(district_id)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
+);
+```
