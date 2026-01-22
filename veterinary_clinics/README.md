@@ -276,3 +276,15 @@ during ETL into the database:
   (from LOR `gml_id` / `lor_id`).  
 - **`geometry`** – constructed as `POINT(longitude latitude)` in WGS84.  
 - **`source_osm_id`** – copied from the OSM `id` / `@id` in the v0 dataset.  
+
+## Address Enrichment via Reverse Geocoding
+
+This pipeline enriches missing veterinary clinic addresses using Nominatim reverse geocoding based on latitude and longitude.
+
+The process:
+- Targets only rows with missing address and valid coordinates
+- Respects Nominatim API usage policies with rate limiting
+- Is fully reproducible and suitable for CI / automated pipelines
+- Leaves values as NULL when no address can be resolved
+
+This ensures higher data completeness while maintaining reproducibility and ingestion standards.
