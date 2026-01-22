@@ -60,7 +60,6 @@ The following checks were performed after loading the table:
 
 ### Known data quality gaps (non-blocking)
 - `name = 'Unknown'`: `51`
-- Missing `address`: `227`
 - Missing `postal_code`: `242`
 
 ### Notes
