@@ -68,18 +68,31 @@ gdf_mapped['geometry'] = gdf_mapped['geometry'].apply(
     lambda x: x.wkt if x is not None else None
 )
 
-# --- 7. FINAL EXPORT ---
-# Include 'geometry' in the final list
+# --- 7. FINAL EXPORT (UPDATED) ---
+
+# We define the exact order of columns to match the database requirements
 final_cols = [
-    'id', 'district_id', 'center_name', 'latitude', 'longitude', 
-    'geometry', 'neighborhood', 'district', 'neighborhood_id'
+    'id', 
+    'district_id', 
+    'center_name', 
+    'address',        # Added
+    'postal_code',    # Added
+    'latitude', 
+    'longitude', 
+    'geometry', 
+    'neighborhood', 
+    'district', 
+    'neighborhood_id'
 ]
 
-# Filter columns and add data source
+# Create the final dataframe, ensuring we only grab columns that actually exist
 df_final = gdf_mapped[[c for c in final_cols if c in gdf_mapped.columns]].copy()
+
+# Add the audit tag
 df_final['data_source'] = 'OSM_LOR'
 
+# Save the clean CSV for the SQL \COPY command
 os.makedirs("output", exist_ok=True)
 df_final.to_csv(OUTPUT_PATH, index=False)
 
-print(f"Success! File with geometry column saved at: {OUTPUT_PATH}")
+print(f"Success! CSV saved with Address and Postal Code at: {OUTPUT_PATH}")
