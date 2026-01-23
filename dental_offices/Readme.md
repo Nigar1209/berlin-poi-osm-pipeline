@@ -82,19 +82,19 @@ Other sources, while valuable for validation and legal verification, are either 
 
 ## **Data Processing – Part 1: Integration & Normalization**
 
-**1. Data Extraction**
+### 1.1. Data Extraction
 
 Dental offices are fetched from OpenStreetMap using osmnx with the tag `amenity=dentist` for the geographic boundary of Berlin, Germany.
 
 Both **CSV** and **GeoJSON** snapshots of the raw data are persisted to ensure full reproducibility and offline inspection.
 
-**2. Column Selection & Standardization**
+### 1.2. Column Selection & Standardization
 
 Only fields relevant to dental practices, accessibility, contact information, and geospatial analysis are retained.
 
 OSM-style address tags are normalized into standardized column names (e.g. `addr:street` → `street`).
 
-**3. Speciality Mapping**
+### 1.3. Speciality Mapping
 
 Dental specialities are derived using a priority-based approach:
  - Use `healthcare:speciality` if populated
@@ -103,14 +103,14 @@ Dental specialities are derived using a priority-based approach:
 
 Redundant raw specialty columns are dropped after consolidation.
 
-**4. Geometry Normalization**
+### 1.4. Geometry Normalization
 
 All geometries are converted to `point geometries`.
 For non-point OSM features (e.g. polygons), representative points are used.
 
 Latitude and longitude are extracted explicitly to support non-GIS workflows and database storage.
 
-**5. Attribute Consolidation**
+### 1.5. Attribute Consolidation
 
 Multiple overlapping OSM attributes are merged into unified fields:
 
@@ -122,7 +122,7 @@ Multiple overlapping OSM attributes are merged into unified fields:
 
 Custom merge logic ensures semantic clarity and avoids data loss.
 
-**6. Neighborhood & District Assignment**
+### 1.6. Neighborhood & District Assignment
 
 Each dental office is spatially joined with Berlin neighborhood (LOR Ortsteile) polygons.
 
@@ -135,7 +135,7 @@ The dataset is enriched with:
 
 Unmapped districts are explicitly reported for quality control.
 
-**7. Identifier Handling & Integrity Checks**
+### 1.7. Identifier Handling & Integrity Checks
 
 OSM identifiers are preserved and normalized as string-based IDs to ensure database compatibility.
 
@@ -144,15 +144,15 @@ Basic integrity checks verify:
  - total record count
  - uniqueness of identifiers
 
-**8. Floor / Level Standardization**
+### 1.8. Floor / Level Standardization
 
 Floor information is standardized using locale-specific mappings (DE / UK / US supported), converting numeric or coded levels into human-readable formats (e.g. `0` → `EG`, `1` → `1.OG`).
 
-**9. Address Enrichment via Reverse Geocoding**
+### 1.9. Address Enrichment via Reverse Geocoding
 
 Missing address components are enriched using **Nominatim reverse geocoding**.
 
-Key characteristics:
+**Key characteristics:**
 
  - strict rate limiting (1 request/second)
  - retry logic with spatial coordinate shifts
@@ -161,7 +161,7 @@ Key characteristics:
 
 This step significantly improves address completeness while respecting public API usage policies.
 
-**10. Address Formatting**
+### 1.10. Address Formatting
 
 A standardized, human-readable address string is constructed from:
 
@@ -174,7 +174,7 @@ A standardized, human-readable address string is constructed from:
 
 Only records with at least one valid address component are formatted.
 
-**11.  Data Quality Overview**
+### 1.11.  Data Quality Overview
 
 The first processing stage concludes with:
 
