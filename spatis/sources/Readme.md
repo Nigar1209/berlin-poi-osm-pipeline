@@ -66,9 +66,7 @@ cf. **Requirement Comparison**
 
 ## 1.3 Transformation Plan & Documentation
 
-### 1 List Gaps
-
-#### Schema Compliance Check
+### Schema Compliance Check
 identified Gaps:
 - id → complete but present as spaeti_id (name mismatch with standard id) and exportet as `int64` instead of `VARCHAR(20)`
 - district_id --> complete but exported as `int64` instead of `VARCHAR(20)`
@@ -92,7 +90,7 @@ Planned Actions:
 - district --> change district_name to district and export as `VARCHAR(100)`
 - neighborhood_id --> export as `VARCHAR(100)`
 
-#### Missing Values & Data Validity Check
+### Missing Values & Data Validity Check
 
 Identified Gaps:
 - High number of missing values in address, phone_number, email, and website.
@@ -103,7 +101,7 @@ Planned Actions:
 - Implement a normalization strategy for opening_hours to reduce format heterogeneity.
 
 
-#### Geometry Validation
+### Geometry Validation
 
 Identified Gaps:
 - geometry not included in the final DB export.
@@ -113,7 +111,7 @@ Planned Actions:
 - Include geometry in the final export used for database insertion.
 - Ensure geometry is stored in the expected POINT() string format.
 
-#### District & Neighborhood ID Checks
+### District & Neighborhood ID Checks
 
 Identified Gaps:
 - Identifier columns are exported as numeric types instead of VARCHAR.
