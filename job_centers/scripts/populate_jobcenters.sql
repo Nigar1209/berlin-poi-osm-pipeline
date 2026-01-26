@@ -7,7 +7,9 @@ CREATE TABLE IF NOT EXISTS berlin_data.jobcenters (
     center_name VARCHAR(200) NOT NULL,   -- Updated from 'name' to 'center_name'
     latitude DECIMAL(9,6) NOT NULL,
     longitude DECIMAL(9,6) NOT NULL,
-    geometry TEXT NOT NULL,  -- Renamed from geometry_wkt to geometry for clarity
+    geometry TEXT NOT NULL,  -- Renamed from geometry_wkt to geometry 
+    address TEXT,                -- Added: From your Nominatim enrichment
+    postal_code VARCHAR(10),
     neighborhood VARCHAR(100),
     district VARCHAR(100),
     neighborhood_id VARCHAR(50),         -- LOR spatial_name code
@@ -23,12 +25,20 @@ CREATE TABLE IF NOT EXISTS berlin_data.jobcenters (
 );
 
 -- STEP 2: DATA POPULATION
--- Ensure the CSV file at this path matches the 9 columns above.
-
 /*
 \COPY berlin_data.jobcenters (
-    id, district_id, center_name, latitude, longitude, neighborhood, district, 
-    neighborhood_id, data_source
+    id, 
+    district_id, 
+    center_name, 
+    address,        -- Must match CSV column order
+    postal_code,    -- Must match CSV column order
+    latitude, 
+    longitude, 
+    geometry, 
+    neighborhood, 
+    district, 
+    neighborhood_id, 
+    data_source
 ) 
 FROM '../../output/jobcenters_berlin_final.csv' 
 DELIMITER ',' 
