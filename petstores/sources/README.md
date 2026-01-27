@@ -28,6 +28,55 @@ tags = {"shop": "pet"}
 petstores_gdf = ox.features_from_place("Berlin, Germany", tags)
 ```
 
+**Relevant fields:**
+* `name`
+* `brand`
+* `opening_hours`
+* `phone`
+* `website`
+* `geometry`
+
+## Applied Data Transformation Steps
+
+* **Coordinate Extraction:** Extracted `latitude` and `longitude` from the `geometry` column.
+* **Reverse Geocoding:** Used the `geopy` library to convert coordinates to full addresses using Nominatim.
+* **Geospatial Validation:** Checked if coordinates are valid and converted to WGS84 (EPSG:4326).
+* **Spatial Joins:** Assigned districts and neighborhoods using `lor_ortsteile.geojson`.
+* **Geometry Transformation:** Converted `geometry` objects to strings in the `POINT()` format.
+* **Deduplication and Missing Values:** Removed duplicates and missing values in district_id & neighborhood.
+* **Schema Alignment:** Ensured that all relevant fields are present and correctly formatted for 100% schema compliance.
+
+## Data Validation
+
+* **Data Integrity:** Verified that all required fields are present and correctly formatted.
+* **Geospatial Consistency:** Checked that all coordinates are within valid ranges and are in WGS84 (EPSG:4326) format.
+* **Spatial Accuracy:** Ensured that all data points are correctly assigned to districts and neighborhoods.
+
+## Test Upload
+
+To validate the correct schema, the transformed data was uploaded to the neondb database (`test_berlin_data.petstores_final`).
+
+* 82 rows have been successfully uploaded.
+
+### Final Petstores Table Schema
+
+| Column Name       | Data Type                        | Description                                                         |
+|-------------------|----------------------------------|---------------------------------------------------------------------|
+| `id`              | `VARCHAR(20)`                    | Unique identifier for each pet store (inherited OSM id)             |
+| `name`            | `VARCHAR(200) DEFAULT 'Unknown'` | Name of the pet store, defaulting to 'Unknown' if missing           |
+| `brand`           | `VARCHAR(255)`                   | Brand of the pet store (if present)                                 |
+| `opening_hours`   | `VARCHAR(255)`                   | Opening hours for the pet store (if present)                        |
+| `phone`           | `VARCHAR(255)`                   | Phone number (if present)                                           |
+| `website`         | `VARCHAR(500)`                   | Website URL (if present)                                            |
+| `full_address`    | `VARCHAR(500)`                   | Reverse geocoded address of the store, derived from the coordinates |
+| `longitude`       | `DECIMAL(9,6)`                   | Longitude                                                           |
+| `latitude`        | `DECIMAL(9,6)`                   | Latitude                                                            |
+| `district`        | `VARCHAR(100)`                   | Name of the district the store is in                                |
+| `neighborhood`    | `VARCHAR(100)`                   | Name of the neighborhood the store is in                            |
+| `district_id`     | `VARCHAR(20) NOT NULL`           | ID of the district, foreign key to `districts(district_id)`         |
+| `neighborhood_id` | `VARCHAR(20)`                    | ID of the neighborhood                                              |
+| `geometry`        | `VARCHAR`                        |                                                                     |
+
 ## Audit & Gap Analysis
 
 ### Script & Notebook Review
