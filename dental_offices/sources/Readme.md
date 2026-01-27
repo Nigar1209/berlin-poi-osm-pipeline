@@ -49,19 +49,67 @@ official API or bulk export and would require complex scraping approaches.
 ### OpenStreetMap (OSM)
 
 | Field            | Description                                                                                                     |
-|------------------|-----------------------------------------------------------------------------|
+|------------------|-----------------------------------------------------------------------------------------------------------------|
 | source           | [OpenStreetMap (OSM) - API](https://overpass-api.de/api/interpreter), global crowdsourced geo DB                |
 | update_frequency | Monthly / as published                                                                                          |
 | data_type        | Dynamic (crowdsourced data accessed via API)                                                                    |
-| relevant_fields  | name,addr:street,addr:housenumber,addr:postcode,addr:city,level,opening_hours,check_date,healthcare:speciality,wheelchair,wheelchair:description,phone,email,website,geometry,health_facility:type,health_specialty:oral_surgery,health_specialty:orthodontics,health_specialty:periodontology |
+| relevant_fields | name, addr:street, addr:housenumber, addr:postcode, addr:city,<br>level, addr:floor, description, opening_hours,<br>check_date:opening_hours, check_date,<br>healthcare:speciality,<br>wheelchair, wheelchair:description, toilets:wheelchair,<br>phone, contact:website, contact:email, contact:phone, email, url, website,<br>geometry, health_facility:type,<br>health_specialty:oral_surgery, health_specialty:orthodontics, health_specialty:periodontology |
 
-## Transformation Plan
-1. Normalize names and addresses (strip whitespace, standardize capitalization).  
-2. Map OSM nodes/ways to point coordinates.  
-3. Enrich each record with neighborhood and demographic information.  
-4. Export cleaned data into the table `dental_offices_berlin`.  
 
 ---
+
+## Transformation Plan
+
+1. Normalize names and addresses (trim whitespace, standardize casing).
+2. Convert OSM nodes and ways into point geometries.
+3. Normalize and consolidate accessibility, contact, and specialty attributes.
+4. Enrich each record with administrative and spatial context (district, neighborhood).
+5. Remove duplicate or overlapping entities using external reference datasets.
+6. Export cleaned and validated data into the table `dental_offices_berlin`.
+
+---
+
+## External Reference Data
+
+### Doctors Registry (`doctors_202601211553.csv`)
+
+This file contains a curated list of medical practices and doctors that is used as a **reference dataset** during data processing.
+
+**Purpose in the pipeline:**
+- Identify overlapping entities between OpenStreetMap dental offices and existing doctor records.
+- Prevent duplicate representation of the same real-world entity across datasets.
+
+**Usage:**
+- Records are matched via a shared `id` field.
+- Any dental office record whose `id` already exists in the doctors dataset is removed from the final dental offices dataset.
+
+This ensures:
+- Clear separation between *doctor* and *dental office* entities
+- No duplicate locations or practices in downstream analytics and databases
+
+---
+
+## Deduplication Logic (High-Level)
+
+During data preparation:
+1. Load the doctors reference dataset.
+2. Compute the intersection of IDs between OSM dental offices and doctors.
+3. Remove overlapping IDs from the dental offices dataset.
+4. Continue processing only with unique dental office records.
+
+This step is critical to maintain data integrity when combining multiple healthcare-related sources.
+
+---
+
+## Files in this Folder
+
+- `raw_osm_dental_offices_v_01_19_2026.csv`  -> Raw OpenStreetMap dental office data in tabular format.
+- `raw_osm_dental_offices_v_01_19_2026.geojson`  -> Raw OpenStreetMap dental office data including geospatial features.
+- `doctors_202601211553.csv`  ->Reference dataset used to detect and remove overlapping medical entities.
+- `README.md`  -> Documentation describing data sources, transformation logic, and licensing.
+
+---
+
 ## Licensing Notes
 
 - **OpenStreetMap data** is licensed under the **Open Database License (ODbL 1.0)**.  
@@ -69,8 +117,5 @@ official API or bulk export and would require complex scraping approaches.
   attribution to OpenStreetMap contributors and comply with the share-alike
   requirements of the license.
 
----
-## Files in this folder
-- Raw CSV (from OpenStreetMap)
-- Raw GEOJSON (from OpenStreetMap)
-- `README.md` (this file)  
+- **Doctors registry data** may be subject to separate licensing or usage restrictions  
+  depending on its origin and must be handled accordingly.
