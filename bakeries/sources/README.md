@@ -1,13 +1,15 @@
-# Bakeries – Data Sources (Berlin)
+# Bakeries – Data Sources & Transformation (Berlin)
 
-This document describes the identified data sources for bakeries in Berlin.
-The focus of this step is to document where bakery data can be found, how it is accessed,
-how often it is updated, and how it can later be integrated into the existing database
-structure (districts, neighborhoods, and points of interest).
+## Project Overview
 
-This step does not include data extraction or transformation yet.
+This project documents the data sourcing, extraction, transformation, and preparation
+of bakery location data for Berlin, with the goal of producing a clean,
+analysis-ready dataset enriched with district-level spatial context.
 
----
+The project starts from data source identification and proceeds through a complete
+Python-based transformation pipeline implemented in a Jupyter Notebook.
+----------------------------------------------------------------------------------------------
+# Data Sources
 
 ## 1. OpenStreetMap (OSM)
 
@@ -15,7 +17,7 @@ This step does not include data extraction or transformation yet.
 Identified via the OpenStreetMap public website (https://www.openstreetmap.org) by manually
 searching for bakeries in Berlin and inspecting individual map points.
 Tag definitions and usage were verified using the official OpenStreetMap Wiki.
-The data is accessible via regional downloads (e.g. Geofabrik) and APIs such as Overpass in later stages.
+Data access is handled programmatically via OSMnx / Overpass API.
 
 ### Update Frequency
 Continuous (community-maintained)
@@ -34,9 +36,10 @@ Dynamic
 - Sunday opening (where available)
 - Brand / chain name (if available)
 
-### Notes on Tagging
-Bakeries in OpenStreetMap are primarily tagged as:
-- `shop=bakery`
+### Tagging Notes
+Bakeries are primarily tagged as:
+
+- shop=bakery
 
 Additional tags observed during manual inspection include:
 - `shop=pastry` (pastry-focused bakeries)
@@ -140,17 +143,107 @@ Supplementary source for:
 ### License
 Proprietary; not suitable as a primary data source.
 
----
+----------------------------------------------------------------------------------------------
 
-## Planned Transformation and Normalization (Next Steps)
+# Data Extraction & Transformation
 
-- Consolidate bakery records from multiple sources
-- Normalize shop types (bakery, pastry, bakery–café)
-- Classify bakeries as artisanal or chain-based
-- Link bakery locations to districts and neighborhoods
-- Standardize opening hours and Sunday opening indicators
+All data extraction and transformation steps are implemented in:
 
----
+## Notebook: bakeries_transformation.ipynb
+
+## Tools & Libraries
+
+- Python
+
+- Pandas
+
+- GeoPandas
+
+- OSMnx
+
+- Shapely
+
+The notebook executes the full pipeline from raw OSM data to finalized datasets.
+----
+
+# Key Transformations Applied
+
+- Extraction of bakery-related POIs from OpenStreetMap
+
+- Filtering and normalization of bakery-related tags
+
+- Standardization of address fields
+
+- Conversion to GeoDataFrame for spatial operations
+
+- Spatial join with Berlin district boundaries
+
+- Deduplication and basic data quality checks
+
+- Feature engineering:
+
+  - bakery_type (e.g. bakery, pastry)
+
+  - is_chain (boolean)
+
+  - brand_name
+
+- Separation of spatial and non-spatial outputs
+----------------------------------------------------------------------------------------------
+
+# Final Datasets
+
+1. Tabular Dataset
+
+File: bakeries_berlin.csv
+Description: Cleaned, non-spatial bakery dataset
+Granularity: One row per bakery location
+
+2. Spatial Dataset
+
+File: bakeries_berlin.geojson
+Description: GeoJSON version including geometry for mapping and spatial analysis
+Coordinate System: WGS84 (latitude / longitude)
+----------------------------------------------------------------------------------------------
+
+# Final Schema (Key Fields)
+
+| Column Name    | Description                          |
+| -------------- | ------------------------------------ |
+| `name`         | Bakery name                          |
+| `bakery_type`  | Normalized bakery category           |
+| `is_chain`     | Chain vs. independent indicator      |
+| `brand_name`   | Chain brand name (if applicable)     |
+| `street`       | Street name                          |
+| `house_number` | House number                         |
+| `postal_code`  | Postal code                          |
+| `district`     | Berlin district (spatially assigned) |
+| `latitude`     | Latitude                             |
+| `longitude`    | Longitude                            |
+| `geometry`     | Point geometry (GeoJSON only)        |
+---------------------------------------------------------------------------------------------
+
+# Data Quality Notes & Assumptions
+
+- OpenStreetMap data is community-maintained; completeness varies by area
+
+- Bakery classification is based on OSM tags and observed brand patterns
+
+- Chain detection may not capture small or regional chains consistently
+
+- Opening hours are incomplete and not fully standardized
+----------------------------------------------------------------------------------------------
+
+# Reproducibility
+
+To reproduce the datasets:
+
+ 1. Install required Python libraries
+
+ 2. Run bakeries_transformation.ipynb top to bottom
+
+ 3. Output files will be generated in the sources/ directory
+
 
 ## Summary
 
