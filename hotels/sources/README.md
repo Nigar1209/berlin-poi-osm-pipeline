@@ -1,6 +1,4 @@
 
-# Hotels – Berlin | Data Source Research
-
 # STEP 1 Hotels – Berlin | Data Source Research
 
 
