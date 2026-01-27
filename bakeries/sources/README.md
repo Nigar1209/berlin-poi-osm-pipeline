@@ -6,8 +6,9 @@ This project documents the data sourcing, extraction, transformation, and prepar
 of bakery location data for Berlin, with the goal of producing a clean,
 analysis-ready dataset enriched with district-level spatial context.
 
-The project starts from data source identification and proceeds through a complete
+The project starts from data source identification and proceeds through a complete 
 Python-based transformation pipeline implemented in a Jupyter Notebook.
+
 ----------------------------------------------------------------------------------------------
 # Data Sources
 
@@ -193,17 +194,16 @@ The notebook executes the full pipeline from raw OSM data to finalized datasets.
 
 # Final Datasets
 
-1. Tabular Dataset
+**1. **Tabular Dataset****
+**File** : bakeries_berlin.csv
+**Description** : Cleaned, non-spatial bakery dataset
+**Granularity** : One row per bakery location
 
-File: bakeries_berlin.csv
-Description: Cleaned, non-spatial bakery dataset
-Granularity: One row per bakery location
+**2. Spatial Dataset**
+**File**: File : bakeries_berlin.geojson
+**Description** : GeoJSON version including geometry for mapping and spatial analysis
+**Coordinate System** : WGS84 (latitude / longitude)
 
-2. Spatial Dataset
-
-File: bakeries_berlin.geojson
-Description: GeoJSON version including geometry for mapping and spatial analysis
-Coordinate System: WGS84 (latitude / longitude)
 ----------------------------------------------------------------------------------------------
 
 # Final Schema (Key Fields)
