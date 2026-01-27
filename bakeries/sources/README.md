@@ -194,15 +194,18 @@ The notebook executes the full pipeline from raw OSM data to finalized datasets.
 
 # Final Datasets
 
-**1. **Tabular Dataset****
-**File** : bakeries_berlin.csv
-**Description** : Cleaned, non-spatial bakery dataset
-**Granularity** : One row per bakery location
+### 1. Tabular Dataset
 
-**2. Spatial Dataset**
-**File**: File : bakeries_berlin.geojson
-**Description** : GeoJSON version including geometry for mapping and spatial analysis
-**Coordinate System** : WGS84 (latitude / longitude)
+- **File:** `bakeries_berlin.csv`
+- **Description:** Cleaned, non-spatial bakery dataset
+- **Granularity:** One row per bakery location
+
+### 2. Spatial Dataset
+
+- **File:** `bakeries_berlin.geojson`
+- **Description:** Spatial bakery dataset including point geometry for mapping and spatial analysis
+- **Coordinate reference system:** WGS84 (EPSG:4326)
+
 
 ----------------------------------------------------------------------------------------------
 
@@ -238,11 +241,11 @@ The notebook executes the full pipeline from raw OSM data to finalized datasets.
 
 To reproduce the datasets:
 
- 1. Install required Python libraries
+ **1.** Install required Python libraries
 
- 2. Run bakeries_transformation.ipynb top to bottom
+ **2.** Run bakeries_transformation.ipynb top to bottom
 
- 3. Output files will be generated in the sources/ directory
+ **3.** Output files will be generated in the sources/ directory
 
 
 ## Summary
