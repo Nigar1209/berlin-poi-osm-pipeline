@@ -6,9 +6,8 @@ This project documents the data sourcing, extraction, transformation, and prepar
 of bakery location data for Berlin, with the goal of producing a clean,
 analysis-ready dataset enriched with district-level spatial context.
 
-The project starts from data source identification and proceeds through a complete 
+The project starts from data source identification and proceeds through a complete
 Python-based transformation pipeline implemented in a Jupyter Notebook.
-
 ----------------------------------------------------------------------------------------------
 # Data Sources
 
@@ -190,40 +189,46 @@ The notebook executes the full pipeline from raw OSM data to finalized datasets.
   - brand_name
 
 - Separation of spatial and non-spatial outputs
+
+- **Cross-Dataset Validation:** Implemented ID-based deduplication against the Berlin Supermarket dataset to ensure 0 overlap.
+- **Identity Standardization:** Primary `id` column converted to numeric format (VARCHAR 20 compliant) for database compatibility.
+- **Geometry Standardization:** Forced all spatial records into **Point** format, converting building footprints (Polygons) to representative points.
+- **Three-State Sunday Logic:** Extracted Sunday opening status into a boolean-nullable field (True/False/NaN) to avoid false assumptions on missing data.
 ----------------------------------------------------------------------------------------------
 
 # Final Datasets
 
-### 1. Tabular Dataset
+1. Tabular Dataset
 
-- **File:** `bakeries_berlin.csv`
-- **Description:** Cleaned, non-spatial bakery dataset
-- **Granularity:** One row per bakery location
+File: bakeries_berlin.csv
+Description: Cleaned, non-spatial bakery dataset
+Granularity: One row per bakery location
 
-### 2. Spatial Dataset
+2. Spatial Dataset
 
-- **File:** `bakeries_berlin.geojson`
-- **Description:** Spatial bakery dataset including point geometry for mapping and spatial analysis
-- **Coordinate reference system:** WGS84 (EPSG:4326)
-
-
+File: bakeries_berlin.geojson
+Description: GeoJSON version including geometry for mapping and spatial analysis
+Coordinate System: WGS84 (latitude / longitude)
 ----------------------------------------------------------------------------------------------
 
 # Final Schema (Key Fields)
 
-| Column Name    | Description                          |
-| -------------- | ------------------------------------ |
-| `name`         | Bakery name                          |
-| `bakery_type`  | Normalized bakery category           |
-| `is_chain`     | Chain vs. independent indicator      |
-| `brand_name`   | Chain brand name (if applicable)     |
-| `street`       | Street name                          |
-| `house_number` | House number                         |
-| `postal_code`  | Postal code                          |
-| `district`     | Berlin district (spatially assigned) |
-| `latitude`     | Latitude                             |
-| `longitude`    | Longitude                            |
-| `geometry`     | Point geometry (GeoJSON only)        |
+| Column Name     | Description                          |
+| --------------  | ------------------------------------ |
+| 
+| `id`.           | Numeric Unique Identifier (OSM-based)|
+| `name`          | Bakery name                          |
+| `bakery_type`   | Normalized bakery category           |
+| `is_chain`      | Chain vs. independent indicator      |
+| `brand_name`    | Chain brand name (if applicable)     |
+| `street`        | Street name                          |
+| `house_number`  | House number                         |
+| `sunday_opening`| Sunday status ( True/False/NaN )     |
+| `postal_code`   | Postal code                          |
+| `district`      | Berlin district (spatially assigned) |
+| `latitude`      | Latitude                             |
+| `longitude`     | Longitude                            |
+
 ---------------------------------------------------------------------------------------------
 
 # Data Quality Notes & Assumptions
@@ -234,18 +239,32 @@ The notebook executes the full pipeline from raw OSM data to finalized datasets.
 
 - Chain detection may not capture small or regional chains consistently
 
-- Opening hours are incomplete and not fully standardized
+- **Opening hours** are incomplete and not fully standardized
+
+- **Sunday Opening:** Records without explicit opening hours are preserved as `NaN` (Unknown). We do not assume a bakery is closed if data is missing.
+- **Deduplication:** The dataset has been cross-referenced with city-wide supermarket data to prevent double-counting of in-store bakery counters.
+- **Geometry:** All locations are represented as single coordinate points for optimized database indexing and mapping.
 ----------------------------------------------------------------------------------------------
+
+# Database Schema Compliance
+
+The output is optimized for direct import into SQL-based platforms:
+
+- **IDs:** Numeric strings (max 20 chars).
+- **Boolean Logic:** Sunday opening supports NULL/NaN for high data integrity.
+- **Spatial:** Strictly formatted as `POINT` (EPSG:4326).
+
+
 
 # Reproducibility
 
 To reproduce the datasets:
 
- **1.** Install required Python libraries
+ 1. Install required Python libraries
 
- **2.** Run bakeries_transformation.ipynb top to bottom
+ 2. Run bakeries_transformation.ipynb top to bottom
 
- **3.** Output files will be generated in the sources/ directory
+ 3. Output files will be generated in the sources/ directory
 
 
 ## Summary
