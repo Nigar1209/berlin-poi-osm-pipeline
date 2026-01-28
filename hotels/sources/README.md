@@ -1,4 +1,6 @@
-# Hotels – Berlin | Data Source Research
+
+# STEP 1 Hotels – Berlin | Data Source Research
+
 
 ## Purpose
 This document catalogs candidate data sources for hotel and accommodation data in Berlin,
@@ -165,3 +167,238 @@ high-level transformation steps are expected in later stages:
 
 Detailed transformation logic and implementation will be addressed in Step 2 (#606)
 (Data Transformation & Preprocessing).
+
+
+## Step 2 – Data Transformation & Enrichment (#606)
+
+This section documents the data transformation and enrichment work performed in Step #606,
+building on the data source research outlined above.
+
+### Base Dataset
+
+- **Primary source**: OpenStreetMap (OSM)
+- **Scope**: Hotel and accommodation-related POIs in Berlin
+- **Geometry**: Standardized to point geometries (EPSG:4326)
+- **Identifier strategy**:
+  - OSM identifier retained as stable `id`
+  - Provenance tracked via `data_source` and `source_ids`
+
+OSM serves as the authoritative base layer. All additional sources are used in a
+*supplementary, non-overwriting* manner.
+
+---
+
+### Amenities & Accessibility
+
+**Amenities**
+
+Raw OSM tags were analyzed to identify potential enrichment opportunities
+(e.g. Wi-Fi, air conditioning, breakfast, restaurant, spa).
+
+**Findings**
+- Amenity tagging is highly inconsistent across records
+- Coverage varies significantly by contributor and location
+- No reliable open external enrichment source was identified
+
+**Conclusion**  
+Amenities were derived **only from existing OSM tags**. No external enrichment was applied.
+
+**Accessibility**
+
+Accessibility information (e.g. wheelchair access, elevators) was derived directly from
+OSM tags where present. No external enrichment source was identified.
+
+---
+
+### Contact Information (Phone, Website, Email)
+
+Contact information was derived and standardized using **OpenStreetMap tags only**.
+
+**Fields**
+- `phone`
+- `website`
+- `email`
+
+**Method**
+- Relevant OSM contact-related tags (e.g. `contact:phone`, `phone`, `contact:website`, `website`,
+  `contact:email`, `email`) were consolidated into unified contact fields.
+- When multiple tag variants existed, values were coalesced into a single canonical column
+  per contact type.
+- Common string artifacts (e.g. empty strings) were cleaned during normalization.
+
+**External enrichment assessment**
+- No reliable open external data source providing contact information for Berlin hotels
+  was identified.
+- Wikidata coverage for contact details was found to be sparse and inconsistent.
+
+**Conclusion**
+Contact information remains **purely OSM-derived**.
+
+---
+### Room Count
+
+- Column: `rooms`
+- Source: OpenStreetMap only
+
+**Findings**
+- Room count is sparsely populated in OSM
+- No reliable open dataset providing room counts for Berlin hotels was identified
+- Commercial platforms were excluded due to licensing restrictions
+
+**Conclusion**  
+Room count remains a **pure OSM-derived field** with no external enrichment.
+
+---
+
+### Wikidata Enrichment – Star Rating (P10290)
+
+Wikidata was used as a **supplementary enrichment source** for hotel star ratings.
+
+**Rationale**
+- Structured hotel rating property (P10290)
+- CC0 license allows reuse
+- Partial but valuable coverage for well-known hotels
+
+Wikidata was **not** used as a primary source and **never overwrites existing OSM values**.
+
+**Enrichment process (Cell 57)**
+
+1. Only hotels with a known `wikidata_id` were considered  
+2. Only records with missing `star_rating` were eligible  
+3. A SPARQL query was executed against the Wikidata endpoint  
+4. Results were exported as a CSV snapshot and stored under `hotels/sources/`  
+5. Star ratings were merged without overwriting existing values  
+6. Provenance was recorded in `data_source` and `source_ids`
+
+https://query.wikidata.org/
+
+**SPARQL query used**
+
+SELECT ?hotel ?hotelLabel ?ratingLabel  
+(xsd:integer(REPLACE(?ratingLabel, "^(\\d+).*", "$1")) AS ?stars)  
+WHERE {  
+  VALUES ?hotel {  
+    /* Wikidata IDs collected in cell 57 */  
+  }  
+  ?hotel wdt:P10290 ?rating .  
+  ?rating rdfs:label ?ratingLabel .  
+  FILTER(LANG(?ratingLabel) = "en")  
+  FILTER(REGEX(?ratingLabel, "^[0-9]+-star"))  
+
+  SERVICE wikibase:label {  
+    bd:serviceParam wikibase:language "en".  
+  }  
+}
+
+**Query output**  
+The result of this query is stored as a static snapshot at  
+`hotels/sources/wikidata_stars_candidates.csv`.
+
+---
+
+### Address Enrichment (Nominatim)
+
+Address components were enriched using **Nominatim reverse geocoding** based on each hotel’s
+latitude and longitude.
+
+**Method**
+- For each hotel with missing address components, a reverse geocoding request was sent to
+  the Nominatim API.
+- The response `address` object was parsed to extract street-level information.
+- Street name was resolved using the following fallback order when available:
+  `road` → `pedestrian` → `footway` → `path`.
+
+**Fill policy**
+- Only missing values were filled.
+- Existing OSM address data was never overwritten.
+
+**Fields enriched**
+- `street`
+- `house_number`
+- `postal_code`
+
+After enrichment, a full `address` string was constructed from the available components
+for downstream compatibility where required.
+
+---
+
+### Administrative Area Enrichment (LOR)
+
+Administrative area information was enriched using **official Berlin LOR (Lebensweltlich orientierte Räume) Ortsteile** boundaries.
+
+**Data source**
+- File: `mapping/lor_ortsteile.geojson`
+- Provider: Land Berlin
+- Content: Official polygon geometries for Berlin districts and neighborhoods (Ortsteile)
+
+**Method**
+- Hotel point geometries were spatially joined with the LOR Ortsteile polygons.
+- Each hotel was assigned to the polygon it falls within.
+- Official naming and coding conventions from the LOR dataset were preserved.
+
+**Fields enriched**
+- `district` — Berlin district name
+- `neighborhood` — Berlin neighborhood (Ortsteil) name
+- `district_id` — Official Berlin district code
+- `neighborhood_id` — Official neighborhood identifier
+
+---
+
+### Deduplication
+
+Duplicate records can arise due to multiple OSM elements (e.g. node + way)
+or closely located representations of the same hotel.
+
+**Deduplication rule**
+- Same normalized hotel name
+- Within **10 meters** spatial distance
+
+Deduplication was applied **after all enrichment steps** to avoid data loss.
+
+---
+
+## Final Dataset Schema
+
+**Bold columns are mandatory according to #606.**
+
+| Column | Description |
+|------|-------------|
+| **id** | Stable unique identifier derived from OSM |
+| **name** | Hotel or accommodation name |
+| **hotel_type** | Accommodation type (hotel, hostel, guest house, etc.) |
+| star_rating | Official star rating (1–5), from OSM or Wikidata |
+| amenities | Derived list of amenities from OSM tags |
+| accessibility | Accessibility features derived from OSM tags |
+| rooms | Number of rooms (if available from OSM) |
+| phone | Contact phone number |
+| website | Official website URL |
+| email | Contact email address |
+| address | Full address string (constructed) |
+| street | Street name |
+| house_number | House number |
+| postal_code | Postal code |
+| **latitude** | Latitude coordinate (WGS84) |
+| **longitude** | Longitude coordinate (WGS84) |
+| **geometry** | Point geometry (EPSG:4326) |
+| **district** | Berlin district name |
+| **neighborhood** | Berlin neighborhood (Ortsteil) |
+| **district_id** | Official Berlin district code |
+| neighborhood_id | Official neighborhood identifier |
+| **data_source** | Source provenance summary |
+| **source_ids** | Source-specific identifiers |
+
+---
+
+## Transformation Summary (High-Level)
+
+The Berlin hotels dataset was produced by:
+
+- Extracting hotel-related POIs from OpenStreetMap  
+- Normalizing core attributes and geometry  
+- Deriving amenities and accessibility from raw OSM tags  
+- Enriching selected fields using Wikidata and Nominatim  
+- Assigning official administrative areas using Berlin LOR data  
+- Tracking provenance for all enrichment steps  
+- Deduplicating records using name normalization and 10 m proximity  
+- Aligning the final output with the standardized POI schema  
+
