@@ -8,6 +8,7 @@ analysis-ready dataset enriched with district-level spatial context.
 
 The project starts from data source identification and proceeds through a complete
 Python-based transformation pipeline implemented in a Jupyter Notebook.
+
 ----------------------------------------------------------------------------------------------
 # Data Sources
 
@@ -39,7 +40,7 @@ Dynamic
 ### Tagging Notes
 Bakeries are primarily tagged as:
 
-- shop=bakery
+- `shop=bakery`
 
 Additional tags observed during manual inspection include:
 - `shop=pastry` (pastry-focused bakeries)
@@ -164,7 +165,8 @@ All data extraction and transformation steps are implemented in:
 - Shapely
 
 The notebook executes the full pipeline from raw OSM data to finalized datasets.
-----
+
+---
 
 # Key Transformations Applied
 
@@ -198,25 +200,25 @@ The notebook executes the full pipeline from raw OSM data to finalized datasets.
 
 # Final Datasets
 
-1. Tabular Dataset
+**1. Tabular Dataset**
 
-File: bakeries_berlin.csv
-Description: Cleaned, non-spatial bakery dataset
-Granularity: One row per bakery location
+**File:** bakeries_berlin.csv
+**Description:** Cleaned, non-spatial bakery dataset
+**Granularity:** One row per bakery location
 
-2. Spatial Dataset
+****2. Spatial Dataset**
 
-File: bakeries_berlin.geojson
-Description: GeoJSON version including geometry for mapping and spatial analysis
-Coordinate System: WGS84 (latitude / longitude)
+**File:** bakeries_berlin.geojson
+**Description:** GeoJSON version including geometry for mapping and spatial analysis
+**Coordinate System:** WGS84 (latitude / longitude)
+
 ----------------------------------------------------------------------------------------------
 
 # Final Schema (Key Fields)
 
 | Column Name     | Description                          |
 | --------------  | ------------------------------------ |
-| 
-| `id`.           | Numeric Unique Identifier (OSM-based)|
+| `id`            | Numeric Unique Identifier (OSM-based)|
 | `name`          | Bakery name                          |
 | `bakery_type`   | Normalized bakery category           |
 | `is_chain`      | Chain vs. independent indicator      |
