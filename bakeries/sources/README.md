@@ -246,17 +246,42 @@ The notebook executes the full pipeline from raw OSM data to finalized datasets.
 - **Sunday Opening:** Records without explicit opening hours are preserved as `NaN` (Unknown). We do not assume a bakery is closed if data is missing.
 - **Deduplication:** The dataset has been cross-referenced with city-wide supermarket data to prevent double-counting of in-store bakery counters.
 - **Geometry:** All locations are represented as single coordinate points for optimized database indexing and mapping.
+
 ----------------------------------------------------------------------------------------------
 
-# Database Schema Compliance
+# Database Schema and Tables
 
-The output is optimized for direct import into SQL-based platforms:
+## Schema: `berlin_source_data`
+This schema houses the raw, cleaned datasets for the Berlin spatial analysis project.
 
-- **IDs:** Numeric strings (max 20 chars).
-- **Boolean Logic:** Sunday opening supports NULL/NaN for high data integrity.
-- **Spatial:** Strictly formatted as `POINT` (EPSG:4326).
+### Table: `berlin_source_data.bakeries`
 
+#### 1. Description
+This table contains a cleaned and georeferenced dataset of 1,310 bakeries and pastry shops in Berlin. The data is enriched with **LOR (Lebensweltlich orientierte Räume)** administrative identifiers and cross-validated against Berlin's district boundaries to ensure spatial accuracy.
 
+#### 2. Schema Definition
+| Column | Data Type | Constraints | Description |
+| :--- | :--- | :--- | :--- |
+| `id` | `VARCHAR(20)` | `PRIMARY KEY` | Unique OSM identifier. |
+| `district_id` | `VARCHAR(20)` | `FK`, `NOT NULL` | Reference to the `districts` table ID. |
+| `name` | `VARCHAR(200)` | `NOT NULL` | Name of the bakery (Defaults to 'Unknown Bakery'). |
+| `latitude` | `DECIMAL(9,6)` | - | WGS84 Latitude coordinate. |
+| `longitude` | `DECIMAL(9,6)` | - | WGS84 Longitude coordinate. |
+| `geometry` | `VARCHAR` | - | Spatial location in Well-Known Text (WKT) format. |
+| `neighborhood` | `VARCHAR(100)` | - | Neighborhood name (Ortsteil). |
+| `district` | `VARCHAR(100)` | - | Administrative district name (Bezirk). |
+| `neighborhood_id`| `VARCHAR(20)` | - | Statistical identifier for the neighborhood. |
+| `opening_hours` | `VARCHAR(200)` | - | Standardized business hours string. |
+| `website` | `VARCHAR(200)` | - | URL of the establishment's website. |
+| `phone_number` | `VARCHAR(50)` | - | Verified contact number (merged from `phone`/`contact_phone`). |
+
+#### 3. Data Validation & Quality
+- **Record Count:** 1,310 unique entries (successfully verified in DB).
+- **Spatial Integrity:** 100% of points verified within Berlin city limits via spatial join.
+- **Schema Compliance:** - IDs strictly formatted as numeric strings (max 20 chars).
+    - Geometry forced to `POINT` format for optimized indexing.
+
+-------------------------------------------------------------------------------------------
 
 # Reproducibility
 
