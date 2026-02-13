@@ -1,16 +1,18 @@
 {
   "must_columns": [
     { "name": "id", "type": "VARCHAR(20)" },
-    { "name": "geometry", "type": "VARCHAR" }
-  ],
-  "common_columns": [
+    { "name": "geometry", "type": "VARCHAR" },
     { "name": "name", "type": "VARCHAR(200)" },
     { "name": "latitude", "type": "DECIMAL(9,6)" },
     { "name": "longitude", "type": "DECIMAL(9,6)" },
     { "name": "district", "type": "VARCHAR(100)" },
     { "name": "district_id", "type": "VARCHAR(20)" },
     { "name": "neighborhood", "type": "VARCHAR(100)" },
-    { "name": "neighborhood_id", "type": "VARCHAR(20)" },
+    { "name": "neighborhood_id", "type": "VARCHAR(20)" }
+    
+  ],
+  "common_columns": [
+  
     { "name": "addr_housenumber", "type": "VARCHAR(50)" },
     { "name": "addr_street", "type": "VARCHAR(200)" },
     { "name": "addr_postcode", "type": "VARCHAR(20)" },
