@@ -1,0 +1,24 @@
+[2026-02-24T06:51:28.169+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-02-24T06:51:28.179+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: core_osm_table_generator.process_hospitals manual__2026-02-23T22:58:31.017123+00:00 [queued]>
+[2026-02-24T06:51:28.184+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: core_osm_table_generator.process_hospitals manual__2026-02-23T22:58:31.017123+00:00 [queued]>
+[2026-02-24T06:51:28.184+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 6
+[2026-02-24T06:51:28.189+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_hospitals> on 2026-02-23 22:58:31.017123+00:00
+[2026-02-24T06:51:28.193+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=487) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-24T06:51:28.194+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'core_osm_table_generator', 'process_hospitals', 'manual__2026-02-23T22:58:31.017123+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/core_osm_table_generator_dag.py', '--cfg-path', '/tmp/tmpa3nu6t3c']
+[2026-02-24T06:51:28.195+0000] {standard_task_runner.py:105} INFO - Job 149: Subtask process_hospitals
+[2026-02-24T06:51:28.194+0000] {standard_task_runner.py:72} INFO - Started process 488 to run task
+[2026-02-24T06:51:28.236+0000] {task_command.py:467} INFO - Running <TaskInstance: core_osm_table_generator.process_hospitals manual__2026-02-23T22:58:31.017123+00:00 [running]> on host 2b004ae002f2
+[2026-02-24T06:51:28.282+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='core_osm_table_generator' AIRFLOW_CTX_TASK_ID='process_hospitals' AIRFLOW_CTX_EXECUTION_DATE='2026-02-23T22:58:31.017123+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-23T22:58:31.017123+00:00'
+[2026-02-24T06:51:28.283+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-02-24T06:51:28.386+0000] {base.py:84} INFO - Retrieving connection 'neon_test'
+[2026-02-24T06:51:31.351+0000] {core_osm_table_generator_dag.py:253} INFO - Processing table: hospitals
+[2026-02-24T06:52:19.976+0000] {core_osm_table_generator_dag.py:275} INFO -  Finished processing hospitals: Fetched 237, Inserted 237
+[2026-02-24T07:08:23.215+0000] {job.py:229} INFO - Heartbeat recovered after 941.25 seconds
+[2026-02-24T07:08:26.292+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-02-24T07:08:26.333+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-02-24T07:08:26.334+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=core_osm_table_generator, task_id=process_hospitals, run_id=manual__2026-02-23T22:58:31.017123+00:00, execution_date=20260223T225831, start_date=20260224T065128, end_date=20260224T070826
+[2026-02-24T07:08:26.379+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-02-24T07:08:26.398+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-24T07:08:26.399+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

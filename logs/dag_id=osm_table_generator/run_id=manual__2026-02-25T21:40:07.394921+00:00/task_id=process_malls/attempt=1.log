@@ -1,0 +1,25 @@
+[2026-02-25T22:11:54.172+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-02-25T22:11:54.178+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: osm_table_generator.process_malls manual__2026-02-25T21:40:07.394921+00:00 [queued]>
+[2026-02-25T22:11:54.182+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: osm_table_generator.process_malls manual__2026-02-25T21:40:07.394921+00:00 [queued]>
+[2026-02-25T22:11:54.182+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 4
+[2026-02-25T22:11:54.187+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_malls> on 2026-02-25 21:40:07.394921+00:00
+[2026-02-25T22:11:54.191+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=180) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-25T22:11:54.192+0000] {standard_task_runner.py:72} INFO - Started process 182 to run task
+[2026-02-25T22:11:54.192+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'osm_table_generator', 'process_malls', 'manual__2026-02-25T21:40:07.394921+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/osm_table_generator_dag.py', '--cfg-path', '/tmp/tmpn6em6zik']
+[2026-02-25T22:11:54.194+0000] {standard_task_runner.py:105} INFO - Job 31: Subtask process_malls
+[2026-02-25T22:11:54.214+0000] {task_command.py:467} INFO - Running <TaskInstance: osm_table_generator.process_malls manual__2026-02-25T21:40:07.394921+00:00 [running]> on host 907a1a6bce13
+[2026-02-25T22:11:54.242+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='osm_table_generator' AIRFLOW_CTX_TASK_ID='process_malls' AIRFLOW_CTX_EXECUTION_DATE='2026-02-25T21:40:07.394921+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-25T21:40:07.394921+00:00'
+[2026-02-25T22:11:54.242+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-02-25T22:11:54.313+0000] {base.py:84} INFO - Retrieving connection 'neon_test'
+[2026-02-25T22:11:55.379+0000] {osm_table_generator_dag.py:297} INFO - Processing table: malls
+[2026-02-25T22:11:55.383+0000] {osm_table_generator_dag.py:59} INFO - OSMnx fetching malls with filter: {'shop': 'mall'}
+[2026-02-25T22:11:55.384+0000] {osm_table_generator_dag.py:99} ERROR - Error fetching malls: features_from_bbox() got an unexpected keyword argument 'north'
+[2026-02-25T22:11:56.209+0000] {osm_table_generator_dag.py:326} INFO -  Finished processing malls: Fetched 0, Inserted 0
+[2026-02-25T22:12:26.255+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-02-25T22:12:26.278+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-02-25T22:12:26.279+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=osm_table_generator, task_id=process_malls, run_id=manual__2026-02-25T21:40:07.394921+00:00, execution_date=20260225T214007, start_date=20260225T221154, end_date=20260225T221226
+[2026-02-25T22:12:26.337+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-02-25T22:12:26.353+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-25T22:12:26.354+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

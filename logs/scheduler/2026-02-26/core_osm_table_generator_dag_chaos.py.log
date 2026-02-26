@@ -1,0 +1,14 @@
+[2026-02-26T01:08:17.318+0000] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/core_osm_table_generator_dag_chaos.py
+[2026-02-26T01:08:17.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/core_osm_table_generator_dag_chaos.py for tasks to queue
+[2026-02-26T01:08:17.322+0000] {logging_mixin.py:190} INFO - [2026-02-26T01:08:17.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/core_osm_table_generator_dag_chaos.py
+[2026-02-26T01:08:18.014+0000] {processor.py:925} INFO - DAG(s) 'core_osm_table_generator' retrieved from /opt/airflow/dags/core_osm_table_generator_dag_chaos.py
+[2026-02-26T01:08:18.025+0000] {logging_mixin.py:190} INFO - [2026-02-26T01:08:18.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T01:08:18.033+0000] {logging_mixin.py:190} INFO - [2026-02-26T01:08:18.033+0000] {dag.py:4180} INFO - Setting next_dagrun for core_osm_table_generator to None, run_after=None
+[2026-02-26T01:08:18.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/core_osm_table_generator_dag_chaos.py took 0.742 seconds
+[2026-02-26T01:08:48.159+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/core_osm_table_generator_dag_chaos.py
+[2026-02-26T01:08:48.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/core_osm_table_generator_dag_chaos.py for tasks to queue
+[2026-02-26T01:08:48.164+0000] {logging_mixin.py:190} INFO - [2026-02-26T01:08:48.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/core_osm_table_generator_dag_chaos.py
+[2026-02-26T01:08:48.773+0000] {processor.py:925} INFO - DAG(s) 'core_osm_table_generator' retrieved from /opt/airflow/dags/core_osm_table_generator_dag_chaos.py
+[2026-02-26T01:08:48.825+0000] {logging_mixin.py:190} INFO - [2026-02-26T01:08:48.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T01:08:48.831+0000] {logging_mixin.py:190} INFO - [2026-02-26T01:08:48.831+0000] {dag.py:4180} INFO - Setting next_dagrun for core_osm_table_generator to None, run_after=None
+[2026-02-26T01:08:48.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/core_osm_table_generator_dag_chaos.py took 0.689 seconds

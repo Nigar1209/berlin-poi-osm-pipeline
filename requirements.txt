@@ -1,0 +1,6 @@
+osmnx>=1.9.0
+pandas
+geopandas
+shapely
+pyarrow
+psycopg2-binary

@@ -1,0 +1,23 @@
+[2026-02-20T20:54:50.328+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-02-20T20:54:50.347+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: core_osm_table_generator.process_hotels manual__2026-02-20T15:03:06.128334+00:00 [queued]>
+[2026-02-20T20:54:50.357+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: core_osm_table_generator.process_hotels manual__2026-02-20T15:03:06.128334+00:00 [queued]>
+[2026-02-20T20:54:50.357+0000] {taskinstance.py:2865} INFO - Starting attempt 17 of 20
+[2026-02-20T20:54:50.367+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_hotels> on 2026-02-20 15:03:06.128334+00:00
+[2026-02-20T20:54:50.372+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=230) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-20T20:54:50.373+0000] {standard_task_runner.py:72} INFO - Started process 234 to run task
+[2026-02-20T20:54:50.374+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'core_osm_table_generator', 'process_hotels', 'manual__2026-02-20T15:03:06.128334+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/core_osm_table_generator_dag.py', '--cfg-path', '/tmp/tmpizuuol4o']
+[2026-02-20T20:54:50.375+0000] {standard_task_runner.py:105} INFO - Job 64: Subtask process_hotels
+[2026-02-20T20:54:50.427+0000] {task_command.py:467} INFO - Running <TaskInstance: core_osm_table_generator.process_hotels manual__2026-02-20T15:03:06.128334+00:00 [running]> on host 2b004ae002f2
+[2026-02-20T20:54:51.570+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='core_osm_table_generator' AIRFLOW_CTX_TASK_ID='process_hotels' AIRFLOW_CTX_EXECUTION_DATE='2026-02-20T15:03:06.128334+00:00' AIRFLOW_CTX_TRY_NUMBER='17' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-20T15:03:06.128334+00:00'
+[2026-02-20T20:54:51.571+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-02-20T20:54:51.873+0000] {base.py:84} INFO - Retrieving connection 'neon_test'
+[2026-02-20T20:54:53.062+0000] {core_osm_table_generator_dag.py:262} INFO - Processing table: hotels
+[2026-02-20T20:55:14.347+0000] {core_osm_table_generator_dag.py:280} INFO -  Finished processing hotels: Fetched 9, Inserted 96
+[2026-02-20T20:55:14.382+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-02-20T20:55:14.455+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-02-20T20:55:14.457+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=core_osm_table_generator, task_id=process_hotels, run_id=manual__2026-02-20T15:03:06.128334+00:00, execution_date=20260220T150306, start_date=20260220T205450, end_date=20260220T205514
+[2026-02-20T20:55:14.571+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-02-20T20:55:14.591+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T20:55:14.592+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

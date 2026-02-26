@@ -1,0 +1,33 @@
+[2026-02-26T12:49:18.949+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-02-26T12:49:18.955+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: core_osm_table_generator.process_kindergartens manual__2026-02-26T12:08:22.444167+00:00 [queued]>
+[2026-02-26T12:49:18.958+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: core_osm_table_generator.process_kindergartens manual__2026-02-26T12:08:22.444167+00:00 [queued]>
+[2026-02-26T12:49:18.958+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 6
+[2026-02-26T12:49:18.963+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_kindergartens> on 2026-02-26 12:08:22.444167+00:00
+[2026-02-26T12:49:18.968+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=378) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-26T12:49:18.969+0000] {standard_task_runner.py:72} INFO - Started process 380 to run task
+[2026-02-26T12:49:18.969+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'core_osm_table_generator', 'process_kindergartens', 'manual__2026-02-26T12:08:22.444167+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/core_osm_table_generator_dag.py', '--cfg-path', '/tmp/tmp6yicnldh']
+[2026-02-26T12:49:18.971+0000] {standard_task_runner.py:105} INFO - Job 88: Subtask process_kindergartens
+[2026-02-26T12:49:18.990+0000] {task_command.py:467} INFO - Running <TaskInstance: core_osm_table_generator.process_kindergartens manual__2026-02-26T12:08:22.444167+00:00 [running]> on host a0ea9a98cfa1
+[2026-02-26T12:49:19.023+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='core_osm_table_generator' AIRFLOW_CTX_TASK_ID='process_kindergartens' AIRFLOW_CTX_EXECUTION_DATE='2026-02-26T12:08:22.444167+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-26T12:08:22.444167+00:00'
+[2026-02-26T12:49:19.023+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-02-26T12:49:19.101+0000] {base.py:84} INFO - Retrieving connection 'neon_test'
+[2026-02-26T12:49:20.269+0000] {core_osm_table_generator_dag.py:356} INFO - Processing table: kindergartens
+[2026-02-26T12:49:20.270+0000] {core_osm_table_generator_dag.py:91} INFO - Sending Overpass Query: 
+    [out:json][timeout:600];
+    (
+      node["amenity"~"kindergarten"](52.3, 13.0, 52.7, 13.7);
+      way["amenity"~"kindergarten"](52.3, 13.0, 52.7, 13.7);
+      relation["amenity"~"kindergarten"](52.3, 13.0, 52.7, 13.7);
+    );
+    out center;
+    
+[2026-02-26T12:49:27.782+0000] {core_osm_table_generator_dag.py:167} INFO - DEBUG: Joined columns are: ['type', 'id', 'lat', 'lon', 'tags', 'center', 'nodes', 'members', 'lat_val', 'lon_val', 'geometry', 'index_right', 'gml_id', 'spatial_name', 'spatial_alias', 'spatial_type', 'OTEIL', 'BEZIRK', 'FLAECHE_HA']
+[2026-02-26T12:52:02.427+0000] {core_osm_table_generator_dag.py:378} INFO -  Finished processing kindergartens: Fetched 2716, Inserted 1137
+[2026-02-26T12:52:32.524+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-02-26T12:52:32.550+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-02-26T12:52:32.550+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=core_osm_table_generator, task_id=process_kindergartens, run_id=manual__2026-02-26T12:08:22.444167+00:00, execution_date=20260226T120822, start_date=20260226T124918, end_date=20260226T125232
+[2026-02-26T12:52:32.609+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-02-26T12:52:32.636+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-26T12:52:32.636+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

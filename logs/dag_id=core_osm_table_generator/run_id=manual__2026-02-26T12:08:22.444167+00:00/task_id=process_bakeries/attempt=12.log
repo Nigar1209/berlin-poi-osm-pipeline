@@ -1,0 +1,33 @@
+[2026-02-26T12:37:42.159+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-02-26T12:37:42.166+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: core_osm_table_generator.process_bakeries manual__2026-02-26T12:08:22.444167+00:00 [queued]>
+[2026-02-26T12:37:42.169+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: core_osm_table_generator.process_bakeries manual__2026-02-26T12:08:22.444167+00:00 [queued]>
+[2026-02-26T12:37:42.170+0000] {taskinstance.py:2865} INFO - Starting attempt 12 of 15
+[2026-02-26T12:37:42.174+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_bakeries> on 2026-02-26 12:08:22.444167+00:00
+[2026-02-26T12:37:42.180+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=346) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-26T12:37:42.181+0000] {standard_task_runner.py:72} INFO - Started process 348 to run task
+[2026-02-26T12:37:42.181+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'core_osm_table_generator', 'process_bakeries', 'manual__2026-02-26T12:08:22.444167+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/core_osm_table_generator_dag.py', '--cfg-path', '/tmp/tmpcoa5g_1z']
+[2026-02-26T12:37:42.183+0000] {standard_task_runner.py:105} INFO - Job 80: Subtask process_bakeries
+[2026-02-26T12:37:42.206+0000] {task_command.py:467} INFO - Running <TaskInstance: core_osm_table_generator.process_bakeries manual__2026-02-26T12:08:22.444167+00:00 [running]> on host a0ea9a98cfa1
+[2026-02-26T12:37:42.243+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='core_osm_table_generator' AIRFLOW_CTX_TASK_ID='process_bakeries' AIRFLOW_CTX_EXECUTION_DATE='2026-02-26T12:08:22.444167+00:00' AIRFLOW_CTX_TRY_NUMBER='12' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-26T12:08:22.444167+00:00'
+[2026-02-26T12:37:42.243+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-02-26T12:37:42.349+0000] {base.py:84} INFO - Retrieving connection 'neon_test'
+[2026-02-26T12:37:43.716+0000] {core_osm_table_generator_dag.py:335} INFO - Processing table: bakeries
+[2026-02-26T12:37:43.717+0000] {core_osm_table_generator_dag.py:84} INFO - Sending Overpass Query: 
+    [out:json][timeout:600];
+    (
+      node["shop"~"bakery|pastry"](52.3, 13.0, 52.7, 13.7);
+      way["shop"~"bakery|pastry"](52.3, 13.0, 52.7, 13.7);
+      relation["shop"~"bakery|pastry"](52.3, 13.0, 52.7, 13.7);
+    );
+    out center;
+    
+[2026-02-26T12:37:49.814+0000] {core_osm_table_generator_dag.py:154} INFO - DEBUG: Joined columns are: ['type', 'id', 'lat', 'lon', 'tags', 'center', 'nodes', 'lat_val', 'lon_val', 'geometry', 'index_right', 'gml_id', 'spatial_name', 'spatial_alias', 'spatial_type', 'OTEIL', 'BEZIRK', 'FLAECHE_HA']
+[2026-02-26T12:40:47.333+0000] {core_osm_table_generator_dag.py:357} INFO -  Finished processing bakeries: Fetched 1590, Inserted 1301
+[2026-02-26T12:41:17.401+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-02-26T12:41:17.444+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-02-26T12:41:17.445+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=core_osm_table_generator, task_id=process_bakeries, run_id=manual__2026-02-26T12:08:22.444167+00:00, execution_date=20260226T120822, start_date=20260226T123742, end_date=20260226T124117
+[2026-02-26T12:41:17.477+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-02-26T12:41:17.501+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-26T12:41:17.502+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

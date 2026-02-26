@@ -1,0 +1,116 @@
+[2026-02-25T23:19:06.185+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-02-25T23:19:06.191+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: osm_table_generator.process_hospitals manual__2026-02-25T21:34:00.064833+00:00 [queued]>
+[2026-02-25T23:19:06.194+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: osm_table_generator.process_hospitals manual__2026-02-25T21:34:00.064833+00:00 [queued]>
+[2026-02-25T23:19:06.195+0000] {taskinstance.py:2865} INFO - Starting attempt 10 of 12
+[2026-02-25T23:19:06.200+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_hospitals> on 2026-02-25 21:34:00.064833+00:00
+[2026-02-25T23:19:06.204+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=268) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-25T23:19:06.205+0000] {standard_task_runner.py:72} INFO - Started process 270 to run task
+[2026-02-25T23:19:06.205+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'osm_table_generator', 'process_hospitals', 'manual__2026-02-25T21:34:00.064833+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/osm_table_generator_dag.py', '--cfg-path', '/tmp/tmp_tbgycml']
+[2026-02-25T23:19:06.207+0000] {standard_task_runner.py:105} INFO - Job 53: Subtask process_hospitals
+[2026-02-25T23:19:06.228+0000] {task_command.py:467} INFO - Running <TaskInstance: osm_table_generator.process_hospitals manual__2026-02-25T21:34:00.064833+00:00 [running]> on host 907a1a6bce13
+[2026-02-25T23:19:06.258+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='osm_table_generator' AIRFLOW_CTX_TASK_ID='process_hospitals' AIRFLOW_CTX_EXECUTION_DATE='2026-02-25T21:34:00.064833+00:00' AIRFLOW_CTX_TRY_NUMBER='10' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-25T21:34:00.064833+00:00'
+[2026-02-25T23:19:06.258+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-02-25T23:19:06.371+0000] {base.py:84} INFO - Retrieving connection 'neon_test'
+[2026-02-25T23:19:07.455+0000] {osm_table_generator_dag.py:325} INFO - Processing table: hospitals
+[2026-02-25T23:19:07.457+0000] {osm_table_generator_dag.py:90} INFO - OSMnx fetching hospitals with filter: {'amenity': ['hospital', 'clinic'], 'healthcare': ['hospital', 'clinic']}
+[2026-02-25T23:19:07.751+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/osmnx/_overpass.py:271: UserWarning: This area is 6,190 times your configured Overpass max query area size. It will automatically be divided up into multiple sub-queries accordingly. This may take a long time.
+  multi_poly_proj = utils_geo._consolidate_subdivide_geometry(poly_proj)
+
+[2026-02-25T23:29:53.024+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2026-02-25T23:29:53.079+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-02-25T23:29:53.087+0000] {process_utils.py:132} INFO - Sending 15 to group 270. PIDs of all processes in the group: [270]
+[2026-02-25T23:29:53.092+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 270
+[2026-02-25T23:29:53.110+0000] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-02-25T23:29:53.261+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 762, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/osm_table_generator_dag.py", line 331, in process_single_table
+    return
+           
+  File "/opt/airflow/dags/osm_table_generator_dag.py", line 95, in fetch_osm_data_osmnx
+    bbox = (52.7, 52.3, 13.7, 13.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/osmnx/features.py", line 130, in features_from_bbox
+    return features_from_polygon(polygon, tags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/osmnx/features.py", line 332, in features_from_polygon
+    return _create_gdf(response_jsons, polygon, tags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/osmnx/features.py", line 406, in _create_gdf
+    for response_json in response_jsons:
+                         ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/osmnx/_overpass.py", line 432, in _download_overpass_features
+    yield _overpass_request(OrderedDict(data=query_str))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/osmnx/_overpass.py", line 469, in _overpass_request
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.12/ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3094, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2026-02-25T23:29:53.315+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=osm_table_generator, task_id=process_hospitals, run_id=manual__2026-02-25T21:34:00.064833+00:00, execution_date=20260225T213400, start_date=20260225T231906, end_date=20260225T232953
+[2026-02-25T23:29:53.335+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-02-25T23:29:53.402+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=270, status='terminated', exitcode=2, started='23:19:05') (270) terminated with exit code 2

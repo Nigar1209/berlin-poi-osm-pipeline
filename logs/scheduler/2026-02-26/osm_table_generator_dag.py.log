@@ -1,0 +1,197 @@
+[2026-02-26T00:00:21.766+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:00:21.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:00:21.771+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:00:21.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:00:22.319+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:00:22.340+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:00:22.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:00:22.350+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:00:22.350+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:00:22.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.606 seconds
+[2026-02-26T00:00:52.549+0000] {processor.py:186} INFO - Started process (PID=685) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:00:52.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:00:52.555+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:00:52.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:00:53.177+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:00:53.189+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:00:53.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:00:53.198+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:00:53.197+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:00:53.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.665 seconds
+[2026-02-26T00:01:23.624+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:01:23.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:01:23.633+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:01:23.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:01:24.182+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:01:24.195+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:01:24.195+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:01:24.212+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:01:24.212+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:01:24.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.609 seconds
+[2026-02-26T00:01:54.579+0000] {processor.py:186} INFO - Started process (PID=689) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:01:54.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:01:54.593+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:01:54.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:01:55.134+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:01:55.146+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:01:55.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:01:55.151+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:01:55.151+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:01:55.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.601 seconds
+[2026-02-26T00:03:13.344+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:03:13.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:03:13.375+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:13.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:03:17.393+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:03:17.769+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.769+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:osm_table_generator
+[2026-02-26T00:03:17.784+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.783+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:osm_table_generator
+[2026-02-26T00:03:17.786+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.786+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:osm_table_generator
+[2026-02-26T00:03:17.788+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.788+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:osm_table_generator
+[2026-02-26T00:03:17.790+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.790+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:osm_table_generator
+[2026-02-26T00:03:17.792+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.792+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:osm_table_generator
+[2026-02-26T00:03:17.794+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.794+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:osm_table_generator
+[2026-02-26T00:03:17.796+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.794+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:03:17.832+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.831+0000] {dag.py:3262} INFO - Creating ORM DAG for osm_table_generator
+[2026-02-26T00:03:17.834+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:17.834+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:03:17.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 4.563 seconds
+[2026-02-26T00:03:48.146+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:03:48.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:03:48.158+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:48.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:03:49.331+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:03:49.354+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:49.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:03:49.362+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:03:49.362+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:03:49.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 1.239 seconds
+[2026-02-26T00:04:19.423+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:04:19.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:04:19.429+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:04:19.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:04:20.087+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:04:20.114+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:04:20.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:04:20.120+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:04:20.120+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:04:20.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.710 seconds
+[2026-02-26T00:04:50.481+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:04:50.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:04:50.501+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:04:50.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:04:50.973+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:04:50.987+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:04:50.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:04:50.993+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:04:50.993+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:04:51.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.524 seconds
+[2026-02-26T00:05:21.369+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:05:21.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:05:21.374+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:05:21.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:05:22.305+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:05:22.328+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:05:22.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:05:22.343+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:05:22.342+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:05:22.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.994 seconds
+[2026-02-26T00:05:52.703+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:05:52.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:05:52.707+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:05:52.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:05:53.153+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:05:53.168+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:05:53.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:05:53.173+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:05:53.173+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:05:53.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.485 seconds
+[2026-02-26T00:06:23.619+0000] {processor.py:186} INFO - Started process (PID=61) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:06:23.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:06:23.625+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:06:23.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:06:24.279+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:06:24.294+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:06:24.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:06:24.300+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:06:24.300+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:06:24.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.699 seconds
+[2026-02-26T00:06:54.380+0000] {processor.py:186} INFO - Started process (PID=63) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:06:54.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:06:54.385+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:06:54.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:06:54.905+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:06:54.932+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:06:54.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:06:54.939+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:06:54.939+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:06:54.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.575 seconds
+[2026-02-26T00:07:25.252+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:07:25.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:07:25.258+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:07:25.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:07:25.740+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:07:25.756+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:07:25.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:07:25.763+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:07:25.763+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:07:25.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.525 seconds
+[2026-02-26T00:07:56.149+0000] {processor.py:186} INFO - Started process (PID=67) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:07:56.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:07:56.158+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:07:56.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:07:56.617+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:07:56.630+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:07:56.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:07:56.635+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:07:56.635+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:07:56.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.500 seconds
+[2026-02-26T00:08:26.842+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:08:26.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:08:26.847+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:08:26.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:08:27.391+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:08:27.415+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:08:27.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:08:27.429+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:08:27.429+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:08:27.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.608 seconds
+[2026-02-26T00:08:57.567+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:08:57.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:08:57.572+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:08:57.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:08:58.114+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:08:58.128+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:08:58.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:08:58.134+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:08:58.134+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:08:58.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.605 seconds
+[2026-02-26T00:09:28.471+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:09:28.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:09:28.484+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:09:28.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:09:29.057+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:09:29.070+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:09:29.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:09:29.077+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:09:29.077+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:09:29.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.621 seconds
+[2026-02-26T00:09:59.427+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:09:59.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:09:59.433+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:09:59.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:09:59.926+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:09:59.944+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:09:59.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:09:59.950+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:09:59.950+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:09:59.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.557 seconds
+[2026-02-26T00:10:30.315+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:10:30.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:10:30.319+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:10:30.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:10:30.788+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:10:30.805+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:10:30.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:10:30.811+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:10:30.811+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:10:30.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.508 seconds
+[2026-02-26T00:11:01.066+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:11:01.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:11:01.078+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:11:01.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:11:02.126+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:11:02.165+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:11:02.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:11:02.177+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:11:02.177+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:11:02.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 1.126 seconds
+[2026-02-26T00:11:32.467+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:11:32.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:11:32.481+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:11:32.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:11:33.351+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:11:33.368+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:11:33.368+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:11:33.377+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:11:33.376+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:11:33.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.933 seconds
+[2026-02-26T00:12:03.808+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:12:03.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:12:03.811+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:12:03.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:12:04.279+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:12:04.291+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:12:04.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:12:04.297+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:12:04.296+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:12:04.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.501 seconds
+[2026-02-26T00:12:34.613+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:12:34.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:12:34.620+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:12:34.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:12:35.100+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:12:35.113+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:12:35.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:12:35.119+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:12:35.119+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:12:35.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.524 seconds
+[2026-02-26T00:13:05.515+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:13:05.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:13:05.519+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:13:05.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:13:05.977+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:13:05.991+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:13:05.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:13:05.997+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:13:05.997+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:13:06.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.500 seconds
+[2026-02-26T00:13:36.381+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:13:36.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:13:36.388+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:13:36.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:13:36.861+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:13:36.871+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:13:36.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:13:36.877+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:13:36.877+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:13:36.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.510 seconds
+[2026-02-26T00:14:07.295+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:14:07.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:14:07.303+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:14:07.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:14:07.752+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:14:07.765+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:14:07.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:14:07.771+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:14:07.771+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:14:07.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.499 seconds
+[2026-02-26T00:14:38.824+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:14:38.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/osm_table_generator_dag.py for tasks to queue
+[2026-02-26T00:14:38.833+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:14:38.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:14:39.520+0000] {processor.py:925} INFO - DAG(s) 'osm_table_generator' retrieved from /opt/airflow/dags/osm_table_generator_dag.py
+[2026-02-26T00:14:39.535+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:14:39.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-02-26T00:14:39.552+0000] {logging_mixin.py:190} INFO - [2026-02-26T00:14:39.551+0000] {dag.py:4180} INFO - Setting next_dagrun for osm_table_generator to None, run_after=None
+[2026-02-26T00:14:39.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/osm_table_generator_dag.py took 0.753 seconds

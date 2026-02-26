@@ -1,0 +1,24 @@
+[2026-02-25T23:53:47.445+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-02-25T23:53:47.456+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: osm_table_generator.process_bakeries manual__2026-02-25T21:34:00.064833+00:00 [queued]>
+[2026-02-25T23:53:47.460+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: osm_table_generator.process_bakeries manual__2026-02-25T21:34:00.064833+00:00 [queued]>
+[2026-02-25T23:53:47.460+0000] {taskinstance.py:2865} INFO - Starting attempt 11 of 13
+[2026-02-25T23:53:47.467+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_bakeries> on 2026-02-25 21:34:00.064833+00:00
+[2026-02-25T23:53:47.472+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=280) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-25T23:53:47.473+0000] {standard_task_runner.py:72} INFO - Started process 282 to run task
+[2026-02-25T23:53:47.474+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'osm_table_generator', 'process_bakeries', 'manual__2026-02-25T21:34:00.064833+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/osm_table_generator_dag.py', '--cfg-path', '/tmp/tmp2mku0ck0']
+[2026-02-25T23:53:47.476+0000] {standard_task_runner.py:105} INFO - Job 56: Subtask process_bakeries
+[2026-02-25T23:53:47.503+0000] {task_command.py:467} INFO - Running <TaskInstance: osm_table_generator.process_bakeries manual__2026-02-25T21:34:00.064833+00:00 [running]> on host 907a1a6bce13
+[2026-02-25T23:53:47.540+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='osm_table_generator' AIRFLOW_CTX_TASK_ID='process_bakeries' AIRFLOW_CTX_EXECUTION_DATE='2026-02-25T21:34:00.064833+00:00' AIRFLOW_CTX_TRY_NUMBER='11' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-25T21:34:00.064833+00:00'
+[2026-02-25T23:53:47.541+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-02-25T23:53:47.636+0000] {base.py:84} INFO - Retrieving connection 'neon_test'
+[2026-02-25T23:53:51.428+0000] {osm_table_generator_dag.py:334} INFO - Processing table: bakeries
+[2026-02-25T23:53:51.430+0000] {osm_table_generator_dag.py:97} INFO - OSMnx fetching bakeries with filter: {'shop': ['bakery', 'pastry']}
+[2026-02-25T23:53:51.546+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/osmnx/_overpass.py:271: UserWarning: This area is 6,190 times your configured Overpass max query area size. It will automatically be divided up into multiple sub-queries accordingly. This may take a long time.
+  multi_poly_proj = utils_geo._consolidate_subdivide_geometry(poly_proj)
+
+[2026-02-26T00:02:13.235+0000] {local_task_job_runner.py:127} ERROR - Received SIGTERM. Terminating subprocesses
+[2026-02-26T00:02:13.629+0000] {process_utils.py:132} INFO - Sending 15 to group 282. PIDs of all processes in the group: [282]
+[2026-02-26T00:02:13.723+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 282
+[2026-02-26T00:02:13.811+0000] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
