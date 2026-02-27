@@ -113,7 +113,7 @@ def process_single_table_task(table_config):
         logging.info(f"--- Starting Table: {t_name} ---")
         raw = fetch_osm_data_area(tags)
         clean = process_and_enrich(raw, lor_json)
-        logging.info(f"📊 {len(clean)} records ready for {t_name}")
+        logging.info(f" {len(clean)} records ready for {t_name}")
 
         # 4. Prepare Table
         with conn.cursor() as cur:
@@ -152,7 +152,7 @@ def process_single_table_task(table_config):
             cursor.execute(insert_query, [val_map.get(name) for name in col_names])
         
         conn.commit()
-        logging.info(f"🚀 Success: {t_name} populated.")
+        logging.info(f" Success: {t_name} populated.")
         
         # Mandatory cool-down to protect API
         time.sleep(30)
