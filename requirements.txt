@@ -1,6 +1,16 @@
+# OSM Data & Geometry
 osmnx>=1.9.0
-pandas
-geopandas
-shapely
-pyarrow
-psycopg2-binary
+geopandas>=0.14.0
+shapely>=2.0.0
+
+# Data Processing
+pandas>=2.1.0
+numpy<2.0.0  # Prevents compatibility issues with some GEOS versions
+
+# Database
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Airflow
+apache-airflow-providers-postgres
+pendulum
