@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Airflow local files
+logs/
+airflow.cfg
+airflow-webserver.pid
+webserver_config.py
+airflow.db*
+
+# Docker local data
+*.log
+
+# Local testing script - do not push
+osm_table_generator_dag_pool.py
+core_osm_table_generator_dag.py
+osmnx_cache/
