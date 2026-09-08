@@ -82,51 +82,77 @@ The complete Airflow environment is containerized using Docker, providing reprod
 
 ---
 
-## Repository Structure
+##  Core Technical Idea
 
-```text
-berlin-poi-osm-pipeline/
-├── README.md
-├── .gitignore
-├── LICENSE
-│
-├── airflow/
-│   ├── dags/
-│   │   └── core_osm_table_generator_dag.py
-│   ├── .env.example
-│   ├── docker-compose.yml
-│   ├── Dockerfile
-│   └── requirements.txt
-│
-├── config/
-│   ├── core_columns.json
-│   ├── lor_ortsteile.geojson
-│   └── osm_tables.json
-│
-├── data_reference/
-│   └── wikidata_stars_candidates.csv
-│
-├── docs/
-│   ├── 01_project_overview.md
-│   ├── 02_initial_layer_analysis.md
-│   ├── 03_data_model_and_column_strategy.md
-│   ├── 04_pipeline_architecture.md
-│   ├── 05_airflow_and_docker_setup.md
-│   ├── 06_execution_strategy_experiment.md
-│   ├── 07_final_design_decisions.md
-│   │
-│   ├── images/
-│   │   ├── airflow_dag_graph.png
-│   │   ├── airflow_mapped_tasks_batch.png
-│   │   └── airflow_mapped_tasks_parallel.png
-│   │
-│   └── archive/
-│       ├── dag_experiment/
-│       │   ├── core_osm_table_generator_dag_experiment.py
-│       │   └── README.md
-│       ├── experiment_results/
-│       │   └── osm_experiment_results.csv
-│       └── dag_experiment_vs_final.diff
-│
-└── notebooks/
-    └── osm_layer_exploration_hotels.ipynb
+**Separate pipeline logic from layer configuration**  
+The DAG remains stable, while behavior is defined externally through JSON configuration files.
+
+* **`core_columns.json`**: Defines the shared schema across all POI tables.
+* **`osm_tables.json`**: Defines per-layer attributes:
+  * Table name
+  * OSM extraction tags
+  * Layer-specific attributes
+
+> This decoupling allows new layers to be added seamlessly **without modifying any pipeline logic**.
+
+---
+
+##  Pipeline Overview
+
+1. **Airflow triggers the DAG**
+2. **Configuration files are loaded**
+3. **Pipeline iterates through configured layers**
+4. **OSM data is fetched** per layer
+5. **Shared transformations are applied**
+6. **Layer-specific attributes are appended**
+7. **Tables are fully refreshed** in PostgreSQL/PostGIS
+8. **Ingestion metadata is recorded**
+
+---
+
+##  Local Execution
+
+The pipeline runs locally via Docker:
+
+1. **Configure environment variables**
+2. **Start Docker services**
+3. **Access Airflow UI**
+4. **Trigger the DAG**
+5. **Monitor execution**
+
+---
+
+##  Design Principles
+
+* **Configuration over hardcoding**
+* **Consistency with flexibility**
+* **Simplicity over unnecessary complexity**
+* **Reproducibility via containerization**
+* **Controlled execution over maximum concurrency**
+
+---
+
+##  Outcome
+
+This project delivers a **scalable, production-style ingestion pipeline** for geospatial POI data.
+
+It demonstrates:
+* Airflow-based orchestration
+* Config-driven pipeline design
+* Geospatial data processing
+* Execution strategy evaluation
+* Real-world engineering trade-offs
+
+---
+
+##  Author
+
+Developed as part of a **Data Engineering Internship** focused on geospatial data pipelines and location-intelligence systems.
+
+---
+
+##  License
+
+Distributed under the [MIT License](LICENSE).
+---
+
